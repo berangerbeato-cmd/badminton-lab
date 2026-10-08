@@ -1,0 +1,165 @@
+{
+  "model": "bwf_elo_ms_platt_v1",
+  "generated_at_utc": "2026-10-08T21:48:11.914431+00:00",
+  "baseline_model": "bwf_elo_ms_v0",
+  "k": 48,
+  "fit_year": 2024,
+  "holdout_year": 2025,
+  "method": "regularized Platt calibration of Elo logit using 2024 only",
+  "platt_slope": 1.04257796,
+  "platt_intercept": -0.06156254,
+  "ridge_strength": 5.0,
+  "validation_2024": {
+    "n": 1741,
+    "accuracy": 0.65537,
+    "calibrated_brier": 0.209386,
+    "raw_brier": 0.209575,
+    "calibrated_log_loss": 0.603697,
+    "raw_log_loss": 0.604207,
+    "calibration_bins": [
+      {
+        "range": "0-10%",
+        "n": 17,
+        "predicted_mean": 0.0661,
+        "actual_win_rate": 0.1176
+      },
+      {
+        "range": "10-20%",
+        "n": 111,
+        "predicted_mean": 0.1514,
+        "actual_win_rate": 0.1171
+      },
+      {
+        "range": "20-30%",
+        "n": 166,
+        "predicted_mean": 0.255,
+        "actual_win_rate": 0.247
+      },
+      {
+        "range": "30-40%",
+        "n": 282,
+        "predicted_mean": 0.3532,
+        "actual_win_rate": 0.3546
+      },
+      {
+        "range": "40-50%",
+        "n": 336,
+        "predicted_mean": 0.4548,
+        "actual_win_rate": 0.4851
+      },
+      {
+        "range": "50-60%",
+        "n": 309,
+        "predicted_mean": 0.5459,
+        "actual_win_rate": 0.534
+      },
+      {
+        "range": "60-70%",
+        "n": 229,
+        "predicted_mean": 0.6512,
+        "actual_win_rate": 0.6157
+      },
+      {
+        "range": "70-80%",
+        "n": 140,
+        "predicted_mean": 0.7417,
+        "actual_win_rate": 0.7714
+      },
+      {
+        "range": "80-90%",
+        "n": 96,
+        "predicted_mean": 0.8477,
+        "actual_win_rate": 0.8542
+      },
+      {
+        "range": "90-100%",
+        "n": 55,
+        "predicted_mean": 0.9384,
+        "actual_win_rate": 0.9455
+      }
+    ]
+  },
+  "holdout_2025": {
+    "n": 1733,
+    "accuracy": 0.666474,
+    "calibrated_brier": 0.209677,
+    "raw_brier": 0.209916,
+    "calibrated_log_loss": 0.606013,
+    "raw_log_loss": 0.606457,
+    "calibration_bins": [
+      {
+        "range": "0-10%",
+        "n": 29,
+        "predicted_mean": 0.0702,
+        "actual_win_rate": 0.1034
+      },
+      {
+        "range": "10-20%",
+        "n": 119,
+        "predicted_mean": 0.1532,
+        "actual_win_rate": 0.1681
+      },
+      {
+        "range": "20-30%",
+        "n": 201,
+        "predicted_mean": 0.2511,
+        "actual_win_rate": 0.2687
+      },
+      {
+        "range": "30-40%",
+        "n": 252,
+        "predicted_mean": 0.3499,
+        "actual_win_rate": 0.3135
+      },
+      {
+        "range": "40-50%",
+        "n": 316,
+        "predicted_mean": 0.4534,
+        "actual_win_rate": 0.462
+      },
+      {
+        "range": "50-60%",
+        "n": 297,
+        "predicted_mean": 0.5475,
+        "actual_win_rate": 0.5589
+      },
+      {
+        "range": "60-70%",
+        "n": 222,
+        "predicted_mean": 0.6494,
+        "actual_win_rate": 0.6081
+      },
+      {
+        "range": "70-80%",
+        "n": 166,
+        "predicted_mean": 0.7452,
+        "actual_win_rate": 0.7651
+      },
+      {
+        "range": "80-90%",
+        "n": 92,
+        "predicted_mean": 0.8478,
+        "actual_win_rate": 0.837
+      },
+      {
+        "range": "90-100%",
+        "n": 39,
+        "predicted_mean": 0.9315,
+        "actual_win_rate": 0.8974
+      }
+    ]
+  },
+  "upcoming_count": 4,
+  "snapshot_policy": "Rosters and start times from BWF cache; do not infer T0 for completed or already-started matches. Ratings exclude ALL same-UTC-day results.",
+  "cold_start_policy": "Flag players without earlier completed matches; never treat unknown as 0 strength.",
+  "trading_policy": "NO BET until a separately timestamped operator quote is verified before match, and stronger model-vs-market validation performed.",
+  "data_quality": {
+    "not_MS": 32435,
+    "score_not_completed": 112,
+    "no_full_score": 218,
+    "no_winner": 14,
+    "missing_player_ids": 4,
+    "archives_read": 247,
+    "clean_MS_matches": 10327
+  }
+}
