@@ -1,0 +1,129 @@
+name: BWF historic 2018-2025 one-shot
+
+on:
+  push:
+    paths:
+      - '.github/workflows/bwf_history_one_shot.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bwf-results-sync
+  cancel-in-progress: false
+
+jobs:
+  historic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout historical repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify sync engine
+        run: python bwf_sync.py --self-test
+
+      - name: Import missing years and commit each year
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+          for YEAR in 2018 2019 2020 2021 2022 2023 2024 2025; do
+            echo "::group::BWF year $YEAR"
+            YEAR="$YEAR" python - <<'PY'
+          import gzip
+          import json
+          import os
+          from datetime import date, datetime, timezone
+          from pathlib import Path
+          from bwf_sync import sync, read_json, atomic_write_json
+
+          year = int(os.environ['YEAR'])
+          root = Path('data/bwf')
+          progress_path = root / 'backfill_progress.json'
+          progress = read_json(progress_path) or {'scope': 'BWF elite 2018-2025', 'years': {}}
+          progress.setdefault('years', {})
+          old = progress['years'].get(str(year), {})
+          if old.get('status') == 'COMPLETE':
+              print(f'Year {year} already COMPLETE; no API requests', flush=True)
+          else:
+              attempt = old.get('attempts', 0) + 1
+              try:
+                  stats = sync(date(year, 1, 1), date(year, 12, 31), root,
+                               max_tournaments=130, timeout=30, delay=2.0)
+              except Exception as exc:
+                  print(f'Year {year} sync error: {type(exc).__name__}: {exc}', flush=True)
+                  stats = {'indexed': 0, 'elite_checked': 0, 'tournaments_saved': 0,
+                           'unique_match_ids': 0, 'new_completed_matches': 0,
+                           'errors': [{'error': f'{type(exc).__name__}: {exc}'}]}
+              complete = (stats['elite_checked'] > 0
+                          and stats['tournaments_saved'] == stats['elite_checked']
+                          and not stats['errors'])
+              progress['years'][str(year)] = {
+                  'status': 'COMPLETE' if complete else 'RETRY_PENDING',
+                  'attempts': attempt,
+                  'last_run_utc': datetime.now(timezone.utc).isoformat(),
+                  'tournaments_indexed': stats['indexed'],
+                  'elite_tournaments_found': stats['elite_checked'],
+                  'tournament_archives_written': stats['tournaments_saved'],
+                  'match_ids_in_fetched_archives': stats['unique_match_ids'],
+                  'new_completed_matches_this_run': stats['new_completed_matches'],
+                  'errors': stats['errors'],
+              }
+              atomic_write_json(progress_path, progress)
+              print(f'YEAR {year}: {json.dumps(progress["years"][str(year)], ensure_ascii=False)}', flush=True)
+
+              # Ensure readable, deterministic archives (no commits from gzip timestamps).
+              for archive in sorted((root / 'matches').glob('*.json.gz')):
+                  with gzip.open(archive, 'rt', encoding='utf-8') as fh:
+                      obj = json.load(fh)
+                  if not isinstance(obj, dict):
+                      raise ValueError(f'Invalid archive: {archive}')
+                  data = json.dumps(obj, sort_keys=True, ensure_ascii=False,
+                                    separators=(',', ':')).encode('utf-8')
+                  encoded = gzip.compress(data, mtime=0)
+                  if archive.read_bytes() != encoded:
+                      archive.write_bytes(encoded)
+          PY
+            git add -A -- data/bwf
+            if git diff --cached --quiet; then
+              echo "Year $YEAR: no changed files"
+            else
+              git commit -m "Backfill BWF year $YEAR"
+              git pull --rebase origin main
+              git push origin HEAD:main
+              echo "Year $YEAR: saved in main"
+            fi
+            echo "::endgroup::"
+          done
+
+      - name: Verify all historical years imported
+        run: |
+          python - <<'PY'
+          import json, os, sys
+          from pathlib import Path
+          file = Path('data/bwf/backfill_progress.json')
+          p = json.loads(file.read_text(encoding='utf-8'))
+          years = p.get('years', {})
+          failed = {str(y): years.get(str(y), {}).get('status', 'MISSING')
+                    for y in range(2018, 2026)
+                    if years.get(str(y), {}).get('status') != 'COMPLETE'}
+          n = sum(int(years[str(y)].get('match_ids_in_fetched_archives', 0))
+                  for y in range(2018, 2026) if str(y) in years)
+          summary = (f'### BWF historical backfill 2018–2025\n'
+                     f'- Total match IDs in yearly archives: {n}\n'
+                     f'- Years not COMPLETE: {failed or "none"}\n')
+          print(summary)
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as out:
+              out.write(summary)
+          if failed:
+              sys.exit('Incomplete years: rerun this workflow; completed years are skipped')
+          PY
