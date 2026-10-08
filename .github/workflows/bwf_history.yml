@@ -1,0 +1,147 @@
+name: BWF historical backfill 2018-2025
+
+on:
+  push:
+    paths:
+      - '.github/workflows/bwf_history.yml'
+  workflow_dispatch:
+    inputs:
+      year:
+        description: 'Year to import (auto selects the oldest remaining)'
+        required: false
+        default: auto
+        type: choice
+        options:
+          - auto
+          - '2018'
+          - '2019'
+          - '2020'
+          - '2021'
+          - '2022'
+          - '2023'
+          - '2024'
+          - '2025'
+  schedule:
+    - cron: '41 7 * * *' # One year per day, 07:41 UTC
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bwf-results-sync
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify existing importer
+        run: python bwf_sync.py --self-test
+      - name: Download one historical year safely
+        env:
+          REQUESTED_YEAR: ${{ inputs.year || 'auto' }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from datetime import date, datetime, timezone
+          from pathlib import Path
+          from bwf_sync import sync, read_json, atomic_write_json
+
+          YEARS = range(2018, 2026)
+          out = Path('data/bwf/backfill_progress.json')
+          progress = read_json(out) or {'scope': 'BWF elite singles and doubles, 2018-2025', 'years': {}}
+          progress.setdefault('years', {})
+          requested = os.environ.get('REQUESTED_YEAR', 'auto')
+          if requested == 'auto':
+              pending = [y for y in YEARS if progress['years'].get(str(y), {}).get('status')
+                         not in ('COMPLETE', 'PARTIAL_NEEDS_REVIEW')]
+              if not pending:
+                  print('Historical backfill already covered 2018-2025. No BWF requests needed.')
+                  with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+                      f.write('### Historical BWF backfill\nAll 2018-2025 years processed. Review PARTIAL_NEEDS_REVIEW entries.\n')
+                  raise SystemExit(0)
+              year = pending[0]
+          else:
+              year = int(requested)
+              if year not in YEARS:
+                  raise ValueError('Unsupported historical year')
+
+          previous = progress['years'].get(str(year), {})
+          attempt = previous.get('attempts', 0) + 1
+          print(f'Fetching historical year {year}, attempt {attempt}', flush=True)
+          # Rate limited, tournament and pagination caps enforced by existing bwf_sync.py.
+          # Existing 2026 archive and previously completed match IDs are preserved.
+          stats = sync(date(year, 1, 1), date(year, 12, 31), Path('data/bwf'),
+                       max_tournaments=130, timeout=30, delay=2.0)
+          complete = (stats['elite_checked'] > 0
+                      and stats['tournaments_saved'] == stats['elite_checked']
+                      and not stats['errors'])
+          if complete:
+              status = 'COMPLETE'
+          elif attempt >= 2:
+              status = 'PARTIAL_NEEDS_REVIEW'
+          else:
+              status = 'RETRY_PENDING'
+          record = {
+              'status': status,
+              'attempts': attempt,
+              'last_run_utc': datetime.now(timezone.utc).isoformat(),
+              'tournaments_indexed': stats['indexed'],
+              'elite_tournaments_found': stats['elite_checked'],
+              'tournament_archives_written': stats['tournaments_saved'],
+              'match_ids_in_fetched_archives': stats['unique_match_ids'],
+              'new_completed_matches_this_run': stats['new_completed_matches'],
+              'errors': stats['errors'],
+          }
+          progress['years'][str(year)] = record
+          atomic_write_json(out, progress)
+          print(f'YEAR {year}: {json.dumps(record, ensure_ascii=False)}', flush=True)
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+              f.write(f'### BWF historical archive: {year}\n'
+                      f'- Status: **{status}**\n'
+                      f'- Elite tournaments with match data: '
+                      f"{stats['tournaments_saved']} / {stats['elite_checked']}\n"
+                      f"- Match IDs in those tournaments: {stats['unique_match_ids']}\n"
+                      f"- API errors: {len(stats['errors'])}\n"
+                      f'- No historical predictions or odds have been reconstructed.\n')
+          PY
+      - name: Validate retained JSON archives
+        run: |
+          python - <<'PY'
+          import gzip, json
+          from pathlib import Path
+          root = Path('data/bwf')
+          index = json.loads((root / 'index.json').read_text(encoding='utf-8'))
+          assert isinstance(index, list) and index, 'Tournament index is empty'
+          files = sorted((root / 'matches').glob('*.json.gz'))
+          assert files, 'No match archives'
+          for path in files:
+              with gzip.open(path, 'rt', encoding='utf-8') as f:
+                  data = json.load(f)
+              assert isinstance(data, dict), f'Invalid archive {path}'
+              payload = json.dumps(data, sort_keys=True, separators=(',', ':'),
+                                   ensure_ascii=False).encode('utf-8')
+              stable = gzip.compress(payload, mtime=0)
+              if stable != path.read_bytes():
+                  path.write_bytes(stable)
+          print(f'Validated {len(index)} tournament metadata records and {len(files)} match archives.')
+          PY
+      - name: Commit progress and match archives
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/bwf
+          if git diff --cached --quiet; then
+            echo 'No new archive changes.'
+          else
+            git commit -m "Historical BWF backfill $(date -u +%F)"
+            git push origin HEAD:main
+          fi
