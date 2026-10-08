@@ -1,0 +1,157 @@
+name: BWF 2026 Jan-Sep gap fill and Elo refresh
+
+on:
+  push:
+    paths:
+      - '.github/workflows/bwf_complete_2026.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bwf-results-sync
+  cancel-in-progress: false
+
+jobs:
+  fill_2026:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout saved BWF history
+        uses: actions/checkout@v4
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Test existing incremental BWF importer
+        run: python bwf_sync.py --self-test
+
+      - name: Import missing BWF tournaments from Jan to Sep 2026 and audit
+        shell: bash
+        run: |
+          python - <<'PY'
+          import gzip
+          import json
+          from collections import Counter
+          from datetime import date, datetime, timezone
+          from pathlib import Path
+          from bwf_sync import is_elite, read_json, sync
+          from elo_model import load_matches
+
+          root = Path('data/bwf')
+          before, _ = load_matches(root)
+          old_count = sum('2026-01-01' <= m.date <= '2026-09-30' for m in before)
+
+          stats = sync(date(2026, 1, 1), date(2026, 9, 30), root,
+                       max_tournaments=130, timeout=30, delay=2.0)
+
+          # Match archives are made deterministic, as in the daily collector.
+          for path in sorted((root / 'matches').glob('*.json.gz')):
+              with gzip.open(path, 'rt', encoding='utf-8') as f:
+                  payload = json.load(f)
+              if not isinstance(payload, dict):
+                  raise ValueError(f'Invalid JSON archive: {path}')
+              raw = json.dumps(payload, sort_keys=True, ensure_ascii=False,
+                               separators=(',', ':')).encode('utf-8')
+              stable = gzip.compress(raw, mtime=0)
+              if path.read_bytes() != stable:
+                  path.write_bytes(stable)
+
+          games, quality = load_matches(root)
+          recent = [m for m in games if '2026-01-01' <= m.date <= '2026-09-30']
+          by_month = dict(sorted(Counter(m.date[:7] for m in recent).items()))
+          idx = read_json(root / 'index.json') or []
+          eligible = [t for t in idx if isinstance(t, dict)
+                      and '2026-01-01' <= str(t.get('start_date', ''))[:10] <= '2026-09-30'
+                      and is_elite(t)]
+          uncached = [{'id': t['id'], 'name': t.get('name'),
+                       'scheduled': str(t.get('start_date',''))[:10]}
+                      for t in eligible if not (root / 'matches' / f"{t['id']}.json.gz").exists()]
+          report = {
+              'scope': 'BWF elite tournament archive, 2026-01-01 through 2026-09-30',
+              'retrieved_at_utc': datetime.now(timezone.utc).isoformat(),
+              'previous_ms_jan_sep': old_count,
+              'ms_jan_sep_after': len(recent),
+              'ms_match_counts_by_month': by_month,
+              'ms_whole_2026_after': sum(m.date.startswith('2026-') for m in games),
+              'elite_tournaments_indexed_jan_sep': len(eligible),
+              'unarchived_tournaments_to_review': uncached,
+              'sync_stats': stats,
+              'model_quality_counts': quality,
+              'notes': ['All results are historical; they must not be represented as predictions made before those matches.',
+                        'Zero-match tournaments may be cancelled/postponed: review unarchived list rather than inventing results.',
+                        'Only elite events selected by bwf_sync.is_elite are imported, not all worldwide badminton matches.']
+          }
+          root.joinpath('backfill_2026_report.json').write_text(
+              json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print('2026 GAP AUDIT:', json.dumps({
+              'MS before': old_count, 'MS after': len(recent),
+              'month_counts': by_month, 'elite_tournaments': len(eligible),
+              'missing_tournament_archives': uncached, 'api_errors': stats['errors']
+          }, ensure_ascii=False), flush=True)
+          if len(recent) < 100:
+              raise ValueError('Suspiciously few historical MS games collected; review the report')
+          PY
+
+      - name: Save 2026 BWF archives to GitHub before model refresh
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/bwf
+          if git diff --cached --quiet; then
+            echo '2026 BWF archives unchanged.'
+          else
+            git commit -m 'Complete 2026 Jan-Sep BWF historical archive'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Rebuild complete Elo ratings and historical evaluation
+        run: |
+          python elo_model.py --self-test
+          python elo_model.py --data-dir data/bwf --output-dir data/model
+
+      - name: Recalibrate Elo and publish refreshed future-only feed
+        run: |
+          python elo_calibrate_daily.py --self-test
+          python elo_calibrate_daily.py --data-dir data/bwf --model-dir data/model --days 7
+
+      - name: Save refreshed Elo outputs
+        shell: bash
+        run: |
+          git add -A -- data/model
+          if git diff --cached --quiet; then
+            echo 'Elo outputs unchanged.'
+          else
+            git commit -m 'Rebuild Elo with completed 2026 history'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Publish audit summary
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          p = json.loads(Path('data/bwf/backfill_2026_report.json').read_text())
+          r = json.loads(Path('data/model/elo_report.json').read_text())
+          print(f"2026 Jan-Sep MS completed games: {p['ms_jan_sep_after']} (previously {p['previous_ms_jan_sep']})")
+          print('Monthly counts:', p['ms_match_counts_by_month'])
+          print('Unarchived tournaments:', p['unarchived_tournaments_to_review'])
+          print('BWF API errors:', p['sync_stats']['errors'])
+          print('Elo 2026 all:', r['match_counts_by_year'].get('2026'))
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+            f.write('### BWF 2026 history gap fill\n')
+            f.write(f"- MS January-September: {p['ms_jan_sep_after']} matches, previously {p['previous_ms_jan_sep']}\n")
+            f.write(f"- New/total 2026 MS matches: {r['match_counts_by_year'].get('2026')} total\n")
+            f.write(f"- Tournament archives requiring review: {len(p['unarchived_tournaments_to_review'])}\n")
+            f.write(f"- BWF API errors: {len(p['sync_stats']['errors'])}\n")
+            f.write('- No historic betting prices or T0 predictions have been invented.\n')
+          if p['sync_stats']['errors']:
+            raise SystemExit('Partial BWF API failures; saved available data, rerun workflow')
+          PY
