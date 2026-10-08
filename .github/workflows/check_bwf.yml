@@ -1,0 +1,23 @@
+name: Test BWF public endpoint
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-bwf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify offline tests
+        run: python bwf_sync.py --self-test
+      - name: Query BWF API
+        run: |
+          START=$(date -u -d '7 days ago' +'%Y-%m-%d')
+          END=$(date -u +'%Y-%m-%d')
+          python bwf_sync.py --start "$START" --end "$END" --max-tournaments 15 --timeout 12 --dry-run
