@@ -1,6 +1,6 @@
 {
   "model": "bwf_elo_ms_platt_v1",
-  "generated_at_utc": "2026-10-08T21:52:30.003283+00:00",
+  "generated_at_utc": "2026-10-08T22:08:28.927756+00:00",
   "baseline_model": "bwf_elo_ms_v0",
   "k": 48,
   "fit_year": 2024,
@@ -154,12 +154,12 @@
   "cold_start_policy": "Flag players without earlier completed matches; never treat unknown as 0 strength.",
   "trading_policy": "NO BET until a separately timestamped operator quote is verified before match, and stronger model-vs-market validation performed.",
   "data_quality": {
-    "not_MS": 32435,
-    "score_not_completed": 112,
-    "no_full_score": 218,
+    "not_MS": 36126,
+    "score_not_completed": 129,
+    "no_full_score": 232,
     "no_winner": 14,
     "missing_player_ids": 4,
-    "archives_read": 247,
-    "clean_MS_matches": 10327
+    "archives_read": 273,
+    "clean_MS_matches": 11393
   }
 }
