@@ -1,0 +1,77 @@
+name: BWF Elo V0 training and backtest
+
+on:
+  push:
+    paths:
+      - 'elo_model.py'
+      - '.github/workflows/elo_model.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '35 6 * * *'   # 08h35 France en été; 07h35 en hiver
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bwf-results-sync
+  cancel-in-progress: false
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout BWF data
+        uses: actions/checkout@v4
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run isolated tests
+        run: python elo_model.py --self-test
+
+      - name: Validate 2018-2025 historical availability
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          archives = list(Path('data/bwf/matches').glob('*.json.gz'))
+          assert len(archives) >= 200, f'Historical archive incomplete: {len(archives)} tournaments found'
+          print(f'{len(archives)} BWF tournament archives found')
+          PY
+
+      - name: Evaluate Elo on 2025 unseen test matches
+        run: python elo_model.py --data-dir data/bwf --output-dir data/model
+
+      - name: Publish Elo summary
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          r = json.loads(Path('data/model/elo_report.json').read_text(encoding='utf-8'))
+          val, test = r['validation_2024'], r['test_2025']
+          summary = ('### BWF Elo MS V0 (historical backtest, not a betting result)\n'
+                     f"- 2024 validation: {val['n']} matches; Brier {val['brier']}; accuracy {val['accuracy']:.1%}\n"
+                     f"- K selected exclusively on 2024: {r['chosen_k']}\n"
+                     f"- 2025 untouched holdout: {test['n']} matches; Brier {test['brier']}; "
+                     f"log loss {test['log_loss']}; accuracy {test['accuracy']:.1%}\n"
+                     f"- 50/50 baseline Brier: 0.250000\n"
+                     '- No pre-match bookmaker odds, no claimed ROI or CLV.\n')
+          print(summary)
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+              f.write(summary)
+          PY
+
+      - name: Save model and reports to GitHub
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/model
+          if git diff --cached --quiet; then
+            echo 'Elo outputs unchanged.'
+          else
+            git commit -m 'Refresh BWF Elo MS V0 backtest and ratings'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
