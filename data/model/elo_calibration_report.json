@@ -1,151 +1,151 @@
 {
   "model": "bwf_elo_ms_platt_v1",
-  "generated_at_utc": "2026-10-08T22:08:28.927756+00:00",
+  "generated_at_utc": "2026-10-08T22:27:49.207673+00:00",
   "baseline_model": "bwf_elo_ms_v0",
   "k": 48,
   "fit_year": 2024,
   "holdout_year": 2025,
   "method": "regularized Platt calibration of Elo logit using 2024 only",
-  "platt_slope": 1.04257796,
-  "platt_intercept": -0.06156254,
+  "platt_slope": 1.05498189,
+  "platt_intercept": -0.054048,
   "ridge_strength": 5.0,
   "validation_2024": {
-    "n": 1741,
-    "accuracy": 0.65537,
-    "calibrated_brier": 0.209386,
-    "raw_brier": 0.209575,
-    "calibrated_log_loss": 0.603697,
-    "raw_log_loss": 0.604207,
+    "n": 2023,
+    "accuracy": 0.656451,
+    "calibrated_brier": 0.209547,
+    "raw_brier": 0.209687,
+    "calibrated_log_loss": 0.603773,
+    "raw_log_loss": 0.604262,
     "calibration_bins": [
       {
         "range": "0-10%",
-        "n": 17,
-        "predicted_mean": 0.0661,
-        "actual_win_rate": 0.1176
+        "n": 26,
+        "predicted_mean": 0.067,
+        "actual_win_rate": 0.0385
       },
       {
         "range": "10-20%",
-        "n": 111,
-        "predicted_mean": 0.1514,
-        "actual_win_rate": 0.1171
+        "n": 123,
+        "predicted_mean": 0.1537,
+        "actual_win_rate": 0.1301
       },
       {
         "range": "20-30%",
-        "n": 166,
-        "predicted_mean": 0.255,
-        "actual_win_rate": 0.247
+        "n": 192,
+        "predicted_mean": 0.2543,
+        "actual_win_rate": 0.2344
       },
       {
         "range": "30-40%",
-        "n": 282,
-        "predicted_mean": 0.3532,
-        "actual_win_rate": 0.3546
+        "n": 307,
+        "predicted_mean": 0.3527,
+        "actual_win_rate": 0.3648
       },
       {
         "range": "40-50%",
-        "n": 336,
-        "predicted_mean": 0.4548,
-        "actual_win_rate": 0.4851
+        "n": 440,
+        "predicted_mean": 0.4562,
+        "actual_win_rate": 0.475
       },
       {
         "range": "50-60%",
-        "n": 309,
-        "predicted_mean": 0.5459,
-        "actual_win_rate": 0.534
+        "n": 343,
+        "predicted_mean": 0.5447,
+        "actual_win_rate": 0.5364
       },
       {
         "range": "60-70%",
-        "n": 229,
-        "predicted_mean": 0.6512,
-        "actual_win_rate": 0.6157
+        "n": 234,
+        "predicted_mean": 0.6464,
+        "actual_win_rate": 0.6368
       },
       {
         "range": "70-80%",
-        "n": 140,
-        "predicted_mean": 0.7417,
-        "actual_win_rate": 0.7714
+        "n": 187,
+        "predicted_mean": 0.7429,
+        "actual_win_rate": 0.7487
       },
       {
         "range": "80-90%",
-        "n": 96,
-        "predicted_mean": 0.8477,
-        "actual_win_rate": 0.8542
+        "n": 108,
+        "predicted_mean": 0.8495,
+        "actual_win_rate": 0.8426
       },
       {
         "range": "90-100%",
-        "n": 55,
-        "predicted_mean": 0.9384,
-        "actual_win_rate": 0.9455
+        "n": 63,
+        "predicted_mean": 0.9371,
+        "actual_win_rate": 0.9365
       }
     ]
   },
   "holdout_2025": {
-    "n": 1733,
-    "accuracy": 0.666474,
-    "calibrated_brier": 0.209677,
-    "raw_brier": 0.209916,
-    "calibrated_log_loss": 0.606013,
-    "raw_log_loss": 0.606457,
+    "n": 1976,
+    "accuracy": 0.66498,
+    "calibrated_brier": 0.208282,
+    "raw_brier": 0.208458,
+    "calibrated_log_loss": 0.602315,
+    "raw_log_loss": 0.602724,
     "calibration_bins": [
       {
         "range": "0-10%",
-        "n": 29,
-        "predicted_mean": 0.0702,
-        "actual_win_rate": 0.1034
+        "n": 39,
+        "predicted_mean": 0.0689,
+        "actual_win_rate": 0.0769
       },
       {
         "range": "10-20%",
-        "n": 119,
-        "predicted_mean": 0.1532,
-        "actual_win_rate": 0.1681
+        "n": 139,
+        "predicted_mean": 0.1568,
+        "actual_win_rate": 0.1871
       },
       {
         "range": "20-30%",
-        "n": 201,
-        "predicted_mean": 0.2511,
-        "actual_win_rate": 0.2687
+        "n": 216,
+        "predicted_mean": 0.2541,
+        "actual_win_rate": 0.2639
       },
       {
         "range": "30-40%",
-        "n": 252,
-        "predicted_mean": 0.3499,
-        "actual_win_rate": 0.3135
+        "n": 260,
+        "predicted_mean": 0.3519,
+        "actual_win_rate": 0.2846
       },
       {
         "range": "40-50%",
-        "n": 316,
-        "predicted_mean": 0.4534,
-        "actual_win_rate": 0.462
+        "n": 400,
+        "predicted_mean": 0.4529,
+        "actual_win_rate": 0.485
       },
       {
         "range": "50-60%",
-        "n": 297,
-        "predicted_mean": 0.5475,
-        "actual_win_rate": 0.5589
+        "n": 333,
+        "predicted_mean": 0.5486,
+        "actual_win_rate": 0.5526
       },
       {
         "range": "60-70%",
-        "n": 222,
-        "predicted_mean": 0.6494,
-        "actual_win_rate": 0.6081
+        "n": 256,
+        "predicted_mean": 0.6475,
+        "actual_win_rate": 0.6445
       },
       {
         "range": "70-80%",
-        "n": 166,
-        "predicted_mean": 0.7452,
-        "actual_win_rate": 0.7651
+        "n": 171,
+        "predicted_mean": 0.7473,
+        "actual_win_rate": 0.7485
       },
       {
         "range": "80-90%",
-        "n": 92,
-        "predicted_mean": 0.8478,
-        "actual_win_rate": 0.837
+        "n": 117,
+        "predicted_mean": 0.8477,
+        "actual_win_rate": 0.8205
       },
       {
         "range": "90-100%",
-        "n": 39,
-        "predicted_mean": 0.9315,
-        "actual_win_rate": 0.8974
+        "n": 45,
+        "predicted_mean": 0.9288,
+        "actual_win_rate": 0.9111
       }
     ]
   },
@@ -154,12 +154,12 @@
   "cold_start_policy": "Flag players without earlier completed matches; never treat unknown as 0 strength.",
   "trading_policy": "NO BET until a separately timestamped operator quote is verified before match, and stronger model-vs-market validation performed.",
   "data_quality": {
-    "not_MS": 36126,
-    "score_not_completed": 129,
-    "no_full_score": 232,
-    "no_winner": 14,
-    "missing_player_ids": 4,
-    "archives_read": 273,
-    "clean_MS_matches": 11393
+    "not_MS": 52177,
+    "no_full_score": 286,
+    "score_not_completed": 220,
+    "no_winner": 16,
+    "missing_player_ids": 5,
+    "archives_read": 406,
+    "clean_MS_matches": 13604
   }
 }

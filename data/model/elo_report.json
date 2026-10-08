@@ -5,13 +5,13 @@
   },
   "chosen_k": 48,
   "data_quality": {
-    "archives_read": 273,
-    "clean_MS_matches": 11393,
-    "missing_player_ids": 4,
-    "no_full_score": 232,
-    "no_winner": 14,
-    "not_MS": 36126,
-    "score_not_completed": 129
+    "archives_read": 406,
+    "clean_MS_matches": 13604,
+    "missing_player_ids": 5,
+    "no_full_score": 286,
+    "no_winner": 16,
+    "not_MS": 52177,
+    "score_not_completed": 220
   },
   "discipline": "MS",
   "elo_scale": 400.0,
@@ -20,15 +20,15 @@
   "k_selection": "min 2024 Brier, tiebreak 2024 log loss",
   "latest_rating_updates": "2026 archive included; not T0 predictions",
   "match_counts_by_year": {
-    "2018": 1668,
-    "2019": 1635,
-    "2020": 270,
-    "2021": 545,
-    "2022": 976,
-    "2023": 1731,
-    "2024": 1741,
-    "2025": 1733,
-    "2026": 1094
+    "2018": 1998,
+    "2019": 1924,
+    "2020": 372,
+    "2021": 641,
+    "2022": 1185,
+    "2023": 2057,
+    "2024": 2023,
+    "2025": 1976,
+    "2026": 1428
   },
   "model": "bwf_elo_ms_v0",
   "notes": [
@@ -40,182 +40,182 @@
   ],
   "source": "BWF match cache collected with bwf_sync.py",
   "test_2025": {
-    "accuracy": 0.667628,
-    "brier": 0.209916,
+    "accuracy": 0.668522,
+    "brier": 0.208458,
     "calibration": [
       {
-        "avg_p": 0.0749,
+        "avg_p": 0.0741,
         "bucket": "0-10%",
-        "n": 23,
-        "win_rate": 0.0435
+        "n": 30,
+        "win_rate": 0.0667
       },
       {
-        "avg_p": 0.1587,
+        "avg_p": 0.159,
         "bucket": "10-20%",
-        "n": 103,
-        "win_rate": 0.1845
+        "n": 111,
+        "win_rate": 0.1532
       },
       {
-        "avg_p": 0.2539,
+        "avg_p": 0.2521,
         "bucket": "20-30%",
-        "n": 180,
-        "win_rate": 0.2278
+        "n": 196,
+        "win_rate": 0.2551
       },
       {
-        "avg_p": 0.3525,
+        "avg_p": 0.3516,
         "bucket": "30-40%",
-        "n": 253,
-        "win_rate": 0.3123
+        "n": 269,
+        "win_rate": 0.2751
       },
       {
-        "avg_p": 0.4524,
+        "avg_p": 0.4514,
         "bucket": "40-50%",
-        "n": 288,
-        "win_rate": 0.4375
+        "n": 363,
+        "win_rate": 0.4545
       },
       {
-        "avg_p": 0.5467,
+        "avg_p": 0.5458,
         "bucket": "50-60%",
-        "n": 347,
-        "win_rate": 0.5447
+        "n": 403,
+        "win_rate": 0.5409
       },
       {
-        "avg_p": 0.6508,
+        "avg_p": 0.6483,
         "bucket": "60-70%",
-        "n": 233,
-        "win_rate": 0.6094
+        "n": 266,
+        "win_rate": 0.6504
       },
       {
-        "avg_p": 0.7458,
+        "avg_p": 0.7471,
         "bucket": "70-80%",
-        "n": 175,
-        "win_rate": 0.76
+        "n": 183,
+        "win_rate": 0.7377
       },
       {
-        "avg_p": 0.8481,
+        "avg_p": 0.8484,
         "bucket": "80-90%",
-        "n": 95,
-        "win_rate": 0.8421
+        "n": 116,
+        "win_rate": 0.8448
       },
       {
-        "avg_p": 0.9311,
+        "avg_p": 0.9274,
         "bucket": "90-100%",
-        "n": 36,
-        "win_rate": 0.8889
+        "n": 39,
+        "win_rate": 0.9231
       }
     ],
-    "cold_start_games": 96,
-    "log_loss": 0.606457,
-    "n": 1733
+    "cold_start_games": 154,
+    "log_loss": 0.602724,
+    "n": 1976
   },
   "training_years": "2018-2023",
   "trial_validation": [
     {
-      "brier": 0.21987,
+      "brier": 0.220166,
       "k": 12,
-      "log_loss": 0.62931,
-      "n": 1741
+      "log_loss": 0.629973,
+      "n": 2023
     },
     {
-      "brier": 0.214937,
+      "brier": 0.21508,
       "k": 20,
-      "log_loss": 0.617676,
-      "n": 1741
+      "log_loss": 0.618058,
+      "n": 2023
     },
     {
-      "brier": 0.212207,
+      "brier": 0.212277,
       "k": 28,
-      "log_loss": 0.61103,
-      "n": 1741
+      "log_loss": 0.611211,
+      "n": 2023
     },
     {
-      "brier": 0.210631,
+      "brier": 0.210694,
       "k": 36,
-      "log_loss": 0.607057,
-      "n": 1741
+      "log_loss": 0.607142,
+      "n": 2023
     },
     {
-      "brier": 0.209575,
+      "brier": 0.209687,
       "k": 48,
-      "log_loss": 0.604207,
-      "n": 1741
+      "log_loss": 0.604262,
+      "n": 2023
     },
     {
-      "brier": 0.209646,
+      "brier": 0.209841,
       "k": 64,
-      "log_loss": 0.604109,
-      "n": 1741
+      "log_loss": 0.604197,
+      "n": 2023
     }
   ],
   "utc_date_grouping": true,
   "validation_2024": {
-    "accuracy": 0.650775,
-    "brier": 0.209575,
+    "accuracy": 0.64953,
+    "brier": 0.209687,
     "calibration": [
       {
-        "avg_p": 0.0704,
+        "avg_p": 0.0711,
         "bucket": "0-10%",
-        "n": 14,
-        "win_rate": 0.0714
+        "n": 20,
+        "win_rate": 0.05
       },
       {
-        "avg_p": 0.1557,
+        "avg_p": 0.1582,
         "bucket": "10-20%",
-        "n": 90,
-        "win_rate": 0.1333
+        "n": 101,
+        "win_rate": 0.1287
       },
       {
-        "avg_p": 0.2557,
+        "avg_p": 0.2538,
         "bucket": "20-30%",
-        "n": 152,
-        "win_rate": 0.2368
+        "n": 169,
+        "win_rate": 0.2012
       },
       {
-        "avg_p": 0.3567,
+        "avg_p": 0.3539,
         "bucket": "30-40%",
-        "n": 269,
-        "win_rate": 0.3271
+        "n": 298,
+        "win_rate": 0.3356
       },
       {
-        "avg_p": 0.4533,
+        "avg_p": 0.4528,
         "bucket": "40-50%",
-        "n": 315,
-        "win_rate": 0.4762
+        "n": 394,
+        "win_rate": 0.4797
       },
       {
-        "avg_p": 0.5447,
+        "avg_p": 0.5414,
         "bucket": "50-60%",
-        "n": 356,
-        "win_rate": 0.514
+        "n": 438,
+        "win_rate": 0.5137
       },
       {
-        "avg_p": 0.6497,
+        "avg_p": 0.6477,
         "bucket": "60-70%",
-        "n": 236,
-        "win_rate": 0.6059
+        "n": 240,
+        "win_rate": 0.6333
       },
       {
-        "avg_p": 0.74,
+        "avg_p": 0.7423,
         "bucket": "70-80%",
-        "n": 158,
-        "win_rate": 0.7595
+        "n": 196,
+        "win_rate": 0.7398
       },
       {
-        "avg_p": 0.8485,
+        "avg_p": 0.8508,
         "bucket": "80-90%",
-        "n": 100,
-        "win_rate": 0.86
+        "n": 114,
+        "win_rate": 0.8596
       },
       {
-        "avg_p": 0.9385,
+        "avg_p": 0.9387,
         "bucket": "90-100%",
-        "n": 51,
-        "win_rate": 0.9412
+        "n": 53,
+        "win_rate": 0.9245
       }
     ],
-    "cold_start_games": 104,
-    "log_loss": 0.604207,
-    "n": 1741
+    "cold_start_games": 186,
+    "log_loss": 0.604262,
+    "n": 2023
   },
   "validation_year": 2024
 }
