@@ -1,0 +1,221 @@
+{
+  "baselines": {
+    "constant_0_5_brier": 0.25,
+    "constant_0_5_log_loss": 0.693147
+  },
+  "chosen_k": 48,
+  "data_quality": {
+    "archives_read": 247,
+    "clean_MS_matches": 10327,
+    "missing_player_ids": 4,
+    "no_full_score": 218,
+    "no_winner": 14,
+    "not_MS": 32435,
+    "score_not_completed": 112
+  },
+  "discipline": "MS",
+  "elo_scale": 400.0,
+  "holdout_test_year": 2025,
+  "initial_elo": 1500.0,
+  "k_selection": "min 2024 Brier, tiebreak 2024 log loss",
+  "latest_rating_updates": "2026 archive included; not T0 predictions",
+  "match_counts_by_year": {
+    "2018": 1668,
+    "2019": 1635,
+    "2020": 270,
+    "2021": 545,
+    "2022": 976,
+    "2023": 1731,
+    "2024": 1741,
+    "2025": 1733,
+    "2026": 28
+  },
+  "model": "bwf_elo_ms_v0",
+  "notes": [
+    "Test 2025 is untouched by hyperparameter selection; outcomes are used only after forecasts.",
+    "All matches on same UTC date are predicted from prior-date state; match order never leaks same-date outcomes.",
+    "No bookmaker odds, ROI or true live 2026 T0 predictions are part of this backtest.",
+    "Match source has no independent proof of completeness; cancellations omitted.",
+    "This baseline is not yet probability-calibrated."
+  ],
+  "source": "BWF match cache collected with bwf_sync.py",
+  "test_2025": {
+    "accuracy": 0.667628,
+    "brier": 0.209916,
+    "calibration": [
+      {
+        "avg_p": 0.0749,
+        "bucket": "0-10%",
+        "n": 23,
+        "win_rate": 0.0435
+      },
+      {
+        "avg_p": 0.1587,
+        "bucket": "10-20%",
+        "n": 103,
+        "win_rate": 0.1845
+      },
+      {
+        "avg_p": 0.2539,
+        "bucket": "20-30%",
+        "n": 180,
+        "win_rate": 0.2278
+      },
+      {
+        "avg_p": 0.3525,
+        "bucket": "30-40%",
+        "n": 253,
+        "win_rate": 0.3123
+      },
+      {
+        "avg_p": 0.4524,
+        "bucket": "40-50%",
+        "n": 288,
+        "win_rate": 0.4375
+      },
+      {
+        "avg_p": 0.5467,
+        "bucket": "50-60%",
+        "n": 347,
+        "win_rate": 0.5447
+      },
+      {
+        "avg_p": 0.6508,
+        "bucket": "60-70%",
+        "n": 233,
+        "win_rate": 0.6094
+      },
+      {
+        "avg_p": 0.7458,
+        "bucket": "70-80%",
+        "n": 175,
+        "win_rate": 0.76
+      },
+      {
+        "avg_p": 0.8481,
+        "bucket": "80-90%",
+        "n": 95,
+        "win_rate": 0.8421
+      },
+      {
+        "avg_p": 0.9311,
+        "bucket": "90-100%",
+        "n": 36,
+        "win_rate": 0.8889
+      }
+    ],
+    "cold_start_games": 96,
+    "log_loss": 0.606457,
+    "n": 1733
+  },
+  "training_years": "2018-2023",
+  "trial_validation": [
+    {
+      "brier": 0.21987,
+      "k": 12,
+      "log_loss": 0.62931,
+      "n": 1741
+    },
+    {
+      "brier": 0.214937,
+      "k": 20,
+      "log_loss": 0.617676,
+      "n": 1741
+    },
+    {
+      "brier": 0.212207,
+      "k": 28,
+      "log_loss": 0.61103,
+      "n": 1741
+    },
+    {
+      "brier": 0.210631,
+      "k": 36,
+      "log_loss": 0.607057,
+      "n": 1741
+    },
+    {
+      "brier": 0.209575,
+      "k": 48,
+      "log_loss": 0.604207,
+      "n": 1741
+    },
+    {
+      "brier": 0.209646,
+      "k": 64,
+      "log_loss": 0.604109,
+      "n": 1741
+    }
+  ],
+  "utc_date_grouping": true,
+  "validation_2024": {
+    "accuracy": 0.650775,
+    "brier": 0.209575,
+    "calibration": [
+      {
+        "avg_p": 0.0704,
+        "bucket": "0-10%",
+        "n": 14,
+        "win_rate": 0.0714
+      },
+      {
+        "avg_p": 0.1557,
+        "bucket": "10-20%",
+        "n": 90,
+        "win_rate": 0.1333
+      },
+      {
+        "avg_p": 0.2557,
+        "bucket": "20-30%",
+        "n": 152,
+        "win_rate": 0.2368
+      },
+      {
+        "avg_p": 0.3567,
+        "bucket": "30-40%",
+        "n": 269,
+        "win_rate": 0.3271
+      },
+      {
+        "avg_p": 0.4533,
+        "bucket": "40-50%",
+        "n": 315,
+        "win_rate": 0.4762
+      },
+      {
+        "avg_p": 0.5447,
+        "bucket": "50-60%",
+        "n": 356,
+        "win_rate": 0.514
+      },
+      {
+        "avg_p": 0.6497,
+        "bucket": "60-70%",
+        "n": 236,
+        "win_rate": 0.6059
+      },
+      {
+        "avg_p": 0.74,
+        "bucket": "70-80%",
+        "n": 158,
+        "win_rate": 0.7595
+      },
+      {
+        "avg_p": 0.8485,
+        "bucket": "80-90%",
+        "n": 100,
+        "win_rate": 0.86
+      },
+      {
+        "avg_p": 0.9385,
+        "bucket": "90-100%",
+        "n": 51,
+        "win_rate": 0.9412
+      }
+    ],
+    "cold_start_games": 104,
+    "log_loss": 0.604207,
+    "n": 1741
+  },
+  "validation_year": 2024
+}
