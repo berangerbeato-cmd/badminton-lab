@@ -41,18 +41,31 @@ ELITE = {
     'HSBC BWF World Tour Super 500', 'HSBC BWF World Tour Super 750',
     'HSBC BWF World Tour Super 1000', 'HSBC BWF World Tour Finals',
     'BWF Tour Super 100',
+    'Continental Individual Championships',
+    'Continental Team Championships',
+    'Continental Individual Games',
+    'Continental Team Games',
+    'Multi-Sport Games',
+    'Multi-Sport Games - Team Tournaments',
 }
 
 
 def is_elite(t: dict) -> bool:
     category = (t.get('category') or '').strip()
     name = (t.get('name') or '').lower()
-    if '(cancelled)' in name:
+    if '(cancelled)' in name or '(postponed)' in name:
         return False
     if category in ELITE:
         return True
     if category.startswith('Grade 1') and 'Individual Tournaments' in category:
         return not any(word in name for word in ('junior', 'youth', 'senior', 'university'))
+    if category == 'Grade 1 – Team Tournaments':
+        return not any(x in name for x in ('junior', 'youth', 'u19', 'under 19'))
+    if category == 'Other' and any(x in name for x in (
+            'asian games', 'commonwealth games', 'mediterranean games',
+            'african games', 'sea games', 'pacific games')):
+        return not any(x in name for x in (
+            'para', 'junior', 'youth', 'senior', 'postponed', 'cancelled'))
     return False
 
 
