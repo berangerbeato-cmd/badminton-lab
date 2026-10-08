@@ -1,23 +1,69 @@
-name: Test BWF public endpoint
+name: BWF daily results sync
+
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '17 4 * * *'  # 06:17 en France l'été, 05:17 l'hiver
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: bwf-results-sync
+  cancel-in-progress: false
 
 jobs:
-  test-bwf:
+  collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Get repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Verify offline tests
+
+      - name: Check incremental update logic
         run: python bwf_sync.py --self-test
-      - name: Query BWF API
+
+      - name: Retrieve latest BWF tournaments and matches
         run: |
-          START=$(date -u -d '7 days ago' +'%Y-%m-%d')
-          END=$(date -u +'%Y-%m-%d')
-          python bwf_sync.py --start "$START" --end "$END" --max-tournaments 15 --timeout 12 --dry-run
+          python bwf_sync.py --data-dir data/bwf --max-tournaments 30 --timeout 20 --delay 2
+
+      - name: Validate and make archive reproducible
+        run: |
+          python - <<'PY'
+          import gzip
+          import json
+          from pathlib import Path
+
+          folder = Path('data/bwf')
+          with (folder / 'index.json').open(encoding='utf-8') as f:
+              tournaments = json.load(f)
+          assert isinstance(tournaments, list), 'Invalid tournament index'
+          archive = sorted((folder / 'matches').glob('*.json.gz'))
+          for path in archive:
+              with gzip.open(path, 'rt', encoding='utf-8') as f:
+                  payload = json.load(f)
+              assert isinstance(payload, dict), f'Invalid match JSON: {path}'
+              data = json.dumps(payload, sort_keys=True, ensure_ascii=False,
+                                separators=(',', ':')).encode('utf-8')
+              stable = gzip.compress(data, mtime=0)
+              if path.read_bytes() != stable:
+                  path.write_bytes(stable)
+          print(f'Validated {len(tournaments)} tournaments and {len(archive)} match archives')
+          PY
+
+      - name: Save collected results in GitHub
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/bwf
+          if git diff --cached --quiet; then
+            echo 'No change in BWF results today.'
+          else
+            git commit -m "Update BWF results $(date -u +%Y-%m-%d)"
+            git push origin HEAD:main
+          fi
