@@ -1,0 +1,41 @@
+{
+  "scope": "BWF elite tournament archive, 2026-01-01 through 2026-09-30",
+  "retrieved_at_utc": "2026-10-08T22:08:24.380322+00:00",
+  "previous_ms_jan_sep": 0,
+  "ms_jan_sep_after": 1066,
+  "ms_match_counts_by_month": {
+    "2026-01": 133,
+    "2026-02": 42,
+    "2026-03": 183,
+    "2026-05": 169,
+    "2026-06": 166,
+    "2026-07": 130,
+    "2026-08": 108,
+    "2026-09": 135
+  },
+  "ms_whole_2026_after": 1094,
+  "elite_tournaments_indexed_jan_sep": 26,
+  "unarchived_tournaments_to_review": [],
+  "sync_stats": {
+    "indexed": 210,
+    "elite_checked": 26,
+    "tournaments_saved": 26,
+    "new_completed_matches": 4728,
+    "unique_match_ids": 4788,
+    "errors": []
+  },
+  "model_quality_counts": {
+    "not_MS": 36126,
+    "score_not_completed": 129,
+    "no_full_score": 232,
+    "no_winner": 14,
+    "missing_player_ids": 4,
+    "archives_read": 273,
+    "clean_MS_matches": 11393
+  },
+  "notes": [
+    "All results are historical; they must not be represented as predictions made before those matches.",
+    "Zero-match tournaments may be cancelled/postponed: review unarchived list rather than inventing results.",
+    "Only elite events selected by bwf_sync.is_elite are imported, not all worldwide badminton matches."
+  ]
+}
