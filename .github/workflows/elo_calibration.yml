@@ -1,0 +1,68 @@
+name: BWF calibrated Elo daily forecasts
+
+on:
+  push:
+    paths:
+      - 'elo_calibrate_daily.py'
+      - '.github/workflows/elo_calibration.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '10 5 * * *'  # 07:10 Paris in summer, 06:10 in winter (UTC fixed)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bwf-results-sync
+  cancel-in-progress: false
+
+jobs:
+  calibrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout BWF data and model
+        uses: actions/checkout@v4
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test baseline and new calibration
+        run: |
+          python elo_model.py --self-test
+          python elo_calibrate_daily.py --self-test
+      - name: Publish date-safe next 7 days fixtures
+        run: python elo_calibrate_daily.py --data-dir data/bwf --model-dir data/model --days 7
+      - name: Show holdout metrics and current fixture count
+        run: |
+          python - <<'PY'
+          import os,json
+          from pathlib import Path
+          d=json.loads(Path('data/model/elo_calibration_report.json').read_text(encoding='utf-8'))
+          t=d['holdout_2025']
+          v=d['validation_2024']
+          message=(f"### BWF Elo MS calibrated forecasts (NO BET)\n"
+                   f"- Fitted ONLY on 2024: {v['n']} matches\n"
+                   f"- 2025 untouched holdout: {t['n']} matches\n"
+                   f"- 2025 raw Brier: {t['raw_brier']}\n"
+                   f"- 2025 calibrated Brier: {t['calibrated_brier']}\n"
+                   f"- 2025 calibrated accuracy: {t['accuracy']:.1%}\n"
+                   f"- Upcoming fixtures with documented future start: {d['upcoming_count']}\n"
+                   f"- Every quote remains missing until independently timestamped and verified.\n"
+                   f"- This pipeline does not itself write to Google Sheets.\n")
+          print(message)
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as f:
+              f.write(message)
+          PY
+      - name: Commit calibrated model and immutable day snapshot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/model
+          if git diff --cached --quiet; then
+            echo 'Model outputs unchanged.'
+          else
+            git commit -m "Calibrated BWF Elo snapshots $(date -u +%F)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
