@@ -1,0 +1,225 @@
+name: BWF 2018-2026 continental and team backfill
+
+on:
+  push:
+    paths:
+      - '.github/workflows/bwf_continentaux_2018_2026.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bwf-results-sync
+  cancel-in-progress: false
+
+jobs:
+  continental_backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout BWF archive
+        uses: actions/checkout@v4
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify existing sync and Elo programs
+        run: |
+          python bwf_sync.py --self-test
+          python elo_model.py --self-test
+          python elo_calibrate_daily.py --self-test
+      - name: Permanently enable continental and adult team events
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('bwf_sync.py')
+          s=p.read_text(encoding='utf-8')
+          anchor = "    'BWF Tour Super 100',\n}"
+          newcat = (
+              "    'BWF Tour Super 100',\n"
+              "    'Continental Individual Championships',\n"
+              "    'Continental Team Championships',\n"
+              "    'Continental Individual Games',\n"
+              "    'Continental Team Games',\n"
+              "    'Multi-Sport Games',\n"
+              "    'Multi-Sport Games - Team Tournaments',\n}"
+          )
+          if "'Continental Individual Championships'" not in s:
+              if s.count(anchor)!=1:
+                  raise RuntimeError('Unexpected bwf_sync.py category definition; do not silently patch')
+              s=s.replace(anchor,newcat,1)
+          anchor2="    if '(cancelled)' in name:\n        return False"
+          replacement2="    if '(cancelled)' in name or '(postponed)' in name:\n        return False"
+          if anchor2 in s:
+              s=s.replace(anchor2,replacement2,1)
+          extra = (
+              "    if category == 'Grade 1 – Team Tournaments':\n"
+              "        return not any(x in name for x in ('junior', 'youth', 'u19', 'under 19'))\n"
+              "    if category == 'Other' and any(x in name for x in (\n"
+              "            'asian games', 'commonwealth games', 'mediterranean games',\n"
+              "            'african games', 'sea games', 'pacific games')):\n"
+              "        return not any(x in name for x in (\n"
+              "            'para', 'junior', 'youth', 'senior', 'postponed', 'cancelled'))\n"
+          )
+          marker="    return False\n\n\ndef extract_matches"
+          if "if category == 'Grade 1 – Team Tournaments':" not in s:
+              if s.count(marker)!=1:
+                  raise RuntimeError('Unexpected bwf_sync.py is_elite layout; do not silently patch')
+              s=s.replace(marker,extra+marker,1)
+          p.write_text(s,encoding='utf-8')
+          from bwf_sync import is_elite
+          assert is_elite({'category':'Continental Individual Championships','name':'Badminton Asia Championships 2026'})
+          assert is_elite({'category':'Continental Team Championships','name':'European Mixed Team Championships 2024'})
+          assert is_elite({'category':'Grade 1 – Team Tournaments','name':'BWF Thomas Cup 2026'})
+          assert is_elite({'category':'Other','name':'Asian Games 2018 ( Individual Event)'})
+          assert not is_elite({'category':'Continental Junior Individual Championships','name':'Asia Junior 2025'})
+          assert not is_elite({'category':'Continental Individual Championships','name':'European 2020 (Cancelled)'})
+          assert not is_elite({'category':'Continental Individual Championships','name':'Asia 2021 (Postponed)'})
+          print('Permanent BWF eligibility update OK; no junior or cancelled events')
+          PY
+      - name: Retrieve uncached adult continental events 2018-2026
+        shell: bash
+        run: |
+          python - <<'PY'
+          import gzip,json,time,traceback
+          from datetime import datetime,timezone
+          from pathlib import Path
+          from collections import Counter
+          from bwf_sync import is_elite,api_get,extract_matches,merge_match_payload,read_json,atomic_write_json
+          from elo_model import load_matches
+
+          root=Path('data/bwf')
+          index=read_json(root/'index.json') or []
+          assert len(index)>=1000, f'BWF tournament index unexpectedly small: {len(index)}'
+          extra_categories={
+              'Continental Individual Championships', 'Continental Team Championships',
+              'Continental Individual Games', 'Continental Team Games',
+              'Multi-Sport Games', 'Multi-Sport Games - Team Tournaments',
+              'Grade 1 – Team Tournaments', 'Other',
+          }
+          start='2018-01-01'; end='2026-10-08'
+          def candidate(t):
+              if not isinstance(t,dict):return False
+              day=str(t.get('start_date') or '')[:10]
+              return start<=day<=end and (t.get('category') or '').strip() in extra_categories and is_elite(t)
+          chosen=sorted((t for t in index if candidate(t)),key=lambda t:(str(t.get('start_date')),str(t.get('id'))))
+          if not chosen or len(chosen)>220:
+              raise RuntimeError(f'Unexpected candidate scope size {len(chosen)}; audit selection')
+          old,old_quality=load_matches(root)
+          old_counts=Counter(m.date[:4] for m in old)
+          written=[]; no_data=[]; errors=[]; already=[]
+          for pos,t in enumerate(chosen,1):
+              tid=str(t['id']); fn=root/'matches'/f'{tid}.json.gz'
+              if fn.exists():
+                  already.append(tid)
+                  continue
+              try:
+                  fresh=api_get('/vue-tournament-matches',{'drawCount':0,'searchKey':'',
+                     'tmtId':tid,'tmtType':0,'isPara':'false'},timeout=30)
+                  merged,new_completed,completed,total=merge_match_payload(None,fresh)
+                  if not total:
+                      no_data.append({'id':tid,'name':t.get('name'),'category':t.get('category'),
+                           'date':str(t.get('start_date',''))[:10]})
+                  else:
+                      atomic_write_json(fn,merged,zipped=True)
+                      written.append({'id':tid,'name':t.get('name'),'category':t.get('category'),
+                          'date':str(t.get('start_date',''))[:10], 'match_ids':total,'completed':completed})
+              except Exception as exc:
+                  errors.append({'id':tid,'name':t.get('name'),'error':f'{type(exc).__name__}: {exc}'[:220]})
+              print(f'[{pos}/{len(chosen)}] {tid} {t.get("name")}: '+
+                 ('cached' if fn.exists() else 'no archive'),flush=True)
+              time.sleep(1.0)  # deliberate light access, no parallel requests
+
+          # Deterministic archives and reproducible commits.
+          for fn in sorted((root/'matches').glob('*.json.gz')):
+              with gzip.open(fn,'rt',encoding='utf-8') as f: obj=json.load(f)
+              blob=json.dumps(obj,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode('utf-8')
+              compressed=gzip.compress(blob,mtime=0)
+              if fn.read_bytes()!=compressed:
+                  fn.write_bytes(compressed)
+
+          games,quality=load_matches(root)
+          new_counts=Counter(m.date[:4] for m in games)
+          added={y:new_counts[y]-old_counts[y] for y in sorted(new_counts)}
+          report={
+           'scope':'adult continental championships, regional multi-sport games and major team events, 2018-2026',
+           'retrieved_at_utc':datetime.now(timezone.utc).isoformat(),
+           'years':'2018-2026 through 2026-10-08',
+           'candidate_events':len(chosen),'archive_already_present':len(already),
+           'archives_new':len(written),'archived_event_ids':[x['id'] for x in written],
+           'new_archive_sample':written[:15],
+           'no_match_data_events':no_data,'errors':errors,
+           'ms_before':len(old),'ms_after':len(games),'ms_added':len(games)-len(old),
+           'ms_added_by_year':added,'ms_after_by_year':dict(sorted(new_counts.items())),
+           'data_quality':quality,
+           'notes':['All new games are historical only; never backfill pre-match T0 or bookmaker quotes.',
+                    'No-result events may be cancelled, team-only draws or have no API records.',
+                    'Team match naming/discipline must be separately audited for coverage.',
+                    'BWF index and public API are not independent proof of completeness.'],
+          }
+          (root/'continental_backfill_report.json').write_text(
+              json.dumps(report,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf-8')
+          print('BACKFILL SUMMARY',json.dumps({k:report[k] for k in (
+           'candidate_events','archives_new','archive_already_present','ms_before',
+           'ms_after','ms_added','ms_added_by_year')},ensure_ascii=False),flush=True)
+          print('NO DATA',len(no_data),'API ERRORS',len(errors),flush=True)
+          if len(games)<=len(old):
+              print('WARNING: No additional clean MS matches; inspect categories and team match encoding',flush=True)
+          PY
+      - name: Commit archival scope and tournament results before any model rebuild
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- bwf_sync.py data/bwf
+          if git diff --cached --quiet; then
+            echo 'No fresh archive data or eligibility code changes.'
+          else
+            git commit -m 'Extend BWF history to adult continental and team events 2018-2026'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Rebuild chronological Elo with expanded 2018-2026 history
+        run: |
+          python elo_model.py --data-dir data/bwf --output-dir data/model
+      - name: Recalibrate and publish newest future-only Elo feed
+        run: |
+          python elo_calibrate_daily.py --data-dir data/bwf --model-dir data/model --days 7
+      - name: Persist updated Elo and calibration reports
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -A -- data/model
+          if git diff --cached --quiet; then
+            echo 'No Elo change.'
+          else
+            git commit -m 'Rebuild Elo after continental and team championship import'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Report new historical matches and outstanding exceptions
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          b=json.loads(Path('data/bwf/continental_backfill_report.json').read_text(encoding='utf-8'))
+          r=json.loads(Path('data/model/elo_report.json').read_text(encoding='utf-8'))
+          c=json.loads(Path('data/model/elo_calibration_report.json').read_text(encoding='utf-8'))
+          lines=['### BWF expanded continental archive (2018-2026)',
+           f"- Candidate events: {b['candidate_events']}",
+           f"- New archives: {b['archives_new']}; without match data: {len(b['no_match_data_events'])}",
+           f"- Clean MS before: {b['ms_before']}; after: {b['ms_after']}; added: {b['ms_added']}",
+           f"- New MS matches by year: {b['ms_added_by_year']}",
+           f"- 2025 holdout Brier after expanded training: {r['test_2025']['brier']}",
+           f"- 2025 calibrated Brier after expanded training: {c['holdout_2025']['calibrated_brier']}",
+           f"- API failures: {len(b['errors'])}",
+           '- Existing historical pre-match forecasts remain immutable; any newly calculated probability is not a historical T0.']
+          text='\n'.join(lines)+'\n';print(text)
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as f:f.write(text)
+          if b['errors']:
+              raise SystemExit('Some tournament API calls failed, existing successes saved; inspect report then rerun this workflow')
+          PY
