@@ -172,7 +172,15 @@ def fixture_rows(data_dir: Path, ratings: dict, seen: Counter,
                 start = datetime.fromtimestamp(int(m['start_time']), tz=timezone.utc)
             except (KeyError,TypeError,ValueError,OverflowError):
                 continue
-            if not (now < start <= now + timedelta(days=days)):
+            # BWF may put UTC midnight into start_time as a DATE PLACEHOLDER.
+            # Its calendar day is informative, but midnight is NOT a verified
+            # tip-off time. Keep the fixture visible throughout that day while
+            # refusing to label it as an actionable T0 forecast.
+            date_only = (start.hour == 0 and start.minute == 0 and start.second == 0)
+            if date_only:
+                if not (now.date() <= start.date() <= (now + timedelta(days=days)).date()):
+                    continue
+            elif not (now < start <= now + timedelta(days=days)):
                 continue
             a_id,b_id = str(p1['id']),str(p2['id'])
             if a_id==b_id:
@@ -193,7 +201,7 @@ def fixture_rows(data_dir: Path, ratings: dict, seen: Counter,
                 'asof_utc':now.isoformat(timespec='seconds'),
                 'model':MODEL_NAME,
                 'cold_start':int(seen[a_id]==0 or seen[b_id]==0),
-                'status':'MODEL_ONLY_NO_VERIFIED_BOOKMAKER_ODDS',
+                'status':('DATE_ONLY_START_UNVERIFIED_NO_BET' if date_only else 'MODEL_ONLY_NO_VERIFIED_BOOKMAKER_ODDS'),
                 'source':'https://github.com/berangerbeato-cmd/badminton-lab/tree/main/data/bwf',
             }
     return sorted(future.values(),key=lambda r:(r['start_utc'],r['bwf_match_id']))
@@ -291,7 +299,19 @@ def self_test():
         rows=fixture_rows(p,defaultdict(lambda:1500.0),Counter(),1,0,48,now,7)
         assert len(rows)==1 and rows[0]['bwf_match_id']=='11:3'
         assert rows[0]['cold_start']==1
-    print('ALL TESTS PASS: logistic calibration, score, date-safe Elo, future-only BWF fixture filter, immutable dates')
+        # A BWF midnight timestamp may be a calendar-only placeholder. It must
+        # survive the morning import on the same date, but never be called a
+        # verified prematch starting time.
+        morning=datetime(2026,10,9,7,tzinfo=timezone.utc)
+        placeholder=match(datetime(2026,10,9,0,tzinfo=timezone.utc),6,None)
+        with gzip.open(p/'matches'/'11.json.gz','wt') as f:
+            json.dump({'results':{'by_time':{'time_group':[placeholder]}}},f)
+        morning_rows=fixture_rows(p,defaultdict(lambda:1500.0),Counter(),1,0,48,morning,7)
+        assert len(morning_rows)==1 and morning_rows[0]['bwf_match_id']=='11:6'
+        assert morning_rows[0]['status']=='DATE_ONLY_START_UNVERIFIED_NO_BET'
+        next_morning=datetime(2026,10,10,7,tzinfo=timezone.utc)
+        assert not fixture_rows(p,defaultdict(lambda:1500.0),Counter(),1,0,48,next_morning,7)
+    print('ALL TESTS PASS: calibration, Elo, future fixtures, midnight placeholder, and no-T0 flag')
 
 
 def main():
