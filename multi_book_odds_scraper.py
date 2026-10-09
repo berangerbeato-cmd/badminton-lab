@@ -1,0 +1,336 @@
+#!/usr/bin/env python3
+"""Conservative multi-source public badminton quote observation, SHADOW MODE.
+
+This is NOT a bookmaker feed, bookmaker price timestamp, real-time bet signal,
+or guarantee of executable prices. The run performs read-only public browsing;
+no account, captcha solving, geoblock circumvention or wagering.
+
+Sources: Unibet.fr, bwin.fr, FDJ ParionsSport *point de vente* (RETAIL),
+Betclic.fr and Winamax.fr connectivity probes (no unverified parsers).
+Every observation is stored for audit. Nothing writes Sheets or rewrites T0.
+
+    python multi_book_odds_scraper.py --self-test
+    python multi_book_odds_scraper.py --live --out data/odds_shadow
+"""
+from __future__ import annotations
+import argparse
+from datetime import datetime, timezone
+from pathlib import Path
+from urllib.parse import urlsplit
+from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
+from urllib.robotparser import RobotFileParser
+from zoneinfo import ZoneInfo
+import hashlib
+import json
+import re
+import time
+
+from unibet_odds_scraper import parse_listings
+
+PARIS = ZoneInfo("Europe/Paris")
+UA = "BadmintonResearchOdds/0.2 (read-only public research)"
+SOURCES = {
+    "unibet_fr": {"operator":"Unibet.fr", "url":"https://www.unibet.fr/paris-badminton", "kind":"ONLINE", "parser":"unibet"},
+    "bwin_fr": {"operator":"bwin.fr", "url":"https://sports.bwin.fr/fr/sports/badminton-44", "kind":"ONLINE", "parser":"bwin"},
+    "fdj_pos_fr": {"operator":"Parions Sport Point de Vente (FDJ)", "url":"https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton", "kind":"RETAIL_NOT_ONLINE", "parser":"fdj"},
+    "betclic_fr": {"operator":"Betclic.fr", "url":"https://www.betclic.fr/", "kind":"ONLINE", "parser":None},
+    "winamax_fr": {"operator":"Winamax.fr", "url":"https://www.winamax.fr/", "kind":"ONLINE", "parser":None},
+}
+ODD = re.compile(r"(?<!\d)(\d{1,2}[.,]\d{2})(?!\d)")
+PRICE_PAIR = re.compile(r"^(.+?)\s+(\d{1,2}[.,]\d{2})\s+(.+?)\s+(\d{1,2}[.,]\d{2})$")
+FDJ_MARKET = re.compile(r"N[°º]\s*\d+\s+Face\s+[àa]\s+Face\b.*?Fin\s+de\s+valid\.?\s+(\d{2})/(\d{2})\s+(\d{1,2})h(\d{2})", re.I)
+COUNTRY = r"(?:FRA|DEN|JPN|CHN|THA|MAS|INA|IND|KOR|TPE|HKG|TWN|ENG|SCO|CAN|USA|GER|NED|FIN|SWE|ESP|VIE|PHI|SGP)"
+BWIN_ROW = re.compile(
+    r"(?P<p1>[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ. /'\-]{2,55}?)\s+(?:"+COUNTRY+r")\s+"
+    r"(?P<p2>[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ. /'\-]{2,55}?)\s+(?:"+COUNTRY+r")\s*"
+    r"(?P<when>Aujourd'hui|Demain)[/ ](?P<hour>\d{1,2}:\d{2})\s+"
+    r"(?P<o1>\d{1,2}[.,]\d{2})\s+(?P<o2>\d{1,2}[.,]\d{2})",
+    re.I,
+)
+
+
+def price(x):
+    n = float(x.replace(",", "."))
+    if not (1.01 <= n <= 99):
+        raise ValueError("invalid decimal odds")
+    return n
+
+
+def robots_check(url):
+    """Conservative: stop if robots is inaccessible or access is forbidden."""
+    root = urlsplit(url)
+    robots_url = f"{root.scheme}://{root.netloc}/robots.txt"
+    try:
+        with urlopen(Request(robots_url, headers={"User-Agent":UA}),timeout=18) as response:
+            rules = response.read(200_000).decode("utf-8", "replace")
+        rp = RobotFileParser()
+        rp.parse(rules.splitlines())
+        ok = rp.can_fetch(UA, url)
+        return bool(ok), ("ALLOWED_BY_ROBOTS" if ok else "DISALLOWED_BY_ROBOTS")
+    except HTTPError as e:
+        return (e.code == 404), f"ROBOTS_HTTP_{e.code}"
+    except (URLError, TimeoutError, OSError) as e:
+        return False, f"ROBOTS_UNAVAILABLE_{type(e).__name__}"
+
+
+def quote(p1, p2, o1, o2, **extra):
+    p1 = p1.strip(" \t|-:")
+    p2 = p2.strip(" \t|-:")
+    if not p1 or not p2 or p1.casefold()==p2.casefold():
+        raise ValueError("missing or duplicate contestants")
+    return {"player_1_display":p1,"player_2_display":p2,
+            "odds_1":price(o1),"odds_2":price(o2),"market":"H2H_FULL_MATCH",**extra}
+
+
+def parse_unibet(text, now):
+    entries, reason = parse_listings(text, now)
+    rows = []
+    for v in entries:
+        if v["status"]!="OBSERVED_NOT_BOOKMAKER_TIMESTAMPED":
+            continue
+        if v.get("discipline_display")!="H":
+            continue  # current model MS only
+        rows.append(quote(v["player_1_display"],v["player_2_display"],
+                          str(v["odds_1"]),str(v["odds_2"]),
+                          listed_start_paris=v["listed_start_paris"],
+                          tournament=v["tournament"],discipline="MS",
+                          market_verification="LISTING_ONLY_NEEDS_DETAIL", operator_event_id=None))
+    return rows, reason
+
+
+def parse_bwin(text, now):
+    """Extract only strictly structured rows with *two explicit competitor countries*.
+
+    Bwin's live DOM varies. Rows that do not fit are deliberately omitted,
+    rather than manufacturing a competitor/price pairing.
+    """
+    rows = []
+    if not re.search(r"\bVainqueur\b", text, re.I):
+        return [], "missing Vainqueur market"
+    for line in text.splitlines():
+        line=re.sub(r"\s+"," ",line).strip()
+        for m in BWIN_ROW.finditer(line):
+            try:
+                # No doubles in the men's-singles model.
+                if '/' in m.group('p1') or '/' in m.group('p2'):
+                    continue
+                p1,p2=m.group('p1'),m.group('p2')
+                # Clearly non-player UI material is never allowed as part of a name.
+                if any(z in p1.casefold() or z in p2.casefold() for z in ('badminton','vainqueur','match','monde')):
+                    continue
+                from datetime import timedelta
+                day=now.date()+(timedelta(days=1) if m.group('when').casefold()=="demain" else timedelta())
+                hour,minute=map(int,m.group('hour').split(':'))
+                local=datetime(day.year,day.month,day.day,hour,minute,tzinfo=PARIS)
+                if local <= now: continue
+                rows.append(quote(p1,p2,m.group('o1'),m.group('o2'),
+                                  listed_start_paris=local.isoformat(timespec='minutes'),
+                                  market_verification="LISTING_ONLY_NEEDS_DETAIL",discipline="MS"))
+            except (ValueError, TypeError):
+                continue
+    return rows, ("structured rows" if rows else "no unambiguous two-country MS rows")
+
+
+def parse_fdj(text, now, discipline="UNKNOWN"):
+    """Read RETAIL face-à-face price blocks, honoring their explicit expiry.
+
+    These prices are NOT automatically comparable with online prices.
+    """
+    lines=[re.sub(r"\s+"," ",x).strip() for x in text.splitlines() if x.strip()]
+    rows=[]
+    for i,line in enumerate(lines):
+        hit=FDJ_MARKET.search(line)
+        if not hit or i+1>=len(lines):
+            continue
+        dd,mm,hh,minute=map(int,hit.groups())
+        try:
+            end=datetime(now.year,mm,dd,hh,minute,tzinfo=PARIS)
+            if end < now or (end-now).total_seconds()>4*86400:
+                continue
+        except ValueError:
+            continue
+        price_line=PRICE_PAIR.fullmatch(lines[i+1].replace('|',' '))
+        if not price_line:
+            continue
+        try:
+            p1,o1,p2,o2=price_line.groups()
+            # This is a price block only, not proof of exact-match pairing.
+            row=quote(p1,p2,o1,o2,valid_until_paris=end.isoformat(timespec="minutes"),
+                      market_verification="RETAIL_MARKET_NEEDS_EVENT_CROSSCHECK",discipline=discipline)
+            rows.append(row)
+        except ValueError:
+            continue
+    return rows, ("retail face-à-face rows" if rows else "no unexpired face-à-face retail rows")
+
+
+def render(browser, url):
+    page=browser.new_page(locale="fr-FR",timezone_id="Europe/Paris")
+    try:
+        response=page.goto(url,wait_until="domcontentloaded",timeout=24000)
+        page.wait_for_timeout(2000)
+        content=page.locator("body").inner_text(timeout=12000)
+        # Only public link addresses; no internal betting APIs or accounts.
+        event_links=page.locator('a[href*="/paris-ouverts/badminton/"]').evaluate_all(
+            "els => els.map(a => a.href).filter(x => x && x.startsWith('https://'))"
+        )[:100]
+        headers=response.headers if response else {}
+        return content,{
+            "http_status":response.status if response else None,
+            "resolved_url":page.url,
+            "server_date":headers.get('date'),"cache_age_seconds":headers.get('age'),
+            "body_sha256":hashlib.sha256(content.encode('utf-8')).hexdigest(),
+            "text_excerpt_for_debug":content[:1600],
+            "public_badminton_event_links":list(dict.fromkeys(event_links))[:40],
+        }
+    finally:
+        page.close()
+
+
+def analyze_source(key, now, browser):
+    source=SOURCES[key]
+    start=datetime.now(timezone.utc)
+    item={
+        "source_key":key,"operator":source["operator"],"operator_kind":source["kind"],
+        "source_url":source["url"],"observed_at_utc":start.isoformat(timespec='seconds'),
+        "status":"NOT_RUN","quotes":[],"validation":"SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE",
+        "bookmaker_price_updated_at":None, "notes":"Timestamp of reading is NOT bookmaker's price update timestamp.",
+    }
+    allowed, reason=robots_check(source['url'])
+    item['robots_status']=reason
+    if not allowed:
+        item['status']="SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE"
+        return item
+    try:
+        content,info=render(browser,source['url'])
+        item.update(info)
+        expected_host=urlsplit(source['url']).netloc.removeprefix('www.')
+        if info['http_status']!=200 or not urlsplit(info['resolved_url']).netloc.endswith(expected_host):
+            item['status']='REJECT_HTTP_STATUS_OR_REDIRECT'
+            return item
+        age=info.get('cache_age_seconds')
+        try:
+            if age is not None and int(age)>120:
+                item['status']='REJECT_HTTP_CACHE_AGE'
+                return item
+        except (ValueError, TypeError):
+            item['status']='REJECT_UNPARSEABLE_CACHE_AGE'
+            return item
+        if source['parser'] is None:
+            item['status']='PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED'
+            return item
+        extract={'unibet':parse_unibet,'bwin':parse_bwin,'fdj':parse_fdj}[source['parser']]
+        rows, why=extract(content,now)
+        if key=='fdj_pos_fr':
+            # The top-level FDJ page is normally only a tournament index.
+            # Discover the CURRENT men's-singles event subpages, and audit
+            # each subpage's robots policy independently. Limit traffic.
+            candidates=["https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-h/56053"]
+            candidates+=info.get('public_badminton_event_links', [])
+            chosen=[]
+            for candidate in dict.fromkeys(candidates):
+                if (urlsplit(candidate).netloc == urlsplit(source['url']).netloc and
+                    re.search(r'/paris-ouverts/badminton/[^/?#]+-h/\d+/?$',candidate,re.I)):
+                    chosen.append(candidate)
+            item['retail_pages_audited']=[]
+            for candidate in chosen[:6]:
+                permitted,sub_reason=robots_check(candidate)
+                if not permitted:
+                    item['retail_pages_audited'].append({'url':candidate,'status':sub_reason})
+                    continue
+                time.sleep(1)
+                try:
+                    sub_content,sub_info=render(browser,candidate)
+                    sub_rows,sub_why=parse_fdj(sub_content,now,discipline='MS')
+                    if sub_info['http_status']!=200:sub_rows=[]
+                    for value in sub_rows:value['event_page_url']=candidate
+                    rows.extend(sub_rows)
+                    item['retail_pages_audited'].append({'url':candidate,'status':sub_why,
+                                                         'http_status':sub_info['http_status'],
+                                                         'quotes':len(sub_rows)})
+                except Exception as sub_exc:
+                    item['retail_pages_audited'].append({'url':candidate,
+                         'status':'SUBPAGE_ERROR_'+type(sub_exc).__name__})
+            rows=[r for r in rows if r.get('discipline')=='MS']
+            why=f'{why}; audited {len(item["retail_pages_audited"])} retail MS pages'
+        item['quotes']=rows
+        item['parser_notes']=why
+        item['status']='OBSERVED_SHADOW_RETAIL' if rows and source['kind']=='RETAIL_NOT_ONLINE' else ('OBSERVED_SHADOW_NEEDS_MARKET_CONFIRMATION' if rows else 'NO_CONFIDENT_PREMATCH_QUOTES')
+    except Exception as exc:
+        item['status']='SCRAPE_FAILED'
+        item['error']=(type(exc).__name__+': '+str(exc))[:300]
+    finally:
+        item['finished_at_utc']=datetime.now(timezone.utc).isoformat(timespec='seconds')
+    return item
+
+
+def collect(out):
+    from playwright.sync_api import sync_playwright
+    now=datetime.now(PARIS)
+    out.mkdir(parents=True,exist_ok=True)
+    reports=[]
+    with sync_playwright() as p:
+        browser=p.chromium.launch(headless=True)
+        try:
+            for n,key in enumerate(SOURCES):
+                if n: time.sleep(1)
+                item=analyze_source(key,now,browser)
+                reports.append(item)
+                path=out/key
+                path.mkdir(parents=True,exist_ok=True)
+                filename=path / (now.astimezone(timezone.utc).strftime('%Y-%m-%dT%H%M%SZ')+'.json')
+                filename.write_text(json.dumps(item,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf8')
+                print(json.dumps({'source':key,'status':item['status'],'count':len(item['quotes']),
+                                  'file':str(filename)},ensure_ascii=False),flush=True)
+        finally:
+            browser.close()
+    summary={"observed_at_utc":now.astimezone(timezone.utc).isoformat(timespec='seconds'),
+             "policy":"SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
+             "online_h2h_shadow_rows":sum(len(x['quotes']) for x in reports if x['operator_kind']=='ONLINE'),
+             "retail_shadow_rows":sum(len(x['quotes']) for x in reports if x['operator_kind']=='RETAIL_NOT_ONLINE'),
+             "sources":{x['source_key']:{"status":x['status'],"quotes":len(x['quotes'])} for x in reports}}
+    (out/'latest_summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+    print(json.dumps(summary,ensure_ascii=False),flush=True)
+    return summary
+
+
+def self_test():
+    now=datetime(2026,10,9,8,58,tzinfo=PARIS)
+    sample_unibet=("Compétition badminton Aujourd'hui monde Open de Finlande H À 12h25 "
+       "ZJ.Lee-C.Popov ZJ.Lee 2,95 | C.Popov 1,25 "
+       "monde Open de Finlande H À 13h20 TC.Chou-K.Watanabe TC.Chou 1,80 | K.Watanabe 1,71 "
+       "Demain monde Open de Finlande H À 07h10 A.Other-B.Other A.Other 1,30 | B.Other 3,50")
+    rows,why=parse_unibet(sample_unibet,now)
+    assert len(rows)==2,(why,rows)
+    assert rows[0]['player_2_display']=='C.Popov' and rows[0]['odds_2']==1.25
+    bad=sample_unibet.replace('C.Popov 1,25','Different 1,25')
+    assert len(parse_unibet(bad,now)[0])==1
+    bwin=("Badminton\nVainqueur 1 2\n"
+          "A. Lanier FRA Yu Qi Shi CHN Demain/01:40 2.70 1.28\n"
+          "Y. Z. Feng/D. P. Huang CHN D. Puavaranukroh/S. Paewsampran THA Demain/02:20 1.30 2.60")
+    rows,why=parse_bwin(bwin,now)
+    assert len(rows)==1,(why,rows)
+    assert rows[0]['player_1_display']=='A. Lanier' and rows[0]['odds_1']==2.7
+    fdj=("vendredi 9 octobre\nXC.Zhu-H.Huang Op. Finlande H N°19714 Face à Face I Fin de valid. 09/10 12h35 Afficher\n"
+         "XC.Zhu 1,18 H.Huang 3,40\n"
+         "Retraite-Live Op. Finlande H N°19715 Face à Face I Fin de valid. 08/10 07h35 Afficher\n"
+         "Retraite 1,80 Live 1,80")
+    rows,why=parse_fdj(fdj,now)
+    assert len(rows)==1,(why,rows)
+    assert rows[0]['valid_until_paris'].startswith('2026-10-09')
+    assert parse_fdj(fdj,datetime(2026,10,9,13,0,tzinfo=PARIS))[0]==[]
+    assert SOURCES['fdj_pos_fr']['kind']=='RETAIL_NOT_ONLINE'
+    print('ALL SELF TESTS PASS: Unibet, bwin MS, FDJ retail expiry, invalid/expired rejected')
+
+
+def main():
+    p=argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--self-test',action='store_true')
+    p.add_argument('--live',action='store_true')
+    p.add_argument('--out',type=Path,default=Path('data/odds_shadow'))
+    options=p.parse_args()
+    if options.self_test:self_test()
+    elif options.live:collect(options.out)
+    else:p.error('Use --self-test or --live')
+
+if __name__=='__main__':main()
