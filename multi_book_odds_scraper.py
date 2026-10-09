@@ -25,6 +25,7 @@ import hashlib
 import json
 import re
 import time
+from collections import Counter
 
 from unibet_odds_scraper import parse_listings
 
@@ -86,17 +87,19 @@ def quote(p1, p2, o1, o2, **extra):
 def parse_unibet(text, now):
     entries, reason = parse_listings(text, now)
     rows = []
+    categories = Counter(f"{v.get('discipline_display')}:{v.get('status')}" for v in entries)
     for v in entries:
-        if v["status"]!="OBSERVED_NOT_BOOKMAKER_TIMESTAMPED":
+        if v["status"] != "OBSERVED_NOT_BOOKMAKER_TIMESTAMPED":
             continue
-        if v.get("discipline_display")!="H":
+        if v.get("discipline_display") != "H":
             continue  # current model MS only
-        rows.append(quote(v["player_1_display"],v["player_2_display"],
-                          str(v["odds_1"]),str(v["odds_2"]),
+        rows.append(quote(v["player_1_display"], v["player_2_display"],
+                          str(v["odds_1"]), str(v["odds_2"]),
                           listed_start_paris=v["listed_start_paris"],
-                          tournament=v["tournament"],discipline="MS",
+                          tournament=v["tournament"], discipline="MS",
                           market_verification="LISTING_ONLY_NEEDS_DETAIL", operator_event_id=None))
-    return rows, reason
+    summary = ",".join(f"{k}={v}" for k,v in sorted(categories.items())) or "NONE"
+    return rows, f"{reason}; page_parsed_entries={len(entries)}; by_discipline_and_status={summary}; eligible_MS_H2H={len(rows)}; local_now={now.isoformat()}"
 
 
 def parse_bwin(text, now):
@@ -150,11 +153,23 @@ def parse_fdj(text, now, discipline="UNKNOWN"):
                 continue
         except ValueError:
             continue
-        price_line=PRICE_PAIR.fullmatch(lines[i+1].replace('|',' '))
-        if not price_line:
+        # FDJ renders player and price in separate DOM lines, often preceded
+        # by an "Afficher" control. A single-line representation is also valid.
+        pos=i+1
+        if pos < len(lines) and lines[pos].casefold()=="afficher":
+            pos+=1
+        if pos >= len(lines):
+            continue
+        price_line=PRICE_PAIR.fullmatch(lines[pos].replace('|',' '))
+        if price_line:
+            fields=price_line.groups()
+        elif (pos+3 < len(lines) and
+              ODD.fullmatch(lines[pos+1]) and ODD.fullmatch(lines[pos+3])):
+            fields=(lines[pos],lines[pos+1],lines[pos+2],lines[pos+3])
+        else:
             continue
         try:
-            p1,o1,p2,o2=price_line.groups()
+            p1,o1,p2,o2=fields
             # This is a price block only, not proof of exact-match pairing.
             row=quote(p1,p2,o1,o2,valid_until_paris=end.isoformat(timespec="minutes"),
                       market_verification="RETAIL_MARKET_NEEDS_EVENT_CROSSCHECK",discipline=discipline)
@@ -303,6 +318,15 @@ def self_test():
     rows,why=parse_unibet(sample_unibet,now)
     assert len(rows)==2,(why,rows)
     assert rows[0]['player_2_display']=='C.Popov' and rows[0]['odds_2']==1.25
+    # Page text extracted from the public DOM has newlines, popularity widgets,
+    # and often additional disciplines preceding men's singles.
+    realistic=("Badminton\nFace à Face\nAujourd'hui\nmonde\nOpen de Finlande DM\n"
+       "À 12h00\nJiang/Wei\n-\nYe/Chan\nJiang/Wei\n1,06\nÉtape\n87%\nYe/Chan\n5,00\nÉtape\n13%\n"
+       "monde\nOpen de Finlande H\nÀ 12h25\nZJ.Lee\n-\nC.Popov\nZJ.Lee\n2,95\nÉtape\n6%\nC.Popov\n1,25\nÉtape\n94%\n"
+       "monde\nOpen de Finlande H\nÀ 13h20\nTC.Chou\n-\nK.Watanabe\nTC.Chou\n1,80\nÉtape\n46%\nK.Watanabe\n1,71\nÉtape\n54%\n")
+    observed,why=parse_unibet(realistic,datetime(2026,10,9,10,33,tzinfo=PARIS))
+    assert len(observed)==2, (why,observed)
+    assert observed[0]['player_2_display']=='C.Popov' and observed[0]['odds_2']==1.25
     bad=sample_unibet.replace('C.Popov 1,25','Different 1,25')
     assert len(parse_unibet(bad,now)[0])==1
     bwin=("Badminton\nVainqueur 1 2\n"
@@ -317,6 +341,20 @@ def self_test():
          "Retraite 1,80 Live 1,80")
     rows,why=parse_fdj(fdj,now)
     assert len(rows)==1,(why,rows)
+    fdj_lines=("Aujourd'hui\nXC.Zhu-H.Huang\nOp. Finlande H\n"
+               "N°19714 Face à Face I Fin de valid. 09/10 12h35\nAfficher\nXC.Zhu\n1,18\nH.Huang\n3,40\n"
+               "99%\n0%\nZJ.Lee-C.Popov\nOp. Finlande H\n"
+               "N°12961 Score Exact I Fin de valid. 09/10 12h20\nAfficher\n")
+    observed,why=parse_fdj(fdj_lines,datetime(2026,10,9,10,33,tzinfo=PARIS),discipline='MS')
+    assert len(observed)==1,(why,observed)
+    assert observed[0]['player_1_display']=='XC.Zhu' and observed[0]['odds_2']==3.4
+    real_fdj=("Jiang/Wei-Ye/Chan\nOp. Finlande DM\nN°19087 Face à Face I Fin de valid. 09/10 11h55\n"
+       "Afficher\nJiang/Wei\n1,06\nYe/Chan\n5,00\n99%\n0%\n"
+       "ZJ.Lee-C.Popov\nOp. Finlande H\nN°12961 Score Exact I Fin de valid. 09/10 12h20\n"
+       "Afficher\nZJ.Lee\n1,35\nC.Popov\n2,45")
+    live_retail,why=parse_fdj(real_fdj,now)
+    assert len(live_retail)==1,(why,live_retail)
+    assert live_retail[0]['player_1_display']=='Jiang/Wei' and live_retail[0]['odds_2']==5.0
     assert rows[0]['valid_until_paris'].startswith('2026-10-09')
     assert parse_fdj(fdj,datetime(2026,10,9,13,0,tzinfo=PARIS))[0]==[]
     assert SOURCES['fdj_pos_fr']['kind']=='RETAIL_NOT_ONLINE'
