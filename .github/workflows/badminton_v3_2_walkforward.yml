@@ -1,0 +1,70 @@
+name: Badminton V3.2 walk-forward selection (NO ODDS)
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - 'Badminton V3.1 feature backtest (NO ODDS)'
+    types: [completed]
+    branches: [main]
+  push:
+    paths:
+      - 'badminton_v3_2_walkforward.py'
+      - '.github/workflows/badminton_v3_2_walkforward.yml'
+  schedule:
+    - cron: '20 6 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bwf-results-sync
+  cancel-in-progress: false
+
+jobs:
+  v3_2_walkforward:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Refresh repository
+        run: git pull --ff-only origin main
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate V3.2 logic
+        run: |
+          python -m py_compile badminton_v3_2_walkforward.py
+          python badminton_v3_2_walkforward.py --self-test
+
+      - name: Run strict multi-year walk-forward
+        run: |
+          python badminton_v3_2_walkforward.py \
+            --data-dir data/bwf \
+            --output data/model_v3_2
+
+      - name: Archive V3.2 research outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/model_v3_2
+          if ! git diff --cached --quiet; then
+            git commit -m 'Evaluate Badminton V3.2 walk-forward feature combinations'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo 'No V3.2 report changes.'
+          fi
+
+      - name: Publish V3.2 summary
+        run: cat data/model_v3_2/summary.md >> "$GITHUB_STEP_SUMMARY"
