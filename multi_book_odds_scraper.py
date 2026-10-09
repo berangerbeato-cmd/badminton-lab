@@ -5,8 +5,9 @@ This is NOT a bookmaker feed, bookmaker price timestamp, real-time bet signal,
 or guarantee of executable prices. The run performs read-only public browsing;
 no account, captcha solving, geoblock circumvention or wagering.
 
-Sources: Unibet.fr, bwin.fr, FDJ ParionsSport *point de vente* (RETAIL),
-Betclic.fr and Winamax.fr connectivity probes (no unverified parsers).
+Sources: Unibet.fr, FDJ ParionsSport *point de vente* (RETAIL), and
+conservative public-access probes for bwin, Betclic, Winamax, NetBet, PMU,
+and Betsson. A reachable site is never counted as an actual price feed.
 Every observation is stored for audit. Nothing writes Sheets or rewrites T0.
 
     python multi_book_odds_scraper.py --self-test
@@ -30,13 +31,22 @@ from collections import Counter
 from unibet_odds_scraper import parse_listings
 
 PARIS = ZoneInfo("Europe/Paris")
-UA = "BadmintonResearchOdds/0.2 (read-only public research)"
+UA = "BadmintonResearchOdds/0.3 (read-only public research)"
+ONLINE_MAX_CACHE_AGE_SECONDS = 120
+# FDJ point-of-sale lists sometimes pass through a CDN cache of ~4 minutes.
+# We may *archive* a page aged <=10 minutes but explicitly mark its quotes
+# CACHED / NOT CURRENT / NOT EXECUTABLE. This never relaxes Unibet standards.
+FDJ_ARCHIVE_MAX_CACHE_AGE_SECONDS = 600
+FDJ_MIN_VALIDITY_REMAINING_SECONDS = 600
 SOURCES = {
     "unibet_fr": {"operator":"Unibet.fr", "url":"https://www.unibet.fr/paris-badminton", "kind":"ONLINE", "parser":"unibet"},
     "bwin_fr": {"operator":"bwin.fr", "url":"https://sports.bwin.fr/fr/sports/badminton-44", "kind":"ONLINE", "parser":"bwin"},
     "fdj_pos_fr": {"operator":"Parions Sport Point de Vente (FDJ)", "url":"https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton", "kind":"RETAIL_NOT_ONLINE", "parser":"fdj"},
     "betclic_fr": {"operator":"Betclic.fr", "url":"https://www.betclic.fr/", "kind":"ONLINE", "parser":None},
     "winamax_fr": {"operator":"Winamax.fr", "url":"https://www.winamax.fr/", "kind":"ONLINE", "parser":None},
+    "netbet_fr": {"operator":"NetBet.fr", "url":"https://www.netbet.fr/badminton", "kind":"ONLINE", "parser":None},
+    "pmu_fr": {"operator":"PMU.fr", "url":"https://www.pmu.fr/sport/", "kind":"ONLINE", "parser":None},
+    "betsson_fr": {"operator":"Betsson.fr", "url":"https://www.betsson.fr/", "kind":"ONLINE", "parser":None},
 }
 ODD = re.compile(r"(?<!\d)(\d{1,2}[.,]\d{2})(?!\d)")
 PRICE_PAIR = re.compile(r"^(.+?)\s+(\d{1,2}[.,]\d{2})\s+(.+?)\s+(\d{1,2}[.,]\d{2})$")
@@ -143,13 +153,27 @@ def parse_fdj(text, now, discipline="UNKNOWN"):
     lines=[re.sub(r"\s+"," ",x).strip() for x in text.splitlines() if x.strip()]
     rows=[]
     for i,line in enumerate(lines):
+        # The retail index contains many other sports markets, including
+        # Face à Face - 1er Set; never treat these as a full-match winner.
+        if re.search(r"Face\s+[àa]\s+Face\s*[-–]\s*1er\s+Set",line,re.I):
+            continue
         hit=FDJ_MARKET.search(line)
         if not hit or i+1>=len(lines):
             continue
+        competition=lines[i-1] if i>=1 else ''
+        event_title=lines[i-2] if i>=2 else ''
+        this_discipline=discipline
+        if discipline=='AUTO':
+            # FDJ retail index labels individual competitions with H/F/DH/DF/DM.
+            # Only H (not DH) belongs to the current BWF men's singles model.
+            kind=re.search(r'\b(H|F|DH|DF|DM)\s*$',competition,re.I)
+            if not kind or kind.group(1).upper()!='H':
+                continue
+            this_discipline='MS'
         dd,mm,hh,minute=map(int,hit.groups())
         try:
             end=datetime(now.year,mm,dd,hh,minute,tzinfo=PARIS)
-            if end < now or (end-now).total_seconds()>4*86400:
+            if (end-now).total_seconds() < FDJ_MIN_VALIDITY_REMAINING_SECONDS or (end-now).total_seconds()>4*86400:
                 continue
         except ValueError:
             continue
@@ -170,9 +194,20 @@ def parse_fdj(text, now, discipline="UNKNOWN"):
             continue
         try:
             p1,o1,p2,o2=fields
+            if this_discipline=='MS' and ('/' in p1 or '/' in p2):
+                continue
+            # Bind prices to the TWO contestants in the market's own title.
+            # If an event title is present but disagrees, reject the pairing.
+            if '-' in event_title and not event_title.lower().startswith('parions'):
+                heading=event_title.replace(' ', '').casefold()
+                players=(p1.replace(' ','')+'-'+p2.replace(' ','')).casefold()
+                if heading != players:
+                    continue
             # This is a price block only, not proof of exact-match pairing.
             row=quote(p1,p2,o1,o2,valid_until_paris=end.isoformat(timespec="minutes"),
-                      market_verification="RETAIL_MARKET_NEEDS_EVENT_CROSSCHECK",discipline=discipline)
+                      market_verification="RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+                      discipline=this_discipline,retail_event_display=event_title,
+                      retail_competition_display=competition)
             rows.append(row)
         except ValueError:
             continue
@@ -224,10 +259,21 @@ def analyze_source(key, now, browser):
             item['status']='REJECT_HTTP_STATUS_OR_REDIRECT'
             return item
         age=info.get('cache_age_seconds')
+        cached_fdj=False
         try:
-            if age is not None and int(age)>120:
-                item['status']='REJECT_HTTP_CACHE_AGE'
-                return item
+            if age is not None:
+                seconds=int(age)
+                if seconds<0:
+                    item['status']='REJECT_UNPARSEABLE_CACHE_AGE'
+                    return item
+                if key=='fdj_pos_fr' and seconds>ONLINE_MAX_CACHE_AGE_SECONDS:
+                    if seconds>FDJ_ARCHIVE_MAX_CACHE_AGE_SECONDS:
+                        item['status']='REJECT_HTTP_CACHE_AGE'
+                        return item
+                    cached_fdj=True
+                elif seconds>ONLINE_MAX_CACHE_AGE_SECONDS:
+                    item['status']='REJECT_HTTP_CACHE_AGE'
+                    return item
         except (ValueError, TypeError):
             item['status']='REJECT_UNPARSEABLE_CACHE_AGE'
             return item
@@ -235,13 +281,12 @@ def analyze_source(key, now, browser):
             item['status']='PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED'
             return item
         extract={'unibet':parse_unibet,'bwin':parse_bwin,'fdj':parse_fdj}[source['parser']]
-        rows, why=extract(content,now)
+        rows, why=(parse_fdj(content,now,discipline='AUTO') if key=='fdj_pos_fr'
+                   else extract(content,now))
         if key=='fdj_pos_fr':
-            # The top-level FDJ page is normally only a tournament index.
-            # Discover the CURRENT men's-singles event subpages, and audit
-            # each subpage's robots policy independently. Limit traffic.
-            candidates=["https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-h/56053"]
-            candidates+=info.get('public_badminton_event_links', [])
+            # Discover only public event links; do not rely on a stale hard-
+            # coded tournament ID from a previous week.
+            candidates=info.get('public_badminton_event_links', [])
             chosen=[]
             for candidate in dict.fromkeys(candidates):
                 if (urlsplit(candidate).netloc == urlsplit(source['url']).netloc and
@@ -257,20 +302,37 @@ def analyze_source(key, now, browser):
                 try:
                     sub_content,sub_info=render(browser,candidate)
                     sub_rows,sub_why=parse_fdj(sub_content,now,discipline='MS')
-                    if sub_info['http_status']!=200:sub_rows=[]
+                    sub_age=sub_info.get('cache_age_seconds')
+                    if (sub_info['http_status']!=200 or
+                        (sub_age is not None and (not str(sub_age).isdigit() or int(sub_age)>FDJ_ARCHIVE_MAX_CACHE_AGE_SECONDS))):
+                        sub_rows=[]
+                        sub_why='SUBPAGE_REJECT_HTTP_OR_CACHE_AGE'
+                    if sub_rows and sub_age is not None and int(sub_age)>ONLINE_MAX_CACHE_AGE_SECONDS:
+                        cached_fdj=True
                     for value in sub_rows:value['event_page_url']=candidate
                     rows.extend(sub_rows)
                     item['retail_pages_audited'].append({'url':candidate,'status':sub_why,
                                                          'http_status':sub_info['http_status'],
+                                                         'cache_age_seconds':sub_age,
                                                          'quotes':len(sub_rows)})
                 except Exception as sub_exc:
                     item['retail_pages_audited'].append({'url':candidate,
                          'status':'SUBPAGE_ERROR_'+type(sub_exc).__name__})
             rows=[r for r in rows if r.get('discipline')=='MS']
+            distinct={}
+            for row in rows:
+                k=(row['player_1_display'].casefold(),row['player_2_display'].casefold(),
+                   row['valid_until_paris'],row['odds_1'],row['odds_2'])
+                distinct.setdefault(k,row)
+            rows=list(distinct.values())
+            item['retail_page_cached']=cached_fdj
+            item['retail_price_notice']='Point-of-sale only. Odds can change before purchase; receipt is authoritative.'
             why=f'{why}; audited {len(item["retail_pages_audited"])} retail MS pages'
         item['quotes']=rows
         item['parser_notes']=why
-        item['status']='OBSERVED_SHADOW_RETAIL' if rows and source['kind']=='RETAIL_NOT_ONLINE' else ('OBSERVED_SHADOW_NEEDS_MARKET_CONFIRMATION' if rows else 'NO_CONFIDENT_PREMATCH_QUOTES')
+        item['status']=(('OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT' if cached_fdj else 'OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE')
+                        if rows and source['kind']=='RETAIL_NOT_ONLINE' else
+                        ('OBSERVED_SHADOW_NEEDS_MARKET_CONFIRMATION' if rows else 'NO_CONFIDENT_PREMATCH_QUOTES'))
     except Exception as exc:
         item['status']='SCRAPE_FAILED'
         item['error']=(type(exc).__name__+': '+str(exc))[:300]
@@ -358,7 +420,44 @@ def self_test():
     assert rows[0]['valid_until_paris'].startswith('2026-10-09')
     assert parse_fdj(fdj,datetime(2026,10,9,13,0,tzinfo=PARIS))[0]==[]
     assert SOURCES['fdj_pos_fr']['kind']=='RETAIL_NOT_ONLINE'
+    assert FDJ_ARCHIVE_MAX_CACHE_AGE_SECONDS >= 261 > ONLINE_MAX_CACHE_AGE_SECONDS
+    assert len(parse_fdj(real_fdj,now,discipline='AUTO')[0])==0
+    retail_index=("Aujourd'hui\nZJ.Lee-C.Popov\nOp. Finlande H\n"
+                  "N°12962 Face à Face I Fin de valid. 09/10 12h20\nAfficher\n"
+                  "ZJ.Lee\n2,95\nC.Popov\n1,25\n52%\n48%\n"
+                  "Feng/Huang-Karlb/Sjoo\nOp. Finlande DM\n"
+                  "N°19086 Face à Face I Fin de valid. 09/10 12h05\nAfficher\n"
+                  "Feng/Huang\n1,01\nKarlb/Sjoo\n7,10\n"
+                  "TC.Chou-K.Watanabe\nOp. Finlande H\n"
+                  "N°12964 Face à Face - 1er Set I Fin de valid. 09/10 13h15\nAfficher\n"
+                  "TC.Chou\n1,80\nK.Watanabe\n1,71\n")
+    retail,why=parse_fdj(retail_index,now,discipline='AUTO')
+    assert len(retail)==1,(why,retail)
+    assert retail[0]['player_1_display']=='ZJ.Lee' and retail[0]['discipline']=='MS'
+    assert retail[0]['odds_2']==1.25 and retail[0]['market_verification']=='RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION'
+    bad_label=retail_index.replace('ZJ.Lee-C.Popov','ZJ.Lee-WrongName')
+    assert parse_fdj(bad_label,now,discipline='AUTO')[0]==[]
+    assert not parse_fdj(retail_index,datetime(2026,10,9,12,15,tzinfo=PARIS),discipline='AUTO')[0]
+    for key in ('netbet_fr','pmu_fr','betsson_fr'):
+        assert SOURCES[key]['parser'] is None and SOURCES[key]['kind']=='ONLINE'
+    # Integration tests of cache handling without making external requests.
+    from unittest.mock import patch
+    browse_info={'http_status':200,
+                 'resolved_url':SOURCES['fdj_pos_fr']['url'],
+                 'cache_age_seconds':'261','public_badminton_event_links':[]}
+    with (patch(__name__+'.robots_check',return_value=(True,'ALLOWED_BY_ROBOTS')),
+          patch(__name__+'.render',return_value=(retail_index,browse_info))):
+        archived=analyze_source('fdj_pos_fr',now,object())
+        assert archived['status']=='OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT',archived
+        assert len(archived['quotes'])==1 and archived['retail_page_cached']
+        rejected_info=dict(browse_info,cache_age_seconds='601')
+        with patch(__name__+'.render',return_value=(retail_index,rejected_info)):
+            assert analyze_source('fdj_pos_fr',now,object())['status']=='REJECT_HTTP_CACHE_AGE'
+        with patch(__name__+'.render',return_value=(retail_index,browse_info)):
+            online=analyze_source('unibet_fr',now,object())
+            assert online['status']=='REJECT_HTTP_STATUS_OR_REDIRECT' or online['status']=='REJECT_HTTP_CACHE_AGE'
     print('ALL SELF TESTS PASS: Unibet, bwin MS, FDJ retail expiry, invalid/expired rejected')
+    print('PASS: FDJ retail MS-only pairing, reject 1st-set and doubles, no near-expiry, new operator probes')
 
 
 def main():
