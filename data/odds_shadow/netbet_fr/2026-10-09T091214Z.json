@@ -1,0 +1,21 @@
+{
+  "body_sha256": "21f37923cd11ea59eb4c6fdb60b2e7977d5938fee21343d787ea4baccae4cc9d",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-10-09T09:12:44+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-09T09:12:39+00:00",
+  "operator": "NetBet.fr",
+  "operator_kind": "ONLINE",
+  "public_badminton_event_links": [],
+  "quotes": [],
+  "resolved_url": "https://www.netbet.fr/badminton",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "server_date": "Fri, 09 Oct 2026 09:12:41 GMT",
+  "source_key": "netbet_fr",
+  "source_url": "https://www.netbet.fr/badminton",
+  "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
+  "text_excerpt_for_debug": "Nous utilisons des cookies essentiels pour faire fonctionner notre site. Avec votre consentement, nous pouvons également utiliser des cookies non essentiels pour améliorer l'expérience utilisateur, personnaliser le contenu et la publicité et analyser le trafic sur notre site web. Ces raisons pourront nous amener à partager des données concernant votre utilisation du site avec nos sociétés d’analyses, de réseaux sociaux et annonceurs partenaires. En cliquant sur “Accepter“, vous consentez à l’utilisation de cookies sur notre site web, conformément à la description fournie dans notre politique relative aux cookies. Vous pouvez modifier vos paramètres d’acceptation des cookies à tout moment en cliquant sur “Préférences”.\nAccepter\nPARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13 - APPEL NON SURTAXÉ)\n\nAccès rapide\n\nAccueil\nCashout\nEn direct\nPromotions\nContact\n\nPopulaire\n\nSuper Cotes\nLens - Lyon\nFootball du jour\nLigue 1\nPremier League\nLaLiga\nBundesliga\nSerie A\nLigue 2\nTennis du Jour\nATP - Shanghai\nPékin WTA\n\nSports\n\nEn direct\n(6)\nSuper Cotes\nFootball\nTennis\nFoot US\nBasketball\nSki Alpin\nBadminton\nBaseball\nBiathlon\nBoxe\nCyclisme\nGolf\nHandball\nHockey/glace\nMMA\nSport Automobile\nMoto\nRugby à XIII\nRugby\nVoile\nSnooker\nTennis de table\nVolleyball\n\nAutres pages\n\nRèglement des paris\nScores en direct\n\nFormat des cotes\n\nFermer\n\nAccès rapide\n\nAccueil\nCashout\nEn direct\nPromotions\nContact\n\nPopulaire\n\nSuper Cotes\nLens - Lyon\nFootball du jour\nLigue 1\nPremier League\nLaLiga\nBundesliga\nSerie A\nLigue 2\nTennis du Jour\nATP - Shanghai\nPékin WTA",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}

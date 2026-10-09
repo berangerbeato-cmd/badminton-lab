@@ -1,19 +1,19 @@
 {
-  "observed_at_utc": "2026-10-09T08:58:03+00:00",
+  "observed_at_utc": "2026-10-09T09:12:14+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
-  "online_h2h_shadow_rows": 4,
+  "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 3,
   "sources": {
     "unibet_fr": {
-      "status": "OBSERVED_SHADOW_NEEDS_MARKET_CONFIRMATION",
-      "quotes": 4
+      "status": "REJECT_HTTP_CACHE_AGE",
+      "quotes": 0
     },
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quotes": 0
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL",
+      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quotes": 3
     },
     "betclic_fr": {
@@ -21,6 +21,18 @@
       "quotes": 0
     },
     "winamax_fr": {
+      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
+      "quotes": 0
+    },
+    "netbet_fr": {
+      "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
+      "quotes": 0
+    },
+    "pmu_fr": {
+      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
+      "quotes": 0
+    },
+    "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quotes": 0
     }
