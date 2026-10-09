@@ -1,12 +1,12 @@
 {
-  "observed_at_utc": "2026-10-09T09:12:14+00:00",
+  "observed_at_utc": "2026-10-09T09:25:08+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
-  "online_h2h_shadow_rows": 0,
+  "online_h2h_shadow_rows": 4,
   "retail_shadow_rows": 3,
   "sources": {
     "unibet_fr": {
-      "status": "REJECT_HTTP_CACHE_AGE",
-      "quotes": 0
+      "status": "OBSERVED_SHADOW_NEEDS_MARKET_CONFIRMATION",
+      "quotes": 4
     },
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
