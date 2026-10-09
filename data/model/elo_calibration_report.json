@@ -1,6 +1,6 @@
 {
   "model": "bwf_elo_ms_platt_v1",
-  "generated_at_utc": "2026-10-08T22:27:49.207673+00:00",
+  "generated_at_utc": "2026-10-09T05:26:01.561939+00:00",
   "baseline_model": "bwf_elo_ms_v0",
   "k": 48,
   "fit_year": 2024,
