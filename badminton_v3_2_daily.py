@@ -376,7 +376,11 @@ def self_test():
     assert feats["rest_days_diff"] == 0.0
     assert feats["set_margin5_diff"] != 0.0
     assert set(feats) == set(SELECTED_FEATURES)
-    assert ratings["A"] != INITIAL_ELO
+    # A wins once and loses once on the same frozen morning snapshot, so its
+    # two Elo changes cancel exactly. B loses and C wins, proving updates ran.
+    assert ratings["A"] == INITIAL_ELO
+    assert ratings["B"] < INITIAL_ELO
+    assert ratings["C"] > INITIAL_ELO
     print("V3.2 daily self-test OK")
 
 
