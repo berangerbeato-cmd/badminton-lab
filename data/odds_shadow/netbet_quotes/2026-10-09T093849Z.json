@@ -1,0 +1,225 @@
+{
+  "bookmaker_price_updated_at": null,
+  "candidate_urls": [
+    "https://www.netbet.fr/badminton/international/artic-open"
+  ],
+  "elo_comparisons": [
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5594:1552538",
+      "date_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton/international/artic-open",
+      "listed_day_paris": "2026-10-09",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-09T05:26:01+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Lee Zii Jia",
+        "bwf_name": "LEE Zii Jia",
+        "decimal_odds": 2.62,
+        "illustrative_ev_pct": -70.9,
+        "model_fair_odds": 9.0042,
+        "model_probability": 0.11105876
+      },
+      "side_2": {
+        "bookmaker_display": "Christo Popov",
+        "bwf_name": "Christo POPOV",
+        "decimal_odds": 1.28,
+        "illustrative_ev_pct": 13.78,
+        "model_fair_odds": 1.1249,
+        "model_probability": 0.88894124
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5594:1552534",
+      "date_basis": "PUBLISHED_CALENDAR_DATE",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton/international/artic-open",
+      "listed_day_paris": "2026-10-09",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-09T05:26:01+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Tien Chen Chou",
+        "bwf_name": "CHOU Tien Chen",
+        "decimal_odds": 1.83,
+        "illustrative_ev_pct": 4.5,
+        "model_fair_odds": 1.7512,
+        "model_probability": 0.57103844
+      },
+      "side_2": {
+        "bookmaker_display": "Koki Watanabe",
+        "bwf_name": "Koki WATANABE",
+        "decimal_odds": 1.62,
+        "illustrative_ev_pct": -30.51,
+        "model_fair_odds": 2.3312,
+        "model_probability": 0.42896156
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5594:1552533",
+      "date_basis": "PUBLISHED_CALENDAR_DATE",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton/international/artic-open",
+      "listed_day_paris": "2026-10-09",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-09T05:26:01+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Zhe An Hu",
+        "bwf_name": "HU Zhe An",
+        "decimal_odds": 2.95,
+        "illustrative_ev_pct": -4.8,
+        "model_fair_odds": 3.0986,
+        "model_probability": 0.32272385
+      },
+      "side_2": {
+        "bookmaker_display": "Anders Antonsen",
+        "bwf_name": "Anders ANTONSEN",
+        "decimal_odds": 1.21,
+        "illustrative_ev_pct": -18.05,
+        "model_fair_odds": 1.4765,
+        "model_probability": 0.67727615
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5594:1552530",
+      "date_basis": "PUBLISHED_CALENDAR_DATE",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton/international/artic-open",
+      "listed_day_paris": "2026-10-09",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-09T05:26:01+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Vitidsarn Kunlavut",
+        "bwf_name": "Kunlavut VITIDSARN",
+        "decimal_odds": 1.22,
+        "illustrative_ev_pct": -10.76,
+        "model_fair_odds": 1.3671,
+        "model_probability": 0.73146539
+      },
+      "side_2": {
+        "bookmaker_display": "Yushi Tanaka",
+        "bwf_name": "Yushi TANAKA",
+        "decimal_odds": 2.92,
+        "illustrative_ev_pct": -21.59,
+        "model_fair_odds": 3.7239,
+        "model_probability": 0.26853461
+      },
+      "valid_pre_match_T0": false
+    }
+  ],
+  "index_url": "https://www.netbet.fr/badminton",
+  "model_snapshot": "data/model/snapshots/2026-10-09.csv",
+  "model_snapshot_sha256": "4015f1e736ef1777819469766c3637ac372d19940879787364831290894e689d",
+  "observed_at_utc": "2026-10-09T09:38:49+00:00",
+  "operator": "NetBet.fr",
+  "page_audits": [
+    {
+      "body_sha256": "822048ff39f8a3b89568ac9c222ee8e93843b4897402c1d03c9f1c182df56741",
+      "cache_age_seconds": null,
+      "eligible_listing_rows": 4,
+      "http_status": 200,
+      "markets_seen": 4,
+      "rejections": {},
+      "resolved_url": "https://www.netbet.fr/badminton/international/artic-open",
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "status": "PUBLIC_LISTINGS_OBSERVED_NEEDS_CONFIRMATION",
+      "url": "https://www.netbet.fr/badminton/international/artic-open"
+    }
+  ],
+  "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
+  "quotes": [
+    {
+      "competition_display": "Artic Open",
+      "day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/artic-open",
+      "listed_day_paris": "2026-10-09",
+      "market": "H2H_FULL_MATCH",
+      "odds_1": 2.62,
+      "odds_2": 1.28,
+      "player_1_display": "Lee Zii Jia",
+      "player_2_display": "Christo Popov",
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "competition_display": "Artic Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/artic-open",
+      "listed_day_paris": "2026-10-09",
+      "market": "H2H_FULL_MATCH",
+      "odds_1": 1.83,
+      "odds_2": 1.62,
+      "player_1_display": "Tien Chen Chou",
+      "player_2_display": "Koki Watanabe",
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "competition_display": "Artic Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/artic-open",
+      "listed_day_paris": "2026-10-09",
+      "market": "H2H_FULL_MATCH",
+      "odds_1": 2.95,
+      "odds_2": 1.21,
+      "player_1_display": "Zhe An Hu",
+      "player_2_display": "Anders Antonsen",
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "competition_display": "Artic Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/artic-open",
+      "listed_day_paris": "2026-10-09",
+      "market": "H2H_FULL_MATCH",
+      "odds_1": 1.22,
+      "odds_2": 2.92,
+      "player_1_display": "Vitidsarn Kunlavut",
+      "player_2_display": "Yushi Tanaka",
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    }
+  ],
+  "reason_counts": {},
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+}
