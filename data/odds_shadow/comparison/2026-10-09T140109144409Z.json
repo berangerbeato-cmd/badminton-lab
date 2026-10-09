@@ -1,0 +1,341 @@
+{
+  "generated_at_utc": "2026-10-09T14:01:09+00:00",
+  "match_count": 4,
+  "matches": [
+    {
+      "bwf_match_id": "5594:1552530",
+      "comparison_status": "STALE_AT_COMPARISON_TIME",
+      "decision": "NO_BET_SHADOW",
+      "executable_price_verified": false,
+      "kickoff_verified": false,
+      "model": "bwf_elo_ms_platt_v1",
+      "model_asof_utc": "2026-10-09T05:26:01+00:00",
+      "model_snapshot_sha256": "4015f1e736ef1777819469766c3637ac372d19940879787364831290894e689d",
+      "observation_gap_seconds": 468,
+      "players": [
+        {
+          "best_historical_observation": {
+            "decimal_odds": 1.28,
+            "ev_pct": -6.37,
+            "operator": "Unibet.fr",
+            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
+          },
+          "best_within_window": null,
+          "bwf_player_id": "64032",
+          "model_probability": 0.73146539,
+          "name": "Kunlavut VITIDSARN",
+          "observed_odds": {
+            "NetBet.fr": 1.22,
+            "Unibet.fr": 1.28
+          }
+        },
+        {
+          "best_historical_observation": {
+            "decimal_odds": 2.92,
+            "ev_pct": -21.59,
+            "operator": "NetBet.fr",
+            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
+          },
+          "best_within_window": null,
+          "bwf_player_id": "86672",
+          "model_probability": 0.26853461,
+          "name": "Yushi TANAKA",
+          "observed_odds": {
+            "NetBet.fr": 2.92,
+            "Unibet.fr": 2.75
+          }
+        }
+      ],
+      "source_details": {
+        "NetBet.fr": {
+          "age_seconds": 15740,
+          "current": false,
+          "model_snapshot_sha256": "4015f1e736ef1777819469766c3637ac372d19940879787364831290894e689d",
+          "observed_at_utc": "2026-10-09T09:38:49+00:00",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_KICKOFF_UNVERIFIED",
+            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ],
+          "source_url": "https://www.netbet.fr/badminton/international/artic-open"
+        },
+        "Unibet.fr": {
+          "age_seconds": 16208,
+          "current": false,
+          "model_snapshot_sha256": "4015f1e736ef1777819469766c3637ac372d19940879787364831290894e689d",
+          "observed_at_utc": "2026-10-09T09:31:01+00:00",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_DETAIL_NOT_VERIFIED",
+            "BWF_KICKOFF_DATE_ONLY",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ],
+          "source_url": "https://www.unibet.fr/paris-badminton"
+        }
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bwf_match_id": "5594:1552533",
+      "comparison_status": "STALE_AT_COMPARISON_TIME",
+      "decision": "NO_BET_SHADOW",
+      "executable_price_verified": false,
+      "kickoff_verified": false,
+      "model": "bwf_elo_ms_platt_v1",
+      "model_asof_utc": "2026-10-09T05:26:01+00:00",
+      "model_snapshot_sha256": "4015f1e736ef1777819469766c3637ac372d19940879787364831290894e689d",
+      "observation_gap_seconds": 468,
+      "players": [
+        {
+          "best_historical_observation": {
+            "decimal_odds": 2.95,
+            "ev_pct": -4.8,
+            "operator": "NetBet.fr",
+            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
+          },
+          "best_within_window": null,
+          "bwf_player_id": "73591",
+          "model_probability": 0.32272385,
+          "name": "HU Zhe An",
+          "observed_odds": {
+            "NetBet.fr": 2.95,
+            "Unibet.fr": 2.8
+          }
+        },
+        {
+          "best_historical_observation": {
+            "decimal_odds": 1.28,
+            "ev_pct": -13.31,
+            "operator": "Unibet.fr",
+            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
+          },
+          "best_within_window": null,
+          "bwf_player_id": "91554",
+          "model_probability": 0.67727615,
+          "name": "Anders ANTONSEN",
+          "observed_odds": {
+            "NetBet.fr": 1.21,
+            "Unibet.fr": 1.28
+          }
+        }
+      ],
+      "source_details": {
+        "NetBet.fr": {
+          "age_seconds": 15740,
+          "current": false,
+          "model_snapshot_sha256": "4015f1e736ef1777819469766c3637ac372d19940879787364831290894e689d",
+          "observed_at_utc": "2026-10-09T09:38:49+00:00",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_KICKOFF_UNVERIFIED",
+            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ],
+          "source_url": "https://www.netbet.fr/badminton/international/artic-open"
+        },
+        "Unibet.fr": {
+          "age_seconds": 16208,
+          "current": false,
+          "model_snapshot_sha256": "4015f1e736ef1777819469766c3637ac372d19940879787364831290894e689d",
+          "observed_at_utc": "2026-10-09T09:31:01+00:00",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_DETAIL_NOT_VERIFIED",
+            "BWF_KICKOFF_DATE_ONLY",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ],
+          "source_url": "https://www.unibet.fr/paris-badminton"
+        }
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bwf_match_id": "5594:1552534",
+      "comparison_status": "STALE_AT_COMPARISON_TIME",
+      "decision": "NO_BET_SHADOW",
+      "executable_price_verified": false,
+      "kickoff_verified": false,
+      "model": "bwf_elo_ms_platt_v1",
+      "model_asof_utc": "2026-10-09T05:26:01+00:00",
+      "model_snapshot_sha256": "4015f1e736ef1777819469766c3637ac372d19940879787364831290894e689d",
+      "observation_gap_seconds": 468,
+      "players": [
+        {
+          "best_historical_observation": {
+            "decimal_odds": 1.83,
+            "ev_pct": 4.5,
+            "operator": "NetBet.fr",
+            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
+          },
+          "best_within_window": null,
+          "bwf_player_id": "34810",
+          "model_probability": 0.57103844,
+          "name": "CHOU Tien Chen",
+          "observed_odds": {
+            "NetBet.fr": 1.83,
+            "Unibet.fr": 1.8
+          }
+        },
+        {
+          "best_historical_observation": {
+            "decimal_odds": 1.71,
+            "ev_pct": -26.65,
+            "operator": "Unibet.fr",
+            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
+          },
+          "best_within_window": null,
+          "bwf_player_id": "97174",
+          "model_probability": 0.42896156,
+          "name": "Koki WATANABE",
+          "observed_odds": {
+            "NetBet.fr": 1.62,
+            "Unibet.fr": 1.71
+          }
+        }
+      ],
+      "source_details": {
+        "NetBet.fr": {
+          "age_seconds": 15740,
+          "current": false,
+          "model_snapshot_sha256": "4015f1e736ef1777819469766c3637ac372d19940879787364831290894e689d",
+          "observed_at_utc": "2026-10-09T09:38:49+00:00",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_KICKOFF_UNVERIFIED",
+            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ],
+          "source_url": "https://www.netbet.fr/badminton/international/artic-open"
+        },
+        "Unibet.fr": {
+          "age_seconds": 16208,
+          "current": false,
+          "model_snapshot_sha256": "4015f1e736ef1777819469766c3637ac372d19940879787364831290894e689d",
+          "observed_at_utc": "2026-10-09T09:31:01+00:00",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_DETAIL_NOT_VERIFIED",
+            "BWF_KICKOFF_DATE_ONLY",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ],
+          "source_url": "https://www.unibet.fr/paris-badminton"
+        }
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bwf_match_id": "5594:1552538",
+      "comparison_status": "STALE_AT_COMPARISON_TIME",
+      "decision": "NO_BET_SHADOW",
+      "executable_price_verified": false,
+      "kickoff_verified": false,
+      "model": "bwf_elo_ms_platt_v1",
+      "model_asof_utc": "2026-10-09T05:26:01+00:00",
+      "model_snapshot_sha256": "4015f1e736ef1777819469766c3637ac372d19940879787364831290894e689d",
+      "observation_gap_seconds": 468,
+      "players": [
+        {
+          "best_historical_observation": {
+            "decimal_odds": 2.65,
+            "ev_pct": -70.57,
+            "operator": "Unibet.fr",
+            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
+          },
+          "best_within_window": null,
+          "bwf_player_id": "81561",
+          "model_probability": 0.11105876,
+          "name": "LEE Zii Jia",
+          "observed_odds": {
+            "NetBet.fr": 2.62,
+            "Unibet.fr": 2.65
+          }
+        },
+        {
+          "best_historical_observation": {
+            "decimal_odds": 1.32,
+            "ev_pct": 17.34,
+            "operator": "Unibet.fr",
+            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
+          },
+          "best_within_window": null,
+          "bwf_player_id": "72885",
+          "model_probability": 0.88894124,
+          "name": "Christo POPOV",
+          "observed_odds": {
+            "NetBet.fr": 1.28,
+            "Unibet.fr": 1.32
+          }
+        }
+      ],
+      "source_details": {
+        "NetBet.fr": {
+          "age_seconds": 15740,
+          "current": false,
+          "model_snapshot_sha256": "4015f1e736ef1777819469766c3637ac372d19940879787364831290894e689d",
+          "observed_at_utc": "2026-10-09T09:38:49+00:00",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_KICKOFF_UNVERIFIED",
+            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ],
+          "source_url": "https://www.netbet.fr/badminton/international/artic-open"
+        },
+        "Unibet.fr": {
+          "age_seconds": 16208,
+          "current": false,
+          "model_snapshot_sha256": "4015f1e736ef1777819469766c3637ac372d19940879787364831290894e689d",
+          "observed_at_utc": "2026-10-09T09:31:01+00:00",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_DETAIL_NOT_VERIFIED",
+            "BWF_KICKOFF_DATE_ONLY",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ],
+          "source_url": "https://www.unibet.fr/paris-badminton"
+        }
+      },
+      "valid_pre_match_T0": false
+    }
+  ],
+  "max_age_seconds": 2700,
+  "max_gap_seconds": 1200,
+  "notes": [
+    "Cotes publiques observées; pas de preuve d'exécutabilité.",
+    "Temps d'observation différent du temps de mise à jour du bookmaker.",
+    "Un intervalle temporel compatible ne valide pas un T0 prématch.",
+    "Les prix historiques restent comparables à titre de recherche, jamais comme signaux de mise."
+  ],
+  "policy": "SHADOW_ONLY_NO_BET_NO_T0_NO_SHEETS_WRITE",
+  "schema_version": "badminton_shadow_comparator_v2.1",
+  "sources": {
+    "NetBet.fr": {
+      "observation_utc": "2026-10-09T09:38:49+00:00",
+      "operator": "NetBet.fr",
+      "rejected": [],
+      "rows_current": 0,
+      "rows_read": 4,
+      "rows_validated": 4,
+      "status": "VALIDATED_SOURCE"
+    },
+    "Unibet.fr": {
+      "observation_utc": "2026-10-09T09:31:01+00:00",
+      "operator": "Unibet.fr",
+      "rejected": [],
+      "rows_current": 0,
+      "rows_read": 4,
+      "rows_validated": 4,
+      "status": "VALIDATED_SOURCE"
+    }
+  },
+  "within_window_match_count": 0
+}
