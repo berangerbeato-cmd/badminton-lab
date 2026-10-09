@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - '.github/workflows/badminton_multi_odds_shadow.yml'
+      - 'odds_value_shadow.py'
   schedule:
     - cron: '12 6,8,9 * * *'   # 08:12, 10:12, 11:12 Paris in summer; one hour earlier in winter
 
@@ -24,17 +25,20 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Validate multi-operator parsers
+      - name: Validate multi-operator parsers and Elo comparison
         run: |
-          python -m py_compile multi_book_odds_scraper.py unibet_odds_scraper.py
+          python -m py_compile multi_book_odds_scraper.py unibet_odds_scraper.py odds_value_shadow.py
           python unibet_odds_scraper.py --self-test
           python multi_book_odds_scraper.py --self-test
+          python odds_value_shadow.py --self-test
       - name: Install browser for public pages
         run: |
           python -m pip install 'playwright==1.55.0'
           python -m playwright install --with-deps chromium
       - name: Read-only public prices and access diagnostics
         run: python multi_book_odds_scraper.py --live --out data/odds_shadow
+      - name: Compare public quotes with frozen Elo V1 snapshot (shadow, NO BET)
+        run: python odds_value_shadow.py --live --odds-dir data/odds_shadow --model-dir data/model
       - name: Save evidence without changing model, historic predictions or T0
         if: always()
         run: |
@@ -42,7 +46,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A -- data/odds_shadow
           if ! git diff --cached --quiet; then
-            git commit -m 'Audit public multi-bookmaker badminton H2H prices'
+            git commit -m 'Audit public multi-bookmaker badminton H2H prices and Elo shadow value'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
@@ -51,17 +55,40 @@ jobs:
         run: |
           python - <<'PY'
           import os,json
+          from datetime import datetime
           from pathlib import Path
           f=Path('data/odds_shadow/latest_summary.json')
           d=json.loads(f.read_text(encoding='utf-8')) if f.exists() else {}
+          v=Path('data/odds_shadow/latest_value_shadow.json')
+          m=json.loads(v.read_text(encoding='utf-8')) if v.exists() else {}
+          try:
+            stamp_delta=abs((datetime.fromisoformat(d['observed_at_utc'])-
+                             datetime.fromisoformat(m['source_observed_at_utc'])).total_seconds())
+          except (KeyError, TypeError, ValueError):
+            stamp_delta=float('inf')
+          if stamp_delta>10:
+            m={}
           lines=['### Badminton odds shadow audit',
             '- No betting, login, anti-bot bypass or T0/Sheets update.',
-            '- Source timestamps are observation timestamps, NOT bookmaker update times.',
+            '- Observation timestamps are NOT bookmaker price update times.',
             f"- Online H2H candidates: {d.get('online_h2h_shadow_rows','n/a')}",
-            f"- Retail FDJ candidates, not interchangeable with online: {d.get('retail_shadow_rows','n/a')}"]
-          for key,v in d.get('sources',{}).items():
-            lines.append(f"- {key}: {v['status']} ({v['quotes']} shadow quotes)")
+            f"- Retail FDJ candidates (NOT online): {d.get('retail_shadow_rows','n/a')}",
+            f"- Elo V1 shadow matched fixtures: {m.get('matched_fixtures_count','n/a')}",
+            '- All positive-EV findings are illustrative only; NO BET.']
+          for key,source in d.get('sources',{}).items():
+            lines.append(f"- {key}: {source['status']} ({source['quotes']} shadow quotes)")
+          if m.get('matches'):
+            lines.extend(['', '| BWF match | Joueur | Cote observée | EV indicative |', '|---|---|---:|---:|'])
+            for match in m['matches']:
+              for side in ('side_1','side_2'):
+                player=match[side]
+                lines.append(f"| {match['bwf_match_id']} | {player['bwf_name']} | {player['decimal_odds']:.2f} | {player['illustrative_ev_pct']:+.2f}% |")
+            lines.append('')
+            lines.append('All EV values are research-only; match start and executable quote unverified, NO BET.')
+          elif not m:
+            lines.append('- No fresh Elo value report confirmed for this run.')
           text='\n'.join(lines)+'\n'
           print(text)
-          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as out:out.write(text)
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as out:
+            out.write(text)
           PY
