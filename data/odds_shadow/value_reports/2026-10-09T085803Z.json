@@ -1,0 +1,173 @@
+{
+  "generated_at_utc": "2026-10-09T08:58:26+00:00",
+  "matched_fixtures_count": 4,
+  "matches": [
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5594:1552530",
+      "decision": "NO_BET_SHADOW",
+      "listed_start_paris": "2026-10-09T14:00+02:00",
+      "market": "H2H_FULL_MATCH",
+      "model": "bwf_elo_ms_platt_v1",
+      "model_asof_utc": "2026-10-09T05:26:01+00:00",
+      "observed_at_utc": "2026-10-09T08:58:03+00:00",
+      "operator": "Unibet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_DETAIL_NOT_VERIFIED",
+        "BWF_KICKOFF_DATE_ONLY",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "round": "QF",
+      "side_1": {
+        "bookmaker_name": "K.Vitidsarn",
+        "bwf_name": "Kunlavut VITIDSARN",
+        "bwf_player_id": "64032",
+        "decimal_odds": 1.28,
+        "illustrative_ev_pct": -6.37,
+        "model_fair_odds": 1.3671,
+        "model_probability": 0.73146539
+      },
+      "side_2": {
+        "bookmaker_name": "Y.Tanaka",
+        "bwf_name": "Yushi TANAKA",
+        "bwf_player_id": "86672",
+        "decimal_odds": 2.75,
+        "illustrative_ev_pct": -26.15,
+        "model_fair_odds": 3.7239,
+        "model_probability": 0.26853461
+      },
+      "tournament_bwf": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5594:1552533",
+      "decision": "NO_BET_SHADOW",
+      "listed_start_paris": "2026-10-09T13:50+02:00",
+      "market": "H2H_FULL_MATCH",
+      "model": "bwf_elo_ms_platt_v1",
+      "model_asof_utc": "2026-10-09T05:26:01+00:00",
+      "observed_at_utc": "2026-10-09T08:58:03+00:00",
+      "operator": "Unibet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_DETAIL_NOT_VERIFIED",
+        "BWF_KICKOFF_DATE_ONLY",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "round": "QF",
+      "side_1": {
+        "bookmaker_name": "ZA.Hu",
+        "bwf_name": "HU Zhe An",
+        "bwf_player_id": "73591",
+        "decimal_odds": 2.75,
+        "illustrative_ev_pct": -11.25,
+        "model_fair_odds": 3.0986,
+        "model_probability": 0.32272385
+      },
+      "side_2": {
+        "bookmaker_name": "A.Antonsen",
+        "bwf_name": "Anders ANTONSEN",
+        "bwf_player_id": "91554",
+        "decimal_odds": 1.29,
+        "illustrative_ev_pct": -12.63,
+        "model_fair_odds": 1.4765,
+        "model_probability": 0.67727615
+      },
+      "tournament_bwf": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5594:1552534",
+      "decision": "NO_BET_SHADOW",
+      "listed_start_paris": "2026-10-09T13:20+02:00",
+      "market": "H2H_FULL_MATCH",
+      "model": "bwf_elo_ms_platt_v1",
+      "model_asof_utc": "2026-10-09T05:26:01+00:00",
+      "observed_at_utc": "2026-10-09T08:58:03+00:00",
+      "operator": "Unibet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_DETAIL_NOT_VERIFIED",
+        "BWF_KICKOFF_DATE_ONLY",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "round": "QF",
+      "side_1": {
+        "bookmaker_name": "TC.Chou",
+        "bwf_name": "CHOU Tien Chen",
+        "bwf_player_id": "34810",
+        "decimal_odds": 1.8,
+        "illustrative_ev_pct": 2.79,
+        "model_fair_odds": 1.7512,
+        "model_probability": 0.57103844
+      },
+      "side_2": {
+        "bookmaker_name": "K.Watanabe",
+        "bwf_name": "Koki WATANABE",
+        "bwf_player_id": "97174",
+        "decimal_odds": 1.71,
+        "illustrative_ev_pct": -26.65,
+        "model_fair_odds": 2.3312,
+        "model_probability": 0.42896156
+      },
+      "tournament_bwf": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5594:1552538",
+      "decision": "NO_BET_SHADOW",
+      "listed_start_paris": "2026-10-09T12:25+02:00",
+      "market": "H2H_FULL_MATCH",
+      "model": "bwf_elo_ms_platt_v1",
+      "model_asof_utc": "2026-10-09T05:26:01+00:00",
+      "observed_at_utc": "2026-10-09T08:58:03+00:00",
+      "operator": "Unibet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_DETAIL_NOT_VERIFIED",
+        "BWF_KICKOFF_DATE_ONLY",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "round": "QF",
+      "side_1": {
+        "bookmaker_name": "ZJ.Lee",
+        "bwf_name": "LEE Zii Jia",
+        "bwf_player_id": "81561",
+        "decimal_odds": 2.95,
+        "illustrative_ev_pct": -67.24,
+        "model_fair_odds": 9.0042,
+        "model_probability": 0.11105876
+      },
+      "side_2": {
+        "bookmaker_name": "C.Popov",
+        "bwf_name": "Christo POPOV",
+        "bwf_player_id": "72885",
+        "decimal_odds": 1.25,
+        "illustrative_ev_pct": 11.12,
+        "model_fair_odds": 1.1249,
+        "model_probability": 0.88894124
+      },
+      "tournament_bwf": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+      "valid_pre_match_T0": false
+    }
+  ],
+  "model_snapshot": "data/model/snapshots/2026-10-09.csv",
+  "model_snapshot_sha256": "4015f1e736ef1777819469766c3637ac372d19940879787364831290894e689d",
+  "notes": "Illustrative EV only. Source reading timestamp is NOT bookmaker quote update time. BWF start date at 00:00 is NOT a verified match start. Do not write Predictions, T0, Odds History or place wagers.",
+  "operator": "Unibet.fr",
+  "policy": "NO_BET_SHADOW_ONLY_NO_SHEETS_WRITE",
+  "rejections": {},
+  "source_archive": "data/odds_shadow/unibet_fr/2026-10-09T085803Z.json",
+  "source_observed_at_utc": "2026-10-09T08:58:03+00:00",
+  "source_quotes_count": 4,
+  "source_sha256": "31fa6faa31d1bfa7960b544880016486ce05ba087e2b0aeaff954773e1514565",
+  "status": "ANALYZED_SHADOW"
+}

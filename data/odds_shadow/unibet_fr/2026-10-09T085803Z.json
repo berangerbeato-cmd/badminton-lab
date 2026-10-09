@@ -1,0 +1,71 @@
+{
+  "body_sha256": "1775c96493c15854dfef8d0caffaf13dfcaa31ede70a6631dd141200a1e6df69",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-10-09T08:58:10+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-09T08:58:03+00:00",
+  "operator": "Unibet.fr",
+  "operator_kind": "ONLINE",
+  "parser_notes": "parsed; page_parsed_entries=20; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=4,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=4,DM:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=4,F:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=4,H:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=4; eligible_MS_H2H=4; local_now=2026-10-09T10:58:03.058571+02:00",
+  "public_badminton_event_links": [],
+  "quotes": [
+    {
+      "discipline": "MS",
+      "listed_start_paris": "2026-10-09T12:25+02:00",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "LISTING_ONLY_NEEDS_DETAIL",
+      "odds_1": 2.95,
+      "odds_2": 1.25,
+      "operator_event_id": null,
+      "player_1_display": "ZJ.Lee",
+      "player_2_display": "C.Popov",
+      "tournament": "Open de Finlande"
+    },
+    {
+      "discipline": "MS",
+      "listed_start_paris": "2026-10-09T13:20+02:00",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "LISTING_ONLY_NEEDS_DETAIL",
+      "odds_1": 1.8,
+      "odds_2": 1.71,
+      "operator_event_id": null,
+      "player_1_display": "TC.Chou",
+      "player_2_display": "K.Watanabe",
+      "tournament": "Open de Finlande"
+    },
+    {
+      "discipline": "MS",
+      "listed_start_paris": "2026-10-09T13:50+02:00",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "LISTING_ONLY_NEEDS_DETAIL",
+      "odds_1": 2.75,
+      "odds_2": 1.29,
+      "operator_event_id": null,
+      "player_1_display": "ZA.Hu",
+      "player_2_display": "A.Antonsen",
+      "tournament": "Open de Finlande"
+    },
+    {
+      "discipline": "MS",
+      "listed_start_paris": "2026-10-09T14:00+02:00",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "LISTING_ONLY_NEEDS_DETAIL",
+      "odds_1": 1.28,
+      "odds_2": 2.75,
+      "operator_event_id": null,
+      "player_1_display": "K.Vitidsarn",
+      "player_2_display": "Y.Tanaka",
+      "tournament": "Open de Finlande"
+    }
+  ],
+  "resolved_url": "https://www.unibet.fr/paris-badminton",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "server_date": "Fri, 09 Oct 2026 08:58:04 GMT",
+  "source_key": "unibet_fr",
+  "source_url": "https://www.unibet.fr/paris-badminton",
+  "status": "OBSERVED_SHADOW_NEEDS_MARKET_CONFIRMATION",
+  "text_excerpt_for_debug": "Aller au contenu principal\nAller au pied de page\n\nPARCE QU’UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\n\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR \n(s'ouvre dans un nouvel onglet)\n(09-74-75-13-13, APPEL NON SURTAXÉ)\n\nSports\nLive\n7\n7 live disponibles\nPromos & défis\n2\n2 défis disponibles\nPoker\nFavoris & Top compétitions\nCompétition de football -europe\nTop Foot Européen\nCompétition de football -france\nLigue 1 McDonalds\nCompétition de tennis -monde\nShanghai\nCompétition de tennis -monde\nPékin F\nCompétition de football -allemagne\nBundesliga 1\nCompétition de basketball -australie\nNBL\nCotes boostées\nTous sports\nFootball\nTennis\nBasketball\nBadminton\nTout voir\nINTERNATIONAL\nTout International\nOpen de Finlande H\nOpen de Finlande F\nOpen de Finlande DH\nOpen de Finlande DF\nOpen de Finlande DM\nBaseball\nBiathlon\nBoxe\nCyclisme\nFoot américain\nFormule 1\nFormule 2\nGolf\nHandball\nHockey Sur Glace\nJudo\nNascar\nRugby\nRugby à XIII\nSki Alpin\nSki de Fond\nSnooker\nTennis de Table\nUFC/MMA\nVoile\nVolley Ball\nAccueil\nBadminton\nCompétition badminton\nBadminton\nFace à Face\nRace to $n points\nAujourd'hui\nmonde\n\nOpen de Finlande DM\n\nÀ 12h00\nJiang/Wei\n-\nYe/Chan\nJiang/Wei\n1,06\n\t\nYe/Chan\n5,00\nmonde\n\nOpen de Finlande DM\n\nÀ 12h05\nLiu/Hsu\n-\nZhu/Li\nLiu/Hsu\n2,25\n\t\nZhu/Li\n1,44\nmonde\n\nOpen de Finlande DM\n\nÀ 12h10\nFeng/Huang\n-\nKarlb/Sjoo\nFeng/Huang\n1,01\n\t\nKarlb/Sjoo\n7,10\nmonde\n\nOpen de Finlande H\n\nÀ 12h25\nZJ.Lee\n-\nC.Popov\nZJ.Lee\n2,95\n\t\nC.Popov\n1,25\nmonde\n\nOpen de Finlande F\n\nÀ 12h30\nN.Okuhara\n-\nT.Miyazaki\nN.Okuhara\n2,40\n\t\nT.Miyazaki\n1,38\nmonde\n\nOpen de Finlande DM\n\nÀ 12h35\nGao/Wu\n-\nKoga/Saito\nGao/Wu\n1,51\n\t\nKoga/Saito\n2,10\nmond",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
