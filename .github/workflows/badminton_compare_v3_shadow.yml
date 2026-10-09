@@ -1,0 +1,94 @@
+name: Badminton V3.2 odds comparison (SHADOW ONLY)
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - 'NetBet badminton odds and Elo V1 (shadow)'
+    types: [completed]
+    branches: [main]
+  schedule:
+    - cron: '50 6,8,9 * * *'
+  push:
+    paths:
+      - 'badminton_compare_v3_shadow.py'
+      - '.github/workflows/badminton_compare_v3_shadow.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: badminton-odds-shadow
+  cancel-in-progress: false
+
+jobs:
+  compare_v3:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout current repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Refresh latest committed odds/model data
+        run: git pull --ff-only origin main
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate V3.2 comparator
+        run: |
+          python -m py_compile badminton_compare_v3_shadow.py
+          python badminton_compare_v3_shadow.py --self-test
+
+      - name: Compare V3.2 against latest public odds observations
+        run: |
+          python badminton_compare_v3_shadow.py \
+            --max-age 2700 \
+            --max-gap 1200 \
+            --output data/odds_shadow/comparison_v3
+
+      - name: Archive V3.2 shadow comparison
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/odds_shadow/comparison_v3
+          if ! git diff --cached --quiet; then
+            git commit -m 'Compare Badminton V3.2 with public shadow odds'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo 'No V3.2 comparison changes.'
+          fi
+
+      - name: Publish comparison summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path('data/odds_shadow/comparison_v3/latest.json')
+          lines = ['### Badminton V3.2 odds comparison', '- SHADOW ONLY; NO BET.']
+          if p.is_file():
+              r = json.loads(p.read_text(encoding='utf-8'))
+              lines += [
+                  '- Matches: ' + str(r.get('match_count')),
+                  '- Within-window comparisons: ' + str(r.get('within_window_match_count')),
+                  '- Unibet validated: ' + str((r.get('sources',{}).get('Unibet.fr',{})).get('rows_validated')),
+                  '- NetBet validated: ' + str((r.get('sources',{}).get('NetBet.fr',{})).get('rows_validated')),
+              ]
+              for m in r.get('matches', []):
+                  lines.append('- ' + str(m.get('bwf_match_id')) + ': ' + str(m.get('comparison_status')))
+          else:
+              lines.append('- Report missing.')
+          msg = '\n'.join(lines) + '\n'
+          print(msg)
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+              f.write(msg)
+          PY
