@@ -1,0 +1,28 @@
+{
+  "observed_at_utc": "2026-10-09T08:15:20+00:00",
+  "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
+  "online_h2h_shadow_rows": 0,
+  "retail_shadow_rows": 0,
+  "sources": {
+    "unibet_fr": {
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
+      "quotes": 0
+    },
+    "bwin_fr": {
+      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
+      "quotes": 0
+    },
+    "fdj_pos_fr": {
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
+      "quotes": 0
+    },
+    "betclic_fr": {
+      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
+      "quotes": 0
+    },
+    "winamax_fr": {
+      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
+      "quotes": 0
+    }
+  }
+}

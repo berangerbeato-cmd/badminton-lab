@@ -1,0 +1,22 @@
+{
+  "body_sha256": "153142d0ee349c1da4b6f2e080bacfc79e49abc95de5bfcff7cf69aff7637c16",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-10-09T08:15:25+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-09T08:15:21+00:00",
+  "operator": "Unibet.fr",
+  "operator_kind": "ONLINE",
+  "parser_notes": "parsed",
+  "public_badminton_event_links": [],
+  "quotes": [],
+  "resolved_url": "https://www.unibet.fr/paris-badminton",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "server_date": "Fri, 09 Oct 2026 08:15:21 GMT",
+  "source_key": "unibet_fr",
+  "source_url": "https://www.unibet.fr/paris-badminton",
+  "status": "NO_CONFIDENT_PREMATCH_QUOTES",
+  "text_excerpt_for_debug": "Aller au contenu principal\nAller au pied de page\n\nPARCE QU’UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\n\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR \n(s'ouvre dans un nouvel onglet)\n(09-74-75-13-13, APPEL NON SURTAXÉ)\n\nSports\nLive\n8\n8 live disponibles\nPromos & défis\n2\n2 défis disponibles\nPoker\nFavoris & Top compétitions\nCompétition de football -europe\nTop Foot Européen\nCompétition de football -france\nLigue 1 McDonalds\nCompétition de tennis -monde\nShanghai\nCompétition de tennis -monde\nPékin F\nCompétition de football -allemagne\nBundesliga 1\nCompétition de basketball -australie\nNBL\nCotes boostées\nTous sports\nFootball\nTennis\nBasketball\nBadminton\nTout voir\nINTERNATIONAL\nTout International\nOpen de Finlande H\nOpen de Finlande F\nOpen de Finlande DH\nOpen de Finlande DF\nOpen de Finlande DM\nBaseball\nBiathlon\nBoxe\nCyclisme\nFoot américain\nFormule 1\nFormule 2\nGolf\nHandball\nHockey Sur Glace\nJudo\nNascar\nRugby\nRugby à XIII\nSki Alpin\nSki de Fond\nSnooker\nTennis de Table\nUFC/MMA\nVoile\nVolley Ball\nAccueil\nBadminton\nCompétition badminton\nBadminton\nFace à Face\nRace to $n points\nAujourd'hui\nmonde\n\nOpen de Finlande DM\n\nÀ 12h00\nJiang/Wei\n-\nYe/Chan\nJiang/Wei\n1,06\nÉtape \n86%\n\t\nYe/Chan\n5,00\nÉtape \n14%\nmonde\n\nOpen de Finlande DM\n\nÀ 12h05\nLiu/Hsu\n-\nZhu/Li\nLiu/Hsu\n2,30\nÉtape \n12%\n\t\nZhu/Li\n1,42\nÉtape \n88%\nmonde\n\nOpen de Finlande DM\n\nÀ 12h10\nFeng/Huang\n-\nKarlb/Sjoo\nFeng/Huang\n1,01\nÉtape \n85%\n\t\nKarlb/Sjoo\n7,10\nÉtape \n15%\nmonde\n\nOpen de Finlande H\n\nÀ 12h25\nZJ.Lee\n-\nC.Popov\nZJ.Lee\n2,95\nÉtape \n6%\n\t\nC.Popov\n1,25\nÉtape \n94%\nmonde\n\nOpen de Finlande F\n\nÀ 12h30\nN.Okuhara\n-\nT.Miyazaki\nN.Okuhara\n2,40\nÉtape \n6%\n\t\nT.Miyazak",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
