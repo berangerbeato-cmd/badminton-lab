@@ -1,0 +1,36 @@
+{
+  "candidate_mens_singles_links": [
+    "https://www.netbet.fr/badminton/international/artic-open"
+  ],
+  "index_http_status": 200,
+  "index_robots": "ALLOWED_BY_ROBOTS",
+  "index_url": "https://www.netbet.fr/badminton",
+  "index_url_resolved": "https://www.netbet.fr/badminton",
+  "notes": "A numeric token is NOT an identified bookmaker quote. Actual H2H markets require a separate validated parser.",
+  "observed_at_utc": "2026-10-09T09:29:36+00:00",
+  "page_audits": [
+    {
+      "body_excerpt": "Nous utilisons des cookies essentiels pour faire fonctionner notre site. Avec votre consentement, nous pouvons également utiliser des cookies non essentiels pour améliorer l'expérience utilisateur, personnaliser le contenu et la publicité et analyser le trafic sur notre site web. Ces raisons pourront nous amener à partager des données concernant votre utilisation du site avec nos sociétés d’analyses, de réseaux sociaux et annonceurs partenaires. En cliquant sur “Accepter“, vous consentez à l’utilisation de cookies sur notre site web, conformément à la description fournie dans notre politique relative aux cookies. Vous pouvez modifier vos paramètres d’acceptation des cookies à tout moment en cliquant sur “Préférences”.\nPréférences\nAccepter\nPARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13 - APPEL NON SURTAXÉ)\n\nAccès rapide\n\nAccueil\nCashout\nEn direct\nPromotions\nContact\n\nPopulaire\n\nSuper Cotes\nLens - Lyon\nFootball du jour\nLigue 1\nPremier League\nLaLiga\nBundesliga\nSerie A\nLigue 2\nTennis du Jour\nATP - Shanghai\nPékin WTA\n\nSports\n\nEn direct\n(4)\nSuper Cotes\nFootball\nTennis\nFoot US\nBasketball\nSki Alpin\nBadminton\nBaseball\nBiathlon\nBoxe\nCyclisme\nGolf\nHandball\nHockey/glace\nMMA\nSport Automobile\nRugby à XIII\nRugby\nVoile\nSnooker\nTennis de table\nVolleyball\n\nAutres pages\n\nRèglement des paris\nScores en direct\n\nFormat des cotes\n\nFermer\n\nAccès rapide\n\nAccueil\nCashout\nEn direct\nPromotions\nContact\n\nPopulaire\n\nSuper Cotes\nLens - Lyon\nFootball du jour\nLigue 1\nPremier League\nLaLiga\nBundesliga\nSerie A\nLigue 2\nTennis du Jour\nATP - Shanghai\nPékin WTA\n\nSports\n\nEn direct\n(4)\nSuper Cotes\nFootball\nTennis\nFoot US\nBasketball\nSki Alpin\nBadminton\nBaseball\nBiathlon\nBoxe\nCyclisme\nGolf\nHandball\nHockey/glace\nMMA\nSport Automobile\nRugby à XIII\nRugby\nVoile\nSnooker\nTennis de table\nVolleyball\n\nAutres pages\n\nRèglement des paris\nScores en direct\n\nFormat des cotes\n\nAccueil\nBadminton\nInternational - Artic Open\nPariez sur\nArtic Open\n\nÀ Venir\n\nArtic Open\nLIVE dans 55 min\nLee Zii Jia\nChristo Popov\nQui va gagner le match ?\nLee Zii Jia\n2.62\nChristo Popov\n1.28\n+ 24\nArtic Open\nven. 9 oct.\n13:20\nTien Chen Chou\nKoki Watanabe\nQui va gagner le match ?\nTien Chen Chou\n1.83\nKoki Watanabe\n1.62\n+ 23\nArtic Open\nven. 9 oct.\n13:50\nZhe An Hu\nAnders Antonsen\nQui va gagner le match ?\nZhe An Hu\n2.95\nAnders Antonsen\n1.21\n+ 24\nArtic Open\nven. 9 oct.\n14:00\nVitidsarn Kunlavut\nYushi Tanaka\nQui va gagner le match ?\nVitidsarn Kunlavut\n1.22\nYushi Tanaka\n2.92\n+ 24\n\nPlus de compétitions en International\n\nArtic Open (F)\n(4)\nArtic Open - Doubles\n(4)\nArtic Open - Doubles (F)\n(4)\nArtic Open - Doubles Mixtes\n(4)\n\nMa sélection\n\nSélectionnez vos cotes pour placer votre prochain pari\n\nCLOSE",
+      "body_sha256": "6d8740626049b3b49079dad06b9fb33bf480ec7a9b9907ec8841a5cf1663c1cc",
+      "cache_age_seconds": null,
+      "http_status": 200,
+      "market_word_mentions": [],
+      "numeric_decimal_tokens": 8,
+      "quotes": [],
+      "resolved_url": "https://www.netbet.fr/badminton/international/artic-open",
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "status": "PAGE_OK_NEEDS_MANUAL_PARSER_AUDIT",
+      "url": "https://www.netbet.fr/badminton/international/artic-open",
+      "visible_text_length": 2708
+    }
+  ],
+  "policy": "SHADOW_READ_ONLY_NO_BET_NO_INFERRED_ODDS_NO_T0_NO_SHEETS",
+  "public_event_links": [
+    "https://www.netbet.fr/badminton/international/artic-open-doubles-mixtes",
+    "https://www.netbet.fr/badminton/international/artic-open",
+    "https://www.netbet.fr/badminton/international/artic-open-f",
+    "https://www.netbet.fr/badminton/international/artic-open-doubles-f"
+  ],
+  "quotes": [],
+  "status": "EVENT_PAGES_AUDITED_NO_VERIFIED_ODDS"
+}
