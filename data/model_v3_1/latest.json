@@ -1,0 +1,265 @@
+{
+  "schema_version": "badminton_v3_1_features_v1",
+  "generated_at_utc": "2026-10-09T23:13:24+00:00",
+  "policy": "MODEL_RESEARCH_ONLY_NO_ODDS_NO_BET_NO_T0_REWRITE",
+  "model": "bwf_v3_1_feature_logit",
+  "feature_families": {
+    "form": [
+      "form10_residual_diff"
+    ],
+    "fatigue": [
+      "matches7_diff",
+      "sets7_diff",
+      "matches14_diff"
+    ],
+    "rest_inactivity": [
+      "rest_days_diff",
+      "inactive30_diff"
+    ],
+    "h2h": [
+      "h2h24_residual"
+    ],
+    "elo_momentum": [
+      "elo_trend30_diff",
+      "elo_trend90_diff"
+    ],
+    "score_dominance": [
+      "set_margin5_diff",
+      "point_share5_diff"
+    ]
+  },
+  "training_year": 2024,
+  "independent_holdout_year": 2025,
+  "retrospective_replay_year": 2026,
+  "ridge": 5.0,
+  "elo_k": 48,
+  "source_quality": {
+    "not_MS": 52177,
+    "no_full_score": 286,
+    "score_not_completed": 220,
+    "no_winner": 16,
+    "missing_player_ids": 5,
+    "archives_read": 406,
+    "clean_MS_matches": 13604
+  },
+  "methodology": [
+    "All features for a UTC date use results strictly before that date.",
+    "Same-day results are applied only after all forecasts/features for that date are frozen.",
+    "Every V3 coefficient is fit using 2024 only; 2025 remains the comparison holdout.",
+    "2026 is retrospective replay only, never represented as archived live T0.",
+    "No bookmaker odds, P&L or ROI are used in V3.1 model selection."
+  ],
+  "variants": {
+    "elo_v1_baseline": {
+      "features": [],
+      "coefficients_standardized": {
+        "intercept": -0.054048,
+        "elo_logit": 1.054982
+      },
+      "holdout_2025": {
+        "n": 1976,
+        "brier": 0.208282,
+        "log_loss": 0.602315,
+        "accuracy": 0.66498,
+        "brier_delta_vs_elo_v1": 0.0
+      },
+      "replay_2026": {
+        "n": 1428,
+        "brier": 0.208762,
+        "log_loss": 0.604148,
+        "accuracy": 0.676471
+      }
+    },
+    "elo_plus_form": {
+      "features": [
+        "form10_residual_diff"
+      ],
+      "coefficients_standardized": {
+        "intercept": -0.054104,
+        "elo_logit": 1.065249,
+        "form10_residual_diff": -0.043732
+      },
+      "holdout_2025": {
+        "n": 1976,
+        "brier": 0.208487,
+        "log_loss": 0.602768,
+        "accuracy": 0.663968,
+        "brier_delta_vs_elo_v1": 0.000205
+      },
+      "replay_2026": {
+        "n": 1428,
+        "brier": 0.209016,
+        "log_loss": 0.604744,
+        "accuracy": 0.676471
+      }
+    },
+    "elo_plus_fatigue": {
+      "features": [
+        "matches7_diff",
+        "sets7_diff",
+        "matches14_diff"
+      ],
+      "coefficients_standardized": {
+        "intercept": -0.053121,
+        "elo_logit": 1.049228,
+        "matches7_diff": -0.061832,
+        "sets7_diff": 0.003587,
+        "matches14_diff": 0.081353
+      },
+      "holdout_2025": {
+        "n": 1976,
+        "brier": 0.208539,
+        "log_loss": 0.602963,
+        "accuracy": 0.665992,
+        "brier_delta_vs_elo_v1": 0.000257
+      },
+      "replay_2026": {
+        "n": 1428,
+        "brier": 0.20879,
+        "log_loss": 0.604301,
+        "accuracy": 0.67577
+      }
+    },
+    "elo_plus_rest_inactivity": {
+      "features": [
+        "rest_days_diff",
+        "inactive30_diff"
+      ],
+      "coefficients_standardized": {
+        "intercept": -0.052732,
+        "elo_logit": 1.052671,
+        "rest_days_diff": 0.016656,
+        "inactive30_diff": -0.17425
+      },
+      "holdout_2025": {
+        "n": 1976,
+        "brier": 0.207247,
+        "log_loss": 0.59968,
+        "accuracy": 0.669028,
+        "brier_delta_vs_elo_v1": -0.001035
+      },
+      "replay_2026": {
+        "n": 1428,
+        "brier": 0.209196,
+        "log_loss": 0.605286,
+        "accuracy": 0.676471
+      }
+    },
+    "elo_plus_h2h": {
+      "features": [
+        "h2h24_residual"
+      ],
+      "coefficients_standardized": {
+        "intercept": -0.054189,
+        "elo_logit": 1.053341,
+        "h2h24_residual": 0.047958
+      },
+      "holdout_2025": {
+        "n": 1976,
+        "brier": 0.208032,
+        "log_loss": 0.60184,
+        "accuracy": 0.664474,
+        "brier_delta_vs_elo_v1": -0.00025
+      },
+      "replay_2026": {
+        "n": 1428,
+        "brier": 0.209195,
+        "log_loss": 0.605267,
+        "accuracy": 0.677171
+      }
+    },
+    "elo_plus_momentum": {
+      "features": [
+        "elo_trend30_diff",
+        "elo_trend90_diff"
+      ],
+      "coefficients_standardized": {
+        "intercept": -0.054201,
+        "elo_logit": 1.098125,
+        "elo_trend30_diff": 0.110317,
+        "elo_trend90_diff": -0.2659
+      },
+      "holdout_2025": {
+        "n": 1976,
+        "brier": 0.209099,
+        "log_loss": 0.603754,
+        "accuracy": 0.658401,
+        "brier_delta_vs_elo_v1": 0.000817
+      },
+      "replay_2026": {
+        "n": 1428,
+        "brier": 0.209752,
+        "log_loss": 0.607695,
+        "accuracy": 0.668067
+      }
+    },
+    "elo_plus_score": {
+      "features": [
+        "set_margin5_diff",
+        "point_share5_diff"
+      ],
+      "coefficients_standardized": {
+        "intercept": -0.053753,
+        "elo_logit": 1.075788,
+        "set_margin5_diff": -0.359018,
+        "point_share5_diff": 0.403293
+      },
+      "holdout_2025": {
+        "n": 1976,
+        "brier": 0.205963,
+        "log_loss": 0.597011,
+        "accuracy": 0.676113,
+        "brier_delta_vs_elo_v1": -0.002319
+      },
+      "replay_2026": {
+        "n": 1428,
+        "brier": 0.205349,
+        "log_loss": 0.596222,
+        "accuracy": 0.67577
+      }
+    },
+    "elo_v3_1_all": {
+      "features": [
+        "form10_residual_diff",
+        "matches7_diff",
+        "sets7_diff",
+        "matches14_diff",
+        "rest_days_diff",
+        "inactive30_diff",
+        "h2h24_residual",
+        "elo_trend30_diff",
+        "elo_trend90_diff",
+        "set_margin5_diff",
+        "point_share5_diff"
+      ],
+      "coefficients_standardized": {
+        "intercept": -0.051321,
+        "elo_logit": 1.087184,
+        "form10_residual_diff": -0.00517,
+        "matches7_diff": -0.153546,
+        "sets7_diff": 0.0652,
+        "matches14_diff": 0.063661,
+        "rest_days_diff": -0.028791,
+        "inactive30_diff": -0.134099,
+        "h2h24_residual": 0.055294,
+        "elo_trend30_diff": 0.100448,
+        "elo_trend90_diff": -0.234515,
+        "set_margin5_diff": -0.267536,
+        "point_share5_diff": 0.352143
+      },
+      "holdout_2025": {
+        "n": 1976,
+        "brier": 0.20567,
+        "log_loss": 0.595699,
+        "accuracy": 0.676619,
+        "brier_delta_vs_elo_v1": -0.002612
+      },
+      "replay_2026": {
+        "n": 1428,
+        "brier": 0.207395,
+        "log_loss": 0.602486,
+        "accuracy": 0.677171
+      }
+    }
+  }
+}
