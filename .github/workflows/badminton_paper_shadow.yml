@@ -1,0 +1,83 @@
+name: Badminton paper simulations (EXPLORATORY ONLY)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'badminton_paper_shadow.py'
+      - 'test_badminton_paper_shadow.py'
+      - '.github/workflows/badminton_paper_shadow.yml'
+  schedule:
+    # UTC. In summer France: 08:55, 10:55, 11:55.
+    # 10 minutes after the compare workflow; GitHub does not guarantee exact timings.
+    - cron: '55 6,8,9 * * *'
+    # Settlement check after the daily BWF sync (04:17 UTC), best-effort.
+    - cron: '5 5 * * *'
+
+permissions:
+  contents: write
+
+# Shared across existing odds collectors and comparator; prevents overlapping
+# quote/archive commits in this group. BWF sync uses its own concurrency group.
+concurrency:
+  group: badminton-odds-shadow
+  cancel-in-progress: false
+
+jobs:
+  paper_shadow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout current repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test all safety protections offline
+        run: |
+          python -m py_compile badminton_paper_shadow.py test_badminton_paper_shadow.py
+          python -m unittest -v test_badminton_paper_shadow.py
+      - name: Freeze new exploratory simulations and settle from archived BWF results
+        run: |
+          python badminton_paper_shadow.py \
+            --stake 10 --min-ev 5 \
+            --max-report-age 1200 \
+            --output data/shadow_paper
+      - name: Commit ONLY exploratory paper-bet archives and summaries
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/shadow_paper
+          if ! git diff --cached --quiet; then
+            git commit -m 'Archive exploratory badminton paper simulations (NO BET)'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Publish exploratory-only metrics
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path('data/shadow_paper/summary/latest.json')
+          lines = ['### Badminton Paper Lab | EXPLORATORY ONLY',
+                   '- Never real bets. No validated T0, no real trading ROI, no Sheets edits.']
+          if p.exists():
+              d = json.loads(p.read_text(encoding='utf-8'))
+              lines.extend([
+                  f"- Recorded hypothetical picks: {d.get('exploratory_picks')}",
+                  f"- Settled exploratory picks: {d.get('exploratory_settled')}",
+                  f"- Pending: {d.get('exploratory_pending')}",
+                  f"- Hypothetical P&L (EUR, not validated): {d.get('exploratory_pnl_eur')}",
+                  '- Validated bets: 0 (not yet technically demonstrable).',
+              ])
+          else:
+              lines.append('- No generated paper lab summary available.')
+          result = '\n'.join(lines) + '\n'
+          print(result)
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as h:
+              h.write(result)
+          PY
