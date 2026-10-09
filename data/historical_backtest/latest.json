@@ -1,0 +1,449 @@
+{
+  "confidence_calibration": {
+    "2025": [
+      {
+        "band": "50-60%",
+        "favorite_wins": 390,
+        "mean_predicted_probability": 0.547824,
+        "n": 733,
+        "observed_win_rate": 0.53206
+      },
+      {
+        "band": "60-70%",
+        "favorite_wins": 351,
+        "mean_predicted_probability": 0.647763,
+        "n": 516,
+        "observed_win_rate": 0.680233
+      },
+      {
+        "band": "70-80%",
+        "favorite_wins": 287,
+        "mean_predicted_probability": 0.746509,
+        "n": 387,
+        "observed_win_rate": 0.741602
+      },
+      {
+        "band": "80-90%",
+        "favorite_wins": 209,
+        "mean_predicted_probability": 0.845272,
+        "n": 256,
+        "observed_win_rate": 0.816406
+      },
+      {
+        "band": "90-100%",
+        "favorite_wins": 77,
+        "mean_predicted_probability": 0.929866,
+        "n": 84,
+        "observed_win_rate": 0.916667
+      }
+    ],
+    "2026": [
+      {
+        "band": "50-60%",
+        "favorite_wins": 281,
+        "mean_predicted_probability": 0.546133,
+        "n": 491,
+        "observed_win_rate": 0.572301
+      },
+      {
+        "band": "60-70%",
+        "favorite_wins": 251,
+        "mean_predicted_probability": 0.648096,
+        "n": 387,
+        "observed_win_rate": 0.648579
+      },
+      {
+        "band": "70-80%",
+        "favorite_wins": 192,
+        "mean_predicted_probability": 0.746166,
+        "n": 259,
+        "observed_win_rate": 0.741313
+      },
+      {
+        "band": "80-90%",
+        "favorite_wins": 150,
+        "mean_predicted_probability": 0.847594,
+        "n": 194,
+        "observed_win_rate": 0.773196
+      },
+      {
+        "band": "90-100%",
+        "favorite_wins": 92,
+        "mean_predicted_probability": 0.937883,
+        "n": 97,
+        "observed_win_rate": 0.948454
+      }
+    ]
+  },
+  "elo_k": 48,
+  "elo_k_fitted_on": 2024,
+  "generated_at_utc": "2026-10-09T19:43:18+00:00",
+  "historical_bookmaker_odds_present": false,
+  "historical_market_roi_eur": null,
+  "historical_pre_match_quote_verified": false,
+  "historical_source_quality": {
+    "archives_read": 406,
+    "clean_MS_matches": 13604,
+    "missing_player_ids": 5,
+    "no_full_score": 286,
+    "no_winner": 16,
+    "not_MS": 52177,
+    "score_not_completed": 220
+  },
+  "holdout_replay_verification": {
+    "holdout_csv_sha256": "c85f5032749ebbe54837473c8136e1ef2918d90531c287add1d53657fd9a8033",
+    "holdout_rows_verified": 1976,
+    "max_probability_difference": 0.0
+  },
+  "independent_holdout_year": 2025,
+  "methodology": [
+    "Frozen Elo K and Platt coefficients were chosen using 2024, never on the 2025 holdout.",
+    "2025 predictions must match every row of pre-existing holdout_2025.csv.",
+    "The 2026 replay uses outcomes from earlier UTC calendar days only.",
+    "All matches on a given day use the same previous-day rating state.",
+    "2026 is a retrospective chronological replay, not archived live T0 predictions.",
+    "No bookmaker quote history exists in this dataset; fair odds are mathematical inverses of model probabilities, NOT offered prices.",
+    "Favorite hit rate and Brier score are model evaluation, not return on betting.",
+    "Confidence subgroups are descriptive and must not be optimized as if they were a clean future test."
+  ],
+  "model_metrics": {
+    "2025": {
+      "accuracy": 0.66498,
+      "brier": 0.208282,
+      "cold_start": 154,
+      "confidence_interval_95": [
+        0.6439,
+        0.6855
+      ],
+      "favorite_wins": 1314,
+      "log_loss": 0.602315,
+      "n": 1976,
+      "upsets": 662
+    },
+    "2026": {
+      "accuracy": 0.676471,
+      "brier": 0.208762,
+      "cold_start": 137,
+      "confidence_interval_95": [
+        0.6518,
+        0.7002
+      ],
+      "favorite_wins": 966,
+      "log_loss": 0.604148,
+      "n": 1428,
+      "upsets": 462
+    },
+    "combined_exploratory": {
+      "accuracy": 0.6698,
+      "brier": 0.208483,
+      "cold_start": 291,
+      "confidence_interval_95": [
+        0.6538,
+        0.6854
+      ],
+      "favorite_wins": 2280,
+      "log_loss": 0.603084,
+      "n": 3404,
+      "upsets": 1124
+    }
+  },
+  "model_report_source_sha256": {
+    "baseline_report_sha256": "80542e7dbcec4c6e5cb8995ecda2f9b90dc2da637d8f6eb25ac7635ab408eda1",
+    "calibration_report_sha256": "ef50872a72d5ea4811586f91a8b758a53709128c7c0d2c0fc84836c2ece72f58"
+  },
+  "monthly_metrics": {
+    "2025-01": {
+      "accuracy": 0.691176,
+      "brier": 0.208809,
+      "cold_start": 0,
+      "confidence_interval_95": [
+        0.6092,
+        0.7627
+      ],
+      "favorite_wins": 94,
+      "log_loss": 0.603265,
+      "n": 136,
+      "upsets": 42
+    },
+    "2025-02": {
+      "accuracy": 0.623529,
+      "brier": 0.207041,
+      "cold_start": 51,
+      "confidence_interval_95": [
+        0.5487,
+        0.6929
+      ],
+      "favorite_wins": 106,
+      "log_loss": 0.598084,
+      "n": 170,
+      "upsets": 64
+    },
+    "2025-03": {
+      "accuracy": 0.607527,
+      "brier": 0.223395,
+      "cold_start": 22,
+      "confidence_interval_95": [
+        0.5359,
+        0.6748
+      ],
+      "favorite_wins": 113,
+      "log_loss": 0.640925,
+      "n": 186,
+      "upsets": 73
+    },
+    "2025-04": {
+      "accuracy": 0.689655,
+      "brier": 0.186685,
+      "cold_start": 15,
+      "confidence_interval_95": [
+        0.6005,
+        0.7666
+      ],
+      "favorite_wins": 80,
+      "log_loss": 0.548403,
+      "n": 116,
+      "upsets": 36
+    },
+    "2025-05": {
+      "accuracy": 0.692308,
+      "brier": 0.202189,
+      "cold_start": 0,
+      "confidence_interval_95": [
+        0.616,
+        0.7594
+      ],
+      "favorite_wins": 108,
+      "log_loss": 0.588846,
+      "n": 156,
+      "upsets": 48
+    },
+    "2025-06": {
+      "accuracy": 0.635135,
+      "brier": 0.221645,
+      "cold_start": 0,
+      "confidence_interval_95": [
+        0.5213,
+        0.7356
+      ],
+      "favorite_wins": 47,
+      "log_loss": 0.631167,
+      "n": 74,
+      "upsets": 27
+    },
+    "2025-07": {
+      "accuracy": 0.661871,
+      "brier": 0.208792,
+      "cold_start": 0,
+      "confidence_interval_95": [
+        0.5798,
+        0.7352
+      ],
+      "favorite_wins": 92,
+      "log_loss": 0.604065,
+      "n": 139,
+      "upsets": 47
+    },
+    "2025-08": {
+      "accuracy": 0.811594,
+      "brier": 0.147319,
+      "cold_start": 0,
+      "confidence_interval_95": [
+        0.7039,
+        0.8865
+      ],
+      "favorite_wins": 56,
+      "log_loss": 0.453449,
+      "n": 69,
+      "upsets": 13
+    },
+    "2025-09": {
+      "accuracy": 0.704735,
+      "brier": 0.200051,
+      "cold_start": 31,
+      "confidence_interval_95": [
+        0.6556,
+        0.7496
+      ],
+      "favorite_wins": 253,
+      "log_loss": 0.584338,
+      "n": 359,
+      "upsets": 106
+    },
+    "2025-10": {
+      "accuracy": 0.643382,
+      "brier": 0.219331,
+      "cold_start": 6,
+      "confidence_interval_95": [
+        0.5848,
+        0.6979
+      ],
+      "favorite_wins": 175,
+      "log_loss": 0.62785,
+      "n": 272,
+      "upsets": 97
+    },
+    "2025-11": {
+      "accuracy": 0.635802,
+      "brier": 0.215259,
+      "cold_start": 8,
+      "confidence_interval_95": [
+        0.5594,
+        0.706
+      ],
+      "favorite_wins": 103,
+      "log_loss": 0.619551,
+      "n": 162,
+      "upsets": 59
+    },
+    "2025-12": {
+      "accuracy": 0.635036,
+      "brier": 0.228351,
+      "cold_start": 21,
+      "confidence_interval_95": [
+        0.5518,
+        0.7109
+      ],
+      "favorite_wins": 87,
+      "log_loss": 0.648837,
+      "n": 137,
+      "upsets": 50
+    },
+    "2026-01": {
+      "accuracy": 0.721805,
+      "brier": 0.197582,
+      "cold_start": 0,
+      "confidence_interval_95": [
+        0.6402,
+        0.7909
+      ],
+      "favorite_wins": 96,
+      "log_loss": 0.581722,
+      "n": 133,
+      "upsets": 37
+    },
+    "2026-02": {
+      "accuracy": 0.688073,
+      "brier": 0.211761,
+      "cold_start": 78,
+      "confidence_interval_95": [
+        0.6238,
+        0.7459
+      ],
+      "favorite_wins": 150,
+      "log_loss": 0.613262,
+      "n": 218,
+      "upsets": 68
+    },
+    "2026-03": {
+      "accuracy": 0.68306,
+      "brier": 0.20377,
+      "cold_start": 14,
+      "confidence_interval_95": [
+        0.6125,
+        0.7461
+      ],
+      "favorite_wins": 125,
+      "log_loss": 0.594247,
+      "n": 183,
+      "upsets": 58
+    },
+    "2026-04": {
+      "accuracy": 0.680328,
+      "brier": 0.181668,
+      "cold_start": 19,
+      "confidence_interval_95": [
+        0.5932,
+        0.7565
+      ],
+      "favorite_wins": 83,
+      "log_loss": 0.531633,
+      "n": 122,
+      "upsets": 39
+    },
+    "2026-05": {
+      "accuracy": 0.680473,
+      "brier": 0.217256,
+      "cold_start": 8,
+      "confidence_interval_95": [
+        0.6068,
+        0.7461
+      ],
+      "favorite_wins": 115,
+      "log_loss": 0.628664,
+      "n": 169,
+      "upsets": 54
+    },
+    "2026-06": {
+      "accuracy": 0.638554,
+      "brier": 0.227972,
+      "cold_start": 3,
+      "confidence_interval_95": [
+        0.5631,
+        0.7077
+      ],
+      "favorite_wins": 106,
+      "log_loss": 0.648254,
+      "n": 166,
+      "upsets": 60
+    },
+    "2026-07": {
+      "accuracy": 0.646154,
+      "brier": 0.2231,
+      "cold_start": 0,
+      "confidence_interval_95": [
+        0.5608,
+        0.7231
+      ],
+      "favorite_wins": 84,
+      "log_loss": 0.636898,
+      "n": 130,
+      "upsets": 46
+    },
+    "2026-08": {
+      "accuracy": 0.712963,
+      "brier": 0.187967,
+      "cold_start": 0,
+      "confidence_interval_95": [
+        0.6215,
+        0.7898
+      ],
+      "favorite_wins": 77,
+      "log_loss": 0.550061,
+      "n": 108,
+      "upsets": 31
+    },
+    "2026-09": {
+      "accuracy": 0.631579,
+      "brier": 0.223814,
+      "cold_start": 15,
+      "confidence_interval_95": [
+        0.5571,
+        0.7002
+      ],
+      "favorite_wins": 108,
+      "log_loss": 0.638983,
+      "n": 171,
+      "upsets": 63
+    },
+    "2026-10": {
+      "accuracy": 0.785714,
+      "brier": 0.145755,
+      "cold_start": 0,
+      "confidence_interval_95": [
+        0.6046,
+        0.8979
+      ],
+      "favorite_wins": 22,
+      "log_loss": 0.454778,
+      "n": 28,
+      "upsets": 6
+    }
+  },
+  "platt_calibration_fitted_on": 2024,
+  "policy": "HISTORICAL_MODEL_EVALUATION_ONLY_NO_ODDS_NO_PNL_NO_ROI_NO_T0",
+  "retrospective_forward_replay_year": 2026,
+  "schema_version": "badminton_historical_backtest_v1",
+  "scope": "BWF completed MS, years 2025 and 2026; 2026 as-of archive available when run",
+  "train_period": "2018–2023",
+  "validated_historical_bets": 0
+}
