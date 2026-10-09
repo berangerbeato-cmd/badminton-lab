@@ -1,0 +1,78 @@
+name: Badminton compare Unibet NetBet (shadow only)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'badminton_compare_shadow.py'
+      - 'test_badminton_compare_shadow.py'
+      - '.github/workflows/badminton_compare_shadow.yml'
+  schedule:
+    # UTC. Runs after upstream 06:12/06:27, 08:12/08:27, 09:12/09:27.
+    - cron: '45 6,8,9 * * *'
+
+permissions:
+  contents: write
+
+# Shared with Unibet/NetBet collectors to serialize their output commits.
+concurrency:
+  group: badminton-odds-shadow
+  cancel-in-progress: false
+
+jobs:
+  compare_shadow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run read-only comparator tests
+        run: |
+          python -m py_compile badminton_compare_shadow.py test_badminton_compare_shadow.py
+          python -m unittest -v test_badminton_compare_shadow.py
+      - name: Compare archived public observations (no bets or Sheets edits)
+        run: |
+          python badminton_compare_shadow.py \
+            --max-age 2700 \
+            --max-gap 1200 \
+            --output data/odds_shadow/comparison
+      - name: Commit ONLY standalone comparison outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/odds_shadow/comparison
+          if ! git diff --cached --quiet; then
+            git commit -m 'Archive badminton shadow comparison JSON CSV'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Publish research-only summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p=Path('data/odds_shadow/comparison/latest.json')
+          lines=['### Badminton SHADOW comparison',
+                 '- Research only: no real wagers, no Sheets edits, no validated prematch T0.']
+          if p.exists():
+              data=json.loads(p.read_text(encoding='utf-8'))
+              lines.extend([
+                  f"- Report generated: {data.get('generated_at_utc')}",
+                  f"- Fixtures compared: {data.get('match_count')}",
+                  f"- Both prices inside observation window: {data.get('within_window_match_count')}",
+                  '- Observation window is not evidence of executable prices.'
+              ])
+              for m in data.get('matches', []):
+                  lines.append(f"- {m['bwf_match_id']}: {m['comparison_status']} / NO BET")
+          else:
+              lines.append('- No generated comparison report available.')
+          text='\n'.join(lines)+'\n'
+          print(text)
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+              f.write(text)
+          PY
