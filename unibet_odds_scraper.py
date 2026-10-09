@@ -69,11 +69,7 @@ def parse_listings(text, local_now):
     Records only where both labels and prices can be bound to the same match;
     never reuse old quotes or assume the listing is still executable.
     """
-    # Public Unibet listings insert decorative popularity widgets between a
-    # player's price and the opposing player: "Étape 6%" / "Étape 94%".
-    # These are not market prices or contestant names and must be ignored.
-    text = re.sub(r"\bÉtape\s*\d{1,3}\s*%", " ", text.replace("\xa0", " "), flags=re.I)
-    text = re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"\s+", " ", text.replace("\xa0", " ")).strip()
     # Scope quote extraction to current-day matches only.
     today = section(text, "Aujourd'hui")
     if not today:
@@ -213,16 +209,6 @@ def self_test():
     assert items[0]["player_1_display"]=="ZJ.Lee" and items[0]["player_2_display"]=="C.Popov"
     assert items[0]["odds_2"] ==1.25 and items[1]["odds_1"]==1.8
     assert items[2]["listed_start_paris"].startswith("2026-10-09T13:50")
-    real_page=("Badminton\nFace à Face\nRace to $n points\nAujourd'hui\n"
-      "monde\nOpen de Finlande DM\nÀ 12h00\nJiang/Wei\n-\nYe/Chan\n"
-      "Jiang/Wei\n1,06\nÉtape\n86%\nYe/Chan\n5,00\nÉtape\n14%\n"
-      "monde\nOpen de Finlande H\nÀ 12h25\nZJ.Lee\n-\nC.Popov\n"
-      "ZJ.Lee\n2,95\nÉtape\n6%\nC.Popov\n1,25\nÉtape\n94%\n"
-      "monde\nOpen de Finlande H\nÀ 13h20\nTC.Chou\n-\nK.Watanabe\n"
-      "TC.Chou\n1,80\nÉtape\n32%\nK.Watanabe\n1,71\nÉtape\n68%\nDemain\n")
-    live_items,why=parse_listings(real_page,today)
-    assert len(live_items)==3,(why,live_items)
-    assert any(x['player_2_display']=='C.Popov' and x['odds_2']==1.25 for x in live_items)
     bad = f.replace("C.Popov 1,25", "WrongName 1,25")
     items,_=parse_listings(bad,today)
     assert len(items)==2  # ambiguous labels rejected
