@@ -1,0 +1,78 @@
+name: Badminton historical Elo backtest (NO historical odds)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'badminton_historical_backtest.py'
+      - 'test_badminton_historical_backtest.py'
+      - '.github/workflows/badminton_historical_backtest.yml'
+  schedule:
+    # Weekly refresh for possible historical BWF corrections; UTC.
+    - cron: '37 7 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bwf-results-sync
+  cancel-in-progress: false
+
+jobs:
+  historical_evaluation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout immutable archived model and BWF match sources
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Tests for chronological replay and holdout preservation
+        run: |
+          python -m py_compile badminton_historical_backtest.py test_badminton_historical_backtest.py
+          python -m unittest -v test_badminton_historical_backtest
+      - name: Evaluate 2025 holdout and date-safe 2026 replay without bookmaker odds
+        run: |
+          python badminton_historical_backtest.py \
+            --root . \
+            --output data/historical_backtest
+      - name: Archive ONLY standalone historical evaluation reports
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/historical_backtest
+          if ! git diff --cached --quiet; then
+            git commit -m 'Archive BWF Elo 2025-2026 date-safe historical evaluation (NO ODDS)'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Publish research-only report
+        if: always()
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          f=Path('data/historical_backtest/latest.json')
+          lines=[
+              '### BWF historical Elo backtest | MODEL EVALUATION ONLY',
+              '- No bookmaker odds in historical BWF archive. NO simulated market ROI.',
+              '- 2025 is independent holdout; 2026 is an ex-post, date-safe chronological replay.',
+          ]
+          if f.exists():
+              r=json.loads(f.read_text(encoding='utf-8'))
+              for year in ('2025','2026'):
+                  s=r['model_metrics'][year]
+                  lines.append(f"- {year}: {s['n']} MS games; accuracy {s['accuracy']}; Brier {s['brier']}")
+              lines.append(f"- 2025 frozen holdout records verified: {r['holdout_replay_verification']['holdout_rows_verified']}")
+              lines.append('- Historical validated bets: 0; market ROI: not computable.')
+          else:
+              lines.append('- Historical report missing; see workflow logs and failed step.')
+          message='\n'.join(lines)+'\n'
+          print(message)
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as file:
+              file.write(message)
+          PY
