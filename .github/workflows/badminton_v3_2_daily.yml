@@ -1,0 +1,96 @@
+name: Badminton V3.2 daily forecasts (NO BET)
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - 'BWF calibrated Elo daily forecasts'
+    types: [completed]
+    branches: [main]
+  push:
+    paths:
+      - 'badminton_v3_2_daily.py'
+      - '.github/workflows/badminton_v3_2_daily.yml'
+  schedule:
+    - cron: '35 5 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bwf-results-sync
+  cancel-in-progress: false
+
+jobs:
+  v3_2_daily:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout current research state
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Refresh repository
+        run: git pull --ff-only origin main
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate V3.2 daily logic
+        run: |
+          python -m py_compile badminton_v3_2_daily.py
+          python badminton_v3_2_daily.py --self-test
+
+      - name: Generate V3.2 prospective forecasts
+        run: |
+          python badminton_v3_2_daily.py \
+            --data-dir data/bwf \
+            --v1-model-dir data/model \
+            --selection-dir data/model_v3_2 \
+            --output data/model_v3_2_live \
+            --days 7
+
+      - name: Archive V3.2 forecast feed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/model_v3_2_live
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish Badminton V3.2 daily prospective forecasts'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo 'No V3.2 forecast changes.'
+          fi
+
+      - name: Publish model summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path('data/model_v3_2_live/latest_report.json')
+          lines = ['### Badminton V3.2 daily model', '- NO BET; research/prospective forecasts only.']
+          if p.is_file():
+              r = json.loads(p.read_text(encoding='utf-8'))
+              lines += [
+                  '- Variant: ' + str(r.get('selected_variant')),
+                  '- K: ' + str(r.get('final_k')),
+                  '- Coefficient fit years: ' + str(r.get('coefficient_fit_years')),
+                  '- Upcoming fixtures: ' + str(r.get('upcoming_count')),
+                  '- Current retrospective 2026 Brier: '
+                    + str((r.get('retrospective_2026_current_cache') or {}).get('brier')),
+              ]
+          else:
+              lines.append('- Report missing.')
+          msg = '\n'.join(lines) + '\n'
+          print(msg)
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+              f.write(msg)
+          PY
