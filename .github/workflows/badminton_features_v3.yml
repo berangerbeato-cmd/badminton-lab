@@ -1,0 +1,93 @@
+name: Badminton V3.1 feature backtest (NO ODDS)
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - 'BWF calibrated Elo daily forecasts'
+    types: [completed]
+    branches: [main]
+  push:
+    paths:
+      - 'badminton_features_v3.py'
+      - '.github/workflows/badminton_features_v3.yml'
+  schedule:
+    - cron: '50 5 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bwf-results-sync
+  cancel-in-progress: false
+
+jobs:
+  v3_feature_research:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout BWF archive and frozen Elo V1
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Refresh repository before model research
+        run: git pull --ff-only origin main
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate V3.1 date-safety and feature logic
+        run: |
+          python -m py_compile badminton_features_v3.py
+          python badminton_features_v3.py --self-test
+
+      - name: Build V3.1 features and evaluate 2025 holdout
+        run: |
+          python badminton_features_v3.py \
+            --data-dir data/bwf \
+            --model-dir data/model \
+            --output data/model_v3_1
+
+      - name: Archive standalone V3.1 research outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/model_v3_1
+          if ! git diff --cached --quiet; then
+            git commit -m 'Evaluate Badminton V3.1 prematch features on 2025 holdout'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo 'No V3.1 report changes.'
+          fi
+
+      - name: Publish V3.1 comparison summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p=Path('data/model_v3_1/latest.json')
+          lines=[
+            '### Badminton V3.1 | feature research only',
+            '- 2024 training; 2025 independent holdout; 2026 retrospective replay.',
+            '- No bookmaker odds, no real bets, no T0 rewrite and no Sheets writes.',
+          ]
+          if p.exists():
+            d=json.loads(p.read_text(encoding='utf-8'))
+            lines += ['', '| Variant | 2025 Brier | Δ vs Elo V1 | Accuracy |', '|---|---:|---:|---:|']
+            for name, item in d['variants'].items():
+              m=item['holdout_2025']
+              lines.append(f"| {name} | {m['brier']:.6f} | {m['brier_delta_vs_elo_v1']:+.6f} | {m['accuracy']:.2%} |")
+          else:
+            lines.append('- V3.1 report missing; inspect the failed step.')
+          msg='\n'.join(lines)+'\n'
+          print(msg)
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as f:
+            f.write(msg)
+          PY
