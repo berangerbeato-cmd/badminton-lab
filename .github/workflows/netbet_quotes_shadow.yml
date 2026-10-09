@@ -1,0 +1,96 @@
+name: NetBet badminton odds and Elo V1 (shadow)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/netbet_quotes_shadow.yml'
+      - 'netbet_quotes_shadow.py'
+  schedule:
+    # GitHub cron is UTC. During French summer time: 08:27, 10:27, 11:27.
+    # During winter time these run one hour earlier locally.
+    - cron: '27 6,8,9 * * *'
+
+permissions:
+  contents: write
+
+# Also used by the Unibet/FDJ workflow: serializes commits to main.
+concurrency:
+  group: badminton-odds-shadow
+  cancel-in-progress: false
+
+jobs:
+  observe_netbet:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Mark this run start for freshness checks
+        run: echo "RUN_STARTED_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
+      - name: Validate NetBet H2H parser, Elo matching and safety rules
+        run: |
+          python -m py_compile netbet_quotes_shadow.py multi_book_odds_scraper.py
+          python netbet_quotes_shadow.py --self-test
+      - name: Install browser for allowed public pages
+        run: |
+          python -m pip install 'playwright==1.55.0'
+          python -m playwright install --with-deps chromium
+      - name: Observe NetBet MS match-winner prices and compare with frozen Elo V1 (NO BET)
+        run: |
+          python netbet_quotes_shadow.py --live \
+            --out data/odds_shadow/netbet_quotes \
+            --model-dir data/model
+      - name: Archive only separate NetBet observations (no Sheets, no T0, no betting)
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/odds_shadow/netbet_quotes
+          if ! git diff --cached --quiet; then
+            git commit -m 'Archive NetBet public badminton odds and Elo shadow observations'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Show only this run's NetBet research results
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          f = Path('data/odds_shadow/netbet_quotes/latest.json')
+          lines = ['### NetBet MS odds / Elo V1 (SHADOW, NO BET)',
+                   '- No bookmaker login, bet, historical forecast, T0 or Google Sheets modification.']
+          try:
+              d = json.loads(f.read_text(encoding='utf-8'))
+              seen = datetime.fromisoformat(d['observed_at_utc'].replace('Z', '+00:00'))
+              began = datetime.fromisoformat(os.environ['RUN_STARTED_AT'].replace('Z', '+00:00'))
+              if seen.tzinfo is None or seen < began:
+                  raise ValueError('Report predates this workflow execution')
+              lines += [
+                  f"- Status: {d.get('status', 'UNKNOWN')}",
+                  f"- Observed at UTC: {d['observed_at_utc']}",
+                  f"- H2H public listing rows: {len(d.get('quotes', []))}",
+                  f"- Elo V1 matched fixtures: {len(d.get('elo_comparisons', []))}",
+                  '- EV percentages are illustrative only; NOT betting signals.',
+                  '',
+                  '| BWF match | Player | Observed decimal odds | Illustrative EV |',
+                  '|---|---|---:|---:|',
+              ]
+              for m in d.get('elo_comparisons', []):
+                  for side in ('side_1', 'side_2'):
+                      p = m[side]
+                      lines.append(f"| {m['bwf_match_id']} | {p['bwf_name']} | {p['decimal_odds']:.2f} | {p['illustrative_ev_pct']:+.2f}% |")
+              if not d.get('elo_comparisons'):
+                  lines.append('| No confirmed comparisons for this run | | | |')
+          except (OSError, KeyError, TypeError, ValueError, json.JSONDecodeError) as exc:
+              lines.append('- No current-run NetBet result available: ' + str(exc))
+          output = '\n'.join(lines) + '\n'
+          print(output)
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as target:
+              target.write(output)
+          PY
