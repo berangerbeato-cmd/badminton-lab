@@ -1,0 +1,174 @@
+name: NetBet badminton MS event page inspection (shadow)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/netbet_event_inspection.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: badminton-netbet-research
+  cancel-in-progress: false
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install public browser
+        run: |
+          python -m pip install 'playwright==1.55.0'
+          python -m playwright install --with-deps chromium
+      - name: Inspect NetBet public men's singles event pages (NO BET)
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          import re
+          from datetime import datetime, timezone
+          from pathlib import Path
+          from urllib.parse import urlsplit
+          from playwright.sync_api import sync_playwright
+          from multi_book_odds_scraper import robots_check
+
+          INDEX = 'https://www.netbet.fr/badminton'
+          OUT = Path('data/odds_shadow/netbet_research')
+          OUT.mkdir(parents=True, exist_ok=True)
+          now = datetime.now(timezone.utc)
+          result = {
+              'observed_at_utc': now.isoformat(timespec='seconds'),
+              'index_url': INDEX,
+              'policy': 'SHADOW_READ_ONLY_NO_BET_NO_INFERRED_ODDS_NO_T0_NO_SHEETS',
+              'status': 'NOT_STARTED',
+              'page_audits': [],
+              'quotes': [],
+              'notes': 'A numeric token is NOT an identified bookmaker quote. Actual H2H markets require a separate validated parser.'
+          }
+
+          def same_public_netbet_url(link):
+              parts = urlsplit(link)
+              return (parts.scheme == 'https' and
+                      parts.netloc in ('www.netbet.fr', 'netbet.fr') and
+                      parts.path.startswith('/badminton/international/'))
+
+          try:
+              ok, why = robots_check(INDEX)
+              result['index_robots'] = why
+              if not ok:
+                  result['status'] = 'SKIPPED_INDEX_ROBOTS'
+              else:
+                  with sync_playwright() as pw:
+                      browser = pw.chromium.launch(headless=True)
+                      try:
+                          page = browser.new_page(locale='fr-FR',timezone_id='Europe/Paris')
+                          response = page.goto(INDEX,wait_until='domcontentloaded',timeout=24000)
+                          page.wait_for_timeout(2300)
+                          result['index_http_status'] = response.status if response else None
+                          result['index_url_resolved'] = page.url
+                          links = page.locator('a[href]').evaluate_all(
+                              "xs => xs.map(a => a.href).filter(Boolean)"
+                          )
+                          candidates = list(dict.fromkeys(u for u in links if same_public_netbet_url(u)))
+                          # Men's singles only: exclude doubles and women's draws.
+                          selected = [u for u in candidates if not re.search(
+                              r'(?:-doubles?|-doubles?-(?:f|mixtes?)|-f)$',
+                              urlsplit(u).path, re.I
+                          )]
+                          result['public_event_links'] = candidates[:25]
+                          result['candidate_mens_singles_links'] = selected[:5]
+                          if not selected:
+                              result['status'] = 'NO_PUBLIC_MENS_SINGLES_LINKS'
+                          else:
+                              for url in selected[:3]:
+                                  audit = {'url':url,'quotes':[]}
+                                  permitted, note = robots_check(url)
+                                  audit['robots_status'] = note
+                                  if not permitted:
+                                      audit['status'] = 'SKIPPED_EVENT_ROBOTS'
+                                      result['page_audits'].append(audit)
+                                      continue
+                                  event = browser.new_page(locale='fr-FR',timezone_id='Europe/Paris')
+                                  try:
+                                      page_response = event.goto(url,wait_until='domcontentloaded',timeout=24000)
+                                      event.wait_for_timeout(2400)
+                                      body = event.locator('body').inner_text(timeout=12000)
+                                      audit['http_status'] = page_response.status if page_response else None
+                                      audit['resolved_url'] = event.url
+                                      audit['cache_age_seconds'] = (page_response.headers.get('age')
+                                                                  if page_response else None)
+                                      audit['body_sha256'] = hashlib.sha256(body.encode()).hexdigest()
+                                      # Save only public, read-only visible text. This is
+                                      # diagnostic evidence, NOT a parsed or valid quote.
+                                      audit['body_excerpt'] = body[:9000]
+                                      audit['visible_text_length'] = len(body)
+                                      audit['numeric_decimal_tokens'] = len(re.findall(
+                                          r'(?<!\d)\d{1,2}[,.]\d{2}(?!\d)',body
+                                      ))
+                                      audit['market_word_mentions'] = sorted(set(m.group(0) for m in re.finditer(
+                                          r'vainqueur du match|résultat du match|face à face|match winner|gagnant',
+                                          body,re.I
+                                      )))[:12]
+                                      audit['status'] = ('PAGE_OK_NEEDS_MANUAL_PARSER_AUDIT'
+                                          if audit['http_status'] == 200 and
+                                          urlsplit(event.url).netloc in ('www.netbet.fr','netbet.fr')
+                                          else 'REJECT_HTTP_OR_REDIRECT')
+                                  except Exception as exc:
+                                      audit['status'] = 'EVENT_PAGE_ERROR'
+                                      audit['error'] = (type(exc).__name__+': '+str(exc))[:220]
+                                  finally:
+                                      event.close()
+                                  result['page_audits'].append(audit)
+                              result['status'] = 'EVENT_PAGES_AUDITED_NO_VERIFIED_ODDS'
+                      finally:
+                          browser.close()
+          except Exception as exc:
+              result['status'] = 'PROBE_FAILED'
+              result['error'] = (type(exc).__name__+': '+str(exc))[:220]
+          stamp = now.strftime('%Y-%m-%dT%H%M%SZ')
+          payload = json.dumps(result,ensure_ascii=False,sort_keys=True,indent=2)+'\n'
+          (OUT / ('event_inspection_'+stamp+'.json')).write_text(payload,encoding='utf-8')
+          (OUT / 'events_latest.json').write_text(payload,encoding='utf-8')
+          print(json.dumps({'status':result['status'],
+                            'mens_links':len(result.get('candidate_mens_singles_links',[])),
+                            'pages':len(result['page_audits']),
+                            'audits':[{k:v for k,v in p.items() if k in
+                                      ('url','status','http_status','numeric_decimal_tokens','visible_text_length')}
+                                     for p in result['page_audits']]},ensure_ascii=False))
+          PY
+      - name: Archive read-only NetBet inspection
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/odds_shadow/netbet_research
+          if ! git diff --cached --quiet; then
+            git commit -m 'Audit public NetBet badminton MS event pages (shadow)'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Explain diagnostic status
+        if: always()
+        run: |
+          python - <<'PY'
+          import os,json
+          from pathlib import Path
+          path=Path('data/odds_shadow/netbet_research/events_latest.json')
+          data=json.loads(path.read_text(encoding='utf-8')) if path.exists() else {}
+          print('NetBet MS event inspection:',data.get('status','NO_REPORT'))
+          lines=['### NetBet public badminton event inspection',
+              '- Public pages only, no account, no captcha bypass, no betting.',
+              '- This is a parser feasibility audit, NOT verified prices.',
+              '- Status: '+data.get('status','NO_REPORT'),
+              '- Public MS candidate links: '+str(len(data.get('candidate_mens_singles_links',[]))),
+              '- Event pages audited: '+str(len(data.get('page_audits',[]))),
+              '- Validated H2H quotes: 0']
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as f:
+              f.write('\n'.join(lines)+'\n')
+          PY
