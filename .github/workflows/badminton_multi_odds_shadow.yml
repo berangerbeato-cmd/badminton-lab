@@ -7,7 +7,7 @@ on:
       - '.github/workflows/badminton_multi_odds_shadow.yml'
       - 'odds_value_shadow.py'
   schedule:
-    - cron: '12 6,8,9 * * *'   # 08:12, 10:12, 11:12 Paris in summer; one hour earlier in winter
+    - cron: '12 6,8,9 * * *'   # Paris +2 in summer; UTC cron, 1 hour earlier local in winter
 
 permissions:
   contents: write
@@ -37,6 +37,80 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Read-only public prices and access diagnostics
         run: python multi_book_odds_scraper.py --live --out data/odds_shadow
+      - name: Audit NetBet badminton event list (diagnostic only, no inferred quotes)
+        run: |
+          python - <<'PY'
+          import hashlib, json, re
+          from datetime import datetime, timezone
+          from pathlib import Path
+          from urllib.parse import urlsplit
+          from playwright.sync_api import sync_playwright
+          from multi_book_odds_scraper import robots_check
+
+          URL = 'https://www.netbet.fr/badminton'
+          out = Path('data/odds_shadow/netbet_research')
+          out.mkdir(parents=True, exist_ok=True)
+          report = {
+              'observed_at_utc': datetime.now(timezone.utc).isoformat(timespec='seconds'),
+              'source': URL, 'operator': 'NetBet.fr',
+              'status': 'NOT_RUN', 'quotes': [],
+              'policy': 'PUBLIC_RESEARCH_ONLY_NO_BET_NO_INFERRED_PRICES',
+              'notes': 'Absence of a public event list is not evidence of absent private or future markets.'
+          }
+          allowed, reason = robots_check(URL)
+          report['robots_status'] = reason
+          if not allowed:
+              report['status'] = 'SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE'
+          else:
+              try:
+                  with sync_playwright() as pw:
+                      browser = pw.chromium.launch(headless=True)
+                      try:
+                          page = browser.new_page(locale='fr-FR', timezone_id='Europe/Paris')
+                          response = page.goto(URL, wait_until='domcontentloaded', timeout=24000)
+                          page.wait_for_timeout(2200)
+                          body = page.locator('body').inner_text(timeout=12000)
+                          report['http_status'] = response.status if response else None
+                          report['resolved_url'] = page.url
+                          report['cache_age_seconds'] = response.headers.get('age') if response else None
+                          report['body_sha256'] = hashlib.sha256(body.encode()).hexdigest()
+                          # Exclude generic marketing copy; keep only a short
+                          # excerpt near the sporting event-list heading.
+                          match = re.search(r'Pariez sur Badminton|Aucun événement', body, re.I)
+                          preview = body[match.start():match.start() + 1200] if match else ''
+                          stop = re.search(r'\bParier sur le badminton\b', preview, re.I)
+                          if stop:
+                              preview = preview[:stop.start()]
+                          report['event_area_excerpt'] = preview[:1200]
+                          report['explicit_no_events'] = bool(re.search(
+                              r'Aucun événement (?:n.est actuellement )?disponible|Aucun événement n.est actuellement disponible',
+                              preview, re.I))
+                          public_links = page.locator('a[href]').evaluate_all(
+                              "els => els.map(a => a.href).filter(x => x.startsWith('https://'))"
+                          )
+                          report['public_badminton_links'] = list(dict.fromkeys(
+                              url for url in public_links
+                              if urlsplit(url).netloc in ('www.netbet.fr', 'netbet.fr')
+                              and '/badminton' in urlsplit(url).path
+                          ))[:30]
+                          if report['http_status'] != 200 or urlsplit(page.url).netloc != 'www.netbet.fr':
+                              report['status'] = 'REJECT_HTTP_OR_REDIRECT'
+                          elif report['explicit_no_events']:
+                              report['status'] = 'NO_PUBLIC_BADMINTON_EVENTS_LISTED'
+                          else:
+                              report['status'] = 'EVENT_LIST_UNDETERMINED_NEEDS_PARSER_AUDIT'
+                      finally:
+                          browser.close()
+              except Exception as exc:
+                  report['status'] = 'PROBE_FAILED'
+                  report['error'] = f'{type(exc).__name__}: {exc}'[:240]
+          stamp = datetime.fromisoformat(report['observed_at_utc']).strftime('%Y-%m-%dT%H%M%SZ')
+          artifact = out / (stamp + '.json')
+          artifact.write_text(json.dumps(report, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+          (out / 'latest.json').write_text(json.dumps(report, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+          print(json.dumps({'source': 'NetBet.fr', 'status': report['status'],
+                            'quotes': 0, 'artifact': str(artifact)}, ensure_ascii=False))
+          PY
       - name: Compare public quotes with frozen Elo V1 snapshot (shadow, NO BET)
         run: python odds_value_shadow.py --live --odds-dir data/odds_shadow --model-dir data/model
       - name: Save evidence without changing model, historic predictions or T0
@@ -61,6 +135,8 @@ jobs:
           d=json.loads(f.read_text(encoding='utf-8')) if f.exists() else {}
           v=Path('data/odds_shadow/latest_value_shadow.json')
           m=json.loads(v.read_text(encoding='utf-8')) if v.exists() else {}
+          n=Path('data/odds_shadow/netbet_research/latest.json')
+          netbet=json.loads(n.read_text(encoding='utf-8')) if n.exists() else {}
           try:
             stamp_delta=abs((datetime.fromisoformat(d['observed_at_utc'])-
                              datetime.fromisoformat(m['source_observed_at_utc'])).total_seconds())
@@ -74,6 +150,7 @@ jobs:
             f"- Online H2H candidates: {d.get('online_h2h_shadow_rows','n/a')}",
             f"- Retail FDJ candidates (NOT online): {d.get('retail_shadow_rows','n/a')}",
             f"- Elo V1 shadow matched fixtures: {m.get('matched_fixtures_count','n/a')}",
+            f"- NetBet public events diagnostic: {netbet.get('status','n/a')} (zero verified quotes)",
             '- All positive-EV findings are illustrative only; NO BET.']
           for key,source in d.get('sources',{}).items():
             lines.append(f"- {key}: {source['status']} ({source['quotes']} shadow quotes)")
