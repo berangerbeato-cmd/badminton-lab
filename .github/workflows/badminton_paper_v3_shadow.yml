@@ -1,0 +1,99 @@
+name: Badminton V3.2 paper simulations (EXPLORATORY ONLY)
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - 'Badminton V3.2 odds comparison (SHADOW ONLY)'
+    types: [completed]
+    branches: [main]
+  schedule:
+    - cron: '10 5 * * *'
+  push:
+    paths:
+      - 'badminton_paper_v3_shadow.py'
+      - '.github/workflows/badminton_paper_v3_shadow.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: badminton-odds-shadow
+  cancel-in-progress: false
+
+jobs:
+  v3_paper:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Refresh repository
+        run: git pull --ff-only origin main
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate V3.2 paper engine
+        run: |
+          python -m py_compile badminton_paper_v3_shadow.py
+          python badminton_paper_v3_shadow.py --self-test
+
+      - name: Record eligible fictional V3.2 selections and settle completed ones
+        run: |
+          python badminton_paper_v3_shadow.py \
+            --stake 10 \
+            --min-ev 5 \
+            --max-report-age 1200 \
+            --output data/shadow_paper_v3
+
+      - name: Commit immutable V3.2 paper ledger
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/shadow_paper_v3
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update Badminton V3.2 exploratory paper ledger'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo 'No V3.2 paper changes.'
+          fi
+
+      - name: Publish V3.2 paper summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path('data/shadow_paper_v3/summary/latest.json')
+          lines = [
+              '### Badminton V3.2 paper lab',
+              '- EXPLORATORY ONLY; NO REAL BETS.',
+          ]
+          if p.is_file():
+              r = json.loads(p.read_text(encoding='utf-8'))
+              lines += [
+                  '- Picks: ' + str(r.get('exploratory_picks')),
+                  '- Settled: ' + str(r.get('exploratory_settled')),
+                  '- Wins/Losses: ' + str(r.get('exploratory_wins')) + '/'
+                    + str(r.get('exploratory_losses')),
+                  '- Fictional P&L EUR: ' + str(r.get('exploratory_pnl_eur')),
+                  '- Fictional ROI (not validated): '
+                    + str(r.get('exploratory_roi_pct_not_validated')),
+              ]
+          else:
+              lines.append('- Summary missing.')
+          msg = '\n'.join(lines) + '\n'
+          print(msg)
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+              f.write(msg)
+          PY
