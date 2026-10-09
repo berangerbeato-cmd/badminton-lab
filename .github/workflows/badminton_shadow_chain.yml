@@ -1,0 +1,118 @@
+name: Badminton shadow end-to-end chain (NO BET)
+
+on:
+  workflow_run:
+    workflows:
+      - 'NetBet badminton odds and Elo V1 (shadow)'
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/badminton_shadow_chain.yml'
+
+permissions:
+  contents: write
+
+# Reuse the same lock as the Unibet, NetBet, comparison, and paper workflows.
+# Run sequentially after NetBet has finished; stale or missing Unibet quotes
+# remain rejected by the original comparator and fictional-pick rules.
+concurrency:
+  group: badminton-odds-shadow
+  cancel-in-progress: false
+
+jobs:
+  compare_then_paper:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Use newest committed observations
+        run: git pull --ff-only origin main
+
+      - name: Install Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check comparator and paper regression tests
+        run: |
+          python -m py_compile \
+            badminton_compare_shadow.py test_badminton_compare_shadow.py \
+            badminton_paper_shadow.py test_badminton_paper_shadow.py
+          python -m unittest -v \
+            test_badminton_compare_shadow.py \
+            test_badminton_paper_shadow.py
+
+      - name: Compare latest observed Unibet and NetBet prices (SHADOW)
+        run: |
+          python badminton_compare_shadow.py \
+            --max-age 2700 \
+            --max-gap 1200 \
+            --output data/odds_shadow/comparison
+
+      - name: Immediately record eligible fictional selections and settle results
+        run: |
+          python badminton_paper_shadow.py \
+            --stake 10 \
+            --min-ev 5 \
+            --max-report-age 1200 \
+            --output data/shadow_paper
+
+      - name: Commit only independent research outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/odds_shadow/comparison data/shadow_paper
+          if ! git diff --cached --quiet; then
+            git commit -m 'Synchronize odds comparison and exploratory paper lab (NO BET)'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo 'No changes to standalone shadow reports.'
+          fi
+
+      - name: Show traceable counts and rejections
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          cp = Path('data/odds_shadow/comparison/latest.json')
+          pp = Path('data/shadow_paper/summary/latest.json')
+          lines = [
+              '### BADMINTON V2 | chained observations and exploratory paper only',
+              '- NO real money, NO bookmaker API bet placement, NO T0 claims, NO Sheets writes.',
+          ]
+          if cp.is_file():
+              c = json.loads(cp.read_text(encoding='utf-8'))
+              lines += [
+                  '- Compared matches: ' + str(c.get('match_count')),
+                  '- Comparisons within freshness window (NOT executable prices): '
+                    + str(c.get('within_window_match_count')),
+              ]
+              for m in c.get('matches', []):
+                  lines.append('- ' + str(m.get('bwf_match_id')) + ': '
+                               + str(m.get('comparison_status')))
+          else:
+              lines.append('- No comparison report available.')
+          if pp.is_file():
+              p = json.loads(pp.read_text(encoding='utf-8'))
+              lines += [
+                  '- Exploratory picks recorded: ' + str(p.get('exploratory_picks')),
+                  '- Exploratory picks settled: ' + str(p.get('exploratory_settled')),
+                  '- Fictional P&L EUR (not validated): ' + str(p.get('exploratory_pnl_eur')),
+              ]
+          else:
+              lines.append('- No paper summary available.')
+          message = '\n'.join(lines) + '\n'
+          print(message)
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+              f.write(message)
+          PY
