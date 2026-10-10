@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-10T16:18:48+00:00",
+  "observed_at_utc": "2026-10-10T16:19:55+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=2; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1; eligible_MS_H2H=0; local_now=2026-10-10T18:18:48.467891+02:00",
+      "parser_notes": "parsed; page_parsed_entries=2; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1; eligible_MS_H2H=0; local_now=2026-10-10T18:19:55.817179+02:00",
       "error": null,
-      "cache_age_seconds": null,
-      "body_sha256": "d6813d4efed528a4d93b4a17870fb09f5ffdc1ed1763082990f9eafac3e5b224"
+      "cache_age_seconds": "68",
+      "body_sha256": "4c774666f47bc5c4d69a4bc156ae0ae8b01d6936c3a2d1f0dcf8882e339b573d"
     },
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
@@ -34,7 +34,7 @@
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
       "error": null,
-      "cache_age_seconds": null,
+      "cache_age_seconds": "67",
       "body_sha256": "3d4eadb4352cc03ec696b811f31c0fbae8a9831bf2c2da41fb54d4fc1929a8f0"
     },
     "betclic_fr": {
@@ -68,7 +68,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "b9d8f18a2f635cbed30a0b3319e742fd0d6e21e315fd1eba115e95c8415dd783"
+      "body_sha256": "7e35e20f075f741338ff43d584fc7287bec18f011b9b2b11657518827b2ae72b"
     },
     "pmu_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
