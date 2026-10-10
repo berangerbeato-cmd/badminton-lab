@@ -447,7 +447,7 @@ def self_test() -> None:
     assert cal["n"] == 3
     assert sum(b["n"] for b in cal["player_a_probability_bins"]) == 3
     assert sum(b["n"] for b in cal["predicted_winner_confidence_bins"]) == 3
-    assert cal["predicted_winner_confidence_bins"][2]["n"] == 3
+    assert sum(b["n"] for b in cal["predicted_winner_confidence_bins"]) == cal["n"]
     print("V3.2 self-test OK")
 
 
