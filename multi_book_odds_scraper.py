@@ -330,6 +330,17 @@ def analyze_source(key, now, browser):
             why=f'{why}; audited {len(item["retail_pages_audited"])} retail MS pages'
         item['quotes']=rows
         item['parser_notes']=why
+        if key=="unibet_fr":
+            body=content.casefold()
+            item["unibet_page_diagnostics"]={
+                "body_characters":len(content),
+                "has_today_heading":("aujourd\u0027hui" in body or "aujourd’hui" in body),
+                "has_face_a_face_label":("face à face" in body or "face a face" in body),
+                "has_badminton_word":("badminton" in body),
+                "has_tournament_heading":("monde" in body),
+                "has_price_like_tokens":bool(ODD.search(content)),
+                "parsed_eligible_ms_quotes":len(rows),
+            }
         item['status']=(('OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT' if cached_fdj else 'OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE')
                         if rows and source['kind']=='RETAIL_NOT_ONLINE' else
                         ('OBSERVED_SHADOW_NEEDS_MARKET_CONFIRMATION' if rows else 'NO_CONFIDENT_PREMATCH_QUOTES'))
