@@ -7,6 +7,8 @@ on:
       - 'test_v32_odds_compare.py'
       - 'v32_shadow_ledger.py'
       - 'test_v32_shadow_ledger.py'
+      - 'v32_ledger_summary.py'
+      - 'test_v32_ledger_summary.py'
       - '.github/workflows/badminton_v32_odds_compare.yml'
       - '.github/workflows/validate_v32_shadow.yml'
   workflow_dispatch:
@@ -24,6 +26,6 @@ jobs:
         with:
           python-version: '3.12'
       - name: Syntax check
-        run: python -m py_compile v32_odds_compare.py test_v32_odds_compare.py v32_shadow_ledger.py test_v32_shadow_ledger.py
+        run: python -m py_compile v32_odds_compare.py test_v32_odds_compare.py v32_shadow_ledger.py test_v32_shadow_ledger.py v32_ledger_summary.py test_v32_ledger_summary.py
       - name: Offline regression tests
-        run: python -m unittest -v test_v32_odds_compare test_v32_shadow_ledger
+        run: python -m unittest -v test_v32_odds_compare test_v32_shadow_ledger test_v32_ledger_summary
