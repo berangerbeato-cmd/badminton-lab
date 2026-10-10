@@ -368,13 +368,12 @@ def run(data_dir: Path, output_dir: Path) -> dict:
         probs = [predict(r, model) for r in replay_test]
         report["variants"][name]["replay_2026"] = metrics(replay_test, probs)
 
+    replay_selected_model = fit_variant(replay_train, VARIANTS[best])
+    replay_selected_probs = [predict(r, replay_selected_model) for r in replay_test]
     report["selected_variant_calibration_2026_replay"] = {
         "variant": best,
         "status": "RETROSPECTIVE_ONLY_NOT_ARCHIVED_LIVE_T0",
-        **calibration_bins(replay_test, [
-            predict(r, fit_variant(replay_train, VARIANTS[best]))
-            for r in replay_test
-        ]),
+        **calibration_bins(replay_test, replay_selected_probs),
     }
 
     output_dir.mkdir(parents=True, exist_ok=True)
