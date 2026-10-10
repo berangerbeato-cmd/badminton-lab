@@ -99,8 +99,15 @@ def main():
             if direct or reversed_order:
                 candidates.append((m, bool(reversed_order and not direct)))
         if len(candidates) != 1:
-            results.append({'source': source, 'players': [a, b], 'status': 'MATCH_UNRESOLVED',
-                            'matches': len(candidates), 'decision': 'NO_BET'})
+            listed_day = quote.get('listed_day_paris')
+            same_day = sum(1 for m in models if listed_day and
+                           str(m.get('start_utc', ''))[:10] == listed_day)
+            status = ('FIXTURE_ABSENT_FROM_MODEL' if not candidates else
+                      'AMBIGUOUS_MODEL_FIXTURE')
+            results.append({'source': source, 'players': [a, b], 'status': status,
+                            'matches': len(candidates),
+                            'model_fixtures_on_listed_day': same_day,
+                            'listed_day_paris': listed_day, 'decision': 'NO_BET'})
             continue
         m, reversed_order = candidates[0]
         # A player pair can recur at a different tournament. Require a
