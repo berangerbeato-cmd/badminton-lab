@@ -126,28 +126,32 @@ def parse_event_text(text: str, observed: datetime, event_url: str) -> tuple[lis
         except ValueError:
             reject('PRICE_NOT_CONFIRMED',i);continue
         context=lines[max(0,i-8):i-2]
-        # On the index, a tournament heading may precede each match without
-        # the page-level "Pariez sur" title. The nearest heading is authoritative,
-        # but only if it is exactly the page-level competition (not women's or doubles).
-        # Never infer a tournament from a player name, URL or unrelated market.
-        known_headings={norm(competition)}
-        for heading in title_candidates:
-            known_headings.add(norm(heading))
-        local_heading=next((v for v in reversed(context) if norm(v) in known_headings),None)
+        # Index pages mix men's singles, women's singles and doubles. A dated
+        # event row explicitly names its competition immediately before its date.
+        # Do not force that local heading to equal the page-level title.
+        dated=[k for k,v in enumerate(context) if DATE_HINT.search(v)]
+        local_heading=None
+        if dated:
+            k=dated[-1]
+            if k>0 and context[k-1] and not re.search(r'^\\d{1,2}:\\d{2}$',context[k-1]):
+                local_heading=context[k-1]
+        if local_heading is None:
+            # Event detail pages may show only a single explicit page heading.
+            local_heading=next((v for v in reversed(context)
+                                if norm(v)==norm(competition)),None)
         if not local_heading:
-            # The index can contain multiple sections: detect a visible different
-            # heading near the pair, rather than borrowing an earlier competition.
             reject('COMPETITION_NOT_PROVEN',i);continue
-        if any(re.search(r'\\b(?:doubles?|mixtes?)\\b|\\(F\\)',v,re.I)
-               for v in context[context.index(local_heading)+1:]):
-            reject('DISCIPLINE_NOT_PROVEN',i);continue
+        if re.search(r'\b(?:doubles?|mixtes?)\b|\(F\)',local_heading,re.I):
+            reject('NON_MS_COMPETITION',i);continue
+        if dated and context.index(local_heading)+1 != dated[-1]:
+            reject('COMPETITION_NOT_ADJACENT_TO_DATE',i);continue
         day,day_status=listed_day(context[context.index(local_heading):],now_local)
         if not day:
             reject(day_status,i);continue
         # Price is public listing observation, not an actual bookmaker quote update timestamp.
         out.append({'player_1_display':a,'player_2_display':b,
                     'odds_1':x,'odds_2':y,'market':'H2H_FULL_MATCH',
-                    'discipline':'MS','competition_display':competition,
+                    'discipline':'MS','competition_display':local_heading,
                     'listed_day_paris':day,'day_basis':day_status,
                     'event_page_url':event_url,
                     'verification':'LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION'})
@@ -491,6 +495,12 @@ Anders Antonsen
     assert len(mixed_rows)==1,(mixed_rows,mixed_audit)
     assert mixed_rows[0]['player_1_display']=='Yushi Tanaka'
     assert mixed_rows[0]['verification']=='LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION'
+    # A page-level title may be generic and different from the dated row's
+    # explicitly printed competition heading. Preserve local evidence.
+    generic=mixed.replace('Pariez sur\\nArtic Open','Pariez sur\\nInternational Badminton')
+    generic_rows,generic_diag=parse_event_text(generic,datetime(2026,10,10,19,17,tzinfo=timezone.utc),url)
+    assert len(generic_rows)==1,(generic_rows,generic_diag)
+    assert generic_rows[0]['competition_display']=='Artic Open'
     future=sample.replace('Artic Open','Swiss Open')
     future_rows,_=parse_event_text(future,now,url)
     assert len(future_rows)==4 and future_rows[0]['competition_display']=='Swiss Open'
