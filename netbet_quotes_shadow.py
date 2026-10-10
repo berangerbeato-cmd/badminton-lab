@@ -322,6 +322,18 @@ def live(out: Path, model_dir: Path):
                         if identity not in seen:
                             seen.add(identity);unique.append(row)
                     result['quotes']=unique
+                    # Market-only diagnostics, NOT a model probability or an EV.
+                    # Retain both raw implied chances and the normalized pair.
+                    for row in result['quotes']:
+                        implied_1=1/row['odds_1']
+                        implied_2=1/row['odds_2']
+                        total=implied_1+implied_2
+                        row['raw_implied_probability_1']=round(implied_1,6)
+                        row['raw_implied_probability_2']=round(implied_2,6)
+                        row['bookmaker_overround_pct']=round((total-1)*100,2)
+                        row['normalized_market_probability_1']=round(implied_1/total,6)
+                        row['normalized_market_probability_2']=round(implied_2/total,6)
+                        row['market_probabilities_only_not_v32_ev']=True
                     result['status']='OBSERVED_SHADOW_NEEDS_CONFIRMATION' if result['quotes'] else 'NO_CONFIDENT_QUOTES'
             finally:
                 browser.close()
