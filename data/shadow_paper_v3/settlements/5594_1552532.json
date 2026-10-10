@@ -1,0 +1,24 @@
+{
+  "bwf_match_id": "5594:1552532",
+  "outcome": "WIN",
+  "pick_id": "5594_1552532",
+  "pnl_eur": "6.30",
+  "policy": "EXPLORATORY_V3_PAPER_ONLY_NO_REAL_BET_NO_VALIDATED_T0_NO_SHEETS",
+  "result_source_archive": "/home/runner/work/badminton-lab/badminton-lab/data/bwf/matches/5594.json.gz",
+  "schema": "badminton_paper_v3_shadow_v1",
+  "score_team1": [
+    "21",
+    "15",
+    "21"
+  ],
+  "score_team2": [
+    "11",
+    "21",
+    "16"
+  ],
+  "selection_status": "EXPLORATORY_V3_UNVERIFIED_PREMATCH",
+  "settled_at_utc": "2026-10-10T19:17:38+00:00",
+  "stake_eur": "10.00",
+  "validated_roi_eligible": false,
+  "winning_bwf_player_id": "91554"
+}
