@@ -220,15 +220,20 @@ def render(browser, url, screenshot_path=None):
         response=page.goto(url,wait_until="domcontentloaded",timeout=24000)
         page.wait_for_timeout(2000)
         content=page.locator("body").inner_text(timeout=12000)
+        screenshot_error=None
         if screenshot_path is not None:
-            screenshot_path.parent.mkdir(parents=True,exist_ok=True)
-            page.screenshot(path=str(screenshot_path),full_page=True,timeout=15000)
+            try:
+                screenshot_path.parent.mkdir(parents=True,exist_ok=True)
+                page.screenshot(path=str(screenshot_path),full_page=True,timeout=15000)
+            except Exception as exc:
+                screenshot_error=type(exc).__name__+": "+str(exc)[:160]
         # Only public link addresses; no internal betting APIs or accounts.
         event_links=page.locator('a[href*="/paris-ouverts/badminton/"]').evaluate_all(
             "els => els.map(a => a.href).filter(x => x && x.startsWith('https://'))"
         )[:100]
         headers=response.headers if response else {}
         return content,{
+            "screenshot_error":screenshot_error,
             "http_status":response.status if response else None,
             "resolved_url":page.url,
             "server_date":headers.get('date'),"cache_age_seconds":headers.get('age'),
