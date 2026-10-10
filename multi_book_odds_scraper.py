@@ -405,6 +405,34 @@ def analyze_source(key, now, browser, evidence_dir=None):
                 except Exception as match_exc:
                     audit['status']='MATCH_AUDIT_FAILED'
                     audit['error']=(type(match_exc).__name__+': '+str(match_exc))[:250]
+        if key=='netbet_fr':
+            # Public-page diagnostics only. Never infer executable prices from
+            # unverified DOM numbers or bookmaker promotional text.
+            item['netbet_public_audit']={
+                'page_text_excerpt':content[:2200],
+                'badminton_term_visible':bool(re.search(r'badminton',content,re.I)),
+                'match_links':[],
+                'match_link_count':0,
+                'quotes_extracted':0,
+                'price_mapping_verified':False,
+            }
+            try:
+                audit_page=browser.new_page(locale='fr-FR',timezone_id='Europe/Paris')
+                try:
+                    audit_page.goto(source['url'],wait_until='domcontentloaded',timeout=24000)
+                    audit_page.wait_for_timeout(2000)
+                    links=audit_page.locator('a[href]').evaluate_all(
+                        "els => els.map(a => a.href).filter(Boolean)")
+                    links=list(dict.fromkeys(u for u in links
+                        if urlsplit(u).netloc.endswith('netbet.fr')
+                        and ('badminton' in u.lower() or '/event/' in u.lower()
+                             or '/match/' in u.lower())))
+                    item['netbet_public_audit']['match_link_count']=len(links)
+                    item['netbet_public_audit']['match_links']=links[:25]
+                finally:
+                    audit_page.close()
+            except Exception as netbet_exc:
+                item['netbet_public_audit']['error']=type(netbet_exc).__name__
         if source['parser'] is None:
             item['status']='PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED'
             return item
