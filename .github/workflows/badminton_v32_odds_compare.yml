@@ -12,6 +12,8 @@ on:
       - 'v32_odds_compare.py'
       - 'v32_quality_gate.py'
       - 'test_v32_odds_compare.py'
+      - 'v32_shadow_ledger.py'
+      - 'test_v32_shadow_ledger.py'
       - '.github/workflows/badminton_v32_odds_compare.yml'
   schedule:
     - cron: '35 6,8,9 * * *'
@@ -44,7 +46,7 @@ jobs:
           python badminton_v3_2_daily.py --self-test
           python multi_book_odds_scraper.py --self-test
           python netbet_quotes_shadow.py --self-test
-          python -m unittest -v test_v32_odds_compare
+          python -m unittest -v test_v32_odds_compare test_v32_shadow_ledger
       - name: Recompute V3.2 before observing prices
         run: |
           python badminton_v3_2_daily.py \
@@ -78,6 +80,9 @@ jobs:
           python v32_quality_gate.py \
             --input data/odds_shadow/comparison_v3_auto/latest.json \
             --out data/odds_shadow/quality_gate
+      - name: Archive immutable research snapshot
+        run: |
+          python v32_shadow_ledger.py --run-id "${{ github.run_id }}"
       - name: Publish research outputs
         run: |
           git config user.name 'github-actions[bot]'
