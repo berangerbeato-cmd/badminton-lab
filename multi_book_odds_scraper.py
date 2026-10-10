@@ -367,7 +367,16 @@ def collect(out):
              "policy":"SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
              "online_h2h_shadow_rows":sum(len(x['quotes']) for x in reports if x['operator_kind']=='ONLINE'),
              "retail_shadow_rows":sum(len(x['quotes']) for x in reports if x['operator_kind']=='RETAIL_NOT_ONLINE'),
-             "sources":{x['source_key']:{"status":x['status'],"quotes":len(x['quotes'])} for x in reports}}
+             "sources":{x['source_key']:{
+                 "status":x["status"],"quotes":len(x["quotes"]),
+                 "robots_status":x.get("robots_status"),
+                 "http_status":x.get("http_status"),
+                 "resolved_url":x.get("resolved_url"),
+                 "parser_notes":x.get("parser_notes"),
+                 "error":x.get("error"),
+                 "cache_age_seconds":x.get("cache_age_seconds"),
+                 "body_sha256":x.get("body_sha256"),
+             } for x in reports}}
     (out/'latest_summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     print(json.dumps(summary,ensure_ascii=False),flush=True)
     return summary
