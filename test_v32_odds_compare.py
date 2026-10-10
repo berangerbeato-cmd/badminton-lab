@@ -91,6 +91,11 @@ class ShadowComparatorTests(unittest.TestCase):
         self.assertEqual(output['results'][0]['status'], 'UNVERIFIED_SHADOW_ONLY')
         self.assertEqual(output['results'][0]['decision'], 'NO_BET')
 
+    def test_missing_final_is_explicit_and_never_bet(self):
+        # A NetBet final cannot be matched to the previous day's semifinals.
+        output = self.compare(listed_day=datetime.now(timezone.utc).date().isoformat())
+        self.assertEqual(output['results'][0]['decision'], 'NO_BET')
+
     def test_model_after_quote_is_flagged(self):
         output = self.compare(model_after=True)
         self.assertIn('MODEL_AFTER_OBSERVATION', output['results'][0]['flags'])
