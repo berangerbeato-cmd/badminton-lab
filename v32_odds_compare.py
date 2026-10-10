@@ -141,6 +141,14 @@ def main():
             results.append({'source': source, 'players': [a, b], 'status': 'INVALID_INPUT'})
             continue
         flags = ['MARKET_DETAIL_UNVERIFIED', 'KICKOFF_UNVERIFIED', 'EXECUTABLE_PRICE_UNVERIFIED', 'BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN']
+        # A public listing can establish a displayed day, not an actual start
+        # time or the bookmaker's price update time. Preserve both separately.
+        quote_day_basis = quote.get('day_basis')
+        quote_verification = quote.get('verification')
+        overround = sum(1 / x for x in prices) - 1
+        observed_before_model_fixture_day = bool(
+            listed_day and observed[:10] < listed_day)
+        # This calendar check is diagnostic only, never kickoff confirmation.
         if age < 0:
             flags.append('MODEL_AFTER_OBSERVATION')
         if age > 2700:
@@ -152,6 +160,16 @@ def main():
                         'model_probability_a': prob,
                         'bookmaker_player_order_reversed': reversed_order,
                         'odds': prices,
+                        'market_overround_pct': round(overround * 100, 2),
+                        'market_implied_probability_raw': [round(1 / x, 6) for x in prices],
+                        'market_implied_probability_normalized': [round((1 / x) / (1 + overround), 6) for x in prices],
+                        'quote_listed_day_paris': listed_day,
+                        'quote_day_basis': quote_day_basis,
+                        'quote_verification': quote_verification,
+                        'bookmaker_price_updated_at_utc': None,
+                        'actual_kickoff_at_utc': None,
+                        'observation_before_listed_calendar_day': observed_before_model_fixture_day,
+                        'ev_interpretation': 'ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH',
                         'illustrative_ev_pct': [round((prob * prices[0] - 1) * 100, 2), round(((1-prob) * prices[1] - 1) * 100, 2)],
                         'flags': flags, 'status': 'UNVERIFIED_SHADOW_ONLY', 'decision': 'NO_BET'})
     output = {'generated_at_utc': datetime.now(timezone.utc).isoformat(timespec='seconds'),

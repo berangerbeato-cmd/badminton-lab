@@ -59,6 +59,11 @@ class ShadowComparatorTests(unittest.TestCase):
         self.assertEqual(row['decision'], 'NO_BET')
         self.assertIn('BWF_KICKOFF_DATE_ONLY', row['flags'])
         self.assertAlmostEqual(row['illustrative_ev_pct'][0], 39.07)
+        self.assertEqual(row['ev_interpretation'], 'ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH')
+        self.assertIsNone(row['bookmaker_price_updated_at_utc'])
+        self.assertIsNone(row['actual_kickoff_at_utc'])
+        self.assertAlmostEqual(row['market_overround_pct'], round((1/1.65+1/1.78-1)*100, 2))
+        self.assertAlmostEqual(sum(row['market_implied_probability_normalized']), 1, places=5)
 
     def test_stale_quote_is_rejected(self):
         output = self.compare(age_minutes=90)
