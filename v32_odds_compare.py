@@ -105,7 +105,7 @@ def main():
         m, reversed_order = candidates[0]
         # A player pair can recur at a different tournament. Require a
         # compatible event name when the bookmaker provides one.
-        competition = norm(quote.get('competition_display', '')).replace('artic open', 'arctic open')
+        competition = norm(quote.get('competition_display', '')).replace('articopen', 'arcticopen')
         tournament = norm(m.get('tournament', ''))
         if competition and (not tournament or competition not in tournament):
             results.append({'source': source, 'players': [a, b],
