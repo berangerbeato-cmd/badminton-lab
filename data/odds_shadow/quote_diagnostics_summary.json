@@ -1,0 +1,57 @@
+{
+  "generated_at_utc": "2026-10-10T08:47:12+00:00",
+  "policy": "SHADOW_ONLY_NO_BET",
+  "total_rows": 12,
+  "decisions": {
+    "NO_QUOTE": 6,
+    "OBSERVED_NOT_ACTIONABLE": 6
+  },
+  "sources": {
+    "betclic_fr": {
+      "rows": 1,
+      "observed": 0,
+      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE"
+    },
+    "betsson_fr": {
+      "rows": 1,
+      "observed": 0,
+      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE"
+    },
+    "bwin_fr": {
+      "rows": 1,
+      "observed": 0,
+      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE"
+    },
+    "fdj_pos_fr": {
+      "rows": 2,
+      "observed": 2,
+      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE"
+    },
+    "netbet_fr": {
+      "rows": 1,
+      "observed": 0,
+      "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED"
+    },
+    "netbet_quotes": {
+      "rows": 2,
+      "observed": 2,
+      "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+    },
+    "pmu_fr": {
+      "rows": 1,
+      "observed": 0,
+      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE"
+    },
+    "unibet_fr": {
+      "rows": 2,
+      "observed": 2,
+      "status": "OBSERVED_SHADOW_NEEDS_MARKET_CONFIRMATION"
+    },
+    "winamax_fr": {
+      "rows": 1,
+      "observed": 0,
+      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE"
+    }
+  },
+  "warning": "Observed odds are not confirmed executable betting prices."
+}
