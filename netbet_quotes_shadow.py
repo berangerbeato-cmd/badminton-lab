@@ -242,6 +242,16 @@ def live(out: Path, model_dir: Path):
                 index=browser.new_page(locale='fr-FR',timezone_id='Europe/Paris')
                 resp=index.goto(INDEX,wait_until='domcontentloaded',timeout=24000)
                 index.wait_for_timeout(1800)
+                result['index_http_status']=resp.status if resp else None
+                result['index_resolved_url']=index.url
+                result['index_body_sha256']=hashlib.sha256(index.locator('body').inner_text(timeout=12000).encode()).hexdigest()
+                try:
+                    shot=out.parent/'visual_evidence'/'netbet_index.png'
+                    shot.parent.mkdir(parents=True,exist_ok=True)
+                    index.screenshot(path=str(shot),full_page=True,timeout=15000)
+                    result['index_screenshot']=str(shot)
+                except Exception as exc:
+                    result['index_screenshot_error']=type(exc).__name__+': '+str(exc)[:150]
                 if not resp or resp.status!=200 or urlsplit(index.url).netloc not in ('www.netbet.fr','netbet.fr'):
                     result['status']='INDEX_HTTP_NOT_OK'
                 else:
@@ -253,6 +263,7 @@ def live(out: Path, model_dir: Path):
                             and re.fullmatch(r'/badminton/international/[a-z0-9-]+',parts.path)
                             and not re.search(r'-(?:doubles?(?:-mixtes|-f)?|f)$',parts.path,re.I)):
                             chosen.append(u)
+                    result['index_link_count']=len(links)
                     result['candidate_urls']=chosen[:8]
                     result['candidate_count']=len(chosen)
                     result['page_audit_limit']=8
@@ -266,6 +277,12 @@ def live(out: Path, model_dir: Path):
                             response=pg.goto(url,wait_until='domcontentloaded',timeout=24000)
                             pg.wait_for_timeout(2300)
                             body=pg.locator('body').inner_text(timeout=12000)
+                            try:
+                                shot=out.parent/'visual_evidence'/('netbet_event_'+str(len(result['page_audits']))+'.png')
+                                pg.screenshot(path=str(shot),full_page=True,timeout=15000)
+                                audit['screenshot']=str(shot)
+                            except Exception as exc:
+                                audit['screenshot_error']=type(exc).__name__+': '+str(exc)[:150]
                             audit['http_status']=response.status if response else None
                             audit['resolved_url']=pg.url
                             audit['body_sha256']=hashlib.sha256(body.encode()).hexdigest()
