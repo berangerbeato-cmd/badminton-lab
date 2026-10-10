@@ -1,8 +1,20 @@
 {
-  "generated_at_utc": "2026-10-10T13:49:06+00:00",
+  "generated_at_utc": "2026-10-10T13:50:19+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 1,
   "rejected_sources": [],
+  "source_audit": {
+    "unibet_fr": {
+      "status": "FRESH_SNAPSHOT",
+      "snapshot_file": "data/odds_shadow/unibet_fr/2026-10-10T134947Z.json",
+      "quotes_read": 0
+    },
+    "netbet_quotes": {
+      "status": "FRESH_SNAPSHOT",
+      "snapshot_file": "data/odds_shadow/netbet_quotes/latest.json",
+      "quotes_read": 1
+    }
+  },
   "results": [
     {
       "source": "netbet_quotes",
@@ -11,10 +23,11 @@
         "Anders ANTONSEN",
         "LEE Zii Jia"
       ],
-      "observed_at_utc": "2026-10-10T13:48:58+00:00",
-      "model_asof_utc": "2026-10-10T13:48:00+00:00",
-      "model_age_seconds": 58,
+      "observed_at_utc": "2026-10-10T13:50:10+00:00",
+      "model_asof_utc": "2026-10-10T13:49:18+00:00",
+      "model_age_seconds": 52,
       "model_probability_a": 0.84286719,
+      "bookmaker_player_order_reversed": false,
       "odds": [
         1.65,
         1.78

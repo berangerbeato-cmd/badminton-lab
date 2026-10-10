@@ -1,0 +1,22 @@
+{
+  "body_sha256": "f8591f7fc4c5bca802c0232cde31920b2cbaa65989167dcfd51ec50ca4bb443e",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-10-10T13:49:52+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-10T13:49:47+00:00",
+  "operator": "Unibet.fr",
+  "operator_kind": "ONLINE",
+  "parser_notes": "parsed; page_parsed_entries=4; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=2,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=2; eligible_MS_H2H=0; local_now=2026-10-10T15:49:47.338205+02:00",
+  "public_badminton_event_links": [],
+  "quotes": [],
+  "resolved_url": "https://www.unibet.fr/paris-badminton",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "server_date": "Sat, 10 Oct 2026 13:49:48 GMT",
+  "source_key": "unibet_fr",
+  "source_url": "https://www.unibet.fr/paris-badminton",
+  "status": "NO_CONFIDENT_PREMATCH_QUOTES",
+  "text_excerpt_for_debug": "Aller au contenu principal\nAller au pied de page\n\nPARCE QU’UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\n\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR \n(s'ouvre dans un nouvel onglet)\n(09-74-75-13-13, APPEL NON SURTAXÉ)\n\nSports\nLive\n50\n50 live disponibles\nPromos & défis\n2\n2 défis disponibles\nPoker\nFavoris & Top compétitions\nCompétition de football -europe\nTop Foot Européen\nCompétition de football -france\nLigue 1 McDonalds\nCompétition de tennis -monde\nShanghai\nCompétition de football -angleterre\nPremier League\nCompétition de football -espagne\nLaLiga\nCompétition de football -allemagne\nBundesliga 1\nCotes boostées\nTous sports\nFootball\nTennis\nBasketball\nBadminton\nTout voir\nINTERNATIONAL\nTout International\nOpen de Finlande F\nOpen de Finlande DH\nOpen de Finlande DF\nOpen de Finlande DM\nBaseball\nBiathlon\nBoxe\nCyclisme\nFoot américain\nFormule 1\nFormule 2\nGolf\nHandball\nHockey Sur Glace\nJudo\nMoto\nNascar\nRugby\nRugby à XIII\nSki Alpin\nSki de Fond\nSnooker\nSquash\nTennis de Table\nUFC/MMA\nVoile\nVolley Ball\nAccueil\nBadminton\nCompétition badminton\nBadminton\nFace à Face\nRace to $n points\nAujourd'hui\nmonde\n\nOpen de Finlande DF\n\nÀ 16h30\nChen/Luo\n-\nHsu/Sung\nChen/Luo\n1,13\nÉtape \n95%\n\t\nHsu/Sung\n3,85\nÉtape \n5%\nmonde\n\nOpen de Finlande DH\n\nÀ 17h00\nKjaer/Kjaer\n-\nTai /Yap\nKjaer/Kjaer\n1,74\nÉtape \n78%\n\t\nTai /Yap\n1,74\nÉtape \n22%\nmonde\n\nOpen de Finlande DF\n\nÀ 17h30\nBao/Cao\n-\nHsu/Lin\nBao/Cao\n1,31\nÉtape \n95%\n\t\nHsu/Lin\n2,65\nÉtape \n5%\nmonde\n\nOpen de Finlande DH\n\nÀ 18h00\nLai/Tsai\n-\nMaio/Villeger\nLai/Tsai\n2,10\nÉtape \n28%\n\t\nMaio/Villeger\n1,51\nÉtape \n72%\nDemain\nmonde\n\nOpen de Finlande DM\n\nDemain à 12h00\nJiang/Wei\n-\nGao/Wu\nJ",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
