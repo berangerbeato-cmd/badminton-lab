@@ -238,7 +238,7 @@ jobs:
                   'policy': 'RESEARCH_ONLY_NO_BET',
                   'reason': 'Workflow failed before pipeline ordering validation; inspect GitHub Actions step logs',
                   'recorded_at_utc': datetime.now(timezone.utc).isoformat(),
-              }, indent=2) + '\\n', encoding='utf-8')
+              }, indent=2) + '\n', encoding='utf-8')
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
