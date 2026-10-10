@@ -103,6 +103,15 @@ def main():
                             'matches': len(candidates), 'decision': 'NO_BET'})
             continue
         m, reversed_order = candidates[0]
+        # A player pair can recur at a different tournament. Require a
+        # compatible event name when the bookmaker provides one.
+        competition = norm(quote.get('competition_display', '')).replace('articopen', 'arcticopen')
+        tournament = norm(m.get('tournament', ''))
+        if competition and (not tournament or competition not in tournament):
+            results.append({'source': source, 'players': [a, b],
+                            'bwf_match_id': m.get('bwf_match_id'),
+                            'status': 'TOURNAMENT_MISMATCH', 'decision': 'NO_BET'})
+            continue
         listed_day = quote.get('listed_day_paris')
         model_day = str(m.get('start_utc', ''))[:10]
         if listed_day and model_day and listed_day != model_day:
