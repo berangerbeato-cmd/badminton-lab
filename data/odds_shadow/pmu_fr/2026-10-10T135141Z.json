@@ -1,0 +1,13 @@
+{
+  "bookmaker_price_updated_at": null,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-10T13:52:04+00:00",
+  "operator": "PMU.fr",
+  "operator_kind": "ONLINE",
+  "quotes": [],
+  "robots_status": "ROBOTS_HTTP_403",
+  "source_key": "pmu_fr",
+  "source_url": "https://www.pmu.fr/sport/",
+  "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
