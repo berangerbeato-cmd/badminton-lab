@@ -95,7 +95,7 @@ class ShadowComparatorTests(unittest.TestCase):
 
     def test_missing_final_is_explicit_and_never_bet(self):
         # A NetBet final cannot be matched to the previous day's semifinals.
-        output = self.compare(unmatched=True)
+        output = self.compare(unmatched=True, listed_day=datetime.now(timezone.utc).date().isoformat())
         self.assertEqual(output['results'][0]['status'], 'FIXTURE_ABSENT_FROM_MODEL')
         self.assertEqual(output['results'][0]['matches'], 0)
         self.assertEqual(output['results'][0]['model_fixtures_on_listed_day'], 1)
