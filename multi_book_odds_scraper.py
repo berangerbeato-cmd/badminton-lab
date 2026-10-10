@@ -297,6 +297,33 @@ def analyze_source(key, now, browser, evidence_dir=None):
             item['audit_only_stale_content_allowed']=True
             item['audit_warning']='Diagnostic only; no bookmaker prices are extracted or accepted.'
         if key=='flashscore_badminton':
+            # Discovery only: public DOM anchors, no internal APIs and no
+            # automatic quote ingestion. Avoid relying on one finished XD match.
+            item['flashscore_discovery']={
+                'index_match_links':[],
+                'index_match_link_count':0,
+                'index_ms_context_visible':bool(re.search(
+                    r'(SIMPLES HOMMES|SIMPLE HOMMES|MEN.S SINGLES)',content,re.I)),
+                'index_text_excerpt':content[:1800],
+            }
+            try:
+                from playwright.sync_api import sync_playwright  # existing browser
+                discovery_page=browser.new_page(locale='fr-FR',timezone_id='Europe/Paris')
+                try:
+                    discovery_page.goto(source['url'],wait_until='domcontentloaded',timeout=24000)
+                    discovery_page.wait_for_timeout(2000)
+                    links=discovery_page.locator('a[href*="/match/badminton/"]').evaluate_all(
+                        "els => els.map(a => a.href).filter(Boolean)")
+                    links=list(dict.fromkeys(u for u in links if
+                        urlsplit(u).netloc.endswith('flashscore.fr') and
+                        '/match/badminton/' in urlsplit(u).path))
+                    item['flashscore_discovery']['index_match_link_count']=len(links)
+                    item['flashscore_discovery']['index_match_links']=links[:15]
+                finally:
+                    discovery_page.close()
+            except Exception as discovery_exc:
+                item['flashscore_discovery']['error']=type(discovery_exc).__name__
+
             # User-provided public match link. Audit the odds tab, not any
             # private API; never interpret the visible numbers as live quotes.
             match_url='https://www.flashscore.fr/match/badminton/SdnLkOG5/#/cotes/home-away/temps-regulier/'
@@ -316,6 +343,9 @@ def analyze_source(key, now, browser, evidence_dir=None):
                     if evidence is not None and evidence.exists():
                         audit['screenshot']=str(evidence)
                     audit['body_characters']=len(match_body)
+                    audit['resolved_to_requested_odds_tab']=('/cotes/' in match_info.get('resolved_url',''))
+                    audit['match_finished']=bool(re.search(r'\\bTERMINÉ\\b',match_body,re.I))
+                    audit['appears_doubles']=bool(re.search(r'DOUBLES? (MIXTES?|HOMMES|FEMMES)',match_body,re.I))
                     audit['contains_odds_heading']=bool(re.search(r'\bCOTES\b',match_body,re.I))
                     audit['contains_bookmaker_names']=[name for name in
                         ('Betclic','Winamax','NetBet','Unibet','FDJ','PMU')
@@ -437,6 +467,8 @@ def collect(out):
                  "error":x.get("error"),
                  "cache_age_seconds":x.get("cache_age_seconds"),
                  "body_sha256":x.get("body_sha256"),
+                "flashscore_discovery":x.get("flashscore_discovery"),
+                "flashscore_match_audit":x.get("flashscore_match_audit"),
              } for x in reports}}
     (out/'latest_summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     print(json.dumps(summary,ensure_ascii=False),flush=True)
