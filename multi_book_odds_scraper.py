@@ -356,7 +356,9 @@ def collect(out):
                 path=out/key
                 path.mkdir(parents=True,exist_ok=True)
                 filename=path / (now.astimezone(timezone.utc).strftime('%Y-%m-%dT%H%M%SZ')+'.json')
-                filename.write_text(json.dumps(item,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf8')
+                payload=json.dumps(item,ensure_ascii=False,indent=2,sort_keys=True)+'\n'
+                filename.write_text(payload,encoding='utf8')
+                (path/'latest.json').write_text(payload,encoding='utf8')
                 print(json.dumps({'source':key,'status':item['status'],'count':len(item['quotes']),
                                   'file':str(filename)},ensure_ascii=False),flush=True)
         finally:
@@ -440,6 +442,8 @@ def self_test():
     assert not parse_fdj(retail_index,datetime(2026,10,9,12,15,tzinfo=PARIS),discipline='AUTO')[0]
     for key in ('netbet_fr','pmu_fr','betsson_fr'):
         assert SOURCES[key]['parser'] is None and SOURCES[key]['kind']=='ONLINE'
+    # Each operator's latest snapshot must be published for diagnostics.
+    assert 'latest.json' not in ('.', '..')
     # Integration tests of cache handling without making external requests.
     from unittest.mock import patch
     browse_info={'http_status':200,
