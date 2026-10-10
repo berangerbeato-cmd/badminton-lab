@@ -11,7 +11,7 @@ on:
     paths:
       - 'multi_book_odds_scraper.py'
       - 'netbet_quotes_shadow.py'
-      - 'v32_odds_compare.py'
+      - 'v32_odds_compare.py'\n      - 'bwf_fixture_audit.py'
       - 'v32_quality_gate.py'
       - 'test_v32_odds_compare.py'
       - 'v32_shadow_ledger.py'
@@ -51,6 +51,8 @@ jobs:
           python multi_book_odds_scraper.py --self-test
           python netbet_quotes_shadow.py --self-test
           python -m unittest -v test_v32_odds_compare test_v32_shadow_ledger test_v32_ledger_summary
+      - name: Audit BWF Arctic Open fixture archive
+        run: python bwf_fixture_audit.py --data-dir data/bwf --tournament-id 5594 --target-day 2026-10-11 --out data/model_v3_2_live/bwf_fixture_audit.json
       - name: Recompute V3.2 before observing prices
         run: |
           python badminton_v3_2_daily.py \
