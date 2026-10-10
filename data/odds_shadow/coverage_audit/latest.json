@@ -2,8 +2,8 @@
   "next_actions": [
     {
       "source": "unibet_fr",
-      "priority": 2,
-      "action": "Inspect public page structure and discipline/date sections; do not interpret live prices as prematch."
+      "priority": 3,
+      "action": "Record access limitation; do not bypass robots, authentication or geoblocks."
     },
     {
       "source": "betclic_fr",
@@ -47,12 +47,12 @@
     }
   ],
   "blocker_counts": {
-    "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE": 6,
-    "HTTP_OR_REDIRECT_REJECTED": 2,
-    "NO_CONFIDENT_QUOTES_EXTRACTED": 2,
+    "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE": 5,
+    "HTTP_OR_REDIRECT_REJECTED": 4,
+    "NO_CONFIDENT_QUOTES_EXTRACTED": 1,
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 1
   },
-  "generated_at_utc": "2026-10-10T19:35:52.588711+00:00",
+  "generated_at_utc": "2026-10-10T19:38:07.657402+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 1,
@@ -68,18 +68,18 @@
   ],
   "source_audit": {
     "unibet_fr": {
-      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
+      "status": "REJECT_HTTP_CACHE_AGE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:34:54+00:00",
-      "parser_notes": "missing Aujourd'hui section; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-10-10T21:34:54.134593+02:00",
+      "observed_at_utc": "2026-10-10T19:37:07+00:00",
+      "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
-      "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
+      "blocker": "HTTP_OR_REDIRECT_REJECTED"
     },
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
       "quote_count": 1,
-      "observed_at_utc": "2026-10-10T19:35:46+00:00",
+      "observed_at_utc": "2026-10-10T19:38:01+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 1,
@@ -90,7 +90,7 @@
               "Lai-Tsai",
               "1.01",
               "Maio-Villeger",
-              "8.25"
+              "8.00"
             ],
             "market_line": 114,
             "preceding_lines": [
@@ -106,8 +106,8 @@
               "Maio-Villeger",
               "1",
               "1",
-              "16",
-              "10"
+              "19",
+              "13"
             ],
             "reason": "PLAYER_PAIR_MISMATCH"
           },
@@ -120,12 +120,12 @@
             ],
             "market_line": 127,
             "preceding_lines": [
-              "10",
+              "13",
               "Qui va gagner le match ?",
               "Lai-Tsai",
               "1.01",
               "Maio-Villeger",
-              "8.25",
+              "8.00",
               "+ 3",
               "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
               "Populaires",
@@ -203,7 +203,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:35:10+00:00",
+      "observed_at_utc": "2026-10-10T19:37:24+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -212,7 +212,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:35:23+00:00",
+      "observed_at_utc": "2026-10-10T19:37:35+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -221,7 +221,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:35:02+00:00",
+      "observed_at_utc": "2026-10-10T19:37:17+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -230,7 +230,7 @@
     "fdj_pos_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:35:03+00:00",
+      "observed_at_utc": "2026-10-10T19:37:18+00:00",
       "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -239,7 +239,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:35:11+00:00",
+      "observed_at_utc": "2026-10-10T19:37:25+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -248,7 +248,7 @@
     "pmu_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:35:22+00:00",
+      "observed_at_utc": "2026-10-10T19:37:34+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -257,7 +257,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:35:28+00:00",
+      "observed_at_utc": "2026-10-10T19:37:40+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -266,20 +266,20 @@
     "oddspedia_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:35:24+00:00",
+      "observed_at_utc": "2026-10-10T19:37:37+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "HTTP_OR_REDIRECT_REJECTED"
     },
     "oddsportal_badminton": {
-      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
+      "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:35:45+00:00",
+      "observed_at_utc": "2026-10-10T19:37:57+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
-      "blocker": "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE"
+      "blocker": "HTTP_OR_REDIRECT_REJECTED"
     }
   },
   "note": "Quotes observed are not necessarily valid or executable. Zero quotes is not a scraper success claim."
