@@ -1,0 +1,30 @@
+{
+  "bwf_day": "2026-10-10",
+  "bwf_match_id": "5594:1552532",
+  "bwf_player_id": "91554",
+  "comparison_generated_at_utc": "2026-10-10T06:45:27+00:00",
+  "decimal_odds": "1.63",
+  "ev_pct": "37.39",
+  "executable_price_verified": false,
+  "kickoff_verified": false,
+  "model": "bwf_v3_2_score_rest_live",
+  "model_asof_utc": "2026-10-10T05:24:15+00:00",
+  "model_probability": "0.84286719",
+  "model_snapshot_sha256": "373701397906f422bc5e5cd8d24b7e68bfa117b7fdc561d1e8decea82642a270",
+  "notes": "Virtual V3.2 research candidate only; real kickoff and executable price are NOT proven.",
+  "observation_gap_seconds": 725,
+  "operator": "Unibet.fr",
+  "pick_id": "5594_1552532",
+  "player": "Anders ANTONSEN",
+  "policy": "EXPLORATORY_V3_PAPER_ONLY_NO_REAL_BET_NO_VALIDATED_T0_NO_SHEETS",
+  "schema": "badminton_paper_v3_shadow_v1",
+  "selected_at_utc": "2026-10-10T06:45:38+00:00",
+  "selection_status": "EXPLORATORY_V3_UNVERIFIED_PREMATCH",
+  "source_observed_at_utc": {
+    "NetBet.fr": "2026-10-10T06:44:55+00:00",
+    "Unibet.fr": "2026-10-10T06:32:50+00:00"
+  },
+  "stake_eur": "10.00",
+  "threshold_ev_pct": "5",
+  "valid_pre_match_T0": false
+}
