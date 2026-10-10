@@ -220,6 +220,14 @@ jobs:
           git reset -q -- data/odds_shadow/visual_evidence || true
           if ! git diff --cached --quiet; then
             git commit -m 'Observe odds after V3.2 model and audit quality'
+            # The workflow also refreshes data/bwf and other generated files.
+            # Preserve them in the commit so the working tree is clean for rebase.
+            git add -A -- data/bwf
+            if ! git diff --cached --quiet; then
+              git commit -m 'Preserve refreshed BWF archive alongside shadow audit'
+            fi
+            # Leave no unrelated generated files in the worktree during rebase.
+            git stash push --include-untracked -m 'Temporary untracked workflow outputs' || true
             git pull --rebase origin main
             git push origin HEAD:main
           fi
@@ -245,6 +253,14 @@ jobs:
           git add -- data/model_v3_2_live/pipeline_order_latest.json
           if ! git diff --cached --quiet; then
             git commit -m 'Record failed V3.2 pipeline validation (NO BET)'
+            # The workflow also refreshes data/bwf and other generated files.
+            # Preserve them in the commit so the working tree is clean for rebase.
+            git add -A -- data/bwf
+            if ! git diff --cached --quiet; then
+              git commit -m 'Preserve refreshed BWF archive alongside shadow audit'
+            fi
+            # Leave no unrelated generated files in the worktree during rebase.
+            git stash push --include-untracked -m 'Temporary untracked workflow outputs' || true
             git pull --rebase origin main
             git push origin HEAD:main
           fi
