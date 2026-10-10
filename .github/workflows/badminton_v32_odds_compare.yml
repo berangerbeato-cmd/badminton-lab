@@ -81,6 +81,19 @@ jobs:
           PY
       - name: Audit BWF Arctic Open fixture archive
         run: python bwf_fixture_audit.py --data-dir data/bwf --tournament-id 5594 --target-day 2026-10-11 --out data/model_v3_2_live/bwf_fixture_audit.json
+      - name: Require successful BWF refresh before forecasting
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("data/model_v3_2_live/bwf_refresh_latest.json")
+          if not p.exists():
+              raise SystemExit("NO_BET: BWF refresh did not produce a report")
+          report = json.loads(p.read_text(encoding="utf-8"))
+          if report.get("errors") or not report.get("tournaments_saved"):
+              raise SystemExit("NO_BET: BWF refresh failed or no tournament was refreshed")
+          print("BWF refresh validated before forecast")
+          PY
       - name: Recompute V3.2 before observing prices
         run: |
           python badminton_v3_2_daily.py \
