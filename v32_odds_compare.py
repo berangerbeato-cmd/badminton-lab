@@ -52,27 +52,34 @@ def main():
         models = list(csv.DictReader(f))
     observations = []
     rejected = []
+    source_audit = {}
     now = datetime.now(timezone.utc)
     for source in ('unibet_fr', 'netbet_quotes'):
         folder = args.odds_dir / source
         if not folder.is_dir():
+            source_audit[source] = {'status': 'SOURCE_DIRECTORY_MISSING', 'quotes_read': 0}
             continue
         candidates = sorted(folder.glob('*.json'))
         if not candidates:
+            source_audit[source] = {'status': 'NO_SNAPSHOTS', 'quotes_read': 0}
             continue
         file = folder / 'latest.json' if (folder / 'latest.json').exists() else candidates[-1]
         data = load_json(file)
+        source_audit[source] = {'status': 'SNAPSHOT_READ', 'snapshot_file': str(file), 'quotes_read': len(data.get('quotes', [])) if isinstance(data.get('quotes'), list) else 0}
         try:
             observed_at = datetime.fromisoformat(str(data.get('observed_at_utc', '')).replace('Z', '+00:00'))
             if observed_at.tzinfo is None:
                 raise ValueError('timezone missing')
             observed_at = observed_at.astimezone(timezone.utc)
         except (ValueError, TypeError):
+            source_audit[source]['status'] = 'OBSERVATION_TIMESTAMP_INVALID'
             rejected.append({'source': source, 'reason': 'OBSERVATION_TIMESTAMP_INVALID'})
             continue
         if observed_at > now + timedelta(minutes=2) or now - observed_at > timedelta(minutes=45):
+            source_audit[source]['status'] = 'OBSERVATION_NOT_FRESH'
             rejected.append({'source': source, 'reason': 'OBSERVATION_NOT_FRESH', 'observed_at_utc': observed_at.isoformat()})
             continue
+        source_audit[source]['status'] = 'FRESH_SNAPSHOT'
         for quote in data.get('quotes', []):
             if isinstance(quote, dict) and quote.get('market') == 'H2H_FULL_MATCH':
                 observations.append((source, observed_at.isoformat(), quote))
@@ -117,7 +124,7 @@ def main():
                         'flags': flags, 'status': 'UNVERIFIED_SHADOW_ONLY', 'decision': 'NO_BET'})
     output = {'generated_at_utc': datetime.now(timezone.utc).isoformat(timespec='seconds'),
               'policy': 'RESEARCH_ONLY_NO_BET_NO_T0', 'comparison_count': len(results),
-              'rejected_sources': rejected, 'results': results}
+              'rejected_sources': rejected, 'source_audit': source_audit, 'results': results}
     args.out.mkdir(parents=True, exist_ok=True)
     (args.out / 'latest.json').write_text(json.dumps(output, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f"V3.2 comparisons: {len(results)}; all unverified, no bets")

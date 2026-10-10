@@ -45,6 +45,8 @@ class ShadowComparatorTests(unittest.TestCase):
     def test_fresh_quote_is_shadow_only(self):
         output = self.compare()
         self.assertEqual(output['comparison_count'], 1)
+        self.assertEqual(output['source_audit']['netbet_quotes']['status'], 'FRESH_SNAPSHOT')
+        self.assertEqual(output['source_audit']['unibet_fr']['status'], 'SOURCE_DIRECTORY_MISSING')
         row = output['results'][0]
         self.assertEqual(row['decision'], 'NO_BET')
         self.assertIn('BWF_KICKOFF_DATE_ONLY', row['flags'])
@@ -54,6 +56,7 @@ class ShadowComparatorTests(unittest.TestCase):
         output = self.compare(age_minutes=90)
         self.assertEqual(output['comparison_count'], 0)
         self.assertEqual(output['rejected_sources'][0]['reason'], 'OBSERVATION_NOT_FRESH')
+        self.assertEqual(output['source_audit']['netbet_quotes']['status'], 'OBSERVATION_NOT_FRESH')
 
     def test_mismatched_day_is_rejected(self):
         today = datetime.now(timezone.utc).date()
