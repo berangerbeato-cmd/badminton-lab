@@ -1,2 +1,2 @@
 pick_id,selected_at_utc,bwf_match_id,bwf_day,player,bwf_player_id,operator,decimal_odds,model_probability,ev_pct,stake_eur,selection_status,outcome,settled_at_utc,pnl_eur,model,model_asof_utc,comparison_generated_at_utc
-5594_1552532,2026-10-10T06:45:18+00:00,5594:1552532,2026-10-10,Anders ANTONSEN,91554,Unibet.fr,1.63,0.81851254,33.42,10.00,EXPLORATORY_UNVERIFIED_PREMATCH,PENDING,,,bwf_elo_ms_platt_v1,2026-10-10T05:23:38+00:00,2026-10-10T06:45:18+00:00
+5594_1552532,2026-10-10T06:45:18+00:00,5594:1552532,2026-10-10,Anders ANTONSEN,91554,Unibet.fr,1.63,0.81851254,33.42,10.00,EXPLORATORY_UNVERIFIED_PREMATCH,WIN,2026-10-10T19:17:28+00:00,6.30,bwf_elo_ms_platt_v1,2026-10-10T05:23:38+00:00,2026-10-10T06:45:18+00:00
