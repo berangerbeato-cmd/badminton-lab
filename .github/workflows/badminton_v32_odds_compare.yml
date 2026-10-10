@@ -9,6 +9,8 @@ on:
     branches: [main]
   push:
     paths:
+      - 'multi_book_odds_scraper.py'
+      - 'netbet_quotes_shadow.py'
       - 'v32_odds_compare.py'
       - 'v32_quality_gate.py'
       - 'test_v32_odds_compare.py'
