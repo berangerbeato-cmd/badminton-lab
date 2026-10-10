@@ -362,10 +362,10 @@ def analyze_source(key, now, browser, evidence_dir=None):
                     # elsewhere in the body can mention unrelated doubles markets.
                     match_header=match_body[:500].upper()
                     audit['appears_doubles']=bool(re.search(
-                        r'BWF WORLD TOUR\\s*-\\s*DOUBLES?\\s+(?:MIXTES?|HOMMES|FEMMES)',
+                        r'BWF WORLD TOUR\s*-\s*DOUBLES?\s+(?:MIXTES?|HOMMES|FEMMES)',
                         match_header,re.I))
                     audit['appears_mens_singles']=bool(re.search(
-                        r'BWF WORLD TOUR\\s*-\\s*HOMMES(?:\\b|ARCTIC)',
+                        r'BWF WORLD TOUR\s*-\s*HOMMES(?:\b|ARCTIC)',
                         match_header,re.I)) and not audit['appears_doubles']
                     audit['eligible_for_odds_comparison']=False
                     audit['comparison_block_reason']='NO_VERIFIED_BOOKMAKER_PRICES'
@@ -379,7 +379,7 @@ def analyze_source(key, now, browser, evidence_dir=None):
                     audit['odds_section_lines']=odds_lines[:35]
                     audit['odds_section_dash_count']=sum(line=='-' for line in odds_lines)
                     audit['odds_section_decimal_prices']=re.findall(
-                        r'(?<![\\d])(?:[1-9]\\d{0,2})[.,]\\d{2}(?![\\d])',
+                        r'(?<![\d])(?:[1-9]\d{0,2})[.,]\d{2}(?![\d])',
                         odds_section)[:12]
                     audit['odds_section_placeholder_only']=(
                         bool(odds_lines) and not audit['odds_section_decimal_prices']
@@ -390,7 +390,7 @@ def analyze_source(key, now, browser, evidence_dir=None):
                         else 'NO_VERIFIED_BOOKMAKER_PRICES')
                     audit['odds_section_bookmaker_names']=[name for name in
                         ('Betclic','Winamax','NetBet','Unibet','FDJ','PMU')
-                        if re.search(r'\\b'+re.escape(name)+r'\\b',odds_section,re.I)]
+                        if re.search(r'\b'+re.escape(name)+r'\b',odds_section,re.I)]
                     audit['contains_bookmaker_names']=[name for name in
                         ('Betclic','Winamax','NetBet','Unibet','FDJ','PMU')
                         if re.search(r'\b'+re.escape(name)+r'\b',match_body,re.I)]
