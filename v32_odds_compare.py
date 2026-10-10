@@ -79,8 +79,14 @@ def main():
             source_audit[source]['status'] = 'OBSERVATION_NOT_FRESH'
             rejected.append({'source': source, 'reason': 'OBSERVATION_NOT_FRESH', 'observed_at_utc': observed_at.isoformat()})
             continue
-        source_audit[source]['status'] = 'FRESH_SNAPSHOT'
-        for quote in data.get('quotes', []):
+        quotes = data.get('quotes', [])
+        if not isinstance(quotes, list):
+            source_audit[source]['status'] = 'INVALID_QUOTES_FORMAT'
+            rejected.append({'source': source, 'reason': 'INVALID_QUOTES_FORMAT'})
+            continue
+        source_audit[source]['status'] = 'FRESH_SNAPSHOT' if quotes else 'FRESH_EMPTY'
+        source_audit[source]['collector_status'] = data.get('status')
+        for quote in quotes:
             if isinstance(quote, dict) and quote.get('market') == 'H2H_FULL_MATCH':
                 observations.append((source, observed_at.isoformat(), quote))
     results = []
