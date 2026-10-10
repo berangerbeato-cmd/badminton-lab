@@ -375,6 +375,10 @@ def analyze_source(key, now, browser, evidence_dir=None):
                     odds_section=match_body.split('OFFRES BONUS',1)[0]
                     if 'COTES' in odds_section:
                         odds_section=odds_section.rsplit('COTES',1)[-1]
+                    # Stop at the end of the odds widget. Match-history dates
+                    # (e.g. 26.05.26) must never be counted as decimal prices.
+                    for boundary in ('Voir plus', 'INFORMATIONS DE MATCH', 'TÊTE-À-TÊTE'):
+                        odds_section=odds_section.split(boundary,1)[0]
                     odds_lines=[line.strip() for line in odds_section.splitlines() if line.strip()]
                     audit['odds_section_lines']=odds_lines[:35]
                     audit['odds_section_dash_count']=sum(line=='-' for line in odds_lines)
