@@ -1,40 +1,96 @@
 {
-  "observed_at_utc": "2026-10-10T16:12:15+00:00",
+  "observed_at_utc": "2026-10-10T16:13:47+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
   "sources": {
     "unibet_fr": {
-      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
-      "quotes": 0
+      "status": "REJECT_HTTP_CACHE_AGE",
+      "quotes": 0,
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "http_status": 200,
+      "resolved_url": "https://www.unibet.fr/paris-badminton",
+      "parser_notes": null,
+      "error": null,
+      "cache_age_seconds": "151",
+      "body_sha256": "6f95ae856d49184a26bbf16c54066a400971d4cb4b7e9e0e17142fbfd39aa489"
     },
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
-      "quotes": 0
+      "quotes": 0,
+      "robots_status": "ROBOTS_HTTP_403",
+      "http_status": null,
+      "resolved_url": null,
+      "parser_notes": null,
+      "error": null,
+      "cache_age_seconds": null,
+      "body_sha256": null
     },
     "fdj_pos_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
-      "quotes": 0
+      "quotes": 0,
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "http_status": 200,
+      "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+      "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
+      "error": null,
+      "cache_age_seconds": "151",
+      "body_sha256": "3d4eadb4352cc03ec696b811f31c0fbae8a9831bf2c2da41fb54d4fc1929a8f0"
     },
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
-      "quotes": 0
+      "quotes": 0,
+      "robots_status": "ROBOTS_HTTP_403",
+      "http_status": null,
+      "resolved_url": null,
+      "parser_notes": null,
+      "error": null,
+      "cache_age_seconds": null,
+      "body_sha256": null
     },
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
-      "quotes": 0
+      "quotes": 0,
+      "robots_status": "ROBOTS_HTTP_403",
+      "http_status": null,
+      "resolved_url": null,
+      "parser_notes": null,
+      "error": null,
+      "cache_age_seconds": null,
+      "body_sha256": null
     },
     "netbet_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
-      "quotes": 0
+      "quotes": 0,
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "http_status": 200,
+      "resolved_url": "https://www.netbet.fr/badminton",
+      "parser_notes": null,
+      "error": null,
+      "cache_age_seconds": null,
+      "body_sha256": "b4031719746b5d961a4364eb95055327e23ff7e1692376bb2ea3a2253e713537"
     },
     "pmu_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
-      "quotes": 0
+      "quotes": 0,
+      "robots_status": "ROBOTS_HTTP_403",
+      "http_status": null,
+      "resolved_url": null,
+      "parser_notes": null,
+      "error": null,
+      "cache_age_seconds": null,
+      "body_sha256": null
     },
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
-      "quotes": 0
+      "quotes": 0,
+      "robots_status": "ROBOTS_HTTP_403",
+      "http_status": null,
+      "resolved_url": null,
+      "parser_notes": null,
+      "error": null,
+      "cache_age_seconds": null,
+      "body_sha256": null
     }
   }
 }
