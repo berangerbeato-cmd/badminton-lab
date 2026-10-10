@@ -114,23 +114,46 @@ jobs:
         if: always()
         run: |
           python - <<'PY'
-          import json,os,csv
+          import csv, json, os
           from pathlib import Path
-          root=Path('data/odds_shadow')
-          summary=root/'latest_summary.json'
-          d=json.loads(summary.read_text(encoding='utf-8')) if summary.exists() else {}
-          csvfile=root/'quote_diagnostics.csv'
-          rows=list(csv.DictReader(csvfile.open(encoding='utf-8-sig',newline=''))) if csvfile.exists() else []
-          lines=['### Badminton odds shadow audit',
-                 '- No bets placed. Observed prices are not confirmed executable.',
-                 f"- Online H2H candidates: {d.get('online_h2h_shadow_rows','n/a')}",
-                 f"- FDJ retail candidates: {d.get('retail_shadow_rows','n/a')}",
-                 f'- Diagnostic rows: {len(rows)}',
-                 '- See `data/odds_shadow/quote_diagnostics.csv` for detailed rejection reasons.']
-          for key,source in d.get('sources',{}).items():
-              lines.append(f"- {key}: {source.get('status','unknown')} ({source.get('quotes',0)} observed)")
-          result='\n'.join(lines)+'\n'
+          root = Path('data/odds_shadow')
+          warnings = []
+          def safe_json(path):
+              if not path.exists():
+                  warnings.append(f'Missing: {path}')
+                  return {}
+              try:
+                  value = json.loads(path.read_text(encoding='utf-8-sig'))
+                  if not isinstance(value, dict):
+                      raise ValueError('Expected a JSON object')
+                  return value
+              except (OSError, ValueError, UnicodeError) as exc:
+                  warnings.append(f'Cannot read {path}: {type(exc).__name__}: {exc}')
+                  return {}
+          data = safe_json(root / 'latest_summary.json')
+          diagnostic = safe_json(root / 'quote_diagnostics_summary.json')
+          csvfile = root / 'quote_diagnostics.csv'
+          try:
+              with csvfile.open(encoding='utf-8-sig', newline='') as handle:
+                  rows = list(csv.DictReader(handle))
+          except (OSError, UnicodeError, csv.Error) as exc:
+              rows = []
+              warnings.append(f'Cannot read {csvfile}: {exc}')
+          lines = ['### Badminton odds shadow audit',
+                   '- Shadow only: no bets placed, no executable odds confirmed.',
+                   f"- Online H2H candidates: {data.get('online_h2h_shadow_rows', 'n/a')}",
+                   f"- FDJ retail candidates: {data.get('retail_shadow_rows', 'n/a')}",
+                   f"- Diagnostic rows: {diagnostic.get('total_rows', len(rows))}",
+                   '- Details: `data/odds_shadow/quote_diagnostics.csv`.']
+          for key, source in data.get('sources', {}).items():
+              if isinstance(source, dict):
+                  lines.append(f"- {key}: {source.get('status', 'unknown')} ({source.get('quotes', 0)} observed)")
+          for warning in warnings:
+              lines.append(f'- Warning: {warning}')
+          result = '\n'.join(lines) + '\n'
           print(result)
-          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as f:
-              f.write(result)
+          destination = os.environ.get('GITHUB_STEP_SUMMARY')
+          if destination:
+              with open(destination, 'a', encoding='utf-8') as handle:
+                  handle.write(result)
           PY
