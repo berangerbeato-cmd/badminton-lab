@@ -86,11 +86,17 @@ def main():
     results = []
     for source, observed, quote in observations:
         a, b = quote.get('player_1_display'), quote.get('player_2_display')
-        candidates = [m for m in models if match_name(a, m.get('player_a')) and match_name(b, m.get('player_b'))]
+        candidates = []
+        for m in models:
+            direct = match_name(a, m.get('player_a')) and match_name(b, m.get('player_b'))
+            reversed_order = match_name(a, m.get('player_b')) and match_name(b, m.get('player_a'))
+            if direct or reversed_order:
+                candidates.append((m, bool(reversed_order and not direct)))
         if len(candidates) != 1:
-            results.append({'source': source, 'players': [a, b], 'status': 'MATCH_UNRESOLVED', 'matches': len(candidates)})
+            results.append({'source': source, 'players': [a, b], 'status': 'MATCH_UNRESOLVED',
+                            'matches': len(candidates), 'decision': 'NO_BET'})
             continue
-        m = candidates[0]
+        m, reversed_order = candidates[0]
         listed_day = quote.get('listed_day_paris')
         model_day = str(m.get('start_utc', ''))[:10]
         if listed_day and model_day and listed_day != model_day:
@@ -105,6 +111,8 @@ def main():
             prices = [float(quote['odds_1']), float(quote['odds_2'])]
             if model_at.tzinfo is None or seen_at.tzinfo is None:
                 raise ValueError('timezone missing')
+            if reversed_order:
+                prob = 1.0 - prob
             if not 0 < prob < 1 or min(prices) <= 1:
                 raise ValueError('Invalid probability or price')
         except (ValueError, TypeError, KeyError, AttributeError):
@@ -119,7 +127,9 @@ def main():
             flags.append('BWF_KICKOFF_DATE_ONLY')
         results.append({'source': source, 'bwf_match_id': m['bwf_match_id'], 'players': [m['player_a'], m['player_b']],
                         'observed_at_utc': observed, 'model_asof_utc': m['asof_utc'], 'model_age_seconds': round(age),
-                        'model_probability_a': prob, 'odds': prices,
+                        'model_probability_a': prob if not reversed_order else 1.0 - prob,
+                        'bookmaker_player_order_reversed': reversed_order,
+                        'odds': prices,
                         'illustrative_ev_pct': [round((prob * prices[0] - 1) * 100, 2), round(((1-prob) * prices[1] - 1) * 100, 2)],
                         'flags': flags, 'status': 'UNVERIFIED_SHADOW_ONLY', 'decision': 'NO_BET'})
     output = {'generated_at_utc': datetime.now(timezone.utc).isoformat(timespec='seconds'),
