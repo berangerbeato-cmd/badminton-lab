@@ -11,7 +11,8 @@ on:
     paths:
       - 'multi_book_odds_scraper.py'
       - 'netbet_quotes_shadow.py'
-      - 'v32_odds_compare.py'\n      - 'bwf_fixture_audit.py'
+      - 'v32_odds_compare.py'
+      - 'bwf_fixture_audit.py'
       - 'v32_quality_gate.py'
       - 'test_v32_odds_compare.py'
       - 'v32_shadow_ledger.py'
