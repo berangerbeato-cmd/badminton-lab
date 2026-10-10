@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_2_walkforward_v1",
-  "generated_at_utc": "2026-10-09T23:20:02+00:00",
+  "generated_at_utc": "2026-10-10T05:24:40+00:00",
   "policy": "MODEL_RESEARCH_ONLY_NO_ODDS_NO_BET_NO_T0_REWRITE",
   "model": "bwf_v3_2_walkforward",
   "fit_start_year": 2019,
@@ -72,10 +72,10 @@
         }
       },
       "replay_2026": {
-        "n": 1428,
-        "brier": 0.208616,
-        "log_loss": 0.603502,
-        "accuracy": 0.67437
+        "n": 1432,
+        "brier": 0.209265,
+        "log_loss": 0.60511,
+        "accuracy": 0.673184
       }
     },
     "elo_plus_score": {
@@ -149,10 +149,10 @@
         }
       },
       "replay_2026": {
-        "n": 1428,
-        "brier": 0.20467,
-        "log_loss": 0.594197,
-        "accuracy": 0.679272
+        "n": 1432,
+        "brier": 0.20532,
+        "log_loss": 0.595935,
+        "accuracy": 0.678073
       }
     },
     "elo_plus_score_rest": {
@@ -236,10 +236,10 @@
         }
       },
       "replay_2026": {
-        "n": 1428,
-        "brier": 0.204783,
-        "log_loss": 0.59446,
-        "accuracy": 0.679972
+        "n": 1432,
+        "brier": 0.205427,
+        "log_loss": 0.596183,
+        "accuracy": 0.678771
       }
     },
     "elo_plus_score_h2h": {
@@ -318,10 +318,10 @@
         }
       },
       "replay_2026": {
-        "n": 1428,
-        "brier": 0.20517,
-        "log_loss": 0.595432,
-        "accuracy": 0.679272
+        "n": 1432,
+        "brier": 0.205801,
+        "log_loss": 0.597114,
+        "accuracy": 0.678073
       }
     },
     "elo_plus_score_rest_h2h": {
@@ -410,10 +410,10 @@
         }
       },
       "replay_2026": {
-        "n": 1428,
-        "brier": 0.205321,
-        "log_loss": 0.595745,
-        "accuracy": 0.679272
+        "n": 1432,
+        "brier": 0.205945,
+        "log_loss": 0.597411,
+        "accuracy": 0.678073
       }
     },
     "elo_v3_1_all": {
@@ -532,10 +532,10 @@
         }
       },
       "replay_2026": {
-        "n": 1428,
-        "brier": 0.204761,
-        "log_loss": 0.594509,
-        "accuracy": 0.688375
+        "n": 1432,
+        "brier": 0.205379,
+        "log_loss": 0.596146,
+        "accuracy": 0.687151
       }
     }
   },
@@ -614,13 +614,13 @@
     }
   },
   "source_quality": {
-    "not_MS": 52177,
+    "not_MS": 52185,
     "no_full_score": 286,
     "score_not_completed": 220,
-    "no_winner": 16,
+    "no_winner": 14,
     "missing_player_ids": 5,
     "archives_read": 406,
-    "clean_MS_matches": 13604
+    "clean_MS_matches": 13608
   },
   "methodology": [
     "All pre-match features use only results strictly before the UTC match date.",
@@ -647,7 +647,7 @@
       2025
     ],
     "train_n": 10178,
-    "test_n": 1428,
+    "test_n": 1432,
     "status": "RETROSPECTIVE_ONLY_NOT_ARCHIVED_LIVE_T0"
   }
 }
