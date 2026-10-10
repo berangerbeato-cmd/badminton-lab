@@ -1,0 +1,13 @@
+{
+  "status": "PAIR_NOT_IN_ARCHIVE",
+  "tournament_id": "5594",
+  "target_day": "2026-10-11",
+  "archive_exists": true,
+  "record_counts": {
+    "all_records_including_duplicates": 167,
+    "ms_records_including_duplicates": 34
+  },
+  "relevant_ms_fixtures": [],
+  "target_pair_count": 0,
+  "note": "UTC calendar-day audit; does not establish prematch kickoff or bookmaker validity"
+}
