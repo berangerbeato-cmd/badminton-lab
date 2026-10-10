@@ -27,6 +27,9 @@ class LedgerSummaryTests(unittest.TestCase):
         self.assertEqual(result['run_count'], 1)
         self.assertEqual(result['observation_count'], 2)
         self.assertEqual(result['unique_bwf_matches'], 1)
+        self.assertEqual(result['distinct_observation_keys'], 1)
+        self.assertEqual(result['repeated_observation_keys'], 1)
+        self.assertEqual(result['no_bet_observation_count'], 2)
         self.assertEqual(result['quality_flag_counts']['KICKOFF_UNVERIFIED'], 2)
         self.assertIsNone(result['roi'])
 

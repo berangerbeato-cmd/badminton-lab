@@ -13,6 +13,10 @@ def summarize(ledger):
     sources = Counter()
     unique_matches = set()
     observations = 0
+    unique_observations = set()
+    repeated_observations = 0
+    matched_observations = 0
+    blocked_observations = 0
     for folder in sorted(ledger.iterdir()) if ledger.is_dir() else []:
         if not folder.is_dir() or not folder.name.isdigit():
             continue
@@ -33,6 +37,18 @@ def summarize(ledger):
             if row.get('decision') != 'NO_BET':
                 raise ValueError(f'Unexpected decision: {folder}')
             observations += 1
+            # A repeated snapshot of the same price is not an independent match.
+            key = (row.get('source'), row.get('bwf_match_id'),
+                   tuple(row.get('odds') or ()),
+                   row.get('observed_at_utc'))
+            if key in unique_observations:
+                repeated_observations += 1
+            else:
+                unique_observations.add(key)
+            if row.get('status') == 'UNVERIFIED_SHADOW_ONLY':
+                matched_observations += 1
+            if row.get('decision') == 'NO_BET':
+                blocked_observations += 1
             flags.update(row.get('flags', []))
             if row.get('bwf_match_id'):
                 unique_matches.add(row['bwf_match_id'])
@@ -44,6 +60,11 @@ def summarize(ledger):
         'policy': 'SHADOW_ONLY_NO_BET',
         'run_count': len(runs),
         'observation_count': observations,
+        'distinct_observation_keys': len(unique_observations),
+        'repeated_observation_keys': repeated_observations,
+        'matched_unverified_observation_count': matched_observations,
+        'no_bet_observation_count': blocked_observations,
+        'distinct_observation_note': 'Unique by source, BWF match, prices and observation time; not statistically independent matches.',
         'unique_bwf_matches': len(unique_matches),
         'quality_flag_counts': dict(flags),
         'source_status_counts': dict(sources),
