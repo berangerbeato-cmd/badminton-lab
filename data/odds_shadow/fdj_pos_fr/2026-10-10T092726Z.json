@@ -1,0 +1,70 @@
+{
+  "body_sha256": "e9319f5027fb3af4188fd53a2bdc90b899e2687d50c8bb1360ab81586463376f",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-10-10T09:27:45+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-10T09:27:34+00:00",
+  "operator": "Parions Sport Point de Vente (FDJ)",
+  "operator_kind": "RETAIL_NOT_ONLINE",
+  "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
+  "public_badminton_event_links": [
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-df/56074",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-dh/56054",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-f/56055",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-h/56053",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-f/56055/match_rintanon_lchristophersen/1313280",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-h/56053/match_ytanaka_kwatanabe/1313236",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-h/56053/match_aantonsen_zjlee/1313237",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-df/56074/match_chenluo_hsusung/1313284",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-dh/56054/match_kjaerkjaer_tai-yap/1313330",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-df/56074/match_baocao_hsulin/1313283",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-dh/56054/match_laitsai_maiovilleger/1313329"
+  ],
+  "quotes": [
+    {
+      "discipline": "MS",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+      "odds_1": 1.69,
+      "odds_2": 1.82,
+      "player_1_display": "Y.Tanaka",
+      "player_2_display": "K.Watanabe",
+      "retail_competition_display": "Op. Finlande H",
+      "retail_event_display": "Y.Tanaka-K.Watanabe",
+      "valid_until_paris": "2026-10-10T11:55+02:00"
+    },
+    {
+      "discipline": "MS",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+      "odds_1": 1.63,
+      "odds_2": 1.91,
+      "player_1_display": "A.Antonsen",
+      "player_2_display": "ZJ.Lee",
+      "retail_competition_display": "Op. Finlande H",
+      "retail_event_display": "A.Antonsen-ZJ.Lee",
+      "valid_until_paris": "2026-10-10T12:15+02:00"
+    }
+  ],
+  "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "retail_page_cached": false,
+  "retail_pages_audited": [
+    {
+      "cache_age_seconds": null,
+      "http_status": 200,
+      "quotes": 2,
+      "status": "retail face-à-face rows",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-h/56053"
+    }
+  ],
+  "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "server_date": "Sat, 10 Oct 2026 09:27:35 GMT",
+  "source_key": "fdj_pos_fr",
+  "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nL1 McDonald's\nPremier League\nLaLiga\nBundesliga 1\nSerie A\nLigue 2 BKT\nChampionsLeague\n+\nAfficher plus\nTennis\nToutes les compétitions\nShanghai\nPékin F\nPékin DF\nBasketball\nToutes les compétitions\nEuroleague (H)\nNBL\nD1 France (H)\nD2 France (H)\nLFB\nTBSL\nLiga ACB\nSerie A\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBaseball\nBoxe\nGolf\nMMA\nNascar\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nAujourd'hui\nR.Intanon-L.Christophersen\nOp. Finlande F\n\nN°19763 Face à Face I Fin de valid. 10/10 11h35\n\nAfficher\nR.Intanon\n1,31\nL.Christophersen\n2,65\n91%\n8%\nY.Tanaka-K.Watanabe\nOp. Finlande H\n\nN°19597 Face à Face I Fin de valid. 10/10 11h55\n\nAfficher\nY.Tanaka\n1,69\nK.Watanabe\n1,82\n72%\n27%\nA.Antonsen-ZJ.Lee\nOp. Finlande H\n\nN°19594 Face à Face I Fin de valid. 10/10 12h15\n\nAfficher\nA.Antonsen\n1,63\nZJ.Lee\n1,91\n73%\n26%\nChen/Luo-Hsu/Sung\nOp. Finlande DF\n\nN°19837 Score Exact I Fin de valid. 10/",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}

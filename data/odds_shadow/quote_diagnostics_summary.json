@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-10-10T08:55:39+00:00",
+  "generated_at_utc": "2026-10-10T09:27:57+00:00",
   "policy": "SHADOW_ONLY_NO_BET",
-  "total_rows": 12,
+  "total_rows": 14,
   "decisions": {
-    "NO_QUOTE": 6,
+    "NO_QUOTE": 8,
     "OBSERVED_NOT_ACTIONABLE": 6
   },
   "sources": {
@@ -21,6 +21,11 @@
       "rows": 1,
       "observed": 0,
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE"
+    },
+    "comparison_v3_auto": {
+      "rows": 1,
+      "observed": 0,
+      "status": ""
     },
     "fdj_pos_fr": {
       "rows": 2,
@@ -41,6 +46,11 @@
       "rows": 1,
       "observed": 0,
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE"
+    },
+    "quality_gate": {
+      "rows": 1,
+      "observed": 0,
+      "status": ""
     },
     "unibet_fr": {
       "rows": 2,
