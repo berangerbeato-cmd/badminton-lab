@@ -1,13 +1,25 @@
 {
-  "status": "PAIR_NOT_IN_ARCHIVE",
+  "status": "PAIR_PRESENT_IN_ARCHIVE",
   "tournament_id": "5594",
   "target_day": "2026-10-11",
   "archive_exists": true,
   "record_counts": {
-    "all_records_including_duplicates": 167,
-    "ms_records_including_duplicates": 34
+    "all_records_including_duplicates": 172,
+    "ms_records_including_duplicates": 35
   },
-  "relevant_ms_fixtures": [],
-  "target_pair_count": 0,
+  "relevant_ms_fixtures": [
+    {
+      "bwf_match_id": "5594:1552528",
+      "players": [
+        "Yushi TANAKA",
+        "Anders ANTONSEN"
+      ],
+      "day_utc": "2026-10-11",
+      "round": "Final",
+      "winner": 0,
+      "reasons": []
+    }
+  ],
+  "target_pair_count": 1,
   "note": "UTC calendar-day audit; does not establish prematch kickoff or bookmaker validity"
 }
