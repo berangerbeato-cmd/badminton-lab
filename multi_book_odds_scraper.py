@@ -287,12 +287,15 @@ def analyze_source(key, now, browser, evidence_dir=None):
                         item['status']='REJECT_HTTP_CACHE_AGE'
                         return item
                     cached_fdj=True
-                elif seconds>ONLINE_MAX_CACHE_AGE_SECONDS:
+                elif seconds>ONLINE_MAX_CACHE_AGE_SECONDS and source['kind']!='AGGREGATOR_AUDIT_ONLY':
                     item['status']='REJECT_HTTP_CACHE_AGE'
                     return item
         except (ValueError, TypeError):
             item['status']='REJECT_UNPARSEABLE_CACHE_AGE'
             return item
+        if source['kind']=='AGGREGATOR_AUDIT_ONLY':
+            item['audit_only_stale_content_allowed']=True
+            item['audit_warning']='Diagnostic only; no bookmaker prices are extracted or accepted.'
         if key=='flashscore_badminton':
             # User-provided public match link. Audit the odds tab, not any
             # private API; never interpret the visible numbers as live quotes.
