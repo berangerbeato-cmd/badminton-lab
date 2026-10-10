@@ -223,6 +223,31 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+      - name: Persist failure audit to repository for remote inspection
+        if: failure()
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          p = Path('data/model_v3_2_live/pipeline_order_latest.json')
+          if not p.exists():
+              p.parent.mkdir(parents=True, exist_ok=True)
+              p.write_text(json.dumps({
+                  'status': 'PIPELINE_INTERRUPTED',
+                  'policy': 'RESEARCH_ONLY_NO_BET',
+                  'reason': 'Workflow failed before pipeline ordering validation; inspect GitHub Actions step logs',
+                  'recorded_at_utc': datetime.now(timezone.utc).isoformat(),
+              }, indent=2) + '\n', encoding='utf-8')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/model_v3_2_live/pipeline_order_latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record failed V3.2 pipeline validation (NO BET)'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
       - name: Report
         if: always()
         run: |
