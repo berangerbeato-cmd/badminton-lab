@@ -442,6 +442,12 @@ def self_test() -> None:
     assert rows[2]["sets7_diff"] == 3.0
     assert rows[2]["h2h24_residual"] > 0.0
     assert parse_score("21-10 18-21 21-19") == (2, 1, 60, 50, 3)
+    cal = calibration_bins([{"winner": 1}, {"winner": 2}, {"winner": 1}],
+                           [0.7, 0.8, 0.3])
+    assert cal["n"] == 3
+    assert sum(b["n"] for b in cal["player_a_probability_bins"]) == 3
+    assert sum(b["n"] for b in cal["predicted_winner_confidence_bins"]) == 3
+    assert cal["predicted_winner_confidence_bins"][2]["n"] == 3
     print("V3.2 self-test OK")
 
 
