@@ -311,6 +311,7 @@ def main() -> int:
     p.add_argument('--timeout', type=int, default=15)
     p.add_argument('--delay', type=float, default=1.3)
     p.add_argument('--dry-run', action='store_true')
+    p.add_argument('--report', type=Path, help='Optional JSON refresh audit output')
     args = p.parse_args()
     if args.self_test:
         self_test()
@@ -320,6 +321,8 @@ def main() -> int:
     try:
         outcome = sync(start, end, Path(args.data_dir), args.max_tournaments,
                        args.timeout, args.delay, dry_run=args.dry_run)
+        if args.report:
+            atomic_write_json(args.report, outcome)
         print('SUMMARY', json.dumps(outcome, ensure_ascii=False))
         return 0 if not outcome['errors'] else 2
     except Exception as exc:
