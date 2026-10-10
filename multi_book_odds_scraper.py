@@ -329,7 +329,8 @@ def analyze_source(key, now, browser, evidence_dir=None):
             # Prefer a two-player named public link, rather than the old mixed-doubles sample.
             # Candidate status is still UNKNOWN until the rendered match page is checked.
             named_links=[u for u in item['flashscore_discovery'].get('index_match_links',[])
-                         if len([p for p in urlsplit(u).path.split('/') if p])>=4]
+                         if len([p for p in urlsplit(u).path.split('/') if p])>=4
+                         and not any('/' in p for p in urlsplit(u).path.split('/')[3:])]
             candidate=named_links[-1] if named_links else None
             match_url=(candidate.split('?',1)[0].rstrip('/')+
                        '/#/cotes/home-away/temps-regulier/' if candidate else
