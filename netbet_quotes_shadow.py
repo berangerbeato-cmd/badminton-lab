@@ -271,6 +271,13 @@ def live(out: Path, model_dir: Path):
                     result['candidate_urls']=chosen[:8]
                     result['candidate_count']=len(chosen)
                     result['page_audit_limit']=8
+                    # The index itself can contain full public H2H markets even when
+                    # the site does not expose tournament links as <a href>.
+                    index_body=index.locator('body').inner_text(timeout=12000)
+                    index_rows,index_diag=parse_event_text(index_body,now,INDEX)
+                    result['index_market_audit']=index_diag
+                    result['index_eligible_quotes']=len(index_rows)
+                    result['quotes'].extend(index_rows)
                     for url in chosen[:8]:
                         permitted,rsn=robots_check(url)
                         audit={'url':url,'robots_status':rsn}
@@ -308,6 +315,13 @@ def live(out: Path, model_dir: Path):
                         finally:
                             pg.close()
                         result['page_audits'].append(audit)
+                    # Avoid double-counting the same index and tournament market.
+                    seen=set(); unique=[]
+                    for row in result['quotes']:
+                        identity=(norm(row['player_1_display']),norm(row['player_2_display']),row['listed_day_paris'])
+                        if identity not in seen:
+                            seen.add(identity);unique.append(row)
+                    result['quotes']=unique
                     result['status']='OBSERVED_SHADOW_NEEDS_CONFIRMATION' if result['quotes'] else 'NO_CONFIDENT_QUOTES'
             finally:
                 browser.close()
