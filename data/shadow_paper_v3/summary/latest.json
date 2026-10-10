@@ -7,7 +7,7 @@
   "exploratory_roi_pct_not_validated": null,
   "exploratory_settled": 0,
   "exploratory_wins": 0,
-  "generated_at_utc": "2026-10-09T23:34:10+00:00",
+  "generated_at_utc": "2026-10-10T05:21:43+00:00",
   "model": "bwf_v3_2_score_rest_live",
   "policy": "EXPLORATORY_V3_PAPER_ONLY_NO_REAL_BET_NO_VALIDATED_T0_NO_SHEETS",
   "schema": "badminton_paper_v3_shadow_v1",
