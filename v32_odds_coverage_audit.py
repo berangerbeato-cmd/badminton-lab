@@ -11,6 +11,44 @@ SOURCES = ("unibet_fr", "netbet_quotes", "betclic_fr", "betsson_fr",
            "oddschecker_badminton", "oddspedia_badminton", "oddsportal_badminton")
 
 
+def classify(source, item):
+    """Classify collection blockers without treating inaccessible sites as empty markets."""
+    status = item.get("status", "")
+    if status in ("MISSING_SNAPSHOT", "INVALID_SNAPSHOT"):
+        return "DATA_MISSING_OR_INVALID"
+    if status.startswith("SKIPPED_ROBOTS"):
+        return "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE"
+    if status.startswith("REJECT_HTTP"):
+        return "HTTP_OR_REDIRECT_REJECTED"
+    if item.get("quote_count", 0):
+        return "QUOTE_OBSERVED_REQUIRES_VALIDATION"
+    if source == "netbet_quotes":
+        rejected = (item.get("index_market_audit") or {}).get("rejections") or {}
+        if rejected:
+            return "MARKETS_SEEN_BUT_UNVERIFIED"
+    if status in ("NO_CONFIDENT_PREMATCH_QUOTES", "NO_CONFIDENT_QUOTES"):
+        return "NO_CONFIDENT_QUOTES_EXTRACTED"
+    return "UNKNOWN_OR_UNCLASSIFIED"
+
+
+def next_actions(sources):
+    """Prioritize only public-access and fail-closed research actions."""
+    actions = []
+    netbet = sources.get("netbet_quotes", {})
+    if netbet.get("blocker") == "MARKETS_SEEN_BUT_UNVERIFIED":
+        actions.append({"source": "netbet_quotes", "priority": 1,
+                        "action": "Review public competition heading and player-pair context; do not infer tournament from URL."})
+    unibet = sources.get("unibet_fr", {})
+    if unibet.get("blocker") == "NO_CONFIDENT_QUOTES_EXTRACTED":
+        actions.append({"source": "unibet_fr", "priority": 2,
+                        "action": "Inspect public page structure and discipline/date sections; do not interpret live prices as prematch."})
+    for source, item in sources.items():
+        if item.get("blocker") in ("ACCESS_NOT_PERMITTED_OR_UNAVAILABLE", "HTTP_OR_REDIRECT_REJECTED"):
+            actions.append({"source": source, "priority": 3,
+                            "action": "Record access limitation; do not bypass robots, authentication or geoblocks."})
+    return actions
+
+
 def audit(model_file, odds_dir):
     with model_file.open(encoding="utf-8-sig", newline="") as f:
         fixtures = list(csv.DictReader(f))
@@ -35,7 +73,12 @@ def audit(model_file, odds_dir):
             }
         except (OSError, ValueError, TypeError) as exc:
             sources[source] = {"status": "INVALID_SNAPSHOT", "quote_count": 0, "error": str(exc)}
+    for source, item in sources.items():
+        item["blocker"] = classify(source, item)
     return {
+        "next_actions": next_actions(sources),
+        "blocker_counts": {kind: sum(x["blocker"] == kind for x in sources.values())
+                           for kind in sorted({x["blocker"] for x in sources.values()})},
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "policy": "RESEARCH_ONLY_NO_BET",
         "status": "NO_CONFIRMED_PREMATCH_QUOTES" if not any(v["quote_count"] for v in sources.values()) else "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
