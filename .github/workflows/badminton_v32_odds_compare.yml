@@ -226,6 +226,8 @@ jobs:
             if ! git diff --cached --quiet; then
               git commit -m 'Preserve refreshed BWF archive alongside shadow audit'
             fi
+            # Leave no unrelated generated files in the worktree during rebase.
+            git stash push --include-untracked -m 'Temporary untracked workflow outputs' || true
             git pull --rebase origin main
             git push origin HEAD:main
           fi
@@ -257,6 +259,8 @@ jobs:
             if ! git diff --cached --quiet; then
               git commit -m 'Preserve refreshed BWF archive alongside shadow audit'
             fi
+            # Leave no unrelated generated files in the worktree during rebase.
+            git stash push --include-untracked -m 'Temporary untracked workflow outputs' || true
             git pull --rebase origin main
             git push origin HEAD:main
           fi
