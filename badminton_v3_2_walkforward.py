@@ -171,6 +171,47 @@ def combined_metrics(rows: list[dict], probs: list[float]) -> dict:
     return metrics(rows, probs)
 
 
+def calibration_bins(rows: list[dict], probs: list[float]) -> dict:
+    """Out-of-sample reliability; fixed 10-point bins, no model refitting."""
+    if len(rows) != len(probs):
+        raise ValueError("Rows and predictions must have equal lengths")
+    bins = [{"n": 0, "predicted_sum": 0.0, "observed_sum": 0.0}
+            for _ in range(10)]
+    favorite = [{"n": 0, "predicted_sum": 0.0, "observed_sum": 0.0}
+                for _ in range(5)]
+    for r, p in zip(rows, probs):
+        if not 0.0 < p < 1.0:
+            raise ValueError("Invalid probability in calibration")
+        y = 1.0 if r["winner"] == 1 else 0.0
+        i = min(int(p * 10), 9)
+        bins[i]["n"] += 1
+        bins[i]["predicted_sum"] += p
+        bins[i]["observed_sum"] += y
+        confidence = max(p, 1.0 - p)
+        j = min(int((confidence - 0.5) * 10), 4)
+        favorite[j]["n"] += 1
+        favorite[j]["predicted_sum"] += confidence
+        favorite[j]["observed_sum"] += y if p >= 0.5 else 1.0 - y
+
+    def finish(items, low, step):
+        out = []
+        for i, b in enumerate(items):
+            n = b["n"]
+            pred = b["predicted_sum"] / n if n else None
+            obs = b["observed_sum"] / n if n else None
+            out.append({"range_low": round(low + i * step, 2),
+                        "range_high": round(low + (i + 1) * step, 2),
+                        "n": n,
+                        "mean_predicted": round(pred, 6) if pred is not None else None,
+                        "observed_frequency": round(obs, 6) if obs is not None else None,
+                        "calibration_gap": round(obs - pred, 6) if n else None})
+        return out
+
+    return {"n": len(rows), "player_a_probability_bins": finish(bins, 0.0, 0.1),
+            "predicted_winner_confidence_bins": finish(favorite, 0.5, 0.1),
+            "scope": "OUT_OF_SAMPLE_WALK_FORWARD_NO_BOOKMAKER_ODDS"}
+
+
 def run(data_dir: Path, output_dir: Path) -> dict:
     matches, quality = load_matches(data_dir)
 
@@ -300,6 +341,11 @@ def run(data_dir: Path, output_dir: Path) -> dict:
         best = baseline_name
 
     report["recommended_variant_from_walkforward"] = best
+    report["selected_variant_calibration_2022_2025"] = {
+        "variant": best,
+        **calibration_bins(aggregate_rows[best], aggregate_probs[best]),
+    }
+
 
     # 2026 retrospective replay: train through 2025 and select K on 2025 only.
     replay_k, replay_k_scores = select_k(row_cache, 2025)
@@ -322,9 +368,29 @@ def run(data_dir: Path, output_dir: Path) -> dict:
         probs = [predict(r, model) for r in replay_test]
         report["variants"][name]["replay_2026"] = metrics(replay_test, probs)
 
+    replay_selected_model = fit_variant(replay_train, VARIANTS[best])
+    replay_selected_probs = [predict(r, replay_selected_model) for r in replay_test]
+    report["selected_variant_calibration_2026_replay"] = {
+        "variant": best,
+        "status": "RETROSPECTIVE_ONLY_NOT_ARCHIVED_LIVE_T0",
+        **calibration_bins(replay_test, replay_selected_probs),
+    }
+
     output_dir.mkdir(parents=True, exist_ok=True)
     (output_dir / "latest.json").write_text(
         json.dumps(report, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+    calibration = {
+        "generated_at_utc": report["generated_at_utc"],
+        "selected_variant": best,
+        "walkforward_2022_2025": report["selected_variant_calibration_2022_2025"],
+        "replay_2026": report["selected_variant_calibration_2026_replay"],
+        "policy": "RESEARCH_ONLY_NO_ODDS_NO_BET",
+    }
+    (output_dir / "calibration_latest.json").write_text(
+        json.dumps(calibration, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
 
@@ -376,6 +442,12 @@ def self_test() -> None:
     assert rows[2]["sets7_diff"] == 3.0
     assert rows[2]["h2h24_residual"] > 0.0
     assert parse_score("21-10 18-21 21-19") == (2, 1, 60, 50, 3)
+    cal = calibration_bins([{"winner": 1}, {"winner": 2}, {"winner": 1}],
+                           [0.7, 0.8, 0.3])
+    assert cal["n"] == 3
+    assert sum(b["n"] for b in cal["player_a_probability_bins"]) == 3
+    assert sum(b["n"] for b in cal["predicted_winner_confidence_bins"]) == 3
+    assert sum(b["n"] for b in cal["predicted_winner_confidence_bins"]) == cal["n"]
     print("V3.2 self-test OK")
 
 
