@@ -19,6 +19,7 @@ on:
       - 'bwf_pipeline_freshness.py'
       - 'test_bwf_pipeline_freshness.py'
       - 'v32_quality_gate.py'
+      - 'v32_odds_coverage_audit.py'
       - 'test_v32_odds_compare.py'
       - 'v32_shadow_ledger.py'
       - 'test_v32_shadow_ledger.py'
@@ -171,6 +172,8 @@ jobs:
             --model "$MODEL" \
             --odds-dir data/odds_shadow \
             --out data/odds_shadow/comparison_v3_auto
+      - name: Audit bookmaker coverage without assuming valid prices
+        run: python v32_odds_coverage_audit.py
       - name: Audit quality
         run: |
           python v32_quality_gate.py \
