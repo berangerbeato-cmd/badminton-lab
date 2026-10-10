@@ -1,19 +1,19 @@
 {
-  "observed_at_utc": "2026-10-10T16:30:29+00:00",
+  "observed_at_utc": "2026-10-10T16:37:38+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
   "sources": {
     "unibet_fr": {
-      "status": "REJECT_HTTP_CACHE_AGE",
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quotes": 0,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": null,
+      "parser_notes": "parsed; page_parsed_entries=2; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1; eligible_MS_H2H=0; local_now=2026-10-10T18:37:38.144929+02:00",
       "error": null,
-      "cache_age_seconds": "152",
-      "body_sha256": "f89a02d4c75e0b56fa44d30400b3f7e3fd646534958a41294d9b24e464852680"
+      "cache_age_seconds": null,
+      "body_sha256": "e89473fe1aa2d0ccef91d02ce9bcbe5ee5605dc0ccc4e0cf2fdd8a68d5cfb80d"
     },
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
@@ -34,8 +34,8 @@
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
       "error": null,
-      "cache_age_seconds": "148",
-      "body_sha256": "3d4eadb4352cc03ec696b811f31c0fbae8a9831bf2c2da41fb54d4fc1929a8f0"
+      "cache_age_seconds": null,
+      "body_sha256": "bf5bb34186391f4afac9fd4d935d07c94a9b57e3f5acf3a8bc75565c11055bef"
     },
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
@@ -68,7 +68,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "2085094ddac678b7f4431ed2bfc138908f0b4929aa4a5ad1d05363c843d30a80"
+      "body_sha256": "8d93cd543cc5e0441bc932f8dfa69ab99441d98cc8969987d8a0794736e2db6a"
     },
     "pmu_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
