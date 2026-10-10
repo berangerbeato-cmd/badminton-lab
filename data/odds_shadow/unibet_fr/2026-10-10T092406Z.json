@@ -1,0 +1,47 @@
+{
+  "body_sha256": "f5bf8f09a012c8059436d09aa95ba6bf28b7088444cc7d22c96857ee6ceb5bb9",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-10-10T09:24:12+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-10T09:24:07+00:00",
+  "operator": "Unibet.fr",
+  "operator_kind": "ONLINE",
+  "parser_notes": "parsed; page_parsed_entries=8; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=2,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=2,DM:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,F:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,H:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=2; eligible_MS_H2H=2; local_now=2026-10-10T11:24:06.931714+02:00",
+  "public_badminton_event_links": [],
+  "quotes": [
+    {
+      "discipline": "MS",
+      "listed_start_paris": "2026-10-10T12:05+02:00",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "LISTING_ONLY_NEEDS_DETAIL",
+      "odds_1": 1.69,
+      "odds_2": 1.82,
+      "operator_event_id": null,
+      "player_1_display": "Y.Tanaka",
+      "player_2_display": "K.Watanabe",
+      "tournament": "Open de Finlande"
+    },
+    {
+      "discipline": "MS",
+      "listed_start_paris": "2026-10-10T12:25+02:00",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "LISTING_ONLY_NEEDS_DETAIL",
+      "odds_1": 1.63,
+      "odds_2": 1.91,
+      "operator_event_id": null,
+      "player_1_display": "A.Antonsen",
+      "player_2_display": "ZJ.Lee",
+      "tournament": "Open de Finlande"
+    }
+  ],
+  "resolved_url": "https://www.unibet.fr/paris-badminton",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "server_date": "Sat, 10 Oct 2026 09:24:08 GMT",
+  "source_key": "unibet_fr",
+  "source_url": "https://www.unibet.fr/paris-badminton",
+  "status": "OBSERVED_SHADOW_NEEDS_MARKET_CONFIRMATION",
+  "text_excerpt_for_debug": "Aller au contenu principal\nAller au pied de page\n\nPARCE QU’UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\n\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR \n(s'ouvre dans un nouvel onglet)\n(09-74-75-13-13, APPEL NON SURTAXÉ)\n\nSports\nLive\n16\n16 live disponibles\nPromos & défis\n2\n2 défis disponibles\nPoker\nFavoris & Top compétitions\nCompétition de football -europe\nTop Foot Européen\nCompétition de football -france\nLigue 1 McDonalds\nCompétition de tennis -monde\nShanghai\nCompétition de tennis -monde\nPékin F\nCompétition de football -angleterre\nPremier League\nCompétition de football -espagne\nLaLiga\nCotes boostées\nTous sports\nFootball\nTennis\nBasketball\nBadminton\nTout voir\nINTERNATIONAL\nTout International\nOpen de Finlande H\nOpen de Finlande F\nOpen de Finlande DH\nOpen de Finlande DF\nOpen de Finlande DM\nBaseball\nBiathlon\nBoxe\nCyclisme\nFoot américain\nFormule 1\nFormule 2\nGolf\nHandball\nHockey Sur Glace\nJudo\nNascar\nRugby\nRugby à XIII\nSki Alpin\nSki de Fond\nSnooker\nSquash\nTennis de Table\nUFC/MMA\nVoile\nVolley Ball\nAccueil\nBadminton\nCompétition badminton\nBadminton\nFace à Face\nRace to $n points\nAujourd'hui\nmonde\n\nOpen de Finlande DM\n\nÀ 11h25\nFeng/Huang\n-\nJiang/Wei\nFeng/Huang\n1,44\nÉtape \n94%\n\t\nJiang/Wei\n2,20\nÉtape \n6%\nmonde\n\nOpen de Finlande F\n\nÀ 11h45\nR.Intanon\n-\nL.Christophersen\nR.Intanon\n1,31\n\t\nL.Christophersen\n2,65\nmonde\n\nOpen de Finlande H\n\nÀ 12h05\nY.Tanaka\n-\nK.Watanabe\nY.Tanaka\n1,69\n\t\nK.Watanabe\n1,82\nmonde\n\nOpen de Finlande H\n\nÀ 12h25\nA.Antonsen\n-\nZJ.Lee\nA.Antonsen\n1,63\nÉtape \n72%\n\t\nZJ.Lee\n1,91\nÉtape \n28%\nmonde\n\nOpen de Finlande DF\n\nÀ 12h45\nChen/Luo\n-\nHsu/Sung\nChen/Luo\n1,13\nÉtape \n96%\n\t\nHsu/Sung\n3,85\n",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
