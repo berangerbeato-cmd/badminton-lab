@@ -141,7 +141,7 @@ def parse_event_text(text: str, observed: datetime, event_url: str) -> tuple[lis
                                 if norm(v)==norm(competition)),None)
         if not local_heading:
             reject('COMPETITION_NOT_PROVEN',i);continue
-        if re.search(r'\\b(?:doubles?|mixtes?)\\b|\\(F\\)',local_heading,re.I):
+        if re.search(r'\b(?:doubles?|mixtes?)\b|\(F\)',local_heading,re.I):
             reject('NON_MS_COMPETITION',i);continue
         if dated and context.index(local_heading)+1 != dated[-1]:
             reject('COMPETITION_NOT_ADJACENT_TO_DATE',i);continue
