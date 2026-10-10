@@ -1,0 +1,67 @@
+{
+  "generated_at_utc": "2026-10-10T09:05:23+00:00",
+  "comparison_generated_at_utc": "2026-10-10T09:05:22+00:00",
+  "policy": "RESEARCH_ONLY_NO_BET",
+  "comparison_count": 4,
+  "status_counts": {
+    "BLOCKED_UNVERIFIED": 4
+  },
+  "reason_counts": {
+    "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN": 4,
+    "EXECUTABLE_PRICE_UNVERIFIED": 4,
+    "KICKOFF_UNVERIFIED": 4,
+    "MARKET_DETAIL_UNVERIFIED": 4,
+    "MODEL_OLDER_THAN_45_MIN": 4
+  },
+  "rows": [
+    {
+      "source": "unibet_fr",
+      "bwf_match_id": "5594:1552525",
+      "player_a": "Yushi TANAKA",
+      "player_b": "Koki WATANABE",
+      "model_age_minutes": 210.9,
+      "ev_a_pct": -13.37,
+      "ev_b_pct": -11.29,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED|MODEL_OLDER_THAN_45_MIN",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "unibet_fr",
+      "bwf_match_id": "5594:1552532",
+      "player_a": "Anders ANTONSEN",
+      "player_b": "LEE Zii Jia",
+      "model_age_minutes": 210.9,
+      "ev_a_pct": 37.39,
+      "ev_b_pct": -69.99,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED|MODEL_OLDER_THAN_45_MIN",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5594:1552525",
+      "player_a": "Yushi TANAKA",
+      "player_b": "Koki WATANABE",
+      "model_age_minutes": 194.7,
+      "ev_a_pct": -12.86,
+      "ev_b_pct": -15.68,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED|MODEL_OLDER_THAN_45_MIN",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5594:1552532",
+      "player_a": "Anders ANTONSEN",
+      "player_b": "LEE Zii Jia",
+      "model_age_minutes": 194.7,
+      "ev_a_pct": 37.39,
+      "ev_b_pct": -71.56,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED|MODEL_OLDER_THAN_45_MIN",
+      "decision": "NO_BET"
+    }
+  ],
+  "note": "Quality audit only; never confirms a market or executable price."
+}
