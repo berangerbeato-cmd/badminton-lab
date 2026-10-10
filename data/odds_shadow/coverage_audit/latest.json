@@ -47,12 +47,12 @@
     }
   ],
   "blocker_counts": {
-    "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE": 5,
-    "HTTP_OR_REDIRECT_REJECTED": 4,
+    "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE": 6,
+    "HTTP_OR_REDIRECT_REJECTED": 3,
     "NO_CONFIDENT_QUOTES_EXTRACTED": 1,
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 1
   },
-  "generated_at_utc": "2026-10-10T19:38:07.657402+00:00",
+  "generated_at_utc": "2026-10-10T19:40:30.586115+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 1,
@@ -70,7 +70,7 @@
     "unibet_fr": {
       "status": "REJECT_HTTP_CACHE_AGE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:37:07+00:00",
+      "observed_at_utc": "2026-10-10T19:39:30+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -79,38 +79,12 @@
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
       "quote_count": 1,
-      "observed_at_utc": "2026-10-10T19:38:01+00:00",
+      "observed_at_utc": "2026-10-10T19:40:24+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 1,
-        "markets_seen": 5,
+        "markets_seen": 4,
         "rejection_evidence": [
-          {
-            "following_lines": [
-              "Lai-Tsai",
-              "1.01",
-              "Maio-Villeger",
-              "8.00"
-            ],
-            "market_line": 114,
-            "preceding_lines": [
-              "Badminton",
-              "À L'AFFICHE",
-              "EN DIRECT",
-              "TOUTE L'OFFRE BADMINTON",
-              "En direct",
-              "Artic Open - Doubles",
-              "Set 3",
-              "LIVE",
-              "Lai-Tsai",
-              "Maio-Villeger",
-              "1",
-              "1",
-              "19",
-              "13"
-            ],
-            "reason": "PLAYER_PAIR_MISMATCH"
-          },
           {
             "following_lines": [
               "Ratchanok Intanon",
@@ -118,16 +92,16 @@
               "Mia Blichfeldt",
               "2.42"
             ],
-            "market_line": 127,
+            "market_line": 109,
             "preceding_lines": [
-              "13",
-              "Qui va gagner le match ?",
-              "Lai-Tsai",
-              "1.01",
-              "Maio-Villeger",
-              "8.00",
-              "+ 3",
-              "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
+              "Scores en direct",
+              "Format des cotes",
+              "Accueil",
+              "Badminton",
+              "Pariez sur",
+              "Badminton",
+              "À L'AFFICHE",
+              "TOUTE L'OFFRE BADMINTON",
               "Populaires",
               "Artic Open (F)",
               "dim. 11 oct.",
@@ -144,7 +118,7 @@
               "Gao-Wu",
               "3.60"
             ],
-            "market_line": 141,
+            "market_line": 123,
             "preceding_lines": [
               "Qui va gagner le match ?",
               "Ratchanok Intanon",
@@ -170,7 +144,7 @@
               "Mia Blichfeldt",
               "2.42"
             ],
-            "market_line": 152,
+            "market_line": 134,
             "preceding_lines": [
               "12:00",
               "Jiang-Wei",
@@ -191,8 +165,7 @@
           }
         ],
         "rejections": {
-          "NON_MS_COMPETITION": 3,
-          "PLAYER_PAIR_MISMATCH": 1
+          "NON_MS_COMPETITION": 3
         }
       },
       "reason_counts": {
@@ -203,7 +176,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:37:24+00:00",
+      "observed_at_utc": "2026-10-10T19:39:49+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -212,7 +185,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:37:35+00:00",
+      "observed_at_utc": "2026-10-10T19:40:01+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -221,7 +194,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:37:17+00:00",
+      "observed_at_utc": "2026-10-10T19:39:42+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -230,7 +203,7 @@
     "fdj_pos_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:37:18+00:00",
+      "observed_at_utc": "2026-10-10T19:39:43+00:00",
       "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -239,7 +212,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:37:25+00:00",
+      "observed_at_utc": "2026-10-10T19:39:50+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -248,7 +221,7 @@
     "pmu_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:37:34+00:00",
+      "observed_at_utc": "2026-10-10T19:40:00+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -257,7 +230,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:37:40+00:00",
+      "observed_at_utc": "2026-10-10T19:40:06+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -266,20 +239,20 @@
     "oddspedia_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:37:37+00:00",
+      "observed_at_utc": "2026-10-10T19:40:02+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "HTTP_OR_REDIRECT_REJECTED"
     },
     "oddsportal_badminton": {
-      "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
+      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-10T19:37:57+00:00",
+      "observed_at_utc": "2026-10-10T19:40:23+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
-      "blocker": "HTTP_OR_REDIRECT_REJECTED"
+      "blocker": "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE"
     }
   },
   "note": "Quotes observed are not necessarily valid or executable. Zero quotes is not a scraper success claim."
