@@ -1,120 +1,32 @@
 {
-  "generated_at_utc": "2026-10-10T09:44:46+00:00",
+  "generated_at_utc": "2026-10-10T13:39:26+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
-  "comparison_count": 4,
+  "comparison_count": 1,
   "results": [
     {
-      "source": "unibet_fr",
-      "bwf_match_id": "5594:1552525",
-      "players": [
-        "Yushi TANAKA",
-        "Koki WATANABE"
-      ],
-      "observed_at_utc": "2026-10-10T09:44:17+00:00",
-      "model_asof_utc": "2026-10-10T05:24:15+00:00",
-      "model_age_seconds": 15602,
-      "model_probability_a": 0.51260431,
-      "odds": [
-        1.69,
-        1.82
-      ],
-      "illustrative_ev_pct": [
-        -13.37,
-        -11.29
-      ],
-      "flags": [
-        "MARKET_DETAIL_UNVERIFIED",
-        "KICKOFF_UNVERIFIED",
-        "EXECUTABLE_PRICE_UNVERIFIED",
-        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
-        "MODEL_OLDER_THAN_45_MIN"
-      ],
-      "status": "UNVERIFIED_SHADOW_ONLY",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "unibet_fr",
-      "bwf_match_id": "5594:1552532",
-      "players": [
-        "Anders ANTONSEN",
-        "LEE Zii Jia"
-      ],
-      "observed_at_utc": "2026-10-10T09:44:17+00:00",
-      "model_asof_utc": "2026-10-10T05:24:15+00:00",
-      "model_age_seconds": 15602,
-      "model_probability_a": 0.84286719,
-      "odds": [
-        1.63,
-        1.91
-      ],
-      "illustrative_ev_pct": [
-        37.39,
-        -69.99
-      ],
-      "flags": [
-        "MARKET_DETAIL_UNVERIFIED",
-        "KICKOFF_UNVERIFIED",
-        "EXECUTABLE_PRICE_UNVERIFIED",
-        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
-        "MODEL_OLDER_THAN_45_MIN"
-      ],
-      "status": "UNVERIFIED_SHADOW_ONLY",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "bwf_match_id": "5594:1552525",
-      "players": [
-        "Yushi TANAKA",
-        "Koki WATANABE"
-      ],
-      "observed_at_utc": "2026-10-10T09:38:38+00:00",
-      "model_asof_utc": "2026-10-10T05:24:15+00:00",
-      "model_age_seconds": 15263,
-      "model_probability_a": 0.51260431,
-      "odds": [
-        1.7,
-        1.73
-      ],
-      "illustrative_ev_pct": [
-        -12.86,
-        -15.68
-      ],
-      "flags": [
-        "MARKET_DETAIL_UNVERIFIED",
-        "KICKOFF_UNVERIFIED",
-        "EXECUTABLE_PRICE_UNVERIFIED",
-        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
-        "MODEL_OLDER_THAN_45_MIN"
-      ],
-      "status": "UNVERIFIED_SHADOW_ONLY",
-      "decision": "NO_BET"
-    },
-    {
       "source": "netbet_quotes",
       "bwf_match_id": "5594:1552532",
       "players": [
         "Anders ANTONSEN",
         "LEE Zii Jia"
       ],
-      "observed_at_utc": "2026-10-10T09:38:38+00:00",
-      "model_asof_utc": "2026-10-10T05:24:15+00:00",
-      "model_age_seconds": 15263,
+      "observed_at_utc": "2026-10-10T13:39:18+00:00",
+      "model_asof_utc": "2026-10-10T13:38:22+00:00",
+      "model_age_seconds": 56,
       "model_probability_a": 0.84286719,
       "odds": [
-        1.63,
-        1.81
+        1.65,
+        1.78
       ],
       "illustrative_ev_pct": [
-        37.39,
-        -71.56
+        39.07,
+        -72.03
       ],
       "flags": [
         "MARKET_DETAIL_UNVERIFIED",
         "KICKOFF_UNVERIFIED",
         "EXECUTABLE_PRICE_UNVERIFIED",
-        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
-        "MODEL_OLDER_THAN_45_MIN"
+        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN"
       ],
       "status": "UNVERIFIED_SHADOW_ONLY",
       "decision": "NO_BET"
