@@ -94,7 +94,14 @@ def parse_event_text(text: str, observed: datetime, event_url: str) -> tuple[lis
     now_local=observed.astimezone(PARIS)
     lines=[re.sub(r'\s+', ' ',v).strip() for v in text.splitlines()]
     lines=[l for l in lines if l]
-    audits=Counter();out=[]
+    audits=Counter();out=[];rejection_evidence=[]
+    def reject(reason, i):
+        audits[reason]+=1
+        if len(rejection_evidence)<6:
+            # Public listing text only; never promote evidence to an accepted quote.
+            rejection_evidence.append({'reason':reason,'market_line':i,
+                'preceding_lines':lines[max(0,i-14):i],
+                'following_lines':lines[i+1:i+5]})
     # The public competition title must be visible above the events. Do not
     # infer the tournament from its URL slug or from an unrelated fixture.
     title_candidates=[lines[i+1] for i,x in enumerate(lines[:-1])
@@ -107,23 +114,23 @@ def parse_event_text(text: str, observed: datetime, event_url: str) -> tuple[lis
         if not MARKET.fullmatch(line):
             continue
         if i<4 or i+4>=len(lines):
-            audits['TRUNCATED_MARKET']+=1;continue
+            reject('TRUNCATED_MARKET',i);continue
         a,b=lines[i-2:i]
         pa,oa,pb,ob=lines[i+1:i+5]
         if norm(a)!=norm(pa) or norm(b)!=norm(pb) or norm(a)==norm(b):
-            audits['PLAYER_PAIR_MISMATCH']+=1;continue
+            reject('PLAYER_PAIR_MISMATCH',i);continue
         if '/' in a or '/' in b:
-            audits['DOUBLES_REJECTED']+=1;continue
+            reject('DOUBLES_REJECTED',i);continue
         try:
             x,y=parse_price(oa),parse_price(ob)
         except ValueError:
-            audits['PRICE_NOT_CONFIRMED']+=1;continue
+            reject('PRICE_NOT_CONFIRMED',i);continue
         context=lines[max(0,i-8):i-2]
         if not any(norm(v)==norm(competition) for v in context):
-            audits['COMPETITION_NOT_PROVEN']+=1;continue
+            reject('COMPETITION_NOT_PROVEN',i);continue
         day,day_status=listed_day(context,now_local)
         if not day:
-            audits[day_status]+=1;continue
+            reject(day_status,i);continue
         # Price is public listing observation, not an actual bookmaker quote update timestamp.
         out.append({'player_1_display':a,'player_2_display':b,
                     'odds_1':x,'odds_2':y,'market':'H2H_FULL_MATCH',
@@ -139,7 +146,7 @@ def parse_event_text(text: str, observed: datetime, event_url: str) -> tuple[lis
             continue
         keys.add(key);unique.append(q)
     return unique,{'markets_seen':sum(1 for x in lines if MARKET.fullmatch(x)),
-                   'rejections':dict(audits),'eligible_listing_rows':len(unique)}
+                   'rejections':dict(audits),'rejection_evidence':rejection_evidence,'eligible_listing_rows':len(unique)}
 
 
 def dt(s: str) -> datetime:
@@ -393,6 +400,7 @@ def self_test():
     corrupt=sample.replace('Christo Popov\n1.28','Somebody Else\n1.28')
     bad,di=parse_event_text(corrupt,now,url)
     assert len(bad)==3 and di['rejections']['PLAYER_PAIR_MISMATCH']==1,(bad,di)
+    assert di['rejection_evidence'][0]['reason']=='PLAYER_PAIR_MISMATCH'
     doubles=sample.replace('Lee Zii Jia\nChristo Popov','Lee/Double\nChristo Popov')
     bad,_=parse_event_text(doubles,now,url)
     assert len(bad)==3
