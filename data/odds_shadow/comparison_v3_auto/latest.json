@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-10T09:24:34+00:00",
+  "generated_at_utc": "2026-10-10T09:29:24+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 4,
   "results": [
@@ -10,9 +10,9 @@
         "Yushi TANAKA",
         "Koki WATANABE"
       ],
-      "observed_at_utc": "2026-10-10T09:24:07+00:00",
+      "observed_at_utc": "2026-10-10T09:28:53+00:00",
       "model_asof_utc": "2026-10-10T05:24:15+00:00",
-      "model_age_seconds": 14392,
+      "model_age_seconds": 14678,
       "model_probability_a": 0.51260431,
       "odds": [
         1.69,
@@ -39,9 +39,9 @@
         "Anders ANTONSEN",
         "LEE Zii Jia"
       ],
-      "observed_at_utc": "2026-10-10T09:24:07+00:00",
+      "observed_at_utc": "2026-10-10T09:28:53+00:00",
       "model_asof_utc": "2026-10-10T05:24:15+00:00",
-      "model_age_seconds": 14392,
+      "model_age_seconds": 14678,
       "model_probability_a": 0.84286719,
       "odds": [
         1.63,
