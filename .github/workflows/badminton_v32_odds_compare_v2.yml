@@ -1,0 +1,95 @@
+name: Badminton V3.2 odds comparison (shadow)
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "Badminton multi-bookmaker odds observation (shadow)"
+    types: [completed]
+  push:
+    paths:
+      - 'v32_odds_compare.py'
+      - 'v32_quality_gate.py'
+      - '.github/workflows/badminton_v32_odds_compare.yml'
+  schedule:
+    - cron: '35 6,8,9 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: badminton-v32-odds-comparison
+  cancel-in-progress: false
+
+jobs:
+  compare:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate scripts
+        run: python -m py_compile v32_odds_compare.py v32_quality_gate.py
+      - name: Compare V3.2 against public odds
+        run: |
+          MODEL="data/model_v3_2_live/snapshots/$(date -u +%F).csv"
+          if [ ! -f "$MODEL" ]; then
+            echo "No V3.2 snapshot today; no fresh comparison."
+            exit 0
+          fi
+          python v32_odds_compare.py \
+            --model "$MODEL" \
+            --odds-dir data/odds_shadow \
+            --out data/odds_shadow/comparison_v3_auto
+      - name: Audit comparison quality
+        run: |
+          if [ -f data/odds_shadow/comparison_v3_auto/latest.json ]; then
+            python v32_quality_gate.py \
+              --input data/odds_shadow/comparison_v3_auto/latest.json \
+              --out data/odds_shadow/quality_gate
+          else
+            echo 'No comparison to audit.'
+          fi
+      - name: Publish evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/odds_shadow/comparison_v3_auto data/odds_shadow/quality_gate
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update V3.2 public odds shadow comparison'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Summarize results
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          lines = ['### V3.2 shadow comparison', '- Research only; no bets.']
+          for label, name in [
+              ('Comparison', 'data/odds_shadow/comparison_v3_auto/latest.json'),
+              ('Quality gate', 'data/odds_shadow/quality_gate/latest.json'),
+          ]:
+              path = Path(name)
+              if not path.exists():
+                  lines.append(f'- {label}: missing')
+                  continue
+              try:
+                  data = json.loads(path.read_text(encoding='utf-8-sig'))
+                  lines.append(f"- {label}: {data.get('comparison_count', 'unknown')} rows")
+                  if label == 'Quality gate':
+                      lines.append(f"- Quality statuses: {data.get('status_counts', {})}")
+              except (OSError, ValueError, UnicodeError) as exc:
+                  lines.append(f'- {label}: invalid JSON ({exc})')
+          output = '\n'.join(lines) + '\n'
+          print(output)
+          if os.environ.get('GITHUB_STEP_SUMMARY'):
+              with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+                  f.write(output)
+          PY
