@@ -293,6 +293,37 @@ def analyze_source(key, now, browser, evidence_dir=None):
         except (ValueError, TypeError):
             item['status']='REJECT_UNPARSEABLE_CACHE_AGE'
             return item
+        if key=='flashscore_badminton':
+            # User-provided public match link. Audit the odds tab, not any
+            # private API; never interpret the visible numbers as live quotes.
+            match_url='https://www.flashscore.fr/match/badminton/SdnLkOG5/#/cotes/home-away/temps-regulier/'
+            audit={'url':match_url,'status':'NOT_RUN','quotes_extracted':0}
+            item['flashscore_match_audit']=audit
+            permitted,match_robots=robots_check(match_url)
+            audit['robots_status']=match_robots
+            if not permitted:
+                audit['status']='SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE'
+            else:
+                time.sleep(1)
+                try:
+                    evidence=(evidence_dir / 'flashscore_match_odds.png') if evidence_dir is not None else None
+                    match_body,match_info=render(browser,match_url,screenshot_path=evidence)
+                    audit.update({k:match_info.get(k) for k in
+                                  ('http_status','resolved_url','body_sha256','screenshot_error','text_excerpt_for_debug')})
+                    if evidence is not None and evidence.exists():
+                        audit['screenshot']=str(evidence)
+                    audit['body_characters']=len(match_body)
+                    audit['contains_odds_heading']=bool(re.search(r'\bCOTES\b',match_body,re.I))
+                    audit['contains_bookmaker_names']=[name for name in
+                        ('Betclic','Winamax','NetBet','Unibet','FDJ','PMU')
+                        if re.search(r'\b'+re.escape(name)+r'\b',match_body,re.I)]
+                    audit['status']=('PUBLIC_MATCH_PAGE_REACHABLE_AUDIT_ONLY'
+                                     if match_info.get('http_status')==200 and
+                                     urlsplit(match_info.get('resolved_url','')).netloc.endswith('flashscore.fr')
+                                     else 'REJECT_HTTP_STATUS_OR_REDIRECT')
+                except Exception as match_exc:
+                    audit['status']='MATCH_AUDIT_FAILED'
+                    audit['error']=(type(match_exc).__name__+': '+str(match_exc))[:250]
         if source['parser'] is None:
             item['status']='PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED'
             return item
