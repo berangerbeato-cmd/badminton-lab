@@ -126,9 +126,22 @@ def parse_event_text(text: str, observed: datetime, event_url: str) -> tuple[lis
         except ValueError:
             reject('PRICE_NOT_CONFIRMED',i);continue
         context=lines[max(0,i-8):i-2]
-        if not any(norm(v)==norm(competition) for v in context):
+        # On the index, a tournament heading may precede each match without
+        # the page-level "Pariez sur" title. The nearest heading is authoritative,
+        # but only if it is exactly the page-level competition (not women's or doubles).
+        # Never infer a tournament from a player name, URL or unrelated market.
+        known_headings={norm(competition)}
+        for heading in title_candidates:
+            known_headings.add(norm(heading))
+        local_heading=next((v for v in reversed(context) if norm(v) in known_headings),None)
+        if not local_heading:
+            # The index can contain multiple sections: detect a visible different
+            # heading near the pair, rather than borrowing an earlier competition.
             reject('COMPETITION_NOT_PROVEN',i);continue
-        day,day_status=listed_day(context,now_local)
+        if any(re.search(r'\\b(?:doubles?|mixtes?)\\b|\\(F\\)',v,re.I)
+               for v in context[context.index(local_heading)+1:]):
+            reject('DISCIPLINE_NOT_PROVEN',i);continue
+        day,day_status=listed_day(context[context.index(local_heading):],now_local)
         if not day:
             reject(day_status,i);continue
         # Price is public listing observation, not an actual bookmaker quote update timestamp.
@@ -421,6 +434,63 @@ def self_test():
     assert by_id['5594:1552533']['side_1']['illustrative_ev_pct']==-4.80
     assert by_id['5594:1552530']['side_2']['illustrative_ev_pct']==-21.59
     assert all(not x['valid_pre_match_T0'] and x['decision']=='NO_BET_SHADOW' for x in matches)
+    # The public badminton index has women's, doubles and men's sections.
+    # Only the men's singles heading may yield a shadow listing.
+    mixed='''Badminton
+Pariez sur
+Artic Open
+À L'AFFICHE
+EN DIRECT
+Artic Open - Doubles
+Set 2
+LIVE
+Lai-Tsai
+Maio-Villeger
+1
+0
+17
+18
+Qui va gagner le match ?
+Lai-Tsai
+1.32
+Maio-Villeger
+2.35
+Populaires
+Artic Open (F)
+dim. 11 oct.
+12:00
+Ratchanok Intanon
+Mia Blichfeldt
+Qui va gagner le match ?
+Ratchanok Intanon
+1.35
+Mia Blichfeldt
+2.37
+Artic Open - Doubles Mixtes
+dim. 11 oct.
+12:00
+Jiang-Wei
+Gao-Wu
+Qui va gagner le match ?
+Jiang-Wei
+1.13
+Gao-Wu
+3.60
+Artic Open
+dim. 11 oct.
+12:00
+Yushi Tanaka
+Anders Antonsen
+Qui va gagner le match ?
+Yushi Tanaka
+2.97
+Anders Antonsen
+1.21
+'''
+    mixed_rows,mixed_audit=parse_event_text(mixed,datetime(2026,10,10,19,17,tzinfo=timezone.utc),url)
+    assert len(mixed_rows)==1,(mixed_rows,mixed_audit)
+    assert mixed_rows[0]['player_1_display']=='Yushi Tanaka'
+    assert mixed_rows[0]['verification']=='LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION'
     future=sample.replace('Artic Open','Swiss Open')
     future_rows,_=parse_event_text(future,now,url)
     assert len(future_rows)==4 and future_rows[0]['competition_display']=='Swiss Open'
