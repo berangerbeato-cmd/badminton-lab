@@ -125,9 +125,9 @@ def main():
             flags.append('MODEL_OLDER_THAN_45_MIN')
         if str(m.get('status', '')).startswith('DATE_ONLY_'):
             flags.append('BWF_KICKOFF_DATE_ONLY')
-        results.append({'source': source, 'bwf_match_id': m['bwf_match_id'], 'players': [m['player_a'], m['player_b']],
+        results.append({'source': source, 'bwf_match_id': m['bwf_match_id'], 'players': [m['player_b'], m['player_a']] if reversed_order else [m['player_a'], m['player_b']],
                         'observed_at_utc': observed, 'model_asof_utc': m['asof_utc'], 'model_age_seconds': round(age),
-                        'model_probability_a': prob if not reversed_order else 1.0 - prob,
+                        'model_probability_a': prob,
                         'bookmaker_player_order_reversed': reversed_order,
                         'odds': prices,
                         'illustrative_ev_pct': [round((prob * prices[0] - 1) * 100, 2), round(((1-prob) * prices[1] - 1) * 100, 2)],
