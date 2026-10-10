@@ -12,7 +12,7 @@ SCRIPT = Path(__file__).resolve().parent / 'v32_odds_compare.py'
 
 
 class ShadowComparatorTests(unittest.TestCase):
-    def compare(self, age_minutes=5, listed_day=None, model_day=None, model_after=False, reverse=False, competition=None, tournament=None):
+    def compare(self, age_minutes=5, listed_day=None, model_day=None, model_after=False, reverse=False, competition=None, tournament=None, unmatched=False):
         now = datetime.now(timezone.utc).replace(microsecond=0)
         observed = now - timedelta(minutes=age_minutes)
         model_at = observed + timedelta(minutes=1) if model_after else observed - timedelta(minutes=1)
@@ -33,6 +33,8 @@ class ShadowComparatorTests(unittest.TestCase):
             folder.mkdir(parents=True)
             quote = dict(market='H2H_FULL_MATCH', player_1_display='Anders Antonsen',
                          player_2_display='Lee Zii Jia', odds_1=1.65, odds_2=1.78)
+            if unmatched:
+                quote['player_2_display'] = 'Yushi Tanaka'
             if competition is not None:
                 quote['competition_display'] = competition
             if reverse:
@@ -93,7 +95,10 @@ class ShadowComparatorTests(unittest.TestCase):
 
     def test_missing_final_is_explicit_and_never_bet(self):
         # A NetBet final cannot be matched to the previous day's semifinals.
-        output = self.compare(listed_day=datetime.now(timezone.utc).date().isoformat())
+        output = self.compare(unmatched=True)
+        self.assertEqual(output['results'][0]['status'], 'FIXTURE_ABSENT_FROM_MODEL')
+        self.assertEqual(output['results'][0]['matches'], 0)
+        self.assertEqual(output['results'][0]['model_fixtures_on_listed_day'], 1)
         self.assertEqual(output['results'][0]['decision'], 'NO_BET')
 
     def test_model_after_quote_is_flagged(self):
