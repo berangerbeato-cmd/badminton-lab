@@ -70,6 +70,14 @@ jobs:
           python netbet_quotes_shadow.py --live \
             --out data/odds_shadow/netbet_quotes \
             --model-dir data/model
+      - name: Preserve public bookmaker screenshots as run artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bookmaker-public-screenshots-${{ github.run_id }}
+          path: data/odds_shadow/visual_evidence/*.png
+          if-no-files-found: ignore
+          retention-days: 14
       - name: Compare V3.2 with observations from this run
         run: |
           # The daily snapshot preserves the first publication; compare the fresh output.
@@ -94,6 +102,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A -- data/model_v3_2_live data/odds_shadow
+          git reset -q -- data/odds_shadow/visual_evidence || true
           if ! git diff --cached --quiet; then
             git commit -m 'Observe odds after V3.2 model and audit quality'
             git pull --rebase origin main

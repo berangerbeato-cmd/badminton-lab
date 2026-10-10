@@ -214,12 +214,15 @@ def parse_fdj(text, now, discipline="UNKNOWN"):
     return rows, ("retail face-à-face rows" if rows else "no unexpired face-à-face retail rows")
 
 
-def render(browser, url):
+def render(browser, url, screenshot_path=None):
     page=browser.new_page(locale="fr-FR",timezone_id="Europe/Paris")
     try:
         response=page.goto(url,wait_until="domcontentloaded",timeout=24000)
         page.wait_for_timeout(2000)
         content=page.locator("body").inner_text(timeout=12000)
+        if screenshot_path is not None:
+            screenshot_path.parent.mkdir(parents=True,exist_ok=True)
+            page.screenshot(path=str(screenshot_path),full_page=True,timeout=15000)
         # Only public link addresses; no internal betting APIs or accounts.
         event_links=page.locator('a[href*="/paris-ouverts/badminton/"]').evaluate_all(
             "els => els.map(a => a.href).filter(x => x && x.startsWith('https://'))"
@@ -237,7 +240,7 @@ def render(browser, url):
         page.close()
 
 
-def analyze_source(key, now, browser):
+def analyze_source(key, now, browser, evidence_dir=None):
     source=SOURCES[key]
     start=datetime.now(timezone.utc)
     item={
@@ -252,7 +255,10 @@ def analyze_source(key, now, browser):
         item['status']="SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE"
         return item
     try:
-        content,info=render(browser,source['url'])
+        screenshot=(evidence_dir / (key+'.png')) if evidence_dir is not None else None
+        content,info=render(browser,source['url'],screenshot_path=screenshot)
+        if screenshot is not None and screenshot.exists():
+            item['public_page_screenshot']=str(screenshot)
         item.update(info)
         expected_host=urlsplit(source['url']).netloc.removeprefix('www.')
         if info['http_status']!=200 or not urlsplit(info['resolved_url']).netloc.endswith(expected_host):
@@ -362,7 +368,7 @@ def collect(out):
         try:
             for n,key in enumerate(SOURCES):
                 if n: time.sleep(1)
-                item=analyze_source(key,now,browser)
+                item=analyze_source(key,now,browser,evidence_dir=out/'visual_evidence')
                 reports.append(item)
                 path=out/key
                 path.mkdir(parents=True,exist_ok=True)
