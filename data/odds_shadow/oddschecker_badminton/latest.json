@@ -1,0 +1,23 @@
+{
+  "body_sha256": "bfcc6f5760f601098e58f747fa16e56f2c1cb02af0491d3957fa05482eecee0c",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-10-10T16:39:19+00:00",
+  "http_status": 403,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-10T16:39:16+00:00",
+  "operator": "Oddschecker (aggregator)",
+  "operator_kind": "AGGREGATOR_AUDIT_ONLY",
+  "public_badminton_event_links": [],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/oddschecker_badminton.png",
+  "quotes": [],
+  "resolved_url": "https://www.oddschecker.com/badminton",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Sat, 10 Oct 2026 16:39:17 GMT",
+  "source_key": "oddschecker_badminton",
+  "source_url": "https://www.oddschecker.com/badminton",
+  "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
+  "text_excerpt_for_debug": "Sorry, you have been blocked\nYou are unable to access oddschecker.com\nWhy have I been blocked?\n\nThis website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.\n\nWhat can I do to resolve this?\n\nYou can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.\n\nCloudflare Ray ID: a4870f6c2996488b • Your IP: Click to reveal • Performance & security by Cloudflare",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}

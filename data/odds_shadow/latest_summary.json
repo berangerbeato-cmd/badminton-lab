@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-10T16:37:38+00:00",
+  "observed_at_utc": "2026-10-10T16:38:48+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=2; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1; eligible_MS_H2H=0; local_now=2026-10-10T18:37:38.144929+02:00",
+      "parser_notes": "parsed; page_parsed_entries=2; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1; eligible_MS_H2H=0; local_now=2026-10-10T18:38:48.320844+02:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "e89473fe1aa2d0ccef91d02ce9bcbe5ee5605dc0ccc4e0cf2fdd8a68d5cfb80d"
+      "body_sha256": "5781fa7e6a014ca4285691247cfd4b890b3cee297492ec7886b80cb9362de4d6"
     },
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
@@ -68,7 +68,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "8d93cd543cc5e0441bc932f8dfa69ab99441d98cc8969987d8a0794736e2db6a"
+      "body_sha256": "636c32650b30f391c6712827a845400b081d5fb30948c2dad1d1ef253538ee1f"
     },
     "pmu_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
@@ -85,6 +85,50 @@
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quotes": 0,
       "robots_status": "ROBOTS_HTTP_403",
+      "http_status": null,
+      "resolved_url": null,
+      "parser_notes": null,
+      "error": null,
+      "cache_age_seconds": null,
+      "body_sha256": null
+    },
+    "oddspedia_badminton": {
+      "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
+      "quotes": 0,
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "http_status": 403,
+      "resolved_url": "https://oddspedia.com/badminton/odds",
+      "parser_notes": null,
+      "error": null,
+      "cache_age_seconds": null,
+      "body_sha256": "e078b74c2e938e777496adc0742d9e3c3499b295d90707c655d4cf4fee956446"
+    },
+    "oddschecker_badminton": {
+      "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
+      "quotes": 0,
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "http_status": 403,
+      "resolved_url": "https://www.oddschecker.com/badminton",
+      "parser_notes": null,
+      "error": null,
+      "cache_age_seconds": null,
+      "body_sha256": "bfcc6f5760f601098e58f747fa16e56f2c1cb02af0491d3957fa05482eecee0c"
+    },
+    "flashscore_badminton": {
+      "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
+      "quotes": 0,
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "http_status": 200,
+      "resolved_url": "https://www.flashscore.fr/badminton/",
+      "parser_notes": null,
+      "error": null,
+      "cache_age_seconds": "39",
+      "body_sha256": "81f01d3114913d3758bdc1768cd901e8c11b9a47d57ac44d28b7a8153e6e30a5"
+    },
+    "oddsportal_badminton": {
+      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
+      "quotes": 0,
+      "robots_status": "ROBOTS_HTTP_503",
       "http_status": null,
       "resolved_url": null,
       "parser_notes": null,

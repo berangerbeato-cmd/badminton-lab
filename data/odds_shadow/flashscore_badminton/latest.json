@@ -1,0 +1,23 @@
+{
+  "body_sha256": "81f01d3114913d3758bdc1768cd901e8c11b9a47d57ac44d28b7a8153e6e30a5",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": "39",
+  "finished_at_utc": "2026-10-10T16:39:25+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-10T16:39:20+00:00",
+  "operator": "Flashscore (aggregator)",
+  "operator_kind": "AGGREGATOR_AUDIT_ONLY",
+  "public_badminton_event_links": [],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/flashscore_badminton.png",
+  "quotes": [],
+  "resolved_url": "https://www.flashscore.fr/badminton/",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Sat, 10 Oct 2026 16:39:21 GMT",
+  "source_key": "flashscore_badminton",
+  "source_url": "https://www.flashscore.fr/badminton/",
+  "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
+  "text_excerpt_for_debug": "Arctic Open 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Arctic Open Hommes\nBWF WT KL Masters Malaysia Super 100 Hommes\nBWF WT Open du Danemark Hommes\nBWF WT Arctic Open Femmes\nBWF WT Open du Danemark Femmes\nBWF WT Arctic Open Doubles Hommes\nBWF WT Open du Danemark Doubles Hommes\nBWF WT Arctic Open Doubles Femmes\nBWF WT Open du Danemark Doubles Femmes\nBWF WT Arctic Open Doubles Mixtes\nVoir plus (2)\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nAide : Le service de résultats de badminton de Flashscore.fr offre les scores en direct de badminton avec les résultats et les calendriers de la BWF World Tour Super Series, des Championnats du Monde, des championnats continentaux individuels et par équipe (ex. les Championnats d'Asie de badm",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
