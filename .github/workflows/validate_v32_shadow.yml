@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - 'netbet_quotes_shadow.py'
+      - 'multi_book_odds_scraper.py'
       - 'v32_odds_compare.py'
       - 'test_v32_odds_compare.py'
       - 'v32_shadow_ledger.py'
@@ -27,7 +28,9 @@ jobs:
         with:
           python-version: '3.12'
       - name: Syntax check
-        run: python -m py_compile netbet_quotes_shadow.py v32_odds_compare.py test_v32_odds_compare.py v32_shadow_ledger.py test_v32_shadow_ledger.py v32_ledger_summary.py test_v32_ledger_summary.py
+        run: python -m py_compile multi_book_odds_scraper.py netbet_quotes_shadow.py v32_odds_compare.py test_v32_odds_compare.py v32_shadow_ledger.py test_v32_shadow_ledger.py v32_ledger_summary.py test_v32_ledger_summary.py
+      - name: Multi-bookmaker parser self-test
+        run: python multi_book_odds_scraper.py --self-test
       - name: NetBet parser self-test
         run: python netbet_quotes_shadow.py --self-test
       - name: Offline regression tests
