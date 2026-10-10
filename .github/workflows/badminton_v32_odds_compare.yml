@@ -65,6 +65,33 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Observe new public odds AFTER model
         run: python multi_book_odds_scraper.py --live --out data/odds_shadow
+      - name: Flashscore public match diagnostic
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          path = Path('data/odds_shadow/flashscore_badminton/latest.json')
+          if not path.exists():
+              print('Flashscore: no report')
+          else:
+              obj = json.loads(path.read_text(encoding='utf-8'))
+              audit = obj.get('flashscore_match_audit') or {}
+              discovery = obj.get('flashscore_discovery') or {}
+              print(json.dumps({
+                  'observed_at_utc': obj.get('observed_at_utc'),
+                  'index_status': obj.get('status'),
+                  'match_status': audit.get('status'),
+                  'match_http': audit.get('http_status'),
+                  'match_finished': audit.get('match_finished'),
+                  'match_doubles': audit.get('appears_doubles'),
+                  'requested_odds_tab_retained': audit.get('resolved_to_requested_odds_tab'),
+                  'bookmakers_visible': audit.get('contains_bookmaker_names', []),
+                  'index_match_links': discovery.get('index_match_link_count'),
+                  'index_match_examples': discovery.get('index_match_links', [])[:3],
+                  'quotes_extracted': len(obj.get('quotes', [])),
+              }, ensure_ascii=False, indent=2))
+          PY
       - name: Observe new NetBet quotes AFTER model
         run: |
           python netbet_quotes_shadow.py --live \
