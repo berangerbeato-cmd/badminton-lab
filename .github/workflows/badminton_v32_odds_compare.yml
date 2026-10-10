@@ -183,6 +183,35 @@ jobs:
         run: python v32_ledger_summary.py
       - name: Validate bookmaker comparison follows V3.2 snapshot
         run: python bwf_pipeline_freshness.py --comparison data/odds_shadow/comparison_v3_auto/latest.json --out data/model_v3_2_live/pipeline_order_latest.json
+      - name: Preserve pipeline validation diagnostic even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v32-pipeline-order-audit
+          path: data/model_v3_2_live/pipeline_order_latest.json
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Summarize pipeline validation
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path('data/model_v3_2_live/pipeline_order_latest.json')
+          try:
+              audit = json.loads(p.read_text(encoding='utf-8'))
+              lines = ['### BWF -> V3.2 -> bookmaker ordering', '- Status: ' + str(audit.get('status', 'UNKNOWN'))]
+              if audit.get('reason'):
+                  lines.append('- Reason: ' + str(audit['reason']))
+              for key in ('latest_bwf_refresh_utc', 'model_generated_at_utc', 'comparison_generated_at_utc'):
+                  if audit.get(key):
+                      lines.append('- ' + key + ': ' + str(audit[key]))
+          except (OSError, ValueError) as exc:
+              lines = ['### BWF -> V3.2 -> bookmaker ordering', '- Status: NOT_PUBLISHED', '- Reason: ' + str(exc)]
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as out:
+              out.write('\\n'.join(lines) + '\\n')
+          print('\\n'.join(lines))
+          PY
       - name: Publish research outputs
         run: |
           git config user.name 'github-actions[bot]'
