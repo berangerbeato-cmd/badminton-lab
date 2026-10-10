@@ -1,10 +1,9 @@
 {
-  "generated_at_utc": "2026-10-10T09:27:57+00:00",
+  "generated_at_utc": "2026-10-10T16:12:37+00:00",
   "policy": "SHADOW_ONLY_NO_BET",
-  "total_rows": 14,
+  "total_rows": 11,
   "decisions": {
-    "NO_QUOTE": 8,
-    "OBSERVED_NOT_ACTIONABLE": 6
+    "NO_QUOTE": 11
   },
   "sources": {
     "betclic_fr": {
@@ -28,9 +27,9 @@
       "status": ""
     },
     "fdj_pos_fr": {
-      "rows": 2,
-      "observed": 2,
-      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE"
+      "rows": 1,
+      "observed": 0,
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES"
     },
     "netbet_fr": {
       "rows": 1,
@@ -38,9 +37,9 @@
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED"
     },
     "netbet_quotes": {
-      "rows": 2,
-      "observed": 2,
-      "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+      "rows": 1,
+      "observed": 0,
+      "status": "NO_CONFIDENT_QUOTES"
     },
     "pmu_fr": {
       "rows": 1,
@@ -53,9 +52,9 @@
       "status": ""
     },
     "unibet_fr": {
-      "rows": 2,
-      "observed": 2,
-      "status": "OBSERVED_SHADOW_NEEDS_MARKET_CONFIRMATION"
+      "rows": 1,
+      "observed": 0,
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES"
     },
     "winamax_fr": {
       "rows": 1,

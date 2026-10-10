@@ -1,15 +1,12 @@
 ﻿source,operator,observed_at_utc,source_status,player_1,player_2,odds_1,odds_2,listed_start_paris,market_verification,decision,reason,source_file
-betclic_fr,Betclic.fr,2026-10-10T09:27:46+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/betclic_fr/2026-10-10T092726Z.json
-betsson_fr,Betsson.fr,2026-10-10T09:27:56+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/betsson_fr/2026-10-10T092726Z.json
-bwin_fr,bwin.fr,2026-10-10T09:27:33+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/bwin_fr/2026-10-10T092726Z.json
+betclic_fr,Betclic.fr,2026-10-10T16:12:29+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/betclic_fr/latest.json
+betsson_fr,Betsson.fr,2026-10-10T16:12:37+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/betsson_fr/latest.json
+bwin_fr,bwin.fr,2026-10-10T16:12:22+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/bwin_fr/latest.json
 comparison_v3_auto,,,,,,,,,,NO_QUOTE,UNKNOWN,data/odds_shadow/comparison_v3_auto/latest.json
-fdj_pos_fr,Parions Sport Point de Vente (FDJ),2026-10-10T09:27:34+00:00,OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE,Y.Tanaka,K.Watanabe,1.69,1.82,,RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION,OBSERVED_NOT_ACTIONABLE,Point de vente uniquement; pas de cote executable en ligne confirmee,data/odds_shadow/fdj_pos_fr/2026-10-10T092726Z.json
-fdj_pos_fr,Parions Sport Point de Vente (FDJ),2026-10-10T09:27:34+00:00,OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE,A.Antonsen,ZJ.Lee,1.63,1.91,,RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION,OBSERVED_NOT_ACTIONABLE,Point de vente uniquement; pas de cote executable en ligne confirmee,data/odds_shadow/fdj_pos_fr/2026-10-10T092726Z.json
-netbet_fr,NetBet.fr,2026-10-10T09:27:49+00:00,PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED,,,,,,,NO_QUOTE,ALLOWED_BY_ROBOTS,data/odds_shadow/netbet_fr/2026-10-10T092726Z.json
-netbet_quotes,NetBet.fr,2026-10-10T08:38:56+00:00,OBSERVED_SHADOW_NEEDS_CONFIRMATION,Yushi Tanaka,Koki Watanabe,1.7,1.73,,LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION,OBSERVED_NOT_ACTIONABLE,Marche et heure de debut non verifies sur page detail,data/odds_shadow/netbet_quotes/latest.json
-netbet_quotes,NetBet.fr,2026-10-10T08:38:56+00:00,OBSERVED_SHADOW_NEEDS_CONFIRMATION,Anders Antonsen,Lee Zii Jia,1.63,1.81,,LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION,OBSERVED_NOT_ACTIONABLE,Marche et heure de debut non verifies sur page detail,data/odds_shadow/netbet_quotes/latest.json
-pmu_fr,PMU.fr,2026-10-10T09:27:55+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/pmu_fr/2026-10-10T092726Z.json
+fdj_pos_fr,Parions Sport Point de Vente (FDJ),2026-10-10T16:12:23+00:00,NO_CONFIDENT_PREMATCH_QUOTES,,,,,,,NO_QUOTE,no unexpired face-à-face retail rows; audited 0 retail MS pages,data/odds_shadow/fdj_pos_fr/latest.json
+netbet_fr,NetBet.fr,2026-10-10T16:12:31+00:00,PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED,,,,,,,NO_QUOTE,ALLOWED_BY_ROBOTS,data/odds_shadow/netbet_fr/latest.json
+netbet_quotes,NetBet.fr,2026-10-10T16:09:59+00:00,NO_CONFIDENT_QUOTES,,,,,,,NO_QUOTE,ALLOWED_BY_ROBOTS,data/odds_shadow/netbet_quotes/latest.json
+pmu_fr,PMU.fr,2026-10-10T16:12:36+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/pmu_fr/latest.json
 quality_gate,,,,,,,,,,NO_QUOTE,UNKNOWN,data/odds_shadow/quality_gate/latest.json
-unibet_fr,Unibet.fr,2026-10-10T09:27:26+00:00,OBSERVED_SHADOW_NEEDS_MARKET_CONFIRMATION,Y.Tanaka,K.Watanabe,1.69,1.82,2026-10-10T12:05+02:00,LISTING_ONLY_NEEDS_DETAIL,OBSERVED_NOT_ACTIONABLE,Page liste seulement; marche detail et heure de mise a jour non verifies,data/odds_shadow/unibet_fr/2026-10-10T092726Z.json
-unibet_fr,Unibet.fr,2026-10-10T09:27:26+00:00,OBSERVED_SHADOW_NEEDS_MARKET_CONFIRMATION,A.Antonsen,ZJ.Lee,1.63,1.91,2026-10-10T12:25+02:00,LISTING_ONLY_NEEDS_DETAIL,OBSERVED_NOT_ACTIONABLE,Page liste seulement; marche detail et heure de mise a jour non verifies,data/odds_shadow/unibet_fr/2026-10-10T092726Z.json
-winamax_fr,Winamax.fr,2026-10-10T09:27:48+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/winamax_fr/2026-10-10T092726Z.json
+unibet_fr,Unibet.fr,2026-10-10T16:12:15+00:00,NO_CONFIDENT_PREMATCH_QUOTES,,,,,,,NO_QUOTE,"parsed; page_parsed_entries=3; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=2; eligible_MS_H2H=0; local_now=2026-10-10T18:12:15.079657+02:00",data/odds_shadow/unibet_fr/latest.json
+winamax_fr,Winamax.fr,2026-10-10T16:12:30+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/winamax_fr/latest.json
