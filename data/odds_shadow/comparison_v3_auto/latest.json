@@ -1,7 +1,8 @@
 {
-  "generated_at_utc": "2026-10-10T13:46:28+00:00",
+  "generated_at_utc": "2026-10-10T13:47:46+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 1,
+  "rejected_sources": [],
   "results": [
     {
       "source": "netbet_quotes",
@@ -10,9 +11,9 @@
         "Anders ANTONSEN",
         "LEE Zii Jia"
       ],
-      "observed_at_utc": "2026-10-10T13:46:20+00:00",
-      "model_asof_utc": "2026-10-10T13:45:20+00:00",
-      "model_age_seconds": 60,
+      "observed_at_utc": "2026-10-10T13:47:38+00:00",
+      "model_asof_utc": "2026-10-10T13:46:42+00:00",
+      "model_age_seconds": 56,
       "model_probability_a": 0.84286719,
       "odds": [
         1.65,
@@ -26,7 +27,8 @@
         "MARKET_DETAIL_UNVERIFIED",
         "KICKOFF_UNVERIFIED",
         "EXECUTABLE_PRICE_UNVERIFIED",
-        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN"
+        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
+        "BWF_KICKOFF_DATE_ONLY"
       ],
       "status": "UNVERIFIED_SHADOW_ONLY",
       "decision": "NO_BET"
