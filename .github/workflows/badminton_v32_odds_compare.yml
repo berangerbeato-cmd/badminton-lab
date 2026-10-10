@@ -11,6 +11,7 @@ on:
     paths:
       - 'v32_odds_compare.py'
       - 'v32_quality_gate.py'
+      - 'test_v32_odds_compare.py'
       - '.github/workflows/badminton_v32_odds_compare.yml'
   schedule:
     - cron: '35 6,8,9 * * *'
@@ -39,9 +40,11 @@ jobs:
           python-version: '3.12'
       - name: Validate scripts
         run: |
-          python -m py_compile badminton_v3_2_daily.py multi_book_odds_scraper.py v32_odds_compare.py v32_quality_gate.py
+          python -m py_compile badminton_v3_2_daily.py multi_book_odds_scraper.py netbet_quotes_shadow.py v32_odds_compare.py v32_quality_gate.py
           python badminton_v3_2_daily.py --self-test
           python multi_book_odds_scraper.py --self-test
+          python netbet_quotes_shadow.py --self-test
+          python -m unittest -v test_v32_odds_compare
       - name: Recompute V3.2 before observing prices
         run: |
           python badminton_v3_2_daily.py \
@@ -56,10 +59,16 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Observe new public odds AFTER model
         run: python multi_book_odds_scraper.py --live --out data/odds_shadow
+      - name: Observe new NetBet quotes AFTER model
+        run: |
+          python netbet_quotes_shadow.py --live \
+            --out data/odds_shadow/netbet_quotes \
+            --model-dir data/model
       - name: Compare V3.2 with observations from this run
         run: |
-          MODEL="data/model_v3_2_live/snapshots/$(date -u +%F).csv"
-          test -f "$MODEL" || { echo "No current model snapshot"; exit 1; }
+          # The daily snapshot preserves the first publication; compare the fresh output.
+          MODEL="data/model_v3_2_live/upcoming_latest.csv"
+          test -f "$MODEL" || { echo "No current model output"; exit 1; }
           python v32_odds_compare.py \
             --model "$MODEL" \
             --odds-dir data/odds_shadow \
