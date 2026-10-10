@@ -358,7 +358,17 @@ def analyze_source(key, now, browser, evidence_dir=None):
                     audit['body_characters']=len(match_body)
                     audit['resolved_to_requested_odds_tab']=('/cotes/' in match_info.get('resolved_url',''))
                     audit['match_finished']=bool(re.search(r'\\bTERMINÉ\\b',match_body,re.I))
-                    audit['appears_doubles']=bool(re.search(r'DOUBLES? (MIXTES?|HOMMES|FEMMES)',match_body,re.I))
+                    # Only the event heading identifies the discipline. Advertising
+                    # elsewhere in the body can mention unrelated doubles markets.
+                    match_header=match_body[:500].upper()
+                    audit['appears_doubles']=bool(re.search(
+                        r'BWF WORLD TOUR\\s*-\\s*DOUBLES?\\s+(?:MIXTES?|HOMMES|FEMMES)',
+                        match_header,re.I))
+                    audit['appears_mens_singles']=bool(re.search(
+                        r'BWF WORLD TOUR\\s*-\\s*HOMMES(?:\\b|ARCTIC)',
+                        match_header,re.I)) and not audit['appears_doubles']
+                    audit['eligible_for_odds_comparison']=False
+                    audit['comparison_block_reason']='NO_VERIFIED_BOOKMAKER_PRICES'
                     audit['contains_odds_heading']=bool(re.search(r'\bCOTES\b',match_body,re.I))
                     audit['contains_bookmaker_names']=[name for name in
                         ('Betclic','Winamax','NetBet','Unibet','FDJ','PMU')
