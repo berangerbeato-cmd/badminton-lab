@@ -370,6 +370,27 @@ def analyze_source(key, now, browser, evidence_dir=None):
                     audit['eligible_for_odds_comparison']=False
                     audit['comparison_block_reason']='NO_VERIFIED_BOOKMAKER_PRICES'
                     audit['contains_odds_heading']=bool(re.search(r'\bCOTES\b',match_body,re.I))
+                    # Inspect only the odds section before promotional banners:
+                    # bookmaker names in bonus advertisements are not odds evidence.
+                    odds_section=match_body.split('OFFRES BONUS',1)[0]
+                    if 'COTES' in odds_section:
+                        odds_section=odds_section.rsplit('COTES',1)[-1]
+                    odds_lines=[line.strip() for line in odds_section.splitlines() if line.strip()]
+                    audit['odds_section_lines']=odds_lines[:35]
+                    audit['odds_section_dash_count']=sum(line=='-' for line in odds_lines)
+                    audit['odds_section_decimal_prices']=re.findall(
+                        r'(?<![\\d])(?:[1-9]\\d{0,2})[.,]\\d{2}(?![\\d])',
+                        odds_section)[:12]
+                    audit['odds_section_placeholder_only']=(
+                        bool(odds_lines) and not audit['odds_section_decimal_prices']
+                        and audit['odds_section_dash_count']>=2)
+                    audit['comparison_block_reason']=(
+                        'ODDS_TAB_NOT_LOADED' if not audit['resolved_to_requested_odds_tab']
+                        else 'ODDS_SECTION_PLACEHOLDERS' if audit['odds_section_placeholder_only']
+                        else 'NO_VERIFIED_BOOKMAKER_PRICES')
+                    audit['odds_section_bookmaker_names']=[name for name in
+                        ('Betclic','Winamax','NetBet','Unibet','FDJ','PMU')
+                        if re.search(r'\\b'+re.escape(name)+r'\\b',odds_section,re.I)]
                     audit['contains_bookmaker_names']=[name for name in
                         ('Betclic','Winamax','NetBet','Unibet','FDJ','PMU')
                         if re.search(r'\b'+re.escape(name)+r'\b',match_body,re.I)]
