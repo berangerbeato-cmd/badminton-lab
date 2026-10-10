@@ -1,0 +1,31 @@
+{
+  "body_sha256": "ecc1e1f57541567cab005ab6f1139a3c0e53a1d0541243bac22837ad544f4763",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-10-10T13:53:06+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-10T13:53:02+00:00",
+  "operator": "Parions Sport Point de Vente (FDJ)",
+  "operator_kind": "RETAIL_NOT_ONLINE",
+  "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
+  "public_badminton_event_links": [
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-df/56074",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-dh/56054",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-df/56074/match_chenluo_hsusung/1313284",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-df/56074/match_baocao_hsulin/1313283",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/op-finlande-dh/56054/match_laitsai_maiovilleger/1313329"
+  ],
+  "quotes": [],
+  "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "retail_page_cached": false,
+  "retail_pages_audited": [],
+  "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "server_date": "Sat, 10 Oct 2026 13:53:03 GMT",
+  "source_key": "fdj_pos_fr",
+  "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "status": "NO_CONFIDENT_PREMATCH_QUOTES",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nL1 McDonald's\nPremier League\nLaLiga\nBundesliga 1\nSerie A\nLigue 2 BKT\nChampionsLeague\n+\nAfficher plus\nTennis\nToutes les compétitions\nShanghai\nWuhan\nBasketball\nToutes les compétitions\nEuroleague (H)\nNBL\nD1 France (H)\nD2 France (H)\nLFB\nTBSL\nLiga ACB\nSerie A\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBaseball\nBoxe\nGolf\nMMA\nMoto GP\nNascar\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nAujourd'hui\nChen/Luo-Hsu/Sung\nOp. Finlande DF\n\nN°19837 Score Exact I Fin de valid. 10/10 16h25\n\nAfficher\n2 - 0\n1,40\n67%\n2 - 1\n3,15\n17%\n0 - 2\n7,50\n5%\n1 - 2\n7,40\n9%\nBao/Cao-Hsu/Lin\nOp. Finlande DF\n\nN°19834 Face à Face I Fin de valid. 10/10 17h25\n\nAfficher\nBao/Cao\n1,31\nHsu/Lin\n2,65\n74%\n25%\nLai/Tsai-Maio/Villeger\nOp. Finlande DH\n\nN°19858 Face à Face I Fin de valid. 10/10 17h55\n\nAfficher\nLai/Tsai\n2,10\nMaio/Villeger\n1,51\n62%\n37%\nLiens utiles :\nLoto Foot\nRésultats Loto Foot\nParions Sport résultat\nListe Parions S",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}

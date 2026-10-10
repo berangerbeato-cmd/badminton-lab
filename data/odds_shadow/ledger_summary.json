@@ -1,0 +1,30 @@
+{
+  "generated_at_utc": "2026-10-10T13:53:23+00:00",
+  "policy": "SHADOW_ONLY_NO_BET",
+  "run_count": 2,
+  "observation_count": 2,
+  "unique_bwf_matches": 1,
+  "quality_flag_counts": {
+    "MARKET_DETAIL_UNVERIFIED": 2,
+    "KICKOFF_UNVERIFIED": 2,
+    "EXECUTABLE_PRICE_UNVERIFIED": 2,
+    "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN": 2,
+    "BWF_KICKOFF_DATE_ONLY": 2
+  },
+  "source_status_counts": {
+    "unibet_fr:FRESH_SNAPSHOT": 2,
+    "netbet_quotes:FRESH_SNAPSHOT": 2
+  },
+  "roi": null,
+  "roi_status": "NOT_MEASURABLE_WITHOUT_VERIFIED_PREMATCH_ODDS_AND_SETTLED_RESULTS",
+  "runs": [
+    {
+      "run_id": "38057313574",
+      "comparison_count": 1
+    },
+    {
+      "run_id": "38057367239",
+      "comparison_count": 1
+    }
+  ]
+}
