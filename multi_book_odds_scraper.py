@@ -47,6 +47,11 @@ SOURCES = {
     "netbet_fr": {"operator":"NetBet.fr", "url":"https://www.netbet.fr/badminton", "kind":"ONLINE", "parser":None},
     "pmu_fr": {"operator":"PMU.fr", "url":"https://www.pmu.fr/sport/", "kind":"ONLINE", "parser":None},
     "betsson_fr": {"operator":"Betsson.fr", "url":"https://www.betsson.fr/", "kind":"ONLINE", "parser":None},
+    # Aggregator reconnaissance only: no prices accepted as bookmaker quotes.
+    "oddspedia_badminton": {"operator":"Oddspedia (aggregator)", "url":"https://oddspedia.com/badminton/odds", "kind":"AGGREGATOR_AUDIT_ONLY", "parser":None},
+    "oddschecker_badminton": {"operator":"Oddschecker (aggregator)", "url":"https://www.oddschecker.com/badminton", "kind":"AGGREGATOR_AUDIT_ONLY", "parser":None},
+    "flashscore_badminton": {"operator":"Flashscore (aggregator)", "url":"https://www.flashscore.fr/badminton/", "kind":"AGGREGATOR_AUDIT_ONLY", "parser":None},
+    "oddsportal_badminton": {"operator":"OddsPortal (aggregator)", "url":"https://www.oddsportal.com/badminton/", "kind":"AGGREGATOR_AUDIT_ONLY", "parser":None},
 }
 ODD = re.compile(r"(?<!\d)(\d{1,2}[.,]\d{2})(?!\d)")
 PRICE_PAIR = re.compile(r"^(.+?)\s+(\d{1,2}[.,]\d{2})\s+(.+?)\s+(\d{1,2}[.,]\d{2})$")
