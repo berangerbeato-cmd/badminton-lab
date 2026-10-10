@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-10T13:47:46+00:00",
+  "generated_at_utc": "2026-10-10T13:49:06+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 1,
   "rejected_sources": [],
@@ -11,9 +11,9 @@
         "Anders ANTONSEN",
         "LEE Zii Jia"
       ],
-      "observed_at_utc": "2026-10-10T13:47:38+00:00",
-      "model_asof_utc": "2026-10-10T13:46:42+00:00",
-      "model_age_seconds": 56,
+      "observed_at_utc": "2026-10-10T13:48:58+00:00",
+      "model_asof_utc": "2026-10-10T13:48:00+00:00",
+      "model_age_seconds": 58,
       "model_probability_a": 0.84286719,
       "odds": [
         1.65,
