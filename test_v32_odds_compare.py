@@ -12,7 +12,7 @@ SCRIPT = Path(__file__).resolve().parent / 'v32_odds_compare.py'
 
 
 class ShadowComparatorTests(unittest.TestCase):
-    def compare(self, age_minutes=5, listed_day=None, model_day=None, model_after=False, reverse=False):
+    def compare(self, age_minutes=5, listed_day=None, model_day=None, model_after=False, reverse=False, competition=None, tournament=None):
         now = datetime.now(timezone.utc).replace(microsecond=0)
         observed = now - timedelta(minutes=age_minutes)
         model_at = observed + timedelta(minutes=1) if model_after else observed - timedelta(minutes=1)
@@ -22,6 +22,7 @@ class ShadowComparatorTests(unittest.TestCase):
             model = root / 'model.csv'
             row = dict(bwf_match_id='test:1', start_utc=day + 'T00:00:00+00:00',
                        player_a='Anders ANTONSEN', player_b='LEE Zii Jia',
+                       tournament=tournament or 'CLASH OF CLANS Arctic Open 2026',
                        v3_2_p_a='0.84286719', asof_utc=model_at.isoformat(),
                        status='DATE_ONLY_START_UNVERIFIED_NO_BET')
             with model.open('w', newline='', encoding='utf-8') as f:
@@ -32,6 +33,8 @@ class ShadowComparatorTests(unittest.TestCase):
             folder.mkdir(parents=True)
             quote = dict(market='H2H_FULL_MATCH', player_1_display='Anders Antonsen',
                          player_2_display='Lee Zii Jia', odds_1=1.65, odds_2=1.78)
+            if competition is not None:
+                quote['competition_display'] = competition
             if reverse:
                 quote['player_1_display'], quote['player_2_display'] = quote['player_2_display'], quote['player_1_display']
                 quote['odds_1'], quote['odds_2'] = quote['odds_2'], quote['odds_1']
@@ -77,6 +80,16 @@ class ShadowComparatorTests(unittest.TestCase):
         self.assertAlmostEqual(row['model_probability_a'], 1 - 0.84286719)
         self.assertAlmostEqual(row['illustrative_ev_pct'][1], 39.07)
         self.assertEqual(row['decision'], 'NO_BET')
+
+    def test_tournament_mismatch_is_rejected(self):
+        output = self.compare(competition='Artic Open', tournament='Malaysia Open')
+        self.assertEqual(output['results'][0]['status'], 'TOURNAMENT_MISMATCH')
+        self.assertEqual(output['results'][0]['decision'], 'NO_BET')
+
+    def test_netbet_arctic_typo_is_accepted_for_same_event(self):
+        output = self.compare(competition='Artic Open')
+        self.assertEqual(output['results'][0]['status'], 'UNVERIFIED_SHADOW_ONLY')
+        self.assertEqual(output['results'][0]['decision'], 'NO_BET')
 
     def test_model_after_quote_is_flagged(self):
         output = self.compare(model_after=True)
