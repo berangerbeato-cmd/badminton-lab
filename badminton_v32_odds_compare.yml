@@ -1,0 +1,112 @@
+name: Badminton V3.2 odds comparison (shadow)
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - 'Badminton multi-bookmaker odds observation (shadow)'
+    types: [completed]
+    branches: [main]
+  push:
+    paths:
+      - 'v32_odds_compare.py'
+      - 'v32_quality_gate.py'
+      - '.github/workflows/badminton_v32_odds_compare.yml'
+  schedule:
+    - cron: '35 6,8,9 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bwf-results-sync
+  cancel-in-progress: false
+
+jobs:
+  compare:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - name: Refresh repository
+        run: git pull --ff-only origin main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate scripts
+        run: |
+          python -m py_compile badminton_v3_2_daily.py multi_book_odds_scraper.py netbet_quotes_shadow.py v32_odds_compare.py v32_quality_gate.py
+          python badminton_v3_2_daily.py --self-test
+          python multi_book_odds_scraper.py --self-test
+          python netbet_quotes_shadow.py --self-test
+      - name: Recompute V3.2 before observing prices
+        run: |
+          python badminton_v3_2_daily.py \
+            --data-dir data/bwf \
+            --v1-model-dir data/model \
+            --selection-dir data/model_v3_2 \
+            --output data/model_v3_2_live \
+            --days 7
+      - name: Install browser
+        run: |
+          python -m pip install 'playwright==1.55.0'
+          python -m playwright install --with-deps chromium
+      - name: Observe new public odds AFTER model
+        run: python multi_book_odds_scraper.py --live --out data/odds_shadow
+      - name: Observe new NetBet quotes AFTER model
+        run: |
+          python netbet_quotes_shadow.py --live \
+            --out data/odds_shadow/netbet_quotes \
+            --model-dir data/model
+      - name: Compare V3.2 with observations from this run
+        run: |
+          # The daily snapshot preserves the first publication; compare the fresh output.
+          MODEL="data/model_v3_2_live/upcoming_latest.csv"
+          test -f "$MODEL" || { echo "No current model output"; exit 1; }
+          python v32_odds_compare.py \
+            --model "$MODEL" \
+            --odds-dir data/odds_shadow \
+            --out data/odds_shadow/comparison_v3_auto
+      - name: Audit quality
+        run: |
+          python v32_quality_gate.py \
+            --input data/odds_shadow/comparison_v3_auto/latest.json \
+            --out data/odds_shadow/quality_gate
+      - name: Publish research outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/model_v3_2_live data/odds_shadow
+          if ! git diff --cached --quiet; then
+            git commit -m 'Observe odds after V3.2 model and audit quality'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Report
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          lines = ['### V3.2 ordered model / public odds / quality', '- Research only; NO BET.']
+          for title, file in [
+              ('Model', 'data/model_v3_2_live/latest_report.json'),
+              ('Comparison', 'data/odds_shadow/comparison_v3_auto/latest.json'),
+              ('Quality', 'data/odds_shadow/quality_gate/latest.json'),
+          ]:
+              try:
+                  obj = json.loads(Path(file).read_text(encoding='utf-8-sig'))
+                  lines.append(f"- {title}: {obj.get('generated_at_utc', 'unknown')}")
+                  if title == 'Quality':
+                      lines.append(f"- Quality statuses: {obj.get('status_counts', {})}")
+              except (OSError, ValueError, UnicodeError) as exc:
+                  lines.append(f'- {title}: unavailable ({exc})')
+          output = '\n'.join(lines) + '\n'
+          print(output)
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+              f.write(output)
+          PY
