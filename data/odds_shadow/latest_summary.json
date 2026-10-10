@@ -1,11 +1,11 @@
 {
-  "observed_at_utc": "2026-10-10T13:38:55+00:00",
+  "observed_at_utc": "2026-10-10T13:45:54+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
   "sources": {
     "unibet_fr": {
-      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
+      "status": "REJECT_HTTP_CACHE_AGE",
       "quotes": 0
     },
     "bwin_fr": {
