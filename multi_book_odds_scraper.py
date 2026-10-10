@@ -313,10 +313,10 @@ def analyze_source(key, now, browser, evidence_dir=None):
                     if evidence is not None and evidence.exists():
                         audit['screenshot']=str(evidence)
                     audit['body_characters']=len(match_body)
-                    audit['contains_odds_heading']=bool(re.search(r'\\bCOTES\\b',match_body,re.I))
+                    audit['contains_odds_heading']=bool(re.search(r'\bCOTES\b',match_body,re.I))
                     audit['contains_bookmaker_names']=[name for name in
                         ('Betclic','Winamax','NetBet','Unibet','FDJ','PMU')
-                        if re.search(r'\\b'+re.escape(name)+r'\\b',match_body,re.I)]
+                        if re.search(r'\b'+re.escape(name)+r'\b',match_body,re.I)]
                     audit['status']=('PUBLIC_MATCH_PAGE_REACHABLE_AUDIT_ONLY'
                                      if match_info.get('http_status')==200 and
                                      urlsplit(match_info.get('resolved_url','')).netloc.endswith('flashscore.fr')
