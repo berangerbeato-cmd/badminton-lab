@@ -13,6 +13,7 @@ on:
       - 'netbet_quotes_shadow.py'
       - 'v32_odds_compare.py'
       - 'bwf_fixture_audit.py'
+      - 'bwf_sync.py'
       - 'v32_quality_gate.py'
       - 'test_v32_odds_compare.py'
       - 'v32_shadow_ledger.py'
@@ -52,8 +53,54 @@ jobs:
           python multi_book_odds_scraper.py --self-test
           python netbet_quotes_shadow.py --self-test
           python -m unittest -v test_v32_odds_compare test_v32_shadow_ledger test_v32_ledger_summary
+      - name: Validate BWF incremental synchronizer
+        run: |
+          python -m py_compile bwf_sync.py bwf_fixture_audit.py
+          python bwf_sync.py --self-test
+      - name: Refresh recent BWF tournaments before V3.2
+        id: bwf_refresh
+        continue-on-error: true
+        run: |
+          python bwf_sync.py --data-dir data/bwf --max-tournaments 30 --timeout 15 --delay 1.3 --report data/model_v3_2_live/bwf_refresh_latest.json
+      - name: Publish BWF refresh status
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path("data/model_v3_2_live/bwf_refresh_latest.json")
+          if p.exists():
+              obj = json.loads(p.read_text(encoding="utf-8"))
+              lines = ["### BWF source refresh", "- Status: " + ("FAILED" if obj.get("errors") else "COMPLETED"),
+                       "- Tournaments refreshed: " + str(obj.get("tournaments_saved", 0)),
+                       "- Errors: " + str(len(obj.get("errors", [])))]
+          else:
+              lines = ["### BWF source refresh", "- Status: FAILED / NO REPORT"]
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as output:
+              output.write("\\n".join(lines) + "\\n")
+          PY
+      - name: Preserve BWF refresh audit even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bwf-refresh-audit
+          path: data/model_v3_2_live/bwf_refresh_latest.json
+          if-no-files-found: warn
       - name: Audit BWF Arctic Open fixture archive
         run: python bwf_fixture_audit.py --data-dir data/bwf --tournament-id 5594 --target-day 2026-10-11 --out data/model_v3_2_live/bwf_fixture_audit.json
+      - name: Require successful BWF refresh before forecasting
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("data/model_v3_2_live/bwf_refresh_latest.json")
+          if not p.exists():
+              raise SystemExit("NO_BET: BWF refresh did not produce a report")
+          report = json.loads(p.read_text(encoding="utf-8"))
+          if report.get("errors") or not report.get("tournaments_saved"):
+              raise SystemExit("NO_BET: BWF refresh failed or no tournament was refreshed")
+          print("BWF refresh validated before forecast")
+          PY
       - name: Recompute V3.2 before observing prices
         run: |
           python badminton_v3_2_daily.py \
