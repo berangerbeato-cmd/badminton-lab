@@ -1,1 +1,2 @@
 ﻿source,bwf_match_id,player_a,player_b,model_age_minutes,ev_a_pct,ev_b_pct,quality_status,reasons,decision
+netbet_quotes,,Yushi Tanaka,Anders Antonsen,,,,BLOCKED_UNVERIFIED,EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS,NO_BET
