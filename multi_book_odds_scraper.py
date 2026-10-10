@@ -365,7 +365,7 @@ def analyze_source(key, now, browser, evidence_dir=None):
                         r'BWF WORLD TOUR\s*-\s*DOUBLES?\s+(?:MIXTES?|HOMMES|FEMMES)',
                         match_header,re.I))
                     audit['appears_mens_singles']=bool(re.search(
-                        r'BWF WORLD TOUR\s*-\s*HOMMES(?:\b|ARCTIC)',
+                        r'BWF WORLD TOUR\s*-\s*HOMMES(?=\b|[A-Z])',
                         match_header,re.I)) and not audit['appears_doubles']
                     audit['eligible_for_odds_comparison']=False
                     audit['comparison_block_reason']='NO_VERIFIED_BOOKMAKER_PRICES'
