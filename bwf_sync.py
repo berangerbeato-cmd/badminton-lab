@@ -28,7 +28,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import date, timedelta
+from datetime import date, timedelta, datetime, timezone
 from pathlib import Path
 from typing import Any, Callable
 
@@ -207,7 +207,7 @@ def sync(start: date, end: date, data_dir: Path, max_tournaments: int, timeout: 
         atomic_write_json(data_dir / 'index.json', list(index.values()))
     summary = {'indexed': len(all_recent), 'elite_checked': len(elite),
                'tournaments_saved': 0, 'new_completed_matches': 0,
-               'unique_match_ids': 0, 'errors': []}
+               'unique_match_ids': 0, 'errors': [], 'tournament_refreshes': []}
     for i, t in enumerate(elite, 1):
         tid = str(t['id'])
         dest = data_dir / 'matches' / f'{tid}.json.gz'
@@ -219,10 +219,23 @@ def sync(start: date, end: date, data_dir: Path, max_tournaments: int, timeout: 
             older = read_json(dest)
             merged, new_done, total_done, total = merge_match_payload(older, fresh)
             if total == 0:
+                summary['tournament_refreshes'].append({
+                    'tournament_id': tid, 'status': 'EMPTY_RESPONSE',
+                    'checked_at_utc': datetime.now(timezone.utc).isoformat(),
+                    'cached_match_count': len(extract_matches(older)) if older else 0,
+                    'fresh_match_count': len(extract_matches(fresh)),
+                })
                 print(f'[{i}/{len(elite)}] {t.get("name")} -- no match data, skip cache', flush=True)
                 continue
             if not dry_run:
                 atomic_write_json(dest, merged, zipped=True)
+            summary['tournament_refreshes'].append({
+                'tournament_id': tid, 'status': 'REFRESHED',
+                'checked_at_utc': datetime.now(timezone.utc).isoformat(),
+                'cached_match_count': len(extract_matches(older)) if older else 0,
+                'fresh_match_count': len(extract_matches(fresh)),
+                'merged_match_count': total,
+            })
             summary['tournaments_saved'] += 1
             summary['new_completed_matches'] += new_done
             summary['unique_match_ids'] += total
@@ -231,6 +244,11 @@ def sync(start: date, end: date, data_dir: Path, max_tournaments: int, timeout: 
         except (urllib.error.URLError, urllib.error.HTTPError, OSError, ValueError, KeyError) as exc:
             # A failed tournament request must not damage the existing cache.
             summary['errors'].append({'tournament': tid, 'error': str(exc)[:180]})
+            summary['tournament_refreshes'].append({
+                'tournament_id': tid, 'status': 'REFRESH_FAILED',
+                'checked_at_utc': datetime.now(timezone.utc).isoformat(),
+                'error': str(exc)[:180],
+            })
             print(f'[{i}/{len(elite)}] {tid} ERROR {exc}', file=sys.stderr)
         if delay:
             time.sleep(delay)
@@ -265,6 +283,8 @@ def self_test() -> None:
         for _ in range(3):
             results.append(sync(day, day, base, 3, 2, 0, get=fake_get))
         assert [r['new_completed_matches'] for r in results] == [1, 1, 0], results
+        assert all(r['tournament_refreshes'][0]['status'] == 'REFRESHED' for r in results)
+        assert results[0]['tournament_refreshes'][0]['fresh_match_count'] == 2
         saved = read_json(base / 'matches' / '321.json.gz')
         games = extract_matches(saved)
         assert len(games) == 2 and all(played(m) for m in games.values())
@@ -276,6 +296,7 @@ def self_test() -> None:
         before = (base / 'matches' / '321.json.gz').read_bytes()
         failed = sync(day, day, base, 3, 2, 0, get=down)
         assert len(failed['errors']) == 1 and (base / 'matches' / '321.json.gz').read_bytes() == before
+        assert failed['tournament_refreshes'][0]['status'] == 'REFRESH_FAILED'
         print('ALL LOCAL TESTS PASSED: 3 incremental refreshes, dedupe, preserve completed '
               'scores, index reuse, simulated HTTP outage without data loss')
 
@@ -290,6 +311,7 @@ def main() -> int:
     p.add_argument('--timeout', type=int, default=15)
     p.add_argument('--delay', type=float, default=1.3)
     p.add_argument('--dry-run', action='store_true')
+    p.add_argument('--report', type=Path, help='Optional JSON refresh audit output')
     args = p.parse_args()
     if args.self_test:
         self_test()
@@ -299,6 +321,8 @@ def main() -> int:
     try:
         outcome = sync(start, end, Path(args.data_dir), args.max_tournaments,
                        args.timeout, args.delay, dry_run=args.dry_run)
+        if args.report:
+            atomic_write_json(args.report, outcome)
         print('SUMMARY', json.dumps(outcome, ensure_ascii=False))
         return 0 if not outcome['errors'] else 2
     except Exception as exc:
