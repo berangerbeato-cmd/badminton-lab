@@ -254,7 +254,9 @@ def live(out: Path, model_dir: Path):
                             and not re.search(r'-(?:doubles?(?:-mixtes|-f)?|f)$',parts.path,re.I)):
                             chosen.append(u)
                     result['candidate_urls']=chosen[:8]
-                    for url in chosen[:3]:
+                    result['candidate_count']=len(chosen)
+                    result['page_audit_limit']=8
+                    for url in chosen[:8]:
                         permitted,rsn=robots_check(url)
                         audit={'url':url,'robots_status':rsn}
                         if not permitted:

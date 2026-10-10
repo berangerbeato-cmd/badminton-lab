@@ -3,6 +3,7 @@ name: Validate V3.2 shadow comparator
 on:
   pull_request:
     paths:
+      - 'netbet_quotes_shadow.py'
       - 'v32_odds_compare.py'
       - 'test_v32_odds_compare.py'
       - 'v32_shadow_ledger.py'
@@ -26,6 +27,8 @@ jobs:
         with:
           python-version: '3.12'
       - name: Syntax check
-        run: python -m py_compile v32_odds_compare.py test_v32_odds_compare.py v32_shadow_ledger.py test_v32_shadow_ledger.py v32_ledger_summary.py test_v32_ledger_summary.py
+        run: python -m py_compile netbet_quotes_shadow.py v32_odds_compare.py test_v32_odds_compare.py v32_shadow_ledger.py test_v32_shadow_ledger.py v32_ledger_summary.py test_v32_ledger_summary.py
+      - name: NetBet parser self-test
+        run: python netbet_quotes_shadow.py --self-test
       - name: Offline regression tests
         run: python -m unittest -v test_v32_odds_compare test_v32_shadow_ledger test_v32_ledger_summary
