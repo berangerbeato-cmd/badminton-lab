@@ -1,0 +1,75 @@
+name: Badminton V3.2 odds comparison (shadow)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'v32_odds_compare.py'
+      - '.github/workflows/badminton_v32_odds_compare.yml'
+  schedule:
+    - cron: '35 6,8,9 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: badminton-v32-odds-comparison
+  cancel-in-progress: false
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate V3.2 comparison script
+        run: python -m py_compile v32_odds_compare.py
+      - name: Compare V3.2 against observed public odds
+        id: compare
+        run: |
+          MODEL="data/model_v3_2_live/snapshots/$(date -u +%F).csv"
+          if [ ! -f "$MODEL" ]; then
+            echo "No V3.2 snapshot for today: $MODEL"
+            echo "No comparison generated; refusing to reuse stale probabilities."
+            exit 0
+          fi
+          python v32_odds_compare.py \
+            --model "$MODEL" \
+            --odds-dir data/odds_shadow \
+            --out data/odds_shadow/comparison_v3_auto
+      - name: Publish shadow comparison evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/odds_shadow/comparison_v3_auto
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update V3.2 public odds shadow comparison'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Summarize results
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          path = Path('data/odds_shadow/comparison_v3_auto/latest.json')
+          lines = ['### V3.2 shadow comparison', '- No bets placed; no executable prices verified.']
+          if path.exists():
+              try:
+                  data = json.loads(path.read_text(encoding='utf-8-sig'))
+                  lines.append(f"- Comparison rows: {data.get('comparison_count', 'unknown')}")
+                  lines.append('- All results are research-only, not actionable bets.')
+              except (OSError, ValueError, UnicodeError) as exc:
+                  lines.append(f'- Cannot read comparison: {exc}')
+          else:
+              lines.append('- No comparison file found (check model snapshot availability).')
+          output = '\n'.join(lines) + '\n'
+          print(output)
+          if os.environ.get('GITHUB_STEP_SUMMARY'):
+              with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+                  f.write(output)
+          PY
