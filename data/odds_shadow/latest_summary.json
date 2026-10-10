@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-10T16:14:54+00:00",
+  "observed_at_utc": "2026-10-10T16:16:12+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=2; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1; eligible_MS_H2H=0; local_now=2026-10-10T18:14:54.863419+02:00",
+      "parser_notes": "missing Aujourd'hui section; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-10-10T18:16:12.375867+02:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "e931a75c97f5e1256c48a9a4d7087450ebd9439151914bad06d91454c1e1d558"
+      "body_sha256": "9ce5711204987c148316513a38cba1a6450721bca9f6c647b9c01f5b50b81e85"
     },
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
@@ -68,7 +68,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "ebb524ec0ab3901a8e7515c6a41a8a7193295cd3818abb9cc42f24609ac1c16e"
+      "body_sha256": "5b2421ee8a048832daea361af974f745da6044a2c48cd17daffa8850431ba873"
     },
     "pmu_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
