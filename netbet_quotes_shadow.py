@@ -264,6 +264,10 @@ def live(out: Path, model_dir: Path):
                             and not re.search(r'-(?:doubles?(?:-mixtes|-f)?|f)$',parts.path,re.I)):
                             chosen.append(u)
                     result['index_link_count']=len(links)
+                    badminton_links=[u for u in dict.fromkeys(links) if 'badminton' in urlsplit(u).path.casefold()]
+                    result['index_badminton_link_count']=len(badminton_links)
+                    result['index_badminton_link_examples']=badminton_links[:25]
+                    result['index_link_path_counts']=dict(Counter(urlsplit(u).path.split('/')[1] if len(urlsplit(u).path.split('/'))>1 else '' for u in links).most_common(12))
                     result['candidate_urls']=chosen[:8]
                     result['candidate_count']=len(chosen)
                     result['page_audit_limit']=8
