@@ -347,6 +347,30 @@ def live(out: Path, model_dir: Path):
                 comp,reject=match_elo(result['quotes'],source.decode('utf-8-sig'),now)
                 result['elo_comparisons']=comp
                 result['reason_counts']=reject
+                # Explain missing fixture joins without fabricating a final
+                # or borrowing probabilities from the preceding semi-finals.
+                model_rows=list(csv.DictReader(io.StringIO(source.decode('utf-8-sig'))))
+                result['fixture_join_audit']=[]
+                for q in result['quotes']:
+                    day_rows=[m for m in model_rows
+                              if m.get('start_utc','')[:10]==q['listed_day_paris']]
+                    tournament_rows=[m for m in day_rows if competition_matches(
+                        q['competition_display'],m.get('tournament',''))]
+                    pair_rows=[m for m in tournament_rows if (
+                        same_player(q['player_1_display'],m.get('player_a',''))
+                        and same_player(q['player_2_display'],m.get('player_b','')))
+                        or (same_player(q['player_1_display'],m.get('player_b',''))
+                        and same_player(q['player_2_display'],m.get('player_a','')))]
+                    result['fixture_join_audit'].append({
+                        'players':[q['player_1_display'],q['player_2_display']],
+                        'listed_day_paris':q['listed_day_paris'],
+                        'model_rows_same_day':len(day_rows),
+                        'model_rows_same_tournament_and_day':len(tournament_rows),
+                        'exact_player_pair_count':len(pair_rows),
+                        'status':('FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT' if not pair_rows
+                                  else 'FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION'),
+                        'comparison_allowed':False,
+                    })
             else:
                 result['reason_counts']={'MISSING_SAME_DAY_ELO_SNAPSHOT':len(result['quotes'])}
     except Exception as exc:
