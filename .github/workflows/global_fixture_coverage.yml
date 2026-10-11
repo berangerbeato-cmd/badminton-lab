@@ -9,6 +9,7 @@ on:
       - 'official_draw_html_diagnostics.py'
       - 'official_draw_pages.py'
       - 'official_ms_draw_probe.py'
+      - 'official_draw_ajax_evidence.py'
       - 'test_official_draw_sources.py'
       - '.github/workflows/global_fixture_coverage.yml'
 jobs:
@@ -33,6 +34,8 @@ jobs:
         run: python official_draw_pages.py --coverage global_coverage.json --out official_draw_pages.json
       - name: Probe explicit MS draw pages
         run: python official_ms_draw_probe.py --coverage global_coverage.json --out official_ms_draw_probe.json
+      - name: Inspect AJAX call sites in draw scripts
+        run: python official_draw_ajax_evidence.py --coverage global_coverage.json --out official_draw_ajax_evidence.json
       - name: Upload research-only report
         if: always()
         uses: actions/upload-artifact@v4
@@ -44,4 +47,5 @@ jobs:
             official_draw_html_diagnostics.json
             official_draw_pages.json
             official_ms_draw_probe.json
+            official_draw_ajax_evidence.json
           if-no-files-found: warn
