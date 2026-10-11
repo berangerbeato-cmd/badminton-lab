@@ -60,9 +60,9 @@ def candidate_scripts(html, base):
 
 def endpoint_evidence(script):
     # Extract small, non-sensitive code snippets for a human to inspect.
-    patterns = (r"\\$\\.ajax\\s*\\(", r"\\$\\.get(?:JSON)?\\s*\\(",
-                r"axios\\.(?:get|post)\\s*\\(", r"fetch\\s*\\(",
-                r"ajaxurl", r"admin-ajax\\.php", r"wp-json", r"graphql")
+    patterns = (r"\$\.ajax\s*\(", r"\$\.get(?:JSON)?\s*\(",
+                r"axios\.(?:get|post)\s*\(", r"fetch\s*\(",
+                r"ajaxurl", r"admin-ajax\.php", r"wp-json", r"graphql")
     results = []
     for pattern in patterns:
         for match in list(re.finditer(pattern, script, re.I))[:12]:
