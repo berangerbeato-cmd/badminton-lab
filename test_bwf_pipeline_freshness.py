@@ -34,6 +34,19 @@ class TestFreshness(unittest.TestCase):
 
     def test_partial_refresh(self):
         self.refresh["tournament_refreshes"][0]["status"] = "EMPTY_RESPONSE"
+        with self.assertRaisesRegex(ValueError, "No BWF tournament match data refreshed"):
+            validate(self.refresh, self.model)
+
+    def test_partial_refresh_with_completed_tournament(self):
+        self.refresh["tournament_refreshes"].append({
+            "status": "EMPTY_RESPONSE", "checked_at_utc": "2026-10-10T17:53:10+00:00"})
+        result = validate(self.refresh, self.model)
+        self.assertEqual(result["bwf_refreshed"], 1)
+        self.assertEqual(result["bwf_empty_not_yet_published"], 1)
+
+    def test_failed_tournament_remains_blocking(self):
+        self.refresh["tournament_refreshes"].append({
+            "status": "REFRESH_FAILED", "checked_at_utc": "2026-10-10T17:53:10+00:00"})
         with self.assertRaisesRegex(ValueError, "incomplete"):
             validate(self.refresh, self.model)
 
