@@ -78,14 +78,17 @@ def endpoint_evidence(script):
     patterns = (r"\$\.ajax\s*\(", r"\$\.get(?:JSON)?\s*\(",
                 r"axios\.(?:get|post)\s*\(", r"fetch\s*\(",
                 r"ajaxurl", r"admin-ajax\.php", r"wp-json", r"graphql",
-                r"ajaxTmt", r"loadResultContent", r"drawTable", r"child-match")
+                r"ajaxTmt", r"loadResultContent", r"drawTable", r"child-match",
+                r"drawTableRoundRobin", r"drawTableKnockout", r"drawTable(?:Data)?\\s*[:=]",
+                r"axios\\s*\\(", r"\\.get\\s*\\(", r"\\.post\\s*\\(",
+                r"mounted\\s*\\(", r"created\\s*\\(", r"api[_/-]", r"endpoint")
     results = []
     for pattern in patterns:
         for match in list(re.finditer(pattern, script, re.I))[:12]:
             start, end = max(0, match.start() - 90), min(len(script), match.end() + 170)
             snippet = re.sub(r"\s+", " ", script[start:end])
             results.append({"kind": pattern, "snippet": snippet[:260]})
-    return results[:35]
+    return results[:60]
 
 
 def read_html(url, limit):
@@ -120,7 +123,7 @@ def main():
             parser = ScriptLinks()
             parser.feed(html)
             entry["inline_script_blocks"] = len(parser.inline)
-            entry["inline_ajax_evidence"] = endpoint_evidence("\n".join(parser.inline))[:35]
+            entry["inline_ajax_evidence"] = endpoint_evidence("\n".join(parser.inline))[:60]
             entry["draw_markup_evidence"] = endpoint_evidence(html)[:35]
             entry["script_tag_count"] = html.lower().count("<script")
             entry["script_src_count"] = len(re.findall(r"<script[^>]+src\s*=", html, re.I))
