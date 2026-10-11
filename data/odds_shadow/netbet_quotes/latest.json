@@ -63,7 +63,7 @@
     "https://www.netbet.fr/badminton/international/artic-open",
     "https://www.netbet.fr/badminton/international/artic-open-doubles-f"
   ],
-  "index_body_sha256": "1efd295ede2df5b513e0d3d8e8b09f21c0ecd8501f058ec0aaa326f1dd2f38a7",
+  "index_body_sha256": "d188ba9f3bb0a3c8cbbcb5e0a7f693982e91081b445370d645577fee817c810d",
   "index_eligible_quotes": 1,
   "index_http_status": 200,
   "index_link_count": 119,
@@ -251,12 +251,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-10-11.csv",
   "model_snapshot_sha256": "c3c7e10cdc7db8a04845adb62bf0b96d0c3e6572efce4b21ab3b3ff328ab802d",
-  "observed_at_utc": "2026-10-11T06:29:12+00:00",
+  "observed_at_utc": "2026-10-11T06:36:41+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "7380b2f5b66354dbbfe313fe2e796088dc683889ad3f1a2d0c9c7c0b41d33032",
+      "body_sha256": "4d093d45f0b140ba65bb1cf8243adcd233f3eab9deb723404ea566cf0b611d02",
       "cache_age_seconds": null,
       "eligible_listing_rows": 0,
       "http_status": 200,

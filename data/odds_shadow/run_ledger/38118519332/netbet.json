@@ -1,0 +1,327 @@
+{
+  "bookmaker_price_updated_at": null,
+  "candidate_count": 1,
+  "candidate_urls": [
+    "https://www.netbet.fr/badminton/international/artic-open"
+  ],
+  "elo_comparisons": [
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5594:1552528",
+      "date_basis": "PUBLISHED_CALENDAR_DATE",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-10-11",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-11T05:24:00+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Yushi Tanaka",
+        "bwf_name": "Yushi TANAKA",
+        "decimal_odds": 2.55,
+        "illustrative_ev_pct": -1.36,
+        "model_fair_odds": 2.5852,
+        "model_probability": 0.3868208
+      },
+      "side_2": {
+        "bookmaker_display": "Anders Antonsen",
+        "bwf_name": "Anders ANTONSEN",
+        "decimal_odds": 1.3,
+        "illustrative_ev_pct": -20.29,
+        "model_fair_odds": 1.6308,
+        "model_probability": 0.6131792
+      },
+      "valid_pre_match_T0": false
+    }
+  ],
+  "fixture_join_audit": [
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 1,
+      "listed_day_paris": "2026-10-11",
+      "model_rows_same_day": 1,
+      "model_rows_same_tournament_and_day": 1,
+      "players": [
+        "Yushi Tanaka",
+        "Anders Antonsen"
+      ],
+      "status": "FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION"
+    }
+  ],
+  "index_badminton_link_count": 5,
+  "index_badminton_link_examples": [
+    "https://www.netbet.fr/badminton",
+    "https://www.netbet.fr/badminton/international/artic-open-f",
+    "https://www.netbet.fr/badminton/international/artic-open-doubles-mixtes",
+    "https://www.netbet.fr/badminton/international/artic-open",
+    "https://www.netbet.fr/badminton/international/artic-open-doubles-f"
+  ],
+  "index_body_sha256": "d188ba9f3bb0a3c8cbbcb5e0a7f693982e91081b445370d645577fee817c810d",
+  "index_eligible_quotes": 1,
+  "index_http_status": 200,
+  "index_link_count": 119,
+  "index_link_path_counts": {
+    "": 9,
+    "badminton": 8,
+    "biathlon": 2,
+    "boxe": 2,
+    "cashout": 2,
+    "evenement": 35,
+    "football": 14,
+    "paris-en-direct": 5,
+    "promotions": 2,
+    "ski-alpin": 2,
+    "tennis": 6,
+    "zendesk": 2
+  },
+  "index_market_audit": {
+    "eligible_listing_rows": 1,
+    "markets_seen": 7,
+    "rejection_evidence": [
+      {
+        "following_lines": [
+          "Ratchanok Intanon",
+          "1.43",
+          "Mia Blichfeldt",
+          "2.17"
+        ],
+        "market_line": 111,
+        "preceding_lines": [
+          "Scores en direct",
+          "Format des cotes",
+          "Accueil",
+          "Badminton",
+          "Pariez sur",
+          "Badminton",
+          "À L'AFFICHE",
+          "TOUTE L'OFFRE BADMINTON",
+          "Populaires",
+          "Artic Open (F)",
+          "dim. 11 oct.",
+          "10:30",
+          "Ratchanok Intanon",
+          "Mia Blichfeldt"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Tai-King",
+          "1.15",
+          "Lai-Tsai",
+          "3.45"
+        ],
+        "market_line": 122,
+        "preceding_lines": [
+          "10:30",
+          "Ratchanok Intanon",
+          "Mia Blichfeldt",
+          "Qui va gagner le match ?",
+          "Ratchanok Intanon",
+          "1.43",
+          "Mia Blichfeldt",
+          "2.17",
+          "+ 26",
+          "Artic Open - Doubles",
+          "dim. 11 oct.",
+          "12:00",
+          "Tai-King",
+          "Lai-Tsai"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Jiang-Wei",
+          "1.12",
+          "Gao-Wu",
+          "3.70"
+        ],
+        "market_line": 138,
+        "preceding_lines": [
+          "1.15",
+          "Lai-Tsai",
+          "3.45",
+          "+ 25",
+          "Artic Open (F)",
+          "(1)",
+          "Toute l'offre Badminton",
+          "(5)",
+          "À Venir",
+          "Artic Open - Doubles Mixtes",
+          "dim. 11 oct.",
+          "10:00",
+          "Jiang-Wei",
+          "Gao-Wu"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Ratchanok Intanon",
+          "1.43",
+          "Mia Blichfeldt",
+          "2.17"
+        ],
+        "market_line": 149,
+        "preceding_lines": [
+          "10:00",
+          "Jiang-Wei",
+          "Gao-Wu",
+          "Qui va gagner le match ?",
+          "Jiang-Wei",
+          "1.12",
+          "Gao-Wu",
+          "3.70",
+          "+ 24",
+          "Artic Open (F)",
+          "dim. 11 oct.",
+          "10:30",
+          "Ratchanok Intanon",
+          "Mia Blichfeldt"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Chen-Luo",
+          "1.18",
+          "Hsu-Lin",
+          "3.20"
+        ],
+        "market_line": 171,
+        "preceding_lines": [
+          "11:00",
+          "Yushi Tanaka",
+          "Anders Antonsen",
+          "Qui va gagner le match ?",
+          "Yushi Tanaka",
+          "2.55",
+          "Anders Antonsen",
+          "1.30",
+          "+ 26",
+          "Artic Open - Doubles (F)",
+          "dim. 11 oct.",
+          "11:30",
+          "Chen-Luo",
+          "Hsu-Lin"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Tai-King",
+          "1.15",
+          "Lai-Tsai",
+          "3.45"
+        ],
+        "market_line": 182,
+        "preceding_lines": [
+          "11:30",
+          "Chen-Luo",
+          "Hsu-Lin",
+          "Qui va gagner le match ?",
+          "Chen-Luo",
+          "1.18",
+          "Hsu-Lin",
+          "3.20",
+          "+ 24",
+          "Artic Open - Doubles",
+          "dim. 11 oct.",
+          "12:00",
+          "Tai-King",
+          "Lai-Tsai"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      }
+    ],
+    "rejections": {
+      "NON_MS_COMPETITION": 6
+    }
+  },
+  "index_resolved_url": "https://www.netbet.fr/badminton",
+  "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
+  "index_url": "https://www.netbet.fr/badminton",
+  "model_snapshot": "data/model/snapshots/2026-10-11.csv",
+  "model_snapshot_sha256": "c3c7e10cdc7db8a04845adb62bf0b96d0c3e6572efce4b21ab3b3ff328ab802d",
+  "observed_at_utc": "2026-10-11T06:36:41+00:00",
+  "operator": "NetBet.fr",
+  "page_audit_limit": 8,
+  "page_audits": [
+    {
+      "body_sha256": "4d093d45f0b140ba65bb1cf8243adcd233f3eab9deb723404ea566cf0b611d02",
+      "cache_age_seconds": null,
+      "eligible_listing_rows": 0,
+      "http_status": 200,
+      "markets_seen": 1,
+      "rejection_evidence": [
+        {
+          "following_lines": [
+            "Yushi Tanaka",
+            "2.55",
+            "Anders Antonsen",
+            "1.30"
+          ],
+          "market_line": 110,
+          "preceding_lines": [
+            "Règlement des paris",
+            "Scores en direct",
+            "Format des cotes",
+            "Accueil",
+            "Badminton",
+            "International - Artic Open",
+            "Pariez sur",
+            "Artic Open",
+            "À Venir",
+            "Artic Open",
+            "dim. 11 oct.",
+            "11:00",
+            "Yushi Tanaka",
+            "Anders Antonsen"
+          ],
+          "reason": "COMPETITION_NOT_ADJACENT_TO_DATE"
+        }
+      ],
+      "rejections": {
+        "COMPETITION_NOT_ADJACENT_TO_DATE": 1
+      },
+      "resolved_url": "https://www.netbet.fr/badminton/international/artic-open",
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "screenshot": "data/odds_shadow/visual_evidence/netbet_event_0.png",
+      "status": "NO_CONFIDENT_MS_H2H",
+      "url": "https://www.netbet.fr/badminton/international/artic-open"
+    }
+  ],
+  "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
+  "quotes": [
+    {
+      "bookmaker_overround_pct": 16.14,
+      "competition_display": "Artic Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-10-11",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.337662,
+      "normalized_market_probability_2": 0.662338,
+      "odds_1": 2.55,
+      "odds_2": 1.3,
+      "player_1_display": "Yushi Tanaka",
+      "player_2_display": "Anders Antonsen",
+      "raw_implied_probability_1": 0.392157,
+      "raw_implied_probability_2": 0.769231,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    }
+  ],
+  "reason_counts": {},
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+}
