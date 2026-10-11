@@ -43,6 +43,47 @@ def probe(tournament_id):
                              "stage_type": item.get("stage_type")}
                             for item in results[:20] if isinstance(item, dict)
                         ]
+                        result["ms_draw_details"] = []
+                        for item in results:
+                            if not isinstance(item, dict) or not isinstance(item.get("text"), str):
+                                continue
+                            label = item["text"].strip().upper()
+                            if label != "MS" and not label.startswith("MS -"):
+                                continue
+                            draw_id = item.get("value")
+                            if not str(draw_id).isdigit():
+                                continue
+                            endpoint = "/api/vue-tournament-draw-data"
+                            params = {"tmtTab": "draw", "tmtId": str(tournament_id),
+                                      "tmtType": "0", "drawId": str(draw_id), "isPara": "false"}
+                            details_url = BASE + endpoint + "?" + urllib.parse.urlencode(params)
+                            details_req = urllib.request.Request(
+                                details_url, headers={"User-Agent": UA, "Accept": "application/json"})
+                            detail = {"draw_id": str(draw_id), "label": label}
+                            try:
+                                with opener.open(details_req, timeout=12) as draw_response:
+                                    payload = draw_response.read(MAX_BYTES + 1)
+                                    detail["http_status"] = draw_response.status
+                                    if len(payload) > MAX_BYTES:
+                                        detail["error"] = "response_too_large"
+                                    else:
+                                        draw_data = json.loads(payload)
+                                        detail["json_type"] = type(draw_data).__name__
+                                        if isinstance(draw_data, dict):
+                                            detail["keys"] = list(draw_data.keys())[:20]
+                                            for key in ("results", "matches", "drawsize"):
+                                                value = draw_data.get(key)
+                                                detail[key + "_count"] = len(value) if isinstance(value, list) else None
+                                                if isinstance(value, list) and value:
+                                                    first = value[0]
+                                                    detail[key + "_first_type"] = type(first).__name__
+                                                    if isinstance(first, dict):
+                                                        detail[key + "_first_fields"] = list(first.keys())[:25]
+                            except urllib.error.HTTPError as exc:
+                                detail.update({"http_status": exc.code, "error": "http_error"})
+                            except Exception as exc:
+                                detail["error"] = type(exc).__name__
+                            result["ms_draw_details"].append(detail)
                         result["ms_draw_candidates"] = [
                             item.get("value") for item in results
                             if isinstance(item, dict)
