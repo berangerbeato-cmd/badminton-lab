@@ -68,6 +68,8 @@ class ShadowComparatorTests(unittest.TestCase):
         self.assertEqual(row['decision'], 'NO_BET')
         self.assertEqual(row['prematch_timing_status'], 'KICKOFF_DATE_ONLY')
         self.assertFalse(row['kickoff_source_verified'])
+        self.assertEqual(row['external_schedule_status'], 'NO_EXTERNAL_SCHEDULE')
+        self.assertEqual(output['verification_summary']['external_schedule_coverage_count'], 0)
         self.assertEqual(row['kickoff_evidence_status'], 'SOURCE_MISSING')
         self.assertIsNone(row['kickoff_source_url'])
         self.assertEqual(output['verification_summary']['kickoff_evidence_status_counts']['SOURCE_MISSING'], 1)
