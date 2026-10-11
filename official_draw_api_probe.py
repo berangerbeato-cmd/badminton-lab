@@ -85,9 +85,36 @@ def probe(tournament_id):
                                                     "team1_types": {},
                                                 }
                                                 audit = detail["match_audit"]
+                                                audit["two_identified_single_players"] = 0
+                                                audit["two_identified_pending_without_time"] = 0
+                                                audit["two_identified_with_time"] = 0
+                                                audit["pending_status_codes"] = {}
+                                                audit["candidate_samples"] = []
                                                 for match in matches:
                                                     if not isinstance(match, dict):
                                                         continue
+                                                    sides = []
+                                                    for side in ("team1", "team2"):
+                                                        team = match.get(side)
+                                                        players = team.get("players") if isinstance(team, dict) else None
+                                                        player = players[0] if isinstance(players, list) and len(players) == 1 else None
+                                                        if (isinstance(player, dict) and str(player.get("id") or "").isdigit()
+                                                                and isinstance(player.get("nameDisplay"), str)
+                                                                and player["nameDisplay"].strip()):
+                                                            sides.append({"id": str(player["id"]), "name": player["nameDisplay"]})
+                                                    if len(sides) == 2 and sides[0]["id"] != sides[1]["id"]:
+                                                        audit["two_identified_single_players"] += 1
+                                                        if match.get("matchTimeUtc"):
+                                                            audit["two_identified_with_time"] += 1
+                                                        if match.get("matchStatus") == "N" and not match.get("matchTimeUtc"):
+                                                            audit["two_identified_pending_without_time"] += 1
+                                                            if len(audit["candidate_samples"]) < 5:
+                                                                audit["candidate_samples"].append({
+                                                                    "match_id": match.get("id"),
+                                                                    "players": sides,
+                                                                    "round": match.get("roundName"),
+                                                                    "match_time": match.get("matchTime"),
+                                                                })
                                                     status = str(match.get("matchStatus") or "missing")
                                                     audit["statuses"][status] = audit["statuses"].get(status, 0) + 1
                                                     kind = type(match.get("team1")).__name__
