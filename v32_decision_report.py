@@ -3,6 +3,7 @@
 import argparse
 import json
 from collections import Counter
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -13,7 +14,18 @@ def summarize(data):
     fixtures = {str(r['bwf_match_id']) for r in matched}
     blockers = Counter(flag for row in matched for flag in set(row.get('flags', [])))
     sources = Counter(row.get('source', 'UNKNOWN') for row in matched)
+    timestamp = data.get('generated_at_utc')
+    try:
+        generated = datetime.fromisoformat(str(timestamp).replace('Z', '+00:00'))
+        if generated.tzinfo is None:
+            raise ValueError('missing timezone')
+        age_hours = round((datetime.now(timezone.utc) - generated.astimezone(timezone.utc)).total_seconds() / 3600, 2)
+        freshness = 'FRESH' if 0 <= age_hours <= 24 else 'STALE_OR_FUTURE'
+    except (ValueError, TypeError):
+        age_hours, freshness = None, 'UNKNOWN_TIMESTAMP'
     return {
+        'snapshot_age_hours': age_hours,
+        'snapshot_freshness': freshness,
         'generated_at_utc': data.get('generated_at_utc'),
         'policy': 'RESEARCH_ONLY_NO_BET',
         'model_fixtures': data.get('verification_summary', {}).get('model_fixture_count', 0),
@@ -25,7 +37,8 @@ def summarize(data):
         'blockers': dict(sorted(blockers.items())),
         'verified_prematch_opportunities': data.get('verification_summary', {}).get('verified_prematch_count', 0),
         'validated_roi_pct': None,
-        'conclusion': 'INSUFFICIENT_VERIFIED_DATA_FOR_PROFITABILITY_ASSESSMENT',
+        'conclusion': ('STALE_SNAPSHOT_NOT_ACTIONABLE' if freshness != 'FRESH' else
+                       'INSUFFICIENT_VERIFIED_DATA_FOR_PROFITABILITY_ASSESSMENT'),
     }
 
 
