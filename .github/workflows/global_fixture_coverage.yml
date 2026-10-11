@@ -99,6 +99,9 @@ jobs:
       - name: Observe public bookmaker listings (read-only)
         continue-on-error: true
         run: python multi_book_odds_scraper.py --live --out research_odds
+      - name: Run existing Unibet observer (read-only)
+        continue-on-error: true
+        run: python unibet_odds_scraper.py --live --out research_odds/unibet_legacy
       - name: Observe NetBet public listings (read-only)
         continue-on-error: true
         run: python netbet_quotes_shadow.py --live --out research_odds/netbet_quotes
@@ -135,6 +138,7 @@ jobs:
             research_shortlist/shortlist.json
             research_odds/latest_summary.json
             research_odds/unibet_fr/latest.json
+            research_odds/unibet_legacy/*.json
             research_odds/bwin_fr/latest.json
             research_odds/netbet_quotes/latest.json
           if-no-files-found: warn
