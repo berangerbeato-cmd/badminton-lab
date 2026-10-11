@@ -15,6 +15,7 @@ on:
       - 'official_schedule_audit.py'
       - 'official_oop_endpoint_evidence.py'
       - 'official_schedule_day_tabs.py'
+      - 'official_oop_html_context.py'
       - 'test_v32_official_fixture_bridge.py'
       - 'test_official_draw_sources.py'
       - '.github/workflows/global_fixture_coverage.yml'
@@ -50,6 +51,8 @@ jobs:
         run: python official_oop_endpoint_evidence.py --coverage global_coverage.json --out official_oop_endpoint_evidence.json
       - name: Extract official schedule-day tabs
         run: python official_schedule_day_tabs.py --coverage global_coverage.json --out official_schedule_day_tabs.json
+      - name: Inspect BWF schedule API HTML context
+        run: python official_oop_html_context.py --coverage global_coverage.json --out official_oop_html_context.json
       - name: Prepare V3.2 shadow fixture bridge
         run: python v32_official_fixture_bridge.py --input official_ms_fixture_candidates.json --out v32_official_fixture_bridge.json
       - name: Upload research-only report
@@ -70,4 +73,5 @@ jobs:
             official_schedule_audit.json
             official_oop_endpoint_evidence.json
             official_schedule_day_tabs.json
+            official_oop_html_context.json
           if-no-files-found: warn
