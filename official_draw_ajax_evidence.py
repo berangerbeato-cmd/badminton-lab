@@ -41,13 +41,26 @@ class ScriptLinks(HTMLParser):
             self.inline.append(data)
 
 
+def allowed_official_script_url(url):
+    """Only HTTPS JavaScript assets hosted on the official BWF sites."""
+    if not isinstance(url, str):
+        return False
+    parsed = urllib.parse.urlsplit(url)
+    return (parsed.scheme == "https"
+            and parsed.hostname in {"bwfbadminton.com", "www.bwfbadminton.com",
+                                    "bwfworldtour.bwfbadminton.com"}
+            and not parsed.username and not parsed.password
+            and parsed.path.startswith("/wp-content/")
+            and parsed.path.lower().endswith(".js"))
+
+
 def candidate_scripts(html, base):
     parser = ScriptLinks()
     parser.feed(html)
     urls = []
     for src in parser.links:
         url = urllib.parse.urljoin(base, src)
-        if not allowed_official_url(url):
+        if not allowed_official_script_url(url):
             continue
         path = urllib.parse.urlsplit(url).path.lower()
         if path.endswith(".js") or ".js?" in url.lower():
@@ -67,7 +80,7 @@ def endpoint_evidence(script):
     for pattern in patterns:
         for match in list(re.finditer(pattern, script, re.I))[:12]:
             start, end = max(0, match.start() - 90), min(len(script), match.end() + 170)
-            snippet = re.sub(r"\\s+", " ", script[start:end])
+            snippet = re.sub(r"\s+", " ", script[start:end])
             results.append({"kind": pattern, "snippet": snippet[:260]})
     return results[:35]
 
@@ -75,7 +88,8 @@ def endpoint_evidence(script):
 def read_html(url, limit):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=12) as response:
-        if not allowed_official_url(response.geturl()):
+        if not ((allowed_official_url(url) and allowed_official_url(response.geturl()))
+                or (allowed_official_script_url(url) and allowed_official_script_url(response.geturl()))):
             raise ValueError("Unexpected redirect")
         data = response.read(limit + 1)
         if len(data) > limit:
@@ -105,8 +119,8 @@ def main():
             entry["inline_script_blocks"] = len(parser.inline)
             entry["inline_ajax_evidence"] = endpoint_evidence("\n".join(parser.inline))[:35]
             entry["script_tag_count"] = html.lower().count("<script")
-            entry["script_src_count"] = len(re.findall(r"<script[^>]+src\\s*=", html, re.I))
-            entry["script_source_samples"] = re.findall(r"<script[^>]+src\\s*=\\s*[\\x27\\x22]([^\\x27\\x22]+)", html, re.I)[:8]
+            entry["script_src_count"] = len(re.findall(r"<script[^>]+src\s*=", html, re.I))
+            entry["script_source_samples"] = re.findall(r"""<script[^>]+src\s*=\s*[\x27\x22]([^\x27\x22]+)""", html, re.I)[:8]
             for js_url in selected:
                 item = {"url": js_url}
                 try:
