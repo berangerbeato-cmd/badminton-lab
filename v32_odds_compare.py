@@ -161,6 +161,12 @@ def main():
             results.append({'source': source, 'players': [a, b], 'status': 'INVALID_INPUT'})
             continue
         timing_status = timing_evidence(model_at, seen_at, m.get('start_utc'), m.get('status'))
+        # Preserve provenance independently of chronology. A timestamp alone
+        # is not proof of the real match start or a bookmaker's live price.
+        kickoff_source = str(m.get('kickoff_source', '') or '').strip()
+        kickoff_source_url = str(m.get('kickoff_source_url', '') or '').strip()
+        kickoff_evidence_status = ('SOURCE_RECORDED_UNVERIFIED' if kickoff_source and kickoff_source_url
+                                   else 'SOURCE_MISSING')
         flags = ['MARKET_DETAIL_UNVERIFIED', 'KICKOFF_UNVERIFIED', 'EXECUTABLE_PRICE_UNVERIFIED', 'BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN']
         # A public listing can establish a displayed day, not an actual start
         # time or the bookmaker's price update time. Preserve both separately.
@@ -179,6 +185,9 @@ def main():
         results.append({'source': source, 'bwf_match_id': m['bwf_match_id'], 'players': [m['player_b'], m['player_a']] if reversed_order else [m['player_a'], m['player_b']],
                         'prematch_timing_status': timing_status,
                         'kickoff_source_verified': False,
+                        'kickoff_evidence_status': kickoff_evidence_status,
+                        'kickoff_source': kickoff_source or None,
+                        'kickoff_source_url': kickoff_source_url or None,
                         'observed_at_utc': observed, 'model_asof_utc': m['asof_utc'], 'model_age_seconds': round(age),
                         'model_probability_a': prob,
                         'bookmaker_player_order_reversed': reversed_order,
@@ -222,6 +231,10 @@ def main():
         'matched_fixture_ids': matched_fixture_ids,
         'unmatched_observation_count': len(unmatched_observations),
         'unmatched_observations': unmatched_observations,
+        'kickoff_evidence_status_counts': {
+            key: sum(1 for item in results if item.get('kickoff_evidence_status') == key)
+            for key in sorted({item['kickoff_evidence_status'] for item in results if item.get('kickoff_evidence_status')})
+        },
         'prematch_timing_status_counts': {
             key: sum(1 for item in results if item.get('prematch_timing_status') == key)
             for key in sorted({item['prematch_timing_status'] for item in results if item.get('prematch_timing_status')})
