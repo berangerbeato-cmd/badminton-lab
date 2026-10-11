@@ -7,6 +7,9 @@ class OfficialSourceTests(unittest.TestCase):
     def test_official_url(self):
         self.assertTrue(allowed_official_url("https://bwfbadminton.com/tournament/5210/victor-denmark-open-2026"))
 
+    def test_world_tour_host(self):
+        self.assertTrue(allowed_official_url("https://bwfworldtour.bwfbadminton.com/tournament/5210/victor-denmark-open-2026/"))
+
     def test_reject_untrusted_domains(self):
         for url in ("https://bwfbadminton.com.evil.test/tournament/5210",
                     "http://bwfbadminton.com/tournament/5210",
