@@ -124,6 +124,11 @@ def main():
             parser.feed(html)
             entry["inline_script_blocks"] = len(parser.inline)
             entry["inline_ajax_evidence"] = endpoint_evidence("\n".join(parser.inline))[:60]
+            entry["inline_data_context"] = [
+                {"term": term, "snippets": [re.sub(r"\\s+", " ", block[max(0, m.start()-130):m.end()+220])[:350]
+                    for block in parser.inline for m in list(re.finditer(re.escape(term), block, re.I))[:3]][:6]}
+                for term in ("drawTableRoundRobin", "drawTable", "axios", "ajaxTmt", "matchData")
+            ]
             entry["draw_markup_evidence"] = endpoint_evidence(html)[:35]
             entry["script_tag_count"] = html.lower().count("<script")
             entry["script_src_count"] = len(re.findall(r"<script[^>]+src\s*=", html, re.I))
