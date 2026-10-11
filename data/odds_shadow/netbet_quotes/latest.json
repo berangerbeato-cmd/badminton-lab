@@ -61,7 +61,7 @@
     "https://www.netbet.fr/badminton/international/artic-open-doubles-f",
     "https://www.netbet.fr/badminton/international/artic-open"
   ],
-  "index_body_sha256": "12f4511bff58b9a376f78472ff49161121d25d538a3239db0643c8822d3c4a1d",
+  "index_body_sha256": "3082637c5a30d5439699db13bb61d1066f422d51281bd3454c1405ecbe0c6a35",
   "index_eligible_quotes": 0,
   "index_http_status": 200,
   "index_link_count": 108,
@@ -129,7 +129,7 @@
           "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
           "Populaires",
           "Artic Open - Doubles (F)",
-          "LIVE dans 58 min",
+          "LIVE dans 56 min",
           "Chen-Luo",
           "Hsu-Lin"
         ],
@@ -144,7 +144,7 @@
         ],
         "market_line": 139,
         "preceding_lines": [
-          "LIVE dans 58 min",
+          "LIVE dans 56 min",
           "Chen-Luo",
           "Hsu-Lin",
           "Qui va gagner le match ?",
@@ -181,7 +181,7 @@
           "(4)",
           "À Venir",
           "Artic Open",
-          "LIVE dans 28 min",
+          "LIVE dans 26 min",
           "Yushi Tanaka",
           "Anders Antonsen"
         ],
@@ -197,7 +197,7 @@
         "market_line": 164,
         "preceding_lines": [
           "Artic Open",
-          "LIVE dans 28 min",
+          "LIVE dans 26 min",
           "Yushi Tanaka",
           "Anders Antonsen",
           "Qui va gagner le match ?",
@@ -207,7 +207,7 @@
           "1.29",
           "+ 26",
           "Artic Open - Doubles (F)",
-          "LIVE dans 58 min",
+          "LIVE dans 56 min",
           "Chen-Luo",
           "Hsu-Lin"
         ],
@@ -222,7 +222,7 @@
         ],
         "market_line": 175,
         "preceding_lines": [
-          "LIVE dans 58 min",
+          "LIVE dans 56 min",
           "Chen-Luo",
           "Hsu-Lin",
           "Qui va gagner le match ?",
@@ -251,12 +251,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-10-11.csv",
   "model_snapshot_sha256": "c3c7e10cdc7db8a04845adb62bf0b96d0c3e6572efce4b21ab3b3ff328ab802d",
-  "observed_at_utc": "2026-10-11T08:51:54+00:00",
+  "observed_at_utc": "2026-10-11T08:54:01+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "3e8ed3a167d8f5a37cdda13bf9b3a4bed5134a4521fa55e467ed4a7c36994413",
+      "body_sha256": "8f1d52d573454cda9f600cf9d2a1e113e1ff3bb6fdf111c8269179b5ab9627e8",
       "cache_age_seconds": null,
       "eligible_listing_rows": 1,
       "http_status": 200,
