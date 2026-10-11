@@ -1,4 +1,4 @@
-name: Validate V3.2 decision report
+name: Validate and publish V3.2 decision report
 
 on:
   pull_request:
@@ -6,17 +6,41 @@ on:
       - 'v32_decision_report.py'
       - 'test_v32_decision_report.py'
       - '.github/workflows/validate-v32-decision-report.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'v32_decision_report.py'
+      - 'test_v32_decision_report.py'
+      - '.github/workflows/validate-v32-decision-report.yml'
+  schedule:
+    - cron: '25 8 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
-  test:
+  report:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Run decision report regression tests
+      - name: Run regression tests
         run: python -m unittest -v test_v32_decision_report.py
-      - name: Check command line help
-        run: python v32_decision_report.py --help
+      - name: Build report from existing comparator snapshot
+        shell: bash
+        run: |
+          if [ -f data/odds_shadow/comparison_v3_auto/latest.json ]; then
+            python v32_decision_report.py --input data/odds_shadow/comparison_v3_auto/latest.json --out decision-report/latest.json
+          else
+            mkdir -p decision-report
+            printf '%s\n' '{"status":"NO_COMPARATOR_SNAPSHOT","validated_roi_pct":null,"policy":"RESEARCH_ONLY_NO_BET"}' > decision-report/latest.json
+          fi
+      - name: Upload auditable report
+        uses: actions/upload-artifact@v4
+        with:
+          name: v32-decision-report
+          path: decision-report/latest.json
+          retention-days: 30
