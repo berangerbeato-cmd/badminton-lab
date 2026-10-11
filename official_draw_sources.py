@@ -21,7 +21,8 @@ def allowed_official_url(url):
         return False
     parsed = urllib.parse.urlparse(url)
     return (parsed.scheme == "https" and parsed.hostname in
-            {"bwfbadminton.com", "www.bwfbadminton.com"} and
+            {"bwfbadminton.com", "www.bwfbadminton.com",
+             "bwfworldtour.bwfbadminton.com"} and
             (parsed.path.startswith("/tournament/") or parsed.path.startswith("/tournaments/"))
             and not parsed.username and not parsed.password)
 
