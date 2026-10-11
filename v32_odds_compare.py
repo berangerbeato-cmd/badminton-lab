@@ -183,7 +183,22 @@ def main():
         and item.get('executable_price_verified') is True
         and item.get('decision') != 'NO_BET'
     )
+    # A bookmaker observation is not an independent BWF match. Count unique
+    # fixtures separately to prevent inflated sample sizes in reporting.
+    matched_fixture_ids = sorted({
+        str(item['bwf_match_id']) for item in results
+        if item.get('bwf_match_id') and item.get('status') == 'UNVERIFIED_SHADOW_ONLY'
+    })
+    unmatched_observations = [
+        {'source': item.get('source'), 'players': item.get('players'),
+         'status': item.get('status'), 'listed_day_paris': item.get('listed_day_paris')}
+        for item in results if item.get('status') != 'UNVERIFIED_SHADOW_ONLY'
+    ]
     verification_summary = {
+        'unique_matched_fixture_count': len(matched_fixture_ids),
+        'matched_fixture_ids': matched_fixture_ids,
+        'unmatched_observation_count': len(unmatched_observations),
+        'unmatched_observations': unmatched_observations,
         'model_fixture_count': len(models),
         'public_quote_count': len(observations),
         'comparison_count': len(results),
