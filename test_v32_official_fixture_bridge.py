@@ -8,9 +8,11 @@ BASE = {"match_id": "123", "tournament_id": "5210", "draw_id": "1",
         "source": "BWF_OFFICIAL_DRAW"}
 
 class BridgeTests(unittest.TestCase):
-    def test_missing_time_blocked(self):
+    def test_missing_time_prediction_ready(self):
         result = build({"candidates": [BASE]}, NOW)
-        self.assertEqual((result["eligible_count"], result["blocked_count"]), (0, 1))
+        self.assertEqual(result["schedule_pending_count"], 1)
+        self.assertEqual(result["prediction_ready_count"], 1)
+        self.assertEqual(result["schedule_pending"][0]["betting_eligibility"], "NO_BET")
 
     def test_verified_future_official_time(self):
         row = dict(BASE, match_time_utc=(NOW + timedelta(days=1)).isoformat(),
@@ -28,7 +30,7 @@ class BridgeTests(unittest.TestCase):
         self.assertEqual(build({"candidates": [row]}, NOW)["eligible_count"], 0)
 
     def test_deduplicate(self):
-        self.assertEqual(build({"candidates": [BASE, BASE]}, NOW)["blocked_count"], 1)
+        self.assertEqual(build({"candidates": [BASE, BASE]}, NOW)["schedule_pending_count"], 1)
 
 if __name__ == "__main__":
     unittest.main()
