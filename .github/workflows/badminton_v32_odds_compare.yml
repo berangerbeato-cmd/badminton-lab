@@ -60,7 +60,7 @@ jobs:
           python -m unittest -v test_v32_odds_compare test_v32_shadow_ledger test_v32_ledger_summary test_v32_decision_report
       - name: Validate BWF incremental synchronizer
         run: |
-          python -m py_compile bwf_sync.py bwf_fixture_audit.py
+          python -m py_compile bwf_sync.py bwf_fixture_audit.py bwf_future_coverage.py
           python bwf_sync.py --self-test
           python -m unittest -v test_bwf_pipeline_freshness
       - name: Refresh recent BWF tournaments before V3.2
@@ -92,6 +92,8 @@ jobs:
           name: bwf-refresh-audit
           path: data/model_v3_2_live/bwf_refresh_latest.json
           if-no-files-found: warn
+      - name: Measure fourteen-day BWF fixture coverage
+        run: python bwf_future_coverage.py --data-dir data/bwf --days 14 --out data/model_v3_2_live/bwf_future_coverage.json
       - name: Audit BWF Arctic Open fixture archive
         run: python bwf_fixture_audit.py --data-dir data/bwf --tournament-id 5594 --target-day 2026-10-11 --out data/model_v3_2_live/bwf_fixture_audit.json
       - name: Require successful BWF refresh before forecasting
