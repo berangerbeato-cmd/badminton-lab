@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_2_shadow_compare_v1",
-  "generated_at_utc": "2026-10-11T06:46:12+00:00",
+  "generated_at_utc": "2026-10-11T07:03:21+00:00",
   "policy": "SHADOW_ONLY_NO_BET_NO_T0_NO_SHEETS_WRITE",
   "model": "bwf_v3_2_score_rest_live",
   "max_age_seconds": 2700,
@@ -22,7 +22,7 @@
       "rejected": []
     },
     "NetBet.fr": {
-      "observation_utc": "2026-10-11T06:45:39+00:00",
+      "observation_utc": "2026-10-11T06:56:19+00:00",
       "snapshot_status": "OK",
       "snapshot_path": "data/model_v3_2_live/snapshots/2026-10-11.csv",
       "snapshot_sha256": "62102a16869b608d366f4188b097099c800c43694dc84748a67a00e27d8ea1c0",
@@ -33,15 +33,15 @@
     }
   },
   "match_count": 1,
-  "within_window_match_count": 1,
+  "within_window_match_count": 0,
   "matches": [
     {
       "bwf_match_id": "5594:1552528",
       "model": "bwf_v3_2_score_rest_live",
       "model_asof_utc": "2026-10-11T05:24:21+00:00",
       "model_snapshot_sha256": "62102a16869b608d366f4188b097099c800c43694dc84748a67a00e27d8ea1c0",
-      "comparison_status": "WITHIN_TIME_WINDOW_UNVERIFIED_SHADOW",
-      "observation_gap_seconds": 725,
+      "comparison_status": "ASYNCHRONOUS_OUTSIDE_WINDOW",
+      "observation_gap_seconds": 1365,
       "decision": "NO_BET_SHADOW",
       "valid_pre_match_T0": false,
       "kickoff_verified": false,
@@ -49,7 +49,7 @@
       "source_details": {
         "Unibet.fr": {
           "observed_at_utc": "2026-10-11T06:33:34+00:00",
-          "age_seconds": 759,
+          "age_seconds": 1788,
           "current": true,
           "source_url": "https://www.unibet.fr/paris-badminton",
           "quality_flags": [
@@ -61,8 +61,8 @@
           ]
         },
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-11T06:45:39+00:00",
-          "age_seconds": 34,
+          "observed_at_utc": "2026-10-11T06:56:19+00:00",
+          "age_seconds": 423,
           "current": true,
           "source_url": "https://www.netbet.fr/badminton",
           "quality_flags": [
@@ -87,7 +87,7 @@
           "best_historical_operator": "Unibet.fr",
           "best_historical_odds": 2.55,
           "best_historical_ev_pct": 7.92,
-          "best_within_window_ev_pct": 7.92
+          "best_within_window_ev_pct": null
         },
         {
           "bwf_player_id": "91554",
@@ -101,7 +101,7 @@
           "best_historical_operator": "Unibet.fr",
           "best_historical_odds": 1.34,
           "best_historical_ev_pct": -22.71,
-          "best_within_window_ev_pct": -22.71
+          "best_within_window_ev_pct": null
         }
       ]
     }
