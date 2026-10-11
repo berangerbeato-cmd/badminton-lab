@@ -52,12 +52,12 @@
     }
   ],
   "blocker_counts": {
-    "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE": 6,
-    "HTTP_OR_REDIRECT_REJECTED": 2,
+    "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE": 5,
+    "HTTP_OR_REDIRECT_REJECTED": 3,
     "MARKETS_SEEN_BUT_UNVERIFIED": 1,
     "NO_CONFIDENT_QUOTES_EXTRACTED": 2
   },
-  "generated_at_utc": "2026-10-11T09:31:04.919024+00:00",
+  "generated_at_utc": "2026-10-11T09:50:52.118395+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "NO_CONFIRMED_PREMATCH_QUOTES",
   "model_fixture_count": 1,
@@ -75,8 +75,8 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:30:09+00:00",
-      "parser_notes": "parsed; page_parsed_entries=2; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1; eligible_MS_H2H=0; local_now=2026-10-11T11:30:08.115405+02:00",
+      "observed_at_utc": "2026-10-11T09:49:39+00:00",
+      "parser_notes": "missing Aujourd'hui section; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-10-11T11:49:38.944763+02:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
@@ -84,7 +84,7 @@
     "netbet_quotes": {
       "status": "NO_CONFIDENT_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:30:57+00:00",
+      "observed_at_utc": "2026-10-11T09:50:45+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 0,
@@ -92,27 +92,27 @@
         "rejection_evidence": [
           {
             "following_lines": [
-              "Ratchanok Intanon",
-              "3.95",
-              "Mia Blichfeldt",
-              "1.09"
+              "Yushi Tanaka",
+              "2.70",
+              "Anders Antonsen",
+              "1.22"
             ],
-            "market_line": 118,
+            "market_line": 114,
             "preceding_lines": [
+              "Badminton",
+              "Pariez sur",
               "Badminton",
               "À L'AFFICHE",
               "EN DIRECT",
               "TOUTE L'OFFRE BADMINTON",
               "En direct",
-              "Artic Open (F)",
-              "Set 2",
+              "Artic Open",
+              "Avant-match",
               "LIVE",
-              "Ratchanok Intanon",
-              "Mia Blichfeldt",
+              "Yushi Tanaka",
+              "Anders Antonsen",
               "0",
-              "1",
-              "7",
-              "10"
+              "0"
             ],
             "reason": "PLAYER_PAIR_MISMATCH"
           },
@@ -123,20 +123,20 @@
               "Hsu-Lin",
               "3.20"
             ],
-            "market_line": 130,
+            "market_line": 126,
             "preceding_lines": [
-              "7",
-              "10",
+              "0",
+              "0",
               "Qui va gagner le match ?",
-              "Ratchanok Intanon",
-              "3.95",
-              "Mia Blichfeldt",
-              "1.09",
+              "Yushi Tanaka",
+              "2.70",
+              "Anders Antonsen",
+              "1.22",
               "+ 3",
               "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
               "Populaires",
               "Artic Open - Doubles (F)",
-              "LIVE dans 19 min",
+              "LIVE dans 24 min",
               "Chen-Luo",
               "Hsu-Lin"
             ],
@@ -149,10 +149,10 @@
               "Lai-Tsai",
               "3.50"
             ],
-            "market_line": 140,
+            "market_line": 136,
             "preceding_lines": [
               "Artic Open - Doubles (F)",
-              "LIVE dans 19 min",
+              "LIVE dans 24 min",
               "Chen-Luo",
               "Hsu-Lin",
               "Qui va gagner le match ?",
@@ -162,7 +162,7 @@
               "3.20",
               "+ 24",
               "Artic Open - Doubles",
-              "LIVE dans 49 min",
+              "LIVE dans 54 min",
               "Tai-King",
               "Lai-Tsai"
             ],
@@ -175,7 +175,7 @@
               "Hsu-Lin",
               "3.20"
             ],
-            "market_line": 155,
+            "market_line": 151,
             "preceding_lines": [
               "Tai-King",
               "1.14",
@@ -185,10 +185,10 @@
               "Artic Open - Doubles (F)",
               "(1)",
               "Toute l'offre Badminton",
-              "(3)",
+              "(2)",
               "À Venir",
               "Artic Open - Doubles (F)",
-              "LIVE dans 19 min",
+              "LIVE dans 24 min",
               "Chen-Luo",
               "Hsu-Lin"
             ],
@@ -201,10 +201,10 @@
               "Lai-Tsai",
               "3.50"
             ],
-            "market_line": 165,
+            "market_line": 161,
             "preceding_lines": [
               "Artic Open - Doubles (F)",
-              "LIVE dans 19 min",
+              "LIVE dans 24 min",
               "Chen-Luo",
               "Hsu-Lin",
               "Qui va gagner le match ?",
@@ -214,7 +214,7 @@
               "3.20",
               "+ 24",
               "Artic Open - Doubles",
-              "LIVE dans 49 min",
+              "LIVE dans 54 min",
               "Tai-King",
               "Lai-Tsai"
             ],
@@ -232,7 +232,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:30:24+00:00",
+      "observed_at_utc": "2026-10-11T09:50:03+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -241,7 +241,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:30:36+00:00",
+      "observed_at_utc": "2026-10-11T09:50:19+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -250,7 +250,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:30:17+00:00",
+      "observed_at_utc": "2026-10-11T09:49:56+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -259,7 +259,7 @@
     "fdj_pos_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:30:18+00:00",
+      "observed_at_utc": "2026-10-11T09:49:58+00:00",
       "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -268,7 +268,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:30:25+00:00",
+      "observed_at_utc": "2026-10-11T09:50:05+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -277,7 +277,7 @@
     "pmu_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:30:35+00:00",
+      "observed_at_utc": "2026-10-11T09:50:17+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -286,7 +286,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:30:40+00:00",
+      "observed_at_utc": "2026-10-11T09:50:23+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -295,20 +295,20 @@
     "oddspedia_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:30:37+00:00",
+      "observed_at_utc": "2026-10-11T09:50:20+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "HTTP_OR_REDIRECT_REJECTED"
     },
     "oddsportal_badminton": {
-      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
+      "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:30:56+00:00",
+      "observed_at_utc": "2026-10-11T09:50:41+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
-      "blocker": "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE"
+      "blocker": "HTTP_OR_REDIRECT_REJECTED"
     }
   },
   "note": "Quotes observed are not necessarily valid or executable. Zero quotes is not a scraper success claim."

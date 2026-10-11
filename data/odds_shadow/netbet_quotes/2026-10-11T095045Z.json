@@ -1,0 +1,182 @@
+{
+  "bookmaker_price_updated_at": null,
+  "candidate_count": 0,
+  "candidate_urls": [],
+  "elo_comparisons": [],
+  "index_badminton_link_count": 2,
+  "index_badminton_link_examples": [
+    "https://www.netbet.fr/badminton",
+    "https://www.netbet.fr/badminton/international/artic-open-doubles-f"
+  ],
+  "index_body_sha256": "d35cd26e521aa0bb9b215ad6d31796f3527c51fce1f56105cf98d917dcb06712",
+  "index_eligible_quotes": 0,
+  "index_http_status": 200,
+  "index_link_count": 102,
+  "index_link_path_counts": {
+    "": 9,
+    "badminton": 5,
+    "biathlon": 2,
+    "cashout": 2,
+    "evenement": 20,
+    "football": 14,
+    "live": 3,
+    "paris-en-direct": 5,
+    "promotions": 2,
+    "ski-alpin": 2,
+    "tennis": 6,
+    "zendesk": 2
+  },
+  "index_market_audit": {
+    "eligible_listing_rows": 0,
+    "markets_seen": 5,
+    "rejection_evidence": [
+      {
+        "following_lines": [
+          "Yushi Tanaka",
+          "2.70",
+          "Anders Antonsen",
+          "1.22"
+        ],
+        "market_line": 114,
+        "preceding_lines": [
+          "Badminton",
+          "Pariez sur",
+          "Badminton",
+          "À L'AFFICHE",
+          "EN DIRECT",
+          "TOUTE L'OFFRE BADMINTON",
+          "En direct",
+          "Artic Open",
+          "Avant-match",
+          "LIVE",
+          "Yushi Tanaka",
+          "Anders Antonsen",
+          "0",
+          "0"
+        ],
+        "reason": "PLAYER_PAIR_MISMATCH"
+      },
+      {
+        "following_lines": [
+          "Chen-Luo",
+          "1.18",
+          "Hsu-Lin",
+          "3.20"
+        ],
+        "market_line": 126,
+        "preceding_lines": [
+          "0",
+          "0",
+          "Qui va gagner le match ?",
+          "Yushi Tanaka",
+          "2.70",
+          "Anders Antonsen",
+          "1.22",
+          "+ 3",
+          "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
+          "Populaires",
+          "Artic Open - Doubles (F)",
+          "LIVE dans 24 min",
+          "Chen-Luo",
+          "Hsu-Lin"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Tai-King",
+          "1.14",
+          "Lai-Tsai",
+          "3.50"
+        ],
+        "market_line": 136,
+        "preceding_lines": [
+          "Artic Open - Doubles (F)",
+          "LIVE dans 24 min",
+          "Chen-Luo",
+          "Hsu-Lin",
+          "Qui va gagner le match ?",
+          "Chen-Luo",
+          "1.18",
+          "Hsu-Lin",
+          "3.20",
+          "+ 24",
+          "Artic Open - Doubles",
+          "LIVE dans 54 min",
+          "Tai-King",
+          "Lai-Tsai"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Chen-Luo",
+          "1.18",
+          "Hsu-Lin",
+          "3.20"
+        ],
+        "market_line": 151,
+        "preceding_lines": [
+          "Tai-King",
+          "1.14",
+          "Lai-Tsai",
+          "3.50",
+          "+ 25",
+          "Artic Open - Doubles (F)",
+          "(1)",
+          "Toute l'offre Badminton",
+          "(2)",
+          "À Venir",
+          "Artic Open - Doubles (F)",
+          "LIVE dans 24 min",
+          "Chen-Luo",
+          "Hsu-Lin"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Tai-King",
+          "1.14",
+          "Lai-Tsai",
+          "3.50"
+        ],
+        "market_line": 161,
+        "preceding_lines": [
+          "Artic Open - Doubles (F)",
+          "LIVE dans 24 min",
+          "Chen-Luo",
+          "Hsu-Lin",
+          "Qui va gagner le match ?",
+          "Chen-Luo",
+          "1.18",
+          "Hsu-Lin",
+          "3.20",
+          "+ 24",
+          "Artic Open - Doubles",
+          "LIVE dans 54 min",
+          "Tai-King",
+          "Lai-Tsai"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      }
+    ],
+    "rejections": {
+      "COMPETITION_NOT_PROVEN": 4,
+      "PLAYER_PAIR_MISMATCH": 1
+    }
+  },
+  "index_resolved_url": "https://www.netbet.fr/badminton",
+  "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
+  "index_url": "https://www.netbet.fr/badminton",
+  "model_snapshot": null,
+  "observed_at_utc": "2026-10-11T09:50:45+00:00",
+  "operator": "NetBet.fr",
+  "page_audit_limit": 8,
+  "page_audits": [],
+  "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
+  "quotes": [],
+  "reason_counts": {},
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "status": "NO_CONFIDENT_QUOTES"
+}
