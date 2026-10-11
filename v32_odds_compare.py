@@ -42,6 +42,26 @@ def load_json(path):
         return {}
 
 
+def timing_evidence(model_at, observed_at, fixture_start, fixture_status):
+    """Conservative chronology: a calendar-only midnight is not a kickoff."""
+    if str(fixture_status or '').startswith('DATE_ONLY_'):
+        return 'KICKOFF_DATE_ONLY'
+    if not fixture_start:
+        return 'KICKOFF_MISSING'
+    try:
+        kickoff = datetime.fromisoformat(str(fixture_start).replace('Z', '+00:00'))
+        if kickoff.tzinfo is None:
+            return 'KICKOFF_TIMEZONE_MISSING'
+        kickoff = kickoff.astimezone(timezone.utc)
+    except (ValueError, TypeError):
+        return 'KICKOFF_INVALID'
+    if model_at >= kickoff:
+        return 'MODEL_NOT_BEFORE_KICKOFF'
+    if observed_at >= kickoff:
+        return 'ODDS_OBSERVATION_NOT_BEFORE_KICKOFF'
+    return 'CHRONOLOGY_BEFORE_REPORTED_KICKOFF_NOT_VERIFIED'
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--model', type=Path, required=True)
@@ -140,6 +160,7 @@ def main():
         except (ValueError, TypeError, KeyError, AttributeError):
             results.append({'source': source, 'players': [a, b], 'status': 'INVALID_INPUT'})
             continue
+        timing_status = timing_evidence(model_at, seen_at, m.get('start_utc'), m.get('status'))
         flags = ['MARKET_DETAIL_UNVERIFIED', 'KICKOFF_UNVERIFIED', 'EXECUTABLE_PRICE_UNVERIFIED', 'BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN']
         # A public listing can establish a displayed day, not an actual start
         # time or the bookmaker's price update time. Preserve both separately.
@@ -156,6 +177,8 @@ def main():
         if str(m.get('status', '')).startswith('DATE_ONLY_'):
             flags.append('BWF_KICKOFF_DATE_ONLY')
         results.append({'source': source, 'bwf_match_id': m['bwf_match_id'], 'players': [m['player_b'], m['player_a']] if reversed_order else [m['player_a'], m['player_b']],
+                        'prematch_timing_status': timing_status,
+                        'kickoff_source_verified': False,
                         'observed_at_utc': observed, 'model_asof_utc': m['asof_utc'], 'model_age_seconds': round(age),
                         'model_probability_a': prob,
                         'bookmaker_player_order_reversed': reversed_order,
@@ -199,6 +222,10 @@ def main():
         'matched_fixture_ids': matched_fixture_ids,
         'unmatched_observation_count': len(unmatched_observations),
         'unmatched_observations': unmatched_observations,
+        'prematch_timing_status_counts': {
+            key: sum(1 for item in results if item.get('prematch_timing_status') == key)
+            for key in sorted({item['prematch_timing_status'] for item in results if item.get('prematch_timing_status')})
+        },
         'model_fixture_count': len(models),
         'public_quote_count': len(observations),
         'comparison_count': len(results),
