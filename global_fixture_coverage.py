@@ -76,7 +76,7 @@ def build(data_dir, now, days):
                 paired += 1
             else:
                 unpaired += 1
-        output.append({"tournament_id": tid, "name": t.get("name"), "category": t.get("category"),
+        output.append({"tournament_id": tid, "official_tournament_url": t.get("url"), "name": t.get("name"), "category": t.get("category"),
                        "index_dates_raw": dates, "start_date": window[0].isoformat(), "end_date": window[1].isoformat(), "archive_exists": archive.exists(),
                        "ms_future_paired": paired, "ms_future_unpaired": unpaired,
                        "ms_future_total": pending, "ms_completed_in_archive": completed,
