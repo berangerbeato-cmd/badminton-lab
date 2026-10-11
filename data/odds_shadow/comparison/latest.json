@@ -1,17 +1,17 @@
 {
-  "generated_at_utc": "2026-10-11T06:46:03+00:00",
+  "generated_at_utc": "2026-10-11T07:02:05+00:00",
   "match_count": 1,
   "matches": [
     {
       "bwf_match_id": "5594:1552528",
-      "comparison_status": "WITHIN_TIME_WINDOW_UNVERIFIED_SHADOW",
+      "comparison_status": "ASYNCHRONOUS_OUTSIDE_WINDOW",
       "decision": "NO_BET_SHADOW",
       "executable_price_verified": false,
       "kickoff_verified": false,
       "model": "bwf_elo_ms_platt_v1",
       "model_asof_utc": "2026-10-11T05:24:00+00:00",
       "model_snapshot_sha256": "c3c7e10cdc7db8a04845adb62bf0b96d0c3e6572efce4b21ab3b3ff328ab802d",
-      "observation_gap_seconds": 725,
+      "observation_gap_seconds": 1365,
       "players": [
         {
           "best_historical_observation": {
@@ -20,12 +20,7 @@
             "operator": "Unibet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
-          "best_within_window": {
-            "decimal_odds": 2.55,
-            "ev_pct": -1.36,
-            "operator": "Unibet.fr",
-            "qualifier": "WITHIN_WINDOW_BUT_NOT_VERIFIED_EXECUTABLE"
-          },
+          "best_within_window": null,
           "bwf_player_id": "86672",
           "model_probability": 0.3868208,
           "name": "Yushi TANAKA",
@@ -41,12 +36,7 @@
             "operator": "Unibet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
-          "best_within_window": {
-            "decimal_odds": 1.34,
-            "ev_pct": -17.83,
-            "operator": "Unibet.fr",
-            "qualifier": "WITHIN_WINDOW_BUT_NOT_VERIFIED_EXECUTABLE"
-          },
+          "best_within_window": null,
           "bwf_player_id": "91554",
           "model_probability": 0.6131792,
           "name": "Anders ANTONSEN",
@@ -58,10 +48,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 24,
+          "age_seconds": 347,
           "current": true,
           "model_snapshot_sha256": "c3c7e10cdc7db8a04845adb62bf0b96d0c3e6572efce4b21ab3b3ff328ab802d",
-          "observed_at_utc": "2026-10-11T06:45:39+00:00",
+          "observed_at_utc": "2026-10-11T06:56:19+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -72,7 +62,7 @@
           "source_url": "https://www.netbet.fr/badminton"
         },
         "Unibet.fr": {
-          "age_seconds": 749,
+          "age_seconds": 1712,
           "current": true,
           "model_snapshot_sha256": "c3c7e10cdc7db8a04845adb62bf0b96d0c3e6572efce4b21ab3b3ff328ab802d",
           "observed_at_utc": "2026-10-11T06:33:34+00:00",
@@ -101,7 +91,7 @@
   "schema_version": "badminton_shadow_comparator_v2.1",
   "sources": {
     "NetBet.fr": {
-      "observation_utc": "2026-10-11T06:45:39+00:00",
+      "observation_utc": "2026-10-11T06:56:19+00:00",
       "operator": "NetBet.fr",
       "rejected": [],
       "rows_current": 1,
@@ -119,5 +109,5 @@
       "status": "VALIDATED_SOURCE"
     }
   },
-  "within_window_match_count": 1
+  "within_window_match_count": 0
 }
