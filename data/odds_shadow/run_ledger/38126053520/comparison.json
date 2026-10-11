@@ -1,0 +1,102 @@
+{
+  "verification_summary": {
+    "unique_matched_fixture_count": 1,
+    "matched_fixture_ids": [
+      "5594:1552528"
+    ],
+    "unmatched_observation_count": 0,
+    "unmatched_observations": [],
+    "external_schedule_coverage_count": 0,
+    "kickoff_evidence_status_counts": {
+      "SOURCE_MISSING": 1
+    },
+    "prematch_timing_status_counts": {
+      "KICKOFF_DATE_ONLY": 1
+    },
+    "model_fixture_count": 1,
+    "public_quote_count": 1,
+    "comparison_count": 1,
+    "status_counts": {
+      "UNVERIFIED_SHADOW_ONLY": 1
+    },
+    "verified_prematch_count": 0,
+    "validated_roi_pct": null,
+    "missing_kickoff_count": 1,
+    "missing_executable_price_count": 1
+  },
+  "generated_at_utc": "2026-10-11T08:50:01+00:00",
+  "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
+  "comparison_count": 1,
+  "rejected_sources": [],
+  "source_audit": {
+    "unibet_fr": {
+      "status": "FRESH_EMPTY",
+      "snapshot_file": "data/odds_shadow/unibet_fr/latest.json",
+      "quotes_read": 0,
+      "collector_status": "REJECT_HTTP_CACHE_AGE"
+    },
+    "netbet_quotes": {
+      "status": "FRESH_SNAPSHOT",
+      "snapshot_file": "data/odds_shadow/netbet_quotes/latest.json",
+      "quotes_read": 1,
+      "collector_status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+    }
+  },
+  "results": [
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5594:1552528",
+      "players": [
+        "Yushi TANAKA",
+        "Anders ANTONSEN"
+      ],
+      "prematch_timing_status": "KICKOFF_DATE_ONLY",
+      "kickoff_source_verified": false,
+      "external_schedule_status": "NO_EXTERNAL_SCHEDULE",
+      "external_scheduled_start_utc": null,
+      "external_schedule_source": null,
+      "external_schedule_source_url": null,
+      "kickoff_evidence_status": "SOURCE_MISSING",
+      "kickoff_source": null,
+      "kickoff_source_url": null,
+      "observed_at_utc": "2026-10-11T08:49:51+00:00",
+      "model_asof_utc": "2026-10-11T08:48:24+00:00",
+      "model_age_seconds": 87,
+      "model_probability_a": 0.4232038,
+      "bookmaker_player_order_reversed": false,
+      "odds": [
+        2.55,
+        1.3
+      ],
+      "market_overround_pct": 16.14,
+      "market_implied_probability_raw": [
+        0.392157,
+        0.769231
+      ],
+      "market_implied_probability_normalized": [
+        0.337662,
+        0.662338
+      ],
+      "quote_listed_day_paris": "2026-10-11",
+      "quote_day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
+      "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
+      "bookmaker_price_updated_at_utc": null,
+      "actual_kickoff_at_utc": null,
+      "observation_before_listed_calendar_day": false,
+      "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
+      "illustrative_ev_pct": [
+        7.92,
+        -25.02
+      ],
+      "flags": [
+        "MARKET_DETAIL_UNVERIFIED",
+        "KICKOFF_UNVERIFIED",
+        "EXECUTABLE_PRICE_UNVERIFIED",
+        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
+        "BWF_KICKOFF_DATE_ONLY"
+      ],
+      "status": "UNVERIFIED_SHADOW_ONLY",
+      "decision": "NO_BET"
+    }
+  ]
+}
