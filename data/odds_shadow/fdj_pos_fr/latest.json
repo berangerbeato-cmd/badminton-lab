@@ -1,11 +1,11 @@
 {
-  "body_sha256": "630a148c6cc0f011dd896827249090d93017ac95a6429b61a6331bf490706e77",
+  "body_sha256": "c10c7c77d3a822a489bef94eb5b45bcfdc1909391d4f59f47dffc9469d1c4963",
   "bookmaker_price_updated_at": null,
   "cache_age_seconds": null,
-  "finished_at_utc": "2026-10-11T06:55:42+00:00",
+  "finished_at_utc": "2026-10-11T07:53:43+00:00",
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-11T06:55:29+00:00",
+  "observed_at_utc": "2026-10-11T07:53:30+00:00",
   "operator": "Parions Sport Point de Vente (FDJ)",
   "operator_kind": "RETAIL_NOT_ONLINE",
   "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
@@ -50,10 +50,10 @@
   "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Sun, 11 Oct 2026 06:55:30 GMT",
+  "server_date": "Sun, 11 Oct 2026 07:53:32 GMT",
   "source_key": "fdj_pos_fr",
   "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
   "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nL1 McDonald's\nPremier League\nLaLiga\nSerie A\nBundesliga 1\nLigue 2 BKT\nChampionsLeague\nEuropa League\n+\nAfficher plus\nTennis\nToutes les compétitions\nShanghai\nPékin F\nWuhan\nPékin DF\nBasketball\nToutes les compétitions\nEuroleague (H)\nD1 France (H)\nLFB\nTBSL\nLiga ACB\nSerie A\nBBL\nA1\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nAthlétisme\nBadminton\nBaseball\nFormule 1\nMoto GP\nNascar\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nAujourd'hui\nJiang/Wei-Gao/Wu\nOp. Finlande DM\n\nN°9633 Face à Face I Fin de valid. 11/10 09h55\n\nAfficher\nJiang/Wei\n1,18\nGao/Wu\n3,45\n85%\n14%\nR.Intanon-M.Blichfeldt\nOp. Finlande F\n\nN°10357 Face à Face I Fin de valid. 11/10 10h25\n\nAfficher\nR.Intanon\n1,45\nM.Blichfeldt\n2,20\n98%\n1%\nY.Tanaka-A.Antonsen\nOp. Finlande H\n\nN°13990 Face à Face I Fin de valid. 11/10 10h55\n\nAfficher\nY.Tanaka\n2,55\nA.Antonsen\n1,34\n59%\n40%\nChen/Luo-Hsu/Lin\nOp. Finlande DF\n\nN°14102 Face à Face I Fin de valid. ",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nL1 McDonald's\nPremier League\nLaLiga\nSerie A\nBundesliga 1\nLigue 2 BKT\nChampionsLeague\nEuropa League\n+\nAfficher plus\nTennis\nToutes les compétitions\nShanghai\nPékin F\nWuhan\nPékin DF\nBasketball\nToutes les compétitions\nEuroleague (H)\nD1 France (H)\nLFB\nTBSL\nLiga ACB\nSerie A\nBBL\nA1\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nAthlétisme\nBadminton\nBaseball\nFormule 1\nNascar\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nAujourd'hui\nJiang/Wei-Gao/Wu\nOp. Finlande DM\n\nN°9633 Face à Face I Fin de valid. 11/10 09h55\n\nAfficher\nJiang/Wei\n1,17\nGao/Wu\n3,35\n59%\n40%\nR.Intanon-M.Blichfeldt\nOp. Finlande F\n\nN°10357 Face à Face I Fin de valid. 11/10 10h25\n\nAfficher\nR.Intanon\n1,45\nM.Blichfeldt\n2,20\n84%\n15%\nY.Tanaka-A.Antonsen\nOp. Finlande H\n\nN°13990 Face à Face I Fin de valid. 11/10 10h55\n\nAfficher\nY.Tanaka\n2,55\nA.Antonsen\n1,34\n56%\n43%\nChen/Luo-Hsu/Lin\nOp. Finlande DF\n\nN°14102 Face à Face I Fin de valid. 11/10 1",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }
