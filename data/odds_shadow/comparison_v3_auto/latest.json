@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-11T06:36:52+00:00",
+  "generated_at_utc": "2026-10-11T06:56:30+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 2,
   "rejected_sources": [],
@@ -25,9 +25,9 @@
         "Yushi TANAKA",
         "Anders ANTONSEN"
       ],
-      "observed_at_utc": "2026-10-11T06:35:42+00:00",
-      "model_asof_utc": "2026-10-11T06:35:04+00:00",
-      "model_age_seconds": 38,
+      "observed_at_utc": "2026-10-11T06:55:21+00:00",
+      "model_asof_utc": "2026-10-11T06:54:48+00:00",
+      "model_age_seconds": 33,
       "model_probability_a": 0.4232038,
       "bookmaker_player_order_reversed": false,
       "odds": [
@@ -71,9 +71,9 @@
         "Yushi TANAKA",
         "Anders ANTONSEN"
       ],
-      "observed_at_utc": "2026-10-11T06:36:41+00:00",
-      "model_asof_utc": "2026-10-11T06:35:04+00:00",
-      "model_age_seconds": 97,
+      "observed_at_utc": "2026-10-11T06:56:19+00:00",
+      "model_asof_utc": "2026-10-11T06:54:48+00:00",
+      "model_age_seconds": 91,
       "model_probability_a": 0.4232038,
       "bookmaker_player_order_reversed": false,
       "odds": [
