@@ -7,6 +7,7 @@ on:
       - 'test_global_fixture_coverage.py'
       - 'official_draw_sources.py'
       - 'official_draw_html_diagnostics.py'
+      - 'official_draw_pages.py'
       - 'test_official_draw_sources.py'
       - '.github/workflows/global_fixture_coverage.yml'
 jobs:
@@ -27,6 +28,8 @@ jobs:
         run: python official_draw_sources.py --coverage global_coverage.json --out official_draw_source_probe.json --max-probes 5
       - name: Inspect official draw HTML structure
         run: python official_draw_html_diagnostics.py --coverage global_coverage.json --out official_draw_html_diagnostics.json
+      - name: Inspect official draw pages
+        run: python official_draw_pages.py --coverage global_coverage.json --out official_draw_pages.json
       - name: Upload research-only report
         if: always()
         uses: actions/upload-artifact@v4
@@ -36,4 +39,5 @@ jobs:
             global_coverage.json
             official_draw_source_probe.json
             official_draw_html_diagnostics.json
+            official_draw_pages.json
           if-no-files-found: warn
