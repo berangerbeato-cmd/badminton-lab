@@ -305,7 +305,9 @@ def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--self-test', action='store_true')
     p.add_argument('--start', help='YYYY-MM-DD inclusive; default = 21 days ago')
-    p.add_argument('--end', help='YYYY-MM-DD inclusive; default = today')
+    p.add_argument('--end', help='YYYY-MM-DD inclusive; default = today + future-days')
+    p.add_argument('--future-days', type=int, default=0,
+                   help='Extend default tournament search into the future (default: 0)')
     p.add_argument('--data-dir', default=str(Path(__file__).resolve().parent / 'data' / 'bwf'))
     p.add_argument('--max-tournaments', type=int, default=30)
     p.add_argument('--timeout', type=int, default=15)
@@ -316,8 +318,10 @@ def main() -> int:
     if args.self_test:
         self_test()
         return 0
-    end = date.fromisoformat(args.end) if args.end else date.today()
-    start = date.fromisoformat(args.start) if args.start else end - timedelta(days=21)
+    if args.future_days < 0 or args.future_days > 31:
+        p.error('--future-days must be between 0 and 31')
+    end = date.fromisoformat(args.end) if args.end else date.today() + timedelta(days=args.future_days)
+    start = date.fromisoformat(args.start) if args.start else date.today() - timedelta(days=21)
     try:
         outcome = sync(start, end, Path(args.data_dir), args.max_tournaments,
                        args.timeout, args.delay, dry_run=args.dry_run)
