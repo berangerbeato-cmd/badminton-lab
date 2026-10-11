@@ -12,6 +12,7 @@ on:
       - 'official_draw_ajax_evidence.py'
       - 'official_draw_api_probe.py'
       - 'v32_official_fixture_bridge.py'
+      - 'badminton_v3_2_daily.py'
       - 'official_schedule_audit.py'
       - 'official_oop_endpoint_evidence.py'
       - 'official_schedule_day_tabs.py'
@@ -58,6 +59,32 @@ jobs:
         run: python official_match_endpoint_probe.py --coverage global_coverage.json --out official_match_endpoint_probe.json
       - name: Prepare V3.2 shadow fixture bridge
         run: python v32_official_fixture_bridge.py --input official_ms_fixture_candidates.json --out v32_official_fixture_bridge.json
+      - name: Validate V3.2 model integration
+        run: python badminton_v3_2_daily.py --self-test
+      - name: Generate official unscheduled V3.2 shadow predictions
+        run: |
+          python badminton_v3_2_daily.py \
+            --data-dir data/bwf \
+            --v1-model-dir data/model \
+            --selection-dir data/model_v3_2 \
+            --output official_v32_shadow \
+            --days 14 \
+            --official-bridge v32_official_fixture_bridge.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("official_v32_shadow/official_unscheduled_predictions.json")
+          data = json.loads(p.read_text(encoding="utf-8"))
+          predictions = data["predictions"]
+          counts = {}
+          for row in predictions:
+              status = row["status"]
+              counts[status] = counts.get(status, 0) + 1
+          print(json.dumps({"total": len(predictions), "statuses": counts}))
+          assert data["policy"] == "RESEARCH_ONLY_NO_BET"
+          assert all(row.get("status") != "SCHEDULE_PENDING_NO_BET"
+                     or 0 < row["v3_2_p_a"] < 1 for row in predictions)
+          PY
       - name: Upload research-only report
         if: always()
         uses: actions/upload-artifact@v4
@@ -78,4 +105,5 @@ jobs:
             official_schedule_day_tabs.json
             official_oop_html_context.json
             official_match_endpoint_probe.json
+            official_v32_shadow/official_unscheduled_predictions.json
           if-no-files-found: warn
