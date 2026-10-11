@@ -67,7 +67,9 @@ def candidate_scripts(html, base):
             urls.append(url)
     unique = list(dict.fromkeys(urls))
     priority = ("draw", "match", "tournament", "result", "app", "main", "functions")
-    unique.sort(key=lambda u: (not any(p in urllib.parse.urlsplit(u).path.lower() for p in priority), u))
+    unique.sort(key=lambda u: (not any(p in urllib.parse.urlsplit(u).path.lower() for p in priority),
+                               not any(p in urllib.parse.urlsplit(u).path.lower() for p in ("tournament", "result", "draw")),
+                               u))
     return unique[:MAX_SCRIPTS]
 
 
@@ -75,7 +77,8 @@ def endpoint_evidence(script):
     # Extract small, non-sensitive code snippets for a human to inspect.
     patterns = (r"\$\.ajax\s*\(", r"\$\.get(?:JSON)?\s*\(",
                 r"axios\.(?:get|post)\s*\(", r"fetch\s*\(",
-                r"ajaxurl", r"admin-ajax\.php", r"wp-json", r"graphql")
+                r"ajaxurl", r"admin-ajax\.php", r"wp-json", r"graphql",
+                r"ajaxTmt", r"loadResultContent", r"drawTable", r"child-match")
     results = []
     for pattern in patterns:
         for match in list(re.finditer(pattern, script, re.I))[:12]:
@@ -118,6 +121,7 @@ def main():
             parser.feed(html)
             entry["inline_script_blocks"] = len(parser.inline)
             entry["inline_ajax_evidence"] = endpoint_evidence("\n".join(parser.inline))[:35]
+            entry["draw_markup_evidence"] = endpoint_evidence(html)[:35]
             entry["script_tag_count"] = html.lower().count("<script")
             entry["script_src_count"] = len(re.findall(r"<script[^>]+src\s*=", html, re.I))
             entry["script_source_samples"] = re.findall(r"""<script[^>]+src\s*=\s*[\x27\x22]([^\x27\x22]+)""", html, re.I)[:8]
