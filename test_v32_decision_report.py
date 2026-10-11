@@ -1,9 +1,17 @@
 """Tests for V3.2 evidence decision report."""
 import unittest
+from datetime import datetime, timedelta, timezone
 from v32_decision_report import summarize
 
 
 class DecisionReportTests(unittest.TestCase):
+    def test_stale_snapshot_not_actionable(self):
+        timestamp = (datetime.now(timezone.utc) - timedelta(days=3)).isoformat()
+        report = summarize({'generated_at_utc': timestamp, 'results': []})
+        self.assertEqual(report['snapshot_freshness'], 'STALE_OR_FUTURE')
+        self.assertEqual(report['conclusion'], 'STALE_SNAPSHOT_NOT_ACTIONABLE')
+        self.assertIsNone(report['validated_roi_pct'])
+
     def test_duplicate_bookmakers_are_one_fixture(self):
         data = {'verification_summary': {'model_fixture_count': 3, 'public_quote_count': 3},
                 'results': [
