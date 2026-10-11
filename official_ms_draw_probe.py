@@ -5,6 +5,7 @@ Research-only: no player pairing extraction and no betting decisions.
 """
 import argparse
 import json
+import re
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -36,13 +37,20 @@ def probe(url, timeout=12):
             if len(data) > LIMIT:
                 return {"status": "TOO_LARGE", "final_url": final_url}
             html = data.decode("utf-8", errors="replace")
+            player_urls = sorted(set(re.findall(r"""href=["\x27]([^"\x27]*?/players?/[^"\x27]+)""", html, re.I)))
+            structural_tokens = sorted(set(re.findall(r"""(?:class|id)=["\x27]([^"\x27]*(?:draw|match|bracket|player)[^"\x27]*)""", html, re.I)))
             # Do not confuse a generic HTML page with an actual published MS draw.
             return {"status": "PAGE_ACCESSIBLE", "final_url": final_url,
                     "html_bytes": len(data),
                     "explicit_ms_url": urllib.parse.urlsplit(final_url).path.rstrip("/").endswith("/draw/ms"),
                     "contains_draw_table": "drawTable" in html,
                     "contains_match_draw_link": "matchDrawLink" in html,
-                    "contains_single_draw_link": "singleDrawLink" in html}
+                    "contains_single_draw_link": "singleDrawLink" in html,
+                    "player_link_count": len(player_urls),
+                    "sample_player_links": player_urls[:8],
+                    "draw_structural_tokens": structural_tokens[:25],
+                    "player_id_mentions": len(re.findall(r"player[_-]?id", html, re.I)),
+                    "match_id_mentions": len(re.findall(r"match[_-]?id", html, re.I))}
     except Exception as exc:
         return {"status": "FETCH_ERROR", "error_type": type(exc).__name__}
 
