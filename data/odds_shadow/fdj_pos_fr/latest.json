@@ -1,11 +1,11 @@
 {
   "body_sha256": "326772c4fdbc10d8b1c0bd2137c9a70dcdf39f78212e03b0a691118a05539cef",
   "bookmaker_price_updated_at": null,
-  "cache_age_seconds": "255",
-  "finished_at_utc": "2026-10-11T08:49:14+00:00",
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-10-11T08:51:18+00:00",
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-11T08:49:04+00:00",
+  "observed_at_utc": "2026-10-11T08:51:08+00:00",
   "operator": "Parions Sport Point de Vente (FDJ)",
   "operator_kind": "RETAIL_NOT_ONLINE",
   "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
@@ -36,7 +36,7 @@
   "retail_page_cached": true,
   "retail_pages_audited": [
     {
-      "cache_age_seconds": "257",
+      "cache_age_seconds": "243",
       "http_status": 200,
       "quotes": 1,
       "status": "retail face-à-face rows",
@@ -46,7 +46,7 @@
   "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Sun, 11 Oct 2026 08:49:05 GMT",
+  "server_date": "Sun, 11 Oct 2026 08:51:10 GMT",
   "source_key": "fdj_pos_fr",
   "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
   "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
