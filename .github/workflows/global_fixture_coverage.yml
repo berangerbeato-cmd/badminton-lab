@@ -107,6 +107,7 @@ jobs:
           python research_value_shortlist.py \
             --predictions official_v32_shadow/official_unscheduled_predictions.json \
             --odds-dir research_odds \
+            --export-quote-template \
             --out research_shortlist
       - name: Upload research-only report
         if: always()
@@ -129,6 +130,7 @@ jobs:
             official_oop_html_context.json
             official_match_endpoint_probe.json
             official_v32_shadow/official_unscheduled_predictions.json
+            research_shortlist/quote_template.csv
             research_shortlist/shortlist.csv
             research_shortlist/shortlist.json
             research_odds/latest_summary.json
