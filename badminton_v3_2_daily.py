@@ -344,7 +344,7 @@ def run(data_dir: Path, v1_model_dir: Path, selection_dir: Path,
             official_bridge, ratings, seen, histories, fitted, now)
         (output_dir / "official_unscheduled_predictions.json").write_text(
             json.dumps({"policy": "RESEARCH_ONLY_NO_BET", "count": len(forecasts),
-                        "predictions": forecasts}, indent=2) + "\\n", encoding="utf-8")
+                        "predictions": forecasts}, indent=2) + "\n", encoding="utf-8")
     report = {
         "schema_version": "badminton_v3_2_live_v1",
         "generated_at_utc": now.isoformat(),
