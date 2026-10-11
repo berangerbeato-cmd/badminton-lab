@@ -5,6 +5,8 @@ on:
     paths:
       - 'global_fixture_coverage.py'
       - 'test_global_fixture_coverage.py'
+      - 'official_draw_sources.py'
+      - 'test_official_draw_sources.py'
       - '.github/workflows/global_fixture_coverage.yml'
 jobs:
   audit:
@@ -17,13 +19,17 @@ jobs:
         with:
           python-version: '3.11'
       - name: Unit tests
-        run: python -m unittest -v test_global_fixture_coverage.py
+        run: python -m unittest -v test_global_fixture_coverage.py test_official_draw_sources.py
       - name: Worldwide inventory
         run: python global_fixture_coverage.py --days 14 --out global_coverage.json
+      - name: Probe official tournament pages (max 5)
+        run: python official_draw_sources.py --coverage global_coverage.json --out official_draw_source_probe.json --max-probes 5
       - name: Upload research-only report
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: global-fixture-coverage
-          path: global_coverage.json
+          path: |
+            global_coverage.json
+            official_draw_source_probe.json
           if-no-files-found: warn
