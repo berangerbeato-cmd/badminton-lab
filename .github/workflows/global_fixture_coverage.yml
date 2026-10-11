@@ -13,6 +13,7 @@ on:
       - 'official_draw_api_probe.py'
       - 'v32_official_fixture_bridge.py'
       - 'badminton_v3_2_daily.py'
+      - 'research_value_shortlist.py'
       - 'official_schedule_audit.py'
       - 'official_oop_endpoint_evidence.py'
       - 'official_schedule_day_tabs.py'
@@ -89,6 +90,11 @@ jobs:
           assert all(row.get("status") != "SCHEDULE_PENDING_NO_BET"
                      or 0 < row["v3_2_p_a"] < 1 for row in predictions)
           PY
+      - name: Build one-click research shortlist
+        run: |
+          python research_value_shortlist.py \
+            --predictions official_v32_shadow/official_unscheduled_predictions.json \
+            --out research_shortlist
       - name: Upload research-only report
         if: always()
         uses: actions/upload-artifact@v4
@@ -110,4 +116,6 @@ jobs:
             official_oop_html_context.json
             official_match_endpoint_probe.json
             official_v32_shadow/official_unscheduled_predictions.json
+            research_shortlist/shortlist.csv
+            research_shortlist/shortlist.json
           if-no-files-found: warn
