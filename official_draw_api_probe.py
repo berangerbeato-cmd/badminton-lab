@@ -210,7 +210,7 @@ def main():
         "schedule_enrichment_queue_count": len(unique),
         "schedule_enrichment_policy": "Only attach dates/times from a verified official match schedule; never infer from draw round.",
         "candidates": list(unique.values()),
-    }, indent=2) + "\\n", encoding="utf-8")
+    }, indent=2) + "\n", encoding="utf-8")
     result["candidate_file"] = str(candidate_path)
     result["candidate_count"] = len(unique)
     args.out.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
