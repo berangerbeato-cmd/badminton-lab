@@ -67,7 +67,7 @@ jobs:
         id: bwf_refresh
         continue-on-error: true
         run: |
-          python bwf_sync.py --data-dir data/bwf --max-tournaments 30 --timeout 15 --delay 1.3 --report data/model_v3_2_live/bwf_refresh_latest.json
+          python bwf_sync.py --data-dir data/bwf --future-days 14 --max-tournaments 30 --timeout 15 --delay 1.3 --report data/model_v3_2_live/bwf_refresh_latest.json
       - name: Publish BWF refresh status
         if: always()
         run: |
