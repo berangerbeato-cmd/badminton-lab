@@ -65,11 +65,17 @@ def timing_evidence(model_at, observed_at, fixture_start, fixture_status):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--model', type=Path, required=True)
+    p.add_argument('--kickoff-evidence', type=Path, default=None,
+                   help='Optional independent JSON evidence feed, keyed by BWF match ID')
     p.add_argument('--odds-dir', type=Path, default=Path('data/odds_shadow'))
     p.add_argument('--out', type=Path, default=Path('data/odds_shadow/comparison_v3_auto'))
     args = p.parse_args()
     with args.model.open(encoding='utf-8-sig', newline='') as f:
         models = list(csv.DictReader(f))
+    evidence_feed = load_json(args.kickoff_evidence) if args.kickoff_evidence else {}
+    evidence_items = evidence_feed.get('fixtures', {})
+    if not isinstance(evidence_items, dict):
+        evidence_items = {}
     observations = []
     rejected = []
     source_audit = {}
@@ -160,6 +166,16 @@ def main():
         except (ValueError, TypeError, KeyError, AttributeError):
             results.append({'source': source, 'players': [a, b], 'status': 'INVALID_INPUT'})
             continue
+        # Independent schedule feed is recorded for audit only; it must not
+        # silently overwrite the BWF model date or authorize real bets.
+        evidence = evidence_items.get(str(m.get('bwf_match_id')), {})
+        if not isinstance(evidence, dict):
+            evidence = {}
+        reported_kickoff = evidence.get('scheduled_start_utc')
+        evidence_source = evidence.get('source')
+        evidence_url = evidence.get('source_url')
+        evidence_timing_status = (timing_evidence(model_at, seen_at, reported_kickoff, 'TIME_REPORTED')
+                                  if reported_kickoff else 'NO_EXTERNAL_SCHEDULE')
         timing_status = timing_evidence(model_at, seen_at, m.get('start_utc'), m.get('status'))
         # Preserve provenance independently of chronology. A timestamp alone
         # is not proof of the real match start or a bookmaker's live price.
@@ -185,6 +201,10 @@ def main():
         results.append({'source': source, 'bwf_match_id': m['bwf_match_id'], 'players': [m['player_b'], m['player_a']] if reversed_order else [m['player_a'], m['player_b']],
                         'prematch_timing_status': timing_status,
                         'kickoff_source_verified': False,
+                        'external_schedule_status': evidence_timing_status,
+                        'external_scheduled_start_utc': reported_kickoff,
+                        'external_schedule_source': evidence_source,
+                        'external_schedule_source_url': evidence_url,
                         'kickoff_evidence_status': kickoff_evidence_status,
                         'kickoff_source': kickoff_source or None,
                         'kickoff_source_url': kickoff_source_url or None,
@@ -231,6 +251,9 @@ def main():
         'matched_fixture_ids': matched_fixture_ids,
         'unmatched_observation_count': len(unmatched_observations),
         'unmatched_observations': unmatched_observations,
+        'external_schedule_coverage_count': sum(
+            1 for item in results if item.get('external_scheduled_start_utc')
+        ),
         'kickoff_evidence_status_counts': {
             key: sum(1 for item in results if item.get('kickoff_evidence_status') == key)
             for key in sorted({item['kickoff_evidence_status'] for item in results if item.get('kickoff_evidence_status')})
