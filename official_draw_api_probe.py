@@ -114,6 +114,10 @@ def probe(tournament_id, candidates=None):
                                                                 "players": sides,
                                                                 "match_time_utc": None,
                                                                 "status": "UNSCHEDULED_NOT_ELIGIBLE",
+                                                                "date_verified": False,
+                                                                "time_verified": False,
+                                                                "schedule_source": None,
+                                                                "requires_schedule_enrichment": True,
                                                                 "policy": "RESEARCH_ONLY_NO_BET",
                                                             })
                                                         audit["two_identified_single_players"] += 1
@@ -203,6 +207,8 @@ def main():
         "source": "BWF_OFFICIAL_DRAW",
         "note": "These are unscheduled draw pairings, NOT validated future fixtures.",
         "count": len(unique),
+        "schedule_enrichment_queue_count": len(unique),
+        "schedule_enrichment_policy": "Only attach dates/times from a verified official match schedule; never infer from draw round.",
         "candidates": list(unique.values()),
     }, indent=2) + "\\n", encoding="utf-8")
     result["candidate_file"] = str(candidate_path)
