@@ -36,6 +36,21 @@ def probe(tournament_id):
                     result["results_count"] = len(results) if isinstance(results, list) else None
                     if isinstance(results, list) and results and isinstance(results[0], dict):
                         result["result_field_names"] = list(results[0].keys())[:20]
+                    if isinstance(results, list):
+                        result["draws"] = [
+                            {"value": item.get("value"), "text": item.get("text"),
+                             "type": item.get("type"), "doubles": item.get("doubles"),
+                             "stage_type": item.get("stage_type")}
+                            for item in results[:20] if isinstance(item, dict)
+                        ]
+                        result["ms_draw_candidates"] = [
+                            item.get("value") for item in results
+                            if isinstance(item, dict)
+                            and isinstance(item.get("text"), str)
+                            and ("men's singles" in item["text"].lower()
+                                 or "mens singles" in item["text"].lower()
+                                 or item["text"].strip().lower() in ("ms", "men singles"))
+                        ]
             except (ValueError, UnicodeError):
                 result["error"] = "non_json_response"
             return result
