@@ -82,6 +82,10 @@ jobs:
               counts[status] = counts.get(status, 0) + 1
           print(json.dumps({"total": len(predictions), "statuses": counts}))
           assert data["policy"] == "RESEARCH_ONLY_NO_BET"
+          assert len({row["match_id"] for row in predictions}) == len(predictions)
+          assert all(row.get("probability_quality") == "PROVISIONAL_AS_OF_DATE"
+                     and row.get("requires_recalculation_when_scheduled") is True
+                     for row in predictions if row["status"] == "SCHEDULE_PENDING_NO_BET")
           assert all(row.get("status") != "SCHEDULE_PENDING_NO_BET"
                      or 0 < row["v3_2_p_a"] < 1 for row in predictions)
           PY
