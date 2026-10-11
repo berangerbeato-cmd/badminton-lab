@@ -1,0 +1,665 @@
+{
+  "schema_version": 1,
+  "policy": "RESEARCH_ONLY_NO_BET",
+  "source": "AiScore public HTML",
+  "generated_at_utc": "2026-10-11T17:25:39.107544+00:00",
+  "completed_at_utc": "2026-10-11T17:28:48.839795+00:00",
+  "horizon_days": 14,
+  "coverage": "BOUNDED_DISCOVERY_NOT_EXHAUSTIVE",
+  "collection_status": "COMPLETED_BOUNDED_SCAN",
+  "h2h_links_found": 20,
+  "h2h_links_limit": 20,
+  "match_links_found": 9,
+  "source_pages": [
+    {
+      "url": "https://www.aiscore.com/robots.txt",
+      "observed_at_utc": "2026-10-11T17:25:44.788221+00:00",
+      "bytes": 1382,
+      "sha256": "a95f8fc0880b88fee0210937a4a37addf426aa7613cdab97279301a13454bd95"
+    },
+    {
+      "url": "https://www.aiscore.com/badminton",
+      "observed_at_utc": "2026-10-11T17:25:54.083392+00:00",
+      "bytes": 178097,
+      "sha256": "a78adeeb8c55113ed2b85c6987c903fe2068dc1f5932d694cbe9571cf7e6690b"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/an-se-young-vs-sindhu-pusarla-venkata",
+      "observed_at_utc": "2026-10-11T17:25:59.788616+00:00",
+      "bytes": 568688,
+      "sha256": "8959d9811ed6e75f838ac8ca178e2e93556445f2228b00b5db8df6a5dd263cd4"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/natsuki-nidaira-vs-tanvi-sharma",
+      "observed_at_utc": "2026-10-11T17:26:04.880576+00:00",
+      "bytes": 516398,
+      "sha256": "1311e6ab74b37e806ec8f78230cb57831144a5c801a32ecc1f817e9ecb6f4d96"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/karupathevan-letshanaa-vs-line-christophersen",
+      "observed_at_utc": "2026-10-11T17:26:11.411233+00:00",
+      "bytes": 523841,
+      "sha256": "f45423366b9574a0fe250aaa4b30f048d63a0d7bc413f04a4251302690782013"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/kunlavut-vitidsarn-vs-rasmus-gemke",
+      "observed_at_utc": "2026-10-11T17:26:17.135018+00:00",
+      "bytes": 550539,
+      "sha256": "55a97b48a124b100fed73ca4f8782e74d40fb0cb19556f405eda9b80eed99bf7"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/lee-chia-hao-vs-teh-jia-heng-jason",
+      "observed_at_utc": "2026-10-11T17:26:23.500954+00:00",
+      "bytes": 440979,
+      "sha256": "92b39e9ed67fe896f768e6f4c32d996e2d9f20ceb70608cba4cc124402d3403a"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/nhat-nguyen-vs-panitchaphon-teeraratsakul",
+      "observed_at_utc": "2026-10-11T17:26:28.460791+00:00",
+      "bytes": 360165,
+      "sha256": "8e7f98f2c82d921b987c9a41f83e64d0cf1b8d16226c0d3dd47b3f27dbb93230"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/chiu-pin-chian-vs-sim-yu-jin",
+      "observed_at_utc": "2026-10-11T17:26:34.868117+00:00",
+      "bytes": 424058,
+      "sha256": "6857058f3fb0e9197792b4d2bb2ccd86fdef3f6e4f310b7e437e642e8458fcd8"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/koki-watanabe-vs-leong-jun-hao",
+      "observed_at_utc": "2026-10-11T17:26:40.774207+00:00",
+      "bytes": 543471,
+      "sha256": "6a91842cba38faf35dd2f258511c63d1015f5aee8d9ec0d07191975f03060bce"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/hina-akechi-vs-lin-hsiang-ti",
+      "observed_at_utc": "2026-10-11T17:26:47.316061+00:00",
+      "bytes": 467325,
+      "sha256": "7c8cb2614840a06b882cc0e757a7f9188ff35e3eb7091a92b01d8a663138765a"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/chou-tien-chen-vs-lakshya-sen",
+      "observed_at_utc": "2026-10-11T17:26:53.677578+00:00",
+      "bytes": 692541,
+      "sha256": "eb894e6699298d5c0735ed9d064dbfd8dfc4511c775d2eb0eff9010f1ec020b9"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/lai-victor-vs-moh-zaki-ubaidillah",
+      "observed_at_utc": "2026-10-11T17:27:00.109057+00:00",
+      "bytes": 403256,
+      "sha256": "8936efb030efbbeac5cc5b76824e0673d748e2526f947bfd217500be89aa0ccb"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/alex-lanier-vs-li-shifeng",
+      "observed_at_utc": "2026-10-11T17:27:05.710954+00:00",
+      "bytes": 390962,
+      "sha256": "7367807f3299ec57491dcf59302d9703821341375d4ec5a0ca46ef07d66ac971"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/han-yue-vs-line-hejmark-kjaersfeldt",
+      "observed_at_utc": "2026-10-11T17:27:11.683549+00:00",
+      "bytes": 864693,
+      "sha256": "299b70ac0f10c89f0a603a86f8831a3109749d5883532323f768c01e6066da2e"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/angus-ng-ka-long-vs-tanaka-yushi",
+      "observed_at_utc": "2026-10-11T17:27:17.638454+00:00",
+      "bytes": 409788,
+      "sha256": "881a7720e117ad1ac60b0f8b3d6c3631c62e64918b6d7e0ccf7500ab32396f88"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/nozomi-okuhara-vs-tomoka-miyazaki",
+      "observed_at_utc": "2026-10-11T17:27:22.761454+00:00",
+      "bytes": 384700,
+      "sha256": "fdc7f3771b19c2b5c93ac7dd4fcfbdd3281720b91845141063fdb56176580263"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/nguyen-thuy-linh-vs-ratchanok-intanon",
+      "observed_at_utc": "2026-10-11T17:27:28.195443+00:00",
+      "bytes": 386753,
+      "sha256": "17c2ba3a1cc0779c113bbf32c3f4d0816f9907ab4574a4109974afc1482c42d0"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/arnaud-merkle-vs-kidambi-srikanth",
+      "observed_at_utc": "2026-10-11T17:27:33.884171+00:00",
+      "bytes": 463743,
+      "sha256": "c241e24a50dd465507af465b9fdfe06ef841763a6fa33475429aff6363fd4436"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/riko-gunji-vs-wong-ling-ching",
+      "observed_at_utc": "2026-10-11T17:27:38.936463+00:00",
+      "bytes": 523856,
+      "sha256": "d0f0b2d594628a03b5453204412f05a4fd2f59a1567a49aeeb11198299606f45"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/devika-sihag-vs-pornpawee-chochuwong",
+      "observed_at_utc": "2026-10-11T17:27:46.329023+00:00",
+      "bytes": 388099,
+      "sha256": "7fdeb602513c1b2207d3f543230b1abd63beb49468608981160f0a7abbc66e6d"
+    },
+    {
+      "url": "https://www.aiscore.com/head-to-head/badminton/ashmita-chaliha-vs-kaloyana-nalbantova",
+      "observed_at_utc": "2026-10-11T17:27:52.165886+00:00",
+      "bytes": 502319,
+      "sha256": "b069c5aa65bbb5720dca44b21a31ac6ce06653961f0423daba7e1bce2156c1b2"
+    },
+    {
+      "url": "https://www.aiscore.com/badminton/match-alex-lanier-li-shifeng/lk2d9cw8l3ltz73",
+      "observed_at_utc": "2026-10-11T17:27:58.754472+00:00",
+      "bytes": 378781,
+      "sha256": "125dd971a9e2516b237994aae09ab3b3caedc1702637edf3ff0a34e4dc148b6c"
+    },
+    {
+      "url": "https://www.aiscore.com/badminton/match-angus-ng-ka-long-tanaka-yushi/6763zcme89vao7r",
+      "observed_at_utc": "2026-10-11T17:28:04.867315+00:00",
+      "bytes": 400332,
+      "sha256": "17477b47cadd6c5bc6a9e24278511718d59b4f6d399dd23565c12825a00a4110"
+    },
+    {
+      "url": "https://www.aiscore.com/badminton/match-arnaud-merkle-kidambi-srikanth/3kv9jcw8l5nax7e",
+      "observed_at_utc": "2026-10-11T17:28:10.829601+00:00",
+      "bytes": 483527,
+      "sha256": "cd5d4721bc3372d01f2006db5d8e563eea2a543b0d1797ba5bbe5462fe6089a9"
+    },
+    {
+      "url": "https://www.aiscore.com/badminton/match-chou-tien-chen-lakshya-sen/17pj3c81d4nuy7j",
+      "observed_at_utc": "2026-10-11T17:28:16.779133+00:00",
+      "bytes": 336999,
+      "sha256": "4415aaec7da5346cd5a335cc26363507afaf8481ba63508aeee0b023f71e24e6"
+    },
+    {
+      "url": "https://www.aiscore.com/badminton/match-koki-watanabe-leong-jun-hao/dkz69cvx02gixq3",
+      "observed_at_utc": "2026-10-11T17:28:24.835949+00:00",
+      "bytes": 374229,
+      "sha256": "c158f223ac58f914e0b16192ff57fac254e91bd809c666937fa3e6a478a3ef63"
+    },
+    {
+      "url": "https://www.aiscore.com/badminton/match-kunlavut-vitidsarn-rasmus-gemke/rkn68c8ow1mfwql",
+      "observed_at_utc": "2026-10-11T17:28:30.580573+00:00",
+      "bytes": 186085,
+      "sha256": "d363e43d7d43ed3491aa2d5b9009769496d79d59f845550aeb2476f78a070dd1"
+    },
+    {
+      "url": "https://www.aiscore.com/badminton/match-lai-victor-moh-zaki-ubaidillah/dq09gcegz2wueqx",
+      "observed_at_utc": "2026-10-11T17:28:36.735148+00:00",
+      "bytes": 379346,
+      "sha256": "2c9e74d007d2fbabebb9455dea955fcdd66922f1a1ce55b10f652efafd82cef7"
+    },
+    {
+      "url": "https://www.aiscore.com/badminton/match-nhat-nguyen-panitchaphon-teeraratsakul/17pj3c81d4pay7j",
+      "observed_at_utc": "2026-10-11T17:28:43.209708+00:00",
+      "bytes": 316553,
+      "sha256": "9f89680e6d4627ce7d17a53afc78e8a32ab60a9699f088f90c0dd3b38e15d9bd"
+    },
+    {
+      "url": "https://www.aiscore.com/badminton/match-teh-jia-heng-jason-lee-chia-hao/mqy98co65ypbgk9",
+      "observed_at_utc": "2026-10-11T17:28:48.830250+00:00",
+      "bytes": 335571,
+      "sha256": "328735c3f20eeaf268191d9a50fce61465bcb548708703ae600f25bee1d0ca2a"
+    }
+  ],
+  "counts": {
+    "ADDITIONAL_TO_BWF": 7,
+    "QUARANTINED": 2
+  },
+  "fixtures": [
+    {
+      "source_match_id": "lk2d9cw8l3ltz73",
+      "source_url": "https://www.aiscore.com/badminton/match-alex-lanier-li-shifeng/lk2d9cw8l3ltz73",
+      "tournament": "Denmark Open, Singles",
+      "player_a": "Alex Lanier",
+      "player_b": "Li Shifeng",
+      "source_date": "2026-10-13",
+      "source_start_raw": "2026-10-13T04:00:00-04:00",
+      "source_time_precision": "REPORTED_DATETIME_UNVERIFIED",
+      "start_utc": null,
+      "kickoff_verified": false,
+      "decision": "NO_BET",
+      "observed_at_utc": "2026-10-11T17:27:58.754724+00:00",
+      "evidence_sha256": "125dd971a9e2516b237994aae09ab3b3caedc1702637edf3ff0a34e4dc148b6c",
+      "player_a_bwf_id": "94580",
+      "player_b_bwf_id": "95476",
+      "bwf_tournament_id": "5210",
+      "discovery_observations": [
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Alex Lanier",
+          "player_b": "Li Shifeng",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/alex-lanier-vs-li-shifeng"
+        },
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Alex Lanier",
+          "player_b": "Li Shifeng",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/alex-lanier-vs-li-shifeng"
+        }
+      ],
+      "bwf_match_ids": [],
+      "blockers": [],
+      "comparison": "ADDITIONAL_TO_BWF",
+      "status": "RESEARCH_ONLY_NO_BET",
+      "warnings": [
+        "DISCOVERY_METADATA_DATE_DIFFERS_FROM_VISIBLE_DATE"
+      ]
+    },
+    {
+      "source_match_id": "6763zcme89vao7r",
+      "source_url": "https://www.aiscore.com/badminton/match-angus-ng-ka-long-tanaka-yushi/6763zcme89vao7r",
+      "tournament": "Denmark Open, Singles",
+      "player_a": "Angus Ng Ka Long",
+      "player_b": "Tanaka Yushi",
+      "source_date": "2026-10-13",
+      "source_start_raw": "2026-10-13T04:00:00-04:00",
+      "source_time_precision": "REPORTED_DATETIME_UNVERIFIED",
+      "start_utc": null,
+      "kickoff_verified": false,
+      "decision": "NO_BET",
+      "observed_at_utc": "2026-10-11T17:28:04.867585+00:00",
+      "evidence_sha256": "17477b47cadd6c5bc6a9e24278511718d59b4f6d399dd23565c12825a00a4110",
+      "player_a_bwf_id": "45171",
+      "player_b_bwf_id": "86672",
+      "bwf_tournament_id": "5210",
+      "discovery_observations": [
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Angus Ng Ka Long",
+          "player_b": "Tanaka Yushi",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/angus-ng-ka-long-vs-tanaka-yushi"
+        },
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Angus Ng Ka Long",
+          "player_b": "Tanaka Yushi",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/angus-ng-ka-long-vs-tanaka-yushi"
+        }
+      ],
+      "bwf_match_ids": [],
+      "blockers": [],
+      "comparison": "ADDITIONAL_TO_BWF",
+      "status": "RESEARCH_ONLY_NO_BET",
+      "warnings": [
+        "DISCOVERY_METADATA_DATE_DIFFERS_FROM_VISIBLE_DATE"
+      ]
+    },
+    {
+      "source_match_id": "3kv9jcw8l5nax7e",
+      "source_url": "https://www.aiscore.com/badminton/match-arnaud-merkle-kidambi-srikanth/3kv9jcw8l5nax7e",
+      "tournament": "Denmark Open, Singles",
+      "player_a": "Arnaud Merkle",
+      "player_b": "Kidambi Srikanth",
+      "source_date": "2026-10-13",
+      "source_start_raw": "2026-10-13T04:00:00-04:00",
+      "source_time_precision": "REPORTED_DATETIME_UNVERIFIED",
+      "start_utc": null,
+      "kickoff_verified": false,
+      "decision": "NO_BET",
+      "observed_at_utc": "2026-10-11T17:28:10.829909+00:00",
+      "evidence_sha256": "cd5d4721bc3372d01f2006db5d8e563eea2a543b0d1797ba5bbe5462fe6089a9",
+      "player_a_bwf_id": "59543",
+      "player_b_bwf_id": "93627",
+      "bwf_tournament_id": "5210",
+      "discovery_observations": [
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Arnaud Merkle",
+          "player_b": "Kidambi Srikanth",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/arnaud-merkle-vs-kidambi-srikanth"
+        },
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Arnaud Merkle",
+          "player_b": "Kidambi Srikanth",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/arnaud-merkle-vs-kidambi-srikanth"
+        }
+      ],
+      "bwf_match_ids": [],
+      "blockers": [],
+      "comparison": "ADDITIONAL_TO_BWF",
+      "status": "RESEARCH_ONLY_NO_BET",
+      "warnings": [
+        "DISCOVERY_METADATA_DATE_DIFFERS_FROM_VISIBLE_DATE"
+      ]
+    },
+    {
+      "source_match_id": "17pj3c81d4nuy7j",
+      "source_url": "https://www.aiscore.com/badminton/match-chou-tien-chen-lakshya-sen/17pj3c81d4nuy7j",
+      "tournament": "Denmark Open, Singles",
+      "player_a": "Chou Tien-chen",
+      "player_b": "Lakshya Sen",
+      "source_date": "2026-10-13",
+      "source_start_raw": "2026-10-13T04:00:00-04:00",
+      "source_time_precision": "REPORTED_DATETIME_UNVERIFIED",
+      "start_utc": null,
+      "kickoff_verified": false,
+      "decision": "NO_BET",
+      "observed_at_utc": "2026-10-11T17:28:16.779357+00:00",
+      "evidence_sha256": "4415aaec7da5346cd5a335cc26363507afaf8481ba63508aeee0b023f71e24e6",
+      "player_a_bwf_id": "34810",
+      "player_b_bwf_id": "68870",
+      "bwf_tournament_id": "5210",
+      "discovery_observations": [
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Chou Tien-chen",
+          "player_b": "Lakshya Sen",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/chou-tien-chen-vs-lakshya-sen"
+        },
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Chou Tien-chen",
+          "player_b": "Lakshya Sen",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/chou-tien-chen-vs-lakshya-sen"
+        }
+      ],
+      "bwf_match_ids": [],
+      "blockers": [],
+      "comparison": "ADDITIONAL_TO_BWF",
+      "status": "RESEARCH_ONLY_NO_BET",
+      "warnings": [
+        "DISCOVERY_METADATA_DATE_DIFFERS_FROM_VISIBLE_DATE"
+      ]
+    },
+    {
+      "source_match_id": "dkz69cvx02gixq3",
+      "source_url": "https://www.aiscore.com/badminton/match-koki-watanabe-leong-jun-hao/dkz69cvx02gixq3",
+      "tournament": "Denmark Open, Singles",
+      "player_a": "Koki Watanabe",
+      "player_b": "Leong Jun Hao",
+      "source_date": "2026-10-13",
+      "source_start_raw": "2026-10-13T04:00:00-04:00",
+      "source_time_precision": "REPORTED_DATETIME_UNVERIFIED",
+      "start_utc": null,
+      "kickoff_verified": false,
+      "decision": "NO_BET",
+      "observed_at_utc": "2026-10-11T17:28:24.836230+00:00",
+      "evidence_sha256": "c158f223ac58f914e0b16192ff57fac254e91bd809c666937fa3e6a478a3ef63",
+      "player_a_bwf_id": "97174",
+      "player_b_bwf_id": "84838",
+      "bwf_tournament_id": "5210",
+      "discovery_observations": [
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Koki Watanabe",
+          "player_b": "Leong Jun Hao",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/koki-watanabe-vs-leong-jun-hao"
+        },
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Koki Watanabe",
+          "player_b": "Leong Jun Hao",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/koki-watanabe-vs-leong-jun-hao"
+        }
+      ],
+      "bwf_match_ids": [],
+      "blockers": [],
+      "comparison": "ADDITIONAL_TO_BWF",
+      "status": "RESEARCH_ONLY_NO_BET",
+      "warnings": [
+        "DISCOVERY_METADATA_DATE_DIFFERS_FROM_VISIBLE_DATE"
+      ]
+    },
+    {
+      "source_match_id": "rkn68c8ow1mfwql",
+      "source_url": "https://www.aiscore.com/badminton/match-kunlavut-vitidsarn-rasmus-gemke/rkn68c8ow1mfwql",
+      "tournament": "Denmark Open, Singles",
+      "player_a": "Kunlavut Vitidsarn",
+      "player_b": "Rasmus Gemke",
+      "source_date": "2026-10-13",
+      "source_start_raw": "2026-10-13T04:00:00-04:00",
+      "source_time_precision": "REPORTED_DATETIME_UNVERIFIED",
+      "start_utc": null,
+      "kickoff_verified": false,
+      "decision": "NO_BET",
+      "observed_at_utc": "2026-10-11T17:28:30.580716+00:00",
+      "evidence_sha256": "d363e43d7d43ed3491aa2d5b9009769496d79d59f845550aeb2476f78a070dd1",
+      "player_a_bwf_id": "64032",
+      "player_b_bwf_id": "62855",
+      "bwf_tournament_id": "5210",
+      "discovery_observations": [
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Kunlavut Vitidsarn",
+          "player_b": "Rasmus Gemke",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/kunlavut-vitidsarn-vs-rasmus-gemke"
+        },
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Kunlavut Vitidsarn",
+          "player_b": "Rasmus Gemke",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/kunlavut-vitidsarn-vs-rasmus-gemke"
+        }
+      ],
+      "bwf_match_ids": [],
+      "blockers": [],
+      "comparison": "ADDITIONAL_TO_BWF",
+      "status": "RESEARCH_ONLY_NO_BET",
+      "warnings": [
+        "DISCOVERY_METADATA_DATE_DIFFERS_FROM_VISIBLE_DATE"
+      ]
+    },
+    {
+      "source_match_id": "dq09gcegz2wueqx",
+      "source_url": "https://www.aiscore.com/badminton/match-lai-victor-moh-zaki-ubaidillah/dq09gcegz2wueqx",
+      "tournament": "Denmark Open, Singles",
+      "player_a": "Lai Victor",
+      "player_b": "Moh. Zaki Ubaidillah",
+      "source_date": "2026-10-13",
+      "source_start_raw": "2026-10-13T04:00:00-04:00",
+      "source_time_precision": "REPORTED_DATETIME_UNVERIFIED",
+      "start_utc": null,
+      "kickoff_verified": false,
+      "decision": "NO_BET",
+      "observed_at_utc": "2026-10-11T17:28:36.735394+00:00",
+      "evidence_sha256": "2c9e74d007d2fbabebb9455dea955fcdd66922f1a1ce55b10f652efafd82cef7",
+      "player_a_bwf_id": null,
+      "player_b_bwf_id": "60321",
+      "bwf_tournament_id": "5210",
+      "discovery_observations": [
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Lai Victor",
+          "player_b": "Moh. Zaki Ubaidillah",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/lai-victor-vs-moh-zaki-ubaidillah"
+        },
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Lai Victor",
+          "player_b": "Moh. Zaki Ubaidillah",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/lai-victor-vs-moh-zaki-ubaidillah"
+        }
+      ],
+      "bwf_match_ids": [],
+      "blockers": [
+        "PLAYER_ID_UNRESOLVED_OR_AMBIGUOUS"
+      ],
+      "comparison": "QUARANTINED",
+      "status": "RESEARCH_ONLY_NO_BET",
+      "warnings": [
+        "DISCOVERY_METADATA_DATE_DIFFERS_FROM_VISIBLE_DATE"
+      ]
+    },
+    {
+      "source_match_id": "17pj3c81d4pay7j",
+      "source_url": "https://www.aiscore.com/badminton/match-nhat-nguyen-panitchaphon-teeraratsakul/17pj3c81d4pay7j",
+      "tournament": "Denmark Open, Singles",
+      "player_a": "Nhat Nguyen",
+      "player_b": "Panitchaphon Teeraratsakul",
+      "source_date": "2026-10-13",
+      "source_start_raw": "2026-10-13T04:00:00-04:00",
+      "source_time_precision": "REPORTED_DATETIME_UNVERIFIED",
+      "start_utc": null,
+      "kickoff_verified": false,
+      "decision": "NO_BET",
+      "observed_at_utc": "2026-10-11T17:28:43.210141+00:00",
+      "evidence_sha256": "9f89680e6d4627ce7d17a53afc78e8a32ab60a9699f088f90c0dd3b38e15d9bd",
+      "player_a_bwf_id": "85095",
+      "player_b_bwf_id": "85845",
+      "bwf_tournament_id": "5210",
+      "discovery_observations": [
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Nhat Nguyen",
+          "player_b": "Panitchaphon Teeraratsakul",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/nhat-nguyen-vs-panitchaphon-teeraratsakul"
+        },
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Nhat Nguyen",
+          "player_b": "Panitchaphon Teeraratsakul",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/nhat-nguyen-vs-panitchaphon-teeraratsakul"
+        }
+      ],
+      "bwf_match_ids": [],
+      "blockers": [],
+      "comparison": "ADDITIONAL_TO_BWF",
+      "status": "RESEARCH_ONLY_NO_BET",
+      "warnings": [
+        "DISCOVERY_METADATA_DATE_DIFFERS_FROM_VISIBLE_DATE"
+      ]
+    },
+    {
+      "source_match_id": "mqy98co65ypbgk9",
+      "source_url": "https://www.aiscore.com/badminton/match-teh-jia-heng-jason-lee-chia-hao/mqy98co65ypbgk9",
+      "tournament": "Denmark Open, Singles",
+      "player_a": "Teh Jia Heng Jason",
+      "player_b": "Lee Chia-hao",
+      "source_date": "2026-10-13",
+      "source_start_raw": "2026-10-13T04:00:00-04:00",
+      "source_time_precision": "REPORTED_DATETIME_UNVERIFIED",
+      "start_utc": null,
+      "kickoff_verified": false,
+      "decision": "NO_BET",
+      "observed_at_utc": "2026-10-11T17:28:48.830475+00:00",
+      "evidence_sha256": "328735c3f20eeaf268191d9a50fce61465bcb548708703ae600f25bee1d0ca2a",
+      "player_a_bwf_id": null,
+      "player_b_bwf_id": "59322",
+      "bwf_tournament_id": "5210",
+      "discovery_observations": [
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Teh Jia Heng Jason",
+          "player_b": "Lee Chia-hao",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/lee-chia-hao-vs-teh-jia-heng-jason"
+        },
+        {
+          "source_date": "2026-10-13",
+          "player_a": "Teh Jia Heng Jason",
+          "player_b": "Lee Chia-hao",
+          "tournament": "Denmark Open, Singles",
+          "metadata_start_raw": "2026-10-12T12:00:00-04:00",
+          "discovery_url": "https://www.aiscore.com/head-to-head/badminton/lee-chia-hao-vs-teh-jia-heng-jason"
+        }
+      ],
+      "bwf_match_ids": [],
+      "blockers": [
+        "PLAYER_ID_UNRESOLVED_OR_AMBIGUOUS"
+      ],
+      "comparison": "QUARANTINED",
+      "status": "RESEARCH_ONLY_NO_BET",
+      "warnings": [
+        "DISCOVERY_METADATA_DATE_DIFFERS_FROM_VISIBLE_DATE"
+      ]
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "No BWF archives, model inputs, odds or existing schedules are modified.",
+    "Source times are unverified. Dates and identities may still change.",
+    "An empty BWF match feed does not prove the draw is unpublished."
+  ],
+  "requests_attempted": 31,
+  "bwf_reference": {
+    "archives_scanned": 406,
+    "refresh_observations": [
+      {
+        "tournament_id": "5876",
+        "status": "REFRESHED",
+        "checked_at_utc": "2026-10-11T09:48:56.191781+00:00",
+        "cached_match_count": 110,
+        "fresh_match_count": 110,
+        "merged_match_count": 110
+      },
+      {
+        "tournament_id": "5874",
+        "status": "REFRESHED",
+        "checked_at_utc": "2026-10-11T09:48:58.166977+00:00",
+        "cached_match_count": 156,
+        "fresh_match_count": 156,
+        "merged_match_count": 156
+      },
+      {
+        "tournament_id": "5594",
+        "status": "REFRESHED",
+        "checked_at_utc": "2026-10-11T09:49:00.210863+00:00",
+        "cached_match_count": 172,
+        "fresh_match_count": 172,
+        "merged_match_count": 172
+      },
+      {
+        "tournament_id": "5228",
+        "status": "EMPTY_RESPONSE",
+        "checked_at_utc": "2026-10-11T09:49:01.767254+00:00",
+        "cached_match_count": 0,
+        "fresh_match_count": 0
+      },
+      {
+        "tournament_id": "5210",
+        "status": "EMPTY_RESPONSE",
+        "checked_at_utc": "2026-10-11T09:49:02.001321+00:00",
+        "cached_match_count": 0,
+        "fresh_match_count": 0
+      },
+      {
+        "tournament_id": "5526",
+        "status": "EMPTY_RESPONSE",
+        "checked_at_utc": "2026-10-11T09:49:02.235816+00:00",
+        "cached_match_count": 0,
+        "fresh_match_count": 0
+      },
+      {
+        "tournament_id": "5272",
+        "status": "EMPTY_RESPONSE",
+        "checked_at_utc": "2026-10-11T09:49:02.485674+00:00",
+        "cached_match_count": 0,
+        "fresh_match_count": 0
+      }
+    ],
+    "note": "Comparison uses the local BWF checkout, not an independent live refresh."
+  },
+  "comparison_reprocessed_at_utc": "2026-10-11T17:30:27.653770+00:00",
+  "comparison_reprocessed_note": "Same collected observations; added duplicate checks, date metadata warnings, and BWF reference timestamps. No network refetch."
+}
