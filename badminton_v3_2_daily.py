@@ -264,10 +264,17 @@ def predict_official_unscheduled(bridge_path: Path, ratings, seen, histories,
     if payload.get("policy") != "RESEARCH_ONLY_NO_BET":
         raise ValueError("Unexpected fixture policy")
     output = []
+    processed = set()
     for candidate in payload.get("schedule_pending", []):
         players = candidate.get("players") or []
         if len(players) != 2 or candidate.get("status") != "SCHEDULE_PENDING":
             continue
+        if candidate.get("source") != "BWF_OFFICIAL_DRAW" or candidate.get("match_time_utc") is not None:
+            continue
+        mid = str(candidate.get("match_id") or "")
+        if not mid.isdigit() or mid in processed:
+            continue
+        processed.add(mid)
         a, b = players
         aid, bid = str(a.get("id") or ""), str(b.get("id") or "")
         if not aid.isdigit() or not bid.isdigit() or aid == bid:
@@ -275,7 +282,8 @@ def predict_official_unscheduled(bridge_path: Path, ratings, seen, histories,
         # Unseen players are reported, never silently assigned a credible forecast.
         if seen[aid] == 0 or seen[bid] == 0:
             output.append({"match_id": candidate["match_id"], "player_a": a.get("name"),
-                           "player_b": b.get("name"), "status": "MISSING_PLAYER_HISTORY_NO_BET"})
+                           "player_b": b.get("name"), "status": "MISSING_PLAYER_HISTORY_NO_BET",
+                           "policy": "RESEARCH_ONLY_NO_BET", "probability_quality": "UNAVAILABLE"})
             continue
         raw = elo_p(ratings[aid], ratings[bid])
         feats = selected_features(histories[aid], histories[bid], now.date())
@@ -288,6 +296,9 @@ def predict_official_unscheduled(bridge_path: Path, ratings, seen, histories,
                        "v3_2_p_b": round(1 - probability, 8),
                        "match_time_utc": None, "feature_reference_date": now.date().isoformat(),
                        "status": "SCHEDULE_PENDING_NO_BET",
+                       "probability_quality": "PROVISIONAL_AS_OF_DATE",
+                       "rest_inactivity_reference": "REPORT_DATE_NOT_MATCH_DATE",
+                       "requires_recalculation_when_scheduled": True,
                        "policy": "RESEARCH_ONLY_NO_BET"})
     return output
 
