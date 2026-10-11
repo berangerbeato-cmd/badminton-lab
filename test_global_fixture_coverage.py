@@ -7,6 +7,9 @@ class TournamentWindowTests(unittest.TestCase):
     def test_iso_dates(self):
         self.assertEqual(tournament_window({"startDate": "2026-10-13", "endDate": "2026-10-18"}), (date(2026, 10, 13), date(2026, 10, 18)))
 
+    def test_bwf_index_datetime(self):
+        self.assertEqual(parse_date("2026-10-13 00:00:00"), date(2026, 10, 13))
+
     def test_iso_timestamp(self):
         self.assertEqual(parse_date("2026-10-13T00:00:00Z"), date(2026, 10, 13))
 
