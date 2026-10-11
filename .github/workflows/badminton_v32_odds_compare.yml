@@ -114,7 +114,7 @@ jobs:
             --v1-model-dir data/model \
             --selection-dir data/model_v3_2 \
             --output data/model_v3_2_live \
-            --days 7
+            --days 14
       - name: Validate BWF refresh precedes V3.2 snapshot
         run: python bwf_pipeline_freshness.py --out data/model_v3_2_live/pipeline_order_latest.json
       - name: Install browser
