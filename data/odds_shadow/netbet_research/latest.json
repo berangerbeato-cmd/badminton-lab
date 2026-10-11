@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-11T06:34:34+00:00",
+  "observed_at_utc": "2026-10-11T08:29:46+00:00",
   "source": "https://www.netbet.fr/badminton",
   "operator": "NetBet.fr",
   "status": "EVENT_LIST_UNDETERMINED_NEEDS_PARSER_AUDIT",
@@ -9,14 +9,13 @@
   "http_status": 200,
   "resolved_url": "https://www.netbet.fr/badminton",
   "cache_age_seconds": null,
-  "body_sha256": "d188ba9f3bb0a3c8cbbcb5e0a7f693982e91081b445370d645577fee817c810d",
+  "body_sha256": "0982de2b7d34c6c0a7a1dc855d688883966b0b82a0612d97e9fc6eb45f6475d4",
   "event_area_excerpt": "",
   "explicit_no_events": false,
   "public_badminton_links": [
     "https://www.netbet.fr/badminton",
     "https://www.netbet.fr/badminton/international/artic-open-f",
-    "https://www.netbet.fr/badminton/international/artic-open-doubles-mixtes",
-    "https://www.netbet.fr/badminton/international/artic-open",
-    "https://www.netbet.fr/badminton/international/artic-open-doubles-f"
+    "https://www.netbet.fr/badminton/international/artic-open-doubles-f",
+    "https://www.netbet.fr/badminton/international/artic-open"
   ]
 }

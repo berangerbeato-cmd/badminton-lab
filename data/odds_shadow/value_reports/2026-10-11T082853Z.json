@@ -1,0 +1,56 @@
+{
+  "generated_at_utc": "2026-10-11T08:29:50+00:00",
+  "matched_fixtures_count": 1,
+  "matches": [
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5594:1552528",
+      "decision": "NO_BET_SHADOW",
+      "listed_start_paris": "2026-10-11T11:10+02:00",
+      "market": "H2H_FULL_MATCH",
+      "model": "bwf_elo_ms_platt_v1",
+      "model_asof_utc": "2026-10-11T05:24:00+00:00",
+      "observed_at_utc": "2026-10-11T08:28:54+00:00",
+      "operator": "Unibet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_DETAIL_NOT_VERIFIED",
+        "BWF_KICKOFF_DATE_ONLY",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "round": "Final",
+      "side_1": {
+        "bookmaker_name": "Y.Tanaka",
+        "bwf_name": "Yushi TANAKA",
+        "bwf_player_id": "86672",
+        "decimal_odds": 2.55,
+        "illustrative_ev_pct": -1.36,
+        "model_fair_odds": 2.5852,
+        "model_probability": 0.3868208
+      },
+      "side_2": {
+        "bookmaker_name": "A.Antonsen",
+        "bwf_name": "Anders ANTONSEN",
+        "bwf_player_id": "91554",
+        "decimal_odds": 1.34,
+        "illustrative_ev_pct": -17.83,
+        "model_fair_odds": 1.6308,
+        "model_probability": 0.6131792
+      },
+      "tournament_bwf": "CLASH OF CLANS Arctic Open 2026 powered by YONEX",
+      "valid_pre_match_T0": false
+    }
+  ],
+  "model_snapshot": "data/model/snapshots/2026-10-11.csv",
+  "model_snapshot_sha256": "c3c7e10cdc7db8a04845adb62bf0b96d0c3e6572efce4b21ab3b3ff328ab802d",
+  "notes": "Illustrative EV only. Source reading timestamp is NOT bookmaker quote update time. BWF start date at 00:00 is NOT a verified match start. Do not write Predictions, T0, Odds History or place wagers.",
+  "operator": "Unibet.fr",
+  "policy": "NO_BET_SHADOW_ONLY_NO_SHEETS_WRITE",
+  "rejections": {},
+  "source_archive": "data/odds_shadow/unibet_fr/2026-10-11T082853Z.json",
+  "source_observed_at_utc": "2026-10-11T08:28:54+00:00",
+  "source_quotes_count": 1,
+  "source_sha256": "051ae4f2a3ee48bdc34649a548bb6156f4497dddd9f4b7ec4947852d8a9c81d6",
+  "status": "ANALYZED_SHADOW"
+}

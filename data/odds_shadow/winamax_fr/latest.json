@@ -1,7 +1,7 @@
 {
   "bookmaker_price_updated_at": null,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-11T08:27:33+00:00",
+  "observed_at_utc": "2026-10-11T08:29:13+00:00",
   "operator": "Winamax.fr",
   "operator_kind": "ONLINE",
   "quotes": [],
