@@ -23,10 +23,7 @@ def parse_date(value):
     try:
         return datetime.fromisoformat(raw.replace("Z", "+00:00")).date()
     except ValueError:
-        try:
-            return datetime.strptime(raw[:10], "%Y-%m-%d").date()
-        except ValueError:
-            return None
+        return None
 
 
 def tournament_window(t):
@@ -85,7 +82,7 @@ def build(data_dir, now, days):
                        "ms_future_total": pending, "ms_completed_in_archive": completed,
                        "draw_status": "UNKNOWN" if not paired else "BWF_PAIRINGS_PRESENT",
                        "needs_secondary_source": paired == 0})
-    output.sort(key=lambda t: (not t["needs_secondary_source"], str(t["name"])))
+    output.sort(key=lambda t: (t["start_date"], str(t["name"])))
     counts = Counter({"excluded_unknown_dates": excluded_unknown_dates})
     for t in output:
         counts["elite_tournaments_in_index"] += 1
