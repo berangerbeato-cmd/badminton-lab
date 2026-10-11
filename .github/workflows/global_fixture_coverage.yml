@@ -52,4 +52,5 @@ jobs:
             official_ms_draw_probe.json
             official_draw_ajax_evidence.json
             official_draw_api_probe.json
+            official_ms_fixture_candidates.json
           if-no-files-found: warn
