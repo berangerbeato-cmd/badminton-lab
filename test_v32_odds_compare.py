@@ -53,6 +53,12 @@ class ShadowComparatorTests(unittest.TestCase):
     def test_fresh_quote_is_shadow_only(self):
         output = self.compare()
         self.assertEqual(output['comparison_count'], 1)
+        self.assertEqual(output['verification_summary']['model_fixture_count'], 1)
+        self.assertEqual(output['verification_summary']['public_quote_count'], 1)
+        self.assertEqual(output['verification_summary']['verified_prematch_count'], 0)
+        self.assertEqual(output['verification_summary']['missing_kickoff_count'], 1)
+        self.assertEqual(output['verification_summary']['missing_executable_price_count'], 1)
+        self.assertIsNone(output['verification_summary']['validated_roi_pct'])
         self.assertEqual(output['source_audit']['netbet_quotes']['status'], 'FRESH_SNAPSHOT')
         self.assertEqual(output['source_audit']['unibet_fr']['status'], 'SOURCE_DIRECTORY_MISSING')
         row = output['results'][0]
@@ -68,6 +74,8 @@ class ShadowComparatorTests(unittest.TestCase):
     def test_stale_quote_is_rejected(self):
         output = self.compare(age_minutes=90)
         self.assertEqual(output['comparison_count'], 0)
+        self.assertEqual(output['verification_summary']['public_quote_count'], 0)
+        self.assertEqual(output['verification_summary']['verified_prematch_count'], 0)
         self.assertEqual(output['rejected_sources'][0]['reason'], 'OBSERVATION_NOT_FRESH')
         self.assertEqual(output['source_audit']['netbet_quotes']['status'], 'OBSERVATION_NOT_FRESH')
 
