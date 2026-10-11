@@ -125,9 +125,11 @@ def main():
             entry["inline_script_blocks"] = len(parser.inline)
             entry["inline_ajax_evidence"] = endpoint_evidence("\n".join(parser.inline))[:60]
             entry["draw_data_fetch_context"] = [
-                re.sub(r"\s+", " ", block[max(0, m.start()-750):m.end()+650])[:1500]
+                re.sub(r"\s+", " ", block[max(0, match.start()-1800):match.end()+450])[:2300]
                 for block in parser.inline
-                for m in list(re.finditer(r"this\\.drawMatches\\s*=|this\\.drawTableRoundRobin\\s*=|data\\.results\\s*\\|\\|", block))[:3]
+                for match in list(re.finditer(
+                    r"this\.drawMatches\s*=\s*data\.results|this\.drawTableRoundRobin\s*=\s*data\.table",
+                    block))[:2]
             ][:8]
             entry["inline_data_context"] = [
                 {"term": term, "snippets": [re.sub(r"\\s+", " ", block[max(0, m.start()-130):m.end()+220])[:350]
