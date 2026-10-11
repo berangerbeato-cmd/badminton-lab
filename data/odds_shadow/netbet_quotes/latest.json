@@ -62,7 +62,7 @@
     "https://www.netbet.fr/badminton/international/artic-open-doubles-f",
     "https://www.netbet.fr/badminton/international/artic-open"
   ],
-  "index_body_sha256": "c3b13ce46b7ed48486d1949004d19947ab678e39d56d2a2b546eeccde0ee7460",
+  "index_body_sha256": "92708f854d7574928a5fafd3981e1f225127db9129a91ca98cb9c1a259c26ed2",
   "index_eligible_quotes": 0,
   "index_http_status": 200,
   "index_link_count": 120,
@@ -87,26 +87,26 @@
       {
         "following_lines": [
           "Jiang-Wei",
-          "1.06",
+          "1.01",
           "Gao-Wu",
-          "4.20"
+          "6.00"
         ],
-        "market_line": 116,
+        "market_line": 118,
         "preceding_lines": [
-          "Badminton",
-          "Pariez sur",
           "Badminton",
           "À L'AFFICHE",
           "EN DIRECT",
           "TOUTE L'OFFRE BADMINTON",
           "En direct",
           "Artic Open - Doubles Mixtes",
-          "Set 1",
+          "Set 2",
           "LIVE",
           "Jiang-Wei",
           "Gao-Wu",
-          "19",
-          "17"
+          "1",
+          "0",
+          "0",
+          "0"
         ],
         "reason": "PLAYER_PAIR_MISMATCH"
       },
@@ -117,20 +117,20 @@
           "Mia Blichfeldt",
           "2.30"
         ],
-        "market_line": 128,
+        "market_line": 130,
         "preceding_lines": [
-          "19",
-          "17",
+          "0",
+          "0",
           "Qui va gagner le match ?",
           "Jiang-Wei",
-          "1.06",
+          "1.01",
           "Gao-Wu",
-          "4.20",
-          "+ 4",
+          "6.00",
+          "+ 3",
           "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
           "Populaires",
           "Artic Open (F)",
-          "LIVE dans 4 min",
+          "LIVE dans 2 min",
           "Ratchanok Intanon",
           "Mia Blichfeldt"
         ],
@@ -143,9 +143,9 @@
           "Hsu-Lin",
           "3.20"
         ],
-        "market_line": 139,
+        "market_line": 141,
         "preceding_lines": [
-          "LIVE dans 4 min",
+          "LIVE dans 2 min",
           "Ratchanok Intanon",
           "Mia Blichfeldt",
           "Qui va gagner le match ?",
@@ -169,7 +169,7 @@
           "Lai-Tsai",
           "3.45"
         ],
-        "market_line": 150,
+        "market_line": 152,
         "preceding_lines": [
           "11:30",
           "Chen-Luo",
@@ -195,7 +195,7 @@
           "Mia Blichfeldt",
           "2.30"
         ],
-        "market_line": 167,
+        "market_line": 169,
         "preceding_lines": [
           "Lai-Tsai",
           "3.45",
@@ -208,7 +208,7 @@
           "(4)",
           "À Venir",
           "Artic Open (F)",
-          "LIVE dans 4 min",
+          "LIVE dans 2 min",
           "Ratchanok Intanon",
           "Mia Blichfeldt"
         ],
@@ -221,10 +221,10 @@
           "Anders Antonsen",
           "1.30"
         ],
-        "market_line": 177,
+        "market_line": 179,
         "preceding_lines": [
           "Artic Open (F)",
-          "LIVE dans 4 min",
+          "LIVE dans 2 min",
           "Ratchanok Intanon",
           "Mia Blichfeldt",
           "Qui va gagner le match ?",
@@ -234,7 +234,7 @@
           "2.30",
           "+ 26",
           "Artic Open",
-          "LIVE dans 34 min",
+          "LIVE dans 32 min",
           "Yushi Tanaka",
           "Anders Antonsen"
         ],
@@ -252,12 +252,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-10-11.csv",
   "model_snapshot_sha256": "c3c7e10cdc7db8a04845adb62bf0b96d0c3e6572efce4b21ab3b3ff328ab802d",
-  "observed_at_utc": "2026-10-11T08:26:21+00:00",
+  "observed_at_utc": "2026-10-11T08:28:07+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "680c5266422c2a385ee7a9226a5489c9beef44cab80b296693e042dff4236fe5",
+      "body_sha256": "9adeeebc10fdabd40839430097d9f53f26ffddd8b34373db552617b47ac3b25d",
       "cache_age_seconds": null,
       "eligible_listing_rows": 1,
       "http_status": 200,

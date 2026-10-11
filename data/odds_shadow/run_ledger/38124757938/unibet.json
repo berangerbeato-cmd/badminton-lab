@@ -1,0 +1,46 @@
+{
+  "body_sha256": "413d85fc4f15ce473debf1bcc98fc747637c59749b4363eab5d04b1a9f84bdf1",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": "108",
+  "finished_at_utc": "2026-10-11T08:27:20+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-11T08:27:15+00:00",
+  "operator": "Unibet.fr",
+  "operator_kind": "ONLINE",
+  "parser_notes": "parsed; page_parsed_entries=4; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,F:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,H:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1; eligible_MS_H2H=1; local_now=2026-10-11T10:27:14.899989+02:00",
+  "public_badminton_event_links": [],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/unibet_fr.png",
+  "quotes": [
+    {
+      "discipline": "MS",
+      "listed_start_paris": "2026-10-11T11:10+02:00",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "LISTING_ONLY_NEEDS_DETAIL",
+      "odds_1": 2.55,
+      "odds_2": 1.34,
+      "operator_event_id": null,
+      "player_1_display": "Y.Tanaka",
+      "player_2_display": "A.Antonsen",
+      "tournament": "Open de Finlande"
+    }
+  ],
+  "resolved_url": "https://www.unibet.fr/paris-badminton",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Sun, 11 Oct 2026 08:27:16 GMT",
+  "source_key": "unibet_fr",
+  "source_url": "https://www.unibet.fr/paris-badminton",
+  "status": "OBSERVED_SHADOW_NEEDS_MARKET_CONFIRMATION",
+  "text_excerpt_for_debug": "Aller au contenu principal\nAller au pied de page\n\nPARCE QU’UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\n\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR \n(s'ouvre dans un nouvel onglet)\n(09-74-75-13-13, APPEL NON SURTAXÉ)\n\nSports\nLive\n9\n9 live disponibles\nPromos & défis\n2\n2 défis disponibles\nPoker\nFavoris & Top compétitions\nCompétition de football -europe\nTop Foot Européen\nCompétition de football -france\nLigue 1 McDonalds\nCompétition de tennis -monde\nShanghai\nCompétition de tennis -monde\nWTA\nCompétition de football -angleterre\nPremier League\nCompétition de football -espagne\nLaLiga\nCotes boostées\nTous sports\nFootball\nTennis\nBasketball\nAthlétisme\nBadminton\nTout voir\nINTERNATIONAL\nTout International\nOpen de Finlande H\nOpen de Finlande F\nOpen de Finlande DH\nOpen de Finlande DF\nOpen de Finlande DM\nBaseball\nBiathlon\nBoxe\nCyclisme\nFoot américain\nFormule 1\nFormule 2\nGolf\nHandball\nHockey Sur Glace\nNascar\nRugby\nRugby à XIII\nSki Alpin\nSki de Fond\nSnooker\nSquash\nTennis de Table\nUFC/MMA\nVoile\nVolley Ball\nAccueil\nBadminton\nCompétition badminton\nBadminton\nFace à Face\nRace to $n points\nEn direct 1\nmatchs\nMasquer\nles matchs en live\nCompétition de monde\n\nOpen de Finlande DM\n\nLIVE\nJiang/Wei - Gao/Wu\n\tS1\n\nEngagement pour\nJiang/Wei\n\t20\n\nGao/Wu\n\t17\n\nFace à Face - Live Match\n\nJiang/Wei\n1,06\n\t\nGao/Wu\n4,25\nAujourd'hui\nmonde\n\nOpen de Finlande F\n\nÀ 10h40\nR.Intanon\n-\nM.Blichfeldt\nR.Intanon\n1,41\nÉtape \n92%\n\t\nM.Blichfeldt\n2,25\nÉtape \n8%\nmonde\n\nOpen de Finlande H\n\nÀ 11h10\nY.Tanaka\n-\nA.Antonsen\nY.Tanaka\n2,55\nÉtape \n5%\n\t\nA.Antonsen\n1,34\nÉtape \n95%\nmonde\n\nOpen de Finlande DF\n\nÀ 11h40\nChen/Luo\n-\nHsu/Lin\nChen/Luo\n1,2",
+  "unibet_page_diagnostics": {
+    "body_characters": 5232,
+    "has_badminton_word": true,
+    "has_face_a_face_label": true,
+    "has_price_like_tokens": true,
+    "has_today_heading": true,
+    "has_tournament_heading": true,
+    "parsed_eligible_ms_quotes": 1
+  },
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}

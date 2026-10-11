@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-11T08:25:23+00:00",
+  "observed_at_utc": "2026-10-11T08:27:14+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 1,
   "retail_shadow_rows": 1,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=4; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,F:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,H:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1; eligible_MS_H2H=1; local_now=2026-10-11T10:25:23.444122+02:00",
+      "parser_notes": "parsed; page_parsed_entries=4; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,F:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,H:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1; eligible_MS_H2H=1; local_now=2026-10-11T10:27:14.899989+02:00",
       "error": null,
-      "cache_age_seconds": null,
-      "body_sha256": "13e6792e65b5b1236313ae4fe0ce33334b128cfacd4b71f9465c9b93fe0027af",
+      "cache_age_seconds": "108",
+      "body_sha256": "413d85fc4f15ce473debf1bcc98fc747637c59749b4363eab5d04b1a9f84bdf1",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -38,7 +38,7 @@
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
-      "cache_age_seconds": null,
+      "cache_age_seconds": "108",
       "body_sha256": "e2f11830ed5f29c912fc1ce930c395bc26394b4d076bd47e4afd2159a1ed00fa",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "2ea67d24006e6efe97c2ef5a31a1bbe6ddacc23f9a0460ad7cf1ef1599bb9843",
+      "body_sha256": "843416fbe3bd4d4b27c4f69ac1c8b1a3605bd3c7f0c986518f7028df1215ed54",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "56ad08c4dd2830e0270ae20ed83b2abe8f180ed3c280e00d18035d804faca1de",
+      "body_sha256": "9fb7f4dd0f83683b078bdfb79304e5c4138f6ab9b25f505924c6a32b27768d26",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "a449fcd4c8d65ff66641ce8735cc8c5f0bf5ece9759713a4d2484701b5a8da89",
+      "body_sha256": "38216525516b4c82de8b6a92b657e9d7e21decf770d29bed3c16bc2ad25c78ab",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "361",
-      "body_sha256": "2622f5b545232cfec788ca9f739e59465a8026f8a7b2e551aa4e8d0cf4709bee",
+      "cache_age_seconds": "468",
+      "body_sha256": "933abf8fe9f48533d46e893f194d0f781c7119beb08b5ce79c1d3c03a77e2a1e",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/antonsen-anders-GMQqJqeP/tanaka-yuji-xQbRefgp/?mid=Mk4HMUO6",
@@ -155,7 +155,7 @@
         ],
         "index_match_link_count": 6,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Arctic Open 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n11/10 DI\nArctic Open (Finlande)\nBWF WORLD TOUR - HOMMES: \nTableau\n11:40\nTanaka Y.\nAntonsen A.\n-\n-\nArctic Open (Finlande)\nBWF WORLD TOUR - FEMMES: \nTableau\n10:50\nIntanon R.\nBlichfeldt M.\n-\n-\nFlashscore Actualités\nLe Clash du Dimanche Soir : Patrick Beach x Jeffrey De Lange\nMarco Bezzecchi et les Aprilia règnent en maîtres à Mandalika\nArthur Gea s'offre le 4e mondial Ben Shelton à Shanghai\nAller vers Actualités\nArctic Open (Finlande)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n13:20\nTai A.\nYap R. K.\nLai P. Y.\nTsai F. C.\n-\n-\nArctic Open (Finlande)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n12:30\nChen F. S. T.\nLuo X. M.\nHsu Y. H.\nLin J. Y.\n-\n-\nArctic Open (Finlande)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\n1. set\nJiang Z. B.\nWei Y. X.\nGao J. X.\nWu M. Y.\n0\n0\n18\n17\nPublicité\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Arctic Open Hommes\nBWF WT KL Masters Malaysia Super 100 Hommes\nBWF WT Open du Danemark Hommes\nBWF WT Arctic Open Femmes\nBWF WT KL Masters Malaysia Super 100 Femmes\nBWF WT Open du Danemark Femmes\nBWF WT Arctic Open Doubles Hommes\nBWF WT KL Masters Malaysia Super 100 Doubles Hommes\nBWF WT Open du Danemark Doubles Hommes\nBWF WT Arctic Open Doubles Femmes\nVoir plus (5)\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutre"
+        "index_text_excerpt": "Arctic Open 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n11/10 DI\nArctic Open (Finlande)\nBWF WORLD TOUR - HOMMES: \nTableau\n11:40\nTanaka Y.\nAntonsen A.\n-\n-\nArctic Open (Finlande)\nBWF WORLD TOUR - FEMMES: \nTableau\n10:50\nIntanon R.\nBlichfeldt M.\n-\n-\nFlashscore Actualités\nLe Clash du Dimanche Soir : Patrick Beach x Jeffrey De Lange\nMarco Bezzecchi et les Aprilia règnent en maîtres à Mandalika\nArthur Gea s'offre le 4e mondial Ben Shelton à Shanghai\nAller vers Actualités\nArctic Open (Finlande)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n13:20\nTai A.\nYap R. K.\nLai P. Y.\nTsai F. C.\n-\n-\nArctic Open (Finlande)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n12:30\nChen F. S. T.\nLuo X. M.\nHsu Y. H.\nLin J. Y.\n-\n-\nArctic Open (Finlande)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\n1. set\nJiang Z. B.\nWei Y. X.\nGao J. X.\nWu M. Y.\n0\n0\n20\n18\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Arctic Open Hommes\nBWF WT KL Masters Malaysia Super 100 Hommes\nBWF WT Open du Danemark Hommes\nBWF WT Arctic Open Femmes\nBWF WT KL Masters Malaysia Super 100 Femmes\nBWF WT Open du Danemark Femmes\nBWF WT Arctic Open Doubles Hommes\nBWF WT KL Masters Malaysia Super 100 Doubles Hommes\nBWF WT Open du Danemark Doubles Hommes\nBWF WT Arctic Open Doubles Femmes\nVoir plus (5)\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - H"
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/antonsen-anders-GMQqJqeP/tanaka-yuji-xQbRefgp/#/cotes/home-away/temps-regulier/",
@@ -166,11 +166,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/antonsen-anders-GMQqJqeP/tanaka-yuji-xQbRefgp/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "f42c7d338e2871673c6c6b4fc5c9bcfdf0c90289dda994ba1cfae2a71420a389",
+        "body_sha256": "c65822aba5082d378d87cdb0f922fb02ab8c132eef4302906af21fa180413a9d",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Yushi Tanaka - Anders Antonsen (11/10/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESARCTIC OPEN - FINALE\nNouvelle fenêtre\n11.10.2026 11:40\nTanaka Y.\nBWF\n: 18.\n-\nAntonsen A.\nBWF\n: 6.\n-\n11.10.2026 11:40\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n2.75\n1.40\nFAIRE UN PARI\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $250 in Bonus Bets when you wager $5 for 5 days\n21+ $5 first deposit required to get bonus bets which expire 7 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-BETS OFF (IA). Please gamble responsibly. Minimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBetMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. 1-800-BETS-OFF (IA), New customers only. T&C apply Must opt-in and wager $10+ cash on any market to receive $50 in Bonus Bets each day for your first 5 days\nDRAFTKINGS - Spend $5+ Get $150 in Bonuses.\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE MATCH\nSTADE:\nEnergia Areena\n (Vantaa)\nFORME\nTanaka Y.\n?\nV\nV\nV\nV\nV\nAntonsen A.\n?\nV\nV\nV\nV\nD",
+        "text_excerpt_for_debug": "Yushi Tanaka - Anders Antonsen (11/10/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - HOMMESARCTIC OPEN - FINALE\nNouvelle fenêtre\n11.10.2026 11:40\nTanaka Y.\nBWF\n: 18.\n-\nAntonsen A.\nBWF\n: 6.\n-\n11.10.2026 11:40\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n2.60\n1.35\nFAIRE UN PARI\n-\n-\nVoir plus\nLIVE STREAMING\nPublicité\nBetclic.fr\nINFORMATIONS DE MATCH\nSTADE:\nEnergia Areena\n (Vantaa)\nFORME\nTanaka Y.\n?\nV\nV\nV\nV\nV\nAntonsen A.\n?\nV\nV\nV\nV\nD\nTÊTE-À-TÊTE\n26.05.26\nOSIN\nAntonsen A.\nTanaka Y.\n2\n0\n14.05.26\nTHA\nAntonsen A.\nTanaka Y.\n2\n1\n23.07.25\nOCV\nTanaka Y.\nAntonsen A.\n0\n2\nMontrer plus de matchs\nPublicité\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nPublicité\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Arctic Open Hommes\nBWF WT KL Masters Malaysia Super 100 Hommes\nBWF WT Open du Danemark Hommes\nBWF WT Arctic Open Femmes\nBWF WT KL Masters Malaysia Super 100 Femmes\nBWF WT Open du Danemark Femmes\nBWF WT Arctic Open Doubles Hommes\nBWF WT KL Masters Malaysia Super 100 Doubles Hommes\nBWF WT Open du Danemark Doubles Hommes\nBWF WT Arctic Open Doubles Femmes\nVoir plus (5)\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femm",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 6482,
+        "body_characters": 5501,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -182,26 +182,22 @@
           "HOME/AWAY",
           "1",
           "2",
+          "2.60",
+          "1.35",
+          "FAIRE UN PARI",
           "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "2.75",
-          "1.40",
-          "FAIRE UN PARI"
+          "-"
         ],
-        "odds_section_dash_count": 8,
+        "odds_section_dash_count": 2,
         "odds_section_decimal_prices": [
-          "2.75",
-          "1.40"
+          "2.60",
+          "1.35"
         ],
         "odds_section_placeholder_only": false,
         "odds_section_bookmaker_names": [],
-        "contains_bookmaker_names": []
+        "contains_bookmaker_names": [
+          "Betclic"
+        ]
       }
     },
     "oddsportal_badminton": {
