@@ -26,7 +26,7 @@ def inspect(coverage):
                 row["parameters_found"]=sorted(set(re.findall(r"\b(?:tmtId|tmtType|tmtTab|selectedDate|date|drawCode|drawId|isPara)\b",snippet)))
             if tid=="5228":
                 # Only test the exact public endpoint with conservative parameters.
-                params=urllib.parse.urlencode({"tmtId":tid,"tmtType":0,"tmtTab":"match","date":"2026-10-13"})
+                params=urllib.parse.urlencode({"drawCount":1,"searchKey":"","tmtTab":"2026-10-13","tmtId":tid,"tmtType":0,"courtCode":"","eventCode":"MS","hideTeamMatches":"false","isPara":"false"})
                 request=urllib.request.Request(row["endpoint"]+"?"+params,headers={"User-Agent":UA,"Accept":"application/json"})
                 try:
                     with urllib.request.urlopen(request,timeout=15) as response:
@@ -36,6 +36,7 @@ def inspect(coverage):
                         row["response_type"]=type(data).__name__
                         row["response_keys"]=list(data)[:20] if isinstance(data,dict) else []
                         row["response_preview"]=json.dumps(data,ensure_ascii=False)[:1200]
+                        row["results_count"]=len(data.get("results")) if isinstance(data,dict) and isinstance(data.get("results"),list) else None
                 except Exception as exc:
                     row["request_error"]=str(exc)[:300]
         except Exception as exc: row["error"]=str(exc)[:300]
