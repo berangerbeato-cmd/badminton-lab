@@ -19,8 +19,11 @@ def validate(refresh, model, comparison=None):
     items = refresh.get("tournament_refreshes") or []
     if refresh.get("errors") or not items:
         raise ValueError("BWF refresh missing or has errors")
-    if any(item.get("status") != "REFRESHED" for item in items):
+    allowed = {"REFRESHED", "EMPTY_RESPONSE"}
+    if any(item.get("status") not in allowed for item in items):
         raise ValueError("BWF tournament refresh incomplete")
+    if not any(item.get("status") == "REFRESHED" for item in items):
+        raise ValueError("No BWF tournament match data refreshed")
     times = [timestamp(item.get("checked_at_utc")) for item in items]
     model_at = timestamp(model.get("generated_at_utc"))
     if model_at <= max(times):
@@ -33,6 +36,8 @@ def validate(refresh, model, comparison=None):
         "status": "ORDER_VALIDATED",
         "policy": "RESEARCH_ONLY_NO_BET",
         "bwf_tournaments": len(items),
+        "bwf_refreshed": sum(x.get("status") == "REFRESHED" for x in items),
+        "bwf_empty_not_yet_published": sum(x.get("status") == "EMPTY_RESPONSE" for x in items),
         "latest_bwf_refresh_utc": max(times).isoformat(),
         "model_generated_at_utc": model_at.isoformat(),
         "comparison_generated_at_utc": comparison_at.isoformat() if comparison is not None else None,
