@@ -1,18 +1,18 @@
 {
-  "observed_at_utc": "2026-10-11T08:44:41+00:00",
+  "observed_at_utc": "2026-10-11T08:46:51+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
-  "online_h2h_shadow_rows": 1,
-  "retail_shadow_rows": 1,
+  "online_h2h_shadow_rows": 0,
+  "retail_shadow_rows": 2,
   "sources": {
     "unibet_fr": {
-      "status": "OBSERVED_SHADOW_NEEDS_MARKET_CONFIRMATION",
-      "quotes": 1,
+      "status": "REJECT_HTTP_CACHE_AGE",
+      "quotes": 0,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=4; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,F:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,H:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1; eligible_MS_H2H=1; local_now=2026-10-11T10:44:41.096073+02:00",
+      "parser_notes": null,
       "error": null,
-      "cache_age_seconds": null,
+      "cache_age_seconds": "299",
       "body_sha256": "14a88e482b7ca16fd634cf0918afdfccf8b7a06b313cfe6311a357f4b27e0a38",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
@@ -31,15 +31,15 @@
       "flashscore_match_audit": null
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-      "quotes": 1,
+      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
+      "quotes": 2,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
-      "cache_age_seconds": null,
-      "body_sha256": "326772c4fdbc10d8b1c0bd2137c9a70dcdf39f78212e03b0a691118a05539cef",
+      "cache_age_seconds": "298",
+      "body_sha256": "152c6fdaca174b8579b50eac1e58c5715ae3dd42280c229624bcde8f85da2288",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "3b67e19f9f16532c85e729d6c5d809d891ef7e0ae7627b38b10574fb7bd4e737",
+      "body_sha256": "15ca9f3eae51e2f96af7f49dbea424f463d1b18d3db8b16be9ce28285e9bbf7b",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "102d18ba3e011031f5dcc2ac09592ae0097caab3007ed39572399dc320778de4",
+      "body_sha256": "0cab7e3d2bd9eacd0382fea73286be666ec51079b7e1cc2526f25dde6dd357e3",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "c55c98c06304cfa2e2bbd260e7fd52ddcce6f1a59ac17ae3500a61d5e3a5ed89",
+      "body_sha256": "52a47319f2275f8b5fb90e16bb7e0b7c887948e4e35a0ab1c037d05b5a84d91f",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,7 +142,7 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "182",
+      "cache_age_seconds": "319",
       "body_sha256": "f34c2a690c01425f48e590ac7bb1dbef9e3ae4f679f61ff48eae72b64dbbfed5",
       "flashscore_discovery": {
         "index_match_links": [
@@ -166,11 +166,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/antonsen-anders-GMQqJqeP/tanaka-yuji-xQbRefgp/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "bc2aa50288c0346b12aebe460d72c6d34975f0b2f6a166bb67ed57c6045c81b4",
+        "body_sha256": "f076e83154e438c547f321ea97386d74cd375638dd554e0134223da0ff757987",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Yushi Tanaka - Anders Antonsen (11/10/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESARCTIC OPEN - FINALE\nNouvelle fenêtre\n11.10.2026 11:40\nTanaka Y.\nBWF\n: 18.\n-\nAntonsen A.\nBWF\n: 6.\n-\n11.10.2026 11:40\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n2.75\n1.40\nFAIRE UN PARI\nVoir plus\nOFFRES BONUS\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nINFORMATIONS DE MATCH\nSTADE:\nEnergia Areena\n (Vantaa)\nFORME\nTanaka Y.\n?\nV\nV\nV\nV\nV\nAntonsen A.\n?\nV\nV\nV\nV\nD\nTÊTE-À-TÊTE\n26.05.26\nOSIN\nAntonsen A.\nTanaka Y.\n2\n0\n14.05.26\nTHA\nAntonsen A.\nTanaka Y.\n2\n1\n23.07.25\nOCV\nTanaka Y.\nAntonsen A.\n0\n2\nMontrer plus de matchs\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Arctic Open Hommes\nBWF WT KL Masters Malaysia Super 100 Hommes\nBWF WT Open du Danemark Hommes\nBWF WT Arctic Open Femmes\nBWF WT KL Masters Malaysia Super 100 Femmes\nBWF WT Open du Danemark Femmes\nBWF WT Arctic Open Doubles Hommes\nBWF WT KL Masters Malaysia Super 100 Doubles Hommes\nBWF WT Open du Danemark Doubles Hommes\nBWF WT Arctic Open Doubles Femmes\nVoir plus (5)\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSu",
+        "text_excerpt_for_debug": "Yushi Tanaka - Anders Antonsen (11/10/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - HOMMESARCTIC OPEN - FINALE\nNouvelle fenêtre\n11.10.2026 11:40\nTanaka Y.\nBWF\n: 18.\n-\nAntonsen A.\nBWF\n: 6.\n-\n11.10.2026 11:40\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n2.75\n1.40\nFAIRE UN PARI\n-\n-\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $250 in Bonus Bets when you wager $5 for 5 days\n21+ $5 first deposit required to get bonus bets which expire 7 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nGAMBLING PROBLEM? Call 1-800-MY-RESET. 21+ only. Must be physically located in VA. Minimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $150 in Bonuses.\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA). T&C apply.\nLIVE STREAMING\nPublicité\nbet365.nj\nINF",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 5526,
+        "body_characters": 6610,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -182,11 +182,21 @@
           "HOME/AWAY",
           "1",
           "2",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
           "2.75",
           "1.40",
-          "FAIRE UN PARI"
+          "FAIRE UN PARI",
+          "-",
+          "-"
         ],
-        "odds_section_dash_count": 0,
+        "odds_section_dash_count": 10,
         "odds_section_decimal_prices": [
           "2.75",
           "1.40"
@@ -197,15 +207,15 @@
       }
     },
     "oddsportal_badminton": {
-      "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
+      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quotes": 0,
-      "robots_status": "ALLOWED_BY_ROBOTS",
-      "http_status": 503,
-      "resolved_url": "https://www.oddsportal.com/badminton/",
+      "robots_status": "ROBOTS_HTTP_503",
+      "http_status": null,
+      "resolved_url": null,
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "body_sha256": null,
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
