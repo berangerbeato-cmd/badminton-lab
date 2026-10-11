@@ -172,7 +172,33 @@ def main():
                         'ev_interpretation': 'ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH',
                         'illustrative_ev_pct': [round((prob * prices[0] - 1) * 100, 2), round(((1-prob) * prices[1] - 1) * 100, 2)],
                         'flags': flags, 'status': 'UNVERIFIED_SHADOW_ONLY', 'decision': 'NO_BET'})
-    output = {'generated_at_utc': datetime.now(timezone.utc).isoformat(timespec='seconds'),
+    # Report coverage separately from illustrative EV. Repeated observations
+    # and missing timestamps must never be counted as validated opportunities.
+    status_counts = {}
+    for item in results:
+        status = item.get('status', 'UNKNOWN')
+        status_counts[status] = status_counts.get(status, 0) + 1
+    verified_prematch_count = sum(
+        1 for item in results if item.get('valid_pre_match_T0') is True
+        and item.get('executable_price_verified') is True
+        and item.get('decision') != 'NO_BET'
+    )
+    verification_summary = {
+        'model_fixture_count': len(models),
+        'public_quote_count': len(observations),
+        'comparison_count': len(results),
+        'status_counts': status_counts,
+        'verified_prematch_count': verified_prematch_count,
+        'validated_roi_pct': None,
+        'missing_kickoff_count': sum(
+            1 for item in results if 'KICKOFF_UNVERIFIED' in item.get('flags', [])
+            or 'BWF_KICKOFF_DATE_ONLY' in item.get('flags', [])
+        ),
+        'missing_executable_price_count': sum(
+            1 for item in results if 'EXECUTABLE_PRICE_UNVERIFIED' in item.get('flags', [])
+        ),
+    }
+    output = {'verification_summary': verification_summary, 'generated_at_utc': datetime.now(timezone.utc).isoformat(timespec='seconds'),
               'policy': 'RESEARCH_ONLY_NO_BET_NO_T0', 'comparison_count': len(results),
               'rejected_sources': rejected, 'source_audit': source_audit, 'results': results}
     args.out.mkdir(parents=True, exist_ok=True)
