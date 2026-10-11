@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 UA = "BadmintonLabResearch/0.1 (official fixture source availability audit)"
-MAX_BYTES = 100000
+MAX_BYTES = 1000000
 
 
 def allowed_official_url(url):
@@ -22,8 +22,8 @@ def allowed_official_url(url):
     parsed = urllib.parse.urlparse(url)
     return (parsed.scheme == "https" and parsed.hostname in
             {"bwfbadminton.com", "www.bwfbadminton.com"} and
-            parsed.path.startswith("/tournament/") and not parsed.username
-            and not parsed.password)
+            (parsed.path.startswith("/tournament/") or parsed.path.startswith("/tournaments/"))
+            and not parsed.username and not parsed.password)
 
 
 def probe(url, timeout=10):
@@ -35,9 +35,9 @@ def probe(url, timeout=10):
             final = response.geturl()
             if not allowed_official_url(final):
                 return {"status": "UNEXPECTED_REDIRECT"}
-            data = response.read(MAX_BYTES + 1)
-            if len(data) > MAX_BYTES:
-                return {"status": "PAGE_TOO_LARGE_FOR_PROBE"}
+            # Only verify the response and its content type; do not download
+            # or parse the full page in this availability probe.
+            response.read(1024)
             content_type = response.headers.get("Content-Type", "")
             return {"status": "PAGE_ACCESSIBLE" if "text/html" in content_type.lower()
                     else "NON_HTML_RESPONSE", "http_status": response.status}
