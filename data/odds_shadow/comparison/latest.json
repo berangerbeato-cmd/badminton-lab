@@ -1,84 +1,7 @@
 {
-  "generated_at_utc": "2026-10-11T08:58:27+00:00",
-  "match_count": 1,
-  "matches": [
-    {
-      "bwf_match_id": "5594:1552528",
-      "comparison_status": "ASYNCHRONOUS_OUTSIDE_WINDOW",
-      "decision": "NO_BET_SHADOW",
-      "executable_price_verified": false,
-      "kickoff_verified": false,
-      "model": "bwf_elo_ms_platt_v1",
-      "model_asof_utc": "2026-10-11T05:24:00+00:00",
-      "model_snapshot_sha256": "c3c7e10cdc7db8a04845adb62bf0b96d0c3e6572efce4b21ab3b3ff328ab802d",
-      "observation_gap_seconds": 1507,
-      "players": [
-        {
-          "best_historical_observation": {
-            "decimal_odds": 2.57,
-            "ev_pct": -0.59,
-            "operator": "NetBet.fr",
-            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
-          },
-          "best_within_window": null,
-          "bwf_player_id": "86672",
-          "model_probability": 0.3868208,
-          "name": "Yushi TANAKA",
-          "observed_odds": {
-            "NetBet.fr": 2.57,
-            "Unibet.fr": 2.55
-          }
-        },
-        {
-          "best_historical_observation": {
-            "decimal_odds": 1.34,
-            "ev_pct": -17.83,
-            "operator": "Unibet.fr",
-            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
-          },
-          "best_within_window": null,
-          "bwf_player_id": "91554",
-          "model_probability": 0.6131792,
-          "name": "Anders ANTONSEN",
-          "observed_odds": {
-            "NetBet.fr": 1.29,
-            "Unibet.fr": 1.34
-          }
-        }
-      ],
-      "source_details": {
-        "NetBet.fr": {
-          "age_seconds": 266,
-          "current": true,
-          "model_snapshot_sha256": "c3c7e10cdc7db8a04845adb62bf0b96d0c3e6572efce4b21ab3b3ff328ab802d",
-          "observed_at_utc": "2026-10-11T08:54:01+00:00",
-          "quality_flags": [
-            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
-            "EVENT_KICKOFF_UNVERIFIED",
-            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
-            "MODEL_PROVISIONAL",
-            "NO_BET"
-          ],
-          "source_url": "https://www.netbet.fr/badminton/international/artic-open"
-        },
-        "Unibet.fr": {
-          "age_seconds": 1773,
-          "current": true,
-          "model_snapshot_sha256": "c3c7e10cdc7db8a04845adb62bf0b96d0c3e6572efce4b21ab3b3ff328ab802d",
-          "observed_at_utc": "2026-10-11T08:28:54+00:00",
-          "quality_flags": [
-            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
-            "EVENT_DETAIL_NOT_VERIFIED",
-            "BWF_KICKOFF_DATE_ONLY",
-            "MODEL_PROVISIONAL",
-            "NO_BET"
-          ],
-          "source_url": "https://www.unibet.fr/paris-badminton"
-        }
-      },
-      "valid_pre_match_T0": false
-    }
-  ],
+  "generated_at_utc": "2026-10-11T09:39:44+00:00",
+  "match_count": 0,
+  "matches": [],
   "max_age_seconds": 2700,
   "max_gap_seconds": 1200,
   "notes": [
@@ -91,22 +14,26 @@
   "schema_version": "badminton_shadow_comparator_v2.1",
   "sources": {
     "NetBet.fr": {
-      "observation_utc": "2026-10-11T08:54:01+00:00",
+      "observation_utc": null,
       "operator": "NetBet.fr",
-      "rejected": [],
-      "rows_current": 1,
-      "rows_read": 1,
-      "rows_validated": 1,
-      "status": "VALIDATED_SOURCE"
+      "rejected": [
+        "SOURCE_OPERATOR_OR_STATUS_UNEXPECTED"
+      ],
+      "rows_current": 0,
+      "rows_read": 0,
+      "rows_validated": 0,
+      "status": "REJECTED_SOURCE"
     },
     "Unibet.fr": {
-      "observation_utc": "2026-10-11T08:28:54+00:00",
+      "observation_utc": null,
       "operator": "Unibet.fr",
-      "rejected": [],
-      "rows_current": 1,
-      "rows_read": 1,
-      "rows_validated": 1,
-      "status": "VALIDATED_SOURCE"
+      "rejected": [
+        "SOURCE_OPERATOR_OR_STATUS_UNEXPECTED"
+      ],
+      "rows_current": 0,
+      "rows_read": 0,
+      "rows_validated": 0,
+      "status": "REJECTED_SOURCE"
     }
   },
   "within_window_match_count": 0
