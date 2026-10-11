@@ -124,6 +124,13 @@ def main():
             parser.feed(html)
             entry["inline_script_blocks"] = len(parser.inline)
             entry["inline_ajax_evidence"] = endpoint_evidence("\n".join(parser.inline))[:60]
+            entry["vue_configuration_context"] = [
+                re.sub(r"\s+", " ", block[max(0, match.start()-250):match.end()+550])[:850]
+                for block in parser.inline
+                for match in list(re.finditer(
+                    r"extranetLvUrl\s*[:=]|tmtTab\s*[:=]|tournamentId\s*[:=]|tmtType\s*[:=]|drawOptionSelect\s*[:=]|isPara\s*[:=]",
+                    block))[:8]
+            ][:32]
             entry["draw_data_fetch_context"] = [
                 re.sub(r"\s+", " ", block[max(0, match.start()-1800):match.end()+450])[:2300]
                 for block in parser.inline
