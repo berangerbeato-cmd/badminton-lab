@@ -71,6 +71,37 @@ def probe(tournament_id):
                                         detail["json_type"] = type(draw_data).__name__
                                         if isinstance(draw_data, dict):
                                             detail["keys"] = list(draw_data.keys())[:20]
+                                            matches = draw_data.get("matches")
+                                            if isinstance(matches, list):
+                                                detail["match_audit"] = {
+                                                    "total": len(matches),
+                                                    "with_two_teams": sum(
+                                                        bool(m.get("team1")) and bool(m.get("team2"))
+                                                        for m in matches if isinstance(m, dict)),
+                                                    "with_match_time_utc": sum(
+                                                        bool(m.get("matchTimeUtc"))
+                                                        for m in matches if isinstance(m, dict)),
+                                                    "statuses": {},
+                                                    "team1_types": {},
+                                                }
+                                                audit = detail["match_audit"]
+                                                for match in matches:
+                                                    if not isinstance(match, dict):
+                                                        continue
+                                                    status = str(match.get("matchStatus") or "missing")
+                                                    audit["statuses"][status] = audit["statuses"].get(status, 0) + 1
+                                                    kind = type(match.get("team1")).__name__
+                                                    audit["team1_types"][kind] = audit["team1_types"].get(kind, 0) + 1
+                                                for match in matches[:2]:
+                                                    if isinstance(match, dict):
+                                                        detail.setdefault("sample_match_shapes", []).append({
+                                                            "team1": match.get("team1"),
+                                                            "team2": match.get("team2"),
+                                                            "matchTime": match.get("matchTime"),
+                                                            "matchTimeUtc": match.get("matchTimeUtc"),
+                                                            "matchStatus": match.get("matchStatus"),
+                                                            "roundName": match.get("roundName"),
+                                                        })
                                             for key in ("results", "matches", "drawsize"):
                                                 value = draw_data.get(key)
                                                 detail[key + "_count"] = len(value) if isinstance(value, list) else None
