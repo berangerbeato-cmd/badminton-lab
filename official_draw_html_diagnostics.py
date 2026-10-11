@@ -50,7 +50,9 @@ def main():
     args.out.write_text(json.dumps({"policy": "RESEARCH_ONLY_NO_BET",
                                     "tournaments": rows}, indent=2) + "\n", encoding="utf-8")
     print(json.dumps([{"id": x["id"], "status": x["inspection"]["status"],
-                       "links": len(x["inspection"].get("links_of_interest", []))}
+                       "links_of_interest": x["inspection"].get("links_of_interest", []),
+                       "has_next_data": x["inspection"].get("has_next_data"),
+                       "has_ld_json": x["inspection"].get("has_ld_json")}
                       for x in rows], indent=2))
 
 
