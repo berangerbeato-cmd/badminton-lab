@@ -1,0 +1,42 @@
+{
+  "generated_at_utc": "2026-10-11T08:32:14+00:00",
+  "comparison_generated_at_utc": "2026-10-11T08:32:14+00:00",
+  "policy": "RESEARCH_ONLY_NO_BET",
+  "comparison_count": 2,
+  "status_counts": {
+    "BLOCKED_UNVERIFIED": 2
+  },
+  "reason_counts": {
+    "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN": 2,
+    "EXECUTABLE_PRICE_UNVERIFIED": 2,
+    "KICKOFF_UNVERIFIED": 2,
+    "MARKET_DETAIL_UNVERIFIED": 2
+  },
+  "rows": [
+    {
+      "source": "unibet_fr",
+      "bwf_match_id": "5594:1552528",
+      "player_a": "Yushi TANAKA",
+      "player_b": "Anders ANTONSEN",
+      "model_age_minutes": 0.6,
+      "ev_a_pct": 7.92,
+      "ev_b_pct": -22.71,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5594:1552528",
+      "player_a": "Yushi TANAKA",
+      "player_b": "Anders ANTONSEN",
+      "model_age_minutes": 1.5,
+      "ev_a_pct": 7.92,
+      "ev_b_pct": -25.02,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED",
+      "decision": "NO_BET"
+    }
+  ],
+  "note": "Quality audit only; never confirms a market or executable price."
+}

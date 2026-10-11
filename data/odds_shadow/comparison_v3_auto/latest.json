@@ -6,6 +6,13 @@
     ],
     "unmatched_observation_count": 0,
     "unmatched_observations": [],
+    "external_schedule_coverage_count": 0,
+    "kickoff_evidence_status_counts": {
+      "SOURCE_MISSING": 2
+    },
+    "prematch_timing_status_counts": {
+      "KICKOFF_DATE_ONLY": 2
+    },
     "model_fixture_count": 1,
     "public_quote_count": 2,
     "comparison_count": 2,
@@ -17,7 +24,7 @@
     "missing_kickoff_count": 2,
     "missing_executable_price_count": 2
   },
-  "generated_at_utc": "2026-10-11T08:28:17+00:00",
+  "generated_at_utc": "2026-10-11T08:32:14+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 2,
   "rejected_sources": [],
@@ -43,9 +50,18 @@
         "Yushi TANAKA",
         "Anders ANTONSEN"
       ],
-      "observed_at_utc": "2026-10-11T08:27:15+00:00",
-      "model_asof_utc": "2026-10-11T08:26:50+00:00",
-      "model_age_seconds": 25,
+      "prematch_timing_status": "KICKOFF_DATE_ONLY",
+      "kickoff_source_verified": false,
+      "external_schedule_status": "NO_EXTERNAL_SCHEDULE",
+      "external_scheduled_start_utc": null,
+      "external_schedule_source": null,
+      "external_schedule_source_url": null,
+      "kickoff_evidence_status": "SOURCE_MISSING",
+      "kickoff_source": null,
+      "kickoff_source_url": null,
+      "observed_at_utc": "2026-10-11T08:31:14+00:00",
+      "model_asof_utc": "2026-10-11T08:30:36+00:00",
+      "model_age_seconds": 38,
       "model_probability_a": 0.4232038,
       "bookmaker_player_order_reversed": false,
       "odds": [
@@ -89,9 +105,18 @@
         "Yushi TANAKA",
         "Anders ANTONSEN"
       ],
-      "observed_at_utc": "2026-10-11T08:28:07+00:00",
-      "model_asof_utc": "2026-10-11T08:26:50+00:00",
-      "model_age_seconds": 77,
+      "prematch_timing_status": "KICKOFF_DATE_ONLY",
+      "kickoff_source_verified": false,
+      "external_schedule_status": "NO_EXTERNAL_SCHEDULE",
+      "external_scheduled_start_utc": null,
+      "external_schedule_source": null,
+      "external_schedule_source_url": null,
+      "kickoff_evidence_status": "SOURCE_MISSING",
+      "kickoff_source": null,
+      "kickoff_source_url": null,
+      "observed_at_utc": "2026-10-11T08:32:05+00:00",
+      "model_asof_utc": "2026-10-11T08:30:36+00:00",
+      "model_age_seconds": 89,
       "model_probability_a": 0.4232038,
       "bookmaker_player_order_reversed": false,
       "odds": [

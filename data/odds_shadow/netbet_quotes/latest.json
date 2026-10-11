@@ -62,7 +62,7 @@
     "https://www.netbet.fr/badminton/international/artic-open-doubles-f",
     "https://www.netbet.fr/badminton/international/artic-open"
   ],
-  "index_body_sha256": "92708f854d7574928a5fafd3981e1f225127db9129a91ca98cb9c1a259c26ed2",
+  "index_body_sha256": "ff0556f5449d16894f567c04bb766abc45574e494ef42d5f2a1a56c033c3516b",
   "index_eligible_quotes": 0,
   "index_http_status": 200,
   "index_link_count": 120,
@@ -89,7 +89,7 @@
           "Jiang-Wei",
           "1.01",
           "Gao-Wu",
-          "6.00"
+          "7.50"
         ],
         "market_line": 118,
         "preceding_lines": [
@@ -105,8 +105,8 @@
           "Gao-Wu",
           "1",
           "0",
-          "0",
-          "0"
+          "4",
+          "2"
         ],
         "reason": "PLAYER_PAIR_MISMATCH"
       },
@@ -119,18 +119,18 @@
         ],
         "market_line": 130,
         "preceding_lines": [
-          "0",
-          "0",
+          "4",
+          "2",
           "Qui va gagner le match ?",
           "Jiang-Wei",
           "1.01",
           "Gao-Wu",
-          "6.00",
+          "7.50",
           "+ 3",
           "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
           "Populaires",
           "Artic Open (F)",
-          "LIVE dans 2 min",
+          "LIVE dans 8 min",
           "Ratchanok Intanon",
           "Mia Blichfeldt"
         ],
@@ -145,7 +145,7 @@
         ],
         "market_line": 141,
         "preceding_lines": [
-          "LIVE dans 2 min",
+          "LIVE dans 8 min",
           "Ratchanok Intanon",
           "Mia Blichfeldt",
           "Qui va gagner le match ?",
@@ -156,7 +156,7 @@
           "+ 26",
           "Artic Open - Doubles (F)",
           "dim. 11 oct.",
-          "11:30",
+          "11:40",
           "Chen-Luo",
           "Hsu-Lin"
         ],
@@ -171,7 +171,7 @@
         ],
         "market_line": 152,
         "preceding_lines": [
-          "11:30",
+          "11:40",
           "Chen-Luo",
           "Hsu-Lin",
           "Qui va gagner le match ?",
@@ -182,7 +182,7 @@
           "+ 24",
           "Artic Open - Doubles",
           "dim. 11 oct.",
-          "12:00",
+          "12:10",
           "Tai-King",
           "Lai-Tsai"
         ],
@@ -208,7 +208,7 @@
           "(4)",
           "À Venir",
           "Artic Open (F)",
-          "LIVE dans 2 min",
+          "LIVE dans 8 min",
           "Ratchanok Intanon",
           "Mia Blichfeldt"
         ],
@@ -224,7 +224,7 @@
         "market_line": 179,
         "preceding_lines": [
           "Artic Open (F)",
-          "LIVE dans 2 min",
+          "LIVE dans 8 min",
           "Ratchanok Intanon",
           "Mia Blichfeldt",
           "Qui va gagner le match ?",
@@ -234,7 +234,7 @@
           "2.30",
           "+ 26",
           "Artic Open",
-          "LIVE dans 32 min",
+          "LIVE dans 38 min",
           "Yushi Tanaka",
           "Anders Antonsen"
         ],
@@ -252,12 +252,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-10-11.csv",
   "model_snapshot_sha256": "c3c7e10cdc7db8a04845adb62bf0b96d0c3e6572efce4b21ab3b3ff328ab802d",
-  "observed_at_utc": "2026-10-11T08:28:07+00:00",
+  "observed_at_utc": "2026-10-11T08:32:05+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "9adeeebc10fdabd40839430097d9f53f26ffddd8b34373db552617b47ac3b25d",
+      "body_sha256": "4827ba9adb746a64558b4969127caadc6b9803edcdee05ed027fa54e6d5c831f",
       "cache_age_seconds": null,
       "eligible_listing_rows": 1,
       "http_status": 200,
