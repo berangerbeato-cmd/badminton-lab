@@ -1,11 +1,11 @@
 {
   "bookmaker_price_updated_at": null,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-11T08:24:05+00:00",
+  "observed_at_utc": "2026-10-11T08:26:19+00:00",
   "operator": "OddsPortal (aggregator)",
   "operator_kind": "AGGREGATOR_AUDIT_ONLY",
   "quotes": [],
-  "robots_status": "ROBOTS_HTTP_429",
+  "robots_status": "ROBOTS_HTTP_503",
   "source_key": "oddsportal_badminton",
   "source_url": "https://www.oddsportal.com/badminton/",
   "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",

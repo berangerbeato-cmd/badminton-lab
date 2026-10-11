@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-11T08:23:07+00:00",
+  "observed_at_utc": "2026-10-11T08:25:23+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 1,
   "retail_shadow_rows": 1,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=4; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,F:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,H:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1; eligible_MS_H2H=1; local_now=2026-10-11T10:23:07.974102+02:00",
+      "parser_notes": "parsed; page_parsed_entries=4; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,F:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,H:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1; eligible_MS_H2H=1; local_now=2026-10-11T10:25:23.444122+02:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "92ee7049e304c393bdacf02602a5ba04a90ee517a66d3be723a37749af8713f3",
+      "body_sha256": "13e6792e65b5b1236313ae4fe0ce33334b128cfacd4b71f9465c9b93fe0027af",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "f553d3b2338abc5501508a3b20c38dd01cc7e15a8a230149bc723a703b8077cf",
+      "body_sha256": "2ea67d24006e6efe97c2ef5a31a1bbe6ddacc23f9a0460ad7cf1ef1599bb9843",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "0a449ee0a590f19681b73e99113969aa326466f43d999c07add28351d671c2ef",
+      "body_sha256": "56ad08c4dd2830e0270ae20ed83b2abe8f180ed3c280e00d18035d804faca1de",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "a89961d19722f00b7a9c1d1deef8dd2037d25a593d498f34eb2c79032faab401",
+      "body_sha256": "a449fcd4c8d65ff66641ce8735cc8c5f0bf5ece9759713a4d2484701b5a8da89",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "226",
-      "body_sha256": "91405a17d499a3a7a3b13e8f31cbe45d99ab249b9453e032df540ac53b88dce2",
+      "cache_age_seconds": "361",
+      "body_sha256": "2622f5b545232cfec788ca9f739e59465a8026f8a7b2e551aa4e8d0cf4709bee",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/antonsen-anders-GMQqJqeP/tanaka-yuji-xQbRefgp/?mid=Mk4HMUO6",
@@ -155,7 +155,7 @@
         ],
         "index_match_link_count": 6,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Arctic Open 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n11/10 DI\nArctic Open (Finlande)\nBWF WORLD TOUR - HOMMES: \nTableau\n11:40\nTanaka Y.\nAntonsen A.\n-\n-\nArctic Open (Finlande)\nBWF WORLD TOUR - FEMMES: \nTableau\n10:50\nIntanon R.\nBlichfeldt M.\n-\n-\nFlashscore Actualités\nLe Clash du Dimanche Soir : Patrick Beach x Jeffrey De Lange\nMarco Bezzecchi et les Aprilia règnent en maîtres à Mandalika\nArthur Gea s'offre le 4e mondial Ben Shelton à Shanghai\nAller vers Actualités\nArctic Open (Finlande)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n13:20\nTai A.\nYap R. K.\nLai P. Y.\nTsai F. C.\n-\n-\nArctic Open (Finlande)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n12:30\nChen F. S. T.\nLuo X. M.\nHsu Y. H.\nLin J. Y.\n-\n-\nArctic Open (Finlande)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\n1. set\nJiang Z. B.\nWei Y. X.\nGao J. X.\nWu M. Y.\n0\n0\n16\n14\nPublicité\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Arctic Open Hommes\nBWF WT KL Masters Malaysia Super 100 Hommes\nBWF WT Open du Danemark Hommes\nBWF WT Arctic Open Femmes\nBWF WT KL Masters Malaysia Super 100 Femmes\nBWF WT Open du Danemark Femmes\nBWF WT Arctic Open Doubles Hommes\nBWF WT KL Masters Malaysia Super 100 Doubles Hommes\nBWF WT Open du Danemark Doubles Hommes\nBWF WT Arctic Open Doubles Femmes\nVoir plus (5)\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutre"
+        "index_text_excerpt": "Arctic Open 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n11/10 DI\nArctic Open (Finlande)\nBWF WORLD TOUR - HOMMES: \nTableau\n11:40\nTanaka Y.\nAntonsen A.\n-\n-\nArctic Open (Finlande)\nBWF WORLD TOUR - FEMMES: \nTableau\n10:50\nIntanon R.\nBlichfeldt M.\n-\n-\nFlashscore Actualités\nLe Clash du Dimanche Soir : Patrick Beach x Jeffrey De Lange\nMarco Bezzecchi et les Aprilia règnent en maîtres à Mandalika\nArthur Gea s'offre le 4e mondial Ben Shelton à Shanghai\nAller vers Actualités\nArctic Open (Finlande)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n13:20\nTai A.\nYap R. K.\nLai P. Y.\nTsai F. C.\n-\n-\nArctic Open (Finlande)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n12:30\nChen F. S. T.\nLuo X. M.\nHsu Y. H.\nLin J. Y.\n-\n-\nArctic Open (Finlande)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\n1. set\nJiang Z. B.\nWei Y. X.\nGao J. X.\nWu M. Y.\n0\n0\n18\n17\nPublicité\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Arctic Open Hommes\nBWF WT KL Masters Malaysia Super 100 Hommes\nBWF WT Open du Danemark Hommes\nBWF WT Arctic Open Femmes\nBWF WT KL Masters Malaysia Super 100 Femmes\nBWF WT Open du Danemark Femmes\nBWF WT Arctic Open Doubles Hommes\nBWF WT KL Masters Malaysia Super 100 Doubles Hommes\nBWF WT Open du Danemark Doubles Hommes\nBWF WT Arctic Open Doubles Femmes\nVoir plus (5)\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutre"
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/antonsen-anders-GMQqJqeP/tanaka-yuji-xQbRefgp/#/cotes/home-away/temps-regulier/",
@@ -207,7 +207,7 @@
     "oddsportal_badminton": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quotes": 0,
-      "robots_status": "ROBOTS_HTTP_429",
+      "robots_status": "ROBOTS_HTTP_503",
       "http_status": null,
       "resolved_url": null,
       "parser_notes": null,
