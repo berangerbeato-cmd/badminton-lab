@@ -11,6 +11,8 @@ on:
       - 'official_ms_draw_probe.py'
       - 'official_draw_ajax_evidence.py'
       - 'official_draw_api_probe.py'
+      - 'v32_official_fixture_bridge.py'
+      - 'test_v32_official_fixture_bridge.py'
       - 'test_official_draw_sources.py'
       - '.github/workflows/global_fixture_coverage.yml'
 jobs:
@@ -24,7 +26,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Unit tests
-        run: python -m unittest -v test_global_fixture_coverage.py test_official_draw_sources.py
+        run: python -m unittest -v test_global_fixture_coverage.py test_official_draw_sources.py test_v32_official_fixture_bridge.py
       - name: Worldwide inventory
         run: python global_fixture_coverage.py --days 14 --out global_coverage.json
       - name: Probe official tournament pages (max 5)
@@ -39,6 +41,8 @@ jobs:
         run: python official_draw_ajax_evidence.py --coverage global_coverage.json --out official_draw_ajax_evidence.json
       - name: Probe official BWF public draw API (read-only)
         run: python official_draw_api_probe.py --coverage global_coverage.json --out official_draw_api_probe.json
+      - name: Prepare V3.2 shadow fixture bridge
+        run: python v32_official_fixture_bridge.py --input official_ms_fixture_candidates.json --out v32_official_fixture_bridge.json
       - name: Upload research-only report
         if: always()
         uses: actions/upload-artifact@v4
@@ -53,4 +57,5 @@ jobs:
             official_draw_ajax_evidence.json
             official_draw_api_probe.json
             official_ms_fixture_candidates.json
+            v32_official_fixture_bridge.json
           if-no-files-found: warn
