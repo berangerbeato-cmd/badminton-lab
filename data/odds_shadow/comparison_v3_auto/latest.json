@@ -24,7 +24,7 @@
     "missing_kickoff_count": 2,
     "missing_executable_price_count": 2
   },
-  "generated_at_utc": "2026-10-11T08:54:09+00:00",
+  "generated_at_utc": "2026-10-11T09:07:52+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 2,
   "rejected_sources": [],
@@ -59,23 +59,23 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-11T08:53:07+00:00",
-      "model_asof_utc": "2026-10-11T08:52:31+00:00",
-      "model_age_seconds": 36,
+      "observed_at_utc": "2026-10-11T09:06:43+00:00",
+      "model_asof_utc": "2026-10-11T09:06:11+00:00",
+      "model_age_seconds": 32,
       "model_probability_a": 0.4232038,
       "bookmaker_player_order_reversed": false,
       "odds": [
-        2.55,
-        1.34
+        2.5,
+        1.33
       ],
-      "market_overround_pct": 13.84,
+      "market_overround_pct": 15.19,
       "market_implied_probability_raw": [
-        0.392157,
-        0.746269
+        0.4,
+        0.75188
       ],
       "market_implied_probability_normalized": [
-        0.344473,
-        0.655527
+        0.347258,
+        0.652742
       ],
       "quote_listed_day_paris": null,
       "quote_day_basis": null,
@@ -85,8 +85,8 @@
       "observation_before_listed_calendar_day": false,
       "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
       "illustrative_ev_pct": [
-        7.92,
-        -22.71
+        5.8,
+        -23.29
       ],
       "flags": [
         "MARKET_DETAIL_UNVERIFIED",
@@ -114,8 +114,8 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-11T08:54:01+00:00",
-      "model_asof_utc": "2026-10-11T08:52:31+00:00",
+      "observed_at_utc": "2026-10-11T09:07:41+00:00",
+      "model_asof_utc": "2026-10-11T09:06:11+00:00",
       "model_age_seconds": 90,
       "model_probability_a": 0.4232038,
       "bookmaker_player_order_reversed": false,
