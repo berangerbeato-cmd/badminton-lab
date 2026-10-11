@@ -39,7 +39,7 @@ def candidate_scripts(html, base):
         if not allowed_official_url(url):
             continue
         path = urllib.parse.urlsplit(url).path.lower()
-        if path.endswith(".js"):
+        if path.endswith(".js") or ".js?" in url.lower():
             urls.append(url)
     unique = list(dict.fromkeys(urls))
     priority = ("draw", "match", "tournament", "result", "app", "main", "functions")
@@ -89,6 +89,9 @@ def main():
             html = read_html(url, 2_000_000)
             selected = candidate_scripts(html, url)
             entry["selected_script_count"] = len(selected)
+            entry["script_tag_count"] = html.lower().count("<script")
+            entry["script_src_count"] = len(re.findall(r"<script[^>]+src\\s*=", html, re.I))
+            entry["script_source_samples"] = re.findall(r"<script[^>]+src\\s*=\\s*[\\x27\\x22]([^\\x27\\x22]+)", html, re.I)[:8]
             for js_url in selected:
                 item = {"url": js_url}
                 try:
