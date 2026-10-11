@@ -37,6 +37,7 @@ def inspect(coverage):
                         row["response_keys"]=list(data)[:20] if isinstance(data,dict) else []
                         row["response_preview"]=json.dumps(data,ensure_ascii=False)[:1200]
                         row["results_count"]=len(data.get("results")) if isinstance(data,dict) and isinstance(data.get("results"),list) else None
+                        row["diagnosis"]="NULL_RESULTS_NOT_SCHEDULE" if isinstance(data,dict) and data.get("results") is None else "CHECK_MATCH_FIELDS"
                 except Exception as exc:
                     row["request_error"]=str(exc)[:300]
         except Exception as exc: row["error"]=str(exc)[:300]
