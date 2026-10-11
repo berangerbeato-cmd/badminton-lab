@@ -1,0 +1,38 @@
+{
+  "verification_summary": {
+    "unique_matched_fixture_count": 0,
+    "matched_fixture_ids": [],
+    "unmatched_observation_count": 0,
+    "unmatched_observations": [],
+    "external_schedule_coverage_count": 0,
+    "kickoff_evidence_status_counts": {},
+    "prematch_timing_status_counts": {},
+    "model_fixture_count": 1,
+    "public_quote_count": 0,
+    "comparison_count": 0,
+    "status_counts": {},
+    "verified_prematch_count": 0,
+    "validated_roi_pct": null,
+    "missing_kickoff_count": 0,
+    "missing_executable_price_count": 0
+  },
+  "generated_at_utc": "2026-10-11T09:31:03+00:00",
+  "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
+  "comparison_count": 0,
+  "rejected_sources": [],
+  "source_audit": {
+    "unibet_fr": {
+      "status": "FRESH_EMPTY",
+      "snapshot_file": "data/odds_shadow/unibet_fr/latest.json",
+      "quotes_read": 0,
+      "collector_status": "NO_CONFIDENT_PREMATCH_QUOTES"
+    },
+    "netbet_quotes": {
+      "status": "FRESH_EMPTY",
+      "snapshot_file": "data/odds_shadow/netbet_quotes/latest.json",
+      "quotes_read": 0,
+      "collector_status": "NO_CONFIDENT_QUOTES"
+    }
+  },
+  "results": []
+}

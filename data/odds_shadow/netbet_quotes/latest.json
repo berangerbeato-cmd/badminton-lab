@@ -8,7 +8,7 @@
     "https://www.netbet.fr/badminton",
     "https://www.netbet.fr/badminton/international/artic-open-doubles-f"
   ],
-  "index_body_sha256": "facad0ca9960e7f4b2abc00071cfb06afcbac9e6e40c59370d3d23fc07928a48",
+  "index_body_sha256": "b51385c8da61ac834b1c70caaa88cc8b103bb0a6effa5131241273c0f45647da",
   "index_eligible_quotes": 0,
   "index_http_status": 200,
   "index_link_count": 102,
@@ -33,9 +33,9 @@
       {
         "following_lines": [
           "Ratchanok Intanon",
-          "2.80",
+          "3.95",
           "Mia Blichfeldt",
-          "1.22"
+          "1.09"
         ],
         "market_line": 118,
         "preceding_lines": [
@@ -51,8 +51,8 @@
           "Mia Blichfeldt",
           "0",
           "1",
-          "1",
-          "2"
+          "7",
+          "10"
         ],
         "reason": "PLAYER_PAIR_MISMATCH"
       },
@@ -65,18 +65,18 @@
         ],
         "market_line": 130,
         "preceding_lines": [
-          "1",
-          "2",
+          "7",
+          "10",
           "Qui va gagner le match ?",
           "Ratchanok Intanon",
-          "2.80",
+          "3.95",
           "Mia Blichfeldt",
-          "1.22",
+          "1.09",
           "+ 3",
           "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
           "Populaires",
           "Artic Open - Doubles (F)",
-          "LIVE dans 26 min",
+          "LIVE dans 19 min",
           "Chen-Luo",
           "Hsu-Lin"
         ],
@@ -87,12 +87,12 @@
           "Tai-King",
           "1.14",
           "Lai-Tsai",
-          "3.45"
+          "3.50"
         ],
         "market_line": 140,
         "preceding_lines": [
           "Artic Open - Doubles (F)",
-          "LIVE dans 26 min",
+          "LIVE dans 19 min",
           "Chen-Luo",
           "Hsu-Lin",
           "Qui va gagner le match ?",
@@ -102,7 +102,7 @@
           "3.20",
           "+ 24",
           "Artic Open - Doubles",
-          "LIVE dans 56 min",
+          "LIVE dans 49 min",
           "Tai-King",
           "Lai-Tsai"
         ],
@@ -120,7 +120,7 @@
           "Tai-King",
           "1.14",
           "Lai-Tsai",
-          "3.45",
+          "3.50",
           "+ 25",
           "Artic Open - Doubles (F)",
           "(1)",
@@ -128,7 +128,7 @@
           "(3)",
           "À Venir",
           "Artic Open - Doubles (F)",
-          "LIVE dans 26 min",
+          "LIVE dans 19 min",
           "Chen-Luo",
           "Hsu-Lin"
         ],
@@ -139,12 +139,12 @@
           "Tai-King",
           "1.14",
           "Lai-Tsai",
-          "3.45"
+          "3.50"
         ],
         "market_line": 165,
         "preceding_lines": [
           "Artic Open - Doubles (F)",
-          "LIVE dans 26 min",
+          "LIVE dans 19 min",
           "Chen-Luo",
           "Hsu-Lin",
           "Qui va gagner le match ?",
@@ -154,7 +154,7 @@
           "3.20",
           "+ 24",
           "Artic Open - Doubles",
-          "LIVE dans 56 min",
+          "LIVE dans 49 min",
           "Tai-King",
           "Lai-Tsai"
         ],
@@ -170,7 +170,7 @@
   "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": null,
-  "observed_at_utc": "2026-10-11T09:23:33+00:00",
+  "observed_at_utc": "2026-10-11T09:30:57+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [],

@@ -1,11 +1,11 @@
 {
-  "body_sha256": "9de3122792729ead3aed34f8788cd7df35ac3d62dc06885a1e35585bda8ab97f",
+  "body_sha256": "374da2a8b5c181f7639c070ef7c4eed6f66dab20699c7f70fcbe7022d19ebfe5",
   "bookmaker_price_updated_at": null,
   "cache_age_seconds": null,
-  "finished_at_utc": "2026-10-11T09:28:25+00:00",
+  "finished_at_utc": "2026-10-11T09:30:23+00:00",
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-11T09:28:19+00:00",
+  "observed_at_utc": "2026-10-11T09:30:18+00:00",
   "operator": "Parions Sport Point de Vente (FDJ)",
   "operator_kind": "RETAIL_NOT_ONLINE",
   "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
@@ -23,10 +23,10 @@
   "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Sun, 11 Oct 2026 09:28:20 GMT",
+  "server_date": "Sun, 11 Oct 2026 09:30:19 GMT",
   "source_key": "fdj_pos_fr",
   "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
   "status": "NO_CONFIDENT_PREMATCH_QUOTES",
-  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nL1 McDonald's\nPremier League\nLaLiga\nSerie A\nBundesliga 1\nLigue 2 BKT\nChampionsLeague\n+\nAfficher plus\nTennis\nToutes les compétitions\nShanghai\nPékin F\nWuhan\nBasketball\nToutes les compétitions\nEuroleague (H)\nD1 France (H)\nLFB\nTBSL\nLiga ACB\nSerie A\nBBL\nA1\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nAthlétisme\nBadminton\nBaseball\nFormule 1\nNascar\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nAujourd'hui\nChen/Luo-Hsu/Lin\nOp. Finlande DF\n\nN°14102 Face à Face I Fin de valid. 11/10 11h45\n\nAfficher\nChen/Luo\n1,22\nHsu/Lin\n3,10\n47%\n52%\nTai /Yap-Lai/Tsai\nOp. Finlande DH\n\nN°14219 Face à Face I Fin de valid. 11/10 12h15\n\nAfficher\nTai /Yap\n1,20\nLai/Tsai\n3,30\n87%\n12%\nLiens utiles :\nLoto Foot\nRésultats Loto Foot\nParions Sport résultat\nListe Parions Sport\nParions Sport match du jour\nMon Panier\nMes QR codes\nMes sélections\nVotre panier est vide\n\nSélectionner au moins un pronostic pour pouvoir pari",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nL1 McDonald's\nPremier League\nLaLiga\nSerie A\nBundesliga 1\nLigue 2 BKT\nChampionsLeague\n+\nAfficher plus\nTennis\nToutes les compétitions\nShanghai\nPékin F\nWuhan\nBasketball\nToutes les compétitions\nEuroleague (H)\nD1 France (H)\nLFB\nTBSL\nLiga ACB\nSerie A\nBBL\nA1\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nAthlétisme\nBadminton\nBaseball\nFormule 1\nNascar\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nAujourd'hui\nChen/Luo-Hsu/Lin\nOp. Finlande DF\n\nN°14102 Face à Face I Fin de valid. 11/10 11h45\n\nAfficher\nChen/Luo\n1,22\nHsu/Lin\n3,10\n46%\n53%\nTai /Yap-Lai/Tsai\nOp. Finlande DH\n\nN°14219 Face à Face I Fin de valid. 11/10 12h15\n\nAfficher\nTai /Yap\n1,20\nLai/Tsai\n3,30\n85%\n14%\nLiens utiles :\nLoto Foot\nRésultats Loto Foot\nParions Sport résultat\nListe Parions Sport\nParions Sport match du jour\nMon Panier\nMes QR codes\nMes sélections\nVotre panier est vide\n\nSélectionner au moins un pronostic pour pouvoir pari",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }
