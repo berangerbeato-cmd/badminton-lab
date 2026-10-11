@@ -79,9 +79,9 @@ def endpoint_evidence(script):
                 r"axios\.(?:get|post)\s*\(", r"fetch\s*\(",
                 r"ajaxurl", r"admin-ajax\.php", r"wp-json", r"graphql",
                 r"ajaxTmt", r"loadResultContent", r"drawTable", r"child-match",
-                r"drawTableRoundRobin", r"drawTableKnockout", r"drawTable(?:Data)?\\s*[:=]",
-                r"axios\\s*\\(", r"\\.get\\s*\\(", r"\\.post\\s*\\(",
-                r"mounted\\s*\\(", r"created\\s*\\(", r"api[_/-]", r"endpoint")
+                r"drawTableRoundRobin", r"drawTableKnockout", r"drawTable(?:Data)?\s*[:=]",
+                r"axios\s*\(", r"\\.get\s*\(", r"\\.post\s*\(",
+                r"mounted\s*\(", r"created\s*\(", r"api[_/-]", r"endpoint")
     results = []
     for pattern in patterns:
         for match in list(re.finditer(pattern, script, re.I))[:12]:
