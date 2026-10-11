@@ -15,7 +15,7 @@ from official_draw_sources import UA, allowed_official_url
 from official_ms_draw_probe import ms_draw_url
 
 MAX_JS_BYTES = 750_000
-MAX_SCRIPTS = 8
+MAX_SCRIPTS = 12
 
 
 class ScriptLinks(HTMLParser):
@@ -39,10 +39,12 @@ def candidate_scripts(html, base):
         if not allowed_official_url(url):
             continue
         path = urllib.parse.urlsplit(url).path.lower()
-        if path.endswith(".js") and any(token in path for token in
-                                        ("draw", "tournament", "match", "event", "results")):
+        if path.endswith(".js"):
             urls.append(url)
-    return list(dict.fromkeys(urls))[:MAX_SCRIPTS]
+    unique = list(dict.fromkeys(urls))
+    priority = ("draw", "match", "tournament", "result", "app", "main", "functions")
+    unique.sort(key=lambda u: (not any(p in urllib.parse.urlsplit(u).path.lower() for p in priority), u))
+    return unique[:MAX_SCRIPTS]
 
 
 def endpoint_evidence(script):
@@ -85,7 +87,9 @@ def main():
         entry = {"id": tournament.get("tournament_id"), "ms_url": url, "scripts": []}
         try:
             html = read_html(url, 2_000_000)
-            for js_url in candidate_scripts(html, url):
+            selected = candidate_scripts(html, url)
+            entry["selected_script_count"] = len(selected)
+            for js_url in selected:
                 item = {"url": js_url}
                 try:
                     script = read_html(js_url, MAX_JS_BYTES)
