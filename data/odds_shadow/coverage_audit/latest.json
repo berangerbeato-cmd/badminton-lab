@@ -47,7 +47,7 @@
     "NO_CONFIDENT_QUOTES_EXTRACTED": 1,
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2
   },
-  "generated_at_utc": "2026-10-11T09:07:53.628300+00:00",
+  "generated_at_utc": "2026-10-11T09:09:55.365507+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 1,
@@ -65,8 +65,8 @@
     "unibet_fr": {
       "status": "OBSERVED_SHADOW_NEEDS_MARKET_CONFIRMATION",
       "quote_count": 1,
-      "observed_at_utc": "2026-10-11T09:06:43+00:00",
-      "parser_notes": "parsed; page_parsed_entries=3; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,H:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1; eligible_MS_H2H=1; local_now=2026-10-11T11:06:42.646011+02:00",
+      "observed_at_utc": "2026-10-11T09:08:49+00:00",
+      "parser_notes": "parsed; page_parsed_entries=3; by_discipline_and_status=DF:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,DH:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1,H:OBSERVED_NOT_BOOKMAKER_TIMESTAMPED=1; eligible_MS_H2H=1; local_now=2026-10-11T11:08:49.326015+02:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "QUOTE_OBSERVED_REQUIRES_VALIDATION"
@@ -74,7 +74,7 @@
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
       "quote_count": 1,
-      "observed_at_utc": "2026-10-11T09:07:41+00:00",
+      "observed_at_utc": "2026-10-11T09:09:44+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 0,
@@ -83,11 +83,11 @@
           {
             "following_lines": [
               "Ratchanok Intanon",
-              "1.92",
+              "2.05",
               "Mia Blichfeldt",
-              "1.52"
+              "1.45"
             ],
-            "market_line": 114,
+            "market_line": 116,
             "preceding_lines": [
               "Badminton",
               "Pariez sur",
@@ -101,8 +101,8 @@
               "LIVE",
               "Ratchanok Intanon",
               "Mia Blichfeldt",
-              "6",
-              "10"
+              "7",
+              "12"
             ],
             "reason": "PLAYER_PAIR_MISMATCH"
           },
@@ -113,20 +113,20 @@
               "Hsu-Lin",
               "3.20"
             ],
-            "market_line": 126,
+            "market_line": 128,
             "preceding_lines": [
-              "6",
-              "10",
+              "7",
+              "12",
               "Qui va gagner le match ?",
               "Ratchanok Intanon",
-              "1.92",
+              "2.05",
               "Mia Blichfeldt",
-              "1.52",
+              "1.45",
               "+ 3",
               "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
               "Populaires",
               "Artic Open - Doubles (F)",
-              "LIVE dans 42 min",
+              "LIVE dans 40 min",
               "Chen-Luo",
               "Hsu-Lin"
             ],
@@ -139,9 +139,9 @@
               "Lai-Tsai",
               "3.45"
             ],
-            "market_line": 137,
+            "market_line": 139,
             "preceding_lines": [
-              "LIVE dans 42 min",
+              "LIVE dans 40 min",
               "Chen-Luo",
               "Hsu-Lin",
               "Qui va gagner le match ?",
@@ -165,7 +165,7 @@
               "Anders Antonsen",
               "1.29"
             ],
-            "market_line": 152,
+            "market_line": 154,
             "preceding_lines": [
               "Tai-King",
               "1.14",
@@ -178,7 +178,7 @@
               "(3)",
               "À Venir",
               "Artic Open",
-              "LIVE dans 12 min",
+              "LIVE dans 10 min",
               "Yushi Tanaka",
               "Anders Antonsen"
             ],
@@ -191,10 +191,10 @@
               "Hsu-Lin",
               "3.20"
             ],
-            "market_line": 162,
+            "market_line": 164,
             "preceding_lines": [
               "Artic Open",
-              "LIVE dans 12 min",
+              "LIVE dans 10 min",
               "Yushi Tanaka",
               "Anders Antonsen",
               "Qui va gagner le match ?",
@@ -204,7 +204,7 @@
               "1.29",
               "+ 26",
               "Artic Open - Doubles (F)",
-              "LIVE dans 42 min",
+              "LIVE dans 40 min",
               "Chen-Luo",
               "Hsu-Lin"
             ],
@@ -217,9 +217,9 @@
               "Lai-Tsai",
               "3.45"
             ],
-            "market_line": 173,
+            "market_line": 175,
             "preceding_lines": [
-              "LIVE dans 42 min",
+              "LIVE dans 40 min",
               "Chen-Luo",
               "Hsu-Lin",
               "Qui va gagner le match ?",
@@ -249,7 +249,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:07:03+00:00",
+      "observed_at_utc": "2026-10-11T09:09:08+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -258,7 +258,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:07:17+00:00",
+      "observed_at_utc": "2026-10-11T09:09:21+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -267,7 +267,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:06:49+00:00",
+      "observed_at_utc": "2026-10-11T09:08:55+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -276,7 +276,7 @@
     "fdj_pos_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:06:51+00:00",
+      "observed_at_utc": "2026-10-11T09:08:56+00:00",
       "parser_notes": "no unexpired face-à-face retail rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -285,7 +285,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:07:04+00:00",
+      "observed_at_utc": "2026-10-11T09:09:09+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -294,7 +294,7 @@
     "pmu_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:07:16+00:00",
+      "observed_at_utc": "2026-10-11T09:09:20+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -303,7 +303,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:07:22+00:00",
+      "observed_at_utc": "2026-10-11T09:09:25+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -312,7 +312,7 @@
     "oddspedia_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:07:18+00:00",
+      "observed_at_utc": "2026-10-11T09:09:22+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -321,7 +321,7 @@
     "oddsportal_badminton": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-11T09:07:39+00:00",
+      "observed_at_utc": "2026-10-11T09:09:43+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
