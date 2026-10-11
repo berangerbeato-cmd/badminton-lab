@@ -51,7 +51,7 @@ class ScriptEvidence(HTMLParser):
 def javascript_evidence(html, base_url):
     parser = ScriptEvidence()
     parser.feed(html)
-    inline = "\\n".join(parser.inline_scripts)
+    inline = "\n".join(parser.inline_scripts)
     urls = sorted(set(urllib.parse.urljoin(base_url, x) for x in parser.sources
                       if x.startswith(("/", "https://"))))
     # Extract only non-sensitive endpoint *hints*, not raw page scripts.
@@ -61,7 +61,7 @@ def javascript_evidence(html, base_url):
     return {"script_count": len(parser.sources) + len(parser.inline_scripts),
             "script_urls": urls[:20],
             "endpoint_hints": endpoint_hints[:30],
-            "inline_mentions_fetch": len(re.findall(r"\\bfetch\\s*\\(", inline)),
+            "inline_mentions_fetch": len(re.findall(r"\bfetch\s*\(", inline)),
             "inline_mentions_ajax": len(re.findall(r"ajax|axios|XMLHttpRequest", inline, re.I)),
             "inline_mentions_draw_data": len(re.findall(r"drawData|drawsData|drawTable|matchData", inline, re.I))}
 
