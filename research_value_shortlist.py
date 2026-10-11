@@ -103,6 +103,7 @@ def main():
     parser.add_argument("--predictions", type=Path, required=True)
     parser.add_argument("--quotes", type=Path)
     parser.add_argument("--odds-dir", type=Path)
+    parser.add_argument("--export-quote-template", action="store_true")
     parser.add_argument("--out", type=Path, default=Path("research_shortlist"))
     args = parser.parse_args()
     model = json.loads(args.predictions.read_text(encoding="utf-8"))
@@ -118,6 +119,15 @@ def main():
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(rows)
+    if args.export_quote_template:
+        template_fields = ["match_id", "player_a", "player_b", "market", "verified_pair", "operator", "observed_at_utc", "odds_a", "odds_b"]
+        with (args.out / "quote_template.csv").open("w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=template_fields)
+            writer.writeheader()
+            for row in rows:
+                writer.writerow({"match_id":row["match_id"], "player_a":row["player_a"],
+                                 "player_b":row["player_b"], "market":"H2H_FULL_MATCH",
+                                 "verified_pair":False})
     (args.out / "shortlist.json").write_text(json.dumps({"policy":"RESEARCH_ONLY_NO_BET","rows":rows}, indent=2)+"\n",encoding="utf-8")
     print(json.dumps({"matches":len(rows),"with_matched_recent_odds":sum(x["status"]=="INDICATIVE_EV_REVIEW_ONLY" for x in rows),"without_odds":sum(x["status"]=="NO_VERIFIED_ODDS" for x in rows),"policy":"RESEARCH_ONLY_NO_BET"}))
 
