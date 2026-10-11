@@ -1,0 +1,29 @@
+name: Global fixture coverage audit (manual, NO BET)
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'global_fixture_coverage.py'
+      - 'test_global_fixture_coverage.py'
+      - '.github/workflows/global_fixture_coverage.yml'
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Unit tests
+        run: python -m unittest -v test_global_fixture_coverage.py
+      - name: Worldwide inventory
+        run: python global_fixture_coverage.py --days 14 --out global_coverage.json
+      - name: Upload research-only report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: global-fixture-coverage
+          path: global_coverage.json
+          if-no-files-found: warn
