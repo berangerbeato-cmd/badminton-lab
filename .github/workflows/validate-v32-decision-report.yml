@@ -1,0 +1,22 @@
+name: Validate V3.2 decision report
+
+on:
+  pull_request:
+    paths:
+      - 'v32_decision_report.py'
+      - 'test_v32_decision_report.py'
+      - '.github/workflows/validate-v32-decision-report.yml'
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run decision report regression tests
+        run: python -m unittest -v test_v32_decision_report.py
+      - name: Check command line help
+        run: python v32_decision_report.py --help
