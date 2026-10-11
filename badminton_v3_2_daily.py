@@ -256,6 +256,42 @@ def fixture_rows(data_dir: Path, ratings, seen, histories, fitted_model: dict,
     )
 
 
+
+def predict_official_unscheduled(bridge_path: Path, ratings, seen, histories,
+                                 fitted_model: dict, now: datetime) -> list[dict]:
+    """Research forecasts at as-of date; no fictional match date or start time."""
+    payload = json.loads(bridge_path.read_text(encoding="utf-8"))
+    if payload.get("policy") != "RESEARCH_ONLY_NO_BET":
+        raise ValueError("Unexpected fixture policy")
+    output = []
+    for candidate in payload.get("schedule_pending", []):
+        players = candidate.get("players") or []
+        if len(players) != 2 or candidate.get("status") != "SCHEDULE_PENDING":
+            continue
+        a, b = players
+        aid, bid = str(a.get("id") or ""), str(b.get("id") or "")
+        if not aid.isdigit() or not bid.isdigit() or aid == bid:
+            continue
+        # Unseen players are reported, never silently assigned a credible forecast.
+        if seen[aid] == 0 or seen[bid] == 0:
+            output.append({"match_id": candidate["match_id"], "player_a": a.get("name"),
+                           "player_b": b.get("name"), "status": "MISSING_PLAYER_HISTORY_NO_BET"})
+            continue
+        raw = elo_p(ratings[aid], ratings[bid])
+        feats = selected_features(histories[aid], histories[bid], now.date())
+        probability = predict({"raw_p_a": raw, **feats}, fitted_model)
+        output.append({"match_id": candidate["match_id"],
+                       "tournament_id": candidate.get("tournament_id"),
+                       "player_a_id": aid, "player_a": a.get("name"),
+                       "player_b_id": bid, "player_b": b.get("name"),
+                       "v3_2_p_a": round(probability, 8),
+                       "v3_2_p_b": round(1 - probability, 8),
+                       "match_time_utc": None, "feature_reference_date": now.date().isoformat(),
+                       "status": "SCHEDULE_PENDING_NO_BET",
+                       "policy": "RESEARCH_ONLY_NO_BET"})
+    return output
+
+
 def write_csv(path: Path, rows: list[dict]):
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as f:
@@ -265,7 +301,7 @@ def write_csv(path: Path, rows: list[dict]):
 
 
 def run(data_dir: Path, v1_model_dir: Path, selection_dir: Path,
-        output_dir: Path, now: datetime, days: int):
+        output_dir: Path, now: datetime, days: int, official_bridge: Path | None = None):
     matches, quality = load_matches(data_dir)
 
     selection_path = selection_dir / "latest.json"
@@ -303,6 +339,12 @@ def run(data_dir: Path, v1_model_dir: Path, selection_dir: Path,
     )
 
     output_dir.mkdir(parents=True, exist_ok=True)
+    if official_bridge is not None:
+        forecasts = predict_official_unscheduled(
+            official_bridge, ratings, seen, histories, fitted, now)
+        (output_dir / "official_unscheduled_predictions.json").write_text(
+            json.dumps({"policy": "RESEARCH_ONLY_NO_BET", "count": len(forecasts),
+                        "predictions": forecasts}, indent=2) + "\\n", encoding="utf-8")
     report = {
         "schema_version": "badminton_v3_2_live_v1",
         "generated_at_utc": now.isoformat(),
@@ -392,6 +434,7 @@ def main():
     p.add_argument("--output", type=Path, default=Path("data/model_v3_2_live"))
     p.add_argument("--days", type=int, default=7)
     p.add_argument("--self-test", action="store_true")
+    p.add_argument("--official-bridge", type=Path, default=None)
     args = p.parse_args()
 
     if args.self_test:
@@ -404,6 +447,7 @@ def main():
             args.output,
             datetime.now(timezone.utc),
             args.days,
+            args.official_bridge,
         )
 
 
