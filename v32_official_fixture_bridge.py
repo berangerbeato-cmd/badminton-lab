@@ -18,7 +18,7 @@ def parse_utc(value):
 
 def build(payload, now=None):
     now = now or datetime.now(timezone.utc)
-    eligible, blocked = [], []
+    eligible, blocked, schedule_pending = [], [], []
     seen = set()
     for row in payload.get("candidates", []):
         if not isinstance(row, dict):
@@ -45,10 +45,18 @@ def build(payload, now=None):
             "source": row.get("source"), "schedule_source": source if valid else None,
             "status": "READY_FOR_SHADOW_PREDICTION" if valid else "BLOCKED_UNVERIFIED_SCHEDULE",
         }
-        (eligible if valid else blocked).append(record)
+        if valid:
+            eligible.append(record)
+        else:
+            record["status"] = "SCHEDULE_PENDING"
+            record["prediction_eligibility"] = "READY_FOR_SHADOW_PREDICTION"
+            record["betting_eligibility"] = "NO_BET"
+            schedule_pending.append(record)
     return {"policy": "RESEARCH_ONLY_NO_BET", "eligible_count": len(eligible),
+            "prediction_ready_count": len(eligible) + len(schedule_pending),
+            "schedule_pending_count": len(schedule_pending), "schedule_pending": schedule_pending,
             "blocked_count": len(blocked), "eligible": eligible, "blocked": blocked,
-            "note": "Shadow research input only; no model execution or betting."}
+            "note": "Fixture-only bridge: schedule-pending pairs are prediction-ready for research; no model execution or betting."}
 
 
 def main():
