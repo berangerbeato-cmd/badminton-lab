@@ -22,12 +22,23 @@ class ScriptLinks(HTMLParser):
     def __init__(self):
         super().__init__()
         self.links = []
+        self.inline = []
+        self.in_script = False
 
     def handle_starttag(self, tag, attrs):
         if tag == "script":
+            self.in_script = True
             src = dict(attrs).get("src")
             if src:
                 self.links.append(src)
+
+    def handle_endtag(self, tag):
+        if tag == "script":
+            self.in_script = False
+
+    def handle_data(self, data):
+        if self.in_script and data.strip():
+            self.inline.append(data)
 
 
 def candidate_scripts(html, base):
@@ -89,6 +100,10 @@ def main():
             html = read_html(url, 2_000_000)
             selected = candidate_scripts(html, url)
             entry["selected_script_count"] = len(selected)
+            parser = ScriptLinks()
+            parser.feed(html)
+            entry["inline_script_blocks"] = len(parser.inline)
+            entry["inline_ajax_evidence"] = endpoint_evidence("\n".join(parser.inline))[:35]
             entry["script_tag_count"] = html.lower().count("<script")
             entry["script_src_count"] = len(re.findall(r"<script[^>]+src\\s*=", html, re.I))
             entry["script_source_samples"] = re.findall(r"<script[^>]+src\\s*=\\s*[\\x27\\x22]([^\\x27\\x22]+)", html, re.I)[:8]
