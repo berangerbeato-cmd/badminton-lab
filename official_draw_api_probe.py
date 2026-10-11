@@ -14,7 +14,7 @@ PATH = "/api/vue-tournament-draws"
 MAX_BYTES = 400_000
 
 
-def probe(tournament_id):
+def probe(tournament_id, candidates=None):
     query = urllib.parse.urlencode({"tmtId": str(tournament_id), "tmtType": "0"})
     url = BASE + PATH + "?" + query
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
@@ -103,6 +103,19 @@ def probe(tournament_id):
                                                                 and player["nameDisplay"].strip()):
                                                             sides.append({"id": str(player["id"]), "name": player["nameDisplay"]})
                                                     if len(sides) == 2 and sides[0]["id"] != sides[1]["id"]:
+                                                        if (candidates is not None and match.get("matchStatus") == "N"
+                                                                and not match.get("matchTimeUtc")):
+                                                            candidates.append({
+                                                                "source": "BWF_OFFICIAL_DRAW",
+                                                                "tournament_id": str(tournament_id),
+                                                                "draw_id": str(draw_id),
+                                                                "match_id": str(match.get("id")),
+                                                                "round": match.get("roundName"),
+                                                                "players": sides,
+                                                                "match_time_utc": None,
+                                                                "status": "UNSCHEDULED_NOT_ELIGIBLE",
+                                                                "policy": "RESEARCH_ONLY_NO_BET",
+                                                            })
                                                         audit["two_identified_single_players"] += 1
                                                         if match.get("matchTimeUtc"):
                                                             audit["two_identified_with_time"] += 1
@@ -171,16 +184,29 @@ def main():
     args = parser.parse_args()
     coverage = json.loads(args.coverage.read_text(encoding="utf-8"))
     rows = []
+    candidates = []
     for tournament in coverage.get("tournaments", []):
         if not tournament.get("needs_secondary_source") or len(rows) >= 4:
             continue
         tid = tournament.get("tournament_id")
         if not str(tid).isdigit():
             continue
-        rows.append({"tournament_id": str(tid), **probe(tid)})
+        rows.append({"tournament_id": str(tid), **probe(tid, candidates)})
     result = {"policy": "RESEARCH_ONLY_NO_BET", "endpoint": BASE + PATH,
               "note": "tmtType=0 is a probe assumption, not a confirmed tournament type",
               "tournaments": rows}
+    # Deduplicate by official match ID. Missing schedules are never treated as verified.
+    unique = {row["match_id"]: row for row in candidates if row["match_id"].isdigit()}
+    candidate_path = args.out.with_name("official_ms_fixture_candidates.json")
+    candidate_path.write_text(json.dumps({
+        "policy": "RESEARCH_ONLY_NO_BET",
+        "source": "BWF_OFFICIAL_DRAW",
+        "note": "These are unscheduled draw pairings, NOT validated future fixtures.",
+        "count": len(unique),
+        "candidates": list(unique.values()),
+    }, indent=2) + "\\n", encoding="utf-8")
+    result["candidate_file"] = str(candidate_path)
+    result["candidate_count"] = len(unique)
     args.out.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2))
 
