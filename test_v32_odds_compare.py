@@ -66,6 +66,9 @@ class ShadowComparatorTests(unittest.TestCase):
         self.assertEqual(output['source_audit']['unibet_fr']['status'], 'SOURCE_DIRECTORY_MISSING')
         row = output['results'][0]
         self.assertEqual(row['decision'], 'NO_BET')
+        self.assertEqual(row['prematch_timing_status'], 'KICKOFF_DATE_ONLY')
+        self.assertFalse(row['kickoff_source_verified'])
+        self.assertEqual(output['verification_summary']['prematch_timing_status_counts']['KICKOFF_DATE_ONLY'], 1)
         self.assertIn('BWF_KICKOFF_DATE_ONLY', row['flags'])
         self.assertAlmostEqual(row['illustrative_ev_pct'][0], 39.07)
         self.assertEqual(row['ev_interpretation'], 'ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH')
@@ -119,6 +122,21 @@ class ShadowComparatorTests(unittest.TestCase):
         self.assertEqual(output['results'][0]['matches'], 0)
         self.assertEqual(output['results'][0]['model_fixtures_on_listed_day'], 1)
         self.assertEqual(output['results'][0]['decision'], 'NO_BET')
+
+    def test_kickoff_timing_status_is_conservative(self):
+        from v32_odds_compare import timing_evidence
+        now = datetime.now(timezone.utc)
+        self.assertEqual(timing_evidence(now - timedelta(hours=2), now - timedelta(hours=1),
+                                         (now + timedelta(hours=1)).isoformat(), 'TIME_REPORTED'),
+                         'CHRONOLOGY_BEFORE_REPORTED_KICKOFF_NOT_VERIFIED')
+        self.assertEqual(timing_evidence(now - timedelta(hours=2), now + timedelta(hours=1),
+                                         now.isoformat(), 'TIME_REPORTED'),
+                         'ODDS_OBSERVATION_NOT_BEFORE_KICKOFF')
+        self.assertEqual(timing_evidence(now + timedelta(hours=1), now - timedelta(hours=1),
+                                         now.isoformat(), 'TIME_REPORTED'),
+                         'MODEL_NOT_BEFORE_KICKOFF')
+        self.assertEqual(timing_evidence(now, now, now.isoformat(), 'DATE_ONLY_UNKNOWN'),
+                         'KICKOFF_DATE_ONLY')
 
     def test_model_after_quote_is_flagged(self):
         output = self.compare(model_after=True)
