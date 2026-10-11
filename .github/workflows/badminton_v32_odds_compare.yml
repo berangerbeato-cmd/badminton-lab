@@ -57,7 +57,7 @@ jobs:
           python badminton_v3_2_daily.py --self-test
           python multi_book_odds_scraper.py --self-test
           python netbet_quotes_shadow.py --self-test
-          python -m unittest -v test_v32_odds_compare test_v32_shadow_ledger test_v32_ledger_summary
+          python -m unittest -v test_v32_odds_compare test_v32_shadow_ledger test_v32_ledger_summary test_v32_decision_report
       - name: Validate BWF incremental synchronizer
         run: |
           python -m py_compile bwf_sync.py bwf_fixture_audit.py
@@ -172,6 +172,19 @@ jobs:
             --model "$MODEL" \
             --odds-dir data/odds_shadow \
             --out data/odds_shadow/comparison_v3_auto
+      - name: Generate decision report from this run's comparison
+        run: |
+          python v32_decision_report.py \
+            --input data/odds_shadow/comparison_v3_auto/latest.json \
+            --out data/odds_shadow/v32_decision_report/latest.json
+      - name: Preserve decision report for this run
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v32-decision-report-live-${{ github.run_id }}
+          path: data/odds_shadow/v32_decision_report/latest.json
+          if-no-files-found: warn
+          retention-days: 30
       - name: Audit bookmaker coverage without assuming valid prices
         run: python v32_odds_coverage_audit.py
       - name: Audit quality
