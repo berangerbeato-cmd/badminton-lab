@@ -74,12 +74,10 @@ def parse_listings(text, local_now):
     # These are not market prices or contestant names and must be ignored.
     text = re.sub(r"\bÉtape\s*\d{1,3}\s*%", " ", text.replace("\xa0", " "), flags=re.I)
     text = re.sub(r"\s+", " ", text).strip()
-    # Scope quote extraction to current-day matches only.
-    today = section(text, "Aujourd'hui")
-    if not today:
-        return [], "missing Aujourd'hui section"
+    # Include future listings; never require the current-day heading.
+    # HEADER still validates each event and its two prices.
     matches = []
-    for hit in HEADER.finditer(today):
+    for hit in HEADER.finditer(text):
         body = hit.group("body").strip(" |")
         odds = list(ODD.finditer(body))
         if len(odds) < 2:
@@ -105,9 +103,9 @@ def parse_listings(text, local_now):
         if not (0 <= hour <= 23 and 0 <= minute <= 59):
             continue
         start = local_now.replace(hour=hour, minute=minute, second=0, microsecond=0)
-        status = "OBSERVED_NOT_BOOKMAKER_TIMESTAMPED"
-        if start <= local_now:
-            status = "SKIP_LISTED_START_ALREADY_PASSED"
+        # A clock alone does not establish the date. Do not reject future-day
+        # events just because their displayed clock precedes the current one.
+        status = "OBSERVED_DATE_UNVERIFIED"
         matches.append({
             "tournament": hit.group("tournament").strip(),
             "discipline_display": hit.group("discipline").upper(),
@@ -209,7 +207,7 @@ def self_test():
          "Demain monde Masters Chine H À 08h30 J.Gunawan-CY.Lee J.Gunawan 2,05 | CY.Lee 1,52")
     today = datetime(2026,10,9,8,58,tzinfo=PARIS)
     items,msg = parse_listings(f,today)
-    assert len(items)==3,(msg,items)
+    assert len(items)==4,(msg,items)
     assert items[0]["player_1_display"]=="ZJ.Lee" and items[0]["player_2_display"]=="C.Popov"
     assert items[0]["odds_2"] ==1.25 and items[1]["odds_1"]==1.8
     assert items[2]["listed_start_paris"].startswith("2026-10-09T13:50")
@@ -225,12 +223,12 @@ def self_test():
     assert any(x['player_2_display']=='C.Popov' and x['odds_2']==1.25 for x in live_items)
     bad = f.replace("C.Popov 1,25", "WrongName 1,25")
     items,_=parse_listings(bad,today)
-    assert len(items)==2  # ambiguous labels rejected
+    assert len(items)==3  # ambiguous labels rejected
     _,msg=parse_listings("Pas de badminton",today)
-    assert "missing" in msg
+    assert "no confidently" in msg
     passed = parse_listings(f,datetime(2026,10,9,18,0,tzinfo=PARIS))[0]
-    assert all(x["status"] == "SKIP_LISTED_START_ALREADY_PASSED" for x in passed)
-    print("SELF TEST PASS: parse 3 quotes, reject mismatches, reject absent, elapsed starts")
+    assert all(x["status"] == "OBSERVED_DATE_UNVERIFIED" for x in passed)
+    print("SELF TEST PASS: parse future-day quotes, reject mismatches and absent listings")
 
 
 def main():
