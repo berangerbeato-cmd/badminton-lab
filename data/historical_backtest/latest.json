@@ -40,31 +40,31 @@
     "2026": [
       {
         "band": "50-60%",
-        "favorite_wins": 281,
-        "mean_predicted_probability": 0.546133,
-        "n": 491,
-        "observed_win_rate": 0.572301
+        "favorite_wins": 282,
+        "mean_predicted_probability": 0.546107,
+        "n": 493,
+        "observed_win_rate": 0.572008
       },
       {
         "band": "60-70%",
-        "favorite_wins": 251,
-        "mean_predicted_probability": 0.648096,
-        "n": 387,
-        "observed_win_rate": 0.648579
+        "favorite_wins": 253,
+        "mean_predicted_probability": 0.648082,
+        "n": 389,
+        "observed_win_rate": 0.650386
       },
       {
         "band": "70-80%",
         "favorite_wins": 192,
-        "mean_predicted_probability": 0.746166,
-        "n": 259,
-        "observed_win_rate": 0.741313
+        "mean_predicted_probability": 0.74611,
+        "n": 260,
+        "observed_win_rate": 0.738462
       },
       {
         "band": "80-90%",
-        "favorite_wins": 150,
-        "mean_predicted_probability": 0.847594,
-        "n": 194,
-        "observed_win_rate": 0.773196
+        "favorite_wins": 151,
+        "mean_predicted_probability": 0.847657,
+        "n": 196,
+        "observed_win_rate": 0.770408
       },
       {
         "band": "90-100%",
@@ -77,17 +77,17 @@
   },
   "elo_k": 48,
   "elo_k_fitted_on": 2024,
-  "generated_at_utc": "2026-10-09T19:43:18+00:00",
+  "generated_at_utc": "2026-10-12T07:52:51+00:00",
   "historical_bookmaker_odds_present": false,
   "historical_market_roi_eur": null,
   "historical_pre_match_quote_verified": false,
   "historical_source_quality": {
     "archives_read": 406,
-    "clean_MS_matches": 13604,
+    "clean_MS_matches": 13611,
     "missing_player_ids": 5,
     "no_full_score": 286,
-    "no_winner": 16,
-    "not_MS": 52177,
+    "no_winner": 12,
+    "not_MS": 52189,
     "score_not_completed": 220
   },
   "holdout_replay_verification": {
@@ -121,35 +121,35 @@
       "upsets": 662
     },
     "2026": {
-      "accuracy": 0.676471,
-      "brier": 0.208762,
+      "accuracy": 0.675958,
+      "brier": 0.209263,
       "cold_start": 137,
       "confidence_interval_95": [
-        0.6518,
-        0.7002
+        0.6513,
+        0.6997
       ],
-      "favorite_wins": 966,
-      "log_loss": 0.604148,
-      "n": 1428,
-      "upsets": 462
+      "favorite_wins": 970,
+      "log_loss": 0.605462,
+      "n": 1435,
+      "upsets": 465
     },
     "combined_exploratory": {
-      "accuracy": 0.6698,
-      "brier": 0.208483,
+      "accuracy": 0.669598,
+      "brier": 0.208694,
       "cold_start": 291,
       "confidence_interval_95": [
-        0.6538,
-        0.6854
+        0.6536,
+        0.6852
       ],
-      "favorite_wins": 2280,
-      "log_loss": 0.603084,
-      "n": 3404,
-      "upsets": 1124
+      "favorite_wins": 2284,
+      "log_loss": 0.603639,
+      "n": 3411,
+      "upsets": 1127
     }
   },
   "model_report_source_sha256": {
-    "baseline_report_sha256": "80542e7dbcec4c6e5cb8995ecda2f9b90dc2da637d8f6eb25ac7635ab408eda1",
-    "calibration_report_sha256": "ef50872a72d5ea4811586f91a8b758a53709128c7c0d2c0fc84836c2ece72f58"
+    "baseline_report_sha256": "0eafdd320e0ede56e98085a5d85f6d56f74d0444cecc2b96c925c776dd896963",
+    "calibration_report_sha256": "5fb6d70b0777dbe2f8c8d5a52f2557bf3fd08563c35b8887a69d8e9d1e8bd451"
   },
   "monthly_metrics": {
     "2025-01": {
@@ -426,17 +426,17 @@
       "upsets": 63
     },
     "2026-10": {
-      "accuracy": 0.785714,
-      "brier": 0.145755,
+      "accuracy": 0.742857,
+      "brier": 0.178879,
       "cold_start": 0,
       "confidence_interval_95": [
-        0.6046,
-        0.8979
+        0.5793,
+        0.8584
       ],
-      "favorite_wins": 22,
-      "log_loss": 0.454778,
-      "n": 28,
-      "upsets": 6
+      "favorite_wins": 26,
+      "log_loss": 0.538513,
+      "n": 35,
+      "upsets": 9
     }
   },
   "platt_calibration_fitted_on": 2024,
