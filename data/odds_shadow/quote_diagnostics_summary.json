@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-12T06:40:32+00:00",
+  "generated_at_utc": "2026-10-12T08:38:29+00:00",
   "policy": "SHADOW_ONLY_NO_BET",
   "total_rows": 17,
   "decisions": {
@@ -69,7 +69,7 @@
     "pmu_fr": {
       "rows": 1,
       "observed": 0,
-      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE"
+      "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED"
     },
     "quality_gate": {
       "rows": 1,

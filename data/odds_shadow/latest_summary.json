@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-12T08:28:29+00:00",
+  "observed_at_utc": "2026-10-12T08:37:39+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "41ca11ca7fbc4faa52f38674ec63623cd6bfd116fbdf3bbad1e773986eb89b79",
+      "body_sha256": "40ed5a8b88f8df9a7e57d74cfcec74b6aca96c9711444339aecbd49bb9257d90",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "1a2c8340024963d4cf714d1ab525bbbb6c4a4430d73ef46fe4b2ed203d5ade20",
+      "body_sha256": "5c28240f46a63c6a90e94f4fc821a5f1bf0a95a57ebb0c400db52e39bcb2a7a4",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "14e767d6be9228e462658a00d142bf65235168e0d51a475b9ac2a1a6d9f0bd2d",
+      "body_sha256": "b1d5b8d2c3cf4f172518696b1deeae21305653aad8c8fb700d15c0ac5f3c578e",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "0",
-      "body_sha256": "63d021b89318874c37ee5d9dcd106a4db3c05e3bf65cd8a671333ede3f77b99c",
+      "cache_age_seconds": "168",
+      "body_sha256": "b690b29d05129cc0c4a8d7e2604bdb37ce66d9104b44fad70a5d33eb75ed016b",
       "flashscore_discovery": {
         "index_match_links": [],
         "index_match_link_count": 0,
