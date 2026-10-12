@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-11T09:29:00+00:00",
+  "generated_at_utc": "2026-10-12T06:40:32+00:00",
   "policy": "SHADOW_ONLY_NO_BET",
   "total_rows": 17,
   "decisions": {
@@ -39,7 +39,7 @@
     "flashscore_badminton": {
       "rows": 1,
       "observed": 0,
-      "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED"
+      "status": "PUBLIC_PAGE_REACHABLE_NO_MATCH_CANDIDATE"
     },
     "netbet_fr": {
       "rows": 1,
@@ -79,7 +79,7 @@
     "unibet_fr": {
       "rows": 1,
       "observed": 0,
-      "status": "NO_CONFIDENT_PREMATCH_QUOTES"
+      "status": "REJECT_HTTP_STATUS_OR_REDIRECT"
     },
     "v32_decision_report": {
       "rows": 1,

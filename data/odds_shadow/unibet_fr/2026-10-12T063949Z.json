@@ -1,0 +1,23 @@
+{
+  "body_sha256": "902d5175322f5b9b91160c8de3c48eee2cc61f71f5781bba176968962cd7a526",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-10-12T06:39:54+00:00",
+  "http_status": 404,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-12T06:39:50+00:00",
+  "operator": "Unibet.fr",
+  "operator_kind": "ONLINE",
+  "public_badminton_event_links": [],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/unibet_fr.png",
+  "quotes": [],
+  "resolved_url": "https://www.unibet.fr/page-introuvable",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Mon, 12 Oct 2026 06:39:51 GMT",
+  "source_key": "unibet_fr",
+  "source_url": "https://www.unibet.fr/paris-badminton",
+  "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
+  "text_excerpt_for_debug": "LES JEUX D’ARGENT ET DE HASARD PEUVENT ÊTRE DANGEREUX : PERTES D’ARGENT, CONFLITS FAMILIAUX, ADDICTION…\n\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR \n(s'ouvre dans un nouvel onglet)\n(09-74-75-13-13, APPEL NON SURTAXÉ)\n\nSports\nLive\nPromos & défis\nPoker\nHors jeu\n\nLa page demandée n'existe pas !\nVeuillez consulter la page d'accueil.\n\nRevenir à la page d'accueil\n\nNous suivre\n\nRéseaux sociaux\n\nContactez-nous\n\nCentre d'aide\n\nJeu responsable\n\nPlan du site\n\nComment parier sur la NBA ?\nPronostics Football\nPronostics Ligue 1\nPronostics Premier League\nPronostics Bundesliga\nPronostics Serie A\nPronostics Ligue des Champions\nPronostics Liga\nPronostics NBA\nCotes Ligue 1 Mc Donalds\nGuide du parieur\nCotes & Pari Foot\nCotes Ligue des champions\nCotes NBA\nCotes Premier League\nCotes TOP 14\nCotes & Pari Rugby\nCotes & Pari Basket\nAccessibilité : partiellement conforme\nPlan du site\n\nÀ propos\n\nZEturf\nParrainage\nRèglement paris sportifs en ligne\nRèglement poker en ligne\nConditions Générales d'Utilisation\nmentions légales\nEvalujeu\nBonnes pratiques\nAffiliation\nCharte Vigilance\nMédiateur\nCharte Vie Privée\nActivités du Groupe FDJ\nNos moyens de paiement\n\nNos partenaires et droits aux paris\n\nPaiement 100% sécurisé\n\nN° ANJ : 0064-PS-2025-01-23-AGR-00, 0064-PO-2025-01-23-AGR-00, 0064-PH-2025-01-23-AGR-00\n\n\nINTERDICTION VOLONTAIRE DE JEUX\nToute personne peut demander à être interdite de jeux. Cette demande est formée auprès de l'Autorité nationale des jeux.\nCette interdiction est applicable dans les casinos, dans les clubs de jeux, sur les sites de jeux et de paris en ligne exploités par les opérateurs de jeux ",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
