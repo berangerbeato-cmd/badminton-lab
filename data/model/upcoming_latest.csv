@@ -1,2 +1,1 @@
 bwf_match_id,start_utc,tournament,round,player_a_id,player_a,player_b_id,player_b,elo_a_asof,elo_b_asof,raw_p_a,calibrated_p_a,fair_odds_a,fair_odds_b,k,slope,intercept,asof_utc,model,cold_start,status,source
-5594:1552528,2026-10-11T00:00:00+00:00,CLASH OF CLANS Arctic Open 2026 powered by YONEX,Final,86672,Yushi TANAKA,91554,Anders ANTONSEN,2023.58,2090.54,0.40481198,0.3868208,2.5852,1.6308,48,1.05498189,-0.054048,2026-10-11T05:24:00+00:00,bwf_elo_ms_platt_v1,0,DATE_ONLY_START_UNVERIFIED_NO_BET,https://github.com/berangerbeato-cmd/badminton-lab/tree/main/data/bwf
