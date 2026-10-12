@@ -16,8 +16,10 @@
       ],
       "day_utc": "2026-10-11",
       "round": "Final",
-      "winner": 0,
-      "reasons": []
+      "winner": 2,
+      "reasons": [
+        "ALREADY_FINISHED"
+      ]
     }
   ],
   "target_pair_count": 1,
