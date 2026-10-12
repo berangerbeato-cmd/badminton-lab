@@ -7,7 +7,7 @@
   "index_badminton_link_examples": [
     "https://www.netbet.fr/badminton"
   ],
-  "index_body_sha256": "49fb154f1f2ce5f4a10ac771432477798146fd46afb618d4bb88c10965ae17d7",
+  "index_body_sha256": "e5d51e392b46fa2e45edb1c9f8761a1863d44bbe5aab505d0dd34e43985cef29",
   "index_eligible_quotes": 0,
   "index_http_status": 200,
   "index_link_count": 74,
@@ -35,7 +35,7 @@
   "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": null,
-  "observed_at_utc": "2026-10-12T06:53:28+00:00",
+  "observed_at_utc": "2026-10-12T07:03:34+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [],

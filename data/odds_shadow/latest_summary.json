@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-12T06:39:49+00:00",
+  "observed_at_utc": "2026-10-12T07:02:47+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
@@ -39,7 +39,7 @@
       "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "a9ae4d687fd6a8a6de46ccd3bd29aff745c56f0d753c2f7ae6fb8676a457c8ff",
+      "body_sha256": "3efa50da85886cf6ded8bbeb54e8ef0698d630593b2ad7c409fcff35329b54e6",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "49fb154f1f2ce5f4a10ac771432477798146fd46afb618d4bb88c10965ae17d7",
+      "body_sha256": "e5d51e392b46fa2e45edb1c9f8761a1863d44bbe5aab505d0dd34e43985cef29",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "789e323fa5fc0c4a4debf8fb15faff6430a7f83f4cf9d54da58ff32a39bbfbab",
+      "body_sha256": "01e2232a43b3fabb9c0874e47857ee39338bfe58526a902da710acdb4647e771",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "05716863a05ed44daaeeb5aa688068f9eb3a905c5a866a3b5f067f9cd3ab1f54",
+      "body_sha256": "a1a58e3d7ad067e929acb1d2c3300995e727c7ac55c953ecf7828918f645de42",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "376",
-      "body_sha256": "50e66531b9e3b5cfe9e442c06612533ee5ae43679f6a8e4318196abda0c4beda",
+      "cache_age_seconds": "268",
+      "body_sha256": "848d8bd7c0bf72e0dd1fa51a945f931157462aa5905b81947f2ef27043cdf925",
       "flashscore_discovery": {
         "index_match_links": [],
         "index_match_link_count": 0,
