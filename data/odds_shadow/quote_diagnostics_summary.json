@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-12T08:38:29+00:00",
+  "generated_at_utc": "2026-10-12T09:34:35+00:00",
   "policy": "SHADOW_ONLY_NO_BET",
   "total_rows": 17,
   "decisions": {
@@ -79,7 +79,7 @@
     "unibet_fr": {
       "rows": 1,
       "observed": 0,
-      "status": "REJECT_HTTP_STATUS_OR_REDIRECT"
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES"
     },
     "v32_decision_report": {
       "rows": 1,
