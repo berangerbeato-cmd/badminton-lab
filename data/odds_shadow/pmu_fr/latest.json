@@ -1,11 +1,11 @@
 {
-  "body_sha256": "a87cf70a33a42367de1f3733909e4ace9ea2cd482e3e50ddc71c55169df62857",
+  "body_sha256": "e39f41448bc24863e3f68fd9169af9e6836245de176d09fcf0e48e8b4ff047cc",
   "bookmaker_price_updated_at": null,
   "cache_age_seconds": null,
-  "finished_at_utc": "2026-10-12T08:38:07+00:00",
+  "finished_at_utc": "2026-10-12T08:55:46+00:00",
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-12T08:38:03+00:00",
+  "observed_at_utc": "2026-10-12T08:55:41+00:00",
   "operator": "PMU.fr",
   "operator_kind": "ONLINE",
   "public_badminton_event_links": [],
@@ -14,10 +14,10 @@
   "resolved_url": "https://www.pmu.fr/sport/",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Mon, 12 Oct 2026 08:38:04 GMT",
+  "server_date": "Mon, 12 Oct 2026 08:55:42 GMT",
   "source_key": "pmu_fr",
   "source_url": "https://www.pmu.fr/sport/",
   "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
-  "text_excerpt_for_debug": "HIPPIQUE\nSPORT\nPOKER\nPLAY ZONE\n\nSe connecter\nS'inscrire\nAccueil\nLive\n5\nPromotions\nMes paris\nRejoins-nous sur les réseaux sociaux :\n\n\n\n\n\nDÉFIS ET PROMOS\n\nNos promos\nPLAY ZONE\n\nJEU RESPONSABLE\n\nPMU AVEC VOUS\nNos conseils\nSOS joueurs\n\nAIDE ET CONTACT\n\nFAQ - Aide en ligne\nContact\n\nL'ENTREPRISE PMU\n\nL'entreprise\nCarrières\nNos applications mobiles\n\nINFOS LÉGALES ET COOKIES\n\nInfos légales et Cookies\nINTERDICTION VOLONTAIRE DE JEUX\nToute personne peut demander à être interdite de jeux. Cette demande est formée auprès de l'Autorité nationale des jeux. Cette interdiction est applicable dans les casinos, dans les clubs de jeux, sur les sites de jeux et de paris en ligne exploités par les opérateurs de jeux agréés en France, sur le site de jeux de loterie en ligne exploité par La Française des jeux ainsi que sur les bornes de jeux accessibles avec un compte joueur exploitées par les opérateurs titulaires de droits exclusifs, notamment La Française des jeux et le Pari mutuel urbain. Cette interdiction est prononcée pour une durée qui ne peut être inférieure à trois ans. Elle est renouvelable tacitement.\nVoir plus d'informations\n\nN° d’agrément Hippique : 0002-PH-2025-09-08-AGR-03 Sportif : 0002-PS-2025-09-08-AGR-03 Poker : 0002-PO-2025-09-08-AGR-03\n\nJOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE.\nPOUR ÊTRE AIDÉ, APPELEZ LE 09 74 75 13 13. (APPEL NON SURTAXÉ)\n\n\n20% de tes enjeux perdants recrédités pendant les Happy Hours ! \nJusqu’au vendredi 16 octobre, sur les courses de 17 à 18h :\n20% de tes paris e-2sur4®, e-Multi® et e-Mini-Multi® perdants te sont recrédités j",
+  "text_excerpt_for_debug": "HIPPIQUE\nSPORT\nPOKER\nPLAY ZONE\n\nSe connecter\nS'inscrire\nAccueil\nLive\n4\nPromotions\nMes paris\nRejoins-nous sur les réseaux sociaux :\n\n\n\n\n\nDÉFIS ET PROMOS\n\nNos promos\nPLAY ZONE\n\nJEU RESPONSABLE\n\nPMU AVEC VOUS\nNos conseils\nSOS joueurs\n\nAIDE ET CONTACT\n\nFAQ - Aide en ligne\nContact\n\nL'ENTREPRISE PMU\n\nL'entreprise\nCarrières\nNos applications mobiles\n\nINFOS LÉGALES ET COOKIES\n\nInfos légales et Cookies\nINTERDICTION VOLONTAIRE DE JEUX\nToute personne peut demander à être interdite de jeux. Cette demande est formée auprès de l'Autorité nationale des jeux. Cette interdiction est applicable dans les casinos, dans les clubs de jeux, sur les sites de jeux et de paris en ligne exploités par les opérateurs de jeux agréés en France, sur le site de jeux de loterie en ligne exploité par La Française des jeux ainsi que sur les bornes de jeux accessibles avec un compte joueur exploitées par les opérateurs titulaires de droits exclusifs, notamment La Française des jeux et le Pari mutuel urbain. Cette interdiction est prononcée pour une durée qui ne peut être inférieure à trois ans. Elle est renouvelable tacitement.\nVoir plus d'informations\n\nN° d’agrément Hippique : 0002-PH-2025-09-08-AGR-03 Sportif : 0002-PS-2025-09-08-AGR-03 Poker : 0002-PO-2025-09-08-AGR-03\n\nJOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE.\nPOUR ÊTRE AIDÉ, APPELEZ LE 09 74 75 13 13. (APPEL NON SURTAXÉ)\n\n\n20% de tes enjeux perdants recrédités pendant les Happy Hours ! \nJusqu’au vendredi 16 octobre, sur les courses de 17 à 18h :\n20% de tes paris e-2sur4®, e-Multi® et e-Mini-Multi® perdants te sont recrédités j",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }

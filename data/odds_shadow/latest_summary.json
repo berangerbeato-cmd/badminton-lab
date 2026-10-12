@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-12T08:37:39+00:00",
+  "observed_at_utc": "2026-10-12T08:55:17+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "40ed5a8b88f8df9a7e57d74cfcec74b6aca96c9711444339aecbd49bb9257d90",
+      "body_sha256": "0978c10a1d850e2125c2f4fcd21edd318d9f5adfa57cf466fc79e9501773fead",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "a87cf70a33a42367de1f3733909e4ace9ea2cd482e3e50ddc71c55169df62857",
+      "body_sha256": "e39f41448bc24863e3f68fd9169af9e6836245de176d09fcf0e48e8b4ff047cc",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "5c28240f46a63c6a90e94f4fc821a5f1bf0a95a57ebb0c400db52e39bcb2a7a4",
+      "body_sha256": "e8e78789dbcc22d301affcb63d2fc52fceb2a3760656e241a703087ca857701c",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "b1d5b8d2c3cf4f172518696b1deeae21305653aad8c8fb700d15c0ac5f3c578e",
+      "body_sha256": "aa35122c945e79ba91992eb104c0d2ce3c270dd628fb6aa25130f04ad6f8e5f5",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "168",
-      "body_sha256": "b690b29d05129cc0c4a8d7e2604bdb37ce66d9104b44fad70a5d33eb75ed016b",
+      "cache_age_seconds": "41",
+      "body_sha256": "145c2ca7f82b7d1c98132d481b9eb12ab5b25c8fd6dd427a7d1e8bdf687734d2",
       "flashscore_discovery": {
         "index_match_links": [],
         "index_match_link_count": 0,
