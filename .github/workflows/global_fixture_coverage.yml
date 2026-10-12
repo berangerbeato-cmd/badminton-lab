@@ -1,0 +1,144 @@
+name: Global fixture coverage audit (manual, NO BET)
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'global_fixture_coverage.py'
+      - 'test_global_fixture_coverage.py'
+      - 'official_draw_sources.py'
+      - 'official_draw_html_diagnostics.py'
+      - 'official_draw_pages.py'
+      - 'official_ms_draw_probe.py'
+      - 'official_draw_ajax_evidence.py'
+      - 'official_draw_api_probe.py'
+      - 'v32_official_fixture_bridge.py'
+      - 'badminton_v3_2_daily.py'
+      - 'research_value_shortlist.py'
+      - 'multi_book_odds_scraper.py'
+      - 'netbet_quotes_shadow.py'
+      - 'official_schedule_audit.py'
+      - 'official_oop_endpoint_evidence.py'
+      - 'official_schedule_day_tabs.py'
+      - 'official_oop_html_context.py'
+      - 'official_match_endpoint_probe.py'
+      - 'test_v32_official_fixture_bridge.py'
+      - 'test_official_draw_sources.py'
+      - '.github/workflows/global_fixture_coverage.yml'
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Unit tests
+        run: python -m unittest -v test_global_fixture_coverage.py test_official_draw_sources.py test_v32_official_fixture_bridge.py
+      - name: Worldwide inventory
+        run: python global_fixture_coverage.py --days 14 --out global_coverage.json
+      - name: Probe official tournament pages (max 5)
+        run: python official_draw_sources.py --coverage global_coverage.json --out official_draw_source_probe.json --max-probes 5
+      - name: Inspect official draw HTML structure
+        run: python official_draw_html_diagnostics.py --coverage global_coverage.json --out official_draw_html_diagnostics.json
+      - name: Inspect official draw pages
+        run: python official_draw_pages.py --coverage global_coverage.json --out official_draw_pages.json
+      - name: Probe explicit MS draw pages
+        run: python official_ms_draw_probe.py --coverage global_coverage.json --out official_ms_draw_probe.json
+      - name: Inspect AJAX call sites in draw scripts
+        run: python official_draw_ajax_evidence.py --coverage global_coverage.json --out official_draw_ajax_evidence.json
+      - name: Probe official BWF public draw API (read-only)
+        run: python official_draw_api_probe.py --coverage global_coverage.json --out official_draw_api_probe.json
+      - name: Audit BWF official schedule fields
+        run: python official_schedule_audit.py --coverage global_coverage.json --out official_schedule_audit.json
+      - name: Inspect official order-of-play endpoint evidence
+        run: python official_oop_endpoint_evidence.py --coverage global_coverage.json --out official_oop_endpoint_evidence.json
+      - name: Extract official schedule-day tabs
+        run: python official_schedule_day_tabs.py --coverage global_coverage.json --out official_schedule_day_tabs.json
+      - name: Inspect BWF schedule API HTML context
+        run: python official_oop_html_context.py --coverage global_coverage.json --out official_oop_html_context.json
+      - name: Probe official BWF match endpoint
+        run: python official_match_endpoint_probe.py --coverage global_coverage.json --out official_match_endpoint_probe.json
+      - name: Prepare V3.2 shadow fixture bridge
+        run: python v32_official_fixture_bridge.py --input official_ms_fixture_candidates.json --out v32_official_fixture_bridge.json
+      - name: Validate V3.2 model integration
+        run: python badminton_v3_2_daily.py --self-test
+      - name: Generate official unscheduled V3.2 shadow predictions
+        run: |
+          python badminton_v3_2_daily.py \
+            --data-dir data/bwf \
+            --v1-model-dir data/model \
+            --selection-dir data/model_v3_2 \
+            --output official_v32_shadow \
+            --days 14 \
+            --official-bridge v32_official_fixture_bridge.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("official_v32_shadow/official_unscheduled_predictions.json")
+          data = json.loads(p.read_text(encoding="utf-8"))
+          predictions = data["predictions"]
+          counts = {}
+          for row in predictions:
+              status = row["status"]
+              counts[status] = counts.get(status, 0) + 1
+          print(json.dumps({"total": len(predictions), "statuses": counts}))
+          assert data["policy"] == "RESEARCH_ONLY_NO_BET"
+          assert len({row["match_id"] for row in predictions}) == len(predictions)
+          assert all(row.get("probability_quality") == "PROVISIONAL_AS_OF_DATE"
+                     and row.get("requires_recalculation_when_scheduled") is True
+                     for row in predictions if row["status"] == "SCHEDULE_PENDING_NO_BET")
+          assert all(row.get("status") != "SCHEDULE_PENDING_NO_BET"
+                     or 0 < row["v3_2_p_a"] < 1 for row in predictions)
+          PY
+      - name: Install public quote observer dependencies
+        run: |
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Observe public bookmaker listings (read-only)
+        continue-on-error: true
+        run: python multi_book_odds_scraper.py --live --out research_odds
+      - name: Run existing Unibet observer (read-only)
+        continue-on-error: true
+        run: python unibet_odds_scraper.py --live --out research_odds/unibet_legacy
+      - name: Observe NetBet public listings (read-only)
+        continue-on-error: true
+        run: python netbet_quotes_shadow.py --live --out research_odds/netbet_quotes
+      - name: Build one-click research shortlist
+        run: |
+          python research_value_shortlist.py \
+            --predictions official_v32_shadow/official_unscheduled_predictions.json \
+            --odds-dir research_odds \
+            --export-quote-template \
+            --out research_shortlist
+      - name: Upload research-only report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: global-fixture-coverage
+          path: |
+            global_coverage.json
+            official_draw_source_probe.json
+            official_draw_html_diagnostics.json
+            official_draw_pages.json
+            official_ms_draw_probe.json
+            official_draw_ajax_evidence.json
+            official_draw_api_probe.json
+            official_ms_fixture_candidates.json
+            v32_official_fixture_bridge.json
+            official_schedule_audit.json
+            official_oop_endpoint_evidence.json
+            official_schedule_day_tabs.json
+            official_oop_html_context.json
+            official_match_endpoint_probe.json
+            official_v32_shadow/official_unscheduled_predictions.json
+            research_shortlist/quote_template.csv
+            research_shortlist/shortlist.csv
+            research_shortlist/shortlist.json
+            research_odds/latest_summary.json
+            research_odds/unibet_fr/latest.json
+            research_odds/unibet_legacy/*.json
+            research_odds/bwin_fr/latest.json
+            research_odds/netbet_quotes/latest.json
+          if-no-files-found: warn
