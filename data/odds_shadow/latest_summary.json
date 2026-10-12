@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-12T07:02:47+00:00",
+  "observed_at_utc": "2026-10-12T08:28:29+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
@@ -78,20 +78,20 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "e5d51e392b46fa2e45edb1c9f8761a1863d44bbe5aab505d0dd34e43985cef29",
+      "body_sha256": "41ca11ca7fbc4faa52f38674ec63623cd6bfd116fbdf3bbad1e773986eb89b79",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
     "pmu_fr": {
-      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
+      "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quotes": 0,
-      "robots_status": "ROBOTS_HTTP_403",
-      "http_status": null,
-      "resolved_url": null,
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "http_status": 200,
+      "resolved_url": "https://www.pmu.fr/sport/",
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": null,
+      "body_sha256": "a87cf70a33a42367de1f3733909e4ace9ea2cd482e3e50ddc71c55169df62857",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "01e2232a43b3fabb9c0874e47857ee39338bfe58526a902da710acdb4647e771",
+      "body_sha256": "1a2c8340024963d4cf714d1ab525bbbb6c4a4430d73ef46fe4b2ed203d5ade20",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "a1a58e3d7ad067e929acb1d2c3300995e727c7ac55c953ecf7828918f645de42",
+      "body_sha256": "14e767d6be9228e462658a00d142bf65235168e0d51a475b9ac2a1a6d9f0bd2d",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,13 +142,13 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "268",
-      "body_sha256": "848d8bd7c0bf72e0dd1fa51a945f931157462aa5905b81947f2ef27043cdf925",
+      "cache_age_seconds": "0",
+      "body_sha256": "63d021b89318874c37ee5d9dcd106a4db3c05e3bf65cd8a671333ede3f77b99c",
       "flashscore_discovery": {
         "index_match_links": [],
         "index_match_link_count": 0,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Open du Danemark 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n12/10 LU\nAucun match aujourd'hui.\nJour de match précédent: 11.10.2026\nJour de match suivant: 13.10.2026\nFlashscore Actualités\nLundi Olympique #28 : le judo français en eaux troubles après les Mondiaux\nLa Russe Andreeva nouvelle 3ᵉ mondiale au classement WTA de ce lundi\nDébrief MotoGP : la domination d'Aprilia, le retour de Bezzecchi, la lutte Marquez-Martin\nAller vers Actualités\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Arctic Open Hommes\nBWF WT KL Masters Malaysia Super 100 Hommes\nBWF WT Open du Danemark Hommes\nBWF WT Arctic Open Femmes\nBWF WT KL Masters Malaysia Super 100 Femmes\nBWF WT Open du Danemark Femmes\nBWF WT Arctic Open Doubles Hommes\nBWF WT KL Masters Malaysia Super 100 Doubles Hommes\nBWF WT Open du Danemark Doubles Hommes\nBWF WT Arctic Open Doubles Femmes\nVoir plus (5)\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nAide : Le service de résultats de badminton de Fl"
+        "index_text_excerpt": "Open du Danemark 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n12/10 LU\nAucun match aujourd'hui.\nJour de match précédent: 11.10.2026\nJour de match suivant: 13.10.2026\nFlashscore Actualités\nLundi Olympique #28 : le judo français en eaux troubles après les Mondiaux\nWinners & Losers : le Barça et City déroulent, Vinicius Jr. en perdition\nDébrief MotoGP : la domination d'Aprilia, le retour de Bezzecchi, la lutte Marquez-Martin\nAller vers Actualités\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Arctic Open Hommes\nBWF WT KL Masters Malaysia Super 100 Hommes\nBWF WT Open du Danemark Hommes\nBWF WT Arctic Open Femmes\nBWF WT KL Masters Malaysia Super 100 Femmes\nBWF WT Open du Danemark Femmes\nBWF WT Arctic Open Doubles Hommes\nBWF WT KL Masters Malaysia Super 100 Doubles Hommes\nBWF WT Open du Danemark Doubles Hommes\nBWF WT Arctic Open Doubles Femmes\nVoir plus (5)\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nAide : Le service de résultats de badminton d"
       },
       "flashscore_match_audit": {
         "url": null,
