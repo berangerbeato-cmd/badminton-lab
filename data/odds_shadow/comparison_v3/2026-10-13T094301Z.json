@@ -1,0 +1,33 @@
+{
+  "schema_version": "badminton_v3_2_shadow_compare_v1",
+  "generated_at_utc": "2026-10-13T09:43:01+00:00",
+  "policy": "SHADOW_ONLY_NO_BET_NO_T0_NO_SHEETS_WRITE",
+  "model": "bwf_v3_2_score_rest_live",
+  "max_age_seconds": 2700,
+  "max_gap_seconds": 1200,
+  "notes": [
+    "V3.2 probability snapshot must predate each bookmaker observation.",
+    "Public bookmaker observation time is not proof of quote update time.",
+    "Kickoff and executable price remain unverified; NO BET."
+  ],
+  "sources": {
+    "Unibet.fr": {
+      "rejected": [
+        "UNIBET_SOURCE_STATUS_INVALID"
+      ]
+    },
+    "NetBet.fr": {
+      "observation_utc": "2026-10-13T09:42:37+00:00",
+      "snapshot_status": "OK",
+      "snapshot_path": "data/model_v3_2_live/snapshots/2026-10-13.csv",
+      "snapshot_sha256": "5847b5aa9d7c56ba2d3832aca36ae1e5b75dcd059cea333a34e5249a885b6917",
+      "rows_read": 0,
+      "rows_validated": 0,
+      "rows_current": 0,
+      "rejected": []
+    }
+  },
+  "match_count": 0,
+  "within_window_match_count": 0,
+  "matches": []
+}
