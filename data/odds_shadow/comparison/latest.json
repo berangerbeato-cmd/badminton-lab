@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-13T07:09:43+00:00",
+  "generated_at_utc": "2026-10-13T08:45:29+00:00",
   "match_count": 0,
   "matches": [],
   "max_age_seconds": 2700,
@@ -14,7 +14,7 @@
   "schema_version": "badminton_shadow_comparator_v2.1",
   "sources": {
     "NetBet.fr": {
-      "observation_utc": "2026-10-13T06:52:19+00:00",
+      "observation_utc": "2026-10-13T08:44:51+00:00",
       "operator": "NetBet.fr",
       "rejected": [],
       "rows_current": 0,
