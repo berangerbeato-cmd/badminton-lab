@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       match_date:
-        description: "Fixture date YYYY-MM-DD (must be today or future)"
+        description: "Fixture date YYYY-MM-DD (must be strictly future for primary portfolio)"
         required: true
         type: string
       tournament:
@@ -46,7 +46,7 @@ jobs:
           today=datetime.datetime.now(datetime.timezone.utc).date()
           date=os.getenv('MATCH_DATE')
           assert date, "Manual fixture date required until official schedule integration"
-          assert datetime.date.fromisoformat(date)>=today, 'Past matches cannot be entered retrospectively'
+          assert datetime.date.fromisoformat(date)>today, 'Primary portfolio requires the fixture date after the observation day'
           Path('shadow_match_date.txt').write_text(date)
           PY
           python research_value_shortlist.py --predictions data/model_v3_2_live/official_unscheduled_predictions.json --odds-dir research_odds --out research_shortlist
