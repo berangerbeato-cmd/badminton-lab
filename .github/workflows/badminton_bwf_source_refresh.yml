@@ -7,7 +7,7 @@ on:
       - 'bwf_sync.py'
       - '.github/workflows/badminton_bwf_source_refresh.yml'
   schedule:
-    - cron: '5 6,8,9 * * *'
+    - cron: '5 5,6,8,9 * * *'
 
 permissions:
   contents: write
