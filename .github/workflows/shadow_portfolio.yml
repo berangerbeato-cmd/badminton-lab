@@ -27,6 +27,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install public odds observer dependencies
+        run: |
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Observe publicly available bookmaker quotes
+        continue-on-error: true
+        run: |
+          python multi_book_odds_scraper.py --live --out research_odds
+          python netbet_quotes_shadow.py --live --out research_odds/netbet_quotes
       - name: Validate and generate shortlist from observed odds
         env:
           MATCH_DATE: ${{ inputs.match_date }}
