@@ -23,7 +23,11 @@
       "players": [
         "Victor Lai",
         "Jia Heng Teh"
-      ]
+      ],
+      "player_ids": {
+        "Victor Lai": "94151"
+      },
+      "identity_evidence": "BWF Victor Lai (Canada) player 94151; verify against historical aliases"
     },
     {
       "players": [
