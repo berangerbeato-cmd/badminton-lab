@@ -1,0 +1,72 @@
+name: Badminton shadow portfolio (10 EUR, EV > 5%)
+on:
+  workflow_dispatch:
+    inputs:
+      match_date:
+        description: "Fixture date YYYY-MM-DD (must be today or future)"
+        required: true
+        type: string
+      tournament:
+        description: "Tournament identifier"
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: badminton-shadow-portfolio
+  cancel-in-progress: false
+jobs:
+  paper:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install public odds observer dependencies
+        run: |
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Observe publicly available bookmaker quotes
+        continue-on-error: true
+        run: |
+          python multi_book_odds_scraper.py --live --out research_odds
+          python netbet_quotes_shadow.py --live --out research_odds/netbet_quotes
+      - name: Validate and generate shortlist from observed odds
+        env:
+          MATCH_DATE: ${{ inputs.match_date }}
+          TOURNAMENT: ${{ inputs.tournament }}
+        run: |
+          python -m unittest -v test_research_value_statuses.py test_shadow_portfolio.py
+          python - <<'PY'
+          import datetime, os
+          from pathlib import Path
+          today=datetime.datetime.now(datetime.timezone.utc).date()
+          date=os.getenv('MATCH_DATE')
+          assert date, "Manual fixture date required until official schedule integration"
+          assert datetime.date.fromisoformat(date)>=today, 'Past matches cannot be entered retrospectively'
+          Path('shadow_match_date.txt').write_text(date)
+          PY
+          python research_value_shortlist.py --predictions data/model_v3_2_live/official_unscheduled_predictions.json --odds-dir research_odds --out research_shortlist
+          python shadow_portfolio.py --shortlist research_shortlist/shortlist.json --ledger data/shadow_portfolio/ledger.json --match-date "$(cat shadow_match_date.txt)" --tournament "${TOURNAMENT:-DENMARK_OPEN_2026}"
+      - name: Commit ledger if updated
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- data/shadow_portfolio/ledger.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record immutable research shadow selections'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Upload paper portfolio summary
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shadow-portfolio
+          path: |
+            research_shortlist/shortlist.json
+            data/shadow_portfolio/ledger.json
+          if-no-files-found: warn
