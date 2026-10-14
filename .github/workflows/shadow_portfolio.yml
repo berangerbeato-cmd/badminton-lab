@@ -10,8 +10,6 @@ on:
         description: "Tournament identifier"
         required: true
         type: string
-  schedule:
-    - cron: '10 6 * * *'
 permissions:
   contents: write
 concurrency:
@@ -46,7 +44,8 @@ jobs:
           import datetime, os
           from pathlib import Path
           today=datetime.datetime.now(datetime.timezone.utc).date()
-          date=os.getenv('MATCH_DATE') or today.isoformat()
+          date=os.getenv('MATCH_DATE')
+          assert date, "Manual fixture date required until official schedule integration"
           assert datetime.date.fromisoformat(date)>=today, 'Past matches cannot be entered retrospectively'
           Path('shadow_match_date.txt').write_text(date)
           PY
