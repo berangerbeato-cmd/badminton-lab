@@ -3,16 +3,28 @@
 import argparse
 import csv
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timezone, date
 from pathlib import Path
 
 STAKE_EUR = 10.0
 MIN_EV_PCT = 5.0
 
 def selections(rows, recorded_at, match_date, tournament):
+    # Without verified kick-off time, only quotes recorded before match day
+    # qualify for the main portfolio. Same-day quotes remain observations.
+    day = date.fromisoformat(match_date)
+    recorded = datetime.fromisoformat(recorded_at.replace('Z', '+00:00'))
+    if recorded.tzinfo is None or recorded.astimezone(timezone.utc).date() >= day:
+        return []
     output = []
     for row in rows:
         if row.get("status") != "VALUE":
+            continue
+        try:
+            observed = datetime.fromisoformat(row["observed_at_utc"].replace("Z", "+00:00"))
+            if observed.tzinfo is None or observed.astimezone(timezone.utc).date() >= day:
+                continue
+        except (KeyError, ValueError, AttributeError):
             continue
         for side in ("a", "b"):
             ev = float(row["ev_" + side + "_pct"])
