@@ -30,6 +30,14 @@ def build(matches, observations):
         players = []
         for name in item["players"]:
             ids = aliases.get(normalize(name), set())
+            pinned = (item.get("player_ids") or {}).get(name)
+            if pinned is not None:
+                pinned = str(pinned)
+                if pinned not in ids:
+                    blocked.append({"players": item["players"], "name": name,
+                                    "reason": "PINNED_ID_NOT_IN_HISTORY"})
+                    break
+                ids = {pinned}
             if len(ids) != 1:
                 blocked.append({"players": item["players"], "name": name,
                                 "reason": "PLAYER_ID_NOT_UNIQUE" if ids else "PLAYER_NOT_FOUND"})
