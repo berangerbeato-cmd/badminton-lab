@@ -10,8 +10,6 @@ on:
         description: "Tournament identifier"
         required: true
         type: string
-  schedule:
-    - cron: '15 18 * * *' # 19:15 Paris winter / 20:15 summer
 permissions:
   contents: write
 concurrency:
