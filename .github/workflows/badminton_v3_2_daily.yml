@@ -48,14 +48,14 @@ jobs:
           python -m py_compile badminton_v3_2_daily.py
           python badminton_v3_2_daily.py --self-test
 
-      - name: Generate V3.2 prospective forecasts
+      - name: Resolve observed Denmark MS pairings (research only)\n        run: |\n          python manual_ms_fixture_bridge.py --data-dir data/bwf --fixtures data/fixture_sources/denmark_2026_10_15_user_observed.json --out data/model_v3_2_live/manual_fixture_bridge.json\n\n      - name: Generate V3.2 prospective forecasts
         run: |
           python badminton_v3_2_daily.py \
             --data-dir data/bwf \
             --v1-model-dir data/model \
             --selection-dir data/model_v3_2 \
             --output data/model_v3_2_live \
-            --days 7
+            --days 7 \\\n            --official-bridge data/model_v3_2_live/manual_fixture_bridge.json
 
       - name: Archive V3.2 forecast feed
         run: |
