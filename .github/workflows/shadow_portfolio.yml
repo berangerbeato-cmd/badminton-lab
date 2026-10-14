@@ -41,7 +41,7 @@ jobs:
           MATCH_DATE: ${{ inputs.match_date }}
           TOURNAMENT: ${{ inputs.tournament }}
         run: |
-          python -m unittest -v test_research_value_statuses.py test_shadow_portfolio.py test_shadow_next_day.py
+          python -m unittest -v test_research_value_statuses.py test_shadow_portfolio.py test_shadow_next_day.py test_bwf_dated_fixture_bridge.py
           python - <<'PY'
           import datetime, os
           from zoneinfo import ZoneInfo
