@@ -59,7 +59,7 @@ jobs:
             --v1-model-dir data/model \
             --selection-dir data/model_v3_2 \
             --output data/model_v3_2_live \
-            --days 7 \\
+            --days 7 \
             --official-bridge data/model_v3_2_live/manual_fixture_bridge.json
 
       - name: Archive V3.2 forecast feed
