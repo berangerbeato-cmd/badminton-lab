@@ -23,6 +23,17 @@ class ManualFixtureBridgeTests(unittest.TestCase):
         self.assertEqual(result["matched_count"], 0)
         self.assertEqual(result["blocked"][0]["reason"], "PLAYER_ID_NOT_UNIQUE")
 
+    def test_pinned_identity(self):
+        matches = [SimpleNamespace(p1_id="94151", p1_name="Victor Lai", p2_id="7", p2_name="Jia Heng Teh"), SimpleNamespace(p1_id="81363", p1_name="Victor Lai", p2_id="8", p2_name="Other")]
+        result = build(matches, {"fixtures": [{"players": ["Victor Lai", "Jia Heng Teh"], "player_ids": {"Victor Lai": "94151"}}]})
+        self.assertEqual(result["matched_count"], 1)
+        self.assertEqual(result["schedule_pending"][0]["players"][0]["id"], "94151")
+
+    def test_invalid_pin(self):
+        matches = [SimpleNamespace(p1_id="81363", p1_name="Victor Lai", p2_id="7", p2_name="Jia Heng Teh")]
+        result = build(matches, {"fixtures": [{"players": ["Victor Lai", "Jia Heng Teh"], "player_ids": {"Victor Lai": "94151"}}]})
+        self.assertEqual(result["blocked"][0]["reason"], "PINNED_ID_NOT_IN_HISTORY")
+
 
 if __name__ == "__main__":
     unittest.main()
