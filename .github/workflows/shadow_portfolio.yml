@@ -52,7 +52,8 @@ jobs:
           assert datetime.date.fromisoformat(date)>today, 'Primary portfolio requires the fixture date after the observation day'
           Path('shadow_match_date.txt').write_text(date)
           PY
-          python shadow_next_day.py --predictions data/model_v3_2_live/official_unscheduled_predictions.json --out research_shortlist/next_day_predictions.json
+          python bwf_dated_fixture_bridge.py --predictions data/model_v3_2_live/official_unscheduled_predictions.json --bwf-upcoming data/model_v3_2_live/upcoming_latest.csv --out research_shortlist/bwf_dated_predictions.json
+          python shadow_next_day.py --predictions research_shortlist/bwf_dated_predictions.json --out research_shortlist/next_day_predictions.json
           python research_value_shortlist.py --predictions research_shortlist/next_day_predictions.json --odds-dir research_odds --out research_shortlist
           python shadow_portfolio.py --shortlist research_shortlist/shortlist.json --ledger data/shadow_portfolio/ledger.json --match-date "$(cat shadow_match_date.txt)" --tournament "${TOURNAMENT:-BWF_DAILY}"
       - name: Commit ledger if updated
@@ -71,6 +72,7 @@ jobs:
         with:
           name: shadow-portfolio
           path: |
+            research_shortlist/bwf_dated_predictions.json
             research_shortlist/next_day_predictions.json
             research_shortlist/shortlist.json
             data/shadow_portfolio/ledger.json
