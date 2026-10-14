@@ -1,0 +1,120 @@
+{
+  "policy": "RESEARCH_ONLY_NO_BET",
+  "schedule_pending": [
+    {
+      "match_id": "1",
+      "tournament_id": "5210",
+      "players": [
+        {
+          "id": "85845",
+          "name": "Panitchaphon TEERARATSAKUL"
+        },
+        {
+          "id": "72885",
+          "name": "Christo POPOV"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "2",
+      "tournament_id": "5210",
+      "players": [
+        {
+          "id": "58089",
+          "name": "Alwi FARHAN"
+        },
+        {
+          "id": "73442",
+          "name": "Jonatan CHRISTIE"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "3",
+      "tournament_id": "5210",
+      "players": [
+        {
+          "id": "65634",
+          "name": "Jason GUNAWAN"
+        },
+        {
+          "id": "91554",
+          "name": "Anders ANTONSEN"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "5",
+      "tournament_id": "5210",
+      "players": [
+        {
+          "id": "94580",
+          "name": "Alex LANIER"
+        },
+        {
+          "id": "93627",
+          "name": "KIDAMBI Srikanth"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "6",
+      "tournament_id": "5210",
+      "players": [
+        {
+          "id": "62855",
+          "name": "Rasmus GEMKE"
+        },
+        {
+          "id": "45171",
+          "name": "NG Ka Long Angus"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "7",
+      "tournament_id": "5210",
+      "players": [
+        {
+          "id": "90735",
+          "name": "Yudai OKIMOTO"
+        },
+        {
+          "id": "62063",
+          "name": "Kodai NARAOKA"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    }
+  ],
+  "blocked": [
+    {
+      "players": [
+        "Victor Lai",
+        "Jia Heng Teh"
+      ],
+      "name": "Victor Lai",
+      "reason": "PLAYER_ID_NOT_UNIQUE"
+    }
+  ],
+  "matched_count": 6,
+  "blocked_count": 1,
+  "source_note": "Manual user-observed pairings; no official fixture/time verification"
+}
