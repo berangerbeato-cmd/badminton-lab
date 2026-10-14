@@ -5,6 +5,7 @@ on:
   workflow_run:
     workflows:
       - 'BWF calibrated Elo daily forecasts'
+      - 'Badminton BWF incremental source refresh (NO BET)'
     types: [completed]
     branches: [main]
   push:
