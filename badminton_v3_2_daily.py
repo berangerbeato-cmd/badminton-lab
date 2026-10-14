@@ -269,7 +269,7 @@ def predict_official_unscheduled(bridge_path: Path, ratings, seen, histories,
         players = candidate.get("players") or []
         if len(players) != 2 or candidate.get("status") != "SCHEDULE_PENDING":
             continue
-        if candidate.get("source") != "BWF_OFFICIAL_DRAW" or candidate.get("match_time_utc") is not None:
+        if candidate.get("source") not in ("BWF_OFFICIAL_DRAW", "USER_CAPTURE_UNVERIFIED") or candidate.get("match_time_utc") is not None:
             continue
         mid = str(candidate.get("match_id") or "")
         if not mid.isdigit() or mid in processed:
@@ -299,7 +299,8 @@ def predict_official_unscheduled(bridge_path: Path, ratings, seen, histories,
                        "probability_quality": "PROVISIONAL_AS_OF_DATE",
                        "rest_inactivity_reference": "REPORT_DATE_NOT_MATCH_DATE",
                        "requires_recalculation_when_scheduled": True,
-                       "policy": "RESEARCH_ONLY_NO_BET"})
+                       "policy": "RESEARCH_ONLY_NO_BET",
+                       "fixture_source": candidate.get("source")})
     return output
 
 
