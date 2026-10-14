@@ -95,9 +95,7 @@ jobs:
               ]
           else:
               lines.append('- Report missing.')
-          msg = '
-'.join(lines) + '
-'
+          msg = '\n'.join(lines) + '\n'
           print(msg)
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
               f.write(msg)
