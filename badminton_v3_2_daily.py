@@ -282,7 +282,7 @@ def predict_official_unscheduled(bridge_path: Path, ratings, seen, histories,
         # Unseen players are reported, never silently assigned a credible forecast.
         if seen[aid] == 0 or seen[bid] == 0:
             output.append({"match_id": candidate["match_id"], "player_a": a.get("name"),
-                           "player_b": b.get("name"), "status": "MISSING_PLAYER_HISTORY_NO_BET",
+                           "player_b": b.get("name"), "status": "BLOCKED",
                            "policy": "RESEARCH_ONLY_NO_BET", "probability_quality": "UNAVAILABLE"})
             continue
         raw = elo_p(ratings[aid], ratings[bid])
@@ -295,7 +295,7 @@ def predict_official_unscheduled(bridge_path: Path, ratings, seen, histories,
                        "v3_2_p_a": round(probability, 8),
                        "v3_2_p_b": round(1 - probability, 8),
                        "match_time_utc": None, "feature_reference_date": now.date().isoformat(),
-                       "status": "SCHEDULE_PENDING_NO_BET",
+                       "status": "MODEL_READY",
                        "probability_quality": "PROVISIONAL_AS_OF_DATE",
                        "rest_inactivity_reference": "REPORT_DATE_NOT_MATCH_DATE",
                        "requires_recalculation_when_scheduled": True,

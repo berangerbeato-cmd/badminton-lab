@@ -16,6 +16,7 @@ on:
       - 'manual_ms_fixture_bridge.py'
       - 'test_manual_ms_fixture_bridge.py'
       - 'research_value_shortlist.py'
+      - 'test_research_value_statuses.py'
       - 'multi_book_odds_scraper.py'
       - 'netbet_quotes_shadow.py'
       - 'official_schedule_audit.py'
@@ -37,7 +38,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Unit tests
-        run: python -m unittest -v test_global_fixture_coverage.py test_official_draw_sources.py test_v32_official_fixture_bridge.py test_manual_ms_fixture_bridge.py
+        run: python -m unittest -v test_global_fixture_coverage.py test_official_draw_sources.py test_v32_official_fixture_bridge.py test_manual_ms_fixture_bridge.py test_research_value_statuses.py
       - name: Worldwide inventory
         run: python global_fixture_coverage.py --days 14 --out global_coverage.json
       - name: Probe official tournament pages (max 5)

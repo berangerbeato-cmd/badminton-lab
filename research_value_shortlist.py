@@ -19,7 +19,7 @@ def build(predictions, quotes, now):
     rows = []
     used = set()
     for p in predictions.get("predictions", []):
-        if p.get("status") != "SCHEDULE_PENDING_NO_BET":
+        if p.get("status") not in ("MODEL_READY", "SCHEDULE_PENDING_NO_BET"):
             continue
         mid = str(p.get("match_id", ""))
         if not mid.isdigit() or mid in used:
@@ -30,10 +30,10 @@ def build(predictions, quotes, now):
             continue
         row = {"match_id": mid, "player_a": p["player_a"], "player_b": p["player_b"],
                "p_a": round(pa, 6), "p_b": round(1-pa, 6),
-               "quality": "PROVISIONAL_AS_OF_DATE", "status": "NO_VERIFIED_ODDS",
+               "quality": "PROVISIONAL_AS_OF_DATE", "status": "BLOCKED",
                "operator": "", "observed_at_utc": "", "odds_a": "", "odds_b": "",
                "ev_a_pct": "", "ev_b_pct": "", "best_ev_pct": "",
-               "decision": "RESEARCH_ONLY_NO_BET"}
+               "decision": "MISSING_ODDS"}
         candidates = []
         for q in quotes:
             if str(q.get("match_id", "")) != mid:
@@ -54,19 +54,19 @@ def build(predictions, quotes, now):
             candidates.append((max(100*(pa*a-1), 100*((1-pa)*bb-1)), q, a, bb))
         if candidates:
             best, q, a, bb = max(candidates, key=lambda x: x[0])
-            row.update({"status": "INDICATIVE_EV_REVIEW_ONLY", "operator": q.get("operator", ""),
+            row.update({"status": "VALUE" if best > 0 else "NO VALUE", "operator": q.get("operator", ""),
                         "observed_at_utc": q["observed_at_utc"], "odds_a": a, "odds_b": bb,
                         "ev_a_pct": round(100*(pa*a-1), 2),
                         "ev_b_pct": round(100*((1-pa)*bb-1), 2),
-                        "best_ev_pct": round(best, 2)})
+                        "best_ev_pct": round(best, 2), "decision": "SHADOW_ONLY"})
         rows.append(row)
-    rows.sort(key=lambda x: (x["status"] != "INDICATIVE_EV_REVIEW_ONLY", -(x["best_ev_pct"] if isinstance(x["best_ev_pct"], float) else -999), x["match_id"]))
+    rows.sort(key=lambda x: (x["status"] not in ("VALUE", "NO VALUE"), -(x["best_ev_pct"] if isinstance(x["best_ev_pct"], float) else -999), x["match_id"]))
     return rows
 
 
 def load_observed_quotes(odds_dir, model):
     """Import public observed online quotes; require unique full-name pairing."""
-    pending = [p for p in model.get("predictions", []) if p.get("status") == "SCHEDULE_PENDING_NO_BET"]
+    pending = [p for p in model.get("predictions", []) if p.get("status") in ("MODEL_READY", "SCHEDULE_PENDING_NO_BET")]
     observations = []
     sources = [("unibet_fr", odds_dir / "unibet_fr" / "latest.json"),
                ("bwin_fr", odds_dir / "bwin_fr" / "latest.json"),
@@ -129,7 +129,7 @@ def main():
                                  "player_b":row["player_b"], "market":"H2H_FULL_MATCH",
                                  "verified_pair":False})
     (args.out / "shortlist.json").write_text(json.dumps({"policy":"RESEARCH_ONLY_NO_BET","rows":rows}, indent=2)+"\n",encoding="utf-8")
-    print(json.dumps({"matches":len(rows),"with_matched_recent_odds":sum(x["status"]=="INDICATIVE_EV_REVIEW_ONLY" for x in rows),"without_odds":sum(x["status"]=="NO_VERIFIED_ODDS" for x in rows),"policy":"RESEARCH_ONLY_NO_BET"}))
+    print(json.dumps({"matches":len(rows),"with_matched_recent_odds":sum(x["status"] in ("VALUE", "NO VALUE") for x in rows),"without_odds":sum(x["status"]=="BLOCKED" for x in rows),"policy":"RESEARCH_ONLY_NO_BET"}))
 
 
 if __name__ == "__main__":
