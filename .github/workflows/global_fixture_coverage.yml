@@ -20,6 +20,8 @@ on:
       - 'shadow_portfolio.py'
       - 'test_shadow_portfolio.py'
       - '.github/workflows/shadow_portfolio.yml'
+      - 'shadow_next_day.py'
+      - 'test_shadow_next_day.py'
       - 'multi_book_odds_scraper.py'
       - 'netbet_quotes_shadow.py'
       - 'official_schedule_audit.py'
