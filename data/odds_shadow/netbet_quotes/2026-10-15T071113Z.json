@@ -1,0 +1,483 @@
+{
+  "bookmaker_price_updated_at": null,
+  "candidate_count": 1,
+  "candidate_urls": [
+    "https://www.netbet.fr/badminton/international/open-du-danemark"
+  ],
+  "elo_comparisons": [],
+  "fixture_join_audit": [
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-15",
+      "model_rows_same_day": 14,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Alex Lanier",
+        "Srikanth Kidambi"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-15",
+      "model_rows_same_day": 14,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Tien Chen Chou",
+        "Koki Watanabe"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-15",
+      "model_rows_same_day": 14,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Panitchaphon Teeraratsakul",
+        "Christo Popov"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-15",
+      "model_rows_same_day": 14,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Victor Lai",
+        "Jia Heng Teh"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-15",
+      "model_rows_same_day": 14,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Jason Gunawan",
+        "Anders Antonsen"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-15",
+      "model_rows_same_day": 14,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Yudai Okimoto",
+        "Kodai Naraoka"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-15",
+      "model_rows_same_day": 14,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Gemke Rasmus",
+        "Ka Long Ng"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-15",
+      "model_rows_same_day": 14,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Alwi Farhan",
+        "Jonatan Christie"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    }
+  ],
+  "index_badminton_link_count": 5,
+  "index_badminton_link_examples": [
+    "https://www.netbet.fr/badminton",
+    "https://www.netbet.fr/badminton/international/open-du-danemark-doubles",
+    "https://www.netbet.fr/badminton/international/open-du-danemark",
+    "https://www.netbet.fr/badminton/international/open-du-danemark-doubles-mixtes",
+    "https://www.netbet.fr/badminton/international/open-du-danemark-f"
+  ],
+  "index_body_sha256": "93fe258606939ad984d3cf8b856816b872b08ef63dacb04cb69284b6b06a0ab8",
+  "index_eligible_quotes": 1,
+  "index_http_status": 200,
+  "index_link_count": 139,
+  "index_link_path_counts": {
+    "": 9,
+    "badminton": 7,
+    "biathlon": 2,
+    "cashout": 2,
+    "evenement": 47,
+    "football": 18,
+    "live": 5,
+    "paris-en-direct": 5,
+    "promotions": 2,
+    "ski-alpin": 2,
+    "tennis": 6,
+    "zendesk": 2
+  },
+  "index_market_audit": {
+    "eligible_listing_rows": 1,
+    "markets_seen": 12,
+    "rejection_evidence": [
+      {
+        "following_lines": [
+          "Vendy-Lane",
+          "1.60",
+          "Kumagai-Nishi",
+          "1.90"
+        ],
+        "market_line": 120,
+        "preceding_lines": [
+          "Badminton",
+          "Pariez sur",
+          "Badminton",
+          "À L'AFFICHE",
+          "EN DIRECT",
+          "TOUTE L'OFFRE BADMINTON",
+          "En direct",
+          "Open du Danemark, Doubles",
+          "Set 1",
+          "LIVE",
+          "Vendy-Lane",
+          "Kumagai-Nishi",
+          "0",
+          "0"
+        ],
+        "reason": "PLAYER_PAIR_MISMATCH"
+      },
+      {
+        "following_lines": [
+          "Nozomi Okuhara",
+          "1.45",
+          "Chiu Pin-Chian",
+          "2.10"
+        ],
+        "market_line": 134,
+        "preceding_lines": [
+          "Qui va gagner le match ?",
+          "Vendy-Lane",
+          "1.60",
+          "Kumagai-Nishi",
+          "1.90",
+          "+ 9",
+          "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
+          "En direct",
+          "(3)",
+          "Populaires",
+          "Open du Danemark (F)",
+          "LIVE dans 49 min",
+          "Nozomi Okuhara",
+          "Chiu Pin-Chian"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Kim-Seo",
+          "1.13",
+          "Chen-Liu",
+          "3.60"
+        ],
+        "market_line": 147,
+        "preceding_lines": [
+          "Chiu Pin-Chian",
+          "Qui va gagner le match ?",
+          "Nozomi Okuhara",
+          "1.45",
+          "Chiu Pin-Chian",
+          "2.10",
+          "+ 25",
+          "Toute l'offre Badminton",
+          "(35)",
+          "À Venir",
+          "Open du Danemark, Doubles",
+          "LIVE dans 19 min",
+          "Kim-Seo",
+          "Chen-Liu"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Tien Chen Chou",
+          "2.00",
+          "Koki Watanabe",
+          "1.51"
+        ],
+        "market_line": 157,
+        "preceding_lines": [
+          "Open du Danemark, Doubles",
+          "LIVE dans 19 min",
+          "Kim-Seo",
+          "Chen-Liu",
+          "Qui va gagner le match ?",
+          "Kim-Seo",
+          "1.13",
+          "Chen-Liu",
+          "3.60",
+          "+ 12",
+          "Open du Danemark",
+          "LIVE dans 19 min",
+          "Tien Chen Chou",
+          "Koki Watanabe"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Puavaranukroh-Paewsampran",
+          "1.18",
+          "Ron-Jing",
+          "3.20"
+        ],
+        "market_line": 167,
+        "preceding_lines": [
+          "Open du Danemark",
+          "LIVE dans 19 min",
+          "Tien Chen Chou",
+          "Koki Watanabe",
+          "Qui va gagner le match ?",
+          "Tien Chen Chou",
+          "2.00",
+          "Koki Watanabe",
+          "1.51",
+          "+ 25",
+          "Open du Danemark, Doubles Mixtes",
+          "LIVE dans 29 min",
+          "Puavaranukroh-Paewsampran",
+          "Ron-Jing"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Nozomi Okuhara",
+          "1.45",
+          "Chiu Pin-Chian",
+          "2.10"
+        ],
+        "market_line": 177,
+        "preceding_lines": [
+          "Open du Danemark, Doubles Mixtes",
+          "LIVE dans 29 min",
+          "Puavaranukroh-Paewsampran",
+          "Ron-Jing",
+          "Qui va gagner le match ?",
+          "Puavaranukroh-Paewsampran",
+          "1.18",
+          "Ron-Jing",
+          "3.20",
+          "+ 12",
+          "Open du Danemark (F)",
+          "LIVE dans 49 min",
+          "Nozomi Okuhara",
+          "Chiu Pin-Chian"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      }
+    ],
+    "rejections": {
+      "COMPETITION_NOT_PROVEN": 6,
+      "NON_MS_COMPETITION": 4,
+      "PLAYER_PAIR_MISMATCH": 1
+    }
+  },
+  "index_resolved_url": "https://www.netbet.fr/badminton",
+  "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
+  "index_url": "https://www.netbet.fr/badminton",
+  "model_snapshot": "data/model/snapshots/2026-10-15.csv",
+  "model_snapshot_sha256": "5623b12f6c8733b08ffa981aea74d35a2503b6870240f95516863796071bf6b7",
+  "observed_at_utc": "2026-10-15T07:11:13+00:00",
+  "operator": "NetBet.fr",
+  "page_audit_limit": 8,
+  "page_audits": [
+    {
+      "body_sha256": "6f745d4ca64918b31413c1bc328c1789981d040801a503d9903689b181ed6951",
+      "cache_age_seconds": null,
+      "eligible_listing_rows": 8,
+      "http_status": 200,
+      "markets_seen": 8,
+      "rejection_evidence": [],
+      "rejections": {},
+      "resolved_url": "https://www.netbet.fr/badminton/international/open-du-danemark",
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "screenshot": "data/odds_shadow/visual_evidence/netbet_event_0.png",
+      "status": "PUBLIC_LISTINGS_OBSERVED_NEEDS_CONFIRMATION",
+      "url": "https://www.netbet.fr/badminton/international/open-du-danemark"
+    }
+  ],
+  "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
+  "quotes": [
+    {
+      "bookmaker_overround_pct": 16.25,
+      "competition_display": "Open du Danemark",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-10-15",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.851689,
+      "normalized_market_probability_2": 0.148311,
+      "odds_1": 1.01,
+      "odds_2": 5.8,
+      "player_1_display": "Alex Lanier",
+      "player_2_display": "Srikanth Kidambi",
+      "raw_implied_probability_1": 0.990099,
+      "raw_implied_probability_2": 0.172414,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.23,
+      "competition_display": "Open du Danemark",
+      "day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-du-danemark",
+      "listed_day_paris": "2026-10-15",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.430199,
+      "normalized_market_probability_2": 0.569801,
+      "odds_1": 2.0,
+      "odds_2": 1.51,
+      "player_1_display": "Tien Chen Chou",
+      "player_2_display": "Koki Watanabe",
+      "raw_implied_probability_1": 0.5,
+      "raw_implied_probability_2": 0.662252,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.14,
+      "competition_display": "Open du Danemark",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-du-danemark",
+      "listed_day_paris": "2026-10-15",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.3,
+      "normalized_market_probability_2": 0.7,
+      "odds_1": 2.87,
+      "odds_2": 1.23,
+      "player_1_display": "Panitchaphon Teeraratsakul",
+      "player_2_display": "Christo Popov",
+      "raw_implied_probability_1": 0.348432,
+      "raw_implied_probability_2": 0.813008,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.74,
+      "competition_display": "Open du Danemark",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-du-danemark",
+      "listed_day_paris": "2026-10-15",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.785855,
+      "normalized_market_probability_2": 0.214145,
+      "odds_1": 1.09,
+      "odds_2": 4.0,
+      "player_1_display": "Victor Lai",
+      "player_2_display": "Jia Heng Teh",
+      "raw_implied_probability_1": 0.917431,
+      "raw_implied_probability_2": 0.25,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.13,
+      "competition_display": "Open du Danemark",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-du-danemark",
+      "listed_day_paris": "2026-10-15",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.316583,
+      "normalized_market_probability_2": 0.683417,
+      "odds_1": 2.72,
+      "odds_2": 1.26,
+      "player_1_display": "Jason Gunawan",
+      "player_2_display": "Anders Antonsen",
+      "raw_implied_probability_1": 0.367647,
+      "raw_implied_probability_2": 0.793651,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.34,
+      "competition_display": "Open du Danemark",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-du-danemark",
+      "listed_day_paris": "2026-10-15",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.343832,
+      "normalized_market_probability_2": 0.656168,
+      "odds_1": 2.5,
+      "odds_2": 1.31,
+      "player_1_display": "Yudai Okimoto",
+      "player_2_display": "Kodai Naraoka",
+      "raw_implied_probability_1": 0.4,
+      "raw_implied_probability_2": 0.763359,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 17.07,
+      "competition_display": "Open du Danemark",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-du-danemark",
+      "listed_day_paris": "2026-10-15",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.577143,
+      "normalized_market_probability_2": 0.422857,
+      "odds_1": 1.48,
+      "odds_2": 2.02,
+      "player_1_display": "Gemke Rasmus",
+      "player_2_display": "Ka Long Ng",
+      "raw_implied_probability_1": 0.675676,
+      "raw_implied_probability_2": 0.49505,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.67,
+      "competition_display": "Open du Danemark",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-du-danemark",
+      "listed_day_paris": "2026-10-15",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.489796,
+      "normalized_market_probability_2": 0.510204,
+      "odds_1": 1.75,
+      "odds_2": 1.68,
+      "player_1_display": "Alwi Farhan",
+      "player_2_display": "Jonatan Christie",
+      "raw_implied_probability_1": 0.571429,
+      "raw_implied_probability_2": 0.595238,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    }
+  ],
+  "reason_counts": {
+    "NO_UNIQUE_BWF_FIXTURE": 8
+  },
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+}
