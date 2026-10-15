@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-14T05:36:31+00:00",
+  "generated_at_utc": "2026-10-15T05:36:30+00:00",
   "selected_variant": "elo_plus_score_rest",
   "walkforward_2022_2025": {
     "variant": "elo_plus_score_rest",
@@ -133,79 +133,79 @@
   "replay_2026": {
     "variant": "elo_plus_score_rest",
     "status": "RETROSPECTIVE_ONLY_NOT_ARCHIVED_LIVE_T0",
-    "n": 1465,
+    "n": 1492,
     "player_a_probability_bins": [
       {
         "range_low": 0.0,
         "range_high": 0.1,
-        "n": 57,
-        "mean_predicted": 0.062088,
-        "observed_frequency": 0.105263,
-        "calibration_gap": 0.043175
+        "n": 58,
+        "mean_predicted": 0.062077,
+        "observed_frequency": 0.103448,
+        "calibration_gap": 0.041372
       },
       {
         "range_low": 0.1,
         "range_high": 0.2,
-        "n": 106,
-        "mean_predicted": 0.15281,
-        "observed_frequency": 0.188679,
-        "calibration_gap": 0.035869
+        "n": 107,
+        "mean_predicted": 0.152772,
+        "observed_frequency": 0.186916,
+        "calibration_gap": 0.034144
       },
       {
         "range_low": 0.2,
         "range_high": 0.3,
-        "n": 135,
-        "mean_predicted": 0.252838,
-        "observed_frequency": 0.251852,
-        "calibration_gap": -0.000986
+        "n": 141,
+        "mean_predicted": 0.252654,
+        "observed_frequency": 0.262411,
+        "calibration_gap": 0.009758
       },
       {
         "range_low": 0.3,
         "range_high": 0.4,
-        "n": 179,
+        "n": 183,
         "mean_predicted": 0.352682,
-        "observed_frequency": 0.318436,
-        "calibration_gap": -0.034247
+        "observed_frequency": 0.311475,
+        "calibration_gap": -0.041206
       },
       {
         "range_low": 0.4,
         "range_high": 0.5,
-        "n": 195,
-        "mean_predicted": 0.452175,
-        "observed_frequency": 0.394872,
-        "calibration_gap": -0.057303
+        "n": 200,
+        "mean_predicted": 0.452654,
+        "observed_frequency": 0.385,
+        "calibration_gap": -0.067654
       },
       {
         "range_low": 0.5,
         "range_high": 0.6,
-        "n": 240,
-        "mean_predicted": 0.546501,
-        "observed_frequency": 0.5125,
-        "calibration_gap": -0.034001
+        "n": 244,
+        "mean_predicted": 0.546335,
+        "observed_frequency": 0.512295,
+        "calibration_gap": -0.03404
       },
       {
         "range_low": 0.6,
         "range_high": 0.7,
-        "n": 204,
-        "mean_predicted": 0.651345,
-        "observed_frequency": 0.593137,
-        "calibration_gap": -0.058208
+        "n": 205,
+        "mean_predicted": 0.651561,
+        "observed_frequency": 0.595122,
+        "calibration_gap": -0.056439
       },
       {
         "range_low": 0.7,
         "range_high": 0.8,
-        "n": 182,
-        "mean_predicted": 0.750234,
-        "observed_frequency": 0.741758,
-        "calibration_gap": -0.008476
+        "n": 186,
+        "mean_predicted": 0.750195,
+        "observed_frequency": 0.747312,
+        "calibration_gap": -0.002883
       },
       {
         "range_low": 0.8,
         "range_high": 0.9,
-        "n": 108,
-        "mean_predicted": 0.840393,
-        "observed_frequency": 0.796296,
-        "calibration_gap": -0.044096
+        "n": 109,
+        "mean_predicted": 0.840417,
+        "observed_frequency": 0.798165,
+        "calibration_gap": -0.042252
       },
       {
         "range_low": 0.9,
@@ -220,42 +220,42 @@
       {
         "range_low": 0.5,
         "range_high": 0.6,
-        "n": 435,
-        "mean_predicted": 0.547095,
-        "observed_frequency": 0.554023,
-        "calibration_gap": 0.006928
+        "n": 444,
+        "mean_predicted": 0.546791,
+        "observed_frequency": 0.558559,
+        "calibration_gap": 0.011768
       },
       {
         "range_low": 0.6,
         "range_high": 0.7,
-        "n": 383,
-        "mean_predicted": 0.649463,
-        "observed_frequency": 0.634465,
-        "calibration_gap": -0.014998
+        "n": 388,
+        "mean_predicted": 0.64956,
+        "observed_frequency": 0.639175,
+        "calibration_gap": -0.010385
       },
       {
         "range_low": 0.7,
         "range_high": 0.8,
-        "n": 317,
-        "mean_predicted": 0.748926,
-        "observed_frequency": 0.744479,
-        "calibration_gap": -0.004447
+        "n": 327,
+        "mean_predicted": 0.748966,
+        "observed_frequency": 0.743119,
+        "calibration_gap": -0.005847
       },
       {
         "range_low": 0.8,
         "range_high": 0.9,
-        "n": 214,
-        "mean_predicted": 0.84376,
-        "observed_frequency": 0.803738,
-        "calibration_gap": -0.040021
+        "n": 216,
+        "mean_predicted": 0.843791,
+        "observed_frequency": 0.805556,
+        "calibration_gap": -0.038236
       },
       {
         "range_low": 0.9,
         "range_high": 1.0,
-        "n": 116,
-        "mean_predicted": 0.94112,
-        "observed_frequency": 0.922414,
-        "calibration_gap": -0.018706
+        "n": 117,
+        "mean_predicted": 0.941098,
+        "observed_frequency": 0.923077,
+        "calibration_gap": -0.018021
       }
     ],
     "scope": "OUT_OF_SAMPLE_WALK_FORWARD_NO_BOOKMAKER_ODDS"
