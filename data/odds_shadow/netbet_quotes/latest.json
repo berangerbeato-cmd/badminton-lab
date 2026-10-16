@@ -25,18 +25,18 @@
     "https://www.netbet.fr/badminton/international/open-du-danemark-f",
     "https://www.netbet.fr/badminton/international/open-du-danemark-doubles-mixtes"
   ],
-  "index_body_sha256": "82ba838d0cc5a78b5c6796a60d078b18298179b635c37636dc779dedef3b9d85",
+  "index_body_sha256": "ee34b60ee560b739083fc2b89a93e16af6b0e23dd49ed2146772634580df5cff",
   "index_eligible_quotes": 1,
   "index_http_status": 200,
-  "index_link_count": 140,
+  "index_link_count": 138,
   "index_link_path_counts": {
     "": 9,
     "badminton": 7,
     "beach-volley": 2,
-    "biathlon": 2,
     "cashout": 2,
-    "evenement": 55,
+    "evenement": 49,
     "football": 14,
+    "live": 4,
     "paris-en-direct": 5,
     "promotions": 2,
     "ski-alpin": 2,
@@ -45,85 +45,111 @@
   },
   "index_market_audit": {
     "eligible_listing_rows": 1,
-    "markets_seen": 11,
+    "markets_seen": 12,
     "rejection_evidence": [
       {
         "following_lines": [
-          "Bao-Cao",
-          "1.53",
-          "Stoeva-Stoeva",
-          "1.93"
+          "Kim-Seo",
+          "1.01",
+          "Kumagai-Nishi",
+          "6.00"
         ],
-        "market_line": 115,
+        "market_line": 118,
         "preceding_lines": [
-          "Scores en direct",
-          "Format des cotes",
-          "Accueil",
           "Badminton",
           "Pariez sur",
           "Badminton",
           "À L'AFFICHE",
+          "EN DIRECT",
           "TOUTE L'OFFRE BADMINTON",
-          "Populaires",
-          "Open du Danemark, Doubles (F)",
-          "ven. 16 oct.",
-          "11:00",
-          "Bao-Cao",
-          "Stoeva-Stoeva"
+          "En direct",
+          "Open du Danemark, Doubles",
+          "Set 1",
+          "LIVE",
+          "Kim-Seo",
+          "Kumagai-Nishi",
+          "0",
+          "0"
         ],
-        "reason": "NON_MS_COMPETITION"
+        "reason": "PLAYER_PAIR_MISMATCH"
       },
       {
         "following_lines": [
           "Bao-Cao",
           "1.53",
           "Stoeva-Stoeva",
-          "1.93"
+          "1.95"
         ],
-        "market_line": 129,
+        "market_line": 132,
         "preceding_lines": [
+          "Qui va gagner le match ?",
+          "Kim-Seo",
+          "1.01",
+          "Kumagai-Nishi",
+          "6.00",
+          "+ 5",
+          "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
+          "En direct",
+          "(2)",
+          "Populaires",
+          "Open du Danemark, Doubles (F)",
+          "LIVE dans 1 min",
+          "Bao-Cao",
+          "Stoeva-Stoeva"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Bao-Cao",
+          "1.53",
+          "Stoeva-Stoeva",
+          "1.95"
+        ],
+        "market_line": 145,
+        "preceding_lines": [
+          "Stoeva-Stoeva",
           "Qui va gagner le match ?",
           "Bao-Cao",
           "1.53",
           "Stoeva-Stoeva",
-          "1.93",
-          "+ 24",
+          "1.95",
+          "+ 12",
           "Toute l'offre Badminton",
           "(20)",
           "À Venir",
           "Open du Danemark, Doubles (F)",
-          "ven. 16 oct.",
-          "11:00",
+          "LIVE dans 1 min",
           "Bao-Cao",
           "Stoeva-Stoeva"
         ],
-        "reason": "NON_MS_COMPETITION"
+        "reason": "COMPETITION_NOT_PROVEN"
       },
       {
         "following_lines": [
           "Kim-Seo",
           "1.01",
           "Kumagai-Nishi",
-          "6.75"
+          "6.30"
         ],
-        "market_line": 140,
+        "market_line": 155,
         "preceding_lines": [
-          "11:00",
+          "Open du Danemark, Doubles (F)",
+          "LIVE dans 1 min",
           "Bao-Cao",
           "Stoeva-Stoeva",
           "Qui va gagner le match ?",
           "Bao-Cao",
           "1.53",
           "Stoeva-Stoeva",
-          "1.93",
-          "+ 24",
+          "1.95",
+          "+ 12",
           "Open du Danemark, Doubles",
-          "ven. 16 oct.",
-          "11:00",
+          "LIVE dans 1 min",
           "Kim-Seo",
           "Kumagai-Nishi"
         ],
-        "reason": "NON_MS_COMPETITION"
+        "reason": "COMPETITION_NOT_PROVEN"
       },
       {
         "following_lines": [
@@ -132,24 +158,24 @@
           "Zhiyi Wang",
           "1.10"
         ],
-        "market_line": 151,
+        "market_line": 165,
         "preceding_lines": [
-          "11:00",
+          "Open du Danemark, Doubles",
+          "LIVE dans 1 min",
           "Kim-Seo",
           "Kumagai-Nishi",
           "Qui va gagner le match ?",
           "Kim-Seo",
           "1.01",
           "Kumagai-Nishi",
-          "6.75",
-          "+ 24",
+          "6.30",
+          "+ 12",
           "Open du Danemark (F)",
-          "ven. 16 oct.",
-          "11:25",
+          "LIVE dans 26 min",
           "Putri Kusuma Wardani",
           "Zhiyi Wang"
         ],
-        "reason": "NON_MS_COMPETITION"
+        "reason": "COMPETITION_NOT_PROVEN"
       },
       {
         "following_lines": [
@@ -158,9 +184,10 @@
           "Okamura-Yamashita",
           "4.00"
         ],
-        "market_line": 162,
+        "market_line": 175,
         "preceding_lines": [
-          "11:25",
+          "Open du Danemark (F)",
+          "LIVE dans 26 min",
           "Putri Kusuma Wardani",
           "Zhiyi Wang",
           "Qui va gagner le match ?",
@@ -170,42 +197,17 @@
           "1.10",
           "+ 26",
           "Open du Danemark, Doubles",
-          "ven. 16 oct.",
-          "11:50",
+          "LIVE dans 51 min",
           "Chia-Soh",
           "Okamura-Yamashita"
         ],
-        "reason": "NON_MS_COMPETITION"
-      },
-      {
-        "following_lines": [
-          "Pornpawee Chochuwong",
-          "4.10",
-          "Akane Yamaguchi",
-          "1.09"
-        ],
-        "market_line": 173,
-        "preceding_lines": [
-          "11:50",
-          "Chia-Soh",
-          "Okamura-Yamashita",
-          "Qui va gagner le match ?",
-          "Chia-Soh",
-          "1.09",
-          "Okamura-Yamashita",
-          "4.00",
-          "+ 24",
-          "Open du Danemark (F)",
-          "ven. 16 oct.",
-          "12:15",
-          "Pornpawee Chochuwong",
-          "Akane Yamaguchi"
-        ],
-        "reason": "NON_MS_COMPETITION"
+        "reason": "COMPETITION_NOT_PROVEN"
       }
     ],
     "rejections": {
-      "NON_MS_COMPETITION": 10
+      "COMPETITION_NOT_PROVEN": 5,
+      "NON_MS_COMPETITION": 5,
+      "PLAYER_PAIR_MISMATCH": 1
     }
   },
   "index_resolved_url": "https://www.netbet.fr/badminton",
@@ -213,7 +215,7 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-10-16.csv",
   "model_snapshot_sha256": "9e86797df17a7bb07dec09614931d46f78415749fa0c964dc438e9bb19ea7fb9",
-  "observed_at_utc": "2026-10-16T07:09:24+00:00",
+  "observed_at_utc": "2026-10-16T08:59:04+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [],
