@@ -1,0 +1,278 @@
+{
+  "bookmaker_price_updated_at": null,
+  "candidate_count": 0,
+  "candidate_urls": [],
+  "elo_comparisons": [],
+  "fixture_join_audit": [
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-17",
+      "model_rows_same_day": 4,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Victor Lai",
+        "Alex Lanier"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-17",
+      "model_rows_same_day": 4,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Anders Antonsen",
+        "Christo Popov"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    }
+  ],
+  "index_badminton_link_count": 3,
+  "index_badminton_link_examples": [
+    "https://www.netbet.fr/badminton",
+    "https://www.netbet.fr/badminton/international/open-du-danemark-doubles-f",
+    "https://www.netbet.fr/badminton/international/open-du-danemark-f"
+  ],
+  "index_body_sha256": "60776ecbc1aa0c30d4a3e5ee03a3694bbfe77027b5b342a347b0fb9e42c8b9d7",
+  "index_eligible_quotes": 2,
+  "index_http_status": 200,
+  "index_link_count": 134,
+  "index_link_path_counts": {
+    "": 9,
+    "badminton": 6,
+    "cashout": 2,
+    "evenement": 45,
+    "football": 14,
+    "live": 5,
+    "paris-en-direct": 5,
+    "promotions": 2,
+    "ski-alpin": 2,
+    "super-cotes": 2,
+    "tennis": 6,
+    "zendesk": 2
+  },
+  "index_market_audit": {
+    "eligible_listing_rows": 2,
+    "markets_seen": 10,
+    "rejection_evidence": [
+      {
+        "following_lines": [
+          "Alfian-Fikri",
+          "1.52",
+          "Liang-Wang",
+          "2.00"
+        ],
+        "market_line": 120,
+        "preceding_lines": [
+          "Badminton",
+          "Pariez sur",
+          "Badminton",
+          "À L'AFFICHE",
+          "EN DIRECT",
+          "TOUTE L'OFFRE BADMINTON",
+          "En direct",
+          "Open du Danemark, Doubles",
+          "Set 1",
+          "LIVE",
+          "Alfian-Fikri",
+          "Liang-Wang",
+          "4",
+          "5"
+        ],
+        "reason": "PLAYER_PAIR_MISMATCH"
+      },
+      {
+        "following_lines": [
+          "Bao-Cao",
+          "3.10",
+          "Tan-Muralitharan",
+          "1.19"
+        ],
+        "market_line": 132,
+        "preceding_lines": [
+          "4",
+          "5",
+          "Qui va gagner le match ?",
+          "Alfian-Fikri",
+          "1.52",
+          "Liang-Wang",
+          "2.00",
+          "+ 8",
+          "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
+          "Populaires",
+          "Open du Danemark, Doubles (F)",
+          "LIVE dans 15 min",
+          "Bao-Cao",
+          "Tan-Muralitharan"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Akane Yamaguchi",
+          "1.61",
+          "Zhiyi Wang",
+          "1.85"
+        ],
+        "market_line": 142,
+        "preceding_lines": [
+          "Open du Danemark, Doubles (F)",
+          "LIVE dans 15 min",
+          "Bao-Cao",
+          "Tan-Muralitharan",
+          "Qui va gagner le match ?",
+          "Bao-Cao",
+          "3.10",
+          "Tan-Muralitharan",
+          "1.19",
+          "+ 17",
+          "Open du Danemark (F)",
+          "LIVE dans 40 min",
+          "Akane Yamaguchi",
+          "Zhiyi Wang"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Suzuki-Yamakita",
+          "3.15",
+          "Nakade-Takahashi",
+          "1.18"
+        ],
+        "market_line": 153,
+        "preceding_lines": [
+          "LIVE dans 40 min",
+          "Akane Yamaguchi",
+          "Zhiyi Wang",
+          "Qui va gagner le match ?",
+          "Akane Yamaguchi",
+          "1.61",
+          "Zhiyi Wang",
+          "1.85",
+          "+ 27",
+          "Open du Danemark, Doubles (F)",
+          "sam. 17 oct.",
+          "12:55",
+          "Suzuki-Yamakita",
+          "Nakade-Takahashi"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Bao-Cao",
+          "3.10",
+          "Tan-Muralitharan",
+          "1.19"
+        ],
+        "market_line": 168,
+        "preceding_lines": [
+          "Suzuki-Yamakita",
+          "3.15",
+          "Nakade-Takahashi",
+          "1.18",
+          "+ 26",
+          "Open du Danemark, Doubles (F)",
+          "(2)",
+          "Toute l'offre Badminton",
+          "(6)",
+          "À Venir",
+          "Open du Danemark, Doubles (F)",
+          "LIVE dans 15 min",
+          "Bao-Cao",
+          "Tan-Muralitharan"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Akane Yamaguchi",
+          "1.61",
+          "Zhiyi Wang",
+          "1.85"
+        ],
+        "market_line": 178,
+        "preceding_lines": [
+          "Open du Danemark, Doubles (F)",
+          "LIVE dans 15 min",
+          "Bao-Cao",
+          "Tan-Muralitharan",
+          "Qui va gagner le match ?",
+          "Bao-Cao",
+          "3.10",
+          "Tan-Muralitharan",
+          "1.19",
+          "+ 17",
+          "Open du Danemark (F)",
+          "LIVE dans 40 min",
+          "Akane Yamaguchi",
+          "Zhiyi Wang"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      }
+    ],
+    "rejections": {
+      "COMPETITION_NOT_PROVEN": 4,
+      "NON_MS_COMPETITION": 3,
+      "PLAYER_PAIR_MISMATCH": 1
+    }
+  },
+  "index_resolved_url": "https://www.netbet.fr/badminton",
+  "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
+  "index_url": "https://www.netbet.fr/badminton",
+  "model_snapshot": "data/model/snapshots/2026-10-17.csv",
+  "model_snapshot_sha256": "b0c93772ccee22580358d4f736087c09b4fe179e6d36299f5762a466c844d582",
+  "observed_at_utc": "2026-10-17T09:50:26+00:00",
+  "operator": "NetBet.fr",
+  "page_audit_limit": 8,
+  "page_audits": [],
+  "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
+  "quotes": [
+    {
+      "bookmaker_overround_pct": 16.24,
+      "competition_display": "Open du Danemark",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-10-17",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.348285,
+      "normalized_market_probability_2": 0.651715,
+      "odds_1": 2.47,
+      "odds_2": 1.32,
+      "player_1_display": "Victor Lai",
+      "player_2_display": "Alex Lanier",
+      "raw_implied_probability_1": 0.404858,
+      "raw_implied_probability_2": 0.757576,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.48,
+      "competition_display": "Open du Danemark",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-10-17",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.543353,
+      "normalized_market_probability_2": 0.456647,
+      "odds_1": 1.58,
+      "odds_2": 1.88,
+      "player_1_display": "Anders Antonsen",
+      "player_2_display": "Christo Popov",
+      "raw_implied_probability_1": 0.632911,
+      "raw_implied_probability_2": 0.531915,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    }
+  ],
+  "reason_counts": {
+    "NO_UNIQUE_BWF_FIXTURE": 2
+  },
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+}
