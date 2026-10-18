@@ -1,0 +1,222 @@
+{
+  "bookmaker_price_updated_at": null,
+  "candidate_count": 0,
+  "candidate_urls": [],
+  "elo_comparisons": [],
+  "fixture_join_audit": [
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-18",
+      "model_rows_same_day": 2,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Alex Lanier",
+        "Anders Antonsen"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    }
+  ],
+  "index_badminton_link_count": 5,
+  "index_badminton_link_examples": [
+    "https://www.netbet.fr/badminton",
+    "https://www.netbet.fr/badminton/international/open-du-danemark-doubles-mixtes",
+    "https://www.netbet.fr/badminton/international/open-du-danemark-doubles-f",
+    "https://www.netbet.fr/badminton/international/open-du-danemark-f",
+    "https://www.netbet.fr/badminton/international/open-du-danemark-doubles"
+  ],
+  "index_body_sha256": "569ebeb87aac3fbc8e9e8e16ae47cd4fa99b03330514c0a5a8e529e141440585",
+  "index_eligible_quotes": 1,
+  "index_http_status": 200,
+  "index_link_count": 115,
+  "index_link_path_counts": {
+    "": 9,
+    "badminton": 8,
+    "beach-volley": 2,
+    "biathlon": 2,
+    "cashout": 2,
+    "evenement": 35,
+    "football": 14,
+    "paris-en-direct": 5,
+    "promotions": 2,
+    "ski-alpin": 2,
+    "tennis": 6,
+    "zendesk": 2
+  },
+  "index_market_audit": {
+    "eligible_listing_rows": 1,
+    "markets_seen": 7,
+    "rejection_evidence": [
+      {
+        "following_lines": [
+          "Huang-Feng",
+          "1.68",
+          "Jiang-Wei",
+          "1.75"
+        ],
+        "market_line": 109,
+        "preceding_lines": [
+          "Scores en direct",
+          "Format des cotes",
+          "Accueil",
+          "Badminton",
+          "Pariez sur",
+          "Badminton",
+          "À L'AFFICHE",
+          "TOUTE L'OFFRE BADMINTON",
+          "Populaires",
+          "Open du Danemark, Doubles Mixtes",
+          "dim. 18 oct.",
+          "12:00",
+          "Huang-Feng",
+          "Jiang-Wei"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Suzuki-Yamakita",
+          "4.10",
+          "Tan-Muralitharan",
+          "1.09"
+        ],
+        "market_line": 136,
+        "preceding_lines": [
+          "1.60",
+          "Anders Antonsen",
+          "1.85",
+          "+ 27",
+          "Open du Danemark, Doubles Mixtes",
+          "(1)",
+          "Toute l'offre Badminton",
+          "(5)",
+          "À Venir",
+          "Open du Danemark, Doubles (F)",
+          "dim. 18 oct.",
+          "11:15",
+          "Suzuki-Yamakita",
+          "Tan-Muralitharan"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Huang-Feng",
+          "1.68",
+          "Jiang-Wei",
+          "1.75"
+        ],
+        "market_line": 147,
+        "preceding_lines": [
+          "11:15",
+          "Suzuki-Yamakita",
+          "Tan-Muralitharan",
+          "Qui va gagner le match ?",
+          "Suzuki-Yamakita",
+          "4.10",
+          "Tan-Muralitharan",
+          "1.09",
+          "+ 26",
+          "Open du Danemark, Doubles Mixtes",
+          "dim. 18 oct.",
+          "12:00",
+          "Huang-Feng",
+          "Jiang-Wei"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Se Young An",
+          "1.05",
+          "Akane Yamaguchi",
+          "4.80"
+        ],
+        "market_line": 158,
+        "preceding_lines": [
+          "12:00",
+          "Huang-Feng",
+          "Jiang-Wei",
+          "Qui va gagner le match ?",
+          "Huang-Feng",
+          "1.68",
+          "Jiang-Wei",
+          "1.75",
+          "+ 27",
+          "Open du Danemark (F)",
+          "dim. 18 oct.",
+          "12:50",
+          "Se Young An",
+          "Akane Yamaguchi"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Chia-Soh",
+          "1.90",
+          "Alfian-Fikri",
+          "1.57"
+        ],
+        "market_line": 169,
+        "preceding_lines": [
+          "12:50",
+          "Se Young An",
+          "Akane Yamaguchi",
+          "Qui va gagner le match ?",
+          "Se Young An",
+          "1.05",
+          "Akane Yamaguchi",
+          "4.80",
+          "+ 26",
+          "Open du Danemark, Doubles",
+          "dim. 18 oct.",
+          "13:15",
+          "Chia-Soh",
+          "Alfian-Fikri"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      }
+    ],
+    "rejections": {
+      "DUPLICATE_MARKET": 1,
+      "NON_MS_COMPETITION": 5
+    }
+  },
+  "index_resolved_url": "https://www.netbet.fr/badminton",
+  "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
+  "index_url": "https://www.netbet.fr/badminton",
+  "model_snapshot": "data/model/snapshots/2026-10-18.csv",
+  "model_snapshot_sha256": "47eeed6649d577871edb52b4c68a63687db2c557faf634480a57f8e2f1fd251c",
+  "observed_at_utc": "2026-10-18T07:03:28+00:00",
+  "operator": "NetBet.fr",
+  "page_audit_limit": 8,
+  "page_audits": [],
+  "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
+  "quotes": [
+    {
+      "bookmaker_overround_pct": 16.55,
+      "competition_display": "Open du Danemark",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-10-18",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.536232,
+      "normalized_market_probability_2": 0.463768,
+      "odds_1": 1.6,
+      "odds_2": 1.85,
+      "player_1_display": "Alex Lanier",
+      "player_2_display": "Anders Antonsen",
+      "raw_implied_probability_1": 0.625,
+      "raw_implied_probability_2": 0.540541,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    }
+  ],
+  "reason_counts": {
+    "NO_UNIQUE_BWF_FIXTURE": 1
+  },
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+}
