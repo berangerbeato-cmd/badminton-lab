@@ -40,54 +40,54 @@
     "2026": [
       {
         "band": "50-60%",
-        "favorite_wins": 282,
-        "mean_predicted_probability": 0.546107,
-        "n": 493,
-        "observed_win_rate": 0.572008
+        "favorite_wins": 299,
+        "mean_predicted_probability": 0.54595,
+        "n": 521,
+        "observed_win_rate": 0.573896
       },
       {
         "band": "60-70%",
-        "favorite_wins": 253,
-        "mean_predicted_probability": 0.648082,
-        "n": 389,
-        "observed_win_rate": 0.650386
+        "favorite_wins": 272,
+        "mean_predicted_probability": 0.648354,
+        "n": 414,
+        "observed_win_rate": 0.657005
       },
       {
         "band": "70-80%",
-        "favorite_wins": 192,
-        "mean_predicted_probability": 0.74611,
-        "n": 260,
-        "observed_win_rate": 0.738462
+        "favorite_wins": 211,
+        "mean_predicted_probability": 0.746508,
+        "n": 282,
+        "observed_win_rate": 0.748227
       },
       {
         "band": "80-90%",
-        "favorite_wins": 151,
-        "mean_predicted_probability": 0.847657,
-        "n": 196,
-        "observed_win_rate": 0.770408
+        "favorite_wins": 157,
+        "mean_predicted_probability": 0.847499,
+        "n": 204,
+        "observed_win_rate": 0.769608
       },
       {
         "band": "90-100%",
-        "favorite_wins": 92,
-        "mean_predicted_probability": 0.937883,
-        "n": 97,
-        "observed_win_rate": 0.948454
+        "favorite_wins": 93,
+        "mean_predicted_probability": 0.937564,
+        "n": 98,
+        "observed_win_rate": 0.94898
       }
     ]
   },
   "elo_k": 48,
   "elo_k_fitted_on": 2024,
-  "generated_at_utc": "2026-10-12T07:52:51+00:00",
+  "generated_at_utc": "2026-10-19T08:14:44+00:00",
   "historical_bookmaker_odds_present": false,
   "historical_market_roi_eur": null,
   "historical_pre_match_quote_verified": false,
   "historical_source_quality": {
-    "archives_read": 406,
-    "clean_MS_matches": 13611,
+    "archives_read": 408,
+    "clean_MS_matches": 13695,
     "missing_player_ids": 5,
-    "no_full_score": 286,
+    "no_full_score": 288,
     "no_winner": 12,
-    "not_MS": 52189,
+    "not_MS": 52473,
     "score_not_completed": 220
   },
   "holdout_replay_verification": {
@@ -121,35 +121,35 @@
       "upsets": 662
     },
     "2026": {
-      "accuracy": 0.675958,
-      "brier": 0.209263,
-      "cold_start": 137,
+      "accuracy": 0.679394,
+      "brier": 0.208021,
+      "cold_start": 138,
       "confidence_interval_95": [
-        0.6513,
-        0.6997
+        0.6555,
+        0.7024
       ],
-      "favorite_wins": 970,
-      "log_loss": 0.605462,
-      "n": 1435,
-      "upsets": 465
+      "favorite_wins": 1032,
+      "log_loss": 0.602812,
+      "n": 1519,
+      "upsets": 487
     },
     "combined_exploratory": {
-      "accuracy": 0.669598,
-      "brier": 0.208694,
-      "cold_start": 291,
+      "accuracy": 0.671245,
+      "brier": 0.208168,
+      "cold_start": 292,
       "confidence_interval_95": [
-        0.6536,
-        0.6852
+        0.6555,
+        0.6866
       ],
-      "favorite_wins": 2284,
-      "log_loss": 0.603639,
-      "n": 3411,
-      "upsets": 1127
+      "favorite_wins": 2346,
+      "log_loss": 0.602531,
+      "n": 3495,
+      "upsets": 1149
     }
   },
   "model_report_source_sha256": {
-    "baseline_report_sha256": "0eafdd320e0ede56e98085a5d85f6d56f74d0444cecc2b96c925c776dd896963",
-    "calibration_report_sha256": "5fb6d70b0777dbe2f8c8d5a52f2557bf3fd08563c35b8887a69d8e9d1e8bd451"
+    "baseline_report_sha256": "dad247383a70d1ad22e58b185d6c470ca5fb8387c2af632f89eef12f9628630b",
+    "calibration_report_sha256": "74f120fd74ba8ba1f2d17becc9f63a5a1806c37a239721e9a6621d1b45c41bce"
   },
   "monthly_metrics": {
     "2025-01": {
@@ -426,17 +426,17 @@
       "upsets": 63
     },
     "2026-10": {
-      "accuracy": 0.742857,
-      "brier": 0.178879,
-      "cold_start": 0,
+      "accuracy": 0.739496,
+      "brier": 0.184476,
+      "cold_start": 1,
       "confidence_interval_95": [
-        0.5793,
-        0.8584
+        0.654,
+        0.81
       ],
-      "favorite_wins": 26,
-      "log_loss": 0.538513,
-      "n": 35,
-      "upsets": 9
+      "favorite_wins": 88,
+      "log_loss": 0.551946,
+      "n": 119,
+      "upsets": 31
     }
   },
   "platt_calibration_fitted_on": 2024,
