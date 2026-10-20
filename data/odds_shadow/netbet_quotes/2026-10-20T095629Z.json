@@ -1,0 +1,693 @@
+{
+  "bookmaker_price_updated_at": null,
+  "candidate_count": 1,
+  "candidate_urls": [
+    "https://www.netbet.fr/badminton/international/open-de-france"
+  ],
+  "elo_comparisons": [],
+  "fixture_join_audit": [
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-20",
+      "model_rows_same_day": 24,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Yu Jen Chi",
+        "Nishimoto Kenta"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-20",
+      "model_rows_same_day": 24,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Chia Hao Lee",
+        "Panitchaphon Teeraratsakul"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-20",
+      "model_rows_same_day": 24,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Koki Watanabe",
+        "Jun Hau Leong"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-20",
+      "model_rows_same_day": 24,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Jonatan Christie",
+        "Moh Zaki Ubaidillah"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-20",
+      "model_rows_same_day": 24,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Tien Chen Chou",
+        "Yushi Tanaka"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-21",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Alex Lanier",
+        "Jason Gunawan"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-21",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Arnaud Merkle",
+        "Christo Popov"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-21",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Brian Yang",
+        "Cheuk Yiu Lee"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-21",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Chun Yi Lin",
+        "Alwi Farhan"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-21",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Ka Long Ng",
+        "Anders Antonsen"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-21",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Lakshya Sen",
+        "Kodai Naraoka"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-21",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Srikanth Kidambi",
+        "Ayush Shetty"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-21",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Zhe An Hu",
+        "Victor Lai"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    }
+  ],
+  "index_badminton_link_count": 5,
+  "index_badminton_link_examples": [
+    "https://www.netbet.fr/badminton",
+    "https://www.netbet.fr/badminton/international/open-de-france-doubles-mixtes",
+    "https://www.netbet.fr/badminton/international/open-de-france",
+    "https://www.netbet.fr/badminton/international/open-de-france-doubles-f",
+    "https://www.netbet.fr/badminton/international/open-de-france-doubles"
+  ],
+  "index_body_sha256": "67ada579192f7d530a84b2e82331c6e8fcdbef2759ebc3adbba71492c0a4d823",
+  "index_eligible_quotes": 1,
+  "index_http_status": 200,
+  "index_link_count": 139,
+  "index_link_path_counts": {
+    "": 9,
+    "badminton": 7,
+    "basketball": 2,
+    "cashout": 2,
+    "evenement": 57,
+    "football": 8,
+    "live": 3,
+    "paris-en-direct": 5,
+    "promotions": 2,
+    "super-cotes": 2,
+    "tennis": 8,
+    "zendesk": 2
+  },
+  "index_market_audit": {
+    "eligible_listing_rows": 1,
+    "markets_seen": 12,
+    "rejection_evidence": [
+      {
+        "following_lines": [
+          "Nhat Nguyen",
+          "3.45",
+          "Jia Heng Teh",
+          "1.15"
+        ],
+        "market_line": 118,
+        "preceding_lines": [
+          "Badminton",
+          "À L'AFFICHE",
+          "EN DIRECT",
+          "TOUTE L'OFFRE BADMINTON",
+          "En direct",
+          "Open de France",
+          "Set 3",
+          "LIVE",
+          "Nhat Nguyen",
+          "Jia Heng Teh",
+          "1",
+          "1",
+          "1",
+          "5"
+        ],
+        "reason": "PLAYER_PAIR_MISMATCH"
+      },
+      {
+        "following_lines": [
+          "Maio-Palermo",
+          "1.75",
+          "Rodriguez-Garcia",
+          "1.68"
+        ],
+        "market_line": 146,
+        "preceding_lines": [
+          "Nishimoto Kenta",
+          "Qui va gagner le match ?",
+          "Yu Jen Chi",
+          "1.95",
+          "Nishimoto Kenta",
+          "1.53",
+          "+ 23",
+          "Toute l'offre Badminton",
+          "(67)",
+          "À Venir",
+          "Open de France, Doubles Mixtes",
+          "LIVE dans 3 min",
+          "Maio-Palermo",
+          "Rodriguez-Garcia"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Chia Hao Lee",
+          "3.95",
+          "Panitchaphon Teeraratsakul",
+          "1.10"
+        ],
+        "market_line": 156,
+        "preceding_lines": [
+          "Open de France, Doubles Mixtes",
+          "LIVE dans 3 min",
+          "Maio-Palermo",
+          "Rodriguez-Garcia",
+          "Qui va gagner le match ?",
+          "Maio-Palermo",
+          "1.75",
+          "Rodriguez-Garcia",
+          "1.68",
+          "+ 19",
+          "Open de France",
+          "LIVE dans 8 min",
+          "Chia Hao Lee",
+          "Panitchaphon Teeraratsakul"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Koki Watanabe",
+          "1.37",
+          "Jun Hau Leong",
+          "2.32"
+        ],
+        "market_line": 166,
+        "preceding_lines": [
+          "Open de France",
+          "LIVE dans 8 min",
+          "Chia Hao Lee",
+          "Panitchaphon Teeraratsakul",
+          "Qui va gagner le match ?",
+          "Chia Hao Lee",
+          "3.95",
+          "Panitchaphon Teeraratsakul",
+          "1.10",
+          "+ 24",
+          "Open de France",
+          "LIVE dans 8 min",
+          "Koki Watanabe",
+          "Jun Hau Leong"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Rose-Setianingrum",
+          "1.02",
+          "Lui-Tsang",
+          "5.50"
+        ],
+        "market_line": 176,
+        "preceding_lines": [
+          "Open de France",
+          "LIVE dans 8 min",
+          "Koki Watanabe",
+          "Jun Hau Leong",
+          "Qui va gagner le match ?",
+          "Koki Watanabe",
+          "1.37",
+          "Jun Hau Leong",
+          "2.32",
+          "+ 23",
+          "Open de France, Doubles (F)",
+          "LIVE dans 8 min",
+          "Rose-Setianingrum",
+          "Lui-Tsang"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Delrue-Gicquel",
+          "1.01",
+          "Hemming-Van Leeuwen",
+          "7.75"
+        ],
+        "market_line": 186,
+        "preceding_lines": [
+          "Open de France, Doubles (F)",
+          "LIVE dans 8 min",
+          "Rose-Setianingrum",
+          "Lui-Tsang",
+          "Qui va gagner le match ?",
+          "Rose-Setianingrum",
+          "1.02",
+          "Lui-Tsang",
+          "5.50",
+          "+ 20",
+          "Open de France, Doubles Mixtes",
+          "LIVE dans 33 min",
+          "Delrue-Gicquel",
+          "Hemming-Van Leeuwen"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      }
+    ],
+    "rejections": {
+      "COMPETITION_NOT_PROVEN": 8,
+      "NON_MS_COMPETITION": 2,
+      "PLAYER_PAIR_MISMATCH": 1
+    }
+  },
+  "index_resolved_url": "https://www.netbet.fr/badminton",
+  "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
+  "index_url": "https://www.netbet.fr/badminton",
+  "model_snapshot": "data/model/snapshots/2026-10-20.csv",
+  "model_snapshot_sha256": "91652b8eb3204f3d5441daf33808d47c8a832f4eaa8ef9c02b58e0edb83f61a3",
+  "observed_at_utc": "2026-10-20T09:56:29+00:00",
+  "operator": "NetBet.fr",
+  "page_audit_limit": 8,
+  "page_audits": [
+    {
+      "body_sha256": "68265f322c053f15469c8c4b1d2c6238c37947e615bfce6a80e8db9ae3a8e27b",
+      "cache_age_seconds": null,
+      "eligible_listing_rows": 13,
+      "http_status": 200,
+      "markets_seen": 15,
+      "rejection_evidence": [
+        {
+          "following_lines": [
+            "Nhat Nguyen",
+            "3.45",
+            "Jia Heng Teh",
+            "1.15"
+          ],
+          "market_line": 116,
+          "preceding_lines": [
+            "Badminton",
+            "International - Open de France",
+            "Pariez sur",
+            "Open de France",
+            "En direct",
+            "Open de France",
+            "Set 3",
+            "LIVE",
+            "Nhat Nguyen",
+            "Jia Heng Teh",
+            "1",
+            "1",
+            "1",
+            "5"
+          ],
+          "reason": "PLAYER_PAIR_MISMATCH"
+        },
+        {
+          "following_lines": [
+            "Vitidsarn Kunlavut",
+            "1.01",
+            "Toma Junior Popov",
+            "7.75"
+          ],
+          "market_line": 131,
+          "preceding_lines": [
+            "Nhat Nguyen",
+            "3.45",
+            "Jia Heng Teh",
+            "1.15",
+            "+ 2",
+            "Open de France",
+            "Set 2",
+            "LIVE",
+            "Vitidsarn Kunlavut",
+            "Toma Junior Popov",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "reason": "PLAYER_PAIR_MISMATCH"
+        }
+      ],
+      "rejections": {
+        "PLAYER_PAIR_MISMATCH": 2
+      },
+      "resolved_url": "https://www.netbet.fr/badminton/international/open-de-france",
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "screenshot": "data/odds_shadow/visual_evidence/netbet_event_0.png",
+      "status": "PUBLIC_LISTINGS_OBSERVED_NEEDS_CONFIRMATION",
+      "url": "https://www.netbet.fr/badminton/international/open-de-france"
+    }
+  ],
+  "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
+  "quotes": [
+    {
+      "bookmaker_overround_pct": 16.64,
+      "competition_display": "Open de France",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-10-20",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.439655,
+      "normalized_market_probability_2": 0.560345,
+      "odds_1": 1.95,
+      "odds_2": 1.53,
+      "player_1_display": "Yu Jen Chi",
+      "player_2_display": "Nishimoto Kenta",
+      "raw_implied_probability_1": 0.512821,
+      "raw_implied_probability_2": 0.653595,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.23,
+      "competition_display": "Open de France",
+      "day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-france",
+      "listed_day_paris": "2026-10-20",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.217822,
+      "normalized_market_probability_2": 0.782178,
+      "odds_1": 3.95,
+      "odds_2": 1.1,
+      "player_1_display": "Chia Hao Lee",
+      "player_2_display": "Panitchaphon Teeraratsakul",
+      "raw_implied_probability_1": 0.253165,
+      "raw_implied_probability_2": 0.909091,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.1,
+      "competition_display": "Open de France",
+      "day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-france",
+      "listed_day_paris": "2026-10-20",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.628726,
+      "normalized_market_probability_2": 0.371274,
+      "odds_1": 1.37,
+      "odds_2": 2.32,
+      "player_1_display": "Koki Watanabe",
+      "player_2_display": "Jun Hau Leong",
+      "raw_implied_probability_1": 0.729927,
+      "raw_implied_probability_2": 0.431034,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.43,
+      "competition_display": "Open de France",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-france",
+      "listed_day_paris": "2026-10-20",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.665803,
+      "normalized_market_probability_2": 0.334197,
+      "odds_1": 1.29,
+      "odds_2": 2.57,
+      "player_1_display": "Jonatan Christie",
+      "player_2_display": "Moh Zaki Ubaidillah",
+      "raw_implied_probability_1": 0.775194,
+      "raw_implied_probability_2": 0.389105,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.37,
+      "competition_display": "Open de France",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-france",
+      "listed_day_paris": "2026-10-20",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.530435,
+      "normalized_market_probability_2": 0.469565,
+      "odds_1": 1.62,
+      "odds_2": 1.83,
+      "player_1_display": "Tien Chen Chou",
+      "player_2_display": "Yushi Tanaka",
+      "raw_implied_probability_1": 0.617284,
+      "raw_implied_probability_2": 0.546448,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.13,
+      "competition_display": "Open de France",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-france",
+      "listed_day_paris": "2026-10-21",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.789981,
+      "normalized_market_probability_2": 0.210019,
+      "odds_1": 1.09,
+      "odds_2": 4.1,
+      "player_1_display": "Alex Lanier",
+      "player_2_display": "Jason Gunawan",
+      "raw_implied_probability_1": 0.917431,
+      "raw_implied_probability_2": 0.243902,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.23,
+      "competition_display": "Open de France",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-france",
+      "listed_day_paris": "2026-10-21",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.217822,
+      "normalized_market_probability_2": 0.782178,
+      "odds_1": 3.95,
+      "odds_2": 1.1,
+      "player_1_display": "Arnaud Merkle",
+      "player_2_display": "Christo Popov",
+      "raw_implied_probability_1": 0.253165,
+      "raw_implied_probability_2": 0.909091,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.43,
+      "competition_display": "Open de France",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-france",
+      "listed_day_paris": "2026-10-21",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.334197,
+      "normalized_market_probability_2": 0.665803,
+      "odds_1": 2.57,
+      "odds_2": 1.29,
+      "player_1_display": "Brian Yang",
+      "player_2_display": "Cheuk Yiu Lee",
+      "raw_implied_probability_1": 0.389105,
+      "raw_implied_probability_2": 0.775194,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.23,
+      "competition_display": "Open de France",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-france",
+      "listed_day_paris": "2026-10-21",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.430199,
+      "normalized_market_probability_2": 0.569801,
+      "odds_1": 2.0,
+      "odds_2": 1.51,
+      "player_1_display": "Chun Yi Lin",
+      "player_2_display": "Alwi Farhan",
+      "raw_implied_probability_1": 0.5,
+      "raw_implied_probability_2": 0.662252,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.27,
+      "competition_display": "Open de France",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-france",
+      "listed_day_paris": "2026-10-21",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.238901,
+      "normalized_market_probability_2": 0.761099,
+      "odds_1": 3.6,
+      "odds_2": 1.13,
+      "player_1_display": "Ka Long Ng",
+      "player_2_display": "Anders Antonsen",
+      "raw_implied_probability_1": 0.277778,
+      "raw_implied_probability_2": 0.884956,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 15.99,
+      "competition_display": "Open de France",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-france",
+      "listed_day_paris": "2026-10-21",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.471098,
+      "normalized_market_probability_2": 0.528902,
+      "odds_1": 1.83,
+      "odds_2": 1.63,
+      "player_1_display": "Lakshya Sen",
+      "player_2_display": "Kodai Naraoka",
+      "raw_implied_probability_1": 0.546448,
+      "raw_implied_probability_2": 0.613497,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.37,
+      "competition_display": "Open de France",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-france",
+      "listed_day_paris": "2026-10-21",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.252747,
+      "normalized_market_probability_2": 0.747253,
+      "odds_1": 3.4,
+      "odds_2": 1.15,
+      "player_1_display": "Srikanth Kidambi",
+      "player_2_display": "Ayush Shetty",
+      "raw_implied_probability_1": 0.294118,
+      "raw_implied_probability_2": 0.869565,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.61,
+      "competition_display": "Open de France",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-france",
+      "listed_day_paris": "2026-10-21",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.340314,
+      "normalized_market_probability_2": 0.659686,
+      "odds_1": 2.52,
+      "odds_2": 1.3,
+      "player_1_display": "Zhe An Hu",
+      "player_2_display": "Victor Lai",
+      "raw_implied_probability_1": 0.396825,
+      "raw_implied_probability_2": 0.769231,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    }
+  ],
+  "reason_counts": {
+    "NO_UNIQUE_BWF_FIXTURE": 13
+  },
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+}
