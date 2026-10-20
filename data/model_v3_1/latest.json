@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_1_features_v1",
-  "generated_at_utc": "2026-10-19T06:14:12+00:00",
+  "generated_at_utc": "2026-10-20T05:36:59+00:00",
   "policy": "MODEL_RESEARCH_ONLY_NO_ODDS_NO_BET_NO_T0_REWRITE",
   "model": "bwf_v3_1_feature_logit",
   "feature_families": {
@@ -34,13 +34,13 @@
   "ridge": 5.0,
   "elo_k": 48,
   "source_quality": {
-    "not_MS": 52473,
+    "not_MS": 52552,
     "no_full_score": 288,
     "score_not_completed": 220,
-    "no_winner": 12,
+    "no_winner": 36,
     "missing_player_ids": 5,
-    "archives_read": 408,
-    "clean_MS_matches": 13695
+    "archives_read": 410,
+    "clean_MS_matches": 13696
   },
   "methodology": [
     "All features for a UTC date use results strictly before that date.",
@@ -64,10 +64,10 @@
         "brier_delta_vs_elo_v1": 0.0
       },
       "replay_2026": {
-        "n": 1519,
-        "brier": 0.208021,
-        "log_loss": 0.602812,
-        "accuracy": 0.679394
+        "n": 1520,
+        "brier": 0.208058,
+        "log_loss": 0.60289,
+        "accuracy": 0.678947
       }
     },
     "elo_plus_form": {
@@ -87,10 +87,10 @@
         "brier_delta_vs_elo_v1": 0.000205
       },
       "replay_2026": {
-        "n": 1519,
-        "brier": 0.208284,
-        "log_loss": 0.603433,
-        "accuracy": 0.680053
+        "n": 1520,
+        "brier": 0.208314,
+        "log_loss": 0.603497,
+        "accuracy": 0.679605
       }
     },
     "elo_plus_fatigue": {
@@ -114,10 +114,10 @@
         "brier_delta_vs_elo_v1": 0.000257
       },
       "replay_2026": {
-        "n": 1519,
-        "brier": 0.208147,
-        "log_loss": 0.603204,
-        "accuracy": 0.678078
+        "n": 1520,
+        "brier": 0.208184,
+        "log_loss": 0.603282,
+        "accuracy": 0.677632
       }
     },
     "elo_plus_rest_inactivity": {
@@ -139,10 +139,10 @@
         "brier_delta_vs_elo_v1": -0.001035
       },
       "replay_2026": {
-        "n": 1519,
-        "brier": 0.20832,
-        "log_loss": 0.60366,
-        "accuracy": 0.680053
+        "n": 1520,
+        "brier": 0.208357,
+        "log_loss": 0.603738,
+        "accuracy": 0.679605
       }
     },
     "elo_plus_h2h": {
@@ -162,10 +162,10 @@
         "brier_delta_vs_elo_v1": -0.00025
       },
       "replay_2026": {
-        "n": 1519,
-        "brier": 0.20855,
-        "log_loss": 0.604114,
-        "accuracy": 0.679394
+        "n": 1520,
+        "brier": 0.208587,
+        "log_loss": 0.604191,
+        "accuracy": 0.678947
       }
     },
     "elo_plus_momentum": {
@@ -187,10 +187,10 @@
         "brier_delta_vs_elo_v1": 0.000817
       },
       "replay_2026": {
-        "n": 1519,
-        "brier": 0.209605,
-        "log_loss": 0.607672,
-        "accuracy": 0.671494
+        "n": 1520,
+        "brier": 0.209641,
+        "log_loss": 0.607747,
+        "accuracy": 0.671053
       }
     },
     "elo_plus_score": {
@@ -212,10 +212,10 @@
         "brier_delta_vs_elo_v1": -0.002319
       },
       "replay_2026": {
-        "n": 1519,
-        "brier": 0.204712,
-        "log_loss": 0.595149,
-        "accuracy": 0.680053
+        "n": 1520,
+        "brier": 0.204758,
+        "log_loss": 0.595246,
+        "accuracy": 0.679605
       }
     },
     "elo_v3_1_all": {
@@ -255,10 +255,10 @@
         "brier_delta_vs_elo_v1": -0.002612
       },
       "replay_2026": {
-        "n": 1519,
-        "brier": 0.207491,
-        "log_loss": 0.602921,
-        "accuracy": 0.677419
+        "n": 1520,
+        "brier": 0.207545,
+        "log_loss": 0.603033,
+        "accuracy": 0.676974
       }
     }
   }
