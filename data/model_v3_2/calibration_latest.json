@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-19T07:12:55+00:00",
+  "generated_at_utc": "2026-10-20T05:37:17+00:00",
   "selected_variant": "elo_plus_score_rest",
   "walkforward_2022_2025": {
     "variant": "elo_plus_score_rest",
@@ -133,7 +133,7 @@
   "replay_2026": {
     "variant": "elo_plus_score_rest",
     "status": "RETROSPECTIVE_ONLY_NOT_ARCHIVED_LIVE_T0",
-    "n": 1519,
+    "n": 1520,
     "player_a_probability_bins": [
       {
         "range_low": 0.0,
@@ -178,10 +178,10 @@
       {
         "range_low": 0.5,
         "range_high": 0.6,
-        "n": 251,
-        "mean_predicted": 0.546771,
-        "observed_frequency": 0.517928,
-        "calibration_gap": -0.028843
+        "n": 252,
+        "mean_predicted": 0.546661,
+        "observed_frequency": 0.519841,
+        "calibration_gap": -0.02682
       },
       {
         "range_low": 0.6,
@@ -220,10 +220,10 @@
       {
         "range_low": 0.5,
         "range_high": 0.6,
-        "n": 456,
-        "mean_predicted": 0.546892,
-        "observed_frequency": 0.561404,
-        "calibration_gap": 0.014511
+        "n": 457,
+        "mean_predicted": 0.546831,
+        "observed_frequency": 0.562363,
+        "calibration_gap": 0.015532
       },
       {
         "range_low": 0.6,
