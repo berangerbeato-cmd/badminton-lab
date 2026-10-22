@@ -1,0 +1,18 @@
+{
+  "bookmaker_price_updated_at": null,
+  "elo_comparisons": [],
+  "index_body_sha256": "24dbb98a29dc7920c24a6768b3c49dd6f0d7615f46b0fe161a64df1c0a34eb59",
+  "index_http_status": 503,
+  "index_resolved_url": "https://www.netbet.fr/badminton",
+  "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
+  "index_url": "https://www.netbet.fr/badminton",
+  "model_snapshot": null,
+  "observed_at_utc": "2026-10-22T09:02:40+00:00",
+  "operator": "NetBet.fr",
+  "page_audits": [],
+  "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
+  "quotes": [],
+  "reason_counts": {},
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "status": "INDEX_HTTP_NOT_OK"
+}
