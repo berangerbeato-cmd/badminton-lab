@@ -2,9 +2,9 @@
   "status": "ORDER_VALIDATED",
   "policy": "RESEARCH_ONLY_NO_BET",
   "bwf_tournaments": 7,
-  "bwf_refreshed": 3,
-  "bwf_empty_not_yet_published": 4,
-  "latest_bwf_refresh_utc": "2026-10-12T09:54:33.752549+00:00",
-  "model_generated_at_utc": "2026-10-12T09:54:36.779222+00:00",
-  "comparison_generated_at_utc": "2026-10-12T09:58:54+00:00"
+  "bwf_refreshed": 5,
+  "bwf_empty_not_yet_published": 2,
+  "latest_bwf_refresh_utc": "2026-10-24T23:31:11.316357+00:00",
+  "model_generated_at_utc": "2026-10-24T23:31:15.548909+00:00",
+  "comparison_generated_at_utc": "2026-10-24T23:32:50+00:00"
 }

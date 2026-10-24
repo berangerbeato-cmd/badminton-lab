@@ -1,19 +1,19 @@
 {
-  "observed_at_utc": "2026-10-24T23:29:33+00:00",
+  "observed_at_utc": "2026-10-24T23:31:47+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 1,
   "sources": {
     "unibet_fr": {
-      "status": "REJECT_HTTP_CACHE_AGE",
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quotes": 0,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": null,
+      "parser_notes": "parsed; page_parsed_entries=5; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=1,DH:OBSERVED_DATE_UNVERIFIED=1,DM:OBSERVED_DATE_UNVERIFIED=1,F:OBSERVED_DATE_UNVERIFIED=1,H:OBSERVED_DATE_UNVERIFIED=1; eligible_MS_H2H=0; local_now=2026-10-25T01:31:47.533906+02:00",
       "error": null,
-      "cache_age_seconds": "199",
-      "body_sha256": "5b761d2b20f6df6b32f4392ac1ce3f3c607195ce7dc715bbd7cb64f2dae9a2bb",
+      "cache_age_seconds": null,
+      "body_sha256": "c207b4f59a0bdcaae347c3aca928d0c15ec23b09a52cc023a6b7e08e16232987",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -31,15 +31,15 @@
       "flashscore_match_audit": null
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
+      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quotes": 1,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
-      "cache_age_seconds": "201",
-      "body_sha256": "f66cc7f7ba6f8de5f20e2b9813eb79be36259c422eec8bd76d29e7037b5c170c",
+      "cache_age_seconds": null,
+      "body_sha256": "9a33ac14252a96245633ec64bed5393be9bd70a8d602171ffa90f0690271bcaf",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "45d10298cb7493904803194421a4db931f0dbb1cdf0bd3d7086ec27ccc769fe1",
+      "body_sha256": "51a74884137caa1ccd7c1431fc08662da5ff74e46f5ba24aed9d2de992998f67",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "7aecd6ced90c46ce3d8504456d5d91ac0007c0db5be8bb0fb983ed2b98ce7f7b",
+      "body_sha256": "83c58e8f4e5881c8c546f66fb8eb6825e788d9afa7d60174e82a854d97bd7963",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "43b3df062b964a62a8eb08eecce2950d58ac111082a691b237004dc3e53518f2",
+      "body_sha256": "0e13b70f505a9b72ffbbd6b7187437c47e5b2a1fafac75e0528ab883afb52f10",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "5c48466c5cbf4f04e486ba73a7ab3b7a64ff98eeb6b20d4c426d0a991397b3c4",
+      "body_sha256": "a8cd286cb847ed221099dd7b34b03a3cc85e7106d859e79d6d22c824a25b0557",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,7 +142,7 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "201",
+      "cache_age_seconds": "340",
       "body_sha256": "4d034698e8934931bca2477c3102afa61bc48df52d096e8f8a53d377dbc1f77f",
       "flashscore_discovery": {
         "index_match_links": [
@@ -218,8 +218,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "0",
-      "body_sha256": "72ccfbe02c1d47137168dfc3a5be320959d48fb29d913d38e74a1a77e21c8b82",
+      "cache_age_seconds": "139",
+      "body_sha256": "fa6a4637b7a872cf12ecfbe5cdca240d8aa8630bc87f490e1093b3c18d1c15dd",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
