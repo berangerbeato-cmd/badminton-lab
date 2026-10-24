@@ -34,6 +34,7 @@ jobs:
         run: |
           python -m py_compile bwf_sync.py
           python bwf_sync.py --self-test
+          python -m unittest -v test_bwf_transport
       - name: Refresh BWF source and preserve diagnostic status
         id: sync
         continue-on-error: true

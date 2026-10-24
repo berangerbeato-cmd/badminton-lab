@@ -51,6 +51,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Clear previous run outputs
+        run: |
+          rm -f data/model_v3_2_live/pipeline_order_latest.json \
+            data/model_v3_2_live/bwf_refresh_latest.json \
+            data/odds_shadow/comparison_v3_auto/latest.json \
+            data/odds_shadow/quality_gate/latest.json \
+            data/odds_shadow/v32_decision_report/latest.json
       - name: Validate scripts
         run: |
           python -m py_compile badminton_v3_2_daily.py multi_book_odds_scraper.py netbet_quotes_shadow.py v32_odds_compare.py v32_quality_gate.py
@@ -62,6 +69,7 @@ jobs:
         run: |
           python -m py_compile bwf_sync.py bwf_fixture_audit.py bwf_future_coverage.py
           python bwf_sync.py --self-test
+          python -m unittest -v test_bwf_transport
           python -m unittest -v test_bwf_pipeline_freshness
       - name: Refresh recent BWF tournaments before V3.2
         id: bwf_refresh
@@ -201,6 +209,24 @@ jobs:
         run: python v32_ledger_summary.py
       - name: Validate bookmaker comparison follows V3.2 snapshot
         run: python bwf_pipeline_freshness.py --comparison data/odds_shadow/comparison_v3_auto/latest.json --out data/model_v3_2_live/pipeline_order_latest.json
+      - name: Record interrupted pipeline for this run
+        if: failure()
+        run: |
+          python - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          from pathlib import Path
+          p = Path('data/model_v3_2_live/pipeline_order_latest.json')
+          p.parent.mkdir(parents=True, exist_ok=True)
+          p.write_text(json.dumps({
+              'status': 'PIPELINE_INTERRUPTED',
+              'policy': 'RESEARCH_ONLY_NO_BET',
+              'reason': 'Workflow failed before pipeline ordering validation; inspect GitHub Actions step logs',
+              'github_run_id': os.environ['GITHUB_RUN_ID'],
+              'github_run_attempt': os.environ['GITHUB_RUN_ATTEMPT'],
+              'recorded_at_utc': datetime.now(timezone.utc).isoformat(),
+          }, indent=2) + '\n', encoding='utf-8')
+          PY
       - name: Preserve pipeline validation diagnostic even on failure
         if: always()
         uses: actions/upload-artifact@v4
@@ -252,20 +278,6 @@ jobs:
       - name: Persist failure audit to repository for remote inspection
         if: failure()
         run: |
-          python - <<'PY'
-          import json
-          from datetime import datetime, timezone
-          from pathlib import Path
-          p = Path('data/model_v3_2_live/pipeline_order_latest.json')
-          if not p.exists():
-              p.parent.mkdir(parents=True, exist_ok=True)
-              p.write_text(json.dumps({
-                  'status': 'PIPELINE_INTERRUPTED',
-                  'policy': 'RESEARCH_ONLY_NO_BET',
-                  'reason': 'Workflow failed before pipeline ordering validation; inspect GitHub Actions step logs',
-                  'recorded_at_utc': datetime.now(timezone.utc).isoformat(),
-              }, indent=2) + '\n', encoding='utf-8')
-          PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -- data/model_v3_2_live/pipeline_order_latest.json

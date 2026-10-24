@@ -436,6 +436,12 @@ def analyze_source(key, now, browser, evidence_dir=None):
         if source['parser'] is None:
             item['status']='PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED'
             return item
+        if key == 'unibet_fr':
+            # Archive rejected observations separately; never promote an inferred date.
+            candidates, _ = parse_listings(content, now)
+            item['unverified_date_observations'] = [
+                row for row in candidates if row.get('status') == 'OBSERVED_DATE_UNVERIFIED'
+            ]
         extract={'unibet':parse_unibet,'bwin':parse_bwin,'fdj':parse_fdj}[source['parser']]
         rows, why=(parse_fdj(content,now,discipline='AUTO') if key=='fdj_pos_fr'
                    else extract(content,now))
@@ -558,8 +564,8 @@ def self_test():
        "monde Open de Finlande H À 13h20 TC.Chou-K.Watanabe TC.Chou 1,80 | K.Watanabe 1,71 "
        "Demain monde Open de Finlande H À 07h10 A.Other-B.Other A.Other 1,30 | B.Other 3,50")
     rows,why=parse_unibet(sample_unibet,now)
-    assert len(rows)==2,(why,rows)
-    assert rows[0]['player_2_display']=='C.Popov' and rows[0]['odds_2']==1.25
+    assert rows == [], (why, rows)
+    assert 'H:OBSERVED_DATE_UNVERIFIED=3' in why
     # Page text extracted from the public DOM has newlines, popularity widgets,
     # and often additional disciplines preceding men's singles.
     realistic=("Badminton\nFace à Face\nAujourd'hui\nmonde\nOpen de Finlande DM\n"
@@ -567,10 +573,12 @@ def self_test():
        "monde\nOpen de Finlande H\nÀ 12h25\nZJ.Lee\n-\nC.Popov\nZJ.Lee\n2,95\nÉtape\n6%\nC.Popov\n1,25\nÉtape\n94%\n"
        "monde\nOpen de Finlande H\nÀ 13h20\nTC.Chou\n-\nK.Watanabe\nTC.Chou\n1,80\nÉtape\n46%\nK.Watanabe\n1,71\nÉtape\n54%\n")
     observed,why=parse_unibet(realistic,datetime(2026,10,9,10,33,tzinfo=PARIS))
-    assert len(observed)==2, (why,observed)
-    assert observed[0]['player_2_display']=='C.Popov' and observed[0]['odds_2']==1.25
+    assert observed == [], (why, observed)
+    assert 'H:OBSERVED_DATE_UNVERIFIED=2' in why
     bad=sample_unibet.replace('C.Popov 1,25','Different 1,25')
-    assert len(parse_unibet(bad,now)[0])==1
+    assert parse_unibet(bad,now)[0] == []
+    entries, _ = parse_listings(bad, now)
+    assert len(entries) == 2  # mismatched pair rejected before date eligibility
     bwin=("Badminton\nVainqueur 1 2\n"
           "A. Lanier FRA Yu Qi Shi CHN Demain/01:40 2.70 1.28\n"
           "Y. Z. Feng/D. P. Huang CHN D. Puavaranukroh/S. Paewsampran THA Demain/02:20 1.30 2.60")

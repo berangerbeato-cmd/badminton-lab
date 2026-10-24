@@ -129,8 +129,18 @@ def merge_match_payload(old: dict | None, fresh: dict) -> tuple[dict, int, int, 
 def api_get(path: str, params: dict, timeout: int) -> dict:
     url = API + path + '?' + urllib.parse.urlencode(params)
     request = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': 'application/json'})
-    with urllib.request.urlopen(request, timeout=timeout) as response:
-        payload = json.load(response)
+    # One delayed retry for transport timeouts only. Never retry denials,
+    # rate limits or invalid JSON; exhausted refreshes remain NO BET.
+    for attempt in range(2):
+        try:
+            with urllib.request.urlopen(request, timeout=timeout * (attempt + 1)) as response:
+                payload = json.load(response)
+            break
+        except (TimeoutError, urllib.error.URLError) as exc:
+            timed_out = isinstance(exc, TimeoutError) or isinstance(getattr(exc, 'reason', None), TimeoutError)
+            if not timed_out or attempt == 1:
+                raise
+            time.sleep(3)
     if not isinstance(payload, dict):
         raise ValueError('Expected BWF JSON object')
     return payload
