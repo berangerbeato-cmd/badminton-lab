@@ -1,0 +1,16 @@
+{
+  "observed_at_utc": "2026-10-24T23:27:25+00:00",
+  "source": "https://www.netbet.fr/badminton",
+  "operator": "NetBet.fr",
+  "status": "REJECT_HTTP_OR_REDIRECT",
+  "quotes": [],
+  "policy": "PUBLIC_RESEARCH_ONLY_NO_BET_NO_INFERRED_PRICES",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "http_status": 403,
+  "resolved_url": "https://www.netbet.fr/badminton",
+  "cache_age_seconds": null,
+  "body_sha256": "96b02a2cbfbf3dcf696d5f33e5dc0f294974bddd4e1ed04a8bbed3396d2695ed",
+  "event_area_excerpt": "",
+  "explicit_no_events": false,
+  "public_badminton_links": []
+}
