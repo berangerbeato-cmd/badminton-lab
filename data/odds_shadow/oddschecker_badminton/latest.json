@@ -1,11 +1,11 @@
 {
-  "body_sha256": "a8cd286cb847ed221099dd7b34b03a3cc85e7106d859e79d6d22c824a25b0557",
+  "body_sha256": "d5f6a3d3c31392ca9ce212cea652ce1a5c65a0efa4601869d71318bfcdb9f618",
   "bookmaker_price_updated_at": null,
   "cache_age_seconds": null,
-  "finished_at_utc": "2026-10-24T23:32:26+00:00",
+  "finished_at_utc": "2026-10-25T05:27:40+00:00",
   "http_status": 403,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-24T23:32:24+00:00",
+  "observed_at_utc": "2026-10-25T05:27:37+00:00",
   "operator": "Oddschecker (aggregator)",
   "operator_kind": "AGGREGATOR_AUDIT_ONLY",
   "public_badminton_event_links": [],
@@ -14,10 +14,10 @@
   "resolved_url": "https://www.oddschecker.com/badminton",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Sat, 24 Oct 2026 23:32:24 GMT",
+  "server_date": "Sun, 25 Oct 2026 05:27:38 GMT",
   "source_key": "oddschecker_badminton",
   "source_url": "https://www.oddschecker.com/badminton",
   "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
-  "text_excerpt_for_debug": "Sorry, you have been blocked\nYou are unable to access oddschecker.com\nWhy have I been blocked?\n\nThis website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.\n\nWhat can I do to resolve this?\n\nYou can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.\n\nCloudflare Ray ID: a4fcc7d7282da1eb • Your IP: Click to reveal • Performance & security by Cloudflare",
+  "text_excerpt_for_debug": "Sorry, you have been blocked\nYou are unable to access oddschecker.com\nWhy have I been blocked?\n\nThis website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.\n\nWhat can I do to resolve this?\n\nYou can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.\n\nCloudflare Ray ID: a4fed0307d807b4d • Your IP: Click to reveal • Performance & security by Cloudflare",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }
