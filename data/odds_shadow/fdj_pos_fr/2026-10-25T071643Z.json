@@ -1,0 +1,57 @@
+{
+  "body_sha256": "9b79d2a9026d6b1f0f12285fa8b004f6084dc2189cacf90d0784ace06add052f",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-10-25T07:17:01+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-25T07:16:51+00:00",
+  "operator": "Parions Sport Point de Vente (FDJ)",
+  "operator_kind": "RETAIL_NOT_ONLINE",
+  "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
+  "public_badminton_event_links": [
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/france-df/47741",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/france-dm/47740",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/france-f/47739",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/france-h/47737",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/france-f/47739/match_syan_pvsindhu/1318614",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/france-df/47741/match_fukumatsumoto_tanthinaah/1318641",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/france-dm/47740/match_fenghuang_hoolai/1318627",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/france-h/47737/match_mzubaidillah_cpopov/1318665"
+  ],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/fdj_pos_fr.png",
+  "quotes": [
+    {
+      "discipline": "MS",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+      "odds_1": 2.8,
+      "odds_2": 1.25,
+      "player_1_display": "MZ.Ubaidillah",
+      "player_2_display": "C.Popov",
+      "retail_competition_display": "France H",
+      "retail_event_display": "MZ.Ubaidillah-C.Popov",
+      "valid_until_paris": "2026-10-25T12:10+01:00"
+    }
+  ],
+  "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "retail_page_cached": false,
+  "retail_pages_audited": [
+    {
+      "cache_age_seconds": null,
+      "http_status": 200,
+      "quotes": 1,
+      "status": "retail face-à-face rows",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/france-h/47737"
+    }
+  ],
+  "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Sun, 25 Oct 2026 07:16:53 GMT",
+  "source_key": "fdj_pos_fr",
+  "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nL1 McDonald's\nLigue 2 BKT\nPremier League\nLaLiga\nSerie A\nBundesliga 1\nEFL Cup\nCpe Allemagne\n+\nAfficher plus\nTennis\nToutes les compétitions\nLyon H\nAlmaty\nBruxelles\nNingbo\nLyon DH\nBruxelles DH\nTokyo\nGuangzhou\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nD1 France (H)\nD2 France (H)\nLFB\nEurocup (H)\nTBSL\nLiga ACB\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBaseball\nFormule 1\nNascar\nSki Alpin\nSnooker\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nAujourd'hui\nSY.An-PV.Sindhu\nFrance F\n\nN°19050 Face à Face I Fin de valid. 25/10 10h55\n\nAfficher\nSY.An\n1,02\nPV.Sindhu\n5,70\n98%\n1%\nFuku/Matsumoto-Tan/Thinaah\nFrance DF\n\nN°19824 Face à Face I Fin de valid. 25/10 11h20\n\nAfficher\nFuku/Matsumoto\n1,51\nTan/Thinaah\n2,00\n2%\n97%\nFeng/Huang-Hoo/Lai\nFrance DM\n\nN°19404 Face à Face I Fin de valid. 25/10 11h45\n\nAfficher\nFeng/Huang\n1,14\nHoo/Lai\n3,50\n87%\n12%\nMZ.Ubaidillah-C.Popov\nFrance H\n\nN°12017 Face à Face I Fin",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
