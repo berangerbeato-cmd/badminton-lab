@@ -1,0 +1,40 @@
+{
+  "generated_at_utc": "2026-10-25T07:23:25+00:00",
+  "match_count": 0,
+  "matches": [],
+  "max_age_seconds": 2700,
+  "max_gap_seconds": 1200,
+  "notes": [
+    "Cotes publiques observées; pas de preuve d'exécutabilité.",
+    "Temps d'observation différent du temps de mise à jour du bookmaker.",
+    "Un intervalle temporel compatible ne valide pas un T0 prématch.",
+    "Les prix historiques restent comparables à titre de recherche, jamais comme signaux de mise."
+  ],
+  "policy": "SHADOW_ONLY_NO_BET_NO_T0_NO_SHEETS_WRITE",
+  "schema_version": "badminton_shadow_comparator_v2.1",
+  "sources": {
+    "NetBet.fr": {
+      "observation_utc": null,
+      "operator": "NetBet.fr",
+      "rejected": [
+        "SOURCE_OPERATOR_OR_STATUS_UNEXPECTED"
+      ],
+      "rows_current": 0,
+      "rows_read": 0,
+      "rows_validated": 0,
+      "status": "REJECTED_SOURCE"
+    },
+    "Unibet.fr": {
+      "observation_utc": null,
+      "operator": "Unibet.fr",
+      "rejected": [
+        "SOURCE_OPERATOR_OR_STATUS_UNEXPECTED"
+      ],
+      "rows_current": 0,
+      "rows_read": 0,
+      "rows_validated": 0,
+      "status": "REJECTED_SOURCE"
+    }
+  },
+  "within_window_match_count": 0
+}
