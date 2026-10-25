@@ -1,0 +1,23 @@
+{
+  "body_sha256": "32847fcf042891f2646cb0ddfe82bd1f5561ef387af702b7d4a7b0da115e4561",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-10-25T09:41:42+00:00",
+  "http_status": 403,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-25T09:41:40+00:00",
+  "operator": "NetBet.fr",
+  "operator_kind": "ONLINE",
+  "public_badminton_event_links": [],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/netbet_fr.png",
+  "quotes": [],
+  "resolved_url": "https://www.netbet.fr/badminton",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Sun, 25 Oct 2026 09:41:40 GMT",
+  "source_key": "netbet_fr",
+  "source_url": "https://www.netbet.fr/badminton",
+  "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
+  "text_excerpt_for_debug": "www.netbet.fr\nVérification de sécurité en cours\n\nCe site utilise un service de sécurité pour se protéger contre les bots malveillants. Cette page s’affiche pendant que le site vérifie que vous n’êtes pas un bot.\n\nRay ID: a5004451fe032480\nPerformances et sécurité par Cloudflare\nConfidentialité",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
