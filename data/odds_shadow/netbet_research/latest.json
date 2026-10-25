@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-25T06:48:06+00:00",
+  "observed_at_utc": "2026-10-25T08:40:51+00:00",
   "source": "https://www.netbet.fr/badminton",
   "operator": "NetBet.fr",
   "status": "REJECT_HTTP_OR_REDIRECT",
@@ -9,7 +9,7 @@
   "http_status": 403,
   "resolved_url": "https://www.netbet.fr/badminton",
   "cache_age_seconds": null,
-  "body_sha256": "337b6a40720de59f81c0be1160579a5db2bed0b12f15ba2007ff756f90a55c60",
+  "body_sha256": "20709f9a5b421ef7a7c0e94487fc6174532b54323d44439ca09e8f241db95220",
   "event_area_excerpt": "",
   "explicit_no_events": false,
   "public_badminton_links": []

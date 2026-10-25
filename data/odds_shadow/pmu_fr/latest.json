@@ -1,11 +1,11 @@
 {
-  "body_sha256": "79a3dd2cc92ccb287a30034991cf18c0303cfecdc780fdde99ebba4e8bf3b001",
+  "body_sha256": "24132cb260582b866099dd7e15742aa0f0535b3f4fe41a1567e37e5c0bc64e28",
   "bookmaker_price_updated_at": null,
   "cache_age_seconds": null,
-  "finished_at_utc": "2026-10-25T08:26:05+00:00",
+  "finished_at_utc": "2026-10-25T08:40:23+00:00",
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-25T08:26:02+00:00",
+  "observed_at_utc": "2026-10-25T08:40:19+00:00",
   "operator": "PMU.fr",
   "operator_kind": "ONLINE",
   "public_badminton_event_links": [],
@@ -14,10 +14,10 @@
   "resolved_url": "https://www.pmu.fr/sport/",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Sun, 25 Oct 2026 08:26:02 GMT",
+  "server_date": "Sun, 25 Oct 2026 08:40:20 GMT",
   "source_key": "pmu_fr",
   "source_url": "https://www.pmu.fr/sport/",
   "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
-  "text_excerpt_for_debug": "HIPPIQUE\nSPORT\nPOKER\nPLAY ZONE\n\nSe connecter\nS'inscrire\nAccueil\nLive\n4\nPromotions\nMes paris\nGAINS BOOSTÉS SUR LA R1 !\n+20% sur tes gains e-Trio®, e-Trio® Ordre et e-2sur4® dans la limite de 20€ de Bonus\nEN SAVOIR + >\n\nRejoins-nous sur les réseaux sociaux :\n\n\n\n\n\nDÉFIS ET PROMOS\n\nNos promos\nPLAY ZONE\n\nJEU RESPONSABLE\n\nPMU AVEC VOUS\nNos conseils\nSOS joueurs\n\nAIDE ET CONTACT\n\nFAQ - Aide en ligne\nContact\n\nL'ENTREPRISE PMU\n\nL'entreprise\nCarrières\nNos applications mobiles\n\nINFOS LÉGALES ET COOKIES\n\nInfos légales et Cookies\nINTERDICTION VOLONTAIRE DE JEUX\nToute personne peut demander à être interdite de jeux. Cette demande est formée auprès de l'Autorité nationale des jeux. Cette interdiction est applicable dans les casinos, dans les clubs de jeux, sur les sites de jeux et de paris en ligne exploités par les opérateurs de jeux agréés en France, sur le site de jeux de loterie en ligne exploité par La Française des jeux ainsi que sur les bornes de jeux accessibles avec un compte joueur exploitées par les opérateurs titulaires de droits exclusifs, notamment La Française des jeux et le Pari mutuel urbain. Cette interdiction est prononcée pour une durée qui ne peut être inférieure à trois ans. Elle est renouvelable tacitement.\nVoir plus d'informations\n\nN° d’agrément Hippique : 0002-PH-2025-09-08-AGR-03 Sportif : 0002-PS-2025-09-08-AGR-03 Poker : 0002-PO-2025-09-08-AGR-03\n\nJOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE.\nPOUR ÊTRE AIDÉ, APPELEZ LE 09 74 75 13 13. (APPEL NON SURTAXÉ)\n\n\nGains boostés +20% !\nDimanche 25 octobre\nTes gains aux paris e-Trio®, e-Trio® Or",
+  "text_excerpt_for_debug": "HIPPIQUE\nSPORT\nPOKER\nPLAY ZONE\n\nSe connecter\nS'inscrire\nAccueil\nLive\n3\nPromotions\nMes paris\nGAINS BOOSTÉS SUR LA R1 !\n+20% sur tes gains e-Trio®, e-Trio® Ordre et e-2sur4® dans la limite de 20€ de Bonus\nEN SAVOIR + >\n\nRejoins-nous sur les réseaux sociaux :\n\n\n\n\n\nDÉFIS ET PROMOS\n\nNos promos\nPLAY ZONE\n\nJEU RESPONSABLE\n\nPMU AVEC VOUS\nNos conseils\nSOS joueurs\n\nAIDE ET CONTACT\n\nFAQ - Aide en ligne\nContact\n\nL'ENTREPRISE PMU\n\nL'entreprise\nCarrières\nNos applications mobiles\n\nINFOS LÉGALES ET COOKIES\n\nInfos légales et Cookies\nINTERDICTION VOLONTAIRE DE JEUX\nToute personne peut demander à être interdite de jeux. Cette demande est formée auprès de l'Autorité nationale des jeux. Cette interdiction est applicable dans les casinos, dans les clubs de jeux, sur les sites de jeux et de paris en ligne exploités par les opérateurs de jeux agréés en France, sur le site de jeux de loterie en ligne exploité par La Française des jeux ainsi que sur les bornes de jeux accessibles avec un compte joueur exploitées par les opérateurs titulaires de droits exclusifs, notamment La Française des jeux et le Pari mutuel urbain. Cette interdiction est prononcée pour une durée qui ne peut être inférieure à trois ans. Elle est renouvelable tacitement.\nVoir plus d'informations\n\nN° d’agrément Hippique : 0002-PH-2025-09-08-AGR-03 Sportif : 0002-PS-2025-09-08-AGR-03 Poker : 0002-PO-2025-09-08-AGR-03\n\nJOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE.\nPOUR ÊTRE AIDÉ, APPELEZ LE 09 74 75 13 13. (APPEL NON SURTAXÉ)\n\n\nGains boostés +20% !\nDimanche 25 octobre\nTes gains aux paris e-Trio®, e-Trio® Or",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }

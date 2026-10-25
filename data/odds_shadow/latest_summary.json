@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-25T08:25:35+00:00",
+  "observed_at_utc": "2026-10-25T08:39:52+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 1,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=4; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=1,DM:OBSERVED_DATE_UNVERIFIED=1,F:OBSERVED_DATE_UNVERIFIED=1,H:OBSERVED_DATE_UNVERIFIED=1; eligible_MS_H2H=0; local_now=2026-10-25T09:25:35.295283+01:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-10-25T09:39:52.423224+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "61d4e0e0e69d79aa5e392c8892a1450a775cda915bfff895087df3cb33cc1ed6",
+      "body_sha256": "0290b0c1354a8d2949d42fd410de9e967346db6062b2f286615278ff9bb062e2",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "f83de006f3d03bac6967687ea2b609bc7db343aaa4470f420a8685d8ad9ec7da",
+      "body_sha256": "6961dac4174845ed7971af2dcdc6f5d1a749e74f390f60f6f9dea4d601c657fa",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "79a3dd2cc92ccb287a30034991cf18c0303cfecdc780fdde99ebba4e8bf3b001",
+      "body_sha256": "24132cb260582b866099dd7e15742aa0f0535b3f4fe41a1567e37e5c0bc64e28",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "b350870d6467d1e50a5a27272fd5917150e7085029800738ccd93c0929b1a654",
+      "body_sha256": "2319f391303484cd04b58bc0946ec8456b0a733168e2fdd595e244136f89cad5",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "d72458aec47d0d73749e14968a2386589bab3d41fba3c6aba36ed0b63b6225a5",
+      "body_sha256": "2e884d2dfe00771dccabf54f3b902d529a6dd858849e9ed09c7ee90519265027",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "278",
-      "body_sha256": "ba87f4a86bccd32d22224e92e3ca7fd4ffce07a32023f46173306c0398f997c7",
+      "cache_age_seconds": "206",
+      "body_sha256": "5641f9f9e764ce805631676474335e1af8af2423832e28d8f3101b808eb6ba33",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/dong-tian-yao-QRRb1lFI/richardo-richie-duta-UT1E2Jq9/?mid=xfSvzr7E",
@@ -160,7 +160,7 @@
         ],
         "index_match_link_count": 11,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Open de France badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n25/10 DI\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - HOMMES: \nTableau\n09:50\nDong T. Y.\nRichardo R. D.\n-\n-\nOpen de France (France)\nBWF WORLD TOUR - HOMMES: \nTableau\n13:30\nUbaidillah M. Z.\nPopov C.\n-\n-\nFlashscore Actualités\nIl serait temps de le comprendre : l'OM ne peut pas jouer sur plusieurs tableaux cette saison\nVous avez Diomandé la lune, ne quittez pas\nLamine Yamal face à Marc Cucurella : duel de champions du monde au cœur du Clásico\nAller vers Actualités\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nLo S. Y. H.\nXu W. J.\n0\n2\n12\n21\n16\n21\nOpen de France (France)\nBWF WORLD TOUR - FEMMES: \nTableau\n11:00\nAn S. Y.\nSindhu P. V.\n-\n-\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n10:40\nArdianto M. R.\nMarvino D. E.\nJin Y.\nJo S. H.\n-\n-\nOpen de France (France)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n14:20\nGoh S. F.\nIzzuddin N.\nMan W. C.\nTee K. W.\n-\n-\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n1. set\nMijad H.\nTungkasatan N.\nMeida I. S.\nNastine R. K.\n0\n0\n13\n13\nOpen de France (France)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n11:50\nFukushima Y.\nMatsumoto M.\nTan P.\nMuralitharan T.\n-\n-\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nHee Y. K. T.\nWidjaja G. E.\nLi H. Y.\nHuang K. X.\n1\n2\n21\n15\n5\n21\n10\n21\nOpen de France (France)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\n12:40\nFeng Y. Z.\nHuang D. P.\nHoo P. R.\nLai P. J.\n-\n-\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQU"
+        "index_text_excerpt": "Open de France badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n25/10 DI\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - HOMMES: \nTableau\n09:50\nDong T. Y.\nRichardo R. D.\n-\n-\nOpen de France (France)\nBWF WORLD TOUR - HOMMES: \nTableau\n13:30\nUbaidillah M. Z.\nPopov C.\n-\n-\nFlashscore Actualités\nIl serait temps de le comprendre : l'OM ne peut pas jouer sur plusieurs tableaux cette saison\nVous avez Diomandé la lune, ne quittez pas\nLamine Yamal face à Marc Cucurella : duel de champions du monde au cœur du Clásico\nAller vers Actualités\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nLo S. Y. H.\nXu W. J.\n0\n2\n12\n21\n16\n21\nOpen de France (France)\nBWF WORLD TOUR - FEMMES: \nTableau\n11:00\nAn S. Y.\nSindhu P. V.\n-\n-\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n10:40\nArdianto M. R.\nMarvino D. E.\nJin Y.\nJo S. H.\n-\n-\nOpen de France (France)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n14:20\nGoh S. F.\nIzzuddin N.\nMan W. C.\nTee K. W.\n-\n-\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n2. set\nMijad H.\nTungkasatan N.\nMeida I. S.\nNastine R. K.\n0\n1\n15\n21\n4\n10\nOpen de France (France)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n11:50\nFukushima Y.\nMatsumoto M.\nTan P.\nMuralitharan T.\n-\n-\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nHee Y. K. T.\nWidjaja G. E.\nLi H. Y.\nHuang K. X.\n1\n2\n21\n15\n5\n21\n10\n21\nOpen de France (France)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\n12:40\nFeng Y. Z.\nHuang D. P.\nHoo P. R.\nLai P. J.\n-\n-\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nME"
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/popov-christo-6s0IBZwf/ubaidillah-moh-zaki-UiCMjVtj/#/cotes/home-away/temps-regulier/",
@@ -171,11 +171,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/popov-christo-6s0IBZwf/ubaidillah-moh-zaki-UiCMjVtj/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "63f64248d6d582b7f04db6a16ec09fb342a2cfbb4d4477dc15c5168c7d87e7b7",
+        "body_sha256": "2dab13b98f6bec100cb481af033007a182def0d649b4e1694cb35e411afabb5d",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Moh. Zaki Ubaidillah - Christo Popov (25/10/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESOPEN DE FRANCE - FINALE\nNouvelle fenêtre\n25.10.2026 13:30\nUbaidillah M. Z.\nBWF\n: 28.\n-\nSTREAM\nPopov C.\nBWF\n: 3.\n-\n25.10.2026 13:30\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n-\n-\nLIVE STREAM\n-\n-\n-\n-\n-\n-\n3.25\n1.33\nFAIRE UN PARI\n-\n-\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $350 in Bonus Bets when you wager $5 for 7 days\n21+ $5 first deposit required to get bonus bets which expire 7 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA). T&C apply.\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE MATCH\nSTADE:\nArena Grand Paris\n (Tremblay-en-France)\nFORME\nUbaidillah M. Z.\n?\nV\nV\nV\nV\n",
+        "text_excerpt_for_debug": "Moh. Zaki Ubaidillah - Christo Popov (25/10/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESOPEN DE FRANCE - FINALE\nNouvelle fenêtre\n25.10.2026 13:30\nUbaidillah M. Z.\nBWF\n: 28.\n-\nSTREAM\nPopov C.\nBWF\n: 3.\n-\n25.10.2026 13:30\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\nLIVE STREAM\n2.90\n1.28\nFAIRE UN PARI\n-\n-\nVoir plus\nLIVE STREAMING\nPublicité\nBetclic.fr\nINFORMATIONS DE MATCH\nSTADE:\nArena Grand Paris\n (Tremblay-en-France)\nFORME\nUbaidillah M. Z.\n?\nV\nV\nV\nV\nD\nPopov C.\n?\nV\nV\nV\nV\nD\nTÊTE-À-TÊTE\n22.05.26\nMM\nUbaidillah M. Z.\nPopov C.\n0\n2\nMontrer plus de matchs\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Indonesia Masters 3 Hommes\nBWF WT Open de France Hommes\nBWF WT Indonesia Masters 3 Femmes\nBWF WT Open de France Femmes\nBWF WT Indonesia Masters 3 Doubles Hommes\nBWF WT Open de France Doubles Hommes\nBWF WT Indonesia Masters 3 Doubles Femmes\nBWF WT Open de France Doubles Femmes\nBWF WT Indonesia Masters 3 Doubles Mixtes\nBWF WT Open de France Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles ",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 6406,
+        "body_characters": 5387,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -187,29 +187,23 @@
           "HOME/AWAY",
           "1",
           "2",
-          "-",
-          "-",
           "LIVE STREAM",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "3.25",
-          "1.33",
+          "2.90",
+          "1.28",
           "FAIRE UN PARI",
           "-",
           "-"
         ],
-        "odds_section_dash_count": 10,
+        "odds_section_dash_count": 2,
         "odds_section_decimal_prices": [
-          "3.25",
-          "1.33"
+          "2.90",
+          "1.28"
         ],
         "odds_section_placeholder_only": false,
         "odds_section_bookmaker_names": [],
-        "contains_bookmaker_names": []
+        "contains_bookmaker_names": [
+          "Betclic"
+        ]
       }
     },
     "oddsportal_badminton": {
@@ -221,7 +215,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "5056fbd064e20130fac31cf987ee033acb1159f055617fef136fc3a6103fc9b9",
+      "body_sha256": "9a1b0044c4ec6957f9a61b1952a80b0bc37ceeb82fb83b495e563f6240a175a4",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }

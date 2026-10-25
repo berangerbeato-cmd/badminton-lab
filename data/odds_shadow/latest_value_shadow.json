@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-25T06:48:09+00:00",
+  "generated_at_utc": "2026-10-25T08:40:54+00:00",
   "matched_fixtures_count": 0,
   "matches": [],
   "model_snapshot": "data/model/snapshots/2026-10-25.csv",
@@ -8,9 +8,9 @@
   "operator": "Unibet.fr",
   "policy": "NO_BET_SHADOW_ONLY_NO_SHEETS_WRITE",
   "rejections": {},
-  "source_archive": "data/odds_shadow/unibet_fr/2026-10-25T064703Z.json",
-  "source_observed_at_utc": "2026-10-25T06:47:04+00:00",
+  "source_archive": "data/odds_shadow/unibet_fr/2026-10-25T083952Z.json",
+  "source_observed_at_utc": "2026-10-25T08:39:53+00:00",
   "source_quotes_count": 0,
-  "source_sha256": "c1eb183a6dae1dbd4696bad69ced5221dc50071a8c1afbb1d535c369f41e3dfb",
+  "source_sha256": "b752aca602f517eade0c7c25e5b3b2cac58dc6f74447d21abf1aaa21330df214",
   "status": "SOURCE_NOT_READY"
 }
