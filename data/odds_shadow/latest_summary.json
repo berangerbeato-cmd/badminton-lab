@@ -1,8 +1,8 @@
 {
-  "observed_at_utc": "2026-10-25T09:41:17+00:00",
+  "observed_at_utc": "2026-10-25T10:01:35+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
-  "retail_shadow_rows": 1,
+  "retail_shadow_rows": 2,
   "sources": {
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=4; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=1,DM:OBSERVED_DATE_UNVERIFIED=1,F:OBSERVED_DATE_UNVERIFIED=1,H:OBSERVED_DATE_UNVERIFIED=1; eligible_MS_H2H=0; local_now=2026-10-25T10:41:17.533035+01:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-10-25T11:01:35.220461+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "6e0416e426e120285e7c358a67b27163cac4e0f6bc866781cae45729e36bba6b",
+      "body_sha256": "26468f156a58776d7c483bc4a8c600dbe1a86744f0ee1e0468348496020ea33e",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -31,15 +31,15 @@
       "flashscore_match_audit": null
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-      "quotes": 1,
+      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
+      "quotes": 2,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
-      "cache_age_seconds": null,
-      "body_sha256": "fee44703f68cf0296a69fd7167908996c73c74fd55596c172b1d417b21b5721f",
+      "cache_age_seconds": "208",
+      "body_sha256": "02afd9a13675fad9c208cb5e190c83865fa322907767b709d42060f8c045abc7",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "32847fcf042891f2646cb0ddfe82bd1f5561ef387af702b7d4a7b0da115e4561",
+      "body_sha256": "5a0360126ed5cea73f125aa0c1800695d68b01c1bf4e9f77f677b83d012ebbbd",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "24132cb260582b866099dd7e15742aa0f0535b3f4fe41a1567e37e5c0bc64e28",
+      "body_sha256": "a3fc5129adc35611b5924dd3bfaff08d2c9ed99c55bc5741251fc012321d21ae",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "b90953842dcc454c7589bc001bfac558d1d919ccbc4ca1d9c407c101e6dae6c1",
+      "body_sha256": "3b088e77c398c9e6a069af26d5a4002fa32f1ae4e638330ff0af9cf6ae43f4fb",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "8882f0eb1a3d20c0c9db045d3e8579722ae2e247d7a1df8e3e7b6d44fef14ce3",
+      "body_sha256": "d4adba58909b0a3e3b7fcac9d215e444c19101e34718aca8301d910dd1185409",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "168",
-      "body_sha256": "c9f31932b3d80b89328036fa57604f17835ca0e16b786fcc0b5755bf18038a2d",
+      "cache_age_seconds": "109",
+      "body_sha256": "88aa1dcd55a930b85ba339d2967fa38ebe5beb93436da610eff7dc0935e244f7",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/dong-tian-yao-QRRb1lFI/richardo-richie-duta-UT1E2Jq9/?mid=xfSvzr7E",
@@ -160,7 +160,7 @@
         ],
         "index_match_link_count": 11,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Open de France badminton 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n25/10 DI\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - HOMMES: \nTableau\n2. set\nDong T. Y.\nRichardo R. D.\n1\n0\n21\n17\n4\n6\nOpen de France (France)\nBWF WORLD TOUR - HOMMES: \nTableau\n13:30\nUbaidillah M. Z.\nPopov C.\n-\n-\nFlashscore Actualités\nIl serait temps de le comprendre : l'OM ne peut pas jouer sur plusieurs tableaux cette saison\nVous avez Diomandé la lune, ne quittez pas\nLamine Yamal face à Marc Cucurella : duel de champions du monde au cœur du Clásico\nAller vers Actualités\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nLo S. Y. H.\nXu W. J.\n0\n2\n12\n21\n16\n21\nOpen de France (France)\nBWF WORLD TOUR - FEMMES: \nTableau\n11:00\nAn S. Y.\nSindhu P. V.\n-\n-\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n11:00\nArdianto M. R.\nMarvino D. E.\nJin Y.\nJo S. H.\n-\n-\nOpen de France (France)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n14:20\nGoh S. F.\nIzzuddin N.\nMan W. C.\nTee K. W.\n-\n-\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nMijad H.\nTungkasatan N.\nMeida I. S.\nNastine R. K.\n0\n2\n15\n21\n17\n21\nOpen de France (France)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n11:50\nFukushima Y.\nMatsumoto M.\nTan P.\nMuralitharan T.\n-\n-\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nHee Y. K. T.\nWidjaja G. E.\nLi H. Y.\nHuang K. X.\n1\n2\n21\n15\n5\n21\n10\n21\nOpen de France (France)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\n12:40\nFeng Y. Z.\nHuang D. P.\nHoo P. R.\nLai P. J.\n-\n-\nPublicité\nLIGUES ÉPINGLÉES\nPour sélectionner"
+        "index_text_excerpt": "Open de France badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n25/10 DI\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - HOMMES: \nTableau\n3. set\nDong T. Y.\nRichardo R. D.\n1\n1\n21\n17\n12\n21\n6\n4\nOpen de France (France)\nBWF WORLD TOUR - HOMMES: \nTableau\n13:30\nUbaidillah M. Z.\nPopov C.\n-\n-\nFlashscore Actualités\nIl serait temps de le comprendre : l'OM ne peut pas jouer sur plusieurs tableaux cette saison\nVous avez Diomandé la lune, ne quittez pas\nLamine Yamal face à Marc Cucurella : duel de champions du monde au cœur du Clásico\nAller vers Actualités\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nLo S. Y. H.\nXu W. J.\n0\n2\n12\n21\n16\n21\nOpen de France (France)\nBWF WORLD TOUR - FEMMES: \nTableau\n11:00\nAn S. Y.\nSindhu P. V.\n-\n-\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n11:00\nArdianto M. R.\nMarvino D. E.\nJin Y.\nJo S. H.\n-\n-\nOpen de France (France)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n14:20\nGoh S. F.\nIzzuddin N.\nMan W. C.\nTee K. W.\n-\n-\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nMijad H.\nTungkasatan N.\nMeida I. S.\nNastine R. K.\n0\n2\n15\n21\n17\n21\nOpen de France (France)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n11:50\nFukushima Y.\nMatsumoto M.\nTan P.\nMuralitharan T.\n-\n-\nIndonesia Masters 3 (Indonésie)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nHee Y. K. T.\nWidjaja G. E.\nLi H. Y.\nHuang K. X.\n1\n2\n21\n15\n5\n21\n10\n21\nOpen de France (France)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\n12:40\nFeng Y. Z.\nHuang D. P.\nHoo P. R.\nLai P. J.\n-\n-\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du "
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/popov-christo-6s0IBZwf/ubaidillah-moh-zaki-UiCMjVtj/#/cotes/home-away/temps-regulier/",
@@ -171,11 +171,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/popov-christo-6s0IBZwf/ubaidillah-moh-zaki-UiCMjVtj/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "571ce8c16419b017ba0e84c0399f25f1c21d41e6726443a88787297c7e959693",
+        "body_sha256": "7cfd76aa0f28a502e3e2fe4705b0287839af6d009acd455efec70ce65e5ab78e",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Moh. Zaki Ubaidillah - Christo Popov (25/10/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - HOMMESOPEN DE FRANCE - FINALE\nNouvelle fenêtre\n25.10.2026 13:30\nUbaidillah M. Z.\nBWF\n: 28.\n-\nSTREAM\nPopov C.\nBWF\n: 3.\n-\n25.10.2026 13:30\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n-\n-\nLIVE STREAM\n-\n-\n-\n-\n-\n-\n3.25\n1.33\nFAIRE UN PARI\n-\n-\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $350 in Bonus Bets when you wager $5 for 7 days\n21+ $5 first deposit required to get bonus bets which expire 7 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA). T&C apply.\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE MATCH\nSTADE:\nArena Grand Paris\n (Tre",
+        "text_excerpt_for_debug": "Moh. Zaki Ubaidillah - Christo Popov (25/10/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - HOMMESOPEN DE FRANCE - FINALE\nNouvelle fenêtre\n25.10.2026 13:30\nUbaidillah M. Z.\nBWF\n: 28.\n-\nSTREAM\nPopov C.\nBWF\n: 3.\n-\n25.10.2026 13:30\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\nLIVE STREAM\n2.90\n1.28\nFAIRE UN PARI\n-\n-\nVoir plus\nLIVE STREAMING\nPublicité\nBetclic.fr\nINFORMATIONS DE MATCH\nSTADE:\nArena Grand Paris\n (Tremblay-en-France)\nFORME\nUbaidillah M. Z.\n?\nV\nV\nV\nV\nD\nPopov C.\n?\nV\nV\nV\nV\nD\nTÊTE-À-TÊTE\n22.05.26\nMM\nUbaidillah M. Z.\nPopov C.\n0\n2\nMontrer plus de matchs\nPublicité\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nPublicité\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT HYLO Open Hommes\nBWF WT Indonesia Masters 3 Hommes\nBWF WT Open de France Hommes\nBWF WT HYLO Open Femmes\nBWF WT Indonesia Masters 3 Femmes\nBWF WT Open de France Femmes\nBWF WT HYLO Open Doubles Hommes\nBWF WT Indonesia Masters 3 Doubles Hommes\nBWF WT Open de France Doubles Hommes\nBWF WT HYLO Open Doubles Femmes\nVoir plus (5)\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperser",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 6444,
+        "body_characters": 5425,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -187,29 +187,23 @@
           "HOME/AWAY",
           "1",
           "2",
-          "-",
-          "-",
           "LIVE STREAM",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "3.25",
-          "1.33",
+          "2.90",
+          "1.28",
           "FAIRE UN PARI",
           "-",
           "-"
         ],
-        "odds_section_dash_count": 10,
+        "odds_section_dash_count": 2,
         "odds_section_decimal_prices": [
-          "3.25",
-          "1.33"
+          "2.90",
+          "1.28"
         ],
         "odds_section_placeholder_only": false,
         "odds_section_bookmaker_names": [],
-        "contains_bookmaker_names": []
+        "contains_bookmaker_names": [
+          "Betclic"
+        ]
       }
     },
     "oddsportal_badminton": {
@@ -221,7 +215,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "27aa92016b34d35f30088504df971a7c31cb2e3eb8b3111a1b5bd35f936b8712",
+      "body_sha256": "7f0100e08910f95749af9d9cbcab31f27d4496851fde40b8af22788da05fc35d",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
