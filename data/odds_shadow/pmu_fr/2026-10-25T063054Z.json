@@ -1,0 +1,23 @@
+{
+  "body_sha256": "4ef10c1e18a6e4501df094993ab4470ee20a4eabcda4d625b820fc5583cf81fa",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-10-25T06:31:28+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-25T06:31:25+00:00",
+  "operator": "PMU.fr",
+  "operator_kind": "ONLINE",
+  "public_badminton_event_links": [],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/pmu_fr.png",
+  "quotes": [],
+  "resolved_url": "https://www.pmu.fr/sport/",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Sun, 25 Oct 2026 06:31:25 GMT",
+  "source_key": "pmu_fr",
+  "source_url": "https://www.pmu.fr/sport/",
+  "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
+  "text_excerpt_for_debug": "HIPPIQUE\nSPORT\nPOKER\nPLAY ZONE\n\nSe connecter\nS'inscrire\nAccueil\nLive\n10\nPromotions\nMes paris\nGAINS BOOSTÉS DE 20% SUR LA R1 !\n+20 % sur tes gains e-Trio®, e-Trio® Ordre et e-2sur4® dans la limite de 20€ de Bonus\nEN SAVOIR + >\n\nRejoins-nous sur les réseaux sociaux :\n\n\n\n\n\nDÉFIS ET PROMOS\n\nNos promos\nPLAY ZONE\n\nJEU RESPONSABLE\n\nPMU AVEC VOUS\nNos conseils\nSOS joueurs\n\nAIDE ET CONTACT\n\nFAQ - Aide en ligne\nContact\n\nL'ENTREPRISE PMU\n\nL'entreprise\nCarrières\nNos applications mobiles\n\nINFOS LÉGALES ET COOKIES\n\nInfos légales et Cookies\nINTERDICTION VOLONTAIRE DE JEUX\nToute personne peut demander à être interdite de jeux. Cette demande est formée auprès de l'Autorité nationale des jeux. Cette interdiction est applicable dans les casinos, dans les clubs de jeux, sur les sites de jeux et de paris en ligne exploités par les opérateurs de jeux agréés en France, sur le site de jeux de loterie en ligne exploité par La Française des jeux ainsi que sur les bornes de jeux accessibles avec un compte joueur exploitées par les opérateurs titulaires de droits exclusifs, notamment La Française des jeux et le Pari mutuel urbain. Cette interdiction est prononcée pour une durée qui ne peut être inférieure à trois ans. Elle est renouvelable tacitement.\nVoir plus d'informations\n\nN° d’agrément Hippique : 0002-PH-2025-09-08-AGR-03 Sportif : 0002-PS-2025-09-08-AGR-03 Poker : 0002-PO-2025-09-08-AGR-03\n\nJOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE.\nPOUR ÊTRE AIDÉ, APPELEZ LE 09 74 75 13 13. (APPEL NON SURTAXÉ)\n\n\n+20% sur tes gains e-Trio®, e-Trio® Ordre et e-2sur4® !\nDimanche 25 oct",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
