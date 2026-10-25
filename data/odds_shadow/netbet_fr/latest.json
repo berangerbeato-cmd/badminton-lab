@@ -1,11 +1,11 @@
 {
-  "body_sha256": "d942156f47bbd6dc9a83b8c187533904bc856520bf9a446852dbb50a0604bde2",
+  "body_sha256": "0af39f998b6362660590860e0fe711b63ee4d30ee7948f3d52a27ac2cbc30c8d",
   "bookmaker_price_updated_at": null,
   "cache_age_seconds": null,
-  "finished_at_utc": "2026-10-25T06:47:34+00:00",
+  "finished_at_utc": "2026-10-25T06:49:31+00:00",
   "http_status": 403,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-25T06:47:31+00:00",
+  "observed_at_utc": "2026-10-25T06:49:28+00:00",
   "operator": "NetBet.fr",
   "operator_kind": "ONLINE",
   "public_badminton_event_links": [],
@@ -14,10 +14,10 @@
   "resolved_url": "https://www.netbet.fr/badminton",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Sun, 25 Oct 2026 06:47:32 GMT",
+  "server_date": "Sun, 25 Oct 2026 06:49:29 GMT",
   "source_key": "netbet_fr",
   "source_url": "https://www.netbet.fr/badminton",
   "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
-  "text_excerpt_for_debug": "www.netbet.fr\nVérification de sécurité en cours\n\nCe site utilise un service de sécurité pour se protéger contre les bots malveillants. Cette page s’affiche pendant que le site vérifie que vous n’êtes pas un bot.\n\nRay ID: a4ff453bdd6da206\nPerformances et sécurité par Cloudflare\nConfidentialité",
+  "text_excerpt_for_debug": "www.netbet.fr\nVérification de sécurité en cours\n\nCe site utilise un service de sécurité pour se protéger contre les bots malveillants. Cette page s’affiche pendant que le site vérifie que vous n’êtes pas un bot.\n\nRay ID: a4ff48157e44ae26\nPerformances et sécurité par Cloudflare\nConfidentialité",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }
