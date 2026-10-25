@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-24T23:30:27+00:00",
+  "generated_at_utc": "2026-10-25T06:48:06+00:00",
   "policy": "SHADOW_ONLY_NO_BET",
   "total_rows": 17,
   "decisions": {
@@ -30,12 +30,12 @@
     "coverage_audit": {
       "rows": 1,
       "observed": 0,
-      "status": "NO_CONFIRMED_PREMATCH_QUOTES"
+      "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION"
     },
     "fdj_pos_fr": {
       "rows": 1,
       "observed": 1,
-      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT"
+      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE"
     },
     "flashscore_badminton": {
       "rows": 1,
@@ -80,7 +80,7 @@
     "unibet_fr": {
       "rows": 1,
       "observed": 0,
-      "status": "REJECT_HTTP_CACHE_AGE"
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES"
     },
     "v32_decision_report": {
       "rows": 1,
