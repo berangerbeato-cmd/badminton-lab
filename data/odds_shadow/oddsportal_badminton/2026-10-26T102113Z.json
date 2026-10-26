@@ -1,0 +1,23 @@
+{
+  "body_sha256": "1bd6e1b3555a76da0fb523bb40876aa96de9c4f520f0b2edeaeb1194fee19381",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": "2",
+  "finished_at_utc": "2026-10-26T10:22:15+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-26T10:22:06+00:00",
+  "operator": "OddsPortal (aggregator)",
+  "operator_kind": "AGGREGATOR_AUDIT_ONLY",
+  "public_badminton_event_links": [],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/oddsportal_badminton.png",
+  "quotes": [],
+  "resolved_url": "https://www.cuotasahora.com/",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Mon, 26 Oct 2026 10:22:11 GMT",
+  "source_key": "oddsportal_badminton",
+  "source_url": "https://www.oddsportal.com/badminton/",
+  "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
+  "text_excerpt_for_debug": "Cuotas decimales\n\nCuotas decimales (1.50)\nCuotas fraccionarias (1/2)\nCuotas americanas (línea de dinero) (-200)\nCuotas de Hong Kong (0.50)\nCuotas malayas (0.50)\nCuotas indonesias (-2.00)\nINICIO DE SESIÓN\nREGISTRARSE\nCOMPARACIÓN DE CUOTAS\nCOMUNIDAD\nCASAS DE APUESTAS\nINICIO\nCAÍDA DE CUOTAS\nAPUESTAS SEGURAS\nHERRAMIENTAS PARA APOSTAR\n\nMIS LIGAS\n\n0\nGestionar mis ligas\nFÚTBOL\nBALONCESTO\nTENIS\nBÉISBOL\nHOCKEY\nFÚTBOL AMERICANO\nFÚTBOL AUSTRALIANO\nBOXEO\nCRICKET\nDARDOS\nESPORTS\nUNIHOCKEY\nFÚTBOL SALA\nBALONMANO\nMMA\nRUGBY LEAGUE\nRUGBY\nVOLEIBOL\nBono del 300% de hasta 425.000 CLP por tus primeros 4 depósitos\nOBTENER\n¡BONO DEL 200 % EN TU PRIMER DEPÓSITO, HASTA 200.000!\nOBTENER\nBonus de apertura!\nOBTENER\nCuotasAhora - Comparación de Cuotas de fútbol\nTodos Los Partidos\nEn Directo\nHoy\nMis Partidos\nfútbol\nbaloncesto\ntenis\nBéisbol\nMás\nEventos\nHora de inicio\nOcultar eventos finalizados\nMOSTRAR MÁS\nCuotasAhora - Su fuente de cuotas de apuestas y comparación de cuotas \n\nCuotasAhora es su plataforma de confianza para comparar cuotas de apuestas de las principales casas de apuestas. Tanto si apuesta en ligas locales como si lo hace en competiciones internacionales, nuestra web le ayuda a encontrar las mejores cuotas para aumentar sus probabilidades de ganar.\n\nSu fuente definitiva de cuotas en directo, mercados de apuestas y comparación en tiempo real de cuotas de un gran número de casas de apuestas de todo el mundo\n\nProporcionamos las últimas cuotas para una amplia variedad de deportes y mercados. Ya sea un apostante experimentado o se esté iniciando en las apuestas deportivas, nuestro comparador de c",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}

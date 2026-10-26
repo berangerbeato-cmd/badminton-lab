@@ -1,11 +1,11 @@
 {
-  "body_sha256": "2bdfb67361f49a1f196f50445c1eed9e4c78da248a9ebd39fcfdccc14995c055",
+  "body_sha256": "affcc4d942a71f516123da94a6fab08f805517d80f54ce3f5a5b6be93d9d4b33",
   "bookmaker_price_updated_at": null,
   "cache_age_seconds": null,
-  "finished_at_utc": "2026-10-26T09:38:25+00:00",
+  "finished_at_utc": "2026-10-26T10:21:30+00:00",
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-26T09:38:18+00:00",
+  "observed_at_utc": "2026-10-26T10:21:22+00:00",
   "operator": "Parions Sport Point de Vente (FDJ)",
   "operator_kind": "RETAIL_NOT_ONLINE",
   "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
@@ -18,10 +18,10 @@
   "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Mon, 26 Oct 2026 09:38:21 GMT",
+  "server_date": "Mon, 26 Oct 2026 10:21:24 GMT",
   "source_key": "fdj_pos_fr",
   "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
   "status": "NO_CONFIDENT_PREMATCH_QUOTES",
-  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nL1 McDonald's\nLaLiga\nPremier League\nBundesliga 1\nSerie A\nLigue 2 BKT\nEFL Cup\n+\nAfficher plus\nTennis\nToutes les compétitions\nBale\nVienne\nTokyo\nGuangzhou\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nEurocup (H)\nBBL\nEurocup (F)\nWNBA\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBaseball\nBoxe\nFormule 1\nMMA\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nLiens utiles :\nLoto Foot\nRésultats Loto Foot\nParions Sport résultat\nListe Parions Sport\nParions Sport match du jour\nMon Panier\nMes QR codes\nMes sélections\nVotre panier est vide\n\nSélectionner au moins un pronostic pour pouvoir parier\n\nCotes\nboostées\n\nSélectionner au moins une cote boostée\n\nLes cotes et les gains potentiels sont susceptibles d'évoluer jusqu'à votre paiement en point de vente. Seules les cotes et les gains potentiels figurant sur votre reçu de jeu font foi.\nConservez votre reçu de jeu émis par votre détaillant, car seul ce dernier vous permettra de récupérer vos gains.\n\nLes gains pot",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nL1 McDonald's\nLaLiga\nPremier League\nBundesliga 1\nSerie A\nLigue 2 BKT\nEFL Cup\n+\nAfficher plus\nTennis\nToutes les compétitions\nBale\nVienne\nTokyo\nGuangzhou\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nD1 France (H)\nEurocup (H)\nBBL\nEurocup (F)\nWNBA\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBaseball\nBoxe\nFormule 1\nMMA\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nLiens utiles :\nLoto Foot\nRésultats Loto Foot\nParions Sport résultat\nListe Parions Sport\nParions Sport match du jour\nMon Panier\nMes QR codes\nMes sélections\nVotre panier est vide\n\nSélectionner au moins un pronostic pour pouvoir parier\n\nCotes\nboostées\n\nSélectionner au moins une cote boostée\n\nLes cotes et les gains potentiels sont susceptibles d'évoluer jusqu'à votre paiement en point de vente. Seules les cotes et les gains potentiels figurant sur votre reçu de jeu font foi.\nConservez votre reçu de jeu émis par votre détaillant, car seul ce dernier vous permettra de récup",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }

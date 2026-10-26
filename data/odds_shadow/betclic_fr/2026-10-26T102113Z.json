@@ -1,0 +1,23 @@
+{
+  "body_sha256": "c2de4882fe89c21f4af9043fc83eccb4ff574f1c9453cfb9283f66cc92528356",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": "26799809",
+  "finished_at_utc": "2026-10-26T10:21:34+00:00",
+  "http_status": 403,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-26T10:21:31+00:00",
+  "operator": "Betclic.fr",
+  "operator_kind": "ONLINE",
+  "public_badminton_event_links": [],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/betclic_fr.png",
+  "quotes": [],
+  "resolved_url": "https://www.betclic.fr/",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Sat, 20 Dec 2025 05:58:04 GMT",
+  "source_key": "betclic_fr",
+  "source_url": "https://www.betclic.fr/",
+  "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
+  "text_excerpt_for_debug": "Betclic\nAccès refusé\n\nCe site n'est pas disponible dans votre zone géographique.",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}

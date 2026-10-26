@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-26T09:38:09+00:00",
+  "observed_at_utc": "2026-10-26T10:21:13+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
@@ -39,20 +39,20 @@
       "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "2bdfb67361f49a1f196f50445c1eed9e4c78da248a9ebd39fcfdccc14995c055",
+      "body_sha256": "affcc4d942a71f516123da94a6fab08f805517d80f54ce3f5a5b6be93d9d4b33",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
     "betclic_fr": {
-      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
+      "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quotes": 0,
-      "robots_status": "ROBOTS_HTTP_403",
-      "http_status": null,
-      "resolved_url": null,
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "http_status": 403,
+      "resolved_url": "https://www.betclic.fr/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": null,
-      "body_sha256": null,
+      "cache_age_seconds": "26799809",
+      "body_sha256": "c2de4882fe89c21f4af9043fc83eccb4ff574f1c9453cfb9283f66cc92528356",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "d5434047804f817270dbcfbfe191dc2c54c097b62b4457f80500c2c9652362f3",
+      "body_sha256": "a97eb5605c9eb55d8d995a674f1c22b3b9f4afbafdece12db6b51cfd5dd860bc",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -90,8 +90,8 @@
       "resolved_url": "https://www.pmu.fr/sport/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": null,
-      "body_sha256": "65e4496993cda0f58358b54babb71a8416bafbf5d113bdb7cdaadba1d0e42c42",
+      "cache_age_seconds": "2",
+      "body_sha256": "e9e3fb5dae163ace81f307caf2d3aa5f9fe98850e46f54e4e363b8dd02f3e007",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "7cf9b65f505a3c011a2724959d5000fe740cce7256b32c7bf26deb8a2b4410ab",
+      "body_sha256": "66a2c9c885f02092fad6eee032af63c1614d8ee214049fe8e1dca2df6fd6c661",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "37ed52e35c47eb9b4b2d9d57508050c0a6c1d0a712b18c2300b91289351f92fc",
+      "body_sha256": "c0d59ed11d3382891dad28b14baa817c8bcfde47fa4884ffbca8eec639839803",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "64",
-      "body_sha256": "6c9f64f039f1ddbf404a9e028e0be88f73a1b9680750c9864264df155a98abb0",
+      "cache_age_seconds": "162",
+      "body_sha256": "cc816d39db1272f6d570ca28c275b3d424fffce241a44db9ebde038e08394ceb",
       "flashscore_discovery": {
         "index_match_links": [],
         "index_match_link_count": 0,
@@ -159,15 +159,15 @@
       }
     },
     "oddsportal_badminton": {
-      "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
+      "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quotes": 0,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
-      "resolved_url": "https://www.oddsportal.com/badminton/",
+      "resolved_url": "https://www.cuotasahora.com/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "0",
-      "body_sha256": "ae3b8cec6db90acd0c075365c67cbf06d2b97dd98db013596f741aee98726dd4",
+      "cache_age_seconds": "2",
+      "body_sha256": "1bd6e1b3555a76da0fb523bb40876aa96de9c4f520f0b2edeaeb1194fee19381",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
