@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-26T05:31:18+00:00",
+  "observed_at_utc": "2026-10-26T06:39:13+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "63eae5b5d945ff11103229c36569495a1903ca329dfe402b8a34b791857a7c58",
+      "body_sha256": "5743740a78cb8accebf271077b2558b2148444e639d97da10f441b6e0f1101c8",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "63e74aec5e20cda14857cda9ff035807346b5b4bb20e5b711982c0ebbe588b03",
+      "body_sha256": "ec19721cb35c68c07bac85bccd1a575e9e37ae42805e41bef758a24609740503",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "575e6d947b2b5392cd04448fc97ab30bd1a040fad908be0d43d8116e83905fec",
+      "body_sha256": "f985b4caa9118506ec1586278ee67f51450c0c0dbe699df815a1217ddfc29c60",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "cfe4df493139e59f4d08da40b92b3c2d08905a6c2bf3cb4a0c76a7295b32662b",
+      "body_sha256": "100d23ee0631173381b2813e7be849ceedbe60e6839e1724539834138af3608b",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,13 +142,13 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "269",
-      "body_sha256": "90da05f25ea2363669efdb2e12fb68553527ab05a4b754199af1f3c38d523d7f",
+      "cache_age_seconds": "0",
+      "body_sha256": "933d26141aa902848aaeb4394cf38ec565b8befcd5bc5b407a0a4c35b5c23771",
       "flashscore_discovery": {
         "index_match_links": [],
         "index_match_link_count": 0,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n26/10 LU\nAucun match aujourd'hui.\nJour de match précédent: 25.10.2026\nJour de match suivant: 28.10.2026\nFlashscore Actualités\nAvec un doublé opportuniste de Mbappé, le Real Madrid bat le Barça au Camp Nou\nFC Barcelone - Real Madrid (1-2) : Les notes du Clásico\nKimi Antonelli s’impose à Austin mais devra attendre pour le titre\nAller vers Actualités\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT HYLO Open Hommes\nBWF WT Indonesia Masters 3 Hommes\nBWF WT Open de France Hommes\nBWF WT HYLO Open Femmes\nBWF WT Indonesia Masters 3 Femmes\nBWF WT Open de France Femmes\nBWF WT HYLO Open Doubles Hommes\nBWF WT Indonesia Masters 3 Doubles Hommes\nBWF WT Open de France Doubles Hommes\nBWF WT HYLO Open Doubles Femmes\nVoir plus (5)\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nAide : Le service de résultats de badminton de Flashscore.fr offre les scores en direct de badminton avec les résultats"
+        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n26/10 LU\nAucun match aujourd'hui.\nJour de match précédent: 25.10.2026\nJour de match suivant: 28.10.2026\nFlashscore Actualités\nAvec un doublé opportuniste de Mbappé, le Real Madrid bat le Barça au Camp Nou\nFC Barcelone - Real Madrid (1-2) : Les notes du Clásico\nKimi Antonelli s’impose à Austin mais devra attendre pour le titre\nAller vers Actualités\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT HYLO Open Hommes\nBWF WT Indonesia Masters 3 Hommes\nBWF WT Open de France Hommes\nBWF WT HYLO Open Femmes\nBWF WT Indonesia Masters 3 Femmes\nBWF WT Open de France Femmes\nBWF WT HYLO Open Doubles Hommes\nBWF WT Indonesia Masters 3 Doubles Hommes\nBWF WT Open de France Doubles Hommes\nBWF WT HYLO Open Doubles Femmes\nVoir plus (4)\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nAide : Le service de résultats de badminton de Flashscore.fr offre les scores en direct de badminton avec les résultats"
       },
       "flashscore_match_audit": {
         "url": null,
@@ -167,7 +167,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "5f095f24b91a93648d5b98a1186df3738e645ed23f8c7d1f63c22c89cf923c9f",
+      "body_sha256": "07991ceb23693c3218e64b09e97b9a17ea1f5077ef8ecccdc69bb8fc6683cd17",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
