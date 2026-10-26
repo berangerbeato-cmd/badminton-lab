@@ -24,9 +24,14 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Validate generated publication
+        run: python -m unittest -v test_publish_generated
       - name: Validate parsers and diagnostics
         run: |
           python -m py_compile multi_book_odds_scraper.py unibet_odds_scraper.py odds_value_shadow.py odds_diagnostics.py
@@ -99,17 +104,27 @@ jobs:
           PY
       - name: Compare quotes with frozen Elo V1 snapshot (shadow, NO BET)
         run: python odds_value_shadow.py --live --odds-dir data/odds_shadow --model-dir data/model
-      - name: Save audit evidence
+      - name: Capture generated outputs before publication
+        id: publication_bundle
         if: always()
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A -- data/odds_shadow
-          if ! git diff --cached --quiet; then
-            git commit -m 'Audit public badminton quotes and rejection diagnostics'
-            git pull --rebase origin main
-            git push origin HEAD:main
-          fi
+        run: >-
+          python publish_generated.py prepare
+          --bundle "${{ runner.temp }}/generated-${{ github.run_id }}-${{ github.run_attempt }}"
+          --paths data/odds_shadow --guard data/model --exclude data/odds_shadow/visual_evidence
+      - name: Preserve generated outputs independently of Git publication
+        id: publication_archive
+        if: always() && steps.publication_bundle.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/generated-${{ github.run_id }}-${{ github.run_attempt }}
+          if-no-files-found: error
+          retention-days: 30
+      - name: Publish generated outputs without rebase
+        if: success() && steps.publication_archive.outcome == 'success'
+        run: >-
+          python publish_generated.py publish
+          --bundle "${{ runner.temp }}/generated-${{ github.run_id }}-${{ github.run_attempt }}"
       - name: Report odds observation and diagnostics
         if: always()
         run: |

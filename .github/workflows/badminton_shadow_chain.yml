@@ -18,7 +18,7 @@ permissions:
 # Run sequentially after NetBet has finished; stale or missing Unibet quotes
 # remain rejected by the original comparator and fictional-pick rules.
 concurrency:
-  group: badminton-odds-shadow
+  group: bwf-results-sync
   cancel-in-progress: false
 
 jobs:

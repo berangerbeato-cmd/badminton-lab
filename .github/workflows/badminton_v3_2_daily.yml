@@ -33,6 +33,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
           persist-credentials: true
 
       - name: Refresh repository
@@ -42,6 +43,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Validate generated publication
+        run: python -m unittest -v test_publish_generated
 
       - name: Validate V3.2 daily logic
         run: |
@@ -62,19 +65,27 @@ jobs:
             --days 7 \
             --official-bridge data/model_v3_2_live/manual_fixture_bridge.json
 
-      - name: Archive V3.2 forecast feed
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A -- data/model_v3_2_live
-          if ! git diff --cached --quiet; then
-            git commit -m 'Publish Badminton V3.2 daily prospective forecasts'
-            git pull --rebase origin main
-            git push origin HEAD:main
-          else
-            echo 'No V3.2 forecast changes.'
-          fi
-
+      - name: Capture generated outputs before publication
+        id: publication_bundle
+        if: always()
+        run: >-
+          python publish_generated.py prepare
+          --bundle "${{ runner.temp }}/generated-${{ github.run_id }}-${{ github.run_attempt }}"
+          --paths data/model_v3_2_live --guard data/bwf data/model data/model_v3_2 --exclude data/odds_shadow/visual_evidence
+      - name: Preserve generated outputs independently of Git publication
+        id: publication_archive
+        if: always() && steps.publication_bundle.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/generated-${{ github.run_id }}-${{ github.run_attempt }}
+          if-no-files-found: error
+          retention-days: 30
+      - name: Publish generated outputs without rebase
+        if: success() && steps.publication_archive.outcome == 'success'
+        run: >-
+          python publish_generated.py publish
+          --bundle "${{ runner.temp }}/generated-${{ github.run_id }}-${{ github.run_attempt }}"
       - name: Publish model summary
         if: always()
         run: |

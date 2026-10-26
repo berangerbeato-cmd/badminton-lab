@@ -16,7 +16,7 @@ permissions:
 
 # Shared with Unibet/NetBet collectors to serialize their output commits.
 concurrency:
-  group: badminton-odds-shadow
+  group: bwf-results-sync
   cancel-in-progress: false
 
 jobs:

@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: badminton-netbet-research
+  group: bwf-results-sync
   cancel-in-progress: false
 
 jobs:

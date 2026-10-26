@@ -18,7 +18,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: badminton-odds-shadow
+  group: bwf-results-sync
   cancel-in-progress: false
 
 jobs:

@@ -16,7 +16,7 @@ permissions:
 
 # Also used by the Unibet/FDJ workflow: serializes commits to main.
 concurrency:
-  group: badminton-odds-shadow
+  group: bwf-results-sync
   cancel-in-progress: false
 
 jobs:
@@ -25,9 +25,14 @@ jobs:
     timeout-minutes: 18
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Validate generated publication
+        run: python -m unittest -v test_publish_generated
       - name: Mark this run start for freshness checks
         run: echo "RUN_STARTED_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
       - name: Validate NetBet H2H parser, Elo matching and safety rules
@@ -43,17 +48,27 @@ jobs:
           python netbet_quotes_shadow.py --live \
             --out data/odds_shadow/netbet_quotes \
             --model-dir data/model
-      - name: Archive only separate NetBet observations (no Sheets, no T0, no betting)
+      - name: Capture generated outputs before publication
+        id: publication_bundle
         if: always()
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A -- data/odds_shadow/netbet_quotes
-          if ! git diff --cached --quiet; then
-            git commit -m 'Archive NetBet public badminton odds and Elo shadow observations'
-            git pull --rebase origin main
-            git push origin HEAD:main
-          fi
+        run: >-
+          python publish_generated.py prepare
+          --bundle "${{ runner.temp }}/generated-${{ github.run_id }}-${{ github.run_attempt }}"
+          --paths data/odds_shadow/netbet_quotes --guard data/model --exclude data/odds_shadow/visual_evidence
+      - name: Preserve generated outputs independently of Git publication
+        id: publication_archive
+        if: always() && steps.publication_bundle.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/generated-${{ github.run_id }}-${{ github.run_attempt }}
+          if-no-files-found: error
+          retention-days: 30
+      - name: Publish generated outputs without rebase
+        if: success() && steps.publication_archive.outcome == 'success'
+        run: >-
+          python publish_generated.py publish
+          --bundle "${{ runner.temp }}/generated-${{ github.run_id }}-${{ github.run_attempt }}"
       - name: Show only this run's NetBet research results
         if: always()
         run: |
