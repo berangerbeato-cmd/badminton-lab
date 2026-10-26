@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-26T06:39:13+00:00",
+  "observed_at_utc": "2026-10-26T06:53:16+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "5743740a78cb8accebf271077b2558b2148444e639d97da10f441b6e0f1101c8",
+      "body_sha256": "32ca7562d5d2c3ea713f0836e4899ee4df1a86c5237419a486406ca498fe01c5",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "f985b4caa9118506ec1586278ee67f51450c0c0dbe699df815a1217ddfc29c60",
+      "body_sha256": "011b9e6b49edf3bd2ea7619f5353fcd55336a2e71ea4de169455b1c75ff88d0d",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "100d23ee0631173381b2813e7be849ceedbe60e6839e1724539834138af3608b",
+      "body_sha256": "02ef1122b0702ff901814be3ebe16d98dc1540818d066e734ae319d831ae0b77",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "0",
-      "body_sha256": "933d26141aa902848aaeb4394cf38ec565b8befcd5bc5b407a0a4c35b5c23771",
+      "cache_age_seconds": "204",
+      "body_sha256": "e6858cc92443c4d2b0c9b8c9b7e194836febef00dfb0f644082db5f7802ed9a2",
       "flashscore_discovery": {
         "index_match_links": [],
         "index_match_link_count": 0,
@@ -167,7 +167,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "07991ceb23693c3218e64b09e97b9a17ea1f5077ef8ecccdc69bb8fc6683cd17",
+      "body_sha256": "72c9df0a57c77e344565a80bee5ae75819fdb75b9dbc5eeccf9d17860b6e03df",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
