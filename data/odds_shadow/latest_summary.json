@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-26T06:53:16+00:00",
+  "observed_at_utc": "2026-10-26T07:29:39+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
@@ -39,7 +39,7 @@
       "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "cde9b351a11a9838a266bf1f99b6c55190842937d54ff414e0c4c40e6a00a980",
+      "body_sha256": "dd256e3e37012a050623333c33ac33a91636cb64c1b9c6ed0b6f28fafaef3dd0",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "32ca7562d5d2c3ea713f0836e4899ee4df1a86c5237419a486406ca498fe01c5",
+      "body_sha256": "4c317320999ce9d33acc5f4410baf68729f9b6ab33c420e25440d302fc45f6bd",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -90,7 +90,7 @@
       "resolved_url": "https://www.pmu.fr/sport/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": null,
+      "cache_age_seconds": "23",
       "body_sha256": "ec19721cb35c68c07bac85bccd1a575e9e37ae42805e41bef758a24609740503",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "011b9e6b49edf3bd2ea7619f5353fcd55336a2e71ea4de169455b1c75ff88d0d",
+      "body_sha256": "528e654ccc39aa7cbf333a8b3da3f5ab856ce58432327455cc7439e80780e0e6",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "02ef1122b0702ff901814be3ebe16d98dc1540818d066e734ae319d831ae0b77",
+      "body_sha256": "c94d1af0b8e4e651907cbf9e08feaf55f69c0b2e98f3bb8cc191f8f2289ad27e",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,13 +142,13 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "204",
-      "body_sha256": "e6858cc92443c4d2b0c9b8c9b7e194836febef00dfb0f644082db5f7802ed9a2",
+      "cache_age_seconds": "80",
+      "body_sha256": "bf716134650c9c995b7a1ad545f57ae5d94f8934582eab3a47af9e3c358933b0",
       "flashscore_discovery": {
         "index_match_links": [],
         "index_match_link_count": 0,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n26/10 LU\nAucun match aujourd'hui.\nJour de match précédent: 25.10.2026\nJour de match suivant: 28.10.2026\nFlashscore Actualités\nAvec un doublé opportuniste de Mbappé, le Real Madrid bat le Barça au Camp Nou\nFC Barcelone - Real Madrid (1-2) : Les notes du Clásico\nKimi Antonelli s’impose à Austin mais devra attendre pour le titre\nAller vers Actualités\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT HYLO Open Hommes\nBWF WT Indonesia Masters 3 Hommes\nBWF WT Open de France Hommes\nBWF WT HYLO Open Femmes\nBWF WT Indonesia Masters 3 Femmes\nBWF WT Open de France Femmes\nBWF WT HYLO Open Doubles Hommes\nBWF WT Indonesia Masters 3 Doubles Hommes\nBWF WT Open de France Doubles Hommes\nBWF WT HYLO Open Doubles Femmes\nVoir plus (4)\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nAide : Le service de résultats de badminton de Flashscore.fr offre les scores en direct de badminton avec les résultats"
+        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n26/10 LU\nAucun match aujourd'hui.\nJour de match précédent: 25.10.2026\nJour de match suivant: 28.10.2026\nFlashscore Actualités\nQuand le jeu devient dur, le Barça n'est pas bon\nLe Thunder perd Jalen Williams sur blessure, les Knicks patinent\nLe match NFL à Paris : est-ce que c'était vraiment nécessaire ?\nAller vers Actualités\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT HYLO Open Hommes\nBWF WT Indonesia Masters 3 Hommes\nBWF WT Open de France Hommes\nBWF WT HYLO Open Femmes\nBWF WT Indonesia Masters 3 Femmes\nBWF WT Open de France Femmes\nBWF WT HYLO Open Doubles Hommes\nBWF WT Indonesia Masters 3 Doubles Hommes\nBWF WT Open de France Doubles Hommes\nBWF WT HYLO Open Doubles Femmes\nVoir plus (4)\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nAide : Le service de résultats de badminton de Flashscore.fr offre les scores en direct de badminton avec les résultats et les calendriers de l"
       },
       "flashscore_match_audit": {
         "url": null,
@@ -167,7 +167,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "72c9df0a57c77e344565a80bee5ae75819fdb75b9dbc5eeccf9d17860b6e03df",
+      "body_sha256": "4edccd91db9e9e678fb0205ce325fb4e3b59d38d7e543661aae7e8f7dfb9a19e",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
