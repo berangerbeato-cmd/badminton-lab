@@ -40,55 +40,55 @@
     "2026": [
       {
         "band": "50-60%",
-        "favorite_wins": 299,
-        "mean_predicted_probability": 0.54595,
-        "n": 521,
-        "observed_win_rate": 0.573896
+        "favorite_wins": 314,
+        "mean_predicted_probability": 0.545823,
+        "n": 545,
+        "observed_win_rate": 0.576147
       },
       {
         "band": "60-70%",
-        "favorite_wins": 272,
-        "mean_predicted_probability": 0.648354,
-        "n": 414,
-        "observed_win_rate": 0.657005
+        "favorite_wins": 284,
+        "mean_predicted_probability": 0.64813,
+        "n": 437,
+        "observed_win_rate": 0.649886
       },
       {
         "band": "70-80%",
-        "favorite_wins": 211,
-        "mean_predicted_probability": 0.746508,
-        "n": 282,
-        "observed_win_rate": 0.748227
+        "favorite_wins": 230,
+        "mean_predicted_probability": 0.746521,
+        "n": 306,
+        "observed_win_rate": 0.751634
       },
       {
         "band": "80-90%",
-        "favorite_wins": 157,
-        "mean_predicted_probability": 0.847499,
-        "n": 204,
-        "observed_win_rate": 0.769608
+        "favorite_wins": 165,
+        "mean_predicted_probability": 0.847654,
+        "n": 214,
+        "observed_win_rate": 0.771028
       },
       {
         "band": "90-100%",
-        "favorite_wins": 93,
-        "mean_predicted_probability": 0.937564,
-        "n": 98,
-        "observed_win_rate": 0.94898
+        "favorite_wins": 94,
+        "mean_predicted_probability": 0.937141,
+        "n": 100,
+        "observed_win_rate": 0.94
       }
     ]
   },
   "elo_k": 48,
   "elo_k_fitted_on": 2024,
-  "generated_at_utc": "2026-10-19T08:14:44+00:00",
+  "generated_at_utc": "2026-10-26T08:18:40+00:00",
   "historical_bookmaker_odds_present": false,
   "historical_market_roi_eur": null,
   "historical_pre_match_quote_verified": false,
   "historical_source_quality": {
-    "archives_read": 408,
-    "clean_MS_matches": 13695,
+    "archives_read": 410,
+    "clean_MS_matches": 13778,
     "missing_player_ids": 5,
-    "no_full_score": 288,
-    "no_winner": 12,
-    "not_MS": 52473,
-    "score_not_completed": 220
+    "no_full_score": 289,
+    "no_winner": 13,
+    "not_MS": 52763,
+    "score_not_completed": 221
   },
   "holdout_replay_verification": {
     "holdout_csv_sha256": "c85f5032749ebbe54837473c8136e1ef2918d90531c287add1d53657fd9a8033",
@@ -121,35 +121,35 @@
       "upsets": 662
     },
     "2026": {
-      "accuracy": 0.679394,
-      "brier": 0.208021,
-      "cold_start": 138,
+      "accuracy": 0.678527,
+      "brier": 0.208566,
+      "cold_start": 139,
       "confidence_interval_95": [
-        0.6555,
-        0.7024
+        0.6553,
+        0.7009
       ],
-      "favorite_wins": 1032,
-      "log_loss": 0.602812,
-      "n": 1519,
-      "upsets": 487
+      "favorite_wins": 1087,
+      "log_loss": 0.604326,
+      "n": 1602,
+      "upsets": 515
     },
     "combined_exploratory": {
-      "accuracy": 0.671245,
-      "brier": 0.208168,
-      "cold_start": 292,
+      "accuracy": 0.671045,
+      "brier": 0.208409,
+      "cold_start": 293,
       "confidence_interval_95": [
         0.6555,
-        0.6866
+        0.6862
       ],
-      "favorite_wins": 2346,
-      "log_loss": 0.602531,
-      "n": 3495,
-      "upsets": 1149
+      "favorite_wins": 2401,
+      "log_loss": 0.603215,
+      "n": 3578,
+      "upsets": 1177
     }
   },
   "model_report_source_sha256": {
-    "baseline_report_sha256": "dad247383a70d1ad22e58b185d6c470ca5fb8387c2af632f89eef12f9628630b",
-    "calibration_report_sha256": "74f120fd74ba8ba1f2d17becc9f63a5a1806c37a239721e9a6621d1b45c41bce"
+    "baseline_report_sha256": "6af3d4d642fc58ac6cebda1196654a3ea16ac943c10ddcde434b50ea61116538",
+    "calibration_report_sha256": "20098c0302f71312e42608976c2b79ba8ea1b03696404151c17496457294b3f7"
   },
   "monthly_metrics": {
     "2025-01": {
@@ -426,17 +426,17 @@
       "upsets": 63
     },
     "2026-10": {
-      "accuracy": 0.739496,
-      "brier": 0.184476,
-      "cold_start": 1,
+      "accuracy": 0.707921,
+      "brier": 0.198472,
+      "cold_start": 2,
       "confidence_interval_95": [
-        0.654,
-        0.81
+        0.6418,
+        0.7663
       ],
-      "favorite_wins": 88,
-      "log_loss": 0.551946,
-      "n": 119,
-      "upsets": 31
+      "favorite_wins": 143,
+      "log_loss": 0.584849,
+      "n": 202,
+      "upsets": 59
     }
   },
   "platt_calibration_fitted_on": 2024,
