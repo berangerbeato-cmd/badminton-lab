@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-25T05:35:14+00:00",
+  "generated_at_utc": "2026-10-26T05:40:08+00:00",
   "selected_variant": "elo_plus_score_rest",
   "walkforward_2022_2025": {
     "variant": "elo_plus_score_rest",
@@ -133,7 +133,7 @@
   "replay_2026": {
     "variant": "elo_plus_score_rest",
     "status": "RETROSPECTIVE_ONLY_NOT_ARCHIVED_LIVE_T0",
-    "n": 1600,
+    "n": 1602,
     "player_a_probability_bins": [
       {
         "range_low": 0.0,
@@ -154,10 +154,10 @@
       {
         "range_low": 0.2,
         "range_high": 0.3,
-        "n": 151,
-        "mean_predicted": 0.253497,
-        "observed_frequency": 0.258278,
-        "calibration_gap": 0.004781
+        "n": 152,
+        "mean_predicted": 0.253514,
+        "observed_frequency": 0.256579,
+        "calibration_gap": 0.003065
       },
       {
         "range_low": 0.3,
@@ -170,10 +170,10 @@
       {
         "range_low": 0.4,
         "range_high": 0.5,
-        "n": 213,
-        "mean_predicted": 0.453139,
-        "observed_frequency": 0.389671,
-        "calibration_gap": -0.063467
+        "n": 214,
+        "mean_predicted": 0.453241,
+        "observed_frequency": 0.38785,
+        "calibration_gap": -0.065391
       },
       {
         "range_low": 0.5,
@@ -220,10 +220,10 @@
       {
         "range_low": 0.5,
         "range_high": 0.6,
-        "n": 478,
-        "mean_predicted": 0.547051,
-        "observed_frequency": 0.560669,
-        "calibration_gap": 0.013618
+        "n": 479,
+        "mean_predicted": 0.547005,
+        "observed_frequency": 0.561587,
+        "calibration_gap": 0.014581
       },
       {
         "range_low": 0.6,
@@ -236,10 +236,10 @@
       {
         "range_low": 0.7,
         "range_high": 0.8,
-        "n": 349,
-        "mean_predicted": 0.748409,
-        "observed_frequency": 0.747851,
-        "calibration_gap": -0.000558
+        "n": 350,
+        "mean_predicted": 0.748396,
+        "observed_frequency": 0.748571,
+        "calibration_gap": 0.000176
       },
       {
         "range_low": 0.8,
