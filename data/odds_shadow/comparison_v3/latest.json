@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_2_shadow_compare_v1",
-  "generated_at_utc": "2026-10-27T07:33:10+00:00",
+  "generated_at_utc": "2026-10-27T09:06:06+00:00",
   "policy": "SHADOW_ONLY_NO_BET_NO_T0_NO_SHEETS_WRITE",
   "model": "bwf_v3_2_score_rest_live",
   "max_age_seconds": 2700,
@@ -17,7 +17,7 @@
       ]
     },
     "NetBet.fr": {
-      "observation_utc": "2026-10-27T07:26:19+00:00",
+      "observation_utc": "2026-10-27T09:05:28+00:00",
       "snapshot_status": "OK",
       "snapshot_path": "data/model_v3_2_live/snapshots/2026-10-27.csv",
       "snapshot_sha256": "5a63309f4e97ea8f43cd618bde898de10f3e74f9ba2cefc1d5fb246d47597508",
@@ -43,8 +43,8 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-27T07:26:19+00:00",
-          "age_seconds": 411,
+          "observed_at_utc": "2026-10-27T09:05:28+00:00",
+          "age_seconds": 38,
           "current": true,
           "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
           "quality_flags": [
@@ -98,10 +98,10 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-27T07:26:19+00:00",
-          "age_seconds": 411,
+          "observed_at_utc": "2026-10-27T09:05:28+00:00",
+          "age_seconds": 38,
           "current": true,
-          "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
+          "source_url": "https://www.netbet.fr/badminton",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -118,11 +118,11 @@
           "v3_2_probability": 0.33102595,
           "fair_odds": 3.0209,
           "observed_odds": {
-            "NetBet.fr": 1.6
+            "NetBet.fr": 1.61
           },
           "best_historical_operator": "NetBet.fr",
-          "best_historical_odds": 1.6,
-          "best_historical_ev_pct": -47.04,
+          "best_historical_odds": 1.61,
+          "best_historical_ev_pct": -46.7,
           "best_within_window_ev_pct": null
         },
         {
@@ -131,11 +131,11 @@
           "v3_2_probability": 0.66897405,
           "fair_odds": 1.4948,
           "observed_odds": {
-            "NetBet.fr": 1.87
+            "NetBet.fr": 1.85
           },
           "best_historical_operator": "NetBet.fr",
-          "best_historical_odds": 1.87,
-          "best_historical_ev_pct": 25.1,
+          "best_historical_odds": 1.85,
+          "best_historical_ev_pct": 23.76,
           "best_within_window_ev_pct": null
         }
       ]
