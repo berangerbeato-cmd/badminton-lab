@@ -1,0 +1,23 @@
+{
+  "body_sha256": "4b4a45ae57de218c3c491a3779685f57fb5ec1a03f174f9fed64b12ddcfefa5f",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-10-27T08:50:10+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-27T08:50:06+00:00",
+  "operator": "PMU.fr",
+  "operator_kind": "ONLINE",
+  "public_badminton_event_links": [],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/pmu_fr.png",
+  "quotes": [],
+  "resolved_url": "https://www.pmu.fr/sport/",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Tue, 27 Oct 2026 08:50:07 GMT",
+  "source_key": "pmu_fr",
+  "source_url": "https://www.pmu.fr/sport/",
+  "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
+  "text_excerpt_for_debug": "PARCE QU’UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR (09 74 75 13 13 - APPEL NON SURTAXÉ)\nHIPPIQUE\nSPORT\nPOKER\nPLAY ZONE\n\nSe connecter\nS'inscrire\nAccueil\nLive\n5\nPromotions\nMes paris\nPLAY ZONE\nMaster Prono 12  ! Du 22 octobre au 1er novembre : 10.000€ à partager\nEN SAVOIR PLUS\n\nRejoins-nous sur les réseaux sociaux :\n\n\n\n\n\nDÉFIS ET PROMOS\n\nNos promos\nPLAY ZONE\n\nJEU RESPONSABLE\n\nPMU AVEC VOUS\nNos conseils\nSOS joueurs\n\nAIDE ET CONTACT\n\nFAQ - Aide en ligne\nContact\n\nL'ENTREPRISE PMU\n\nL'entreprise\nCarrières\nNos applications mobiles\n\nINFOS LÉGALES ET COOKIES\n\nInfos légales et Cookies\nINTERDICTION VOLONTAIRE DE JEUX\nToute personne peut demander à être interdite de jeux. Cette demande est formée auprès de l'Autorité nationale des jeux. Cette interdiction est applicable dans les casinos, dans les clubs de jeux, sur les sites de jeux et de paris en ligne exploités par les opérateurs de jeux agréés en France, sur le site de jeux de loterie en ligne exploité par La Française des jeux ainsi que sur les bornes de jeux accessibles avec un compte joueur exploitées par les opérateurs titulaires de droits exclusifs, notamment La Française des jeux et le Pari mutuel urbain. Cette interdiction est prononcée pour une durée qui ne peut être inférieure à trois ans. Elle est renouvelable tacitement.\nVoir plus d'informations\n\nN° d’agrément Hippique : 0002-PH-2025-09-08-AGR-03 Sportif : 0002-PS-2025-09-08-AGR-03 Poker : 0002-PO-2025-09-08-AGR-03\n\nTurf, Courses Hippiques, Courses en direct - PMU",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
