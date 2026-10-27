@@ -267,10 +267,10 @@
     "https://www.netbet.fr/badminton/international/hylo-open-doubles",
     "https://www.netbet.fr/badminton/international/hylo-open-doubles-mixtes"
   ],
-  "index_body_sha256": "5c936fb5c5206d91c12e92d5812a5f56585338f0456bab143a450f50bda81697",
+  "index_body_sha256": "cfd8954f2a1bc2e947fbffb07387987f276645b89def6d56b1e74594d8790860",
   "index_eligible_quotes": 2,
   "index_http_status": 200,
-  "index_link_count": 148,
+  "index_link_count": 150,
   "index_link_path_counts": {
     "": 9,
     "badminton": 10,
@@ -278,7 +278,7 @@
     "biathlon": 2,
     "boxe": 2,
     "cashout": 2,
-    "evenement": 62,
+    "evenement": 64,
     "football": 12,
     "paris-en-direct": 5,
     "promotions": 2,
@@ -287,7 +287,7 @@
   },
   "index_market_audit": {
     "eligible_listing_rows": 2,
-    "markets_seen": 12,
+    "markets_seen": 14,
     "rejection_evidence": [
       {
         "following_lines": [
@@ -320,7 +320,7 @@
           "Chiu-Wang",
           "-",
           "Fernandez-Perals",
-          "13.50"
+          "12.50"
         ],
         "market_line": 143,
         "preceding_lines": [
@@ -343,51 +343,25 @@
       },
       {
         "following_lines": [
-          "Dlapka-Rumpold",
-          "12.00",
-          "Cuevas-Jacob",
-          "-"
-        ],
-        "market_line": 172,
-        "preceding_lines": [
-          "Hylo Open (F)",
-          "LIVE dans 7 min",
-          "Anna Siess Ryberg",
-          "Rosy Pancasari",
-          "Plus ou moins de points ?",
-          "Plus de 79.5",
-          "1.65",
-          "Moins de 79.5",
-          "1.65",
-          "+ 2",
-          "Hylo Open, Doubles (F)",
-          "LIVE dans 7 min",
-          "Dlapka-Rumpold",
-          "Cuevas-Jacob"
-        ],
-        "reason": "PRICE_NOT_CONFIRMED"
-      },
-      {
-        "following_lines": [
           "Marburger-Kelch",
           "2.55",
           "Bang-Pothuizen",
           "1.30"
         ],
-        "market_line": 192,
+        "market_line": 162,
         "preceding_lines": [
-          "Hylo Open, Doubles",
-          "LIVE dans 7 min",
-          "Vojtech-Tomas",
-          "Wakefield-Harper",
-          "Plus ou moins de points ?",
-          "Plus de 72.5",
-          "1.62",
-          "Moins de 72.5",
-          "1.71",
-          "+ 2",
+          "+ 1",
           "Hylo Open, Doubles (F)",
-          "LIVE dans 37 min",
+          "(9)",
+          "Hylo Open",
+          "(17)",
+          "Hylo Open (F)",
+          "(11)",
+          "Toute l'offre Badminton",
+          "(69)",
+          "À Venir",
+          "Hylo Open, Doubles (F)",
+          "LIVE dans 14 min",
           "Marburger-Kelch",
           "Bang-Pothuizen"
         ],
@@ -396,14 +370,14 @@
       {
         "following_lines": [
           "Timo-Joep",
-          "3.70",
+          "3.60",
           "Reynolds-Guildea",
-          "1.12"
+          "1.13"
         ],
-        "market_line": 202,
+        "market_line": 172,
         "preceding_lines": [
           "Hylo Open, Doubles (F)",
-          "LIVE dans 37 min",
+          "LIVE dans 14 min",
           "Marburger-Kelch",
           "Bang-Pothuizen",
           "Qui va gagner le match ?",
@@ -413,7 +387,7 @@
           "1.30",
           "+ 4",
           "Hylo Open, Doubles",
-          "LIVE dans 37 min",
+          "LIVE dans 14 min",
           "Timo-Joep",
           "Reynolds-Guildea"
         ],
@@ -422,35 +396,61 @@
       {
         "following_lines": [
           "Voelker-Moszczynski",
-          "1.21",
+          "1.25",
           "Nebel-Klausholm",
-          "2.95"
+          "2.75"
         ],
-        "market_line": 212,
+        "market_line": 182,
         "preceding_lines": [
           "Hylo Open, Doubles",
-          "LIVE dans 37 min",
+          "LIVE dans 14 min",
           "Timo-Joep",
           "Reynolds-Guildea",
           "Qui va gagner le match ?",
           "Timo-Joep",
-          "3.70",
+          "3.60",
           "Reynolds-Guildea",
-          "1.12",
+          "1.13",
           "+ 5",
           "Hylo Open, Doubles Mixtes",
-          "LIVE dans 37 min",
+          "LIVE dans 14 min",
           "Voelker-Moszczynski",
           "Nebel-Klausholm"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Doddavarapu-Pochana",
+          "8.75",
+          "Pham-Orteu",
+          "1.01"
+        ],
+        "market_line": 192,
+        "preceding_lines": [
+          "Hylo Open, Doubles Mixtes",
+          "LIVE dans 14 min",
+          "Voelker-Moszczynski",
+          "Nebel-Klausholm",
+          "Qui va gagner le match ?",
+          "Voelker-Moszczynski",
+          "1.25",
+          "Nebel-Klausholm",
+          "2.75",
+          "+ 5",
+          "Hylo Open, Doubles",
+          "LIVE dans 39 min",
+          "Doddavarapu-Pochana",
+          "Pham-Orteu"
         ],
         "reason": "COMPETITION_NOT_PROVEN"
       }
     ],
     "rejections": {
-      "COMPETITION_NOT_PROVEN": 3,
+      "COMPETITION_NOT_PROVEN": 5,
       "DUPLICATE_MARKET": 1,
-      "NON_MS_COMPETITION": 4,
-      "PRICE_NOT_CONFIRMED": 2
+      "NON_MS_COMPETITION": 5,
+      "PRICE_NOT_CONFIRMED": 1
     }
   },
   "index_resolved_url": "https://www.netbet.fr/badminton",
@@ -458,12 +458,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-10-27.csv",
   "model_snapshot_sha256": "176e95fd116c0a36ed10a2bf5a03ba29430f37c2732a264fe6c00068b3a0c4cf",
-  "observed_at_utc": "2026-10-27T06:53:03+00:00",
+  "observed_at_utc": "2026-10-27T07:15:44+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "214788355cc1308582a087905156fb854a72a1f8c5525834d6db45828384bec2",
+      "body_sha256": "ee202edf6db8c21fc5b9b0ced802c942c2b9b4bc0aef1e1109fd3f33e890ebc8",
       "cache_age_seconds": null,
       "eligible_listing_rows": 13,
       "http_status": 200,
