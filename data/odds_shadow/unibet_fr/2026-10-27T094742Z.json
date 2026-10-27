@@ -1,0 +1,23 @@
+{
+  "body_sha256": "3f536a2f1f931d8e4cda409b2decc22716a3e555f2ed51657936f8cbb94428dc",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": "147",
+  "finished_at_utc": "2026-10-27T09:47:49+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-27T09:47:42+00:00",
+  "operator": "Unibet.fr",
+  "operator_kind": "ONLINE",
+  "public_badminton_event_links": [],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/unibet_fr.png",
+  "quotes": [],
+  "resolved_url": "https://www.unibet.fr/paris-badminton",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Tue, 27 Oct 2026 09:47:43 GMT",
+  "source_key": "unibet_fr",
+  "source_url": "https://www.unibet.fr/paris-badminton",
+  "status": "REJECT_HTTP_CACHE_AGE",
+  "text_excerpt_for_debug": "Aller au contenu principal\nAller au pied de page\n\nPARCE QU’UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\n\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR \n(s'ouvre dans un nouvel onglet)\n(09-74-75-13-13, APPEL NON SURTAXÉ)\n\nSports\nLive\n7\n7 live disponibles\nPromos & défis\n1\n1 défis disponibles\nPoker\nFavoris & Top compétitions\nCompétition de football -europe\nTop Foot Européen\nCompétition de football -italie\nSerie A\nCompétition de football -allemagne\nCoupe d'Allemagne\nCompétition de tennis -monde\nATP\nCompétition de tennis -monde\nWTA\nCompétition de basketball -europe\nCoupes d'Europe (H)\nCotes boostées\nTous sports\nFootball\nTennis\nBasketball\nBadminton\nTout voir\nINTERNATIONAL\nTout International\nHylo Open H\nHylo Open F\nHylo Open DH\nHylo Open DF\nHylo Open DM\nBaseball\nBiathlon\nBoxe\nCyclisme\nFoot américain\nFormule 1\nFormule 2\nGolf\nHandball\nHockey Sur Glace\nMoto\nNascar\nRugby\nRugby à XIII\nSki Alpin\nSki de Fond\nSnooker\nTennis de Table\nUFC/MMA\nVoile\nVolley Ball\nAccueil\nBadminton\nCompétition badminton\nBadminton\nFace à Face\nScore Exact\nRace to $n points\nEn direct 3\nmatchs\nMasquer\nles matchs en live\nCompétition de monde\n\nHylo Open F\n\nLIVE\nC.Lassaux - R.Pancasari\n\tS1\tS2\n\nC.Lassaux\n\t21\t5\n\nEngagement pour\nR.Pancasari\n\t14\t10\n\nFace à Face - Live Match\n\nC.Lassaux\n1,90\n\t\nR.Pancasari\n1,52\nCompétition de monde\n\nHylo Open H\n\nLIVE\nV.Kauffmann - D.Kwinta\n\tS1\tS2\tS3\n\nEngagement pour\nV.Kauffmann\n\t16\t21\t0\n\nD.Kwinta\n\t21\t19\t0\n\nFace à Face - Live Match\n\nV.Kauffmann\n1,55\n\t\nD.Kwinta\n2,20\nCompétition de monde\n\nHylo Open DH\n\nLIVE\nBegga/Deschamp - Marzuan/Sonne\n\tS1\tS2\n\nBegga/Deschamp\n\t21\t9\n\nEngagement pour\nMarzuan/Sonne\n\t17",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
