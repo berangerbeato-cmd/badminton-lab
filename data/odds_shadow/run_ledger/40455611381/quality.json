@@ -1,0 +1,30 @@
+{
+  "generated_at_utc": "2026-10-27T05:32:00+00:00",
+  "comparison_generated_at_utc": "2026-10-27T05:31:58+00:00",
+  "policy": "RESEARCH_ONLY_NO_BET",
+  "comparison_count": 1,
+  "status_counts": {
+    "BLOCKED_UNVERIFIED": 1
+  },
+  "reason_counts": {
+    "EV_MISSING_OR_INVALID": 1,
+    "MATCH_ID_MISSING": 1,
+    "MODEL_AGE_UNKNOWN": 1,
+    "UNEXPECTED_SOURCE_STATUS": 1
+  },
+  "rows": [
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "",
+      "player_a": "Victor Ording Kauffmann",
+      "player_b": "Dominik Kwinta",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    }
+  ],
+  "note": "Quality audit only; never confirms a market or executable price."
+}

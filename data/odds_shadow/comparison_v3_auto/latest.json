@@ -2,37 +2,62 @@
   "verification_summary": {
     "unique_matched_fixture_count": 0,
     "matched_fixture_ids": [],
-    "unmatched_observation_count": 0,
-    "unmatched_observations": [],
+    "unmatched_observation_count": 1,
+    "unmatched_observations": [
+      {
+        "source": "netbet_quotes",
+        "players": [
+          "Victor Ording Kauffmann",
+          "Dominik Kwinta"
+        ],
+        "status": "FIXTURE_ABSENT_FROM_MODEL",
+        "listed_day_paris": "2026-10-27"
+      }
+    ],
     "external_schedule_coverage_count": 0,
     "kickoff_evidence_status_counts": {},
     "prematch_timing_status_counts": {},
-    "model_fixture_count": 0,
-    "public_quote_count": 0,
-    "comparison_count": 0,
-    "status_counts": {},
+    "model_fixture_count": 4,
+    "public_quote_count": 1,
+    "comparison_count": 1,
+    "status_counts": {
+      "FIXTURE_ABSENT_FROM_MODEL": 1
+    },
     "verified_prematch_count": 0,
     "validated_roi_pct": null,
     "missing_kickoff_count": 0,
     "missing_executable_price_count": 0
   },
-  "generated_at_utc": "2026-10-26T10:22:21+00:00",
+  "generated_at_utc": "2026-10-27T05:31:58+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
-  "comparison_count": 0,
+  "comparison_count": 1,
   "rejected_sources": [],
   "source_audit": {
     "unibet_fr": {
       "status": "FRESH_EMPTY",
       "snapshot_file": "data/odds_shadow/unibet_fr/latest.json",
       "quotes_read": 0,
-      "collector_status": "REJECT_HTTP_STATUS_OR_REDIRECT"
+      "collector_status": "NO_CONFIDENT_PREMATCH_QUOTES"
     },
     "netbet_quotes": {
-      "status": "FRESH_EMPTY",
+      "status": "FRESH_SNAPSHOT",
       "snapshot_file": "data/odds_shadow/netbet_quotes/latest.json",
-      "quotes_read": 0,
-      "collector_status": "INDEX_HTTP_NOT_OK"
+      "quotes_read": 1,
+      "collector_status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
     }
   },
-  "results": []
+  "results": [
+    {
+      "source": "netbet_quotes",
+      "players": [
+        "Victor Ording Kauffmann",
+        "Dominik Kwinta"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 4,
+      "listed_day_paris": "2026-10-27",
+      "decision": "NO_BET"
+    }
+  ]
 }

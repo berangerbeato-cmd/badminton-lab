@@ -1,11 +1,25 @@
 {
-  "body_sha256": "a97eb5605c9eb55d8d995a674f1c22b3b9f4afbafdece12db6b51cfd5dd860bc",
+  "body_sha256": "82d4323c47e4ba20595dacf241688d9734c3e44bf3bef6b37d913b02795c2dfc",
   "bookmaker_price_updated_at": null,
   "cache_age_seconds": null,
-  "finished_at_utc": "2026-10-26T10:21:39+00:00",
-  "http_status": 403,
+  "finished_at_utc": "2026-10-27T05:31:26+00:00",
+  "http_status": 200,
+  "netbet_public_audit": {
+    "badminton_term_visible": true,
+    "match_link_count": 5,
+    "match_links": [
+      "https://www.netbet.fr/badminton",
+      "https://www.netbet.fr/badminton/international/hylo-open-f",
+      "https://www.netbet.fr/badminton/international/hylo-open-doubles-f",
+      "https://www.netbet.fr/badminton/international/hylo-open-doubles",
+      "https://www.netbet.fr/badminton/international/hylo-open-doubles-mixtes"
+    ],
+    "page_text_excerpt": "Nous utilisons des cookies essentiels pour faire fonctionner notre site. Avec votre consentement, nous pouvons également utiliser des cookies non essentiels pour améliorer l'expérience utilisateur, personnaliser le contenu et la publicité et analyser le trafic sur notre site web. Ces raisons pourront nous amener à partager des données concernant votre utilisation du site avec nos sociétés d’analyses, de réseaux sociaux et annonceurs partenaires. En cliquant sur “Accepter“, vous consentez à l’utilisation de cookies sur notre site web, conformément à la description fournie dans notre politique relative aux cookies. Vous pouvez modifier vos paramètres d’acceptation des cookies à tout moment en cliquant sur “Préférences”.\nPréférences\nRefuser\nAccepter\nPARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13 - APPEL NON SURTAXÉ)\n\nAccès rapide\n\nAccueil\nCashout\nEn direct\nPromotions\nContact\n\nPopulaire\n\nFootball du jour\nLigue 1\nLaLiga\nSerie A\nLigue 2\nEFL Cup\nTennis du Jour\nATP - Bâle\nATP - Vienne\nWTA - Guangzhou\nWTA - Tokyo\nNBA\n\nSports\n\nEn direct\n(4)\nFootball\nTennis\nFoot US\nBasketball\nBadminton\nBaseball\nBiathlon\nBoxe\nCyclisme\nGolf\nHandball\nHockey/glace\nMMA\nSport Automobile\nRugby à XIII\nRugby\nVoile\nSnooker\nTennis de table\nVolleyball\n\nAutres pages\n\nRèglement des paris\nScores en direct\n\nFormat des cotes\n\nFermer\n\nAccès rapide\n\nAccueil\nCashout\nEn direct\nPromotions\nContact\n\nPopulaire\n\nFootball du jour\nLigue 1\nLaLiga\nSerie A\nLigue 2\nEFL Cup\nTennis du Jour\nATP - Bâle\nATP - Vienne\nWTA - Guangzhou\nWTA - Tokyo\nNBA\n\nSports\n\nEn direct\n(4)\nFootball\nTennis\nFoot US\nBasketball\nBadminton\nBaseball\nBiathlon\nBoxe\nCyclisme\nGolf\nHandball\nHockey/glace\nMMA\nSport Automobile\nRugby à XIII\nRugby\nVoile\nSnooker\nTennis de table\nVolleyball\n\nAutres pages\n\nRèglement des paris\nScores en direct\n\nFormat des cotes\n\nAccueil\nBadminton\nPariez sur\nBadminton\nÀ L'AFFICHE\nTOUTE L'OFFRE BADMINTON\n\nPopulaires\n\nHylo Open, Doubles\nmar. 27 oct.\n17:25\nChiu-Wang\nFernandez-Perals\nQui va gagner le match ?\nChiu-Wang\n-\nFernandez-Perals\n13.50\n \n+ 1\nToute l'offre Badminton\n(56)\n\nÀ Venir\n\nHylo Open (F)\nmar. 27 oct.\n08:00\nAnna Siess Ryberg\nRosy Pancasari\nPlus ou moins de points ?",
+    "price_mapping_verified": false,
+    "quotes_extracted": 0
+  },
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-26T10:21:36+00:00",
+  "observed_at_utc": "2026-10-27T05:31:19+00:00",
   "operator": "NetBet.fr",
   "operator_kind": "ONLINE",
   "public_badminton_event_links": [],
@@ -14,10 +28,10 @@
   "resolved_url": "https://www.netbet.fr/badminton",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Mon, 26 Oct 2026 10:21:37 GMT",
+  "server_date": "Tue, 27 Oct 2026 05:31:20 GMT",
   "source_key": "netbet_fr",
   "source_url": "https://www.netbet.fr/badminton",
-  "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
-  "text_excerpt_for_debug": "www.netbet.fr\nVérification de sécurité en cours\n\nCe site utilise un service de sécurité pour se protéger contre les bots malveillants. Cette page s’affiche pendant que le site vérifie que vous n’êtes pas un bot.\n\nRay ID: a508bc355cc6e7a4\nPerformances et sécurité par Cloudflare\nConfidentialité",
+  "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
+  "text_excerpt_for_debug": "Nous utilisons des cookies essentiels pour faire fonctionner notre site. Avec votre consentement, nous pouvons également utiliser des cookies non essentiels pour améliorer l'expérience utilisateur, personnaliser le contenu et la publicité et analyser le trafic sur notre site web. Ces raisons pourront nous amener à partager des données concernant votre utilisation du site avec nos sociétés d’analyses, de réseaux sociaux et annonceurs partenaires. En cliquant sur “Accepter“, vous consentez à l’utilisation de cookies sur notre site web, conformément à la description fournie dans notre politique relative aux cookies. Vous pouvez modifier vos paramètres d’acceptation des cookies à tout moment en cliquant sur “Préférences”.\nPréférences\nRefuser\nAccepter\nPARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13 - APPEL NON SURTAXÉ)\n\nAccès rapide\n\nAccueil\nCashout\nEn direct\nPromotions\nContact\n\nPopulaire\n\nFootball du jour\nLigue 1\nLaLiga\nSerie A\nLigue 2\nEFL Cup\nTennis du Jour\nATP - Bâle\nATP - Vienne\nWTA - Guangzhou\nWTA - Tokyo\nNBA\n\nSports\n\nEn direct\n(4)\nFootball\nTennis\nFoot US\nBasketball\nBadminton\nBaseball\nBiathlon\nBoxe\nCyclisme\nGolf\nHandball\nHockey/glace\nMMA\nSport Automobile\nRugby à XIII\nRugby\nVoile\nSnooker\nTennis de table\nVolleyball\n\nAutres pages\n\nRèglement des paris\nScores en direct\n\nFormat des cotes\n\nFermer\n\nAccès rapide\n\nAccueil\nCashout\nEn direct\nPromotions\nContact\n\nPopulaire\n\nFootball du jour\nLigue 1\nLaLiga\nSerie A\nLigue 2\nEFL Cup\nTennis du Jour\nATP - Bâle\nATP - Vienne\nWTA - Guangzhou\nWTA - Tokyo\nNBA\n\nSports\n\nEn direct\n(4)\nFootb",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }
