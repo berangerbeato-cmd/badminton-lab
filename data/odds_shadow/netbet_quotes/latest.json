@@ -7,41 +7,6 @@
   "elo_comparisons": [
     {
       "bookmaker_price_updated_at": null,
-      "bwf_match_id": "5273:1560251",
-      "date_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
-      "decision": "NO_BET_SHADOW",
-      "event_url": "https://www.netbet.fr/badminton/international/hylo-open",
-      "listed_day_paris": "2026-10-27",
-      "market": "H2H_FULL_MATCH",
-      "model_asof_utc": "2026-10-27T05:37:23+00:00",
-      "operator": "NetBet.fr",
-      "quality_flags": [
-        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
-        "EVENT_KICKOFF_UNVERIFIED",
-        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
-        "MODEL_PROVISIONAL",
-        "NO_BET"
-      ],
-      "side_1": {
-        "bookmaker_display": "Mikolaj Szymanowski",
-        "bwf_name": "Mikolaj SZYMANOWSKI",
-        "decimal_odds": 1.6,
-        "illustrative_ev_pct": -37.22,
-        "model_fair_odds": 2.5486,
-        "model_probability": 0.39237961
-      },
-      "side_2": {
-        "bookmaker_display": "Noah Haase",
-        "bwf_name": "Noah HAASE",
-        "decimal_odds": 1.85,
-        "illustrative_ev_pct": 12.41,
-        "model_fair_odds": 1.6458,
-        "model_probability": 0.60762039
-      },
-      "valid_pre_match_T0": false
-    },
-    {
-      "bookmaker_price_updated_at": null,
       "bwf_match_id": "5273:1560316",
       "date_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
       "decision": "NO_BET_SHADOW",
@@ -74,6 +39,41 @@
         "model_probability": 0.6506952
       },
       "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5273:1560251",
+      "date_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-27",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-27T05:37:23+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Mikolaj Szymanowski",
+        "bwf_name": "Mikolaj SZYMANOWSKI",
+        "decimal_odds": 1.6,
+        "illustrative_ev_pct": -37.22,
+        "model_fair_odds": 2.5486,
+        "model_probability": 0.39237961
+      },
+      "side_2": {
+        "bookmaker_display": "Noah Haase",
+        "bwf_name": "Noah HAASE",
+        "decimal_odds": 1.85,
+        "illustrative_ev_pct": 12.41,
+        "model_fair_odds": 1.6458,
+        "model_probability": 0.60762039
+      },
+      "valid_pre_match_T0": false
     }
   ],
   "fixture_join_audit": [
@@ -84,8 +84,8 @@
       "model_rows_same_day": 4,
       "model_rows_same_tournament_and_day": 4,
       "players": [
-        "Mikolaj Szymanowski",
-        "Noah Haase"
+        "Matthias Kicklitz",
+        "Ade Resky Dwicahyo"
       ],
       "status": "FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION"
     },
@@ -96,8 +96,8 @@
       "model_rows_same_day": 4,
       "model_rows_same_tournament_and_day": 4,
       "players": [
-        "Matthias Kicklitz",
-        "Ade Resky Dwicahyo"
+        "Mikolaj Szymanowski",
+        "Noah Haase"
       ],
       "status": "FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION"
     },
@@ -241,19 +241,19 @@
     "https://www.netbet.fr/badminton/international/hylo-open-doubles-mixtes",
     "https://www.netbet.fr/badminton/international/hylo-open-doubles"
   ],
-  "index_body_sha256": "18a76b24e66e0933d9cec7117c193b5310dce66720e10efedca87ca802ada9c3",
+  "index_body_sha256": "ee1de1580751748ba5eea03113fc6e1e10e4d8a1c2d3e5f172f417d01aa6a143",
   "index_eligible_quotes": 0,
   "index_http_status": 200,
-  "index_link_count": 147,
+  "index_link_count": 155,
   "index_link_path_counts": {
     "": 9,
     "badminton": 8,
     "basketball": 2,
     "biathlon": 2,
     "cashout": 2,
-    "evenement": 60,
+    "evenement": 66,
     "football": 10,
-    "live": 3,
+    "live": 5,
     "paris-en-direct": 5,
     "promotions": 2,
     "tennis": 12,
@@ -261,33 +261,33 @@
   },
   "index_market_audit": {
     "eligible_listing_rows": 0,
-    "markets_seen": 14,
+    "markets_seen": 15,
     "rejection_evidence": [
       {
         "following_lines": [
-          "Mikolaj Szymanowski",
-          "1.60",
-          "Noah Haase",
-          "1.85"
+          "Frederikke Ostergaard",
+          "1.22",
+          "Wei Xu",
+          "2.85"
         ],
-        "market_line": 130,
+        "market_line": 114,
         "preceding_lines": [
-          "Plus ou moins de points ?",
-          "Plus de 116.5",
-          "1.60",
-          "Moins de 116.5",
-          "1.80",
-          "+ 5",
-          "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
+          "Badminton",
+          "Pariez sur",
+          "Badminton",
+          "À L'AFFICHE",
+          "EN DIRECT",
+          "TOUTE L'OFFRE BADMINTON",
           "En direct",
-          "(2)",
-          "Populaires",
-          "Hylo Open",
-          "LIVE dans 16 min",
-          "Mikolaj Szymanowski",
-          "Noah Haase"
+          "Hylo Open (F)",
+          "Set 1",
+          "LIVE",
+          "Frederikke Ostergaard",
+          "Wei Xu",
+          "1",
+          "1"
         ],
-        "reason": "COMPETITION_NOT_PROVEN"
+        "reason": "PLAYER_PAIR_MISMATCH"
       },
       {
         "following_lines": [
@@ -296,22 +296,48 @@
           "Ade Resky Dwicahyo",
           "1.82"
         ],
-        "market_line": 140,
+        "market_line": 128,
         "preceding_lines": [
-          "Hylo Open",
-          "LIVE dans 16 min",
-          "Mikolaj Szymanowski",
-          "Noah Haase",
           "Qui va gagner le match ?",
+          "Frederikke Ostergaard",
+          "1.22",
+          "Wei Xu",
+          "2.85",
+          "+ 9",
+          "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
+          "En direct",
+          "(2)",
+          "Populaires",
+          "Hylo Open",
+          "LIVE dans 14 min",
+          "Matthias Kicklitz",
+          "Ade Resky Dwicahyo"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
           "Mikolaj Szymanowski",
           "1.60",
           "Noah Haase",
-          "1.85",
+          "1.85"
+        ],
+        "market_line": 138,
+        "preceding_lines": [
+          "Hylo Open",
+          "LIVE dans 14 min",
+          "Matthias Kicklitz",
+          "Ade Resky Dwicahyo",
+          "Qui va gagner le match ?",
+          "Matthias Kicklitz",
+          "1.63",
+          "Ade Resky Dwicahyo",
+          "1.82",
           "+ 10",
           "Hylo Open",
-          "LIVE dans 26 min",
-          "Matthias Kicklitz",
-          "Ade Resky Dwicahyo"
+          "LIVE dans 14 min",
+          "Mikolaj Szymanowski",
+          "Noah Haase"
         ],
         "reason": "COMPETITION_NOT_PROVEN"
       },
@@ -322,24 +348,24 @@
           "Perals-Torralba",
           "1.17"
         ],
-        "market_line": 151,
+        "market_line": 148,
         "preceding_lines": [
-          "LIVE dans 26 min",
-          "Matthias Kicklitz",
-          "Ade Resky Dwicahyo",
+          "Hylo Open",
+          "LIVE dans 14 min",
+          "Mikolaj Szymanowski",
+          "Noah Haase",
           "Qui va gagner le match ?",
-          "Matthias Kicklitz",
-          "1.63",
-          "Ade Resky Dwicahyo",
-          "1.82",
+          "Mikolaj Szymanowski",
+          "1.60",
+          "Noah Haase",
+          "1.85",
           "+ 10",
           "Hylo Open, Doubles Mixtes",
-          "mar. 27 oct.",
-          "12:40",
+          "LIVE dans 39 min",
           "Strooper-Bang",
           "Perals-Torralba"
         ],
-        "reason": "NON_MS_COMPETITION"
+        "reason": "COMPETITION_NOT_PROVEN"
       },
       {
         "following_lines": [
@@ -348,9 +374,9 @@
           "Fernandez-Perals",
           "12.00"
         ],
-        "market_line": 162,
+        "market_line": 159,
         "preceding_lines": [
-          "12:40",
+          "LIVE dans 39 min",
           "Strooper-Bang",
           "Perals-Torralba",
           "Qui va gagner le match ?",
@@ -369,12 +395,12 @@
       },
       {
         "following_lines": [
-          "Mikolaj Szymanowski",
-          "1.60",
-          "Noah Haase",
-          "1.85"
+          "Matthias Kicklitz",
+          "1.63",
+          "Ade Resky Dwicahyo",
+          "1.82"
         ],
-        "market_line": 179,
+        "market_line": 176,
         "preceding_lines": [
           "Fernandez-Perals",
           "12.00",
@@ -382,38 +408,12 @@
           "Hylo Open",
           "(13)",
           "Hylo Open, Doubles Mixtes",
-          "(10)",
+          "(11)",
           "Toute l'offre Badminton",
           "(52)",
           "À Venir",
           "Hylo Open",
-          "LIVE dans 16 min",
-          "Mikolaj Szymanowski",
-          "Noah Haase"
-        ],
-        "reason": "COMPETITION_NOT_PROVEN"
-      },
-      {
-        "following_lines": [
-          "Matthias Kicklitz",
-          "1.63",
-          "Ade Resky Dwicahyo",
-          "1.82"
-        ],
-        "market_line": 189,
-        "preceding_lines": [
-          "Hylo Open",
-          "LIVE dans 16 min",
-          "Mikolaj Szymanowski",
-          "Noah Haase",
-          "Qui va gagner le match ?",
-          "Mikolaj Szymanowski",
-          "1.60",
-          "Noah Haase",
-          "1.85",
-          "+ 10",
-          "Hylo Open",
-          "LIVE dans 26 min",
+          "LIVE dans 14 min",
           "Matthias Kicklitz",
           "Ade Resky Dwicahyo"
         ],
@@ -421,8 +421,9 @@
       }
     ],
     "rejections": {
-      "COMPETITION_NOT_PROVEN": 5,
-      "NON_MS_COMPETITION": 7,
+      "COMPETITION_NOT_PROVEN": 7,
+      "NON_MS_COMPETITION": 5,
+      "PLAYER_PAIR_MISMATCH": 1,
       "PRICE_NOT_CONFIRMED": 2
     }
   },
@@ -431,12 +432,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-10-27.csv",
   "model_snapshot_sha256": "176e95fd116c0a36ed10a2bf5a03ba29430f37c2732a264fe6c00068b3a0c4cf",
-  "observed_at_utc": "2026-10-27T10:03:36+00:00",
+  "observed_at_utc": "2026-10-27T10:16:15+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "d797288e396922774986054cc3d690037a4e65b1b9c175f3e69ad17cb10e5e3f",
+      "body_sha256": "729e31748b507a812c09d3ce043191477a0d2cd64e0d32b3dd1cd88c809d1e98",
       "cache_age_seconds": null,
       "eligible_listing_rows": 13,
       "http_status": 200,
@@ -452,25 +453,6 @@
   ],
   "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
   "quotes": [
-    {
-      "bookmaker_overround_pct": 16.55,
-      "competition_display": "Hylo Open",
-      "day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
-      "discipline": "MS",
-      "event_page_url": "https://www.netbet.fr/badminton/international/hylo-open",
-      "listed_day_paris": "2026-10-27",
-      "market": "H2H_FULL_MATCH",
-      "market_probabilities_only_not_v32_ev": true,
-      "normalized_market_probability_1": 0.536232,
-      "normalized_market_probability_2": 0.463768,
-      "odds_1": 1.6,
-      "odds_2": 1.85,
-      "player_1_display": "Mikolaj Szymanowski",
-      "player_2_display": "Noah Haase",
-      "raw_implied_probability_1": 0.625,
-      "raw_implied_probability_2": 0.540541,
-      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
-    },
     {
       "bookmaker_overround_pct": 16.29,
       "competition_display": "Hylo Open",
@@ -488,6 +470,25 @@
       "player_2_display": "Ade Resky Dwicahyo",
       "raw_implied_probability_1": 0.613497,
       "raw_implied_probability_2": 0.549451,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.55,
+      "competition_display": "Hylo Open",
+      "day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-27",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.536232,
+      "normalized_market_probability_2": 0.463768,
+      "odds_1": 1.6,
+      "odds_2": 1.85,
+      "player_1_display": "Mikolaj Szymanowski",
+      "player_2_display": "Noah Haase",
+      "raw_implied_probability_1": 0.625,
+      "raw_implied_probability_2": 0.540541,
       "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
     },
     {
@@ -510,7 +511,7 @@
       "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
     },
     {
-      "bookmaker_overround_pct": 16.13,
+      "bookmaker_overround_pct": 16.4,
       "competition_display": "Hylo Open",
       "day_basis": "PUBLISHED_CALENDAR_DATE",
       "discipline": "MS",
@@ -518,14 +519,14 @@
       "listed_day_paris": "2026-10-28",
       "market": "H2H_FULL_MATCH",
       "market_probabilities_only_not_v32_ev": true,
-      "normalized_market_probability_1": 0.789981,
-      "normalized_market_probability_2": 0.210019,
-      "odds_1": 1.09,
-      "odds_2": 4.1,
+      "normalized_market_probability_1": 0.795455,
+      "normalized_market_probability_2": 0.204545,
+      "odds_1": 1.08,
+      "odds_2": 4.2,
       "player_1_display": "Gemke Rasmus",
       "player_2_display": "Li Yang Su",
-      "raw_implied_probability_1": 0.917431,
-      "raw_implied_probability_2": 0.243902,
+      "raw_implied_probability_1": 0.925926,
+      "raw_implied_probability_2": 0.238095,
       "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
     },
     {

@@ -1,8 +1,8 @@
 {
-  "observed_at_utc": "2026-10-27T09:49:59+00:00",
+  "observed_at_utc": "2026-10-27T10:15:12+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
-  "retail_shadow_rows": 13,
+  "retail_shadow_rows": 11,
   "sources": {
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=32; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=13,DH:OBSERVED_DATE_UNVERIFIED=12,DM:OBSERVED_DATE_UNVERIFIED=3,F:OBSERVED_DATE_UNVERIFIED=2,H:OBSERVED_DATE_UNVERIFIED=2; eligible_MS_H2H=0; local_now=2026-10-27T10:49:59.895462+01:00",
+      "parser_notes": "parsed; page_parsed_entries=29; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=12,DH:OBSERVED_DATE_UNVERIFIED=12,DM:OBSERVED_DATE_UNVERIFIED=3,H:OBSERVED_DATE_UNVERIFIED=2; eligible_MS_H2H=0; local_now=2026-10-27T11:15:12.957556+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "63e10aa50b08aecdd58a75e5e1b4715fbd70ec7c9914b334ad3b02bd7a231fe2",
+      "body_sha256": "13e20462a676e88241b0b0649c2ccc1a7f7f92cd29112a06698d6fc9df0d47b4",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -32,14 +32,14 @@
     },
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-      "quotes": 13,
+      "quotes": 11,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
-      "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
+      "parser_notes": "no unexpired face-à-face retail rows; audited 1 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "de7f2fbfbd031b35c5fe708f8221e1f150918297c33fa3c0d63428d1df8074b0",
+      "body_sha256": "a4f72d75731f603e090410f624b3355fe4002e8017dfd3b78cdabb45867fc12a",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "bc9c1325945140ce896e35a902ffe14a748af99046d9385629f722a2994b2a45",
+      "body_sha256": "09ab5b111dcf13b99250bf2ff5b7cc5be0388ffdba2485ba8588f18c7987413f",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "594b687022c8f322ea9f69d94c278de9951e9ffea8209e95acbeadb702c03dbb",
+      "body_sha256": "3c2d462b54a813dbe048fe25ad05d845ed5055410bc437282ecafe5270902a27",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "c75a3c62c7d4eba4210b211e770823456a0430f1d221b7f96c88560d8a7db641",
+      "body_sha256": "ce58db503e885bed89bee39c35610a23487135e08b28f41f16a2cd6f30b65bb5",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "27a85910365588a4d36e246c5011a6ffc0c87935b73538f669e03882f459020d",
+      "body_sha256": "48b6149eb032656bdb6acf1ad1f92f0fe73c610745403b1771700c122c1c42ae",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "337",
-      "body_sha256": "1d49a45422e5cd92cca338d116e315b9481fcc62aafabde0b4747f0ea91bccdb",
+      "cache_age_seconds": "243",
+      "body_sha256": "baf3fcfd487ca7b380b336750f23807d294a512f92aecf742628e54991ed0dd2",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/Ui77INiD/",
@@ -164,7 +164,7 @@
         ],
         "index_match_link_count": 40,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n27/10 MA\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nAnnulé\nBoe W. K.\nEspersen R.\nDunn A.\nPringle A.\n-\n-\n13:45\nBoe W. K.\nEspersen R.\nKolding K.\nLundsgaard C.\n-\n-\n13:45\nIndra R.\nJoaquin N.\nDresp J.\nKrax S.\n-\n-\n14:35\nBourakkadi M.\nNeumann K.\nTai A.\nYap R. K.\n-\n-\n15:25\nGeiss B.\nJansen J. R.\nAstrup K.\nRasmussen A. S.\n-\n-\n15:25\nMaio J.\nVilleger W.\nButler O.\nJones S.\n-\n-\n16:15\nCattoen M.\nRenoir L.\nLee J-H.\nYang Po-Hsuan\n-\n-\n16:15\nChen C. K.\nLiu K. H.\nNebel R.\nSoby J.\n-\n-\n17:05\nHarper R.\nWakefield H.\nLundgaard D.\nVestergaard M.\n-\n-\n18:45\nChiu H. C.\nWang Chi-Lin\nFernandez J.\nPerals A.\n-\n-\nAnnulé\nChiu H. C.\nWang Chi-Lin\nKjaer C. F.\nKjaer R.\n-\n-\n19:35\nGrimley C.\nGrimley M.\nAdam E.\nRossi L.\n-\n-\n19:35\nWeijie C.\nTeo Ee Y.\nLane B.\nVendy S.\n-\n-\n20:25\nGutama S. K.\nIsfahani M. R. P.\nGreen A.\nRuss Z.\n-\n-\n20:25\nRayhan A. F.\nWahyudi D. A.\nKral J.\nKral O.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n13:45\nKudsk A. C.\nPilgaard S.\nErcetin B.\nInci N.\n-\n-\n14:35\nHsu Y. H.\nLin J. Y.\nMacpherson J.\nTorrance C.\n-\n-\n14:35\nLin C.\nYang C. Y.\nYeung Nga T.\nYeung P. L.\n-\n-\n15:25\nLam L.\nLee A. Q.\nHubsch S.\nLehmann A.\n-\n-\n16:15\nHsu Y. C.\nSung Y.\nLui L. L.\nTsang H. Y.\n-\n-\n17:05\nCarulla N.\nJimenez C. M.\nHvid L.\nKlausholm A.\n-\n-\n17:05\nCorsini M.\nPiccinin E.\nKelly S.\nTolman L.\n-\n-\n17:55\nDe Wit K.\nLoos M.\nPratiwi A. C.\nRamadhanti S. F. S.\n-\n-\n17:55\nKusuma F. D.\nPuspitasari M. T.\nCybulska P.\nMarczak K.\n-\n-\n17:55\nOng X. Y.\nTing C.\nHarris A.\nVan Leeuwen E.\n-\n-\n18:45\nDlapka S.\nRumpold L.\nVang K.\n"
+        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n27/10 MA\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nAnnulé\nBoe W. K.\nEspersen R.\nDunn A.\nPringle A.\n-\n-\n13:45\nBoe W. K.\nEspersen R.\nKolding K.\nLundsgaard C.\n-\n-\n13:45\nIndra R.\nJoaquin N.\nDresp J.\nKrax S.\n-\n-\n14:35\nBourakkadi M.\nNeumann K.\nTai A.\nYap R. K.\n-\n-\n15:25\nGeiss B.\nJansen J. R.\nAstrup K.\nRasmussen A. S.\n-\n-\n15:25\nMaio J.\nVilleger W.\nButler O.\nJones S.\n-\n-\n16:15\nCattoen M.\nRenoir L.\nLee J-H.\nYang Po-Hsuan\n-\n-\n16:15\nChen C. K.\nLiu K. H.\nNebel R.\nSoby J.\n-\n-\n17:05\nHarper R.\nWakefield H.\nLundgaard D.\nVestergaard M.\n-\n-\n18:45\nChiu H. C.\nWang Chi-Lin\nFernandez J.\nPerals A.\n-\n-\nAnnulé\nChiu H. C.\nWang Chi-Lin\nKjaer C. F.\nKjaer R.\n-\n-\n19:35\nGrimley C.\nGrimley M.\nAdam E.\nRossi L.\n-\n-\n19:35\nWeijie C.\nTeo Ee Y.\nLane B.\nVendy S.\n-\n-\n20:25\nGutama S. K.\nIsfahani M. R. P.\nGreen A.\nRuss Z.\n-\n-\n20:25\nRayhan A. F.\nWahyudi D. A.\nKral J.\nKral O.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n13:45\nKudsk A. C.\nPilgaard S.\nErcetin B.\nInci N.\n-\n-\n14:35\nHsu Y. H.\nLin J. Y.\nMacpherson J.\nTorrance C.\n-\n-\n14:35\nLin C.\nYang C. Y.\nYeung Nga T.\nYeung P. L.\n-\n-\n15:25\nLam L.\nLee A. Q.\nHubsch S.\nLehmann A.\n-\n-\n16:15\nHsu Y. C.\nSung Y.\nLui L. L.\nTsang H. Y.\n-\n-\n17:05\nCarulla N.\nJimenez C. M.\nHvid L.\nKlausholm A.\n-\n-\n17:05\nCorsini M.\nPiccinin E.\nKelly S.\nTolman L.\n-\n-\n17:55\nDe Wit K.\nLoos M.\nPratiwi A. C.\nRamadhanti S. F. S.\n-\n-\n17:55\nKusuma F. D.\nPuspitasari M. T.\nCybulska P.\nMarczak K.\n-\n-\n17:55\nOng X. Y.\nTing C.\nHarris A.\nVan Leeuwen E.\n-\n-\n18:45\nDlapka S.\nRumpold L.\nVang K.\nWerge M.\n-\n-\n18:45\nNielsen A.\nRojkjaer S"
       },
       "flashscore_match_audit": {
         "url": null,
@@ -182,8 +182,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "143",
-      "body_sha256": "34c84de271b29ed27ee5a1782d408bc68bc787c8cd9311361239b41b80a9dd1a",
+      "cache_age_seconds": "0",
+      "body_sha256": "4ce7c50381b532fdd960687fecb56518f7546a4d1f5e76de456b74f417b7c7fb",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }

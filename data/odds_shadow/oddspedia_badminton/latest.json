@@ -1,11 +1,11 @@
 {
-  "body_sha256": "c75a3c62c7d4eba4210b211e770823456a0430f1d221b7f96c88560d8a7db641",
+  "body_sha256": "ce58db503e885bed89bee39c35610a23487135e08b28f41f16a2cd6f30b65bb5",
   "bookmaker_price_updated_at": null,
   "cache_age_seconds": null,
-  "finished_at_utc": "2026-10-27T09:50:45+00:00",
+  "finished_at_utc": "2026-10-27T10:15:57+00:00",
   "http_status": 403,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-27T09:50:43+00:00",
+  "observed_at_utc": "2026-10-27T10:15:55+00:00",
   "operator": "Oddspedia (aggregator)",
   "operator_kind": "AGGREGATOR_AUDIT_ONLY",
   "public_badminton_event_links": [],
@@ -14,10 +14,10 @@
   "resolved_url": "https://oddspedia.com/badminton/odds",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Tue, 27 Oct 2026 09:50:43 GMT",
+  "server_date": "Tue, 27 Oct 2026 10:15:55 GMT",
   "source_key": "oddspedia_badminton",
   "source_url": "https://oddspedia.com/badminton/odds",
   "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
-  "text_excerpt_for_debug": "oddspedia.com\nVérification de sécurité en cours\n\nCe site utilise un service de sécurité pour se protéger contre les bots malveillants. Cette page s’affiche pendant que le site vérifie que vous n’êtes pas un bot.\n\nRay ID: a510cc50ec6828fe\nPerformances et sécurité par Cloudflare\nConfidentialité",
+  "text_excerpt_for_debug": "oddspedia.com\nVérification de sécurité en cours\n\nCe site utilise un service de sécurité pour se protéger contre les bots malveillants. Cette page s’affiche pendant que le site vérifie que vous n’êtes pas un bot.\n\nRay ID: a510f139df8bb828\nPerformances et sécurité par Cloudflare\nConfidentialité",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }
