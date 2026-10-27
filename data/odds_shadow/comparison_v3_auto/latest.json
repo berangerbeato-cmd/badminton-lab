@@ -126,7 +126,7 @@
     "missing_kickoff_count": 2,
     "missing_executable_price_count": 2
   },
-  "generated_at_utc": "2026-10-27T09:17:21+00:00",
+  "generated_at_utc": "2026-10-27T09:46:28+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 13,
   "rejected_sources": [],
@@ -147,61 +147,6 @@
   "results": [
     {
       "source": "netbet_quotes",
-      "bwf_match_id": "5273:1560316",
-      "players": [
-        "Matthias KICKLITZ",
-        "Ade Resky DWICAHYO"
-      ],
-      "prematch_timing_status": "KICKOFF_DATE_ONLY",
-      "kickoff_source_verified": false,
-      "external_schedule_status": "NO_EXTERNAL_SCHEDULE",
-      "external_scheduled_start_utc": null,
-      "external_schedule_source": null,
-      "external_schedule_source_url": null,
-      "kickoff_evidence_status": "SOURCE_MISSING",
-      "kickoff_source": null,
-      "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-27T09:17:11+00:00",
-      "model_asof_utc": "2026-10-27T09:15:40+00:00",
-      "model_age_seconds": 91,
-      "model_probability_a": 0.33102595,
-      "bookmaker_player_order_reversed": false,
-      "odds": [
-        1.61,
-        1.85
-      ],
-      "market_overround_pct": 16.17,
-      "market_implied_probability_raw": [
-        0.621118,
-        0.540541
-      ],
-      "market_implied_probability_normalized": [
-        0.534682,
-        0.465318
-      ],
-      "quote_listed_day_paris": "2026-10-27",
-      "quote_day_basis": "PUBLISHED_CALENDAR_DATE",
-      "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
-      "bookmaker_price_updated_at_utc": null,
-      "actual_kickoff_at_utc": null,
-      "observation_before_listed_calendar_day": false,
-      "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
-      "illustrative_ev_pct": [
-        -46.7,
-        23.76
-      ],
-      "flags": [
-        "MARKET_DETAIL_UNVERIFIED",
-        "KICKOFF_UNVERIFIED",
-        "EXECUTABLE_PRICE_UNVERIFIED",
-        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
-        "BWF_KICKOFF_DATE_ONLY"
-      ],
-      "status": "UNVERIFIED_SHADOW_ONLY",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
       "bwf_match_id": "5273:1560251",
       "players": [
         "Mikolaj SZYMANOWSKI",
@@ -216,9 +161,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-27T09:17:11+00:00",
-      "model_asof_utc": "2026-10-27T09:15:40+00:00",
-      "model_age_seconds": 91,
+      "observed_at_utc": "2026-10-27T09:46:17+00:00",
+      "model_asof_utc": "2026-10-27T09:35:08+00:00",
+      "model_age_seconds": 669,
       "model_probability_a": 0.3712135,
       "bookmaker_player_order_reversed": false,
       "odds": [
@@ -244,6 +189,61 @@
       "illustrative_ev_pct": [
         -40.61,
         16.33
+      ],
+      "flags": [
+        "MARKET_DETAIL_UNVERIFIED",
+        "KICKOFF_UNVERIFIED",
+        "EXECUTABLE_PRICE_UNVERIFIED",
+        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
+        "BWF_KICKOFF_DATE_ONLY"
+      ],
+      "status": "UNVERIFIED_SHADOW_ONLY",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5273:1560316",
+      "players": [
+        "Matthias KICKLITZ",
+        "Ade Resky DWICAHYO"
+      ],
+      "prematch_timing_status": "KICKOFF_DATE_ONLY",
+      "kickoff_source_verified": false,
+      "external_schedule_status": "NO_EXTERNAL_SCHEDULE",
+      "external_scheduled_start_utc": null,
+      "external_schedule_source": null,
+      "external_schedule_source_url": null,
+      "kickoff_evidence_status": "SOURCE_MISSING",
+      "kickoff_source": null,
+      "kickoff_source_url": null,
+      "observed_at_utc": "2026-10-27T09:46:17+00:00",
+      "model_asof_utc": "2026-10-27T09:35:08+00:00",
+      "model_age_seconds": 669,
+      "model_probability_a": 0.33102595,
+      "bookmaker_player_order_reversed": false,
+      "odds": [
+        1.63,
+        1.82
+      ],
+      "market_overround_pct": 16.29,
+      "market_implied_probability_raw": [
+        0.613497,
+        0.549451
+      ],
+      "market_implied_probability_normalized": [
+        0.527536,
+        0.472464
+      ],
+      "quote_listed_day_paris": "2026-10-27",
+      "quote_day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
+      "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
+      "bookmaker_price_updated_at_utc": null,
+      "actual_kickoff_at_utc": null,
+      "observation_before_listed_calendar_day": false,
+      "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
+      "illustrative_ev_pct": [
+        -46.04,
+        21.75
       ],
       "flags": [
         "MARKET_DETAIL_UNVERIFIED",
