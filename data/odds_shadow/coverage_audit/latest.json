@@ -43,7 +43,7 @@
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-10-27T06:38:19.581628+00:00",
+  "generated_at_utc": "2026-10-27T06:53:13.939431+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 4,
@@ -85,8 +85,8 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:37:12+00:00",
-      "parser_notes": "parsed; page_parsed_entries=42; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=14,DH:OBSERVED_DATE_UNVERIFIED=16,DM:OBSERVED_DATE_UNVERIFIED=4,F:OBSERVED_DATE_UNVERIFIED=4,H:OBSERVED_DATE_UNVERIFIED=4; eligible_MS_H2H=0; local_now=2026-10-27T07:37:11.947480+01:00",
+      "observed_at_utc": "2026-10-27T06:52:08+00:00",
+      "parser_notes": "parsed; page_parsed_entries=42; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=14,DH:OBSERVED_DATE_UNVERIFIED=16,DM:OBSERVED_DATE_UNVERIFIED=4,F:OBSERVED_DATE_UNVERIFIED=4,H:OBSERVED_DATE_UNVERIFIED=4; eligible_MS_H2H=0; local_now=2026-10-27T07:52:08.431167+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
@@ -94,7 +94,7 @@
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
       "quote_count": 15,
-      "observed_at_utc": "2026-10-27T06:38:09+00:00",
+      "observed_at_utc": "2026-10-27T06:53:03+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 2,
@@ -162,7 +162,7 @@
             "market_line": 172,
             "preceding_lines": [
               "Hylo Open (F)",
-              "LIVE dans 22 min",
+              "LIVE dans 7 min",
               "Anna Siess Ryberg",
               "Rosy Pancasari",
               "Plus ou moins de points ?",
@@ -172,7 +172,7 @@
               "1.65",
               "+ 2",
               "Hylo Open, Doubles (F)",
-              "LIVE dans 22 min",
+              "LIVE dans 7 min",
               "Dlapka-Rumpold",
               "Cuevas-Jacob"
             ],
@@ -188,7 +188,7 @@
             "market_line": 192,
             "preceding_lines": [
               "Hylo Open, Doubles",
-              "LIVE dans 22 min",
+              "LIVE dans 7 min",
               "Vojtech-Tomas",
               "Wakefield-Harper",
               "Plus ou moins de points ?",
@@ -198,7 +198,7 @@
               "1.71",
               "+ 2",
               "Hylo Open, Doubles (F)",
-              "LIVE dans 52 min",
+              "LIVE dans 37 min",
               "Marburger-Kelch",
               "Bang-Pothuizen"
             ],
@@ -214,7 +214,7 @@
             "market_line": 202,
             "preceding_lines": [
               "Hylo Open, Doubles (F)",
-              "LIVE dans 52 min",
+              "LIVE dans 37 min",
               "Marburger-Kelch",
               "Bang-Pothuizen",
               "Qui va gagner le match ?",
@@ -224,7 +224,7 @@
               "1.30",
               "+ 4",
               "Hylo Open, Doubles",
-              "LIVE dans 52 min",
+              "LIVE dans 37 min",
               "Timo-Joep",
               "Reynolds-Guildea"
             ],
@@ -240,7 +240,7 @@
             "market_line": 212,
             "preceding_lines": [
               "Hylo Open, Doubles",
-              "LIVE dans 52 min",
+              "LIVE dans 37 min",
               "Timo-Joep",
               "Reynolds-Guildea",
               "Qui va gagner le match ?",
@@ -250,7 +250,7 @@
               "1.12",
               "+ 5",
               "Hylo Open, Doubles Mixtes",
-              "LIVE dans 52 min",
+              "LIVE dans 37 min",
               "Voelker-Moszczynski",
               "Nebel-Klausholm"
             ],
@@ -272,7 +272,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:37:33+00:00",
+      "observed_at_utc": "2026-10-27T06:52:28+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -281,7 +281,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:37:48+00:00",
+      "observed_at_utc": "2026-10-27T06:52:43+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -290,7 +290,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:37:19+00:00",
+      "observed_at_utc": "2026-10-27T06:52:15+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -299,7 +299,7 @@
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quote_count": 15,
-      "observed_at_utc": "2026-10-27T06:37:20+00:00",
+      "observed_at_utc": "2026-10-27T06:52:16+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -308,7 +308,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:37:34+00:00",
+      "observed_at_utc": "2026-10-27T06:52:29+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -317,7 +317,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:37:44+00:00",
+      "observed_at_utc": "2026-10-27T06:52:39+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -326,7 +326,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:37:53+00:00",
+      "observed_at_utc": "2026-10-27T06:52:47+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -335,7 +335,7 @@
     "oddspedia_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:37:50+00:00",
+      "observed_at_utc": "2026-10-27T06:52:44+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -344,7 +344,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:38:04+00:00",
+      "observed_at_utc": "2026-10-27T06:52:59+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,

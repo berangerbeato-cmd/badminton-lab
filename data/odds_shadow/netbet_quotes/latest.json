@@ -267,7 +267,7 @@
     "https://www.netbet.fr/badminton/international/hylo-open-doubles",
     "https://www.netbet.fr/badminton/international/hylo-open-doubles-mixtes"
   ],
-  "index_body_sha256": "01b9d88290a5f35eaedcb8448ae7acc3314800ff570196638c37bd7d3784b8d8",
+  "index_body_sha256": "5c936fb5c5206d91c12e92d5812a5f56585338f0456bab143a450f50bda81697",
   "index_eligible_quotes": 2,
   "index_http_status": 200,
   "index_link_count": 148,
@@ -351,7 +351,7 @@
         "market_line": 172,
         "preceding_lines": [
           "Hylo Open (F)",
-          "LIVE dans 22 min",
+          "LIVE dans 7 min",
           "Anna Siess Ryberg",
           "Rosy Pancasari",
           "Plus ou moins de points ?",
@@ -361,7 +361,7 @@
           "1.65",
           "+ 2",
           "Hylo Open, Doubles (F)",
-          "LIVE dans 22 min",
+          "LIVE dans 7 min",
           "Dlapka-Rumpold",
           "Cuevas-Jacob"
         ],
@@ -377,7 +377,7 @@
         "market_line": 192,
         "preceding_lines": [
           "Hylo Open, Doubles",
-          "LIVE dans 22 min",
+          "LIVE dans 7 min",
           "Vojtech-Tomas",
           "Wakefield-Harper",
           "Plus ou moins de points ?",
@@ -387,7 +387,7 @@
           "1.71",
           "+ 2",
           "Hylo Open, Doubles (F)",
-          "LIVE dans 52 min",
+          "LIVE dans 37 min",
           "Marburger-Kelch",
           "Bang-Pothuizen"
         ],
@@ -403,7 +403,7 @@
         "market_line": 202,
         "preceding_lines": [
           "Hylo Open, Doubles (F)",
-          "LIVE dans 52 min",
+          "LIVE dans 37 min",
           "Marburger-Kelch",
           "Bang-Pothuizen",
           "Qui va gagner le match ?",
@@ -413,7 +413,7 @@
           "1.30",
           "+ 4",
           "Hylo Open, Doubles",
-          "LIVE dans 52 min",
+          "LIVE dans 37 min",
           "Timo-Joep",
           "Reynolds-Guildea"
         ],
@@ -429,7 +429,7 @@
         "market_line": 212,
         "preceding_lines": [
           "Hylo Open, Doubles",
-          "LIVE dans 52 min",
+          "LIVE dans 37 min",
           "Timo-Joep",
           "Reynolds-Guildea",
           "Qui va gagner le match ?",
@@ -439,7 +439,7 @@
           "1.12",
           "+ 5",
           "Hylo Open, Doubles Mixtes",
-          "LIVE dans 52 min",
+          "LIVE dans 37 min",
           "Voelker-Moszczynski",
           "Nebel-Klausholm"
         ],
@@ -458,7 +458,7 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-10-27.csv",
   "model_snapshot_sha256": "176e95fd116c0a36ed10a2bf5a03ba29430f37c2732a264fe6c00068b3a0c4cf",
-  "observed_at_utc": "2026-10-27T06:38:09+00:00",
+  "observed_at_utc": "2026-10-27T06:53:03+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
