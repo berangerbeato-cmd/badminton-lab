@@ -1,19 +1,19 @@
 {
-  "observed_at_utc": "2026-10-27T09:47:42+00:00",
+  "observed_at_utc": "2026-10-27T09:49:59+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 13,
   "sources": {
     "unibet_fr": {
-      "status": "REJECT_HTTP_CACHE_AGE",
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quotes": 0,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": null,
+      "parser_notes": "parsed; page_parsed_entries=32; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=13,DH:OBSERVED_DATE_UNVERIFIED=12,DM:OBSERVED_DATE_UNVERIFIED=3,F:OBSERVED_DATE_UNVERIFIED=2,H:OBSERVED_DATE_UNVERIFIED=2; eligible_MS_H2H=0; local_now=2026-10-27T10:49:59.895462+01:00",
       "error": null,
-      "cache_age_seconds": "147",
-      "body_sha256": "3f536a2f1f931d8e4cda409b2decc22716a3e555f2ed51657936f8cbb94428dc",
+      "cache_age_seconds": null,
+      "body_sha256": "63e10aa50b08aecdd58a75e5e1b4715fbd70ec7c9914b334ad3b02bd7a231fe2",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -31,15 +31,15 @@
       "flashscore_match_audit": null
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
+      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quotes": 13,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
-      "cache_age_seconds": "148",
-      "body_sha256": "3c28af4d13ce3988351a05c1f92139743441d5430a85705c5da20347735cd83f",
+      "cache_age_seconds": null,
+      "body_sha256": "de7f2fbfbd031b35c5fe708f8221e1f150918297c33fa3c0d63428d1df8074b0",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "9a742a6a888e58b1c5e634464ddfa1f3e91e5d62320177f5ed40445d7eb14a59",
+      "body_sha256": "bc9c1325945140ce896e35a902ffe14a748af99046d9385629f722a2994b2a45",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "fe97323ba94d1bebeab166e66b8fd37a6c4efff7637279bc7065db4b03cf4f88",
+      "body_sha256": "c75a3c62c7d4eba4210b211e770823456a0430f1d221b7f96c88560d8a7db641",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "317f89010e92227334ac62f1c235efd2fce89aa011ea3f43c284b56dabc8f51f",
+      "body_sha256": "27a85910365588a4d36e246c5011a6ffc0c87935b73538f669e03882f459020d",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,7 +142,7 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "194",
+      "cache_age_seconds": "337",
       "body_sha256": "1d49a45422e5cd92cca338d116e315b9481fcc62aafabde0b4747f0ea91bccdb",
       "flashscore_discovery": {
         "index_match_links": [
@@ -182,8 +182,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "142",
-      "body_sha256": "ddacb2cc24e91f50b5295b28071f24a4d96023685f8dd078b87f32bd7cdac126",
+      "cache_age_seconds": "143",
+      "body_sha256": "34c84de271b29ed27ee5a1782d408bc68bc787c8cd9311361239b41b80a9dd1a",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }

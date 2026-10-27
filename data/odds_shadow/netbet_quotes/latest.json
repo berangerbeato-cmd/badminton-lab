@@ -242,7 +242,7 @@
     "https://www.netbet.fr/badminton/international/hylo-open-doubles-mixtes",
     "https://www.netbet.fr/badminton/international/hylo-open-doubles"
   ],
-  "index_body_sha256": "800d2d7264d883f9b91737219b8d608a3def074548712fbed4452e4df4654c3d",
+  "index_body_sha256": "063efd0c018c079e8fc0f454cee37c1f5f72c2fce4ec0d2d37f2eaa3a44ff036",
   "index_eligible_quotes": 0,
   "index_http_status": 200,
   "index_link_count": 154,
@@ -267,11 +267,11 @@
       {
         "following_lines": [
           "Victor Ording Kauffmann",
-          "1.47",
+          "1.72",
           "Dominik Kwinta",
-          "2.10"
+          "1.75"
         ],
-        "market_line": 112,
+        "market_line": 114,
         "preceding_lines": [
           "Badminton",
           "À L'AFFICHE",
@@ -285,8 +285,8 @@
           "Dominik Kwinta",
           "1",
           "1",
-          "0",
-          "0"
+          "4",
+          "5"
         ],
         "reason": "PLAYER_PAIR_MISMATCH"
       },
@@ -297,20 +297,20 @@
           "Miranda Wilson",
           "1.31"
         ],
-        "market_line": 126,
+        "market_line": 128,
         "preceding_lines": [
           "Qui va gagner le match ?",
           "Victor Ording Kauffmann",
-          "1.47",
+          "1.72",
           "Dominik Kwinta",
-          "2.10",
+          "1.75",
           "+ 7",
           "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
           "En direct",
           "(2)",
           "Populaires",
           "Hylo Open (F)",
-          "LIVE dans 14 min",
+          "LIVE dans 9 min",
           "Agnes Korosi",
           "Miranda Wilson"
         ],
@@ -323,10 +323,10 @@
           "Noah Haase",
           "1.85"
         ],
-        "market_line": 136,
+        "market_line": 138,
         "preceding_lines": [
           "Hylo Open (F)",
-          "LIVE dans 14 min",
+          "LIVE dans 9 min",
           "Agnes Korosi",
           "Miranda Wilson",
           "Qui va gagner le match ?",
@@ -336,7 +336,7 @@
           "1.31",
           "+ 10",
           "Hylo Open",
-          "LIVE dans 14 min",
+          "LIVE dans 9 min",
           "Mikolaj Szymanowski",
           "Noah Haase"
         ],
@@ -349,10 +349,10 @@
           "Ade Resky Dwicahyo",
           "1.82"
         ],
-        "market_line": 146,
+        "market_line": 148,
         "preceding_lines": [
           "Hylo Open",
-          "LIVE dans 14 min",
+          "LIVE dans 9 min",
           "Mikolaj Szymanowski",
           "Noah Haase",
           "Qui va gagner le match ?",
@@ -362,7 +362,7 @@
           "1.85",
           "+ 10",
           "Hylo Open",
-          "LIVE dans 29 min",
+          "LIVE dans 34 min",
           "Matthias Kicklitz",
           "Ade Resky Dwicahyo"
         ],
@@ -375,9 +375,10 @@
           "Perals-Torralba",
           "1.17"
         ],
-        "market_line": 157,
+        "market_line": 158,
         "preceding_lines": [
-          "LIVE dans 29 min",
+          "Hylo Open",
+          "LIVE dans 34 min",
           "Matthias Kicklitz",
           "Ade Resky Dwicahyo",
           "Qui va gagner le match ?",
@@ -387,12 +388,11 @@
           "1.82",
           "+ 10",
           "Hylo Open, Doubles Mixtes",
-          "mar. 27 oct.",
-          "12:40",
+          "LIVE dans 34 min",
           "Strooper-Bang",
           "Perals-Torralba"
         ],
-        "reason": "NON_MS_COMPETITION"
+        "reason": "COMPETITION_NOT_PROVEN"
       },
       {
         "following_lines": [
@@ -401,9 +401,9 @@
           "Fernandez-Perals",
           "12.50"
         ],
-        "market_line": 168,
+        "market_line": 169,
         "preceding_lines": [
-          "12:40",
+          "LIVE dans 34 min",
           "Strooper-Bang",
           "Perals-Torralba",
           "Qui va gagner le match ?",
@@ -422,8 +422,8 @@
       }
     ],
     "rejections": {
-      "COMPETITION_NOT_PROVEN": 7,
-      "NON_MS_COMPETITION": 6,
+      "COMPETITION_NOT_PROVEN": 10,
+      "NON_MS_COMPETITION": 3,
       "PLAYER_PAIR_MISMATCH": 1,
       "PRICE_NOT_CONFIRMED": 2
     }
@@ -433,12 +433,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-10-27.csv",
   "model_snapshot_sha256": "176e95fd116c0a36ed10a2bf5a03ba29430f37c2732a264fe6c00068b3a0c4cf",
-  "observed_at_utc": "2026-10-27T09:46:17+00:00",
+  "observed_at_utc": "2026-10-27T09:51:03+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "28fa427eeec005055e7b40401e4bd4308f9f18314fca56da64fdf9d475b996f7",
+      "body_sha256": "1cb97e91d9da0363ed7426c42902839995a1c6c681a68ada491f29a849a3701d",
       "cache_age_seconds": null,
       "eligible_listing_rows": 13,
       "http_status": 200,
@@ -447,11 +447,11 @@
         {
           "following_lines": [
             "Victor Ording Kauffmann",
-            "1.47",
+            "1.72",
             "Dominik Kwinta",
-            "2.10"
+            "1.75"
           ],
-          "market_line": 110,
+          "market_line": 112,
           "preceding_lines": [
             "Badminton",
             "International - Hylo Open",
@@ -465,8 +465,8 @@
             "Dominik Kwinta",
             "1",
             "1",
-            "0",
-            "0"
+            "4",
+            "5"
           ],
           "reason": "PLAYER_PAIR_MISMATCH"
         }

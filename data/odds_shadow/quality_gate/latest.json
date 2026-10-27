@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-27T09:46:29+00:00",
-  "comparison_generated_at_utc": "2026-10-27T09:46:28+00:00",
+  "generated_at_utc": "2026-10-27T09:51:14+00:00",
+  "comparison_generated_at_utc": "2026-10-27T09:51:13+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "comparison_count": 13,
   "status_counts": {
@@ -22,7 +22,7 @@
       "bwf_match_id": "5273:1560251",
       "player_a": "Mikolaj SZYMANOWSKI",
       "player_b": "Noah HAASE",
-      "model_age_minutes": 11.2,
+      "model_age_minutes": 1.6,
       "ev_a_pct": -40.61,
       "ev_b_pct": 16.33,
       "quality_status": "BLOCKED_UNVERIFIED",
@@ -34,7 +34,7 @@
       "bwf_match_id": "5273:1560316",
       "player_a": "Matthias KICKLITZ",
       "player_b": "Ade Resky DWICAHYO",
-      "model_age_minutes": 11.2,
+      "model_age_minutes": 1.6,
       "ev_a_pct": -46.04,
       "ev_b_pct": 21.75,
       "quality_status": "BLOCKED_UNVERIFIED",
