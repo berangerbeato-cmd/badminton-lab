@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-27T08:51:46+00:00",
+  "observed_at_utc": "2026-10-27T09:16:11+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 13,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=35; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=13,DH:OBSERVED_DATE_UNVERIFIED=13,DM:OBSERVED_DATE_UNVERIFIED=3,F:OBSERVED_DATE_UNVERIFIED=3,H:OBSERVED_DATE_UNVERIFIED=3; eligible_MS_H2H=0; local_now=2026-10-27T09:51:46.920995+01:00",
+      "parser_notes": "parsed; page_parsed_entries=34; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=13,DH:OBSERVED_DATE_UNVERIFIED=13,DM:OBSERVED_DATE_UNVERIFIED=3,F:OBSERVED_DATE_UNVERIFIED=3,H:OBSERVED_DATE_UNVERIFIED=2; eligible_MS_H2H=0; local_now=2026-10-27T10:16:11.377284+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "799fb4a77e0f28f613f76d835cc3bb13079f6a43758a49f82952035afbc4c66a",
+      "body_sha256": "7486ed5de232b0286a2d4ec19cd42066120d4efe0f0f0f599fd03ffecd89ce48",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -39,7 +39,7 @@
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "fe780e704d811e9da2be993b4f269071b272f71787c8b0a8ac89ec7d7caba48a",
+      "body_sha256": "e148d95ca9c5dd5a997272d9c6ff019aa0cdb1c6083d802f8c34291cd84f3435",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "21bdf7d246458244e9e9693aea5c824169416808d2303fdef6bd0dcc165195b4",
+      "body_sha256": "cb56bdb789f8ddb33af0c0e57a0d72bf1e3e4e22886c389b4f39ac99b02e8c93",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "e23c4e90085c48f8a1a4c50ec2f99c21e4211852235ab585c838bf7559fbfab5",
+      "body_sha256": "6c7d6b458e5e4879c40a46db0f68886fdd6e56419ba48ae813f81fc96d1939cc",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "1bd48f76fd19a0667b493a6a3a7126074acdb9e0bd45890fb47e5445c0425f27",
+      "body_sha256": "73d222d410987a6aed242048100f5d68ef028b254b49ae9b1f339e1252954ea4",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "51d19317cd761f1f57ff05ff8864a8b406b04f549ec4c0c2e254af92c2c69bd6",
+      "body_sha256": "0735141b79c1a317af21f8d81c05dc8b0802202cc992447b4ee779ddde98ac8c",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "312",
-      "body_sha256": "fe3355922a87649e254afd8f0d648821c847dece4b2b6dcefa4feb31503eb2d3",
+      "cache_age_seconds": "37",
+      "body_sha256": "a9de5a3f9233e32f10464ab8a5f6bbce776df9577db0d69f72fa90afa1e581a2",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/Ui77INiD/",
@@ -164,7 +164,7 @@
         ],
         "index_match_link_count": 40,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n27/10 MA\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nAnnulé\nBoe W. K.\nEspersen R.\nDunn A.\nPringle A.\n-\n-\n13:45\nBoe W. K.\nEspersen R.\nKolding K.\nLundsgaard C.\n-\n-\n13:45\nIndra R.\nJoaquin N.\nDresp J.\nKrax S.\n-\n-\n14:35\nBourakkadi M.\nNeumann K.\nTai A.\nYap R. K.\n-\n-\n15:25\nGeiss B.\nJansen J. R.\nAstrup K.\nRasmussen A. S.\n-\n-\n15:25\nMaio J.\nVilleger W.\nButler O.\nJones S.\n-\n-\n16:15\nCattoen M.\nRenoir L.\nLee J-H.\nYang Po-Hsuan\n-\n-\n16:15\nChen C. K.\nLiu K. H.\nNebel R.\nSoby J.\n-\n-\n17:05\nHarper R.\nWakefield H.\nLundgaard D.\nVestergaard M.\n-\n-\n18:45\nChiu H. C.\nWang Chi-Lin\nFernandez J.\nPerals A.\n-\n-\nAnnulé\nChiu H. C.\nWang Chi-Lin\nKjaer C. F.\nKjaer R.\n-\n-\n19:35\nGrimley C.\nGrimley M.\nAdam E.\nRossi L.\n-\n-\n19:35\nWeijie C.\nTeo Ee Y.\nLane B.\nVendy S.\n-\n-\n20:25\nGutama S. K.\nIsfahani M. R. P.\nGreen A.\nRuss Z.\n-\n-\n20:25\nRayhan A. F.\nWahyudi D. A.\nKral J.\nKral O.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n13:45\nKudsk A. C.\nPilgaard S.\nErcetin B.\nInci N.\n-\n-\n14:35\nHsu Y. H.\nLin J. Y.\nMacpherson J.\nTorrance C.\n-\n-\n14:35\nLin C.\nYang C. Y.\nYeung Nga T.\nYeung P. L.\n-\n-\n15:25\nLam L.\nLee A. Q.\nHubsch S.\nLehmann A.\n-\n-\n16:15\nHsu Y. C.\nSung Y.\nLui L. L.\nTsang H. Y.\n-\n-\n17:05\nCarulla N.\nJimenez C. M.\nHvid L.\nKlausholm A.\n-\n-\n17:05\nCorsini M.\nPiccinin E.\nKelly S.\nTolman L.\n-\n-\n17:55\nDe Wit K.\nLoos M.\nPratiwi A. C.\nRamadhanti S. F. S.\n-\n-\n17:55\nKusuma F. D.\nPuspitasari M. T.\nCybulska P.\nMarczak K.\n-\n-\n17:55\nOng X. Y.\nTing C.\nHarris A.\nVan Leeuwen E.\n-\n-\n18:45\nDlapka S.\nRumpold L.\nVang K.\nWerge M.\n-\n-\n18:45\nNielsen A.\nRojkjaer S"
+        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n27/10 MA\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nAnnulé\nBoe W. K.\nEspersen R.\nDunn A.\nPringle A.\n-\n-\n13:45\nBoe W. K.\nEspersen R.\nKolding K.\nLundsgaard C.\n-\n-\n13:45\nIndra R.\nJoaquin N.\nDresp J.\nKrax S.\n-\n-\n14:35\nBourakkadi M.\nNeumann K.\nTai A.\nYap R. K.\n-\n-\n15:25\nGeiss B.\nJansen J. R.\nAstrup K.\nRasmussen A. S.\n-\n-\n15:25\nMaio J.\nVilleger W.\nButler O.\nJones S.\n-\n-\n16:15\nCattoen M.\nRenoir L.\nLee J-H.\nYang Po-Hsuan\n-\n-\n16:15\nChen C. K.\nLiu K. H.\nNebel R.\nSoby J.\n-\n-\n17:05\nHarper R.\nWakefield H.\nLundgaard D.\nVestergaard M.\n-\n-\n18:45\nChiu H. C.\nWang Chi-Lin\nFernandez J.\nPerals A.\n-\n-\nAnnulé\nChiu H. C.\nWang Chi-Lin\nKjaer C. F.\nKjaer R.\n-\n-\n19:35\nGrimley C.\nGrimley M.\nAdam E.\nRossi L.\n-\n-\n19:35\nWeijie C.\nTeo Ee Y.\nLane B.\nVendy S.\n-\n-\n20:25\nGutama S. K.\nIsfahani M. R. P.\nGreen A.\nRuss Z.\n-\n-\n20:25\nRayhan A. F.\nWahyudi D. A.\nKral J.\nKral O.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n13:45\nKudsk A. C.\nPilgaard S.\nErcetin B.\nInci N.\n-\n-\n14:35\nHsu Y. H.\nLin J. Y.\nMacpherson J.\nTorrance C.\n-\n-\n14:35\nLin C.\nYang C. Y.\nYeung Nga T.\nYeung P. L.\n-\n-\n15:25\nLam L.\nLee A. Q.\nHubsch S.\nLehmann A.\n-\n-\n16:15\nHsu Y. C.\nSung Y.\nLui L. L.\nTsang H. Y.\n-\n-\n17:05\nCarulla N.\nJimenez C. M.\nHvid L.\nKlausholm A.\n-\n-\n17:05\nCorsini M.\nPiccinin E.\nKelly S.\nTolman L.\n-\n-\n17:55\nDe Wit K.\nLoos M.\nPratiwi A. C.\nRamadhanti S. F. S.\n-\n-\n17:55\nKusuma F. D.\nPuspitasari M. T.\nCybulska P.\nMarczak K.\n-\n-\n17:55\nOng X. Y.\nTing C.\nHarris A.\nVan Leeuwen E.\n-\n-\n18:45\nDlapka S.\nRumpold L.\nVang K.\n"
       },
       "flashscore_match_audit": {
         "url": null,
@@ -182,8 +182,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "134",
-      "body_sha256": "0b99af6d7f52ef038b80e133897939a0f21f36d90824e026faa90abb36f37896",
+      "cache_age_seconds": "624",
+      "body_sha256": "452062ae14e7126b5a082f8a250e10c6bbaace64bef591184d3710662def8b67",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
