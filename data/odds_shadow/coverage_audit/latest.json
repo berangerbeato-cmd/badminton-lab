@@ -43,7 +43,7 @@
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-10-27T06:53:13.939431+00:00",
+  "generated_at_utc": "2026-10-27T07:26:31.409223+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 4,
@@ -85,8 +85,8 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:52:08+00:00",
-      "parser_notes": "parsed; page_parsed_entries=42; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=14,DH:OBSERVED_DATE_UNVERIFIED=16,DM:OBSERVED_DATE_UNVERIFIED=4,F:OBSERVED_DATE_UNVERIFIED=4,H:OBSERVED_DATE_UNVERIFIED=4; eligible_MS_H2H=0; local_now=2026-10-27T07:52:08.431167+01:00",
+      "observed_at_utc": "2026-10-27T07:25:17+00:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-10-27T08:25:16.797829+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
@@ -94,12 +94,38 @@
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
       "quote_count": 15,
-      "observed_at_utc": "2026-10-27T06:53:03+00:00",
+      "observed_at_utc": "2026-10-27T07:26:19+00:00",
       "parser_notes": null,
       "index_market_audit": {
-        "eligible_listing_rows": 2,
-        "markets_seen": 12,
+        "eligible_listing_rows": 1,
+        "markets_seen": 14,
         "rejection_evidence": [
+          {
+            "following_lines": [
+              "Victor Ording Kauffmann",
+              "1.26",
+              "Dominik Kwinta",
+              "2.70"
+            ],
+            "market_line": 120,
+            "preceding_lines": [
+              "Hylo Open, Doubles (F)",
+              "LIVE dans 4 min",
+              "Marburger-Kelch",
+              "Bang-Pothuizen",
+              "Qui va gagner le match ?",
+              "Marburger-Kelch",
+              "2.55",
+              "Bang-Pothuizen",
+              "1.30",
+              "+ 4",
+              "Hylo Open",
+              "LIVE dans 54 min",
+              "Victor Ording Kauffmann",
+              "Dominik Kwinta"
+            ],
+            "reason": "COMPETITION_NOT_PROVEN"
+          },
           {
             "following_lines": [
               "Agnes Korosi",
@@ -107,9 +133,9 @@
               "Miranda Wilson",
               "1.31"
             ],
-            "market_line": 132,
+            "market_line": 131,
             "preceding_lines": [
-              "09:20",
+              "LIVE dans 54 min",
               "Victor Ording Kauffmann",
               "Dominik Kwinta",
               "Qui va gagner le match ?",
@@ -131,9 +157,9 @@
               "Chiu-Wang",
               "-",
               "Fernandez-Perals",
-              "13.50"
+              "12.50"
             ],
-            "market_line": 143,
+            "market_line": 142,
             "preceding_lines": [
               "09:45",
               "Agnes Korosi",
@@ -154,51 +180,25 @@
           },
           {
             "following_lines": [
-              "Dlapka-Rumpold",
-              "12.00",
-              "Cuevas-Jacob",
-              "-"
-            ],
-            "market_line": 172,
-            "preceding_lines": [
-              "Hylo Open (F)",
-              "LIVE dans 7 min",
-              "Anna Siess Ryberg",
-              "Rosy Pancasari",
-              "Plus ou moins de points ?",
-              "Plus de 79.5",
-              "1.65",
-              "Moins de 79.5",
-              "1.65",
-              "+ 2",
-              "Hylo Open, Doubles (F)",
-              "LIVE dans 7 min",
-              "Dlapka-Rumpold",
-              "Cuevas-Jacob"
-            ],
-            "reason": "PRICE_NOT_CONFIRMED"
-          },
-          {
-            "following_lines": [
               "Marburger-Kelch",
               "2.55",
               "Bang-Pothuizen",
               "1.30"
             ],
-            "market_line": 192,
+            "market_line": 161,
             "preceding_lines": [
-              "Hylo Open, Doubles",
-              "LIVE dans 7 min",
-              "Vojtech-Tomas",
-              "Wakefield-Harper",
-              "Plus ou moins de points ?",
-              "Plus de 72.5",
-              "1.62",
-              "Moins de 72.5",
-              "1.71",
-              "+ 2",
+              "+ 1",
               "Hylo Open, Doubles (F)",
-              "LIVE dans 37 min",
+              "(9)",
+              "Hylo Open",
+              "(14)",
+              "Hylo Open (F)",
+              "(11)",
+              "Toute l'offre Badminton",
+              "(63)",
+              "À Venir",
+              "Hylo Open, Doubles (F)",
+              "LIVE dans 4 min",
               "Marburger-Kelch",
               "Bang-Pothuizen"
             ],
@@ -207,14 +207,14 @@
           {
             "following_lines": [
               "Timo-Joep",
-              "3.70",
+              "3.65",
               "Reynolds-Guildea",
               "1.12"
             ],
-            "market_line": 202,
+            "market_line": 171,
             "preceding_lines": [
               "Hylo Open, Doubles (F)",
-              "LIVE dans 37 min",
+              "LIVE dans 4 min",
               "Marburger-Kelch",
               "Bang-Pothuizen",
               "Qui va gagner le match ?",
@@ -224,7 +224,7 @@
               "1.30",
               "+ 4",
               "Hylo Open, Doubles",
-              "LIVE dans 37 min",
+              "LIVE dans 4 min",
               "Timo-Joep",
               "Reynolds-Guildea"
             ],
@@ -233,24 +233,24 @@
           {
             "following_lines": [
               "Voelker-Moszczynski",
-              "1.21",
+              "1.25",
               "Nebel-Klausholm",
-              "2.95"
+              "2.77"
             ],
-            "market_line": 212,
+            "market_line": 181,
             "preceding_lines": [
               "Hylo Open, Doubles",
-              "LIVE dans 37 min",
+              "LIVE dans 4 min",
               "Timo-Joep",
               "Reynolds-Guildea",
               "Qui va gagner le match ?",
               "Timo-Joep",
-              "3.70",
+              "3.65",
               "Reynolds-Guildea",
               "1.12",
               "+ 5",
               "Hylo Open, Doubles Mixtes",
-              "LIVE dans 37 min",
+              "LIVE dans 4 min",
               "Voelker-Moszczynski",
               "Nebel-Klausholm"
             ],
@@ -258,10 +258,9 @@
           }
         ],
         "rejections": {
-          "COMPETITION_NOT_PROVEN": 3,
-          "DUPLICATE_MARKET": 1,
+          "COMPETITION_NOT_PROVEN": 8,
           "NON_MS_COMPETITION": 4,
-          "PRICE_NOT_CONFIRMED": 2
+          "PRICE_NOT_CONFIRMED": 1
         }
       },
       "reason_counts": {
@@ -272,7 +271,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:52:28+00:00",
+      "observed_at_utc": "2026-10-27T07:25:39+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -281,7 +280,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:52:43+00:00",
+      "observed_at_utc": "2026-10-27T07:25:56+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -290,7 +289,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:52:15+00:00",
+      "observed_at_utc": "2026-10-27T07:25:26+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -299,7 +298,7 @@
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quote_count": 15,
-      "observed_at_utc": "2026-10-27T06:52:16+00:00",
+      "observed_at_utc": "2026-10-27T07:25:27+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -308,7 +307,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:52:29+00:00",
+      "observed_at_utc": "2026-10-27T07:25:41+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -317,7 +316,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:52:39+00:00",
+      "observed_at_utc": "2026-10-27T07:25:51+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -326,7 +325,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:52:47+00:00",
+      "observed_at_utc": "2026-10-27T07:26:01+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -335,7 +334,7 @@
     "oddspedia_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:52:44+00:00",
+      "observed_at_utc": "2026-10-27T07:25:58+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -344,7 +343,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T06:52:59+00:00",
+      "observed_at_utc": "2026-10-27T07:26:15+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,

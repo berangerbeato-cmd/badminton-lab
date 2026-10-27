@@ -267,8 +267,8 @@
     "https://www.netbet.fr/badminton/international/hylo-open-doubles",
     "https://www.netbet.fr/badminton/international/hylo-open-doubles-mixtes"
   ],
-  "index_body_sha256": "cfd8954f2a1bc2e947fbffb07387987f276645b89def6d56b1e74594d8790860",
-  "index_eligible_quotes": 2,
+  "index_body_sha256": "e7c724255744116e99f065a467d3c5f51f735c6864ea22266ed451b94981d876",
+  "index_eligible_quotes": 1,
   "index_http_status": 200,
   "index_link_count": 150,
   "index_link_path_counts": {
@@ -286,9 +286,35 @@
     "zendesk": 2
   },
   "index_market_audit": {
-    "eligible_listing_rows": 2,
+    "eligible_listing_rows": 1,
     "markets_seen": 14,
     "rejection_evidence": [
+      {
+        "following_lines": [
+          "Victor Ording Kauffmann",
+          "1.26",
+          "Dominik Kwinta",
+          "2.70"
+        ],
+        "market_line": 120,
+        "preceding_lines": [
+          "Hylo Open, Doubles (F)",
+          "LIVE dans 4 min",
+          "Marburger-Kelch",
+          "Bang-Pothuizen",
+          "Qui va gagner le match ?",
+          "Marburger-Kelch",
+          "2.55",
+          "Bang-Pothuizen",
+          "1.30",
+          "+ 4",
+          "Hylo Open",
+          "LIVE dans 54 min",
+          "Victor Ording Kauffmann",
+          "Dominik Kwinta"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
       {
         "following_lines": [
           "Agnes Korosi",
@@ -296,9 +322,9 @@
           "Miranda Wilson",
           "1.31"
         ],
-        "market_line": 132,
+        "market_line": 131,
         "preceding_lines": [
-          "09:20",
+          "LIVE dans 54 min",
           "Victor Ording Kauffmann",
           "Dominik Kwinta",
           "Qui va gagner le match ?",
@@ -322,7 +348,7 @@
           "Fernandez-Perals",
           "12.50"
         ],
-        "market_line": 143,
+        "market_line": 142,
         "preceding_lines": [
           "09:45",
           "Agnes Korosi",
@@ -348,20 +374,20 @@
           "Bang-Pothuizen",
           "1.30"
         ],
-        "market_line": 162,
+        "market_line": 161,
         "preceding_lines": [
           "+ 1",
           "Hylo Open, Doubles (F)",
           "(9)",
           "Hylo Open",
-          "(17)",
+          "(14)",
           "Hylo Open (F)",
           "(11)",
           "Toute l'offre Badminton",
-          "(69)",
+          "(63)",
           "À Venir",
           "Hylo Open, Doubles (F)",
-          "LIVE dans 14 min",
+          "LIVE dans 4 min",
           "Marburger-Kelch",
           "Bang-Pothuizen"
         ],
@@ -370,14 +396,14 @@
       {
         "following_lines": [
           "Timo-Joep",
-          "3.60",
+          "3.65",
           "Reynolds-Guildea",
-          "1.13"
+          "1.12"
         ],
-        "market_line": 172,
+        "market_line": 171,
         "preceding_lines": [
           "Hylo Open, Doubles (F)",
-          "LIVE dans 14 min",
+          "LIVE dans 4 min",
           "Marburger-Kelch",
           "Bang-Pothuizen",
           "Qui va gagner le match ?",
@@ -387,7 +413,7 @@
           "1.30",
           "+ 4",
           "Hylo Open, Doubles",
-          "LIVE dans 14 min",
+          "LIVE dans 4 min",
           "Timo-Joep",
           "Reynolds-Guildea"
         ],
@@ -398,58 +424,31 @@
           "Voelker-Moszczynski",
           "1.25",
           "Nebel-Klausholm",
-          "2.75"
+          "2.77"
         ],
-        "market_line": 182,
+        "market_line": 181,
         "preceding_lines": [
           "Hylo Open, Doubles",
-          "LIVE dans 14 min",
+          "LIVE dans 4 min",
           "Timo-Joep",
           "Reynolds-Guildea",
           "Qui va gagner le match ?",
           "Timo-Joep",
-          "3.60",
+          "3.65",
           "Reynolds-Guildea",
-          "1.13",
+          "1.12",
           "+ 5",
           "Hylo Open, Doubles Mixtes",
-          "LIVE dans 14 min",
+          "LIVE dans 4 min",
           "Voelker-Moszczynski",
           "Nebel-Klausholm"
-        ],
-        "reason": "COMPETITION_NOT_PROVEN"
-      },
-      {
-        "following_lines": [
-          "Doddavarapu-Pochana",
-          "8.75",
-          "Pham-Orteu",
-          "1.01"
-        ],
-        "market_line": 192,
-        "preceding_lines": [
-          "Hylo Open, Doubles Mixtes",
-          "LIVE dans 14 min",
-          "Voelker-Moszczynski",
-          "Nebel-Klausholm",
-          "Qui va gagner le match ?",
-          "Voelker-Moszczynski",
-          "1.25",
-          "Nebel-Klausholm",
-          "2.75",
-          "+ 5",
-          "Hylo Open, Doubles",
-          "LIVE dans 39 min",
-          "Doddavarapu-Pochana",
-          "Pham-Orteu"
         ],
         "reason": "COMPETITION_NOT_PROVEN"
       }
     ],
     "rejections": {
-      "COMPETITION_NOT_PROVEN": 5,
-      "DUPLICATE_MARKET": 1,
-      "NON_MS_COMPETITION": 5,
+      "COMPETITION_NOT_PROVEN": 8,
+      "NON_MS_COMPETITION": 4,
       "PRICE_NOT_CONFIRMED": 1
     }
   },
@@ -458,47 +457,18 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-10-27.csv",
   "model_snapshot_sha256": "176e95fd116c0a36ed10a2bf5a03ba29430f37c2732a264fe6c00068b3a0c4cf",
-  "observed_at_utc": "2026-10-27T07:15:44+00:00",
+  "observed_at_utc": "2026-10-27T07:26:19+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "ee202edf6db8c21fc5b9b0ced802c942c2b9b4bc0aef1e1109fd3f33e890ebc8",
+      "body_sha256": "c00dab5030afd593ec504c6fb45fa64eaa2fcc678578c2b9e08773b0f32470d7",
       "cache_age_seconds": null,
-      "eligible_listing_rows": 13,
+      "eligible_listing_rows": 14,
       "http_status": 200,
       "markets_seen": 14,
-      "rejection_evidence": [
-        {
-          "following_lines": [
-            "Victor Ording Kauffmann",
-            "1.26",
-            "Dominik Kwinta",
-            "2.70"
-          ],
-          "market_line": 110,
-          "preceding_lines": [
-            "Règlement des paris",
-            "Scores en direct",
-            "Format des cotes",
-            "Accueil",
-            "Badminton",
-            "International - Hylo Open",
-            "Pariez sur",
-            "Hylo Open",
-            "À Venir",
-            "Hylo Open",
-            "mar. 27 oct.",
-            "09:20",
-            "Victor Ording Kauffmann",
-            "Dominik Kwinta"
-          ],
-          "reason": "COMPETITION_NOT_ADJACENT_TO_DATE"
-        }
-      ],
-      "rejections": {
-        "COMPETITION_NOT_ADJACENT_TO_DATE": 1
-      },
+      "rejection_evidence": [],
+      "rejections": {},
       "resolved_url": "https://www.netbet.fr/badminton/international/hylo-open",
       "robots_status": "ALLOWED_BY_ROBOTS",
       "screenshot": "data/odds_shadow/visual_evidence/netbet_event_0.png",
@@ -530,9 +500,9 @@
     {
       "bookmaker_overround_pct": 16.4,
       "competition_display": "Hylo Open",
-      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
       "discipline": "MS",
-      "event_page_url": "https://www.netbet.fr/badminton",
+      "event_page_url": "https://www.netbet.fr/badminton/international/hylo-open",
       "listed_day_paris": "2026-10-27",
       "market": "H2H_FULL_MATCH",
       "market_probabilities_only_not_v32_ev": true,
