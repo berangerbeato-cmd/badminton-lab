@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-27T07:32:05+00:00",
+  "generated_at_utc": "2026-10-27T09:05:53+00:00",
   "match_count": 2,
   "matches": [
     {
@@ -46,10 +46,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 347,
+          "age_seconds": 26,
           "current": true,
           "model_snapshot_sha256": "176e95fd116c0a36ed10a2bf5a03ba29430f37c2732a264fe6c00068b3a0c4cf",
-          "observed_at_utc": "2026-10-27T07:26:19+00:00",
+          "observed_at_utc": "2026-10-27T09:05:28+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -75,8 +75,8 @@
       "players": [
         {
           "best_historical_observation": {
-            "decimal_odds": 1.6,
-            "ev_pct": -44.11,
+            "decimal_odds": 1.61,
+            "ev_pct": -43.76,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -85,13 +85,13 @@
           "model_probability": 0.3493048,
           "name": "Matthias KICKLITZ",
           "observed_odds": {
-            "NetBet.fr": 1.6
+            "NetBet.fr": 1.61
           }
         },
         {
           "best_historical_observation": {
-            "decimal_odds": 1.87,
-            "ev_pct": 21.68,
+            "decimal_odds": 1.85,
+            "ev_pct": 20.38,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -100,16 +100,16 @@
           "model_probability": 0.6506952,
           "name": "Ade Resky DWICAHYO",
           "observed_odds": {
-            "NetBet.fr": 1.87
+            "NetBet.fr": 1.85
           }
         }
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 347,
+          "age_seconds": 26,
           "current": true,
           "model_snapshot_sha256": "176e95fd116c0a36ed10a2bf5a03ba29430f37c2732a264fe6c00068b3a0c4cf",
-          "observed_at_utc": "2026-10-27T07:26:19+00:00",
+          "observed_at_utc": "2026-10-27T09:05:28+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -117,7 +117,7 @@
             "MODEL_PROVISIONAL",
             "NO_BET"
           ],
-          "source_url": "https://www.netbet.fr/badminton/international/hylo-open"
+          "source_url": "https://www.netbet.fr/badminton"
         }
       },
       "valid_pre_match_T0": false
@@ -135,7 +135,7 @@
   "schema_version": "badminton_shadow_comparator_v2.1",
   "sources": {
     "NetBet.fr": {
-      "observation_utc": "2026-10-27T07:26:19+00:00",
+      "observation_utc": "2026-10-27T09:05:28+00:00",
       "operator": "NetBet.fr",
       "rejected": [],
       "rows_current": 2,
