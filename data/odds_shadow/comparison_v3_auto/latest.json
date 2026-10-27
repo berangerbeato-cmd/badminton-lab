@@ -123,19 +123,19 @@
     "prematch_timing_status_counts": {
       "KICKOFF_DATE_ONLY": 2
     },
-    "model_fixture_count": 4,
+    "model_fixture_count": 3,
     "public_quote_count": 14,
     "comparison_count": 14,
     "status_counts": {
-      "UNVERIFIED_SHADOW_ONLY": 2,
-      "FIXTURE_ABSENT_FROM_MODEL": 12
+      "FIXTURE_ABSENT_FROM_MODEL": 12,
+      "UNVERIFIED_SHADOW_ONLY": 2
     },
     "verified_prematch_count": 0,
     "validated_roi_pct": null,
     "missing_kickoff_count": 2,
     "missing_executable_price_count": 2
   },
-  "generated_at_utc": "2026-10-27T08:38:46+00:00",
+  "generated_at_utc": "2026-10-27T08:52:57+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 14,
   "rejected_sources": [],
@@ -156,6 +156,18 @@
   "results": [
     {
       "source": "netbet_quotes",
+      "players": [
+        "Victor Ording Kauffmann",
+        "Dominik Kwinta"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 3,
+      "listed_day_paris": "2026-10-27",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
       "bwf_match_id": "5273:1560251",
       "players": [
         "Mikolaj SZYMANOWSKI",
@@ -170,9 +182,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-27T08:38:36+00:00",
-      "model_asof_utc": "2026-10-27T08:36:59+00:00",
-      "model_age_seconds": 97,
+      "observed_at_utc": "2026-10-27T08:52:47+00:00",
+      "model_asof_utc": "2026-10-27T08:51:14+00:00",
+      "model_age_seconds": 93,
       "model_probability_a": 0.3712135,
       "bookmaker_player_order_reversed": false,
       "odds": [
@@ -189,7 +201,7 @@
         0.463768
       ],
       "quote_listed_day_paris": "2026-10-27",
-      "quote_day_basis": "PUBLISHED_CALENDAR_DATE",
+      "quote_day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
       "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
       "bookmaker_price_updated_at_utc": null,
       "actual_kickoff_at_utc": null,
@@ -225,9 +237,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-27T08:38:36+00:00",
-      "model_asof_utc": "2026-10-27T08:36:59+00:00",
-      "model_age_seconds": 97,
+      "observed_at_utc": "2026-10-27T08:52:47+00:00",
+      "model_asof_utc": "2026-10-27T08:51:14+00:00",
+      "model_age_seconds": 93,
       "model_probability_a": 0.33102595,
       "bookmaker_player_order_reversed": false,
       "odds": [
@@ -244,7 +256,7 @@
         0.465318
       ],
       "quote_listed_day_paris": "2026-10-27",
-      "quote_day_basis": "PUBLISHED_CALENDAR_DATE",
+      "quote_day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
       "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
       "bookmaker_price_updated_at_utc": null,
       "actual_kickoff_at_utc": null,
@@ -262,18 +274,6 @@
         "BWF_KICKOFF_DATE_ONLY"
       ],
       "status": "UNVERIFIED_SHADOW_ONLY",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Victor Ording Kauffmann",
-        "Dominik Kwinta"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 4,
-      "listed_day_paris": "2026-10-27",
       "decision": "NO_BET"
     },
     {

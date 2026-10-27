@@ -1,7 +1,7 @@
 {
   "bookmaker_price_updated_at": null,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-27T08:49:42+00:00",
+  "observed_at_utc": "2026-10-27T08:51:56+00:00",
   "operator": "bwin.fr",
   "operator_kind": "ONLINE",
   "quotes": [],

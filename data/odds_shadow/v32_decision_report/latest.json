@@ -1,9 +1,9 @@
 {
   "snapshot_age_hours": 0.0,
   "snapshot_freshness": "FRESH",
-  "generated_at_utc": "2026-10-27T08:38:46+00:00",
+  "generated_at_utc": "2026-10-27T08:52:57+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
-  "model_fixtures": 4,
+  "model_fixtures": 3,
   "public_quotes": 14,
   "unique_matched_fixtures": 2,
   "matched_bookmaker_observations": 2,

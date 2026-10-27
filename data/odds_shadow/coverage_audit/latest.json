@@ -43,10 +43,10 @@
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-10-27T08:38:47.481760+00:00",
+  "generated_at_utc": "2026-10-27T08:52:58.320328+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
-  "model_fixture_count": 4,
+  "model_fixture_count": 3,
   "model_fixtures": [
     {
       "match_id": "5273:1560251",
@@ -65,14 +65,6 @@
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5273:1560378",
-      "players": [
-        "William BØGEBJERG",
-        "Julien SCHEIWILLER"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
       "match_id": "5273:1560382",
       "players": [
         "Victor ørding KAUFFMANN",
@@ -85,8 +77,8 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T08:37:39+00:00",
-      "parser_notes": "parsed; page_parsed_entries=36; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=13,DH:OBSERVED_DATE_UNVERIFIED=13,DM:OBSERVED_DATE_UNVERIFIED=3,F:OBSERVED_DATE_UNVERIFIED=4,H:OBSERVED_DATE_UNVERIFIED=3; eligible_MS_H2H=0; local_now=2026-10-27T09:37:37.970017+01:00",
+      "observed_at_utc": "2026-10-27T08:51:47+00:00",
+      "parser_notes": "parsed; page_parsed_entries=35; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=13,DH:OBSERVED_DATE_UNVERIFIED=13,DM:OBSERVED_DATE_UNVERIFIED=3,F:OBSERVED_DATE_UNVERIFIED=3,H:OBSERVED_DATE_UNVERIFIED=3; eligible_MS_H2H=0; local_now=2026-10-27T09:51:46.920995+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
@@ -94,18 +86,18 @@
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
       "quote_count": 14,
-      "observed_at_utc": "2026-10-27T08:38:36+00:00",
+      "observed_at_utc": "2026-10-27T08:52:47+00:00",
       "parser_notes": null,
       "index_market_audit": {
-        "eligible_listing_rows": 2,
+        "eligible_listing_rows": 0,
         "markets_seen": 15,
         "rejection_evidence": [
           {
             "following_lines": [
               "Doddavarapu-Pochana",
-              "13.00",
+              "19.00",
               "Pham-Orteu",
-              "1.01"
+              "-"
             ],
             "market_line": 116,
             "preceding_lines": [
@@ -115,38 +107,38 @@
               "TOUTE L'OFFRE BADMINTON",
               "En direct",
               "Hylo Open, Doubles",
-              "Set 2",
+              "Set 3",
               "LIVE",
               "Doddavarapu-Pochana",
               "Pham-Orteu",
-              "0",
               "1",
-              "19",
-              "19"
+              "1",
+              "7",
+              "12"
             ],
             "reason": "PLAYER_PAIR_MISMATCH"
           },
           {
             "following_lines": [
               "Victor Ording Kauffmann",
-              "1.24",
+              "1.20",
               "Dominik Kwinta",
-              "2.82"
+              "3.05"
             ],
             "market_line": 130,
             "preceding_lines": [
               "Qui va gagner le match ?",
               "Doddavarapu-Pochana",
-              "13.00",
+              "19.00",
               "Pham-Orteu",
-              "1.01",
-              "+ 4",
+              "-",
+              "+ 1",
               "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
               "En direct",
               "(2)",
               "Populaires",
               "Hylo Open",
-              "LIVE dans 11 min",
+              "LIVE dans 7 min",
               "Victor Ording Kauffmann",
               "Dominik Kwinta"
             ],
@@ -162,17 +154,17 @@
             "market_line": 140,
             "preceding_lines": [
               "Hylo Open",
-              "LIVE dans 11 min",
+              "LIVE dans 7 min",
               "Victor Ording Kauffmann",
               "Dominik Kwinta",
               "Qui va gagner le match ?",
               "Victor Ording Kauffmann",
-              "1.24",
+              "1.20",
               "Dominik Kwinta",
-              "2.82",
+              "3.05",
               "+ 10",
               "Hylo Open (F)",
-              "LIVE dans 41 min",
+              "LIVE dans 27 min",
               "Agnes Korosi",
               "Miranda Wilson"
             ],
@@ -187,7 +179,7 @@
             ],
             "market_line": 151,
             "preceding_lines": [
-              "LIVE dans 41 min",
+              "LIVE dans 27 min",
               "Agnes Korosi",
               "Miranda Wilson",
               "Qui va gagner le match ?",
@@ -198,7 +190,7 @@
               "+ 10",
               "Hylo Open, Doubles Mixtes",
               "mar. 27 oct.",
-              "11:05",
+              "11:15",
               "Strooper-Bang",
               "Perals-Torralba"
             ],
@@ -213,7 +205,7 @@
             ],
             "market_line": 162,
             "preceding_lines": [
-              "11:05",
+              "11:15",
               "Strooper-Bang",
               "Perals-Torralba",
               "Qui va gagner le match ?",
@@ -232,10 +224,10 @@
           },
           {
             "following_lines": [
-              "Ranithma Liyanage",
-              "1.48",
-              "Meghana Reddy Mareddy",
-              "2.05"
+              "Begga-Deschamp",
+              "1.15",
+              "Sonnenschein-Marzuan",
+              "3.45"
             ],
             "market_line": 181,
             "preceding_lines": [
@@ -249,17 +241,17 @@
               "Toute l'offre Badminton",
               "(58)",
               "À Venir",
-              "Hylo Open (F)",
-              "LIVE dans 11 min",
-              "Ranithma Liyanage",
-              "Meghana Reddy Mareddy"
+              "Hylo Open, Doubles",
+              "LIVE dans 7 min",
+              "Begga-Deschamp",
+              "Sonnenschein-Marzuan"
             ],
             "reason": "COMPETITION_NOT_PROVEN"
           }
         ],
         "rejections": {
-          "COMPETITION_NOT_PROVEN": 8,
-          "NON_MS_COMPETITION": 3,
+          "COMPETITION_NOT_PROVEN": 11,
+          "NON_MS_COMPETITION": 2,
           "PLAYER_PAIR_MISMATCH": 1,
           "PRICE_NOT_CONFIRMED": 1
         }
@@ -272,7 +264,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T08:37:59+00:00",
+      "observed_at_utc": "2026-10-27T08:52:09+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -281,7 +273,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T08:38:15+00:00",
+      "observed_at_utc": "2026-10-27T08:52:25+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -290,7 +282,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T08:37:45+00:00",
+      "observed_at_utc": "2026-10-27T08:51:56+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -299,7 +291,7 @@
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quote_count": 13,
-      "observed_at_utc": "2026-10-27T08:37:47+00:00",
+      "observed_at_utc": "2026-10-27T08:51:57+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -308,7 +300,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T08:38:00+00:00",
+      "observed_at_utc": "2026-10-27T08:52:10+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -317,7 +309,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T08:38:10+00:00",
+      "observed_at_utc": "2026-10-27T08:52:20+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -326,7 +318,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T08:38:19+00:00",
+      "observed_at_utc": "2026-10-27T08:52:29+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -335,7 +327,7 @@
     "oddspedia_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T08:38:16+00:00",
+      "observed_at_utc": "2026-10-27T08:52:26+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -344,7 +336,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T08:38:32+00:00",
+      "observed_at_utc": "2026-10-27T08:52:42+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,

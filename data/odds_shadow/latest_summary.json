@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-27T08:49:35+00:00",
+  "observed_at_utc": "2026-10-27T08:51:46+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 13,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=36; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=13,DH:OBSERVED_DATE_UNVERIFIED=13,DM:OBSERVED_DATE_UNVERIFIED=3,F:OBSERVED_DATE_UNVERIFIED=4,H:OBSERVED_DATE_UNVERIFIED=3; eligible_MS_H2H=0; local_now=2026-10-27T09:49:35.893916+01:00",
+      "parser_notes": "parsed; page_parsed_entries=35; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=13,DH:OBSERVED_DATE_UNVERIFIED=13,DM:OBSERVED_DATE_UNVERIFIED=3,F:OBSERVED_DATE_UNVERIFIED=3,H:OBSERVED_DATE_UNVERIFIED=3; eligible_MS_H2H=0; local_now=2026-10-27T09:51:46.920995+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "df79ab34e8355a8096ea54b47981bd0222332e89f35965553135797a3c91f362",
+      "body_sha256": "799fb4a77e0f28f613f76d835cc3bb13079f6a43758a49f82952035afbc4c66a",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "f7863ff62b5419635e82909195fc3f4abfb58447cbbe24063a7b35b262badf79",
+      "body_sha256": "21bdf7d246458244e9e9693aea5c824169416808d2303fdef6bd0dcc165195b4",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "4b4a45ae57de218c3c491a3779685f57fb5ec1a03f174f9fed64b12ddcfefa5f",
+      "body_sha256": "e23c4e90085c48f8a1a4c50ec2f99c21e4211852235ab585c838bf7559fbfab5",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "2dba5466cbf67ef6a42ef462754b13d1497edcd93bc5e0690355619426252277",
+      "body_sha256": "1bd48f76fd19a0667b493a6a3a7126074acdb9e0bd45890fb47e5445c0425f27",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "3b273273b1214fbc520951213e6609c6e5ddc4bc6970dc049685f5baea9858ed",
+      "body_sha256": "51d19317cd761f1f57ff05ff8864a8b406b04f549ec4c0c2e254af92c2c69bd6",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "178",
-      "body_sha256": "04461764e64a062d799785079a7627f3788161c3ad2d6a5545ce538c25ee0bfa",
+      "cache_age_seconds": "312",
+      "body_sha256": "fe3355922a87649e254afd8f0d648821c847dece4b2b6dcefa4feb31503eb2d3",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/Ui77INiD/",
@@ -164,7 +164,7 @@
         ],
         "index_match_link_count": 40,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n27/10 MA\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nAnnulé\nBoe W. K.\nEspersen R.\nDunn A.\nPringle A.\n-\n-\n13:45\nBoe W. K.\nEspersen R.\nKolding K.\nLundsgaard C.\n-\n-\n13:45\nIndra R.\nJoaquin N.\nDresp J.\nKrax S.\n-\n-\n14:35\nBourakkadi M.\nNeumann K.\nTai A.\nYap R. K.\n-\n-\n15:25\nGeiss B.\nJansen J. R.\nAstrup K.\nRasmussen A. S.\n-\n-\n15:25\nMaio J.\nVilleger W.\nButler O.\nJones S.\n-\n-\n16:15\nCattoen M.\nRenoir L.\nLee J-H.\nYang Po-Hsuan\n-\n-\n16:15\nChen C. K.\nLiu K. H.\nNebel R.\nSoby J.\n-\n-\n17:05\nHarper R.\nWakefield H.\nLundgaard D.\nVestergaard M.\n-\n-\n18:45\nChiu H. C.\nWang Chi-Lin\nFernandez J.\nPerals A.\n-\n-\nAnnulé\nChiu H. C.\nWang Chi-Lin\nKjaer C. F.\nKjaer R.\n-\n-\n19:35\nGrimley C.\nGrimley M.\nAdam E.\nRossi L.\n-\n-\n19:35\nWeijie C.\nTeo Ee Y.\nLane B.\nVendy S.\n-\n-\n20:25\nGutama S. K.\nIsfahani M. R. P.\nGreen A.\nRuss Z.\n-\n-\n20:25\nRayhan A. F.\nWahyudi D. A.\nKral J.\nKral O.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n13:45\nKudsk A. C.\nPilgaard S.\nErcetin B.\nInci N.\n-\n-\n14:35\nHsu Y. H.\nLin J. Y.\nMacpherson J.\nTorrance C.\n-\n-\n14:35\nLin C.\nYang C. Y.\nYeung Nga T.\nYeung P. L.\n-\n-\n15:25\nLam L.\nLee A. Q.\nHubsch S.\nLehmann A.\n-\n-\n16:15\nHsu Y. C.\nSung Y.\nLui L. L.\nTsang H. Y.\n-\n-\n17:05\nCarulla N.\nJimenez C. M.\nHvid L.\nKlausholm A.\n-\n-\n17:05\nCorsini M.\nPiccinin E.\nKelly S.\nTolman L.\n-\n-\n17:55\nDe Wit K.\nLoos M.\nPratiwi A. C.\nRamadhanti S. F. S.\n-\n-\n17:55\nKusuma F. D.\nPuspitasari M. T.\nCybulska P.\nMarczak K.\n-\n-\n17:55\nOng X. Y.\nTing C.\nHarris A.\nVan Leeuwen E.\n-\n-\n18:45\nDlapka S.\nRumpold L.\nVang K.\n"
+        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n27/10 MA\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nAnnulé\nBoe W. K.\nEspersen R.\nDunn A.\nPringle A.\n-\n-\n13:45\nBoe W. K.\nEspersen R.\nKolding K.\nLundsgaard C.\n-\n-\n13:45\nIndra R.\nJoaquin N.\nDresp J.\nKrax S.\n-\n-\n14:35\nBourakkadi M.\nNeumann K.\nTai A.\nYap R. K.\n-\n-\n15:25\nGeiss B.\nJansen J. R.\nAstrup K.\nRasmussen A. S.\n-\n-\n15:25\nMaio J.\nVilleger W.\nButler O.\nJones S.\n-\n-\n16:15\nCattoen M.\nRenoir L.\nLee J-H.\nYang Po-Hsuan\n-\n-\n16:15\nChen C. K.\nLiu K. H.\nNebel R.\nSoby J.\n-\n-\n17:05\nHarper R.\nWakefield H.\nLundgaard D.\nVestergaard M.\n-\n-\n18:45\nChiu H. C.\nWang Chi-Lin\nFernandez J.\nPerals A.\n-\n-\nAnnulé\nChiu H. C.\nWang Chi-Lin\nKjaer C. F.\nKjaer R.\n-\n-\n19:35\nGrimley C.\nGrimley M.\nAdam E.\nRossi L.\n-\n-\n19:35\nWeijie C.\nTeo Ee Y.\nLane B.\nVendy S.\n-\n-\n20:25\nGutama S. K.\nIsfahani M. R. P.\nGreen A.\nRuss Z.\n-\n-\n20:25\nRayhan A. F.\nWahyudi D. A.\nKral J.\nKral O.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n13:45\nKudsk A. C.\nPilgaard S.\nErcetin B.\nInci N.\n-\n-\n14:35\nHsu Y. H.\nLin J. Y.\nMacpherson J.\nTorrance C.\n-\n-\n14:35\nLin C.\nYang C. Y.\nYeung Nga T.\nYeung P. L.\n-\n-\n15:25\nLam L.\nLee A. Q.\nHubsch S.\nLehmann A.\n-\n-\n16:15\nHsu Y. C.\nSung Y.\nLui L. L.\nTsang H. Y.\n-\n-\n17:05\nCarulla N.\nJimenez C. M.\nHvid L.\nKlausholm A.\n-\n-\n17:05\nCorsini M.\nPiccinin E.\nKelly S.\nTolman L.\n-\n-\n17:55\nDe Wit K.\nLoos M.\nPratiwi A. C.\nRamadhanti S. F. S.\n-\n-\n17:55\nKusuma F. D.\nPuspitasari M. T.\nCybulska P.\nMarczak K.\n-\n-\n17:55\nOng X. Y.\nTing C.\nHarris A.\nVan Leeuwen E.\n-\n-\n18:45\nDlapka S.\nRumpold L.\nVang K.\nWerge M.\n-\n-\n18:45\nNielsen A.\nRojkjaer S"
       },
       "flashscore_match_audit": {
         "url": null,
@@ -182,8 +182,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "0",
-      "body_sha256": "ac27ba5969ea1647307a3e67e4f9bf9bf9ee5911624233c655280a10d41f6fbd",
+      "cache_age_seconds": "134",
+      "body_sha256": "0b99af6d7f52ef038b80e133897939a0f21f36d90824e026faa90abb36f37896",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
