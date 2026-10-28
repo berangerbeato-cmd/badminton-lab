@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-27T05:38:33+00:00",
+  "generated_at_utc": "2026-10-28T05:46:38+00:00",
   "selected_variant": "elo_plus_score_rest",
   "walkforward_2022_2025": {
     "variant": "elo_plus_score_rest",
@@ -133,7 +133,7 @@
   "replay_2026": {
     "variant": "elo_plus_score_rest",
     "status": "RETROSPECTIVE_ONLY_NOT_ARCHIVED_LIVE_T0",
-    "n": 1603,
+    "n": 1607,
     "player_a_probability_bins": [
       {
         "range_low": 0.0,
@@ -162,10 +162,10 @@
       {
         "range_low": 0.3,
         "range_high": 0.4,
-        "n": 200,
-        "mean_predicted": 0.351793,
-        "observed_frequency": 0.315,
-        "calibration_gap": -0.036793
+        "n": 202,
+        "mean_predicted": 0.351787,
+        "observed_frequency": 0.311881,
+        "calibration_gap": -0.039905
       },
       {
         "range_low": 0.4,
@@ -178,18 +178,18 @@
       {
         "range_low": 0.5,
         "range_high": 0.6,
-        "n": 265,
-        "mean_predicted": 0.547199,
-        "observed_frequency": 0.520755,
-        "calibration_gap": -0.026444
+        "n": 266,
+        "mean_predicted": 0.547066,
+        "observed_frequency": 0.518797,
+        "calibration_gap": -0.028269
       },
       {
         "range_low": 0.6,
         "range_high": 0.7,
-        "n": 218,
-        "mean_predicted": 0.650949,
-        "observed_frequency": 0.582569,
-        "calibration_gap": -0.06838
+        "n": 219,
+        "mean_predicted": 0.650826,
+        "observed_frequency": 0.584475,
+        "calibration_gap": -0.066351
       },
       {
         "range_low": 0.7,
@@ -220,18 +220,18 @@
       {
         "range_low": 0.5,
         "range_high": 0.6,
-        "n": 480,
-        "mean_predicted": 0.547077,
-        "observed_frequency": 0.560417,
-        "calibration_gap": 0.01334
+        "n": 481,
+        "mean_predicted": 0.547004,
+        "observed_frequency": 0.559252,
+        "calibration_gap": 0.012248
       },
       {
         "range_low": 0.6,
         "range_high": 0.7,
-        "n": 418,
-        "mean_predicted": 0.649637,
-        "observed_frequency": 0.631579,
-        "calibration_gap": -0.018058
+        "n": 421,
+        "mean_predicted": 0.649572,
+        "observed_frequency": 0.634204,
+        "calibration_gap": -0.015368
       },
       {
         "range_low": 0.7,
