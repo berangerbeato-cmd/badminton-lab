@@ -1,8 +1,8 @@
 {
-  "observed_at_utc": "2026-10-28T09:22:19+00:00",
+  "observed_at_utc": "2026-10-28T09:43:55+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
-  "retail_shadow_rows": 15,
+  "retail_shadow_rows": 14,
   "sources": {
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=39; by_discipline_and_status=DM:OBSERVED_DATE_UNVERIFIED=12,F:OBSERVED_DATE_UNVERIFIED=12,H:OBSERVED_DATE_UNVERIFIED=15; eligible_MS_H2H=0; local_now=2026-10-28T10:22:19.920107+01:00",
+      "parser_notes": "parsed; page_parsed_entries=39; by_discipline_and_status=DM:OBSERVED_DATE_UNVERIFIED=12,F:OBSERVED_DATE_UNVERIFIED=12,H:OBSERVED_DATE_UNVERIFIED=15; eligible_MS_H2H=0; local_now=2026-10-28T10:43:55.549620+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "cc28ee251b97fa367d9e836205d27b549037da0f1b991af3546ec29af1c40bb4",
+      "body_sha256": "1ca7b86025a58cd230a89e165199ad03e37a6d4769f52a0cac055a2f68209eaa",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -31,15 +31,15 @@
       "flashscore_match_audit": null
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-      "quotes": 15,
+      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
+      "quotes": 14,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
-      "cache_age_seconds": null,
-      "body_sha256": "6facea5920a27351945a75107661e78036942401ed90028e730f81960f27db5d",
+      "cache_age_seconds": "220",
+      "body_sha256": "4a343171ea8113e835a32ec0e48722857a768cef829e5ea15e983e1da3c0adef",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "712def0baab811929c72f893802c27748cdeaf4698c82d58649416d3061a1caf",
+      "body_sha256": "adc6661e92c239a6ce063b48cfa78556f3274719d5caea7a08e16ada798f5bca",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "46d3ab6f085ddea564e2eff556cd1748010a6f1ca3aa520f610ebd56955fb60a",
+      "body_sha256": "b2ed10129b56aeb6e59ec425438728093f0c0117f87cb46ffad2b8e4c8583b21",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "44dc728d1912e3a56986fe51bce1685bdb42aca3025290275a16e908f2d7af32",
+      "body_sha256": "172ec05d64d347143914adf6fd9dcd04ecaf678fbab9b19bb3edac6f940839ac",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,16 +142,16 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "216",
-      "body_sha256": "d07dacd28ddd949514ac1d1323d78e8ed43e4816a6095c6d866dc577bf2b9824",
+      "cache_age_seconds": "247",
+      "body_sha256": "7cf4cbd7ff8a1346a24544c1cf268681f5bcbd7ee5ec7abb6df5cbc4ca496edb",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/kwinta-dominik-novk7Ky2/naraoka-kodai-MPtLI8G5/?mid=hSFsv6Wq",
           "https://www.flashscore.fr/match/badminton/chi-yu-jen-UoKg0KMC/nguyen-nhat-IHXw4bk4/?mid=Ige9iZVa",
           "https://www.flashscore.fr/match/badminton/shetty-ayush-6gsdLX3P/su-li-yang-rcp5Boqs/?mid=QJbHkD0C",
           "https://www.flashscore.fr/match/badminton/lee-zii-jia-fkHsTftd/teh-jia-heng-jason-67ZMg1T7/?mid=WG1PmiVO",
-          "https://www.flashscore.fr/match/badminton/dubovenko-daniil-KxHOaNOF/dwicahyo-ade-resky-zTSfIJi4/?mid=bq9qbRNF",
           "https://www.flashscore.fr/match/badminton/holm-ditlev-jaeger-MBNBW9gO/nishimoto-kenta-6wr01Umc/?mid=fgus6Ypg",
+          "https://www.flashscore.fr/match/badminton/dubovenko-daniil-KxHOaNOF/dwicahyo-ade-resky-zTSfIJi4/?mid=bq9qbRNF",
           "https://www.flashscore.fr/match/badminton/gemke-rasmus-jeJcG9rb/su-li-yang-rcp5Boqs/?mid=SUq2OAOE",
           "https://www.flashscore.fr/match/badminton/gemke-rasmus-jeJcG9rb/koga-minoru-SCY8B1IH/?mid=6XITqrUj",
           "https://www.flashscore.fr/match/badminton/antonsen-anders-GMQqJqeP/huang-harry-tUNv8gSR/?mid=YwBF7oMc",
@@ -164,7 +164,7 @@
         ],
         "index_match_link_count": 82,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n28/10 ME\nHYLO Open (Allemagne)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nNaraoka K.\nKwinta D.\n2\n0\n21\n18\n21\n14\nAnnulé\nChi Y. J.\nNguyen N.\n-\n-\nAnnulé\nShetty A.\nSu L. Y.\n-\n-\n11:30\nLee Z. J.\nTeh J. H. J.\n-\n-\n12:10\nDwicahyo A. R.\nDubovenko D.\n-\n-\n12:20\nNishimoto K.\nHolm J.\n-\n-\n13:10\nGemke R.\nSu L. Y.\n-\n-\nAnnulé\nKoga M.\nGemke R.\n-\n-\n14:50\nAntonsen A.\nHuang H.\n-\n-\n15:40\nChristie J.\nBogebjerg W.\n-\n-\n17:20\nKoga M.\nTan G.\n-\n-\n18:10\nJohannesen M.\nMerkle A.\n-\n-\n19:00\nOldorff J.\nSen L.\n-\n-\n19:50\nHaase N.\nCarraggi J.\n-\n-\n19:50\nMannepalli T.\nChi Y. J.\n-\n-\nAnnulé\nMannepalli T.\nPopov T. J.\n-\n-\nAnnulé\nPrannoy H. S.\nLanier A.\n-\n-\n20:40\nPrannoy H. S.\nPopov T. J.\n-\n-\n21:30\nGeorge K.\nCheam J. W.\n-\n-\nAnnulé\nKoljonen K.\nPopov C.\n-\n-\n21:30\nKoljonen K.\nSubramanian S. M.\n-\n-\n21:30\nZilberman M.\nDinata A.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nChochuwong Po.\nRyberg A. S.\n2\n0\n21\n17\n21\n11\nAnnulé\nChochuwong Po.\nSihag D.\n-\n-\nTerminé\nMaixnerova P.\nZhang W. Y.\n0\n2\n16\n21\n17\n21\nTerminé\nKashyap A.\nBuhrova P.\n0\n2\n12\n21\n18\n21\nAnnulé\nLi M.\nSung S. Y.\n-\n-\n1. set\nSihag D.\nBansod M.\n0\n0\n4\n4\nAnnulé\nKjaersfeldt L. H.\nBansod M.\n-\n-\n13:00\nSvabikova T.\nHooda U.\n-\n-\n13:50\nArin N.\nSung S. Y.\n-\n-\nAnnulé\nArin N.\nSindhu P. V.\n-\n-\n14:00\nOstergaard F.\nKantemyr Y.\n-\n-\n16:30\nBaruah I.\nWilson M.\n-\n-\n16:30\nLiyanage R.\nKharb A.\n-\n-\nAnnulé\nBlichfeldt M.\nSaeheng T.\n-\n-\n17:20\nKjaersfeldt L. H.\nSaeheng T.\n-\n-\n18:10\nLin E.\nGilmour K.\n-\n-\n19:00\nAz Zahra K. F.\nChristophersen L.\n-\n-\n19:00\nBharath P.\nSindhu P. V.\n-\n-\n19:50\nSchulz A.\nHuang Y-H.\n-\n-\n20:40\nLi Y.\nPancasari R."
+        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n28/10 ME\nHYLO Open (Allemagne)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nNaraoka K.\nKwinta D.\n2\n0\n21\n18\n21\n14\nAnnulé\nChi Y. J.\nNguyen N.\n-\n-\nAnnulé\nShetty A.\nSu L. Y.\n-\n-\n11:10\nLee Z. J.\nTeh J. H. J.\n-\n-\n11:50\nNishimoto K.\nHolm J.\n-\n-\n12:10\nDwicahyo A. R.\nDubovenko D.\n-\n-\n12:40\nGemke R.\nSu L. Y.\n-\n-\nAnnulé\nKoga M.\nGemke R.\n-\n-\n14:20\nAntonsen A.\nHuang H.\n-\n-\n15:10\nChristie J.\nBogebjerg W.\n-\n-\n17:20\nKoga M.\nTan G.\n-\n-\n18:10\nJohannesen M.\nMerkle A.\n-\n-\n18:30\nOldorff J.\nSen L.\n-\n-\n19:20\nHaase N.\nCarraggi J.\n-\n-\n19:20\nMannepalli T.\nChi Y. J.\n-\n-\nAnnulé\nMannepalli T.\nPopov T. J.\n-\n-\n20:10\nPrannoy H. S.\nPopov T. J.\n-\n-\nAnnulé\nPrannoy H. S.\nLanier A.\n-\n-\n21:00\nGeorge K.\nCheam J. W.\n-\n-\n21:00\nZilberman M.\nDinata A.\n-\n-\nAnnulé\nKoljonen K.\nPopov C.\n-\n-\n21:30\nKoljonen K.\nSubramanian S. M.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nChochuwong Po.\nRyberg A. S.\n2\n0\n21\n17\n21\n11\nAnnulé\nChochuwong Po.\nSihag D.\n-\n-\nTerminé\nMaixnerova P.\nZhang W. Y.\n0\n2\n16\n21\n17\n21\nTerminé\nKashyap A.\nBuhrova P.\n0\n2\n12\n21\n18\n21\nAnnulé\nLi M.\nSung S. Y.\n-\n-\n2. set\nSihag D.\nBansod M.\n1\n0\n21\n18\n4\n7\nAnnulé\nKjaersfeldt L. H.\nBansod M.\n-\n-\n13:00\nSvabikova T.\nHooda U.\n-\n-\n13:30\nOstergaard F.\nKantemyr Y.\n-\n-\n13:50\nArin N.\nSung S. Y.\n-\n-\nAnnulé\nArin N.\nSindhu P. V.\n-\n-\n16:00\nBaruah I.\nWilson M.\n-\n-\n16:00\nLiyanage R.\nKharb A.\n-\n-\n16:50\nKjaersfeldt L. H.\nSaeheng T.\n-\n-\nAnnulé\nBlichfeldt M.\nSaeheng T.\n-\n-\n17:40\nLin E.\nGilmour K.\n-\n-\n18:30\nBharath P.\nSindhu P. V.\n-\n-\n19:00\nAz Zahra K. F.\nChristophersen L.\n-\n-\n19:50\nSchulz A.\nHuang Y-H.\n-\n-\n20:10\nLi Y.\nPancas"
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/chi-yu-jen-UoKg0KMC/mannepalli-tharun-rHey7g9B/#/cotes/home-away/temps-regulier/",
@@ -175,11 +175,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/chi-yu-jen-UoKg0KMC/mannepalli-tharun-rHey7g9B/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "dbe32613c2ac0171c8fc1248f827108f63c78c39e24bcee140aa7d264274a226",
+        "body_sha256": "b6b10e7a988a795c1f4ee7489f0cc5f32d050446c435bc925785b69a10eaf650",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Tharun Mannepalli - Yu Jen Chi (28/10/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - HOMMESHYLO OPEN - 1/16 DE FINALE\nNouvelle fenêtre\n28.10.2026 19:50\nMannepalli T.\nBWF\n: 54.\n-\nSTREAM\nChi Y. J.\nBWF\n: 24.\n-\n28.10.2026 19:50\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nVIDÉO\nCOTES\nHOME/AWAY\n1\n2\n-\n-\nLIVE STREAM\n-\n-\n-\n-\n-\n-\n3.25\n1.33\nFAIRE UN PARI\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $350 in Bonus Bets when you wager $5 for 7 days\n21+ $5 first deposit required to get bonus bets which expire 7 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBetMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. 1-800-BETS-OFF (IA), New customers only. T&C apply Must opt-in and wager $10+ cash on any market to receive $50 in Bonus Bets each day for your first 5 days\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE MATCH\nSTADE:\nSaarlandhalle\n (Sarrebruck)\nFORME\nMannepalli T.\n?\nD\nV\nD\nV\nV\nChi Y. J.\n?\nD\nV\nV\nD\nD\n",
+        "text_excerpt_for_debug": "Tharun Mannepalli - Yu Jen Chi (28/10/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - HOMMESHYLO OPEN - 1/16 DE FINALE\nNouvelle fenêtre\n28.10.2026 19:20\nMannepalli T.\nBWF\n: 54.\n-\nSTREAM\nChi Y. J.\nBWF\n: 24.\n-\n28.10.2026 19:20\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nVIDÉO\nCOTES\nHOME/AWAY\n1\n2\n3.25\n1.33\nFAIRE UN PARI\nVoir plus\nOFFRES BONUS\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nINFORMATIONS DE MATCH\nSTADE:\nSaarlandhalle\n (Sarrebruck)\nFORME\nMannepalli T.\n?\nD\nV\nD\nV\nV\nChi Y. J.\n?\nD\nV\nV\nD\nD\nPublicité\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nPublicité\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT HYLO Open Hommes\nBWF WT HYLO Open Femmes\nBWF WT HYLO Open Doubles Hommes\nBWF WT HYLO Open Doubles Femmes\nBWF WT HYLO Open Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nG",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 6077,
+        "body_characters": 5190,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -191,20 +191,11 @@
           "HOME/AWAY",
           "1",
           "2",
-          "-",
-          "-",
-          "LIVE STREAM",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
           "3.25",
           "1.33",
           "FAIRE UN PARI"
         ],
-        "odds_section_dash_count": 8,
+        "odds_section_dash_count": 0,
         "odds_section_decimal_prices": [
           "3.25",
           "1.33"
@@ -222,8 +213,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "172",
-      "body_sha256": "ab7ba1040152698f6170fb19e885570f5ad1620d5391a2db4f5095a92fa9b62e",
+      "cache_age_seconds": "0",
+      "body_sha256": "cf73e6fdaaaadd7d2c1f41517bd2ed9bd45ec39bbdbfbc4de20e7d7820db881e",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
