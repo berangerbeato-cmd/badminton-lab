@@ -1,9 +1,8 @@
 {
   "verification_summary": {
-    "unique_matched_fixture_count": 7,
+    "unique_matched_fixture_count": 6,
     "matched_fixture_ids": [
       "5273:1560240",
-      "5273:1560257",
       "5273:1560294",
       "5273:1560300",
       "5273:1560312",
@@ -69,38 +68,38 @@
     ],
     "external_schedule_coverage_count": 0,
     "kickoff_evidence_status_counts": {
-      "SOURCE_MISSING": 7
+      "SOURCE_MISSING": 6
     },
     "prematch_timing_status_counts": {
-      "KICKOFF_DATE_ONLY": 7
+      "KICKOFF_DATE_ONLY": 6
     },
     "model_fixture_count": 15,
-    "public_quote_count": 13,
-    "comparison_count": 13,
+    "public_quote_count": 12,
+    "comparison_count": 12,
     "status_counts": {
       "FIXTURE_ABSENT_FROM_MODEL": 6,
-      "UNVERIFIED_SHADOW_ONLY": 7
+      "UNVERIFIED_SHADOW_ONLY": 6
     },
     "verified_prematch_count": 0,
     "validated_roi_pct": null,
-    "missing_kickoff_count": 7,
-    "missing_executable_price_count": 7
+    "missing_kickoff_count": 6,
+    "missing_executable_price_count": 6
   },
-  "generated_at_utc": "2026-10-28T09:58:54+00:00",
+  "generated_at_utc": "2026-10-28T10:22:54+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
-  "comparison_count": 13,
+  "comparison_count": 12,
   "rejected_sources": [],
   "source_audit": {
     "unibet_fr": {
       "status": "FRESH_EMPTY",
       "snapshot_file": "data/odds_shadow/unibet_fr/latest.json",
       "quotes_read": 0,
-      "collector_status": "REJECT_HTTP_CACHE_AGE"
+      "collector_status": "NO_CONFIDENT_PREMATCH_QUOTES"
     },
     "netbet_quotes": {
       "status": "FRESH_SNAPSHOT",
       "snapshot_file": "data/odds_shadow/netbet_quotes/latest.json",
-      "quotes_read": 13,
+      "quotes_read": 12,
       "collector_status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
     }
   },
@@ -133,9 +132,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-28T09:58:45+00:00",
-      "model_asof_utc": "2026-10-28T09:56:57+00:00",
-      "model_age_seconds": 108,
+      "observed_at_utc": "2026-10-28T10:22:44+00:00",
+      "model_asof_utc": "2026-10-28T10:20:42+00:00",
+      "model_age_seconds": 122,
       "model_probability_a": 0.96273763,
       "bookmaker_player_order_reversed": false,
       "odds": [
@@ -174,61 +173,6 @@
     },
     {
       "source": "netbet_quotes",
-      "bwf_match_id": "5273:1560257",
-      "players": [
-        "Ade Resky DWICAHYO",
-        "Daniil DUBOVENKO"
-      ],
-      "prematch_timing_status": "KICKOFF_DATE_ONLY",
-      "kickoff_source_verified": false,
-      "external_schedule_status": "NO_EXTERNAL_SCHEDULE",
-      "external_scheduled_start_utc": null,
-      "external_schedule_source": null,
-      "external_schedule_source_url": null,
-      "kickoff_evidence_status": "SOURCE_MISSING",
-      "kickoff_source": null,
-      "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-28T09:58:45+00:00",
-      "model_asof_utc": "2026-10-28T09:56:57+00:00",
-      "model_age_seconds": 108,
-      "model_probability_a": 0.2294089,
-      "bookmaker_player_order_reversed": false,
-      "odds": [
-        4.3,
-        1.08
-      ],
-      "market_overround_pct": 15.85,
-      "market_implied_probability_raw": [
-        0.232558,
-        0.925926
-      ],
-      "market_implied_probability_normalized": [
-        0.200743,
-        0.799257
-      ],
-      "quote_listed_day_paris": "2026-10-28",
-      "quote_day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
-      "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
-      "bookmaker_price_updated_at_utc": null,
-      "actual_kickoff_at_utc": null,
-      "observation_before_listed_calendar_day": false,
-      "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
-      "illustrative_ev_pct": [
-        -1.35,
-        -16.78
-      ],
-      "flags": [
-        "MARKET_DETAIL_UNVERIFIED",
-        "KICKOFF_UNVERIFIED",
-        "EXECUTABLE_PRICE_UNVERIFIED",
-        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
-        "BWF_KICKOFF_DATE_ONLY"
-      ],
-      "status": "UNVERIFIED_SHADOW_ONLY",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
       "bwf_match_id": "5273:1560300",
       "players": [
         "Jonatan CHRISTIE",
@@ -243,9 +187,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-28T09:58:45+00:00",
-      "model_asof_utc": "2026-10-28T09:56:57+00:00",
-      "model_age_seconds": 108,
+      "observed_at_utc": "2026-10-28T10:22:44+00:00",
+      "model_asof_utc": "2026-10-28T10:20:42+00:00",
+      "model_age_seconds": 122,
       "model_probability_a": 0.9399136,
       "bookmaker_player_order_reversed": false,
       "odds": [
@@ -298,9 +242,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-28T09:58:45+00:00",
-      "model_asof_utc": "2026-10-28T09:56:57+00:00",
-      "model_age_seconds": 108,
+      "observed_at_utc": "2026-10-28T10:22:44+00:00",
+      "model_asof_utc": "2026-10-28T10:20:42+00:00",
+      "model_age_seconds": 122,
       "model_probability_a": 0.75397413,
       "bookmaker_player_order_reversed": false,
       "odds": [
@@ -353,9 +297,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-28T09:58:45+00:00",
-      "model_asof_utc": "2026-10-28T09:56:57+00:00",
-      "model_age_seconds": 108,
+      "observed_at_utc": "2026-10-28T10:22:44+00:00",
+      "model_asof_utc": "2026-10-28T10:20:42+00:00",
+      "model_age_seconds": 122,
       "model_probability_a": 0.44283891,
       "bookmaker_player_order_reversed": false,
       "odds": [
@@ -408,9 +352,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-28T09:58:45+00:00",
-      "model_asof_utc": "2026-10-28T09:56:57+00:00",
-      "model_age_seconds": 108,
+      "observed_at_utc": "2026-10-28T10:22:44+00:00",
+      "model_asof_utc": "2026-10-28T10:20:42+00:00",
+      "model_age_seconds": 122,
       "model_probability_a": 0.08995723,
       "bookmaker_player_order_reversed": false,
       "odds": [
@@ -463,9 +407,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-28T09:58:45+00:00",
-      "model_asof_utc": "2026-10-28T09:56:57+00:00",
-      "model_age_seconds": 108,
+      "observed_at_utc": "2026-10-28T10:22:44+00:00",
+      "model_asof_utc": "2026-10-28T10:20:42+00:00",
+      "model_age_seconds": 122,
       "model_probability_a": 0.20437638,
       "bookmaker_player_order_reversed": false,
       "odds": [

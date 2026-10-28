@@ -1,11 +1,11 @@
 {
-  "body_sha256": "41e997ee26c579709b9af1547f7c211651771bdfda851cb468415f9f00b898cd",
+  "body_sha256": "6cc274bdcf20d8de2390c18bfc9143d80fdc0f3aaecad864e61e4a275cbe031d",
   "bookmaker_price_updated_at": null,
-  "cache_age_seconds": "160",
-  "finished_at_utc": "2026-10-28T09:58:00+00:00",
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-10-28T10:21:59+00:00",
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-28T09:57:51+00:00",
+  "observed_at_utc": "2026-10-28T10:21:45+00:00",
   "operator": "Parions Sport Point de Vente (FDJ)",
   "operator_kind": "RETAIL_NOT_ONLINE",
   "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
@@ -15,11 +15,8 @@
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-f/47819",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-h/47818",
-    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821/match_eckerlinkelch_channg/1319571",
-    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821/match_koldingwerge_franconfranco/1319132",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821/match_wuyang_beggajacob/1319131",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-h/47818/match_adwicahyo_ddubovenko/1319578",
-    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-h/47818/match_knishimoto_dholm/1318406",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821/match_santordeboule_yanghu/1319122",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-f/47819/match_tsvabikova_uhooda/1319148",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-h/47818/match_rgemke_ylsu/1319427",
@@ -34,34 +31,13 @@
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821/match_voelkemoszczy_seidelnguyen/1319582",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821/match_mammerimammer_gicqueldelrue/1319124",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-f/47819/match_ibaruah_mwilson/1319576",
-    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-f/47819/match_rliyanage_akharb/1319584"
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-f/47819/match_rliyanage_akharb/1319584",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-f/47819/match_lkjaersfeldt_tsaeheng/1319422",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-h/47818/match_mkoga_gtan/1319424",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821/match_devertoepffer_espersnielsen/1319434"
   ],
   "public_page_screenshot": "data/odds_shadow/visual_evidence/fdj_pos_fr.png",
   "quotes": [
-    {
-      "discipline": "MS",
-      "market": "H2H_FULL_MATCH",
-      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
-      "odds_1": 3.75,
-      "odds_2": 1.13,
-      "player_1_display": "A.Dwicahyo",
-      "player_2_display": "D.Dubovenko",
-      "retail_competition_display": "Hylo Open H",
-      "retail_event_display": "A.Dwicahyo-D.Dubovenko",
-      "valid_until_paris": "2026-10-28T11:10+01:00"
-    },
-    {
-      "discipline": "MS",
-      "market": "H2H_FULL_MATCH",
-      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
-      "odds_1": 1.11,
-      "odds_2": 4.05,
-      "player_1_display": "K.Nishimoto",
-      "player_2_display": "D.Holm",
-      "retail_competition_display": "Hylo Open H",
-      "retail_event_display": "K.Nishimoto-D.Holm",
-      "valid_until_paris": "2026-10-28T11:15+01:00"
-    },
     {
       "discipline": "MS",
       "market": "H2H_FULL_MATCH",
@@ -100,20 +76,6 @@
     },
     {
       "discipline": "MS",
-      "event_page_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-h/47818",
-      "market": "H2H_FULL_MATCH",
-      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
-      "odds_1": 3.75,
-      "odds_2": 1.13,
-      "player_1_display": "A.Dwicahyo",
-      "player_2_display": "D.Dubovenko",
-      "retail_competition_display": "Hylo Open H",
-      "retail_event_display": "A.Dwicahyo-D.Dubovenko",
-      "valid_until_paris": "2026-10-28T11:20+01:00"
-    },
-    {
-      "discipline": "MS",
-      "event_page_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-h/47818",
       "market": "H2H_FULL_MATCH",
       "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
       "odds_1": 1.11,
@@ -230,12 +192,12 @@
     }
   ],
   "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
-  "retail_page_cached": true,
+  "retail_page_cached": false,
   "retail_pages_audited": [
     {
-      "cache_age_seconds": "159",
+      "cache_age_seconds": null,
       "http_status": 200,
-      "quotes": 14,
+      "quotes": 12,
       "status": "retail face-à-face rows",
       "url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-h/47818"
     }
@@ -243,10 +205,10 @@
   "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Wed, 28 Oct 2026 09:57:52 GMT",
+  "server_date": "Wed, 28 Oct 2026 10:21:47 GMT",
   "source_key": "fdj_pos_fr",
   "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
-  "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
-  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nSerie A\nCpe Allemagne\nEFL Cup\nL1 McDonald's\nLigue 2 BKT\nLaLiga\nPremier League\n+\nAfficher plus\nTennis\nToutes les compétitions\nBale\nVienne\nTokyo\nGuangzhou\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nD1 France (H)\nEurocup (H)\nChampionsLeague\nEurope Cup\nBBL\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBaseball\nBoxe\nFormule 1\nGolf\nMMA\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nAujourd'hui\nEckerlin/Kelch-Chan/Ng\nHylo Open DM\n\nN°18967 Face à Face I Fin de valid. 28/10 10h45\n\nAfficher\nEckerlin/Kelch\n6,20\nChan/Ng\n1,01\n96%\n3%\nKolding/Werge-Francon/Franco\nHylo Open DM\n\nN°6591 Face à Face I Fin de valid. 28/10 10h50\n\nAfficher\nKolding/Werge\n1,01\nFrancon/Franco\n6,20\n17%\n82%\nWu/Yang-Begga/Jacob\nHylo Open DM\n\nN°18576 Face à Face I Fin de valid. 28/10 11h10\n\nAfficher\nWu/Yang\n1,05\nBegga/Jacob\n5,10\n9%\n90%\nA.Dwicahyo-D.Dubovenko\nHylo Open H\n\nN°18331 Face à Face I Fin d",
+  "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nSerie A\nCpe Allemagne\nEFL Cup\nL1 McDonald's\nLigue 2 BKT\nLaLiga\nPremier League\n+\nAfficher plus\nTennis\nToutes les compétitions\nBale\nVienne\nTokyo\nGuangzhou\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nD1 France (H)\nEurocup (H)\nChampionsLeague\nEurope Cup\nBBL\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBaseball\nBoxe\nFormule 1\nGolf\nMMA\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nAujourd'hui\nWu/Yang-Begga/Jacob\nHylo Open DM\n\nN°18576 Face à Face I Fin de valid. 28/10 11h20\n\nAfficher\nWu/Yang\n1,04\nBegga/Jacob\n5,00\n10%\n89%\nA.Dwicahyo-D.Dubovenko\nHylo Open H\n\nN°18331 Face à Face I Fin de valid. 28/10 11h25\n\nAfficher\nA.Dwicahyo\n3,65\nD.Dubovenko\n1,13\n26%\n73%\nSantor/DeBoule-Yang/Hu\nHylo Open DM\n\nN°6593 Face à Face I Fin de valid. 28/10 12h40\n\nAfficher\nSantor/DeBoule\n6,70\nYang/Hu\n1,01\n12%\n87%\nT.Svabikova-U.Hooda\nHylo Open F\n\nN°18619 Face à Face I Fin de valid. 28/10",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }
