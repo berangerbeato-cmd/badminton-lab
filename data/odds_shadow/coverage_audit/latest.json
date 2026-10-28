@@ -43,32 +43,136 @@
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-10-27T10:16:26.797073+00:00",
+  "generated_at_utc": "2026-10-28T05:39:57.683475+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
-  "model_fixture_count": 3,
+  "model_fixture_count": 16,
   "model_fixtures": [
     {
-      "match_id": "5273:1560251",
+      "match_id": "5273:1560220",
       "players": [
-        "Mikolaj SZYMANOWSKI",
-        "Noah HAASE"
+        "Rasmus GEMKE",
+        "SU Li  Yang"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5273:1560316",
+      "match_id": "5273:1560240",
       "players": [
-        "Matthias KICKLITZ",
-        "Ade Resky DWICAHYO"
+        "Noah HAASE",
+        "Julien CARRAGGI"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5273:1560382",
+      "match_id": "5273:1560247",
       "players": [
-        "Victor ørding KAUFFMANN",
+        "Kalle KOLJONEN",
+        "S.Sankar Muthusamy SUBRAMANIAN"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5273:1560257",
+      "players": [
+        "Ade Resky DWICAHYO",
+        "Daniil DUBOVENKO"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5273:1560268",
+      "players": [
+        "PRANNOY H. S.",
+        "Toma Junior POPOV"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5273:1560273",
+      "players": [
+        "Kodai NARAOKA",
         "Dominik KWINTA"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5273:1560277",
+      "players": [
+        "Tharun MANNEPALLI",
+        "CHI Yu Jen"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5273:1560292",
+      "players": [
+        "Kiran GEORGE",
+        "CHEAM June Wei"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5273:1560294",
+      "players": [
+        "Joakim OLDORFF",
+        "Lakshya SEN"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5273:1560300",
+      "players": [
+        "Jonatan CHRISTIE",
+        "William BØGEBJERG"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5273:1560307",
+      "players": [
+        "LEE Zii Jia",
+        "Jia Heng TEH"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5273:1560312",
+      "players": [
+        "Anders ANTONSEN",
+        "Harry HUANG"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5273:1560313",
+      "players": [
+        "Minoru KOGA",
+        "Garret TAN"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5273:1560335",
+      "players": [
+        "Magnus JOHANNESEN",
+        "Arnaud MERKLE"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5273:1560368",
+      "players": [
+        "Kenta NISHIMOTO",
+        "Ditlev Jaeger HOLM"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5273:1560379",
+      "players": [
+        "Misha ZILBERMAN",
+        "Aria DINATA"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     }
@@ -77,194 +181,192 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T10:15:15+00:00",
-      "parser_notes": "parsed; page_parsed_entries=29; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=12,DH:OBSERVED_DATE_UNVERIFIED=12,DM:OBSERVED_DATE_UNVERIFIED=3,H:OBSERVED_DATE_UNVERIFIED=2; eligible_MS_H2H=0; local_now=2026-10-27T11:15:12.957556+01:00",
+      "observed_at_utc": "2026-10-28T05:38:48+00:00",
+      "parser_notes": "parsed; page_parsed_entries=39; by_discipline_and_status=DM:OBSERVED_DATE_UNVERIFIED=16,F:OBSERVED_DATE_UNVERIFIED=13,H:OBSERVED_DATE_UNVERIFIED=10; eligible_MS_H2H=0; local_now=2026-10-28T06:38:47.551780+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
     },
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
-      "quote_count": 13,
-      "observed_at_utc": "2026-10-27T10:16:15+00:00",
+      "quote_count": 1,
+      "observed_at_utc": "2026-10-28T05:39:50+00:00",
       "parser_notes": null,
       "index_market_audit": {
-        "eligible_listing_rows": 0,
-        "markets_seen": 15,
+        "eligible_listing_rows": 1,
+        "markets_seen": 12,
         "rejection_evidence": [
           {
             "following_lines": [
-              "Frederikke Ostergaard",
-              "1.22",
-              "Wei Xu",
-              "2.85"
+              "Dlapka-Rumpold",
+              "10.00",
+              "Cuevas-Jacob",
+              "1.01"
             ],
-            "market_line": 114,
+            "market_line": 107,
             "preceding_lines": [
+              "Scores en direct",
+              "Format des cotes",
+              "Accueil",
               "Badminton",
               "Pariez sur",
               "Badminton",
               "À L'AFFICHE",
-              "EN DIRECT",
               "TOUTE L'OFFRE BADMINTON",
-              "En direct",
-              "Hylo Open (F)",
-              "Set 1",
-              "LIVE",
-              "Frederikke Ostergaard",
-              "Wei Xu",
-              "1",
-              "1"
-            ],
-            "reason": "PLAYER_PAIR_MISMATCH"
-          },
-          {
-            "following_lines": [
-              "Matthias Kicklitz",
-              "1.63",
-              "Ade Resky Dwicahyo",
-              "1.82"
-            ],
-            "market_line": 128,
-            "preceding_lines": [
-              "Qui va gagner le match ?",
-              "Frederikke Ostergaard",
-              "1.22",
-              "Wei Xu",
-              "2.85",
-              "+ 9",
-              "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
-              "En direct",
-              "(2)",
               "Populaires",
-              "Hylo Open",
-              "LIVE dans 14 min",
-              "Matthias Kicklitz",
-              "Ade Resky Dwicahyo"
+              "Hylo Open, Doubles (F)",
+              "mer. 28 oct.",
+              "08:30",
+              "Dlapka-Rumpold",
+              "Cuevas-Jacob"
             ],
-            "reason": "COMPETITION_NOT_PROVEN"
+            "reason": "NON_MS_COMPETITION"
           },
           {
             "following_lines": [
-              "Mikolaj Szymanowski",
-              "1.60",
-              "Noah Haase",
-              "1.85"
+              "Ferdinansyah-Pasaribu",
+              "1.01",
+              "Dunn-Macpherson",
+              "6.75"
             ],
-            "market_line": 138,
+            "market_line": 134,
             "preceding_lines": [
-              "Hylo Open",
-              "LIVE dans 14 min",
-              "Matthias Kicklitz",
-              "Ade Resky Dwicahyo",
-              "Qui va gagner le match ?",
-              "Matthias Kicklitz",
-              "1.63",
-              "Ade Resky Dwicahyo",
-              "1.82",
-              "+ 10",
-              "Hylo Open",
-              "LIVE dans 14 min",
-              "Mikolaj Szymanowski",
-              "Noah Haase"
-            ],
-            "reason": "COMPETITION_NOT_PROVEN"
-          },
-          {
-            "following_lines": [
-              "Strooper-Bang",
-              "3.20",
-              "Perals-Torralba",
-              "1.17"
-            ],
-            "market_line": 148,
-            "preceding_lines": [
-              "Hylo Open",
-              "LIVE dans 14 min",
-              "Mikolaj Szymanowski",
-              "Noah Haase",
-              "Qui va gagner le match ?",
-              "Mikolaj Szymanowski",
-              "1.60",
-              "Noah Haase",
-              "1.85",
-              "+ 10",
-              "Hylo Open, Doubles Mixtes",
-              "LIVE dans 39 min",
-              "Strooper-Bang",
-              "Perals-Torralba"
-            ],
-            "reason": "COMPETITION_NOT_PROVEN"
-          },
-          {
-            "following_lines": [
-              "Chiu-Wang",
-              "-",
-              "Fernandez-Perals",
-              "12.00"
-            ],
-            "market_line": 159,
-            "preceding_lines": [
-              "LIVE dans 39 min",
-              "Strooper-Bang",
-              "Perals-Torralba",
-              "Qui va gagner le match ?",
-              "Strooper-Bang",
-              "3.20",
-              "Perals-Torralba",
-              "1.17",
-              "+ 7",
-              "Hylo Open, Doubles",
-              "mar. 27 oct.",
-              "17:25",
-              "Chiu-Wang",
-              "Fernandez-Perals"
-            ],
-            "reason": "PRICE_NOT_CONFIRMED"
-          },
-          {
-            "following_lines": [
-              "Matthias Kicklitz",
-              "1.63",
-              "Ade Resky Dwicahyo",
-              "1.82"
-            ],
-            "market_line": 176,
-            "preceding_lines": [
-              "Fernandez-Perals",
-              "12.00",
-              "+ 1",
-              "Hylo Open",
-              "(13)",
-              "Hylo Open, Doubles Mixtes",
-              "(11)",
+              "1.01",
+              "Dominik Kwinta",
+              "10.00",
+              "+ 19",
+              "Hylo Open, Doubles (F)",
+              "(8)",
               "Toute l'offre Badminton",
-              "(52)",
+              "(66)",
               "À Venir",
-              "Hylo Open",
-              "LIVE dans 14 min",
-              "Matthias Kicklitz",
-              "Ade Resky Dwicahyo"
+              "Hylo Open, Doubles Mixtes",
+              "mer. 28 oct.",
+              "08:00",
+              "Ferdinansyah-Pasaribu",
+              "Dunn-Macpherson"
             ],
-            "reason": "COMPETITION_NOT_PROVEN"
+            "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Liu-Hsu",
+              "1.01",
+              "Jones-Tolman",
+              "10.00"
+            ],
+            "market_line": 145,
+            "preceding_lines": [
+              "08:00",
+              "Ferdinansyah-Pasaribu",
+              "Dunn-Macpherson",
+              "Qui va gagner le match ?",
+              "Ferdinansyah-Pasaribu",
+              "1.01",
+              "Dunn-Macpherson",
+              "6.75",
+              "+ 1",
+              "Hylo Open, Doubles Mixtes",
+              "mer. 28 oct.",
+              "08:00",
+              "Liu-Hsu",
+              "Jones-Tolman"
+            ],
+            "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Rodriguez-Garcia",
+              "1.67",
+              "Wu-Lee",
+              "1.77"
+            ],
+            "market_line": 156,
+            "preceding_lines": [
+              "08:00",
+              "Liu-Hsu",
+              "Jones-Tolman",
+              "Qui va gagner le match ?",
+              "Liu-Hsu",
+              "1.01",
+              "Jones-Tolman",
+              "10.00",
+              "+ 1",
+              "Hylo Open, Doubles Mixtes",
+              "mer. 28 oct.",
+              "08:00",
+              "Rodriguez-Garcia",
+              "Wu-Lee"
+            ],
+            "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Dlapka-Rumpold",
+              "10.00",
+              "Cuevas-Jacob",
+              "1.01"
+            ],
+            "market_line": 167,
+            "preceding_lines": [
+              "08:00",
+              "Rodriguez-Garcia",
+              "Wu-Lee",
+              "Qui va gagner le match ?",
+              "Rodriguez-Garcia",
+              "1.67",
+              "Wu-Lee",
+              "1.77",
+              "+ 1",
+              "Hylo Open, Doubles (F)",
+              "mer. 28 oct.",
+              "08:30",
+              "Dlapka-Rumpold",
+              "Cuevas-Jacob"
+            ],
+            "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Kaloyana Nalbantova",
+              "1.85",
+              "Ashmita Chaliha",
+              "1.60"
+            ],
+            "market_line": 178,
+            "preceding_lines": [
+              "08:30",
+              "Dlapka-Rumpold",
+              "Cuevas-Jacob",
+              "Qui va gagner le match ?",
+              "Dlapka-Rumpold",
+              "10.00",
+              "Cuevas-Jacob",
+              "1.01",
+              "+ 1",
+              "Hylo Open (F)",
+              "mer. 28 oct.",
+              "08:30",
+              "Kaloyana Nalbantova",
+              "Ashmita Chaliha"
+            ],
+            "reason": "NON_MS_COMPETITION"
           }
         ],
         "rejections": {
-          "COMPETITION_NOT_PROVEN": 7,
-          "NON_MS_COMPETITION": 5,
-          "PLAYER_PAIR_MISMATCH": 1,
+          "NON_MS_COMPETITION": 9,
           "PRICE_NOT_CONFIRMED": 2
         }
       },
       "reason_counts": {
-        "NO_UNIQUE_BWF_FIXTURE": 11
+        "MISSING_SAME_DAY_ELO_SNAPSHOT": 1
       },
       "blocker": "QUOTE_OBSERVED_REQUIRES_VALIDATION"
     },
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T10:15:38+00:00",
+      "observed_at_utc": "2026-10-28T05:39:08+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -273,7 +375,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T10:15:53+00:00",
+      "observed_at_utc": "2026-10-28T05:39:24+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -282,7 +384,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T10:15:23+00:00",
+      "observed_at_utc": "2026-10-28T05:38:55+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -290,9 +392,9 @@
     },
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-      "quote_count": 11,
-      "observed_at_utc": "2026-10-27T10:15:25+00:00",
-      "parser_notes": "no unexpired face-à-face retail rows; audited 1 retail MS pages",
+      "quote_count": 16,
+      "observed_at_utc": "2026-10-28T05:38:56+00:00",
+      "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "QUOTE_OBSERVED_REQUIRES_VALIDATION"
@@ -300,7 +402,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T10:15:39+00:00",
+      "observed_at_utc": "2026-10-28T05:39:09+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -309,7 +411,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T10:15:49+00:00",
+      "observed_at_utc": "2026-10-28T05:39:19+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -318,7 +420,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T10:15:58+00:00",
+      "observed_at_utc": "2026-10-28T05:39:29+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -327,7 +429,7 @@
     "oddspedia_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T10:15:55+00:00",
+      "observed_at_utc": "2026-10-28T05:39:25+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -336,7 +438,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-27T10:16:10+00:00",
+      "observed_at_utc": "2026-10-28T05:39:46+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,

@@ -1,0 +1,102 @@
+{
+  "verification_summary": {
+    "unique_matched_fixture_count": 1,
+    "matched_fixture_ids": [
+      "5273:1560273"
+    ],
+    "unmatched_observation_count": 0,
+    "unmatched_observations": [],
+    "external_schedule_coverage_count": 0,
+    "kickoff_evidence_status_counts": {
+      "SOURCE_MISSING": 1
+    },
+    "prematch_timing_status_counts": {
+      "KICKOFF_DATE_ONLY": 1
+    },
+    "model_fixture_count": 16,
+    "public_quote_count": 1,
+    "comparison_count": 1,
+    "status_counts": {
+      "UNVERIFIED_SHADOW_ONLY": 1
+    },
+    "verified_prematch_count": 0,
+    "validated_roi_pct": null,
+    "missing_kickoff_count": 1,
+    "missing_executable_price_count": 1
+  },
+  "generated_at_utc": "2026-10-28T05:39:56+00:00",
+  "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
+  "comparison_count": 1,
+  "rejected_sources": [],
+  "source_audit": {
+    "unibet_fr": {
+      "status": "FRESH_EMPTY",
+      "snapshot_file": "data/odds_shadow/unibet_fr/latest.json",
+      "quotes_read": 0,
+      "collector_status": "NO_CONFIDENT_PREMATCH_QUOTES"
+    },
+    "netbet_quotes": {
+      "status": "FRESH_SNAPSHOT",
+      "snapshot_file": "data/odds_shadow/netbet_quotes/latest.json",
+      "quotes_read": 1,
+      "collector_status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+    }
+  },
+  "results": [
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5273:1560273",
+      "players": [
+        "Kodai NARAOKA",
+        "Dominik KWINTA"
+      ],
+      "prematch_timing_status": "KICKOFF_DATE_ONLY",
+      "kickoff_source_verified": false,
+      "external_schedule_status": "NO_EXTERNAL_SCHEDULE",
+      "external_scheduled_start_utc": null,
+      "external_schedule_source": null,
+      "external_schedule_source_url": null,
+      "kickoff_evidence_status": "SOURCE_MISSING",
+      "kickoff_source": null,
+      "kickoff_source_url": null,
+      "observed_at_utc": "2026-10-28T05:39:50+00:00",
+      "model_asof_utc": "2026-10-28T05:38:17+00:00",
+      "model_age_seconds": 93,
+      "model_probability_a": 0.96148005,
+      "bookmaker_player_order_reversed": false,
+      "odds": [
+        1.01,
+        10.0
+      ],
+      "market_overround_pct": 9.01,
+      "market_implied_probability_raw": [
+        0.990099,
+        0.1
+      ],
+      "market_implied_probability_normalized": [
+        0.908265,
+        0.091735
+      ],
+      "quote_listed_day_paris": "2026-10-28",
+      "quote_day_basis": "PUBLISHED_CALENDAR_DATE",
+      "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
+      "bookmaker_price_updated_at_utc": null,
+      "actual_kickoff_at_utc": null,
+      "observation_before_listed_calendar_day": false,
+      "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
+      "illustrative_ev_pct": [
+        -2.89,
+        -61.48
+      ],
+      "flags": [
+        "MARKET_DETAIL_UNVERIFIED",
+        "KICKOFF_UNVERIFIED",
+        "EXECUTABLE_PRICE_UNVERIFIED",
+        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
+        "BWF_KICKOFF_DATE_ONLY"
+      ],
+      "status": "UNVERIFIED_SHADOW_ONLY",
+      "decision": "NO_BET"
+    }
+  ]
+}

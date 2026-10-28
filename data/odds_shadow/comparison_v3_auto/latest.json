@@ -1,134 +1,32 @@
 {
   "verification_summary": {
-    "unique_matched_fixture_count": 2,
+    "unique_matched_fixture_count": 1,
     "matched_fixture_ids": [
-      "5273:1560251",
-      "5273:1560316"
+      "5273:1560273"
     ],
-    "unmatched_observation_count": 11,
-    "unmatched_observations": [
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Anders Antonsen",
-          "Harry Huang"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-10-28"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Gemke Rasmus",
-          "Li Yang Su"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-10-28"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Kiran George",
-          "June Wei Cheam"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-10-28"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Koljonen Kalle",
-          "Sankar Muthusamy Subramanian"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-10-28"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Lee Zii Jia",
-          "Jia Heng Teh"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-10-28"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Magnus Johannesen",
-          "Arnaud Merkle"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-10-28"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Minoru Koga",
-          "Garret Tan"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-10-28"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Nishimoto Kenta",
-          "Ditlev Jaeger Holm"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-10-28"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Prannoy Haseena Sunil Kumar",
-          "Toma Junior Popov"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-10-28"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Tharun Mannepalli",
-          "Yu Jen Chi"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-10-28"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Zilberman Misha",
-          "Aria Dinata"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-10-28"
-      }
-    ],
+    "unmatched_observation_count": 0,
+    "unmatched_observations": [],
     "external_schedule_coverage_count": 0,
     "kickoff_evidence_status_counts": {
-      "SOURCE_MISSING": 2
+      "SOURCE_MISSING": 1
     },
     "prematch_timing_status_counts": {
-      "KICKOFF_DATE_ONLY": 2
+      "KICKOFF_DATE_ONLY": 1
     },
-    "model_fixture_count": 3,
-    "public_quote_count": 13,
-    "comparison_count": 13,
+    "model_fixture_count": 16,
+    "public_quote_count": 1,
+    "comparison_count": 1,
     "status_counts": {
-      "UNVERIFIED_SHADOW_ONLY": 2,
-      "FIXTURE_ABSENT_FROM_MODEL": 11
+      "UNVERIFIED_SHADOW_ONLY": 1
     },
     "verified_prematch_count": 0,
     "validated_roi_pct": null,
-    "missing_kickoff_count": 2,
-    "missing_executable_price_count": 2
+    "missing_kickoff_count": 1,
+    "missing_executable_price_count": 1
   },
-  "generated_at_utc": "2026-10-27T10:16:25+00:00",
+  "generated_at_utc": "2026-10-28T05:39:56+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
-  "comparison_count": 13,
+  "comparison_count": 1,
   "rejected_sources": [],
   "source_audit": {
     "unibet_fr": {
@@ -140,17 +38,17 @@
     "netbet_quotes": {
       "status": "FRESH_SNAPSHOT",
       "snapshot_file": "data/odds_shadow/netbet_quotes/latest.json",
-      "quotes_read": 13,
+      "quotes_read": 1,
       "collector_status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
     }
   },
   "results": [
     {
       "source": "netbet_quotes",
-      "bwf_match_id": "5273:1560316",
+      "bwf_match_id": "5273:1560273",
       "players": [
-        "Matthias KICKLITZ",
-        "Ade Resky DWICAHYO"
+        "Kodai NARAOKA",
+        "Dominik KWINTA"
       ],
       "prematch_timing_status": "KICKOFF_DATE_ONLY",
       "kickoff_source_verified": false,
@@ -161,34 +59,34 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-27T10:16:15+00:00",
-      "model_asof_utc": "2026-10-27T10:14:25+00:00",
-      "model_age_seconds": 110,
-      "model_probability_a": 0.33102595,
+      "observed_at_utc": "2026-10-28T05:39:50+00:00",
+      "model_asof_utc": "2026-10-28T05:38:17+00:00",
+      "model_age_seconds": 93,
+      "model_probability_a": 0.96148005,
       "bookmaker_player_order_reversed": false,
       "odds": [
-        1.63,
-        1.82
+        1.01,
+        10.0
       ],
-      "market_overround_pct": 16.29,
+      "market_overround_pct": 9.01,
       "market_implied_probability_raw": [
-        0.613497,
-        0.549451
+        0.990099,
+        0.1
       ],
       "market_implied_probability_normalized": [
-        0.527536,
-        0.472464
+        0.908265,
+        0.091735
       ],
-      "quote_listed_day_paris": "2026-10-27",
-      "quote_day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
+      "quote_listed_day_paris": "2026-10-28",
+      "quote_day_basis": "PUBLISHED_CALENDAR_DATE",
       "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
       "bookmaker_price_updated_at_utc": null,
       "actual_kickoff_at_utc": null,
       "observation_before_listed_calendar_day": false,
       "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
       "illustrative_ev_pct": [
-        -46.04,
-        21.75
+        -2.89,
+        -61.48
       ],
       "flags": [
         "MARKET_DETAIL_UNVERIFIED",
@@ -198,193 +96,6 @@
         "BWF_KICKOFF_DATE_ONLY"
       ],
       "status": "UNVERIFIED_SHADOW_ONLY",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "bwf_match_id": "5273:1560251",
-      "players": [
-        "Mikolaj SZYMANOWSKI",
-        "Noah HAASE"
-      ],
-      "prematch_timing_status": "KICKOFF_DATE_ONLY",
-      "kickoff_source_verified": false,
-      "external_schedule_status": "NO_EXTERNAL_SCHEDULE",
-      "external_scheduled_start_utc": null,
-      "external_schedule_source": null,
-      "external_schedule_source_url": null,
-      "kickoff_evidence_status": "SOURCE_MISSING",
-      "kickoff_source": null,
-      "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-27T10:16:15+00:00",
-      "model_asof_utc": "2026-10-27T10:14:25+00:00",
-      "model_age_seconds": 110,
-      "model_probability_a": 0.3712135,
-      "bookmaker_player_order_reversed": false,
-      "odds": [
-        1.6,
-        1.85
-      ],
-      "market_overround_pct": 16.55,
-      "market_implied_probability_raw": [
-        0.625,
-        0.540541
-      ],
-      "market_implied_probability_normalized": [
-        0.536232,
-        0.463768
-      ],
-      "quote_listed_day_paris": "2026-10-27",
-      "quote_day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
-      "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
-      "bookmaker_price_updated_at_utc": null,
-      "actual_kickoff_at_utc": null,
-      "observation_before_listed_calendar_day": false,
-      "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
-      "illustrative_ev_pct": [
-        -40.61,
-        16.33
-      ],
-      "flags": [
-        "MARKET_DETAIL_UNVERIFIED",
-        "KICKOFF_UNVERIFIED",
-        "EXECUTABLE_PRICE_UNVERIFIED",
-        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
-        "BWF_KICKOFF_DATE_ONLY"
-      ],
-      "status": "UNVERIFIED_SHADOW_ONLY",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Anders Antonsen",
-        "Harry Huang"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 0,
-      "listed_day_paris": "2026-10-28",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Gemke Rasmus",
-        "Li Yang Su"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 0,
-      "listed_day_paris": "2026-10-28",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Kiran George",
-        "June Wei Cheam"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 0,
-      "listed_day_paris": "2026-10-28",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Koljonen Kalle",
-        "Sankar Muthusamy Subramanian"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 0,
-      "listed_day_paris": "2026-10-28",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Lee Zii Jia",
-        "Jia Heng Teh"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 0,
-      "listed_day_paris": "2026-10-28",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Magnus Johannesen",
-        "Arnaud Merkle"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 0,
-      "listed_day_paris": "2026-10-28",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Minoru Koga",
-        "Garret Tan"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 0,
-      "listed_day_paris": "2026-10-28",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Nishimoto Kenta",
-        "Ditlev Jaeger Holm"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 0,
-      "listed_day_paris": "2026-10-28",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Prannoy Haseena Sunil Kumar",
-        "Toma Junior Popov"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 0,
-      "listed_day_paris": "2026-10-28",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Tharun Mannepalli",
-        "Yu Jen Chi"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 0,
-      "listed_day_paris": "2026-10-28",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Zilberman Misha",
-        "Aria Dinata"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 0,
-      "listed_day_paris": "2026-10-28",
       "decision": "NO_BET"
     }
   ]
