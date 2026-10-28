@@ -1,0 +1,42 @@
+{
+  "generated_at_utc": "2026-10-28T08:48:40+00:00",
+  "comparison_generated_at_utc": "2026-10-28T08:48:39+00:00",
+  "policy": "RESEARCH_ONLY_NO_BET",
+  "comparison_count": 2,
+  "status_counts": {
+    "BLOCKED_UNVERIFIED": 2
+  },
+  "reason_counts": {
+    "EV_MISSING_OR_INVALID": 2,
+    "MATCH_ID_MISSING": 2,
+    "MODEL_AGE_UNKNOWN": 2,
+    "UNEXPECTED_SOURCE_STATUS": 2
+  },
+  "rows": [
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "",
+      "player_a": "Nishimoto Kenta",
+      "player_b": "Ditlev Jaeger Holm",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "",
+      "player_a": "Gemke Rasmus",
+      "player_b": "Li Yang Su",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    }
+  ],
+  "note": "Quality audit only; never confirms a market or executable price."
+}
