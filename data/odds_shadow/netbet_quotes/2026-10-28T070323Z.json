@@ -1,0 +1,348 @@
+{
+  "bookmaker_price_updated_at": null,
+  "candidate_count": 0,
+  "candidate_urls": [],
+  "elo_comparisons": [
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5273:1560273",
+      "date_basis": "PUBLISHED_CALENDAR_DATE",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-28T05:45:26+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Kodai Naraoka",
+        "bwf_name": "Kodai NARAOKA",
+        "decimal_odds": 1.01,
+        "illustrative_ev_pct": -3.69,
+        "model_fair_odds": 1.0486,
+        "model_probability": 0.95361023
+      },
+      "side_2": {
+        "bookmaker_display": "Dominik Kwinta",
+        "bwf_name": "Dominik KWINTA",
+        "decimal_odds": 10.0,
+        "illustrative_ev_pct": -53.61,
+        "model_fair_odds": 21.5565,
+        "model_probability": 0.04638977
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5273:1560307",
+      "date_basis": "PUBLISHED_CALENDAR_DATE",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-28T05:45:26+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Lee Zii Jia",
+        "bwf_name": "LEE Zii Jia",
+        "decimal_odds": 1.45,
+        "illustrative_ev_pct": -24.5,
+        "model_fair_odds": 1.9205,
+        "model_probability": 0.52069318
+      },
+      "side_2": {
+        "bookmaker_display": "Jia Heng Teh",
+        "bwf_name": "Jia Heng TEH",
+        "decimal_odds": 2.12,
+        "illustrative_ev_pct": 1.61,
+        "model_fair_odds": 2.0863,
+        "model_probability": 0.47930682
+      },
+      "valid_pre_match_T0": false
+    }
+  ],
+  "fixture_join_audit": [
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 1,
+      "listed_day_paris": "2026-10-28",
+      "model_rows_same_day": 16,
+      "model_rows_same_tournament_and_day": 16,
+      "players": [
+        "Kodai Naraoka",
+        "Dominik Kwinta"
+      ],
+      "status": "FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 1,
+      "listed_day_paris": "2026-10-28",
+      "model_rows_same_day": 16,
+      "model_rows_same_tournament_and_day": 16,
+      "players": [
+        "Lee Zii Jia",
+        "Jia Heng Teh"
+      ],
+      "status": "FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION"
+    }
+  ],
+  "index_badminton_link_count": 3,
+  "index_badminton_link_examples": [
+    "https://www.netbet.fr/badminton",
+    "https://www.netbet.fr/badminton/international/hylo-open-f",
+    "https://www.netbet.fr/badminton/international/hylo-open-doubles-mixtes"
+  ],
+  "index_body_sha256": "da680d6538c32805ba1aeaa55dcffe21fd5ec7fe3c5d7cd018541969a3511082",
+  "index_eligible_quotes": 2,
+  "index_http_status": 200,
+  "index_link_count": 128,
+  "index_link_path_counts": {
+    "": 9,
+    "badminton": 5,
+    "basketball": 2,
+    "biathlon": 2,
+    "boxe": 2,
+    "cashout": 2,
+    "evenement": 49,
+    "football": 10,
+    "paris-en-direct": 5,
+    "promotions": 2,
+    "tennis": 12,
+    "zendesk": 2
+  },
+  "index_market_audit": {
+    "eligible_listing_rows": 2,
+    "markets_seen": 11,
+    "rejection_evidence": [
+      {
+        "following_lines": [
+          "Amalie Schulz",
+          "2.27",
+          "Huang Yu-Hsun",
+          "1.38"
+        ],
+        "market_line": 120,
+        "preceding_lines": [
+          "Dominik Kwinta",
+          "Qui va gagner le match ?",
+          "Kodai Naraoka",
+          "1.01",
+          "Dominik Kwinta",
+          "10.00",
+          "+ 19",
+          "Toute l'offre Badminton",
+          "(65)",
+          "À Venir",
+          "Hylo Open (F)",
+          "LIVE dans 27 min",
+          "Amalie Schulz",
+          "Huang Yu-Hsun"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Kaloyana Nalbantova",
+          "1.85",
+          "Ashmita Chaliha",
+          "1.60"
+        ],
+        "market_line": 130,
+        "preceding_lines": [
+          "Hylo Open (F)",
+          "LIVE dans 27 min",
+          "Amalie Schulz",
+          "Huang Yu-Hsun",
+          "Qui va gagner le match ?",
+          "Amalie Schulz",
+          "2.27",
+          "Huang Yu-Hsun",
+          "1.38",
+          "+ 15",
+          "Hylo Open (F)",
+          "LIVE dans 27 min",
+          "Kaloyana Nalbantova",
+          "Ashmita Chaliha"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Petra Maixnerova",
+          "2.70",
+          "Wen Yu Zhang",
+          "1.26"
+        ],
+        "market_line": 140,
+        "preceding_lines": [
+          "Hylo Open (F)",
+          "LIVE dans 27 min",
+          "Kaloyana Nalbantova",
+          "Ashmita Chaliha",
+          "Qui va gagner le match ?",
+          "Kaloyana Nalbantova",
+          "1.85",
+          "Ashmita Chaliha",
+          "1.60",
+          "+ 17",
+          "Hylo Open (F)",
+          "LIVE dans 57 min",
+          "Petra Maixnerova",
+          "Wen Yu Zhang"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Pornpawee Chochuwong",
+          "-",
+          "Anna Siess Ryberg",
+          "14.50"
+        ],
+        "market_line": 150,
+        "preceding_lines": [
+          "Hylo Open (F)",
+          "LIVE dans 57 min",
+          "Petra Maixnerova",
+          "Wen Yu Zhang",
+          "Qui va gagner le match ?",
+          "Petra Maixnerova",
+          "2.70",
+          "Wen Yu Zhang",
+          "1.26",
+          "+ 20",
+          "Hylo Open (F)",
+          "LIVE dans 57 min",
+          "Pornpawee Chochuwong",
+          "Anna Siess Ryberg"
+        ],
+        "reason": "PRICE_NOT_CONFIRMED"
+      },
+      {
+        "following_lines": [
+          "Rodriguez-Garcia",
+          "-",
+          "Panev-Stoeva",
+          "13.50"
+        ],
+        "market_line": 160,
+        "preceding_lines": [
+          "Hylo Open (F)",
+          "LIVE dans 57 min",
+          "Pornpawee Chochuwong",
+          "Anna Siess Ryberg",
+          "Qui va gagner le match ?",
+          "Pornpawee Chochuwong",
+          "-",
+          "Anna Siess Ryberg",
+          "14.50",
+          "+ 2",
+          "Hylo Open, Doubles Mixtes",
+          "LIVE dans 57 min",
+          "Rodriguez-Garcia",
+          "Panev-Stoeva"
+        ],
+        "reason": "PRICE_NOT_CONFIRMED"
+      },
+      {
+        "following_lines": [
+          "Aakarshi Kashyap",
+          "1.65",
+          "Polina Buhrova",
+          "1.78"
+        ],
+        "market_line": 171,
+        "preceding_lines": [
+          "LIVE dans 57 min",
+          "Rodriguez-Garcia",
+          "Panev-Stoeva",
+          "Qui va gagner le match ?",
+          "Rodriguez-Garcia",
+          "-",
+          "Panev-Stoeva",
+          "13.50",
+          "+ 2",
+          "Hylo Open (F)",
+          "mer. 28 oct.",
+          "09:25",
+          "Aakarshi Kashyap",
+          "Polina Buhrova"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      }
+    ],
+    "rejections": {
+      "COMPETITION_NOT_PROVEN": 3,
+      "DUPLICATE_MARKET": 1,
+      "NON_MS_COMPETITION": 2,
+      "PRICE_NOT_CONFIRMED": 3
+    }
+  },
+  "index_resolved_url": "https://www.netbet.fr/badminton",
+  "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
+  "index_url": "https://www.netbet.fr/badminton",
+  "model_snapshot": "data/model/snapshots/2026-10-28.csv",
+  "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
+  "observed_at_utc": "2026-10-28T07:03:23+00:00",
+  "operator": "NetBet.fr",
+  "page_audit_limit": 8,
+  "page_audits": [],
+  "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
+  "quotes": [
+    {
+      "bookmaker_overround_pct": 9.01,
+      "competition_display": "Hylo Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.908265,
+      "normalized_market_probability_2": 0.091735,
+      "odds_1": 1.01,
+      "odds_2": 10.0,
+      "player_1_display": "Kodai Naraoka",
+      "player_2_display": "Dominik Kwinta",
+      "raw_implied_probability_1": 0.990099,
+      "raw_implied_probability_2": 0.1,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.14,
+      "competition_display": "Hylo Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.593838,
+      "normalized_market_probability_2": 0.406162,
+      "odds_1": 1.45,
+      "odds_2": 2.12,
+      "player_1_display": "Lee Zii Jia",
+      "player_2_display": "Jia Heng Teh",
+      "raw_implied_probability_1": 0.689655,
+      "raw_implied_probability_2": 0.471698,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    }
+  ],
+  "reason_counts": {},
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+}

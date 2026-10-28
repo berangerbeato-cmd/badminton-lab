@@ -1,16 +1,16 @@
 {
-  "generated_at_utc": "2026-10-28T06:45:36+00:00",
-  "comparison_generated_at_utc": "2026-10-28T06:45:35+00:00",
+  "generated_at_utc": "2026-10-28T07:03:30+00:00",
+  "comparison_generated_at_utc": "2026-10-28T07:03:29+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
-  "comparison_count": 1,
+  "comparison_count": 2,
   "status_counts": {
-    "BLOCKED_UNVERIFIED": 1
+    "BLOCKED_UNVERIFIED": 2
   },
   "reason_counts": {
-    "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN": 1,
-    "EXECUTABLE_PRICE_UNVERIFIED": 1,
-    "KICKOFF_UNVERIFIED": 1,
-    "MARKET_DETAIL_UNVERIFIED": 1
+    "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN": 2,
+    "EXECUTABLE_PRICE_UNVERIFIED": 2,
+    "KICKOFF_UNVERIFIED": 2,
+    "MARKET_DETAIL_UNVERIFIED": 2
   },
   "rows": [
     {
@@ -18,9 +18,21 @@
       "bwf_match_id": "5273:1560273",
       "player_a": "Kodai NARAOKA",
       "player_b": "Dominik KWINTA",
-      "model_age_minutes": 1.9,
+      "model_age_minutes": 1.6,
       "ev_a_pct": -2.89,
       "ev_b_pct": -61.48,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5273:1560307",
+      "player_a": "LEE Zii Jia",
+      "player_b": "Jia Heng TEH",
+      "model_age_minutes": 1.6,
+      "ev_a_pct": -28.79,
+      "ev_b_pct": 7.88,
       "quality_status": "BLOCKED_UNVERIFIED",
       "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED",
       "decision": "NO_BET"
