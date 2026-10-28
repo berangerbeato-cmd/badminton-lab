@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-28T06:44:20+00:00",
+  "observed_at_utc": "2026-10-28T06:59:54+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 16,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=39; by_discipline_and_status=DM:OBSERVED_DATE_UNVERIFIED=16,F:OBSERVED_DATE_UNVERIFIED=13,H:OBSERVED_DATE_UNVERIFIED=10; eligible_MS_H2H=0; local_now=2026-10-28T07:44:20.851217+01:00",
+      "parser_notes": "parsed; page_parsed_entries=39; by_discipline_and_status=DM:OBSERVED_DATE_UNVERIFIED=16,F:OBSERVED_DATE_UNVERIFIED=13,H:OBSERVED_DATE_UNVERIFIED=10; eligible_MS_H2H=0; local_now=2026-10-28T07:59:54.592339+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "94ce791848cf848098ac262914ed669e10719dcad65e667207a7e59797dbc155",
+      "body_sha256": "1bd62159ae3b8d443bc3c3040a4d5b510b4dd6dfc95abab4ff5de3c56fde5636",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -39,7 +39,7 @@
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "acf28b12a12b515461dac33b433d762260c9b201bde063597ab32e1c856c0863",
+      "body_sha256": "be3603c26f7e26d11bd57a2313858360eba2a747d5a5719fbf95be949bed1fde",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "206d85d7f5abf8468b981265af4ebce46b692d511efacd3dfd1a74f39626c1be",
+      "body_sha256": "949498210abe83a909743c18e7e87a72936a805f857ccfd42da6292e3dcaa02c",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "a593791b279dd74a0ca4b4095af64ef3c1dc6dbc7233718826d3af3a2bd5a870",
+      "body_sha256": "94ff47b64bdcdec74b3dae7d431c287b000ac9982e32b8e46a85e625b9418cb1",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "5e1a9ccf7b159a8dd1163c75e3bfdd34f2420b1ed63f3750a8facd0637df087f",
+      "body_sha256": "164a64bfdc34ab72053e4ce657f8cff20ff814b09d1a348093011ca804c35d54",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "83afb09691b32b344a875438e420d37235bfe59f604ee136454896ddbe6097e1",
+      "body_sha256": "b8dffea4a014aea811fc0a7ffe601b7c66731d91d63bdb55a727451b491a2f3e",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,7 +142,7 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "22",
+      "cache_age_seconds": "173",
       "body_sha256": "8d12d53370ae42af2595b8c51c91c743e0fab76cc7ca8ca007cacfcce406b8df",
       "flashscore_discovery": {
         "index_match_links": [
@@ -175,11 +175,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/chi-yu-jen-UoKg0KMC/mannepalli-tharun-rHey7g9B/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "a67e8cbc1f1b0ff7ed2449c7c54b9427fd4b575cc2e9977c216561f76f4b06df",
+        "body_sha256": "4799165a3d3ea622053fd5659571f466fba28d8d75968d4b0e1ea7dd5750d548",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Tharun Mannepalli - Yu Jen Chi (28/10/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESHYLO OPEN - 1/16 DE FINALE\nNouvelle fenêtre\n28.10.2026 19:50\nMannepalli T.\nBWF\n: 54.\n-\nChi Y. J.\nBWF\n: 24.\n-\n28.10.2026 19:50\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n3.25\n1.33\nFAIRE UN PARI\nVoir plus\nOFFRES BONUS\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nINFORMATIONS DE MATCH\nSTADE:\nSaarlandhalle\n (Sarrebruck)\nFORME\nMannepalli T.\n?\nD\nV\nD\nV\nV\nChi Y. J.\n?\nD\nV\nV\nD\nD\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT HYLO Open Hommes\nBWF WT HYLO Open Femmes\nBWF WT HYLO Open Doubles Hommes\nBWF WT HYLO Open Doubles Femmes\nBWF WT HYLO Open Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nSuivez Tharun Mannepalli - Yu Jen Chi le 28/10",
+        "text_excerpt_for_debug": "Tharun Mannepalli - Yu Jen Chi (28/10/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESHYLO OPEN - 1/16 DE FINALE\nNouvelle fenêtre\n28.10.2026 19:50\nMannepalli T.\nBWF\n: 54.\n-\nChi Y. J.\nBWF\n: 24.\n-\n28.10.2026 19:50\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n2.65\n1.25\nFAIRE UN PARI\n-\n-\nVoir plus\nINFORMATIONS DE MATCH\nSTADE:\nSaarlandhalle\n (Sarrebruck)\nFORME\nMannepalli T.\n?\nD\nV\nD\nV\nV\nChi Y. J.\n?\nD\nV\nV\nD\nD\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT HYLO Open Hommes\nBWF WT HYLO Open Femmes\nBWF WT HYLO Open Doubles Hommes\nBWF WT HYLO Open Doubles Femmes\nBWF WT HYLO Open Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nSuivez Tharun Mannepalli - Yu Jen Chi le 28/10/2026 en direct, les derniers résultats de Tharun Mannepalli, les actualités, les informations, ainsi que les statistiques",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 5107,
+        "body_characters": 4985,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -191,14 +191,16 @@
           "HOME/AWAY",
           "1",
           "2",
-          "3.25",
-          "1.33",
-          "FAIRE UN PARI"
+          "2.65",
+          "1.25",
+          "FAIRE UN PARI",
+          "-",
+          "-"
         ],
-        "odds_section_dash_count": 0,
+        "odds_section_dash_count": 2,
         "odds_section_decimal_prices": [
-          "3.25",
-          "1.33"
+          "2.65",
+          "1.25"
         ],
         "odds_section_placeholder_only": false,
         "odds_section_bookmaker_names": [],
@@ -214,7 +216,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "2886bcb500bf4b0b170174f9cd9a8b7e284fe06da45e128fadb54fe60570b587",
+      "body_sha256": "782a7fb74043c7bf839bfcf08a0fd90c914f4fda13d16385c94ec8ced459a057",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }

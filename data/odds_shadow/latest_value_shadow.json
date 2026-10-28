@@ -1,16 +1,16 @@
 {
-  "generated_at_utc": "2026-10-27T09:48:43+00:00",
+  "generated_at_utc": "2026-10-28T07:01:04+00:00",
   "matched_fixtures_count": 0,
   "matches": [],
-  "model_snapshot": "data/model/snapshots/2026-10-27.csv",
-  "model_snapshot_sha256": "176e95fd116c0a36ed10a2bf5a03ba29430f37c2732a264fe6c00068b3a0c4cf",
-  "notes": "Illustrative EV only. Source reading timestamp is NOT bookmaker quote update time. BWF start date at 00:00 is NOT a verified match start. Do not write Predictions, T0, Odds History or place wagers. Source status: REJECT_HTTP_CACHE_AGE",
+  "model_snapshot": "data/model/snapshots/2026-10-28.csv",
+  "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
+  "notes": "Illustrative EV only. Source reading timestamp is NOT bookmaker quote update time. BWF start date at 00:00 is NOT a verified match start. Do not write Predictions, T0, Odds History or place wagers. Source status: NO_CONFIDENT_PREMATCH_QUOTES",
   "operator": "Unibet.fr",
   "policy": "NO_BET_SHADOW_ONLY_NO_SHEETS_WRITE",
   "rejections": {},
-  "source_archive": "data/odds_shadow/unibet_fr/2026-10-27T094742Z.json",
-  "source_observed_at_utc": "2026-10-27T09:47:42+00:00",
+  "source_archive": "data/odds_shadow/unibet_fr/2026-10-28T065954Z.json",
+  "source_observed_at_utc": "2026-10-28T06:59:55+00:00",
   "source_quotes_count": 0,
-  "source_sha256": "040767cb92ef12ee6163cdaa508104e29eb96379a4edbd023ecc111f31b58f1c",
+  "source_sha256": "189ca81735dbe005c54be85b8690771b7cb00d905f9b8b41d108daa561469faa",
   "status": "SOURCE_NOT_READY"
 }
