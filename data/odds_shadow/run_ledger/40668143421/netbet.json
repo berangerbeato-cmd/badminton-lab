@@ -1,0 +1,1053 @@
+{
+  "bookmaker_price_updated_at": null,
+  "candidate_count": 1,
+  "candidate_urls": [
+    "https://www.netbet.fr/badminton/international/hylo-open"
+  ],
+  "elo_comparisons": [
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5273:1560220",
+      "date_basis": "PUBLISHED_CALENDAR_DATE",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-28T05:45:26+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Gemke Rasmus",
+        "bwf_name": "Rasmus GEMKE",
+        "decimal_odds": 1.07,
+        "illustrative_ev_pct": -25.59,
+        "model_fair_odds": 1.4379,
+        "model_probability": 0.69543622
+      },
+      "side_2": {
+        "bookmaker_display": "Li Yang Su",
+        "bwf_name": "SU Li  Yang",
+        "decimal_odds": 4.3,
+        "illustrative_ev_pct": 30.96,
+        "model_fair_odds": 3.2834,
+        "model_probability": 0.30456378
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5273:1560312",
+      "date_basis": "PUBLISHED_CALENDAR_DATE",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-28T05:45:26+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Anders Antonsen",
+        "bwf_name": "Anders ANTONSEN",
+        "decimal_odds": 1.01,
+        "illustrative_ev_pct": -2.58,
+        "model_fair_odds": 1.0368,
+        "model_probability": 0.96453813
+      },
+      "side_2": {
+        "bookmaker_display": "Harry Huang",
+        "bwf_name": "Harry HUANG",
+        "decimal_odds": 8.5,
+        "illustrative_ev_pct": -69.86,
+        "model_fair_odds": 28.1993,
+        "model_probability": 0.03546187
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5273:1560257",
+      "date_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-28T05:45:26+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Ade Resky Dwicahyo",
+        "bwf_name": "Ade Resky DWICAHYO",
+        "decimal_odds": 4.3,
+        "illustrative_ev_pct": 32.42,
+        "model_fair_odds": 3.2473,
+        "model_probability": 0.30795192
+      },
+      "side_2": {
+        "bookmaker_display": "Daniil Dubovenko",
+        "bwf_name": "Daniil DUBOVENKO",
+        "decimal_odds": 1.08,
+        "illustrative_ev_pct": -25.26,
+        "model_fair_odds": 1.445,
+        "model_probability": 0.69204808
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5273:1560300",
+      "date_basis": "PUBLISHED_CALENDAR_DATE",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-28T05:45:26+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Jonatan Christie",
+        "bwf_name": "Jonatan CHRISTIE",
+        "decimal_odds": 1.01,
+        "illustrative_ev_pct": -7.79,
+        "model_fair_odds": 1.0953,
+        "model_probability": 0.91296386
+      },
+      "side_2": {
+        "bookmaker_display": "William Bøgebjerg",
+        "bwf_name": "William BØGEBJERG",
+        "decimal_odds": 9.75,
+        "illustrative_ev_pct": -15.14,
+        "model_fair_odds": 11.4895,
+        "model_probability": 0.08703614
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5273:1560313",
+      "date_basis": "PUBLISHED_CALENDAR_DATE",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-28T05:45:26+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Minoru Koga",
+        "bwf_name": "Minoru KOGA",
+        "decimal_odds": 1.07,
+        "illustrative_ev_pct": -21.05,
+        "model_fair_odds": 1.3553,
+        "model_probability": 0.73783938
+      },
+      "side_2": {
+        "bookmaker_display": "Garret Tan",
+        "bwf_name": "Garret TAN",
+        "decimal_odds": 4.4,
+        "illustrative_ev_pct": 15.35,
+        "model_fair_odds": 3.8145,
+        "model_probability": 0.26216062
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5273:1560335",
+      "date_basis": "PUBLISHED_CALENDAR_DATE",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-28T05:45:26+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Magnus Johannesen",
+        "bwf_name": "Magnus JOHANNESEN",
+        "decimal_odds": 2.87,
+        "illustrative_ev_pct": 21.13,
+        "model_fair_odds": 2.3694,
+        "model_probability": 0.42205211
+      },
+      "side_2": {
+        "bookmaker_display": "Arnaud Merkle",
+        "bwf_name": "Arnaud MERKLE",
+        "decimal_odds": 1.23,
+        "illustrative_ev_pct": -28.91,
+        "model_fair_odds": 1.7303,
+        "model_probability": 0.57794789
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5273:1560294",
+      "date_basis": "PUBLISHED_CALENDAR_DATE",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-28T05:45:26+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Joakim Oldorff",
+        "bwf_name": "Joakim OLDORFF",
+        "decimal_odds": 5.0,
+        "illustrative_ev_pct": -36.64,
+        "model_fair_odds": 7.8915,
+        "model_probability": 0.12671932
+      },
+      "side_2": {
+        "bookmaker_display": "Lakshya Sen",
+        "bwf_name": "Lakshya SEN",
+        "decimal_odds": 1.04,
+        "illustrative_ev_pct": -9.18,
+        "model_fair_odds": 1.1451,
+        "model_probability": 0.87328068
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5273:1560240",
+      "date_basis": "PUBLISHED_CALENDAR_DATE",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-28T05:45:26+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Noah Haase",
+        "bwf_name": "Noah HAASE",
+        "decimal_odds": 4.7,
+        "illustrative_ev_pct": 47.17,
+        "model_fair_odds": 3.1936,
+        "model_probability": 0.31312715
+      },
+      "side_2": {
+        "bookmaker_display": "Julien Carraggi",
+        "bwf_name": "Julien CARRAGGI",
+        "decimal_odds": 1.05,
+        "illustrative_ev_pct": -27.88,
+        "model_fair_odds": 1.4559,
+        "model_probability": 0.68687285
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5273:1560277",
+      "date_basis": "PUBLISHED_CALENDAR_DATE",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-28T05:45:26+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Tharun Mannepalli",
+        "bwf_name": "Tharun MANNEPALLI",
+        "decimal_odds": 2.95,
+        "illustrative_ev_pct": 30.28,
+        "model_fair_odds": 2.2644,
+        "model_probability": 0.44161318
+      },
+      "side_2": {
+        "bookmaker_display": "Yu Jen Chi",
+        "bwf_name": "CHI Yu Jen",
+        "decimal_odds": 1.21,
+        "illustrative_ev_pct": -32.44,
+        "model_fair_odds": 1.7909,
+        "model_probability": 0.55838682
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5273:1560292",
+      "date_basis": "PUBLISHED_CALENDAR_DATE",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-28T05:45:26+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Kiran George",
+        "bwf_name": "Kiran GEORGE",
+        "decimal_odds": 1.38,
+        "illustrative_ev_pct": -52.94,
+        "model_fair_odds": 2.9324,
+        "model_probability": 0.34101192
+      },
+      "side_2": {
+        "bookmaker_display": "June Wei Cheam",
+        "bwf_name": "CHEAM June Wei",
+        "decimal_odds": 2.27,
+        "illustrative_ev_pct": 49.59,
+        "model_fair_odds": 1.5175,
+        "model_probability": 0.65898808
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bookmaker_price_updated_at": null,
+      "bwf_match_id": "5273:1560379",
+      "date_basis": "PUBLISHED_CALENDAR_DATE",
+      "decision": "NO_BET_SHADOW",
+      "event_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "model_asof_utc": "2026-10-28T05:45:26+00:00",
+      "operator": "NetBet.fr",
+      "quality_flags": [
+        "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+        "EVENT_KICKOFF_UNVERIFIED",
+        "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+        "MODEL_PROVISIONAL",
+        "NO_BET"
+      ],
+      "side_1": {
+        "bookmaker_display": "Zilberman Misha",
+        "bwf_name": "Misha ZILBERMAN",
+        "decimal_odds": 3.8,
+        "illustrative_ev_pct": 14.3,
+        "model_fair_odds": 3.3246,
+        "model_probability": 0.30078385
+      },
+      "side_2": {
+        "bookmaker_display": "Aria Dinata",
+        "bwf_name": "Aria DINATA",
+        "decimal_odds": 1.11,
+        "illustrative_ev_pct": -22.39,
+        "model_fair_odds": 1.4302,
+        "model_probability": 0.69921615
+      },
+      "valid_pre_match_T0": false
+    }
+  ],
+  "fixture_join_audit": [
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 1,
+      "listed_day_paris": "2026-10-28",
+      "model_rows_same_day": 16,
+      "model_rows_same_tournament_and_day": 16,
+      "players": [
+        "Gemke Rasmus",
+        "Li Yang Su"
+      ],
+      "status": "FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 1,
+      "listed_day_paris": "2026-10-28",
+      "model_rows_same_day": 16,
+      "model_rows_same_tournament_and_day": 16,
+      "players": [
+        "Anders Antonsen",
+        "Harry Huang"
+      ],
+      "status": "FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 1,
+      "listed_day_paris": "2026-10-28",
+      "model_rows_same_day": 16,
+      "model_rows_same_tournament_and_day": 16,
+      "players": [
+        "Ade Resky Dwicahyo",
+        "Daniil Dubovenko"
+      ],
+      "status": "FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 1,
+      "listed_day_paris": "2026-10-28",
+      "model_rows_same_day": 16,
+      "model_rows_same_tournament_and_day": 16,
+      "players": [
+        "Jonatan Christie",
+        "William Bøgebjerg"
+      ],
+      "status": "FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 1,
+      "listed_day_paris": "2026-10-28",
+      "model_rows_same_day": 16,
+      "model_rows_same_tournament_and_day": 16,
+      "players": [
+        "Minoru Koga",
+        "Garret Tan"
+      ],
+      "status": "FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 1,
+      "listed_day_paris": "2026-10-28",
+      "model_rows_same_day": 16,
+      "model_rows_same_tournament_and_day": 16,
+      "players": [
+        "Magnus Johannesen",
+        "Arnaud Merkle"
+      ],
+      "status": "FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 1,
+      "listed_day_paris": "2026-10-28",
+      "model_rows_same_day": 16,
+      "model_rows_same_tournament_and_day": 16,
+      "players": [
+        "Joakim Oldorff",
+        "Lakshya Sen"
+      ],
+      "status": "FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 1,
+      "listed_day_paris": "2026-10-28",
+      "model_rows_same_day": 16,
+      "model_rows_same_tournament_and_day": 16,
+      "players": [
+        "Noah Haase",
+        "Julien Carraggi"
+      ],
+      "status": "FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 1,
+      "listed_day_paris": "2026-10-28",
+      "model_rows_same_day": 16,
+      "model_rows_same_tournament_and_day": 16,
+      "players": [
+        "Tharun Mannepalli",
+        "Yu Jen Chi"
+      ],
+      "status": "FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-28",
+      "model_rows_same_day": 16,
+      "model_rows_same_tournament_and_day": 16,
+      "players": [
+        "Prannoy Haseena Sunil Kumar",
+        "Toma Junior Popov"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 1,
+      "listed_day_paris": "2026-10-28",
+      "model_rows_same_day": 16,
+      "model_rows_same_tournament_and_day": 16,
+      "players": [
+        "Kiran George",
+        "June Wei Cheam"
+      ],
+      "status": "FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-10-28",
+      "model_rows_same_day": 16,
+      "model_rows_same_tournament_and_day": 16,
+      "players": [
+        "Koljonen Kalle",
+        "Sankar Muthusamy Subramanian"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 1,
+      "listed_day_paris": "2026-10-28",
+      "model_rows_same_day": 16,
+      "model_rows_same_tournament_and_day": 16,
+      "players": [
+        "Zilberman Misha",
+        "Aria Dinata"
+      ],
+      "status": "FIXTURE_PRESENT_REQUIRES_FULL_VALIDATION"
+    }
+  ],
+  "index_badminton_link_count": 4,
+  "index_badminton_link_examples": [
+    "https://www.netbet.fr/badminton",
+    "https://www.netbet.fr/badminton/international/hylo-open",
+    "https://www.netbet.fr/badminton/international/hylo-open-doubles-mixtes",
+    "https://www.netbet.fr/badminton/international/hylo-open-f"
+  ],
+  "index_body_sha256": "a3d3c5143021f61e0d4b4b6d2f5e01610483793c72074f1fd12594889666231f",
+  "index_eligible_quotes": 2,
+  "index_http_status": 200,
+  "index_link_count": 137,
+  "index_link_path_counts": {
+    "": 9,
+    "badminton": 6,
+    "basketball": 2,
+    "cashout": 2,
+    "evenement": 46,
+    "football": 10,
+    "live": 3,
+    "paris-en-direct": 5,
+    "promotions": 2,
+    "tennis": 12,
+    "tennis-de-table": 4,
+    "zendesk": 2
+  },
+  "index_market_audit": {
+    "eligible_listing_rows": 2,
+    "markets_seen": 11,
+    "rejection_evidence": [
+      {
+        "following_lines": [
+          "Devika Sihag",
+          "1.80",
+          "Malvika Bansod",
+          "1.67"
+        ],
+        "market_line": 122,
+        "preceding_lines": [
+          "Badminton",
+          "À L'AFFICHE",
+          "EN DIRECT",
+          "TOUTE L'OFFRE BADMINTON",
+          "En direct",
+          "Hylo Open (F)",
+          "Set 3",
+          "LIVE",
+          "Devika Sihag",
+          "Malvika Bansod",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "reason": "PLAYER_PAIR_MISMATCH"
+      },
+      {
+        "following_lines": [
+          "Ade Resky Dwicahyo",
+          "4.30",
+          "Daniil Dubovenko",
+          "1.08"
+        ],
+        "market_line": 136,
+        "preceding_lines": [
+          "Qui va gagner le match ?",
+          "Devika Sihag",
+          "1.80",
+          "Malvika Bansod",
+          "1.67",
+          "+ 6",
+          "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
+          "En direct",
+          "(2)",
+          "À Venir",
+          "Hylo Open",
+          "LIVE dans 16 min",
+          "Ade Resky Dwicahyo",
+          "Daniil Dubovenko"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Nishimoto Kenta",
+          "1.05",
+          "Ditlev Jaeger Holm",
+          "4.70"
+        ],
+        "market_line": 146,
+        "preceding_lines": [
+          "Hylo Open",
+          "LIVE dans 16 min",
+          "Ade Resky Dwicahyo",
+          "Daniil Dubovenko",
+          "Qui va gagner le match ?",
+          "Ade Resky Dwicahyo",
+          "4.30",
+          "Daniil Dubovenko",
+          "1.08",
+          "+ 19",
+          "Hylo Open",
+          "21 min",
+          "Nishimoto Kenta",
+          "Ditlev Jaeger Holm"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Wu-Yang",
+          "1.01",
+          "Begga-Jacob",
+          "5.80"
+        ],
+        "market_line": 156,
+        "preceding_lines": [
+          "Hylo Open",
+          "21 min",
+          "Nishimoto Kenta",
+          "Ditlev Jaeger Holm",
+          "Qui va gagner le match ?",
+          "Nishimoto Kenta",
+          "1.05",
+          "Ditlev Jaeger Holm",
+          "4.70",
+          "+ 19",
+          "Hylo Open, Doubles Mixtes",
+          "LIVE dans 26 min",
+          "Wu-Yang",
+          "Begga-Jacob"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Tereza Svabikova",
+          "5.90",
+          "Unnati Hooda",
+          "1.01"
+        ],
+        "market_line": 178,
+        "preceding_lines": [
+          "12:45",
+          "Gemke Rasmus",
+          "Li Yang Su",
+          "Qui va gagner le match ?",
+          "Gemke Rasmus",
+          "1.07",
+          "Li Yang Su",
+          "4.30",
+          "+ 19",
+          "Hylo Open (F)",
+          "mer. 28 oct.",
+          "12:45",
+          "Tereza Svabikova",
+          "Unnati Hooda"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Frederikke Ostergaard",
+          "1.61",
+          "Yevheniia Kantemyr",
+          "1.83"
+        ],
+        "market_line": 189,
+        "preceding_lines": [
+          "12:45",
+          "Tereza Svabikova",
+          "Unnati Hooda",
+          "Qui va gagner le match ?",
+          "Tereza Svabikova",
+          "5.90",
+          "Unnati Hooda",
+          "1.01",
+          "+ 20",
+          "Hylo Open (F)",
+          "mer. 28 oct.",
+          "13:10",
+          "Frederikke Ostergaard",
+          "Yevheniia Kantemyr"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      }
+    ],
+    "rejections": {
+      "COMPETITION_NOT_PROVEN": 3,
+      "NON_MS_COMPETITION": 3,
+      "PLAYER_PAIR_MISMATCH": 1,
+      "PRICE_NOT_CONFIRMED": 2
+    }
+  },
+  "index_resolved_url": "https://www.netbet.fr/badminton",
+  "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
+  "index_url": "https://www.netbet.fr/badminton",
+  "model_snapshot": "data/model/snapshots/2026-10-28.csv",
+  "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
+  "observed_at_utc": "2026-10-28T09:58:45+00:00",
+  "operator": "NetBet.fr",
+  "page_audit_limit": 8,
+  "page_audits": [
+    {
+      "body_sha256": "6b23bc24ca27a3de78fbf377496748bcb2c9a0c1644c2658c3fb2630af3dffc4",
+      "cache_age_seconds": null,
+      "eligible_listing_rows": 13,
+      "http_status": 200,
+      "markets_seen": 14,
+      "rejection_evidence": [
+        {
+          "following_lines": [
+            "Nishimoto Kenta",
+            "1.05",
+            "Ditlev Jaeger Holm",
+            "4.80"
+          ],
+          "market_line": 125,
+          "preceding_lines": [
+            "Hylo Open",
+            "LIVE dans 16 min",
+            "Ade Resky Dwicahyo",
+            "Daniil Dubovenko",
+            "Qui va gagner le match ?",
+            "Ade Resky Dwicahyo",
+            "4.30",
+            "Daniil Dubovenko",
+            "1.08",
+            "+ 19",
+            "Hylo Open",
+            "21 min",
+            "Nishimoto Kenta",
+            "Ditlev Jaeger Holm"
+          ],
+          "reason": "MISSING_DATE_AND_COUNTDOWN"
+        }
+      ],
+      "rejections": {
+        "MISSING_DATE_AND_COUNTDOWN": 1
+      },
+      "resolved_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "screenshot": "data/odds_shadow/visual_evidence/netbet_event_0.png",
+      "status": "PUBLIC_LISTINGS_OBSERVED_NEEDS_CONFIRMATION",
+      "url": "https://www.netbet.fr/badminton/international/hylo-open"
+    }
+  ],
+  "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
+  "quotes": [
+    {
+      "bookmaker_overround_pct": 16.71,
+      "competition_display": "Hylo Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.800745,
+      "normalized_market_probability_2": 0.199255,
+      "odds_1": 1.07,
+      "odds_2": 4.3,
+      "player_1_display": "Gemke Rasmus",
+      "player_2_display": "Li Yang Su",
+      "raw_implied_probability_1": 0.934579,
+      "raw_implied_probability_2": 0.232558,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 10.77,
+      "competition_display": "Hylo Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.893796,
+      "normalized_market_probability_2": 0.106204,
+      "odds_1": 1.01,
+      "odds_2": 8.5,
+      "player_1_display": "Anders Antonsen",
+      "player_2_display": "Harry Huang",
+      "raw_implied_probability_1": 0.990099,
+      "raw_implied_probability_2": 0.117647,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 15.85,
+      "competition_display": "Hylo Open",
+      "day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.200743,
+      "normalized_market_probability_2": 0.799257,
+      "odds_1": 4.3,
+      "odds_2": 1.08,
+      "player_1_display": "Ade Resky Dwicahyo",
+      "player_2_display": "Daniil Dubovenko",
+      "raw_implied_probability_1": 0.232558,
+      "raw_implied_probability_2": 0.925926,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 9.27,
+      "competition_display": "Hylo Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.906134,
+      "normalized_market_probability_2": 0.093866,
+      "odds_1": 1.01,
+      "odds_2": 9.75,
+      "player_1_display": "Jonatan Christie",
+      "player_2_display": "William Bøgebjerg",
+      "raw_implied_probability_1": 0.990099,
+      "raw_implied_probability_2": 0.102564,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.19,
+      "competition_display": "Hylo Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.804388,
+      "normalized_market_probability_2": 0.195612,
+      "odds_1": 1.07,
+      "odds_2": 4.4,
+      "player_1_display": "Minoru Koga",
+      "player_2_display": "Garret Tan",
+      "raw_implied_probability_1": 0.934579,
+      "raw_implied_probability_2": 0.227273,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.14,
+      "competition_display": "Hylo Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.3,
+      "normalized_market_probability_2": 0.7,
+      "odds_1": 2.87,
+      "odds_2": 1.23,
+      "player_1_display": "Magnus Johannesen",
+      "player_2_display": "Arnaud Merkle",
+      "raw_implied_probability_1": 0.348432,
+      "raw_implied_probability_2": 0.813008,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.15,
+      "competition_display": "Hylo Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.172185,
+      "normalized_market_probability_2": 0.827815,
+      "odds_1": 5.0,
+      "odds_2": 1.04,
+      "player_1_display": "Joakim Oldorff",
+      "player_2_display": "Lakshya Sen",
+      "raw_implied_probability_1": 0.2,
+      "raw_implied_probability_2": 0.961538,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.51,
+      "competition_display": "Hylo Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.182609,
+      "normalized_market_probability_2": 0.817391,
+      "odds_1": 4.7,
+      "odds_2": 1.05,
+      "player_1_display": "Noah Haase",
+      "player_2_display": "Julien Carraggi",
+      "raw_implied_probability_1": 0.212766,
+      "raw_implied_probability_2": 0.952381,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.54,
+      "competition_display": "Hylo Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.290865,
+      "normalized_market_probability_2": 0.709135,
+      "odds_1": 2.95,
+      "odds_2": 1.21,
+      "player_1_display": "Tharun Mannepalli",
+      "player_2_display": "Yu Jen Chi",
+      "raw_implied_probability_1": 0.338983,
+      "raw_implied_probability_2": 0.826446,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.7,
+      "competition_display": "Hylo Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.248366,
+      "normalized_market_probability_2": 0.751634,
+      "odds_1": 3.45,
+      "odds_2": 1.14,
+      "player_1_display": "Prannoy Haseena Sunil Kumar",
+      "player_2_display": "Toma Junior Popov",
+      "raw_implied_probability_1": 0.289855,
+      "raw_implied_probability_2": 0.877193,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.52,
+      "competition_display": "Hylo Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.621918,
+      "normalized_market_probability_2": 0.378082,
+      "odds_1": 1.38,
+      "odds_2": 2.27,
+      "player_1_display": "Kiran George",
+      "player_2_display": "June Wei Cheam",
+      "raw_implied_probability_1": 0.724638,
+      "raw_implied_probability_2": 0.440529,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.67,
+      "competition_display": "Hylo Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.510204,
+      "normalized_market_probability_2": 0.489796,
+      "odds_1": 1.68,
+      "odds_2": 1.75,
+      "player_1_display": "Koljonen Kalle",
+      "player_2_display": "Sankar Muthusamy Subramanian",
+      "raw_implied_probability_1": 0.595238,
+      "raw_implied_probability_2": 0.571429,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.41,
+      "competition_display": "Hylo Open",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/hylo-open",
+      "listed_day_paris": "2026-10-28",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.226069,
+      "normalized_market_probability_2": 0.773931,
+      "odds_1": 3.8,
+      "odds_2": 1.11,
+      "player_1_display": "Zilberman Misha",
+      "player_2_display": "Aria Dinata",
+      "raw_implied_probability_1": 0.263158,
+      "raw_implied_probability_2": 0.900901,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    }
+  ],
+  "reason_counts": {
+    "NO_UNIQUE_BWF_FIXTURE": 2
+  },
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+}
