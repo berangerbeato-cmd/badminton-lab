@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-28T10:11:34+00:00",
-  "match_count": 11,
+  "generated_at_utc": "2026-10-28T10:26:57+00:00",
+  "match_count": 10,
   "matches": [
     {
       "bwf_match_id": "5273:1560220",
@@ -46,10 +46,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 46,
+          "age_seconds": 253,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T10:10:48+00:00",
+          "observed_at_utc": "2026-10-28T10:22:44+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -106,70 +106,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 46,
+          "age_seconds": 253,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T10:10:48+00:00",
-          "quality_flags": [
-            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
-            "EVENT_KICKOFF_UNVERIFIED",
-            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
-            "MODEL_PROVISIONAL",
-            "NO_BET"
-          ],
-          "source_url": "https://www.netbet.fr/badminton/international/hylo-open"
-        }
-      },
-      "valid_pre_match_T0": false
-    },
-    {
-      "bwf_match_id": "5273:1560257",
-      "comparison_status": "ONE_BOOKMAKER_ONLY",
-      "decision": "NO_BET_SHADOW",
-      "executable_price_verified": false,
-      "kickoff_verified": false,
-      "model": "bwf_elo_ms_platt_v1",
-      "model_asof_utc": "2026-10-28T05:45:26+00:00",
-      "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-      "observation_gap_seconds": null,
-      "players": [
-        {
-          "best_historical_observation": {
-            "decimal_odds": 4.3,
-            "ev_pct": 32.42,
-            "operator": "NetBet.fr",
-            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
-          },
-          "best_within_window": null,
-          "bwf_player_id": "78890",
-          "model_probability": 0.30795192,
-          "name": "Ade Resky DWICAHYO",
-          "observed_odds": {
-            "NetBet.fr": 4.3
-          }
-        },
-        {
-          "best_historical_observation": {
-            "decimal_odds": 1.08,
-            "ev_pct": -25.26,
-            "operator": "NetBet.fr",
-            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
-          },
-          "best_within_window": null,
-          "bwf_player_id": "94119",
-          "model_probability": 0.69204808,
-          "name": "Daniil DUBOVENKO",
-          "observed_odds": {
-            "NetBet.fr": 1.08
-          }
-        }
-      ],
-      "source_details": {
-        "NetBet.fr": {
-          "age_seconds": 46,
-          "current": true,
-          "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T10:10:48+00:00",
+          "observed_at_utc": "2026-10-28T10:22:44+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -226,10 +166,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 46,
+          "age_seconds": 253,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T10:10:48+00:00",
+          "observed_at_utc": "2026-10-28T10:22:44+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -286,10 +226,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 46,
+          "age_seconds": 253,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T10:10:48+00:00",
+          "observed_at_utc": "2026-10-28T10:22:44+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -346,10 +286,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 46,
+          "age_seconds": 253,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T10:10:48+00:00",
+          "observed_at_utc": "2026-10-28T10:22:44+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -406,10 +346,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 46,
+          "age_seconds": 253,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T10:10:48+00:00",
+          "observed_at_utc": "2026-10-28T10:22:44+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -417,7 +357,7 @@
             "MODEL_PROVISIONAL",
             "NO_BET"
           ],
-          "source_url": "https://www.netbet.fr/badminton/international/hylo-open"
+          "source_url": "https://www.netbet.fr/badminton"
         }
       },
       "valid_pre_match_T0": false
@@ -466,10 +406,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 46,
+          "age_seconds": 253,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T10:10:48+00:00",
+          "observed_at_utc": "2026-10-28T10:22:44+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -526,10 +466,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 46,
+          "age_seconds": 253,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T10:10:48+00:00",
+          "observed_at_utc": "2026-10-28T10:22:44+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -586,10 +526,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 46,
+          "age_seconds": 253,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T10:10:48+00:00",
+          "observed_at_utc": "2026-10-28T10:22:44+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -646,10 +586,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 46,
+          "age_seconds": 253,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T10:10:48+00:00",
+          "observed_at_utc": "2026-10-28T10:22:44+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -675,12 +615,12 @@
   "schema_version": "badminton_shadow_comparator_v2.1",
   "sources": {
     "NetBet.fr": {
-      "observation_utc": "2026-10-28T10:10:48+00:00",
+      "observation_utc": "2026-10-28T10:22:44+00:00",
       "operator": "NetBet.fr",
       "rejected": [],
-      "rows_current": 11,
-      "rows_read": 11,
-      "rows_validated": 11,
+      "rows_current": 10,
+      "rows_read": 10,
+      "rows_validated": 10,
       "status": "VALIDATED_SOURCE"
     },
     "Unibet.fr": {
