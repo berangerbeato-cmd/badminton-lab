@@ -1,0 +1,15 @@
+{
+  "bookmaker_price_updated_at": null,
+  "elo_comparisons": [],
+  "error": "TimeoutError: Page.goto: Timeout 24000ms exceeded.\nCall log:\n  - navigating to \"https://www.netbet.fr/badminton\", waiting until \"domcontentloaded\"\n",
+  "index_url": "https://www.netbet.fr/badminton",
+  "model_snapshot": null,
+  "observed_at_utc": "2026-10-28T07:28:04+00:00",
+  "operator": "NetBet.fr",
+  "page_audits": [],
+  "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
+  "quotes": [],
+  "reason_counts": {},
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "status": "LIVE_AUDIT_FAILED"
+}
