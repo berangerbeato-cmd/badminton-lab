@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-28T09:29:16+00:00",
+  "generated_at_utc": "2026-10-28T10:11:34+00:00",
   "match_count": 11,
   "matches": [
     {
@@ -15,8 +15,8 @@
       "players": [
         {
           "best_historical_observation": {
-            "decimal_odds": 1.07,
-            "ev_pct": -25.59,
+            "decimal_odds": 1.08,
+            "ev_pct": -24.89,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -25,7 +25,7 @@
           "model_probability": 0.69543622,
           "name": "Rasmus GEMKE",
           "observed_odds": {
-            "NetBet.fr": 1.07
+            "NetBet.fr": 1.08
           }
         },
         {
@@ -46,10 +46,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 351,
+          "age_seconds": 46,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "observed_at_utc": "2026-10-28T10:10:48+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -106,10 +106,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 351,
+          "age_seconds": 46,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "observed_at_utc": "2026-10-28T10:10:48+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -135,8 +135,8 @@
       "players": [
         {
           "best_historical_observation": {
-            "decimal_odds": 4.2,
-            "ev_pct": 29.34,
+            "decimal_odds": 4.3,
+            "ev_pct": 32.42,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -145,7 +145,7 @@
           "model_probability": 0.30795192,
           "name": "Ade Resky DWICAHYO",
           "observed_odds": {
-            "NetBet.fr": 4.2
+            "NetBet.fr": 4.3
           }
         },
         {
@@ -166,10 +166,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 351,
+          "age_seconds": 46,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "observed_at_utc": "2026-10-28T10:10:48+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -226,10 +226,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 351,
+          "age_seconds": 46,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "observed_at_utc": "2026-10-28T10:10:48+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -286,10 +286,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 351,
+          "age_seconds": 46,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "observed_at_utc": "2026-10-28T10:10:48+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -346,10 +346,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 351,
+          "age_seconds": 46,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "observed_at_utc": "2026-10-28T10:10:48+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -406,10 +406,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 351,
+          "age_seconds": 46,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "observed_at_utc": "2026-10-28T10:10:48+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -466,10 +466,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 351,
+          "age_seconds": 46,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "observed_at_utc": "2026-10-28T10:10:48+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -526,10 +526,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 351,
+          "age_seconds": 46,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "observed_at_utc": "2026-10-28T10:10:48+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -555,8 +555,8 @@
       "players": [
         {
           "best_historical_observation": {
-            "decimal_odds": 2.97,
-            "ev_pct": 25.35,
+            "decimal_odds": 2.87,
+            "ev_pct": 21.13,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -565,13 +565,13 @@
           "model_probability": 0.42205211,
           "name": "Magnus JOHANNESEN",
           "observed_odds": {
-            "NetBet.fr": 2.97
+            "NetBet.fr": 2.87
           }
         },
         {
           "best_historical_observation": {
-            "decimal_odds": 1.21,
-            "ev_pct": -30.07,
+            "decimal_odds": 1.23,
+            "ev_pct": -28.91,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -580,16 +580,16 @@
           "model_probability": 0.57794789,
           "name": "Arnaud MERKLE",
           "observed_odds": {
-            "NetBet.fr": 1.21
+            "NetBet.fr": 1.23
           }
         }
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 351,
+          "age_seconds": 46,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "observed_at_utc": "2026-10-28T10:10:48+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -646,10 +646,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 351,
+          "age_seconds": 46,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "observed_at_utc": "2026-10-28T10:10:48+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -675,7 +675,7 @@
   "schema_version": "badminton_shadow_comparator_v2.1",
   "sources": {
     "NetBet.fr": {
-      "observation_utc": "2026-10-28T09:23:25+00:00",
+      "observation_utc": "2026-10-28T10:10:48+00:00",
       "operator": "NetBet.fr",
       "rejected": [],
       "rows_current": 11,
