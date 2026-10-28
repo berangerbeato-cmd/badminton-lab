@@ -552,22 +552,22 @@
   "index_badminton_link_count": 4,
   "index_badminton_link_examples": [
     "https://www.netbet.fr/badminton",
-    "https://www.netbet.fr/badminton/international/hylo-open-doubles-mixtes",
     "https://www.netbet.fr/badminton/international/hylo-open",
+    "https://www.netbet.fr/badminton/international/hylo-open-doubles-mixtes",
     "https://www.netbet.fr/badminton/international/hylo-open-f"
   ],
-  "index_body_sha256": "5c7cce9750c3c6299af832c7a252d988da02f59a599063eb1c6b116964151341",
+  "index_body_sha256": "4c8cccee5f6227d1f85d0562593e8635441b680b93aab519ed0b3dc795fb3e3d",
   "index_eligible_quotes": 1,
   "index_http_status": 200,
-  "index_link_count": 130,
+  "index_link_count": 137,
   "index_link_path_counts": {
     "": 9,
     "badminton": 6,
     "basketball": 2,
-    "biathlon": 2,
     "cashout": 2,
-    "evenement": 44,
+    "evenement": 46,
     "football": 10,
+    "live": 3,
     "paris-en-direct": 5,
     "promotions": 2,
     "tennis": 12,
@@ -580,51 +580,25 @@
     "rejection_evidence": [
       {
         "following_lines": [
-          "Kudsk-Toft",
-          "-",
-          "Tonk-Tonr",
-          "12.00"
-        ],
-        "market_line": 124,
-        "preceding_lines": [
-          "1",
-          "-",
-          "LIVE",
-          "Kodai Naraoka",
-          "Dominik Kwinta",
-          "Accéder au direct",
-          "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
-          "En direct",
-          "(3)",
-          "À Venir",
-          "Hylo Open, Doubles Mixtes",
-          "LIVE dans 4 min",
-          "Kudsk-Toft",
-          "Tonk-Tonr"
-        ],
-        "reason": "PRICE_NOT_CONFIRMED"
-      },
-      {
-        "following_lines": [
           "Lee Zii Jia",
           "1.45",
           "Jia Heng Teh",
           "2.12"
         ],
-        "market_line": 134,
+        "market_line": 136,
         "preceding_lines": [
-          "Hylo Open, Doubles Mixtes",
-          "LIVE dans 4 min",
-          "Kudsk-Toft",
-          "Tonk-Tonr",
-          "Qui va gagner le match ?",
-          "Kudsk-Toft",
-          "-",
-          "Tonk-Tonr",
-          "12.00",
-          "+ 2",
+          "Plus ou moins de points ?",
+          "Plus de 73.5",
+          "1.92",
+          "Moins de 73.5",
+          "1.52",
+          "+ 1",
+          "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
+          "En direct",
+          "(3)",
+          "À Venir",
           "Hylo Open",
-          "39 min",
+          "27 min",
           "Lee Zii Jia",
           "Jia Heng Teh"
         ],
@@ -637,10 +611,10 @@
           "Strooper-Bang",
           "11.00"
         ],
-        "market_line": 144,
+        "market_line": 146,
         "preceding_lines": [
           "Hylo Open",
-          "39 min",
+          "27 min",
           "Lee Zii Jia",
           "Jia Heng Teh",
           "Qui va gagner le match ?",
@@ -650,7 +624,7 @@
           "2.12",
           "+ 19",
           "Hylo Open, Doubles Mixtes",
-          "LIVE dans 39 min",
+          "LIVE dans 27 min",
           "Ron-Jing",
           "Strooper-Bang"
         ],
@@ -663,10 +637,10 @@
           "Daniil Dubovenko",
           "1.08"
         ],
-        "market_line": 154,
+        "market_line": 156,
         "preceding_lines": [
           "Hylo Open, Doubles Mixtes",
-          "LIVE dans 39 min",
+          "LIVE dans 27 min",
           "Ron-Jing",
           "Strooper-Bang",
           "Qui va gagner le match ?",
@@ -676,7 +650,7 @@
           "11.00",
           "+ 2",
           "Hylo Open",
-          "LIVE dans 44 min",
+          "LIVE dans 32 min",
           "Ade Resky Dwicahyo",
           "Daniil Dubovenko"
         ],
@@ -689,10 +663,10 @@
           "Ditlev Jaeger Holm",
           "4.70"
         ],
-        "market_line": 164,
+        "market_line": 166,
         "preceding_lines": [
           "Hylo Open",
-          "LIVE dans 44 min",
+          "LIVE dans 32 min",
           "Ade Resky Dwicahyo",
           "Daniil Dubovenko",
           "Qui va gagner le match ?",
@@ -702,7 +676,7 @@
           "1.08",
           "+ 20",
           "Hylo Open",
-          "54 min",
+          "42 min",
           "Nishimoto Kenta",
           "Ditlev Jaeger Holm"
         ],
@@ -715,9 +689,10 @@
           "Begga-Jacob",
           "6.50"
         ],
-        "market_line": 175,
+        "market_line": 176,
         "preceding_lines": [
-          "54 min",
+          "Hylo Open",
+          "42 min",
           "Nishimoto Kenta",
           "Ditlev Jaeger Holm",
           "Qui va gagner le match ?",
@@ -727,18 +702,43 @@
           "4.70",
           "+ 19",
           "Hylo Open, Doubles Mixtes",
-          "mer. 28 oct.",
-          "11:05",
+          "LIVE dans 52 min",
           "Wu-Yang",
           "Begga-Jacob"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Tereza Svabikova",
+          "5.90",
+          "Unnati Hooda",
+          "1.01"
+        ],
+        "market_line": 198,
+        "preceding_lines": [
+          "12:45",
+          "Gemke Rasmus",
+          "Li Yang Su",
+          "Qui va gagner le match ?",
+          "Gemke Rasmus",
+          "1.07",
+          "Li Yang Su",
+          "4.30",
+          "+ 19",
+          "Hylo Open (F)",
+          "mer. 28 oct.",
+          "12:45",
+          "Tereza Svabikova",
+          "Unnati Hooda"
         ],
         "reason": "NON_MS_COMPETITION"
       }
     ],
     "rejections": {
-      "COMPETITION_NOT_PROVEN": 3,
+      "COMPETITION_NOT_PROVEN": 4,
       "NON_MS_COMPETITION": 3,
-      "PRICE_NOT_CONFIRMED": 3
+      "PRICE_NOT_CONFIRMED": 2
     }
   },
   "index_resolved_url": "https://www.netbet.fr/badminton",
@@ -746,43 +746,17 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-10-28.csv",
   "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-  "observed_at_utc": "2026-10-28T09:01:14+00:00",
+  "observed_at_utc": "2026-10-28T09:12:47+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "d609ae8234b366a2b4e5ada1bf0469dd715d08ef6f742e459627c964f719c5ea",
+      "body_sha256": "98416af808b2ee306c1219a49c76522cef499931513fc8aa7b82e55a0656a2c5",
       "cache_age_seconds": null,
       "eligible_listing_rows": 13,
       "http_status": 200,
-      "markets_seen": 16,
+      "markets_seen": 15,
       "rejection_evidence": [
-        {
-          "following_lines": [
-            "Kodai Naraoka",
-            "-",
-            "Dominik Kwinta",
-            "16.00"
-          ],
-          "market_line": 112,
-          "preceding_lines": [
-            "Règlement des paris",
-            "Scores en direct",
-            "Format des cotes",
-            "Accueil",
-            "Badminton",
-            "International - Hylo Open",
-            "Pariez sur",
-            "Hylo Open",
-            "En direct",
-            "Hylo Open",
-            "Set 2",
-            "LIVE",
-            "Kodai Naraoka",
-            "Dominik Kwinta"
-          ],
-          "reason": "PRICE_NOT_CONFIRMED"
-        },
         {
           "following_lines": [
             "Lee Zii Jia",
@@ -790,20 +764,20 @@
             "Jia Heng Teh",
             "2.12"
           ],
-          "market_line": 124,
+          "market_line": 132,
           "preceding_lines": [
-            "Kodai Naraoka",
-            "Dominik Kwinta",
-            "Qui va gagner le match ?",
-            "Kodai Naraoka",
-            "-",
-            "Dominik Kwinta",
-            "16.00",
-            "+ 5",
+            "20",
+            "13",
+            "Plus ou moins de points ?",
+            "Plus de 73.5",
+            "1.92",
+            "Moins de 73.5",
+            "1.52",
+            "+ 1",
             "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
             "À Venir",
             "Hylo Open",
-            "39 min",
+            "27 min",
             "Lee Zii Jia",
             "Jia Heng Teh"
           ],
@@ -816,10 +790,10 @@
             "Ditlev Jaeger Holm",
             "4.70"
           ],
-          "market_line": 144,
+          "market_line": 152,
           "preceding_lines": [
             "Hylo Open",
-            "LIVE dans 44 min",
+            "LIVE dans 32 min",
             "Ade Resky Dwicahyo",
             "Daniil Dubovenko",
             "Qui va gagner le match ?",
@@ -829,7 +803,7 @@
             "1.08",
             "+ 20",
             "Hylo Open",
-            "54 min",
+            "42 min",
             "Nishimoto Kenta",
             "Ditlev Jaeger Holm"
           ],
@@ -837,8 +811,7 @@
         }
       ],
       "rejections": {
-        "MISSING_DATE_AND_COUNTDOWN": 2,
-        "PRICE_NOT_CONFIRMED": 1
+        "MISSING_DATE_AND_COUNTDOWN": 2
       },
       "resolved_url": "https://www.netbet.fr/badminton/international/hylo-open",
       "robots_status": "ALLOWED_BY_ROBOTS",
