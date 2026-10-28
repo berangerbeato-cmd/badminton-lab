@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_2_shadow_compare_v1",
-  "generated_at_utc": "2026-10-28T09:13:17+00:00",
+  "generated_at_utc": "2026-10-28T09:30:24+00:00",
   "policy": "SHADOW_ONLY_NO_BET_NO_T0_NO_SHEETS_WRITE",
   "model": "bwf_v3_2_score_rest_live",
   "max_age_seconds": 2700,
@@ -17,7 +17,7 @@
       ]
     },
     "NetBet.fr": {
-      "observation_utc": "2026-10-28T09:12:47+00:00",
+      "observation_utc": "2026-10-28T09:23:25+00:00",
       "snapshot_status": "OK",
       "snapshot_path": "data/model_v3_2_live/snapshots/2026-10-28.csv",
       "snapshot_sha256": "d559a7319ebf2b9096e11a80ca1914ca9f7da2f352daa2362350e9326561a66b",
@@ -43,8 +43,8 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
-          "age_seconds": 31,
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "age_seconds": 419,
           "current": true,
           "source_url": "https://www.netbet.fr/badminton",
           "quality_flags": [
@@ -98,8 +98,8 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
-          "age_seconds": 31,
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "age_seconds": 419,
           "current": true,
           "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
           "quality_flags": [
@@ -153,8 +153,8 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
-          "age_seconds": 31,
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "age_seconds": 419,
           "current": true,
           "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
           "quality_flags": [
@@ -208,8 +208,8 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
-          "age_seconds": 31,
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "age_seconds": 419,
           "current": true,
           "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
           "quality_flags": [
@@ -263,8 +263,8 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
-          "age_seconds": 31,
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "age_seconds": 419,
           "current": true,
           "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
           "quality_flags": [
@@ -318,8 +318,8 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
-          "age_seconds": 31,
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "age_seconds": 419,
           "current": true,
           "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
           "quality_flags": [
@@ -373,8 +373,8 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
-          "age_seconds": 31,
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "age_seconds": 419,
           "current": true,
           "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
           "quality_flags": [
@@ -428,10 +428,10 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
-          "age_seconds": 31,
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "age_seconds": 419,
           "current": true,
-          "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
+          "source_url": "https://www.netbet.fr/badminton",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -483,8 +483,8 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
-          "age_seconds": 31,
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "age_seconds": 419,
           "current": true,
           "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
           "quality_flags": [
@@ -538,8 +538,8 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
-          "age_seconds": 31,
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "age_seconds": 419,
           "current": true,
           "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
           "quality_flags": [
@@ -593,8 +593,8 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
-          "age_seconds": 31,
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
+          "age_seconds": 419,
           "current": true,
           "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
           "quality_flags": [
