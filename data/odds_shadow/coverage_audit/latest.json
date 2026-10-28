@@ -2,8 +2,8 @@
   "next_actions": [
     {
       "source": "unibet_fr",
-      "priority": 3,
-      "action": "Record access limitation; do not bypass robots, authentication or geoblocks."
+      "priority": 2,
+      "action": "Inspect public page structure and discipline/date sections; do not interpret live prices as prematch."
     },
     {
       "source": "betclic_fr",
@@ -38,11 +38,12 @@
   ],
   "blocker_counts": {
     "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE": 4,
-    "HTTP_OR_REDIRECT_REJECTED": 3,
+    "HTTP_OR_REDIRECT_REJECTED": 2,
+    "NO_CONFIDENT_QUOTES_EXTRACTED": 1,
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-10-28T07:03:30.667193+00:00",
+  "generated_at_utc": "2026-10-28T07:37:24.851974+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 16,
@@ -178,31 +179,31 @@
   ],
   "source_audit": {
     "unibet_fr": {
-      "status": "REJECT_HTTP_CACHE_AGE",
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-28T07:02:19+00:00",
-      "parser_notes": null,
+      "observed_at_utc": "2026-10-28T07:36:08+00:00",
+      "parser_notes": "parsed; page_parsed_entries=39; by_discipline_and_status=DM:OBSERVED_DATE_UNVERIFIED=16,F:OBSERVED_DATE_UNVERIFIED=13,H:OBSERVED_DATE_UNVERIFIED=10; eligible_MS_H2H=0; local_now=2026-10-28T08:36:07.527300+01:00",
       "index_market_audit": null,
       "reason_counts": null,
-      "blocker": "HTTP_OR_REDIRECT_REJECTED"
+      "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
     },
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
-      "quote_count": 2,
-      "observed_at_utc": "2026-10-28T07:03:23+00:00",
+      "quote_count": 4,
+      "observed_at_utc": "2026-10-28T07:37:17+00:00",
       "parser_notes": null,
       "index_market_audit": {
-        "eligible_listing_rows": 2,
+        "eligible_listing_rows": 4,
         "markets_seen": 11,
         "rejection_evidence": [
           {
             "following_lines": [
-              "Amalie Schulz",
-              "2.27",
-              "Huang Yu-Hsun",
-              "1.38"
+              "Petra Maixnerova",
+              "2.80",
+              "Wen Yu Zhang",
+              "1.24"
             ],
-            "market_line": 120,
+            "market_line": 119,
             "preceding_lines": [
               "Dominik Kwinta",
               "Qui va gagner le match ?",
@@ -212,62 +213,10 @@
               "10.00",
               "+ 19",
               "Toute l'offre Badminton",
-              "(65)",
+              "(63)",
               "À Venir",
               "Hylo Open (F)",
-              "LIVE dans 27 min",
-              "Amalie Schulz",
-              "Huang Yu-Hsun"
-            ],
-            "reason": "COMPETITION_NOT_PROVEN"
-          },
-          {
-            "following_lines": [
-              "Kaloyana Nalbantova",
-              "1.85",
-              "Ashmita Chaliha",
-              "1.60"
-            ],
-            "market_line": 130,
-            "preceding_lines": [
-              "Hylo Open (F)",
-              "LIVE dans 27 min",
-              "Amalie Schulz",
-              "Huang Yu-Hsun",
-              "Qui va gagner le match ?",
-              "Amalie Schulz",
-              "2.27",
-              "Huang Yu-Hsun",
-              "1.38",
-              "+ 15",
-              "Hylo Open (F)",
-              "LIVE dans 27 min",
-              "Kaloyana Nalbantova",
-              "Ashmita Chaliha"
-            ],
-            "reason": "COMPETITION_NOT_PROVEN"
-          },
-          {
-            "following_lines": [
-              "Petra Maixnerova",
-              "2.70",
-              "Wen Yu Zhang",
-              "1.26"
-            ],
-            "market_line": 140,
-            "preceding_lines": [
-              "Hylo Open (F)",
-              "LIVE dans 27 min",
-              "Kaloyana Nalbantova",
-              "Ashmita Chaliha",
-              "Qui va gagner le match ?",
-              "Kaloyana Nalbantova",
-              "1.85",
-              "Ashmita Chaliha",
-              "1.60",
-              "+ 17",
-              "Hylo Open (F)",
-              "LIVE dans 57 min",
+              "LIVE dans 23 min",
               "Petra Maixnerova",
               "Wen Yu Zhang"
             ],
@@ -280,20 +229,20 @@
               "Anna Siess Ryberg",
               "14.50"
             ],
-            "market_line": 150,
+            "market_line": 129,
             "preceding_lines": [
               "Hylo Open (F)",
-              "LIVE dans 57 min",
+              "LIVE dans 23 min",
               "Petra Maixnerova",
               "Wen Yu Zhang",
               "Qui va gagner le match ?",
               "Petra Maixnerova",
-              "2.70",
+              "2.80",
               "Wen Yu Zhang",
-              "1.26",
+              "1.24",
               "+ 20",
               "Hylo Open (F)",
-              "LIVE dans 57 min",
+              "LIVE dans 23 min",
               "Pornpawee Chochuwong",
               "Anna Siess Ryberg"
             ],
@@ -306,10 +255,10 @@
               "Panev-Stoeva",
               "13.50"
             ],
-            "market_line": 160,
+            "market_line": 139,
             "preceding_lines": [
               "Hylo Open (F)",
-              "LIVE dans 57 min",
+              "LIVE dans 23 min",
               "Pornpawee Chochuwong",
               "Anna Siess Ryberg",
               "Qui va gagner le match ?",
@@ -319,7 +268,7 @@
               "14.50",
               "+ 2",
               "Hylo Open, Doubles Mixtes",
-              "LIVE dans 57 min",
+              "LIVE dans 23 min",
               "Rodriguez-Garcia",
               "Panev-Stoeva"
             ],
@@ -332,9 +281,10 @@
               "Polina Buhrova",
               "1.78"
             ],
-            "market_line": 171,
+            "market_line": 149,
             "preceding_lines": [
-              "LIVE dans 57 min",
+              "Hylo Open, Doubles Mixtes",
+              "LIVE dans 23 min",
               "Rodriguez-Garcia",
               "Panev-Stoeva",
               "Qui va gagner le match ?",
@@ -344,28 +294,80 @@
               "13.50",
               "+ 2",
               "Hylo Open (F)",
-              "mer. 28 oct.",
-              "09:25",
+              "LIVE dans 48 min",
               "Aakarshi Kashyap",
               "Polina Buhrova"
+            ],
+            "reason": "COMPETITION_NOT_PROVEN"
+          },
+          {
+            "following_lines": [
+              "Kodai Naraoka",
+              "1.01",
+              "Dominik Kwinta",
+              "10.00"
+            ],
+            "market_line": 159,
+            "preceding_lines": [
+              "Hylo Open (F)",
+              "LIVE dans 48 min",
+              "Aakarshi Kashyap",
+              "Polina Buhrova",
+              "Qui va gagner le match ?",
+              "Aakarshi Kashyap",
+              "1.65",
+              "Polina Buhrova",
+              "1.78",
+              "+ 19",
+              "Hylo Open",
+              "LIVE dans 48 min",
+              "Kodai Naraoka",
+              "Dominik Kwinta"
+            ],
+            "reason": "COMPETITION_NOT_PROVEN"
+          },
+          {
+            "following_lines": [
+              "Devika Sihag",
+              "1.28",
+              "Malvika Bansod",
+              "2.62"
+            ],
+            "market_line": 170,
+            "preceding_lines": [
+              "LIVE dans 48 min",
+              "Kodai Naraoka",
+              "Dominik Kwinta",
+              "Qui va gagner le match ?",
+              "Kodai Naraoka",
+              "1.01",
+              "Dominik Kwinta",
+              "10.00",
+              "+ 19",
+              "Hylo Open (F)",
+              "mer. 28 oct.",
+              "09:50",
+              "Devika Sihag",
+              "Malvika Bansod"
             ],
             "reason": "NON_MS_COMPETITION"
           }
         ],
         "rejections": {
           "COMPETITION_NOT_PROVEN": 3,
-          "DUPLICATE_MARKET": 1,
-          "NON_MS_COMPETITION": 2,
+          "NON_MS_COMPETITION": 1,
           "PRICE_NOT_CONFIRMED": 3
         }
       },
-      "reason_counts": {},
+      "reason_counts": {
+        "NO_UNIQUE_BWF_FIXTURE": 1
+      },
       "blocker": "QUOTE_OBSERVED_REQUIRES_VALIDATION"
     },
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-28T07:02:40+00:00",
+      "observed_at_utc": "2026-10-28T07:36:35+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -374,7 +376,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-28T07:02:55+00:00",
+      "observed_at_utc": "2026-10-28T07:36:51+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -383,16 +385,16 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-28T07:02:27+00:00",
+      "observed_at_utc": "2026-10-28T07:36:20+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE"
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
+      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quote_count": 16,
-      "observed_at_utc": "2026-10-28T07:02:29+00:00",
+      "observed_at_utc": "2026-10-28T07:36:21+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -401,7 +403,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-28T07:02:41+00:00",
+      "observed_at_utc": "2026-10-28T07:36:36+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -410,7 +412,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-28T07:02:51+00:00",
+      "observed_at_utc": "2026-10-28T07:36:46+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -419,7 +421,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-28T07:03:00+00:00",
+      "observed_at_utc": "2026-10-28T07:36:55+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -428,7 +430,7 @@
     "oddspedia_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-28T07:02:56+00:00",
+      "observed_at_utc": "2026-10-28T07:36:52+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -437,7 +439,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-28T07:03:18+00:00",
+      "observed_at_utc": "2026-10-28T07:37:13+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,

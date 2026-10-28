@@ -1,19 +1,19 @@
 {
-  "observed_at_utc": "2026-10-28T07:02:19+00:00",
+  "observed_at_utc": "2026-10-28T07:36:07+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 16,
   "sources": {
     "unibet_fr": {
-      "status": "REJECT_HTTP_CACHE_AGE",
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quotes": 0,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": null,
+      "parser_notes": "parsed; page_parsed_entries=39; by_discipline_and_status=DM:OBSERVED_DATE_UNVERIFIED=16,F:OBSERVED_DATE_UNVERIFIED=13,H:OBSERVED_DATE_UNVERIFIED=10; eligible_MS_H2H=0; local_now=2026-10-28T08:36:07.527300+01:00",
       "error": null,
-      "cache_age_seconds": "145",
-      "body_sha256": "bf8ec0597f1d4b8d41336eedc36b81ff314e4623c78419eb22cd1d9ab5975fdb",
+      "cache_age_seconds": null,
+      "body_sha256": "b69e779bc5522952d77fa8bdc26d43790e301ebcacd34de219e094c823bd2199",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -31,15 +31,15 @@
       "flashscore_match_audit": null
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
+      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quotes": 16,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
-      "cache_age_seconds": "146",
-      "body_sha256": "acf28b12a12b515461dac33b433d762260c9b201bde063597ab32e1c856c0863",
+      "cache_age_seconds": null,
+      "body_sha256": "b2fcd0676d6ce8ea028789e11501218164c7ed18f352ac5e75df835985413622",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "da680d6538c32805ba1aeaa55dcffe21fd5ec7fe3c5d7cd018541969a3511082",
+      "body_sha256": "1dde951fd17832821def2791d7e8641d617c5688ea9929ea0579cbe0365211f5",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "3a3b20bb41dda45d14ee71cd0c757812761eda26e437ae63c43e557842086afe",
+      "body_sha256": "0ed57f68d94f7ae9e6522ebcf6231bb8ee22dd7d7fa2bba1ca9df17ca299e4e9",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "d674dd3fac3396b395d1064a7c966b9e2053897edfec656802f24eacbaa4badf",
+      "body_sha256": "5d407ccaac53dcddc3136b781f12cfa872d154e5dff0c76f991e4c8781660b40",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "315",
-      "body_sha256": "8d12d53370ae42af2595b8c51c91c743e0fab76cc7ca8ca007cacfcce406b8df",
+      "cache_age_seconds": "226",
+      "body_sha256": "0ebb2fab1b6a6aa0093e0954edf31d9be7642036221307ebf449914b377ddc13",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/kwinta-dominik-novk7Ky2/naraoka-kodai-MPtLI8G5/?mid=hSFsv6Wq",
@@ -175,11 +175,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/chi-yu-jen-UoKg0KMC/mannepalli-tharun-rHey7g9B/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "a67e8cbc1f1b0ff7ed2449c7c54b9427fd4b575cc2e9977c216561f76f4b06df",
+        "body_sha256": "3e7a4e6aa447da373b4ec79fde9109e4d68ecb1c9a2371d09eb9d4e52c2d4dbc",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Tharun Mannepalli - Yu Jen Chi (28/10/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESHYLO OPEN - 1/16 DE FINALE\nNouvelle fenêtre\n28.10.2026 19:50\nMannepalli T.\nBWF\n: 54.\n-\nChi Y. J.\nBWF\n: 24.\n-\n28.10.2026 19:50\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n3.25\n1.33\nFAIRE UN PARI\nVoir plus\nOFFRES BONUS\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nINFORMATIONS DE MATCH\nSTADE:\nSaarlandhalle\n (Sarrebruck)\nFORME\nMannepalli T.\n?\nD\nV\nD\nV\nV\nChi Y. J.\n?\nD\nV\nV\nD\nD\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT HYLO Open Hommes\nBWF WT HYLO Open Femmes\nBWF WT HYLO Open Doubles Hommes\nBWF WT HYLO Open Doubles Femmes\nBWF WT HYLO Open Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nSuivez Tharun Mannepalli - Yu Jen Chi le 28/10",
+        "text_excerpt_for_debug": "Tharun Mannepalli - Yu Jen Chi (28/10/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESHYLO OPEN - 1/16 DE FINALE\nNouvelle fenêtre\n28.10.2026 19:50\nMannepalli T.\nBWF\n: 54.\n-\nSTREAM\nChi Y. J.\nBWF\n: 24.\n-\n28.10.2026 19:50\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\nLIVE STREAM\n-\n-\n3.25\n1.33\nFAIRE UN PARI\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $350 in Bonus Bets when you wager $5 for 7 days\n21+ $5 first deposit required to get bonus bets which expire 7 days after. T&Cs apply\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nBET365 - Bet $10 Get $150 in Bonus Bets Win or Lose\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET Please gamble responsibly. Minimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE MATCH\nSTADE:\nSaarlandhalle\n (Sarrebruck)\nFORME\nMannepalli T.\n?\nD\nV\nD\nV\nV\nChi Y. J",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 5107,
+        "body_characters": 6301,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -191,11 +191,20 @@
           "HOME/AWAY",
           "1",
           "2",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "LIVE STREAM",
+          "-",
+          "-",
           "3.25",
           "1.33",
           "FAIRE UN PARI"
         ],
-        "odds_section_dash_count": 0,
+        "odds_section_dash_count": 8,
         "odds_section_decimal_prices": [
           "3.25",
           "1.33"
@@ -213,8 +222,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "0",
-      "body_sha256": "d7c414159d1767d0c49f2b72e750315f30d1d537336cbca82621dbf24a858d69",
+      "cache_age_seconds": "111",
+      "body_sha256": "87c38ef177141f90035aeac8f1e0cbb91d5fa70d7edc4bc3e8b1c680dbbf627d",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
