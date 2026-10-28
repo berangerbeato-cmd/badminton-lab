@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-28T09:13:30+00:00",
+  "generated_at_utc": "2026-10-28T09:29:16+00:00",
   "match_count": 11,
   "matches": [
     {
@@ -46,10 +46,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 43,
+          "age_seconds": 351,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -106,10 +106,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 43,
+          "age_seconds": 351,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -166,10 +166,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 43,
+          "age_seconds": 351,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -226,10 +226,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 43,
+          "age_seconds": 351,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -286,10 +286,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 43,
+          "age_seconds": 351,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -346,10 +346,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 43,
+          "age_seconds": 351,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -406,10 +406,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 43,
+          "age_seconds": 351,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -466,10 +466,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 43,
+          "age_seconds": 351,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -477,7 +477,7 @@
             "MODEL_PROVISIONAL",
             "NO_BET"
           ],
-          "source_url": "https://www.netbet.fr/badminton/international/hylo-open"
+          "source_url": "https://www.netbet.fr/badminton"
         }
       },
       "valid_pre_match_T0": false
@@ -526,10 +526,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 43,
+          "age_seconds": 351,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -586,10 +586,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 43,
+          "age_seconds": 351,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -646,10 +646,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 43,
+          "age_seconds": 351,
           "current": true,
           "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
-          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "observed_at_utc": "2026-10-28T09:23:25+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -675,7 +675,7 @@
   "schema_version": "badminton_shadow_comparator_v2.1",
   "sources": {
     "NetBet.fr": {
-      "observation_utc": "2026-10-28T09:12:47+00:00",
+      "observation_utc": "2026-10-28T09:23:25+00:00",
       "operator": "NetBet.fr",
       "rejected": [],
       "rows_current": 11,
