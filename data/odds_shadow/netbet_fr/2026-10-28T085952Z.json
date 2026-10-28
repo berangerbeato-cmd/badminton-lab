@@ -1,0 +1,15 @@
+{
+  "bookmaker_price_updated_at": null,
+  "error": "TimeoutError: Page.goto: Timeout 24000ms exceeded.\nCall log:\n  - navigating to \"https://www.netbet.fr/badminton\", waiting until \"domcontentloaded\"\n",
+  "finished_at_utc": "2026-10-28T09:00:41+00:00",
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-10-28T09:00:17+00:00",
+  "operator": "NetBet.fr",
+  "operator_kind": "ONLINE",
+  "quotes": [],
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "source_key": "netbet_fr",
+  "source_url": "https://www.netbet.fr/badminton",
+  "status": "SCRAPE_FAILED",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}

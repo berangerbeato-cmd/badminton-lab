@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-28T08:56:49+00:00",
+  "observed_at_utc": "2026-10-28T08:59:52+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 15,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=41; by_discipline_and_status=DM:OBSERVED_DATE_UNVERIFIED=14,F:OBSERVED_DATE_UNVERIFIED=12,H:OBSERVED_DATE_UNVERIFIED=15; eligible_MS_H2H=0; local_now=2026-10-28T09:56:49.386708+01:00",
+      "parser_notes": "parsed; page_parsed_entries=41; by_discipline_and_status=DM:OBSERVED_DATE_UNVERIFIED=14,F:OBSERVED_DATE_UNVERIFIED=12,H:OBSERVED_DATE_UNVERIFIED=15; eligible_MS_H2H=0; local_now=2026-10-28T09:59:52.224171+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "dd8660a1c2f043d2681e6a13dd329a487ad5f46138c46f8dd774a547eb2f5565",
+      "body_sha256": "81aca8c3f8063bed3e6e4ee11439bede707924272667b56fdc51fef6245e09c0",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -70,15 +70,15 @@
       "flashscore_match_audit": null
     },
     "netbet_fr": {
-      "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
+      "status": "SCRAPE_FAILED",
       "quotes": 0,
       "robots_status": "ALLOWED_BY_ROBOTS",
-      "http_status": 200,
-      "resolved_url": "https://www.netbet.fr/badminton",
+      "http_status": null,
+      "resolved_url": null,
       "parser_notes": null,
-      "error": null,
+      "error": "TimeoutError: Page.goto: Timeout 24000ms exceeded.\nCall log:\n  - navigating to \"https://www.netbet.fr/badminton\", waiting until \"domcontentloaded\"\n",
       "cache_age_seconds": null,
-      "body_sha256": "829f8a1796c895ed08a7506ee8c83191d1fc5fc088f4e5f2355662f6fc300067",
+      "body_sha256": null,
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -90,7 +90,7 @@
       "resolved_url": "https://www.pmu.fr/sport/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": null,
+      "cache_age_seconds": "30",
       "body_sha256": "3c2d462b54a813dbe048fe25ad05d845ed5055410bc437282ecafe5270902a27",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "0f258bf866313e434b074b06efc605a0a0fa5c5944a89437ef2aafb43b6fe7e7",
+      "body_sha256": "bb5ade048573723958920163bf3d4fc195d133b74ad4a4a430d410c4a95167e6",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "50115814e2c51d383014063bce07301beb66c14595082cb9dfaa2237ceb489ad",
+      "body_sha256": "79d2cf721c7865e793938a7628f2817d71067a7090a780d8f538d8bf4ed50b25",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "330",
-      "body_sha256": "0e68819db3c8667926017e0fefb0d89a7270568ddbaaba8b438bf052c82cf562",
+      "cache_age_seconds": "201",
+      "body_sha256": "56be3a10b33c2c4ebfa8bff56e64182e45ddc4459fe1d9d7ae0a80482452461c",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/kwinta-dominik-novk7Ky2/naraoka-kodai-MPtLI8G5/?mid=hSFsv6Wq",
@@ -164,7 +164,7 @@
         ],
         "index_match_link_count": 82,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n28/10 ME\nHYLO Open (Allemagne)\nBWF WORLD TOUR - HOMMES: \nTableau\n2. set\nNaraoka K.\nKwinta D.\n1\n0\n21\n18\n5\n2\nAnnulé\nChi Y. J.\nNguyen N.\n-\n-\nAnnulé\nShetty A.\nSu L. Y.\n-\n-\n11:30\nLee Z. J.\nTeh J. H. J.\n-\n-\n12:10\nDwicahyo A. R.\nDubovenko D.\n-\n-\n12:20\nNishimoto K.\nHolm J.\n-\n-\n13:10\nGemke R.\nSu L. Y.\n-\n-\nAnnulé\nKoga M.\nGemke R.\n-\n-\n14:50\nAntonsen A.\nHuang H.\n-\n-\n15:40\nChristie J.\nBogebjerg W.\n-\n-\n17:20\nKoga M.\nTan G.\n-\n-\n18:10\nJohannesen M.\nMerkle A.\n-\n-\n19:00\nOldorff J.\nSen L.\n-\n-\n19:50\nHaase N.\nCarraggi J.\n-\n-\n19:50\nMannepalli T.\nChi Y. J.\n-\n-\nAnnulé\nMannepalli T.\nPopov T. J.\n-\n-\nAnnulé\nPrannoy H. S.\nLanier A.\n-\n-\n20:40\nPrannoy H. S.\nPopov T. J.\n-\n-\n21:30\nGeorge K.\nCheam J. W.\n-\n-\nAnnulé\nKoljonen K.\nPopov C.\n-\n-\n21:30\nKoljonen K.\nSubramanian S. M.\n-\n-\n21:30\nZilberman M.\nDinata A.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nChochuwong Po.\nRyberg A. S.\n2\n0\n21\n17\n21\n11\nAnnulé\nChochuwong Po.\nSihag D.\n-\n-\nTerminé\nMaixnerova P.\nZhang W. Y.\n0\n2\n16\n21\n17\n21\n2. set\nKashyap A.\nBuhrova P.\n0\n1\n12\n21\n2\n2\nAnnulé\nLi M.\nSung S. Y.\n-\n-\n10:30\nSihag D.\nBansod M.\n-\n-\nAnnulé\nKjaersfeldt L. H.\nBansod M.\n-\n-\n13:00\nSvabikova T.\nHooda U.\n-\n-\n13:50\nArin N.\nSung S. Y.\n-\n-\nAnnulé\nArin N.\nSindhu P. V.\n-\n-\n14:00\nOstergaard F.\nKantemyr Y.\n-\n-\n16:30\nBaruah I.\nWilson M.\n-\n-\n16:30\nLiyanage R.\nKharb A.\n-\n-\nAnnulé\nBlichfeldt M.\nSaeheng T.\n-\n-\n17:20\nKjaersfeldt L. H.\nSaeheng T.\n-\n-\n18:10\nLin E.\nGilmour K.\n-\n-\n19:00\nAz Zahra K. F.\nChristophersen L.\n-\n-\n19:00\nBharath P.\nSindhu P. V.\n-\n-\n19:50\nSchulz A.\nHuang Y-H.\n-\n-\n20:40\nLi Y.\nPancasari R. O.\n-\n-\n20:"
+        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n28/10 ME\nHYLO Open (Allemagne)\nBWF WORLD TOUR - HOMMES: \nTableau\n2. set\nNaraoka K.\nKwinta D.\n1\n0\n21\n18\n8\n4\nAnnulé\nChi Y. J.\nNguyen N.\n-\n-\nAnnulé\nShetty A.\nSu L. Y.\n-\n-\n11:30\nLee Z. J.\nTeh J. H. J.\n-\n-\n12:10\nDwicahyo A. R.\nDubovenko D.\n-\n-\n12:20\nNishimoto K.\nHolm J.\n-\n-\n13:10\nGemke R.\nSu L. Y.\n-\n-\nAnnulé\nKoga M.\nGemke R.\n-\n-\n14:50\nAntonsen A.\nHuang H.\n-\n-\n15:40\nChristie J.\nBogebjerg W.\n-\n-\n17:20\nKoga M.\nTan G.\n-\n-\n18:10\nJohannesen M.\nMerkle A.\n-\n-\n19:00\nOldorff J.\nSen L.\n-\n-\n19:50\nHaase N.\nCarraggi J.\n-\n-\n19:50\nMannepalli T.\nChi Y. J.\n-\n-\nAnnulé\nMannepalli T.\nPopov T. J.\n-\n-\nAnnulé\nPrannoy H. S.\nLanier A.\n-\n-\n20:40\nPrannoy H. S.\nPopov T. J.\n-\n-\n21:30\nGeorge K.\nCheam J. W.\n-\n-\nAnnulé\nKoljonen K.\nPopov C.\n-\n-\n21:30\nKoljonen K.\nSubramanian S. M.\n-\n-\n21:30\nZilberman M.\nDinata A.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nChochuwong Po.\nRyberg A. S.\n2\n0\n21\n17\n21\n11\nAnnulé\nChochuwong Po.\nSihag D.\n-\n-\nTerminé\nMaixnerova P.\nZhang W. Y.\n0\n2\n16\n21\n17\n21\n2. set\nKashyap A.\nBuhrova P.\n0\n1\n12\n21\n3\n9\nAnnulé\nLi M.\nSung S. Y.\n-\n-\n10:30\nSihag D.\nBansod M.\n-\n-\nAnnulé\nKjaersfeldt L. H.\nBansod M.\n-\n-\n13:00\nSvabikova T.\nHooda U.\n-\n-\n13:50\nArin N.\nSung S. Y.\n-\n-\nAnnulé\nArin N.\nSindhu P. V.\n-\n-\n14:00\nOstergaard F.\nKantemyr Y.\n-\n-\n16:30\nBaruah I.\nWilson M.\n-\n-\n16:30\nLiyanage R.\nKharb A.\n-\n-\nAnnulé\nBlichfeldt M.\nSaeheng T.\n-\n-\n17:20\nKjaersfeldt L. H.\nSaeheng T.\n-\n-\n18:10\nLin E.\nGilmour K.\n-\n-\n19:00\nAz Zahra K. F.\nChristophersen L.\n-\n-\n19:00\nBharath P.\nSindhu P. V.\n-\n-\n19:50\nSchulz A.\nHuang Y-H.\n-\n-\n20:40\nLi Y.\nPancasari R. O.\n-\n-\n20:"
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/chi-yu-jen-UoKg0KMC/mannepalli-tharun-rHey7g9B/#/cotes/home-away/temps-regulier/",
@@ -175,11 +175,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/chi-yu-jen-UoKg0KMC/mannepalli-tharun-rHey7g9B/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "dbe32613c2ac0171c8fc1248f827108f63c78c39e24bcee140aa7d264274a226",
+        "body_sha256": "6094802bbfacd644bf0b1e60809c487835926675709ea3ae853079d2ab98b2d9",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Tharun Mannepalli - Yu Jen Chi (28/10/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - HOMMESHYLO OPEN - 1/16 DE FINALE\nNouvelle fenêtre\n28.10.2026 19:50\nMannepalli T.\nBWF\n: 54.\n-\nSTREAM\nChi Y. J.\nBWF\n: 24.\n-\n28.10.2026 19:50\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nVIDÉO\nCOTES\nHOME/AWAY\n1\n2\n-\n-\nLIVE STREAM\n-\n-\n-\n-\n-\n-\n3.25\n1.33\nFAIRE UN PARI\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $350 in Bonus Bets when you wager $5 for 7 days\n21+ $5 first deposit required to get bonus bets which expire 7 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBetMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. 1-800-BETS-OFF (IA), New customers only. T&C apply Must opt-in and wager $10+ cash on any market to receive $50 in Bonus Bets each day for your first 5 days\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE MATCH\nSTADE:\nSaarlandhalle\n (Sarrebruck)\nFORME\nMannepalli T.\n?\nD\nV\nD\nV\nV\nChi Y. J.\n?\nD\nV\nV\nD\nD\n",
+        "text_excerpt_for_debug": "Tharun Mannepalli - Yu Jen Chi (28/10/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESHYLO OPEN - 1/16 DE FINALE\nNouvelle fenêtre\n28.10.2026 19:50\nMannepalli T.\nBWF\n: 54.\n-\nSTREAM\nChi Y. J.\nBWF\n: 24.\n-\n28.10.2026 19:50\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nVIDÉO\nCOTES\nHOME/AWAY\n1\n2\n-\n-\nLIVE STREAM\n-\n-\n-\n-\n-\n-\n3.25\n1.33\nFAIRE UN PARI\n-\n-\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $350 in Bonus Bets when you wager $5 for 7 days\n21+ $5 first deposit required to get bonus bets which expire 7 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA). T&C apply.\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE MATCH\nSTADE:\nSaarlandhalle\n (Sarrebruck)\nFORME\nMannepall",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 6077,
+        "body_characters": 6093,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -202,9 +202,11 @@
           "-",
           "3.25",
           "1.33",
-          "FAIRE UN PARI"
+          "FAIRE UN PARI",
+          "-",
+          "-"
         ],
-        "odds_section_dash_count": 8,
+        "odds_section_dash_count": 10,
         "odds_section_decimal_prices": [
           "3.25",
           "1.33"
@@ -222,8 +224,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "559",
-      "body_sha256": "297013d47338d18b3e58d4d15bad782e7ef696b90c792e0c5d46c5842f9c326a",
+      "cache_age_seconds": "0",
+      "body_sha256": "598f73bd1503d8779a28d4f6f680c19a83d101a9ee8d49125bcaa91d1f32fd74",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
