@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_2_live_v1",
-  "generated_at_utc": "2026-10-28T09:21:53.057499+00:00",
+  "generated_at_utc": "2026-10-28T09:42:36.443415+00:00",
   "policy": "MODEL_ONLY_NO_BET_NO_T0_REWRITE",
   "model": "bwf_v3_2_score_rest_live",
   "selected_variant": "elo_plus_score_rest",
@@ -40,12 +40,12 @@
     }
   },
   "retrospective_2026_current_cache": {
-    "n": 1607,
-    "brier": 0.204443,
-    "log_loss": 0.594128,
-    "accuracy": 0.683261
+    "n": 1608,
+    "brier": 0.204317,
+    "log_loss": 0.593783,
+    "accuracy": 0.683458
   },
-  "upcoming_count": 16,
+  "upcoming_count": 15,
   "snapshot_policy": "Current player state uses completed results strictly before the current UTC date; same-day results are excluded.",
   "selection_policy": "Feature set and K were selected before this daily publication. 2026 outcomes never refit coefficients.",
   "trading_policy": "NO BET. Bookmaker prices and verified prematch timing are separate requirements handled downstream.",
@@ -53,9 +53,9 @@
     "not_MS": 52840,
     "no_full_score": 289,
     "score_not_completed": 221,
-    "no_winner": 28,
+    "no_winner": 27,
     "missing_player_ids": 5,
     "archives_read": 411,
-    "clean_MS_matches": 13783
+    "clean_MS_matches": 13784
   }
 }
