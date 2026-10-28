@@ -1,11 +1,11 @@
 {
-  "body_sha256": "c08b033fd2742ef99ad2d57468fbfb229373811b5ab541f49662340d3af1e86a",
+  "body_sha256": "6facea5920a27351945a75107661e78036942401ed90028e730f81960f27db5d",
   "bookmaker_price_updated_at": null,
   "cache_age_seconds": null,
-  "finished_at_utc": "2026-10-28T09:00:13+00:00",
+  "finished_at_utc": "2026-10-28T09:22:41+00:00",
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-28T09:00:00+00:00",
+  "observed_at_utc": "2026-10-28T09:22:29+00:00",
   "operator": "Parions Sport Point de Vente (FDJ)",
   "operator_kind": "RETAIL_NOT_ONLINE",
   "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
@@ -15,8 +15,6 @@
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-f/47819",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-h/47818",
-    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821/match_toftkudsk_saehengsaehen/1319130",
-    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821/match_hoolai_strooperbang/1319581",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821/match_eckerlinkelch_channg/1319571",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821/match_koldingwerge_franconfranco/1319132",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-h/47818/match_zjlee_jhjteh/1318402",
@@ -34,7 +32,9 @@
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821/match_ferdinanpasar_scheielvolkma/1319443",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821/match_syahnamarwah_deschabergste/1319136",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-h/47818/match_jchristie_wboegebjerg/1319575",
-    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821/match_voelkemoszczy_seidelnguyen/1319582"
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821/match_voelkemoszczy_seidelnguyen/1319582",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-dm/47821/match_mammerimammer_gicqueldelrue/1319124",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/hylo-open-f/47819/match_ibaruah_mwilson/1319576"
   ],
   "public_page_screenshot": "data/odds_shadow/visual_evidence/fdj_pos_fr.png",
   "quotes": [
@@ -242,10 +242,10 @@
   "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Wed, 28 Oct 2026 09:00:03 GMT",
+  "server_date": "Wed, 28 Oct 2026 09:22:30 GMT",
   "source_key": "fdj_pos_fr",
   "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
   "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nSerie A\nCpe Allemagne\nEFL Cup\nL1 McDonald's\nLigue 2 BKT\nLaLiga\nPremier League\n+\nAfficher plus\nTennis\nToutes les compétitions\nBale\nVienne\nTokyo\nGuangzhou\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nD1 France (H)\nEurocup (H)\nChampionsLeague\nEurope Cup\nBBL\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBaseball\nBoxe\nFormule 1\nGolf\nMMA\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nAujourd'hui\nToft/Kudsk-Saeheng/Saehen\nHylo Open DM\n\nN°6594 Face à Face I Fin de valid. 28/10 10h00\n\nAfficher\nToft/Kudsk\n1,01\nSaeheng/Saehen\n6,10\n5%\n94%\nHoo/Lai-Strooper/Bang\nHylo Open DM\n\nN°18966 Face à Face I Fin de valid. 28/10 10h10\n\nAfficher\nHoo/Lai\n1,01\nStrooper/Bang\n6,60\n24%\n75%\nEckerlin/Kelch-Chan/Ng\nHylo Open DM\n\nN°18967 Face à Face I Fin de valid. 28/10 10h15\n\nAfficher\nEckerlin/Kelch\n6,60\nChan/Ng\n1,01\n95%\n4%\nKolding/Werge-Francon/Franco\nHylo Open DM\n\nN°6591 Face à Face I F",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nSerie A\nCpe Allemagne\nEFL Cup\nL1 McDonald's\nLigue 2 BKT\nLaLiga\nPremier League\n+\nAfficher plus\nTennis\nToutes les compétitions\nBale\nVienne\nTokyo\nGuangzhou\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nD1 France (H)\nEurocup (H)\nChampionsLeague\nEurope Cup\nBBL\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBaseball\nBoxe\nFormule 1\nGolf\nMMA\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nAujourd'hui\nEckerlin/Kelch-Chan/Ng\nHylo Open DM\n\nN°18967 Face à Face I Fin de valid. 28/10 10h15\n\nAfficher\nEckerlin/Kelch\n6,20\nChan/Ng\n1,01\n95%\n4%\nKolding/Werge-Francon/Franco\nHylo Open DM\n\nN°6591 Face à Face I Fin de valid. 28/10 10h25\n\nAfficher\nKolding/Werge\n1,01\nFrancon/Franco\n6,60\n38%\n61%\nZJ.Lee-JHJ.Teh\nHylo Open H\n\nN°18698 Face à Face I Fin de valid. 28/10 10h35\n\nAfficher\nZJ.Lee\n1,47\nJHJ.Teh\n2,15\n45%\n54%\nA.Dwicahyo-D.Dubovenko\nHylo Open H\n\nN°18331 Face à Face I Fin de valid. 2",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }
