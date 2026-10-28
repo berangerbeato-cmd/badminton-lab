@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-10-28T08:57:51+00:00",
+  "generated_at_utc": "2026-10-28T09:56:04+00:00",
   "policy": "SHADOW_ONLY_NO_BET",
-  "total_rows": 32,
+  "total_rows": 42,
   "decisions": {
     "NO_QUOTE": 15,
-    "OBSERVED_NOT_ACTIONABLE": 17
+    "OBSERVED_NOT_ACTIONABLE": 27
   },
   "sources": {
     "betclic_fr": {
@@ -33,8 +33,8 @@
       "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION"
     },
     "fdj_pos_fr": {
-      "rows": 15,
-      "observed": 15,
+      "rows": 14,
+      "observed": 14,
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE"
     },
     "flashscore_badminton": {
@@ -48,8 +48,8 @@
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED"
     },
     "netbet_quotes": {
-      "rows": 2,
-      "observed": 2,
+      "rows": 13,
+      "observed": 13,
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
     },
     "oddschecker_badminton": {
