@@ -1,11 +1,11 @@
 {
-  "body_sha256": "69f05bbe566e6db4d4c517a5de50d87db12e7975a025917cc35f48d83df79c81",
+  "body_sha256": "acf28b12a12b515461dac33b433d762260c9b201bde063597ab32e1c856c0863",
   "bookmaker_price_updated_at": null,
   "cache_age_seconds": null,
-  "finished_at_utc": "2026-10-28T05:39:07+00:00",
+  "finished_at_utc": "2026-10-28T06:44:44+00:00",
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-28T05:38:56+00:00",
+  "observed_at_utc": "2026-10-28T06:44:31+00:00",
   "operator": "Parions Sport Point de Vente (FDJ)",
   "operator_kind": "RETAIL_NOT_ONLINE",
   "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
@@ -256,10 +256,10 @@
   "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Wed, 28 Oct 2026 05:38:58 GMT",
+  "server_date": "Wed, 28 Oct 2026 06:44:32 GMT",
   "source_key": "fdj_pos_fr",
   "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
   "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nSerie A\nCpe Allemagne\nEFL Cup\nL1 McDonald's\nLigue 2 BKT\nLaLiga\nPremier League\n+\nAfficher plus\nTennis\nToutes les compétitions\nBale\nVienne\nTokyo\nGuangzhou\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nD1 France (H)\nEurocup (H)\nChampionsLeague\nEurope Cup\nBBL\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBaseball\nBoxe\nFormule 1\nGolf\nMMA\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nAujourd'hui\nP.Maixnerova-WenY.Zhang\nHylo Open F\n\nN°18616 Face à Face I Fin de valid. 28/10 08h55\n\nAfficher\nP.Maixnerova\n2,80\nWenY.Zhang\n1,26\n0%\n99%\nP.Chochuwong-AS.Ryberg\nHylo Open F\n\nN°8001 Face à Face I Fin de valid. 28/10 08h55\n\nAfficher\nP.Chochuwong\n1,01\nAS.Ryberg\n6,60\n100%\n0%\nGarcia/Rodrigu-Panev/Stoeva\nHylo Open DM\n\nN°7989 Face à Face I Fin de valid. 28/10 08h55\n\nAfficher\nGarcia/Rodrigu\n1,01\nPanev/Stoeva\n6,50\n99%\n0%\nA.Kashyap-P.Burhova\nHylo Open F\n\nN°18582 Face à Face I Fin d",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nSerie A\nCpe Allemagne\nEFL Cup\nL1 McDonald's\nLigue 2 BKT\nLaLiga\nPremier League\n+\nAfficher plus\nTennis\nToutes les compétitions\nBale\nVienne\nTokyo\nGuangzhou\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nD1 France (H)\nEurocup (H)\nChampionsLeague\nEurope Cup\nBBL\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBaseball\nBoxe\nFormule 1\nGolf\nMMA\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nAujourd'hui\nP.Maixnerova-WenY.Zhang\nHylo Open F\n\nN°18616 Face à Face I Fin de valid. 28/10 08h55\n\nAfficher\nP.Maixnerova\n2,80\nWenY.Zhang\n1,26\n11%\n88%\nP.Chochuwong-AS.Ryberg\nHylo Open F\n\nN°8001 Face à Face I Fin de valid. 28/10 08h55\n\nAfficher\nP.Chochuwong\n1,01\nAS.Ryberg\n6,60\n99%\n0%\nGarcia/Rodrigu-Panev/Stoeva\nHylo Open DM\n\nN°7989 Face à Face I Fin de valid. 28/10 08h55\n\nAfficher\nGarcia/Rodrigu\n1,01\nPanev/Stoeva\n6,50\n96%\n3%\nA.Kashyap-P.Burhova\nHylo Open F\n\nN°18582 Face à Face I Fin d",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }
