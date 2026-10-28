@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_2_shadow_compare_v1",
-  "generated_at_utc": "2026-10-28T07:42:25+00:00",
+  "generated_at_utc": "2026-10-28T09:13:17+00:00",
   "policy": "SHADOW_ONLY_NO_BET_NO_T0_NO_SHEETS_WRITE",
   "model": "bwf_v3_2_score_rest_live",
   "max_age_seconds": 2700,
@@ -17,19 +17,129 @@
       ]
     },
     "NetBet.fr": {
-      "observation_utc": "2026-10-28T07:37:17+00:00",
+      "observation_utc": "2026-10-28T09:12:47+00:00",
       "snapshot_status": "OK",
       "snapshot_path": "data/model_v3_2_live/snapshots/2026-10-28.csv",
       "snapshot_sha256": "d559a7319ebf2b9096e11a80ca1914ca9f7da2f352daa2362350e9326561a66b",
-      "rows_read": 3,
-      "rows_validated": 3,
-      "rows_current": 3,
+      "rows_read": 11,
+      "rows_validated": 11,
+      "rows_current": 11,
       "rejected": []
     }
   },
-  "match_count": 3,
+  "match_count": 11,
   "within_window_match_count": 0,
   "matches": [
+    {
+      "bwf_match_id": "5273:1560220",
+      "model": "bwf_v3_2_score_rest_live",
+      "model_asof_utc": "2026-10-28T05:37:31+00:00",
+      "model_snapshot_sha256": "d559a7319ebf2b9096e11a80ca1914ca9f7da2f352daa2362350e9326561a66b",
+      "comparison_status": "ONE_BOOKMAKER_ONLY",
+      "observation_gap_seconds": null,
+      "decision": "NO_BET_SHADOW",
+      "valid_pre_match_T0": false,
+      "kickoff_verified": false,
+      "executable_price_verified": false,
+      "source_details": {
+        "NetBet.fr": {
+          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "age_seconds": 31,
+          "current": true,
+          "source_url": "https://www.netbet.fr/badminton",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_KICKOFF_UNVERIFIED",
+            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ]
+        }
+      },
+      "players": [
+        {
+          "bwf_player_id": "62855",
+          "name": "Rasmus GEMKE",
+          "v3_2_probability": 0.69604863,
+          "fair_odds": 1.4367,
+          "observed_odds": {
+            "NetBet.fr": 1.07
+          },
+          "best_historical_operator": "NetBet.fr",
+          "best_historical_odds": 1.07,
+          "best_historical_ev_pct": -25.52,
+          "best_within_window_ev_pct": null
+        },
+        {
+          "bwf_player_id": "94397",
+          "name": "SU Li  Yang",
+          "v3_2_probability": 0.30395137,
+          "fair_odds": 3.29,
+          "observed_odds": {
+            "NetBet.fr": 4.3
+          },
+          "best_historical_operator": "NetBet.fr",
+          "best_historical_odds": 4.3,
+          "best_historical_ev_pct": 30.7,
+          "best_within_window_ev_pct": null
+        }
+      ]
+    },
+    {
+      "bwf_match_id": "5273:1560240",
+      "model": "bwf_v3_2_score_rest_live",
+      "model_asof_utc": "2026-10-28T05:37:31+00:00",
+      "model_snapshot_sha256": "d559a7319ebf2b9096e11a80ca1914ca9f7da2f352daa2362350e9326561a66b",
+      "comparison_status": "ONE_BOOKMAKER_ONLY",
+      "observation_gap_seconds": null,
+      "decision": "NO_BET_SHADOW",
+      "valid_pre_match_T0": false,
+      "kickoff_verified": false,
+      "executable_price_verified": false,
+      "source_details": {
+        "NetBet.fr": {
+          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "age_seconds": 31,
+          "current": true,
+          "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_KICKOFF_UNVERIFIED",
+            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ]
+        }
+      },
+      "players": [
+        {
+          "bwf_player_id": "95766",
+          "name": "Noah HAASE",
+          "v3_2_probability": 0.20437638,
+          "fair_odds": 4.8929,
+          "observed_odds": {
+            "NetBet.fr": 4.7
+          },
+          "best_historical_operator": "NetBet.fr",
+          "best_historical_odds": 4.7,
+          "best_historical_ev_pct": -3.94,
+          "best_within_window_ev_pct": null
+        },
+        {
+          "bwf_player_id": "70399",
+          "name": "Julien CARRAGGI",
+          "v3_2_probability": 0.79562362,
+          "fair_odds": 1.2569,
+          "observed_odds": {
+            "NetBet.fr": 1.05
+          },
+          "best_historical_operator": "NetBet.fr",
+          "best_historical_odds": 1.05,
+          "best_historical_ev_pct": -16.46,
+          "best_within_window_ev_pct": null
+        }
+      ]
+    },
     {
       "bwf_match_id": "5273:1560257",
       "model": "bwf_v3_2_score_rest_live",
@@ -43,10 +153,10 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-28T07:37:17+00:00",
-          "age_seconds": 308,
+          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "age_seconds": 31,
           "current": true,
-          "source_url": "https://www.netbet.fr/badminton",
+          "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -86,7 +196,7 @@
       ]
     },
     {
-      "bwf_match_id": "5273:1560307",
+      "bwf_match_id": "5273:1560277",
       "model": "bwf_v3_2_score_rest_live",
       "model_asof_utc": "2026-10-28T05:37:31+00:00",
       "model_snapshot_sha256": "d559a7319ebf2b9096e11a80ca1914ca9f7da2f352daa2362350e9326561a66b",
@@ -98,10 +208,10 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-28T07:37:17+00:00",
-          "age_seconds": 308,
+          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "age_seconds": 31,
           "current": true,
-          "source_url": "https://www.netbet.fr/badminton",
+          "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -113,35 +223,35 @@
       },
       "players": [
         {
-          "bwf_player_id": "81561",
-          "name": "LEE Zii Jia",
-          "v3_2_probability": 0.49112651,
-          "fair_odds": 2.0361,
+          "bwf_player_id": "92160",
+          "name": "Tharun MANNEPALLI",
+          "v3_2_probability": 0.46132691,
+          "fair_odds": 2.1677,
           "observed_odds": {
-            "NetBet.fr": 1.45
+            "NetBet.fr": 2.95
           },
           "best_historical_operator": "NetBet.fr",
-          "best_historical_odds": 1.45,
-          "best_historical_ev_pct": -28.79,
+          "best_historical_odds": 2.95,
+          "best_historical_ev_pct": 36.09,
           "best_within_window_ev_pct": null
         },
         {
-          "bwf_player_id": "82606",
-          "name": "Jia Heng TEH",
-          "v3_2_probability": 0.50887349,
-          "fair_odds": 1.9651,
+          "bwf_player_id": "77848",
+          "name": "CHI Yu Jen",
+          "v3_2_probability": 0.53867309,
+          "fair_odds": 1.8564,
           "observed_odds": {
-            "NetBet.fr": 2.12
+            "NetBet.fr": 1.21
           },
           "best_historical_operator": "NetBet.fr",
-          "best_historical_odds": 2.12,
-          "best_historical_ev_pct": 7.88,
+          "best_historical_odds": 1.21,
+          "best_historical_ev_pct": -34.82,
           "best_within_window_ev_pct": null
         }
       ]
     },
     {
-      "bwf_match_id": "5273:1560368",
+      "bwf_match_id": "5273:1560292",
       "model": "bwf_v3_2_score_rest_live",
       "model_asof_utc": "2026-10-28T05:37:31+00:00",
       "model_snapshot_sha256": "d559a7319ebf2b9096e11a80ca1914ca9f7da2f352daa2362350e9326561a66b",
@@ -153,10 +263,10 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-10-28T07:37:17+00:00",
-          "age_seconds": 308,
+          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "age_seconds": 31,
           "current": true,
-          "source_url": "https://www.netbet.fr/badminton",
+          "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -168,29 +278,359 @@
       },
       "players": [
         {
-          "bwf_player_id": "85394",
-          "name": "Kenta NISHIMOTO",
-          "v3_2_probability": 0.78470697,
-          "fair_odds": 1.2744,
+          "bwf_player_id": "68317",
+          "name": "Kiran GEORGE",
+          "v3_2_probability": 0.39690441,
+          "fair_odds": 2.5195,
           "observed_odds": {
-            "NetBet.fr": 1.05
+            "NetBet.fr": 1.38
           },
           "best_historical_operator": "NetBet.fr",
-          "best_historical_odds": 1.05,
-          "best_historical_ev_pct": -17.61,
+          "best_historical_odds": 1.38,
+          "best_historical_ev_pct": -45.23,
           "best_within_window_ev_pct": null
         },
         {
-          "bwf_player_id": "90130",
-          "name": "Ditlev Jaeger HOLM",
-          "v3_2_probability": 0.21529303,
-          "fair_odds": 4.6448,
+          "bwf_player_id": "92796",
+          "name": "CHEAM June Wei",
+          "v3_2_probability": 0.60309559,
+          "fair_odds": 1.6581,
           "observed_odds": {
-            "NetBet.fr": 4.7
+            "NetBet.fr": 2.27
           },
           "best_historical_operator": "NetBet.fr",
-          "best_historical_odds": 4.7,
-          "best_historical_ev_pct": 1.19,
+          "best_historical_odds": 2.27,
+          "best_historical_ev_pct": 36.9,
+          "best_within_window_ev_pct": null
+        }
+      ]
+    },
+    {
+      "bwf_match_id": "5273:1560294",
+      "model": "bwf_v3_2_score_rest_live",
+      "model_asof_utc": "2026-10-28T05:37:31+00:00",
+      "model_snapshot_sha256": "d559a7319ebf2b9096e11a80ca1914ca9f7da2f352daa2362350e9326561a66b",
+      "comparison_status": "ONE_BOOKMAKER_ONLY",
+      "observation_gap_seconds": null,
+      "decision": "NO_BET_SHADOW",
+      "valid_pre_match_T0": false,
+      "kickoff_verified": false,
+      "executable_price_verified": false,
+      "source_details": {
+        "NetBet.fr": {
+          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "age_seconds": 31,
+          "current": true,
+          "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_KICKOFF_UNVERIFIED",
+            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ]
+        }
+      },
+      "players": [
+        {
+          "bwf_player_id": "85563",
+          "name": "Joakim OLDORFF",
+          "v3_2_probability": 0.08995723,
+          "fair_odds": 11.1164,
+          "observed_odds": {
+            "NetBet.fr": 5.0
+          },
+          "best_historical_operator": "NetBet.fr",
+          "best_historical_odds": 5.0,
+          "best_historical_ev_pct": -55.02,
+          "best_within_window_ev_pct": null
+        },
+        {
+          "bwf_player_id": "68870",
+          "name": "Lakshya SEN",
+          "v3_2_probability": 0.91004277,
+          "fair_odds": 1.0988,
+          "observed_odds": {
+            "NetBet.fr": 1.04
+          },
+          "best_historical_operator": "NetBet.fr",
+          "best_historical_odds": 1.04,
+          "best_historical_ev_pct": -5.36,
+          "best_within_window_ev_pct": null
+        }
+      ]
+    },
+    {
+      "bwf_match_id": "5273:1560300",
+      "model": "bwf_v3_2_score_rest_live",
+      "model_asof_utc": "2026-10-28T05:37:31+00:00",
+      "model_snapshot_sha256": "d559a7319ebf2b9096e11a80ca1914ca9f7da2f352daa2362350e9326561a66b",
+      "comparison_status": "ONE_BOOKMAKER_ONLY",
+      "observation_gap_seconds": null,
+      "decision": "NO_BET_SHADOW",
+      "valid_pre_match_T0": false,
+      "kickoff_verified": false,
+      "executable_price_verified": false,
+      "source_details": {
+        "NetBet.fr": {
+          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "age_seconds": 31,
+          "current": true,
+          "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_KICKOFF_UNVERIFIED",
+            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ]
+        }
+      },
+      "players": [
+        {
+          "bwf_player_id": "73442",
+          "name": "Jonatan CHRISTIE",
+          "v3_2_probability": 0.9399136,
+          "fair_odds": 1.0639,
+          "observed_odds": {
+            "NetBet.fr": 1.01
+          },
+          "best_historical_operator": "NetBet.fr",
+          "best_historical_odds": 1.01,
+          "best_historical_ev_pct": -5.07,
+          "best_within_window_ev_pct": null
+        },
+        {
+          "bwf_player_id": "71510",
+          "name": "William BØGEBJERG",
+          "v3_2_probability": 0.0600864,
+          "fair_odds": 16.6427,
+          "observed_odds": {
+            "NetBet.fr": 9.75
+          },
+          "best_historical_operator": "NetBet.fr",
+          "best_historical_odds": 9.75,
+          "best_historical_ev_pct": -41.42,
+          "best_within_window_ev_pct": null
+        }
+      ]
+    },
+    {
+      "bwf_match_id": "5273:1560312",
+      "model": "bwf_v3_2_score_rest_live",
+      "model_asof_utc": "2026-10-28T05:37:31+00:00",
+      "model_snapshot_sha256": "d559a7319ebf2b9096e11a80ca1914ca9f7da2f352daa2362350e9326561a66b",
+      "comparison_status": "ONE_BOOKMAKER_ONLY",
+      "observation_gap_seconds": null,
+      "decision": "NO_BET_SHADOW",
+      "valid_pre_match_T0": false,
+      "kickoff_verified": false,
+      "executable_price_verified": false,
+      "source_details": {
+        "NetBet.fr": {
+          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "age_seconds": 31,
+          "current": true,
+          "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_KICKOFF_UNVERIFIED",
+            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ]
+        }
+      },
+      "players": [
+        {
+          "bwf_player_id": "91554",
+          "name": "Anders ANTONSEN",
+          "v3_2_probability": 0.96273763,
+          "fair_odds": 1.0387,
+          "observed_odds": {
+            "NetBet.fr": 1.01
+          },
+          "best_historical_operator": "NetBet.fr",
+          "best_historical_odds": 1.01,
+          "best_historical_ev_pct": -2.76,
+          "best_within_window_ev_pct": null
+        },
+        {
+          "bwf_player_id": "63170",
+          "name": "Harry HUANG",
+          "v3_2_probability": 0.03726237,
+          "fair_odds": 26.8367,
+          "observed_odds": {
+            "NetBet.fr": 8.5
+          },
+          "best_historical_operator": "NetBet.fr",
+          "best_historical_odds": 8.5,
+          "best_historical_ev_pct": -68.33,
+          "best_within_window_ev_pct": null
+        }
+      ]
+    },
+    {
+      "bwf_match_id": "5273:1560313",
+      "model": "bwf_v3_2_score_rest_live",
+      "model_asof_utc": "2026-10-28T05:37:31+00:00",
+      "model_snapshot_sha256": "d559a7319ebf2b9096e11a80ca1914ca9f7da2f352daa2362350e9326561a66b",
+      "comparison_status": "ONE_BOOKMAKER_ONLY",
+      "observation_gap_seconds": null,
+      "decision": "NO_BET_SHADOW",
+      "valid_pre_match_T0": false,
+      "kickoff_verified": false,
+      "executable_price_verified": false,
+      "source_details": {
+        "NetBet.fr": {
+          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "age_seconds": 31,
+          "current": true,
+          "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_KICKOFF_UNVERIFIED",
+            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ]
+        }
+      },
+      "players": [
+        {
+          "bwf_player_id": "80062",
+          "name": "Minoru KOGA",
+          "v3_2_probability": 0.75397413,
+          "fair_odds": 1.3263,
+          "observed_odds": {
+            "NetBet.fr": 1.07
+          },
+          "best_historical_operator": "NetBet.fr",
+          "best_historical_odds": 1.07,
+          "best_historical_ev_pct": -19.32,
+          "best_within_window_ev_pct": null
+        },
+        {
+          "bwf_player_id": "60145",
+          "name": "Garret TAN",
+          "v3_2_probability": 0.24602587,
+          "fair_odds": 4.0646,
+          "observed_odds": {
+            "NetBet.fr": 4.4
+          },
+          "best_historical_operator": "NetBet.fr",
+          "best_historical_odds": 4.4,
+          "best_historical_ev_pct": 8.25,
+          "best_within_window_ev_pct": null
+        }
+      ]
+    },
+    {
+      "bwf_match_id": "5273:1560335",
+      "model": "bwf_v3_2_score_rest_live",
+      "model_asof_utc": "2026-10-28T05:37:31+00:00",
+      "model_snapshot_sha256": "d559a7319ebf2b9096e11a80ca1914ca9f7da2f352daa2362350e9326561a66b",
+      "comparison_status": "ONE_BOOKMAKER_ONLY",
+      "observation_gap_seconds": null,
+      "decision": "NO_BET_SHADOW",
+      "valid_pre_match_T0": false,
+      "kickoff_verified": false,
+      "executable_price_verified": false,
+      "source_details": {
+        "NetBet.fr": {
+          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "age_seconds": 31,
+          "current": true,
+          "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_KICKOFF_UNVERIFIED",
+            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ]
+        }
+      },
+      "players": [
+        {
+          "bwf_player_id": "97030",
+          "name": "Magnus JOHANNESEN",
+          "v3_2_probability": 0.44283891,
+          "fair_odds": 2.2582,
+          "observed_odds": {
+            "NetBet.fr": 2.97
+          },
+          "best_historical_operator": "NetBet.fr",
+          "best_historical_odds": 2.97,
+          "best_historical_ev_pct": 31.52,
+          "best_within_window_ev_pct": null
+        },
+        {
+          "bwf_player_id": "59543",
+          "name": "Arnaud MERKLE",
+          "v3_2_probability": 0.55716109,
+          "fair_odds": 1.7948,
+          "observed_odds": {
+            "NetBet.fr": 1.21
+          },
+          "best_historical_operator": "NetBet.fr",
+          "best_historical_odds": 1.21,
+          "best_historical_ev_pct": -32.58,
+          "best_within_window_ev_pct": null
+        }
+      ]
+    },
+    {
+      "bwf_match_id": "5273:1560379",
+      "model": "bwf_v3_2_score_rest_live",
+      "model_asof_utc": "2026-10-28T05:37:31+00:00",
+      "model_snapshot_sha256": "d559a7319ebf2b9096e11a80ca1914ca9f7da2f352daa2362350e9326561a66b",
+      "comparison_status": "ONE_BOOKMAKER_ONLY",
+      "observation_gap_seconds": null,
+      "decision": "NO_BET_SHADOW",
+      "valid_pre_match_T0": false,
+      "kickoff_verified": false,
+      "executable_price_verified": false,
+      "source_details": {
+        "NetBet.fr": {
+          "observed_at_utc": "2026-10-28T09:12:47+00:00",
+          "age_seconds": 31,
+          "current": true,
+          "source_url": "https://www.netbet.fr/badminton/international/hylo-open",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_KICKOFF_UNVERIFIED",
+            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ]
+        }
+      },
+      "players": [
+        {
+          "bwf_player_id": "52953",
+          "name": "Misha ZILBERMAN",
+          "v3_2_probability": 0.24729072,
+          "fair_odds": 4.0438,
+          "observed_odds": {
+            "NetBet.fr": 3.8
+          },
+          "best_historical_operator": "NetBet.fr",
+          "best_historical_odds": 3.8,
+          "best_historical_ev_pct": -6.03,
+          "best_within_window_ev_pct": null
+        },
+        {
+          "bwf_player_id": "91894",
+          "name": "Aria DINATA",
+          "v3_2_probability": 0.75270928,
+          "fair_odds": 1.3285,
+          "observed_odds": {
+            "NetBet.fr": 1.11
+          },
+          "best_historical_operator": "NetBet.fr",
+          "best_historical_odds": 1.11,
+          "best_historical_ev_pct": -16.45,
           "best_within_window_ev_pct": null
         }
       ]
