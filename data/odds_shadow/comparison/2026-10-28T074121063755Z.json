@@ -1,0 +1,219 @@
+{
+  "generated_at_utc": "2026-10-28T07:41:21+00:00",
+  "match_count": 3,
+  "matches": [
+    {
+      "bwf_match_id": "5273:1560257",
+      "comparison_status": "ONE_BOOKMAKER_ONLY",
+      "decision": "NO_BET_SHADOW",
+      "executable_price_verified": false,
+      "kickoff_verified": false,
+      "model": "bwf_elo_ms_platt_v1",
+      "model_asof_utc": "2026-10-28T05:45:26+00:00",
+      "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
+      "observation_gap_seconds": null,
+      "players": [
+        {
+          "best_historical_observation": {
+            "decimal_odds": 4.2,
+            "ev_pct": 29.34,
+            "operator": "NetBet.fr",
+            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
+          },
+          "best_within_window": null,
+          "bwf_player_id": "78890",
+          "model_probability": 0.30795192,
+          "name": "Ade Resky DWICAHYO",
+          "observed_odds": {
+            "NetBet.fr": 4.2
+          }
+        },
+        {
+          "best_historical_observation": {
+            "decimal_odds": 1.08,
+            "ev_pct": -25.26,
+            "operator": "NetBet.fr",
+            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
+          },
+          "best_within_window": null,
+          "bwf_player_id": "94119",
+          "model_probability": 0.69204808,
+          "name": "Daniil DUBOVENKO",
+          "observed_odds": {
+            "NetBet.fr": 1.08
+          }
+        }
+      ],
+      "source_details": {
+        "NetBet.fr": {
+          "age_seconds": 244,
+          "current": true,
+          "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
+          "observed_at_utc": "2026-10-28T07:37:17+00:00",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_KICKOFF_UNVERIFIED",
+            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ],
+          "source_url": "https://www.netbet.fr/badminton"
+        }
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bwf_match_id": "5273:1560307",
+      "comparison_status": "ONE_BOOKMAKER_ONLY",
+      "decision": "NO_BET_SHADOW",
+      "executable_price_verified": false,
+      "kickoff_verified": false,
+      "model": "bwf_elo_ms_platt_v1",
+      "model_asof_utc": "2026-10-28T05:45:26+00:00",
+      "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
+      "observation_gap_seconds": null,
+      "players": [
+        {
+          "best_historical_observation": {
+            "decimal_odds": 1.45,
+            "ev_pct": -24.5,
+            "operator": "NetBet.fr",
+            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
+          },
+          "best_within_window": null,
+          "bwf_player_id": "81561",
+          "model_probability": 0.52069318,
+          "name": "LEE Zii Jia",
+          "observed_odds": {
+            "NetBet.fr": 1.45
+          }
+        },
+        {
+          "best_historical_observation": {
+            "decimal_odds": 2.12,
+            "ev_pct": 1.61,
+            "operator": "NetBet.fr",
+            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
+          },
+          "best_within_window": null,
+          "bwf_player_id": "82606",
+          "model_probability": 0.47930682,
+          "name": "Jia Heng TEH",
+          "observed_odds": {
+            "NetBet.fr": 2.12
+          }
+        }
+      ],
+      "source_details": {
+        "NetBet.fr": {
+          "age_seconds": 244,
+          "current": true,
+          "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
+          "observed_at_utc": "2026-10-28T07:37:17+00:00",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_KICKOFF_UNVERIFIED",
+            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ],
+          "source_url": "https://www.netbet.fr/badminton"
+        }
+      },
+      "valid_pre_match_T0": false
+    },
+    {
+      "bwf_match_id": "5273:1560368",
+      "comparison_status": "ONE_BOOKMAKER_ONLY",
+      "decision": "NO_BET_SHADOW",
+      "executable_price_verified": false,
+      "kickoff_verified": false,
+      "model": "bwf_elo_ms_platt_v1",
+      "model_asof_utc": "2026-10-28T05:45:26+00:00",
+      "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
+      "observation_gap_seconds": null,
+      "players": [
+        {
+          "best_historical_observation": {
+            "decimal_odds": 1.05,
+            "ev_pct": -22.73,
+            "operator": "NetBet.fr",
+            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
+          },
+          "best_within_window": null,
+          "bwf_player_id": "85394",
+          "model_probability": 0.73586961,
+          "name": "Kenta NISHIMOTO",
+          "observed_odds": {
+            "NetBet.fr": 1.05
+          }
+        },
+        {
+          "best_historical_observation": {
+            "decimal_odds": 4.7,
+            "ev_pct": 24.14,
+            "operator": "NetBet.fr",
+            "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
+          },
+          "best_within_window": null,
+          "bwf_player_id": "90130",
+          "model_probability": 0.26413039,
+          "name": "Ditlev Jaeger HOLM",
+          "observed_odds": {
+            "NetBet.fr": 4.7
+          }
+        }
+      ],
+      "source_details": {
+        "NetBet.fr": {
+          "age_seconds": 244,
+          "current": true,
+          "model_snapshot_sha256": "4b0e3eb839796f885f9d4f74cad78a213ad64a1a9a4ecf28ed539dda95f49bec",
+          "observed_at_utc": "2026-10-28T07:37:17+00:00",
+          "quality_flags": [
+            "BOOKMAKER_UPDATE_TIME_UNKNOWN",
+            "EVENT_KICKOFF_UNVERIFIED",
+            "BOOKMAKER_MARKET_NOT_CONFIRMED_AT_BET",
+            "MODEL_PROVISIONAL",
+            "NO_BET"
+          ],
+          "source_url": "https://www.netbet.fr/badminton"
+        }
+      },
+      "valid_pre_match_T0": false
+    }
+  ],
+  "max_age_seconds": 2700,
+  "max_gap_seconds": 1200,
+  "notes": [
+    "Cotes publiques observées; pas de preuve d'exécutabilité.",
+    "Temps d'observation différent du temps de mise à jour du bookmaker.",
+    "Un intervalle temporel compatible ne valide pas un T0 prématch.",
+    "Les prix historiques restent comparables à titre de recherche, jamais comme signaux de mise."
+  ],
+  "policy": "SHADOW_ONLY_NO_BET_NO_T0_NO_SHEETS_WRITE",
+  "schema_version": "badminton_shadow_comparator_v2.1",
+  "sources": {
+    "NetBet.fr": {
+      "observation_utc": "2026-10-28T07:37:17+00:00",
+      "operator": "NetBet.fr",
+      "rejected": [],
+      "rows_current": 3,
+      "rows_read": 3,
+      "rows_validated": 3,
+      "status": "VALIDATED_SOURCE"
+    },
+    "Unibet.fr": {
+      "observation_utc": null,
+      "operator": "Unibet.fr",
+      "rejected": [
+        "SOURCE_OPERATOR_OR_STATUS_UNEXPECTED"
+      ],
+      "rows_current": 0,
+      "rows_read": 0,
+      "rows_validated": 0,
+      "status": "REJECTED_SOURCE"
+    }
+  },
+  "within_window_match_count": 0
+}
