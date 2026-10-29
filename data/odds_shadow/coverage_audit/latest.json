@@ -43,7 +43,7 @@
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-10-29T08:51:23.851206+00:00",
+  "generated_at_utc": "2026-10-29T09:02:35.992672+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 8,
@@ -117,44 +117,96 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T08:50:08+00:00",
-      "parser_notes": "parsed; page_parsed_entries=39; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=8,DH:OBSERVED_DATE_UNVERIFIED=8,DM:OBSERVED_DATE_UNVERIFIED=8,F:OBSERVED_DATE_UNVERIFIED=7,H:OBSERVED_DATE_UNVERIFIED=8; eligible_MS_H2H=0; local_now=2026-10-29T09:50:06.309412+01:00",
+      "observed_at_utc": "2026-10-29T09:01:18+00:00",
+      "parser_notes": "parsed; page_parsed_entries=38; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=8,DH:OBSERVED_DATE_UNVERIFIED=8,DM:OBSERVED_DATE_UNVERIFIED=8,F:OBSERVED_DATE_UNVERIFIED=6,H:OBSERVED_DATE_UNVERIFIED=8; eligible_MS_H2H=0; local_now=2026-10-29T10:01:18.128401+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
     },
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
-      "quote_count": 9,
-      "observed_at_utc": "2026-10-29T08:51:13+00:00",
+      "quote_count": 8,
+      "observed_at_utc": "2026-10-29T09:02:24+00:00",
       "parser_notes": null,
       "index_market_audit": {
-        "eligible_listing_rows": 3,
-        "markets_seen": 13,
+        "eligible_listing_rows": 2,
+        "markets_seen": 14,
         "rejection_evidence": [
           {
             "following_lines": [
-              "Kodai Naraoka",
-              "1.57",
-              "Lee Zii Jia",
-              "1.90"
+              "Pornpawee Chochuwong",
+              "1.01",
+              "Polina Buhrova",
+              "6.00"
             ],
-            "market_line": 118,
+            "market_line": 112,
             "preceding_lines": [
-              "Hylo Open, Doubles Mixtes",
-              "LIVE dans 44 min",
-              "Hemming-Van Leeuwen",
-              "Kolding-Werge",
+              "Badminton",
+              "Pariez sur",
+              "Badminton",
+              "À L'AFFICHE",
+              "EN DIRECT",
+              "TOUTE L'OFFRE BADMINTON",
+              "En direct",
+              "Hylo Open (F)",
+              "Set 1",
+              "LIVE",
+              "Pornpawee Chochuwong",
+              "Polina Buhrova",
+              "0",
+              "0"
+            ],
+            "reason": "PLAYER_PAIR_MISMATCH"
+          },
+          {
+            "following_lines": [
+              "Kodai Naraoka",
+              "1.61",
+              "Lee Zii Jia",
+              "1.85"
+            ],
+            "market_line": 124,
+            "preceding_lines": [
+              "0",
+              "0",
               "Qui va gagner le match ?",
+              "Pornpawee Chochuwong",
+              "1.01",
+              "Polina Buhrova",
+              "6.00",
+              "+ 6",
+              "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
+              "Populaires",
+              "Hylo Open",
+              "LIVE dans 23 min",
+              "Kodai Naraoka",
+              "Lee Zii Jia"
+            ],
+            "reason": "COMPETITION_NOT_PROVEN"
+          },
+          {
+            "following_lines": [
               "Hemming-Van Leeuwen",
               "1.26",
               "Kolding-Werge",
-              "2.72",
-              "+ 19",
+              "2.72"
+            ],
+            "market_line": 134,
+            "preceding_lines": [
               "Hylo Open",
-              "LIVE dans 34 min",
+              "LIVE dans 23 min",
               "Kodai Naraoka",
-              "Lee Zii Jia"
+              "Lee Zii Jia",
+              "Qui va gagner le match ?",
+              "Kodai Naraoka",
+              "1.61",
+              "Lee Zii Jia",
+              "1.85",
+              "+ 23",
+              "Hylo Open, Doubles Mixtes",
+              "LIVE dans 33 min",
+              "Hemming-Van Leeuwen",
+              "Kolding-Werge"
             ],
             "reason": "COMPETITION_NOT_PROVEN"
           },
@@ -165,17 +217,17 @@
               "Astrup-Rasmussen",
               "1.25"
             ],
-            "market_line": 129,
+            "market_line": 145,
             "preceding_lines": [
-              "LIVE dans 34 min",
-              "Kodai Naraoka",
-              "Lee Zii Jia",
+              "LIVE dans 33 min",
+              "Hemming-Van Leeuwen",
+              "Kolding-Werge",
               "Qui va gagner le match ?",
-              "Kodai Naraoka",
-              "1.57",
-              "Lee Zii Jia",
-              "1.90",
-              "+ 23",
+              "Hemming-Van Leeuwen",
+              "1.26",
+              "Kolding-Werge",
+              "2.72",
+              "+ 19",
               "Hylo Open, Doubles",
               "jeu. 29 oct.",
               "15:50",
@@ -191,20 +243,20 @@
               "Polina Buhrova",
               "8.25"
             ],
-            "market_line": 146,
+            "market_line": 162,
             "preceding_lines": [
               "Astrup-Rasmussen",
               "1.25",
               "+ 16",
-              "Hylo Open, Doubles Mixtes",
-              "(8)",
               "Hylo Open",
+              "(8)",
+              "Hylo Open, Doubles Mixtes",
               "(8)",
               "Toute l'offre Badminton",
               "(39)",
               "À Venir",
               "Hylo Open (F)",
-              "LIVE dans 9 min",
+              "LIVE Maintenant",
               "Pornpawee Chochuwong",
               "Polina Buhrova"
             ],
@@ -213,14 +265,14 @@
           {
             "following_lines": [
               "Liu-Hsu",
-              "1.30",
+              "1.26",
               "Kudsk-Toft",
-              "2.55"
+              "2.72"
             ],
-            "market_line": 156,
+            "market_line": 172,
             "preceding_lines": [
               "Hylo Open (F)",
-              "LIVE dans 9 min",
+              "LIVE Maintenant",
               "Pornpawee Chochuwong",
               "Polina Buhrova",
               "Qui va gagner le match ?",
@@ -230,79 +282,26 @@
               "8.25",
               "+ 23",
               "Hylo Open, Doubles Mixtes",
-              "LIVE dans 19 min",
+              "LIVE dans 8 min",
               "Liu-Hsu",
               "Kudsk-Toft"
-            ],
-            "reason": "COMPETITION_NOT_PROVEN"
-          },
-          {
-            "following_lines": [
-              "Wu-Yang",
-              "2.10",
-              "Chak-Yau",
-              "1.45"
-            ],
-            "market_line": 166,
-            "preceding_lines": [
-              "Hylo Open, Doubles Mixtes",
-              "LIVE dans 19 min",
-              "Liu-Hsu",
-              "Kudsk-Toft",
-              "Qui va gagner le match ?",
-              "Liu-Hsu",
-              "1.30",
-              "Kudsk-Toft",
-              "2.55",
-              "+ 19",
-              "Hylo Open, Doubles Mixtes",
-              "LIVE dans 19 min",
-              "Wu-Yang",
-              "Chak-Yau"
-            ],
-            "reason": "COMPETITION_NOT_PROVEN"
-          },
-          {
-            "following_lines": [
-              "Kodai Naraoka",
-              "1.57",
-              "Lee Zii Jia",
-              "1.90"
-            ],
-            "market_line": 176,
-            "preceding_lines": [
-              "Hylo Open, Doubles Mixtes",
-              "LIVE dans 19 min",
-              "Wu-Yang",
-              "Chak-Yau",
-              "Qui va gagner le match ?",
-              "Wu-Yang",
-              "2.10",
-              "Chak-Yau",
-              "1.45",
-              "+ 18",
-              "Hylo Open",
-              "LIVE dans 34 min",
-              "Kodai Naraoka",
-              "Lee Zii Jia"
             ],
             "reason": "COMPETITION_NOT_PROVEN"
           }
         ],
         "rejections": {
-          "COMPETITION_NOT_PROVEN": 7,
-          "NON_MS_COMPETITION": 3
+          "COMPETITION_NOT_PROVEN": 10,
+          "NON_MS_COMPETITION": 1,
+          "PLAYER_PAIR_MISMATCH": 1
         }
       },
-      "reason_counts": {
-        "NO_UNIQUE_BWF_FIXTURE": 1
-      },
+      "reason_counts": {},
       "blocker": "QUOTE_OBSERVED_REQUIRES_VALIDATION"
     },
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T08:50:29+00:00",
+      "observed_at_utc": "2026-10-29T09:01:41+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -311,7 +310,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T08:50:46+00:00",
+      "observed_at_utc": "2026-10-29T09:01:58+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -320,7 +319,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T08:50:15+00:00",
+      "observed_at_utc": "2026-10-29T09:01:26+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -329,7 +328,7 @@
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quote_count": 8,
-      "observed_at_utc": "2026-10-29T08:50:17+00:00",
+      "observed_at_utc": "2026-10-29T09:01:27+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -338,7 +337,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T08:50:31+00:00",
+      "observed_at_utc": "2026-10-29T09:01:42+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -347,7 +346,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T08:50:41+00:00",
+      "observed_at_utc": "2026-10-29T09:01:53+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -356,7 +355,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T08:50:50+00:00",
+      "observed_at_utc": "2026-10-29T09:02:03+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -365,7 +364,7 @@
     "oddspedia_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T08:50:47+00:00",
+      "observed_at_utc": "2026-10-29T09:01:59+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -374,7 +373,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T08:51:08+00:00",
+      "observed_at_utc": "2026-10-29T09:02:20+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
