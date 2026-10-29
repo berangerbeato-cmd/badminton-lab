@@ -43,7 +43,7 @@
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-10-29T05:42:38.337605+00:00",
+  "generated_at_utc": "2026-10-29T06:47:47.310456+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 8,
@@ -117,8 +117,8 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T05:41:25+00:00",
-      "parser_notes": "parsed; page_parsed_entries=39; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=8,DH:OBSERVED_DATE_UNVERIFIED=8,DM:OBSERVED_DATE_UNVERIFIED=8,F:OBSERVED_DATE_UNVERIFIED=7,H:OBSERVED_DATE_UNVERIFIED=8; eligible_MS_H2H=0; local_now=2026-10-29T06:41:24.279923+01:00",
+      "observed_at_utc": "2026-10-29T06:46:30+00:00",
+      "parser_notes": "parsed; page_parsed_entries=39; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=8,DH:OBSERVED_DATE_UNVERIFIED=8,DM:OBSERVED_DATE_UNVERIFIED=8,F:OBSERVED_DATE_UNVERIFIED=7,H:OBSERVED_DATE_UNVERIFIED=8; eligible_MS_H2H=0; local_now=2026-10-29T07:46:30.048583+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
@@ -126,7 +126,7 @@
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
       "quote_count": 8,
-      "observed_at_utc": "2026-10-29T05:42:27+00:00",
+      "observed_at_utc": "2026-10-29T06:47:35+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 1,
@@ -139,7 +139,7 @@
               "Kolding-Werge",
               "2.72"
             ],
-            "market_line": 109,
+            "market_line": 113,
             "preceding_lines": [
               "Scores en direct",
               "Format des cotes",
@@ -165,16 +165,16 @@
               "Astrup-Rasmussen",
               "1.25"
             ],
-            "market_line": 131,
+            "market_line": 135,
             "preceding_lines": [
               "10:25",
               "Kodai Naraoka",
               "Lee Zii Jia",
               "Qui va gagner le match ?",
               "Kodai Naraoka",
-              "1.36",
+              "1.37",
               "Lee Zii Jia",
-              "2.35",
+              "2.32",
               "+ 23",
               "Hylo Open, Doubles",
               "jeu. 29 oct.",
@@ -187,11 +187,11 @@
           {
             "following_lines": [
               "Buhrova-Kantemyr",
-              "9.00",
+              "8.50",
               "Stoeva-Stoeva",
               "1.01"
             ],
-            "market_line": 149,
+            "market_line": 153,
             "preceding_lines": [
               "1.25",
               "+ 16",
@@ -217,14 +217,14 @@
               "Unnati Hooda",
               "1.05"
             ],
-            "market_line": 160,
+            "market_line": 164,
             "preceding_lines": [
               "09:00",
               "Buhrova-Kantemyr",
               "Stoeva-Stoeva",
               "Qui va gagner le match ?",
               "Buhrova-Kantemyr",
-              "9.00",
+              "8.50",
               "Stoeva-Stoeva",
               "1.01",
               "+ 16",
@@ -243,7 +243,7 @@
               "Kolding-Werge",
               "2.72"
             ],
-            "market_line": 171,
+            "market_line": 175,
             "preceding_lines": [
               "09:00",
               "Frederikke Ostergaard",
@@ -269,7 +269,7 @@
               "Chang-Yang",
               "8.00"
             ],
-            "market_line": 182,
+            "market_line": 186,
             "preceding_lines": [
               "09:00",
               "Hemming-Van Leeuwen",
@@ -294,15 +294,13 @@
           "NON_MS_COMPETITION": 11
         }
       },
-      "reason_counts": {
-        "MISSING_SAME_DAY_ELO_SNAPSHOT": 8
-      },
+      "reason_counts": {},
       "blocker": "QUOTE_OBSERVED_REQUIRES_VALIDATION"
     },
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T05:41:44+00:00",
+      "observed_at_utc": "2026-10-29T06:46:51+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -311,7 +309,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T05:42:00+00:00",
+      "observed_at_utc": "2026-10-29T06:47:08+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -320,7 +318,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T05:41:32+00:00",
+      "observed_at_utc": "2026-10-29T06:46:38+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -329,7 +327,7 @@
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quote_count": 8,
-      "observed_at_utc": "2026-10-29T05:41:33+00:00",
+      "observed_at_utc": "2026-10-29T06:46:39+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -338,7 +336,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T05:41:46+00:00",
+      "observed_at_utc": "2026-10-29T06:46:52+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -347,7 +345,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T05:41:55+00:00",
+      "observed_at_utc": "2026-10-29T06:47:03+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -356,7 +354,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T05:42:04+00:00",
+      "observed_at_utc": "2026-10-29T06:47:13+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -365,7 +363,7 @@
     "oddspedia_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T05:42:01+00:00",
+      "observed_at_utc": "2026-10-29T06:47:09+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -374,7 +372,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T05:42:22+00:00",
+      "observed_at_utc": "2026-10-29T06:47:30+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,

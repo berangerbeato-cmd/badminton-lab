@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-29T05:41:24+00:00",
+  "observed_at_utc": "2026-10-29T06:46:30+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 8,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=39; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=8,DH:OBSERVED_DATE_UNVERIFIED=8,DM:OBSERVED_DATE_UNVERIFIED=8,F:OBSERVED_DATE_UNVERIFIED=7,H:OBSERVED_DATE_UNVERIFIED=8; eligible_MS_H2H=0; local_now=2026-10-29T06:41:24.279923+01:00",
+      "parser_notes": "parsed; page_parsed_entries=39; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=8,DH:OBSERVED_DATE_UNVERIFIED=8,DM:OBSERVED_DATE_UNVERIFIED=8,F:OBSERVED_DATE_UNVERIFIED=7,H:OBSERVED_DATE_UNVERIFIED=8; eligible_MS_H2H=0; local_now=2026-10-29T07:46:30.048583+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "84a6fa1542449c79469bf3aa27fc6fca6456367f5cab077d1481d0865dfa22c9",
+      "body_sha256": "e9dae6e23a11ed2b197370b49832f48c070bd094be1ebc4e3aab81ad86225782",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -39,7 +39,7 @@
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "fde887181f723def9a4a0ce059abfd2856421bd5262332553f1d7d63f13ee365",
+      "body_sha256": "d1e30c3259932ce1ef31671e9b648343f0813c7f88d7129d7aaabc67b40091c2",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "e4394875d1c698982d2953b6c9c398ad7c960464524aa5498dab671845913d35",
+      "body_sha256": "cc9a0590bc34d7ca783b3921ff1f720ebab140535123bca0ab1fe77031e490c0",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "76f5c1c91222662fa6946b0f27574852b11b5c20ba28271ec6f63ea25e7972c3",
+      "body_sha256": "5edb2869c792aab2acc1f101ded25c6458cb0aa9bda5af7800bca1edd4fb3169",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "e995311aaeb27cb04d22e913c61d79bb1dc9ceb41e3e7f7b6d0392507479bbd4",
+      "body_sha256": "986ed118506b7732eebf4713344e485e7397cffa81304a4af1d73a8876ea44b8",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "0",
-      "body_sha256": "4dcab84c726d76f102064363b6928a54f6c8c9aed6e7ccb8d183848d8592e0f4",
+      "cache_age_seconds": "15",
+      "body_sha256": "af15beef49b7ade91b0ba17ab4daf8466e39bfaaeec2c3e3bfde2b179eff5f65",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/lee-zii-jia-fkHsTftd/naraoka-kodai-MPtLI8G5/?mid=pSiYP977",
@@ -164,7 +164,7 @@
         ],
         "index_match_link_count": 48,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n29/10 JE\nHYLO Open (Allemagne)\nBWF WORLD TOUR - HOMMES: \nTableau\n10:50\nNaraoka K.\nLee Z. J.\n-\n-\n12:30\nAntonsen A.\nDwicahyo A. R.\n-\n-\n12:40\nChristie J.\nKoga M.\n-\n-\n14:20\nGemke R.\nHolm J.\n-\n-\n15:00\nMerkle A.\nChi Y. J.\n-\n-\n16:40\nCarraggi J.\nPopov T. J.\n-\n-\n17:30\nGeorge K.\nSen L.\n-\n-\n18:20\nDinata A.\nKoljonen K.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - FEMMES: \nTableau\n10:00\nChochuwong Po.\nBuhrova P.\n-\n-\n11:50\nBansod M.\nZhang W. Y.\n-\n-\n13:30\nNalbantova K.\nSchulz A.\n-\n-\n14:10\nPancasari R. O.\nSindhu P. V.\n-\n-\n14:20\nKjaersfeldt L. H.\nBaruah I.\n-\n-\n15:00\nSung S. Y.\nGilmour K.\n-\n-\n17:30\nOstergaard F.\nHooda U.\n-\n-\n18:20\nKharb A.\nChristophersen L.\n-\n-\nFlashscore Actualités\nAvec un triplé de Vicki Becho, l'OL Lyonnes écrase les novices de l'Inter\nGauzy réalise l'exploit d'éliminer le N°3 mondial au Champions de Montpellier\nL'ASVEL signe une victoire référence en Euroleague contre le Partizan\nAller vers Actualités\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n15:00\nGutama S. K.\nIsfahani M. R. P.\nTai A.\nYap R. K.\n-\n-\n15:50\nChen C. K.\nLiu K. H.\nAstrup K.\nRasmussen A. S.\n-\n-\n16:40\nAdam E.\nRossi L.\nLane B.\nVendy S.\n-\n-\n17:30\nChiu H. C.\nWang Chi-Lin\nBegga N.\nDeschamp G.\n-\n-\n18:20\nMaio J.\nVilleger W.\nLee J-H.\nYang Po-Hsuan\n-\n-\n19:10\nIndra R.\nJoaquin N.\nBoe W. K.\nEspersen R.\n-\n-\n20:00\nKral J.\nKral O.\nLundgaard D.\nVestergaard M.\n-\n-\n20:50\nKjaer C. F.\nKjaer R.\nGuildea S.\nReynolds P.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n11:40\nOng X. Y.\nTing C.\nYeung Nga T.\nYeung P. L.\n-\n-\n15:50\nBuhrova P.\nKantemyr Y.\nStoe"
+        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n29/10 JE\nHYLO Open (Allemagne)\nBWF WORLD TOUR - HOMMES: \nTableau\n10:50\nNaraoka K.\nLee Z. J.\n-\n-\n12:30\nAntonsen A.\nDwicahyo A. R.\n-\n-\n12:40\nChristie J.\nKoga M.\n-\n-\n14:20\nGemke R.\nHolm J.\n-\n-\n15:00\nMerkle A.\nChi Y. J.\n-\n-\n16:40\nCarraggi J.\nPopov T. J.\n-\n-\n17:30\nGeorge K.\nSen L.\n-\n-\n18:20\nDinata A.\nKoljonen K.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - FEMMES: \nTableau\n10:00\nChochuwong Po.\nBuhrova P.\n-\n-\n11:50\nBansod M.\nZhang W. Y.\n-\n-\n13:30\nNalbantova K.\nSchulz A.\n-\n-\n14:10\nPancasari R. O.\nSindhu P. V.\n-\n-\n14:20\nKjaersfeldt L. H.\nBaruah I.\n-\n-\n15:00\nSung S. Y.\nGilmour K.\n-\n-\n17:30\nOstergaard F.\nHooda U.\n-\n-\n18:20\nKharb A.\nChristophersen L.\n-\n-\nFlashscore Actualités\n\"On a changé, elles ont changé\" : le Paris FC et Häcken se retrouvent dans une nouvelle ère\nLes Français de la F1 : Ocon hors des points, Gasly sauve les meubles, Hadjar légèrement à la traîne\nJeudi Boxe (S2 EP 38) : Spécial Christian Mbilli v. Canelo Álvarez\nAller vers Actualités\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n15:00\nGutama S. K.\nIsfahani M. R. P.\nTai A.\nYap R. K.\n-\n-\n15:50\nChen C. K.\nLiu K. H.\nAstrup K.\nRasmussen A. S.\n-\n-\n16:40\nAdam E.\nRossi L.\nLane B.\nVendy S.\n-\n-\n17:30\nChiu H. C.\nWang Chi-Lin\nBegga N.\nDeschamp G.\n-\n-\n18:20\nMaio J.\nVilleger W.\nLee J-H.\nYang Po-Hsuan\n-\n-\n19:10\nIndra R.\nJoaquin N.\nBoe W. K.\nEspersen R.\n-\n-\n20:00\nKral J.\nKral O.\nLundgaard D.\nVestergaard M.\n-\n-\n20:50\nKjaer C. F.\nKjaer R.\nGuildea S.\nReynolds P.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n11:40\nOng X. Y.\nTing C.\nYeung Nga T.\nYeung P. L."
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/hooda-unnati-dOi52816/ostergaard-frederikke-S0Z10n05/#/cotes/home-away/temps-regulier/",
@@ -175,11 +175,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/hooda-unnati-dOi52816/ostergaard-frederikke-S0Z10n05/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "9ef0d501af3c062071679da11a2ee5bad129feab5f9d3517a99f847e0f033099",
+        "body_sha256": "62477a10c88685bef6f0340c3fddf9e7d3afd0359025515462566adbcf1c56df",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Frederikke Ostergaard - Unnati Hooda (29/10/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - FEMMESHYLO OPEN - 1/8 DE FINALE\nNouvelle fenêtre\n29.10.2026 17:30\nOstergaard F.\nBWF\n: 116.\n-\nSTREAM\nHooda U.\nBWF\n: 21.\n-\n29.10.2026 17:30\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\nLIVE STREAM\n4.60\n1.11\nFAIRE UN PARI\n-\n-\nVoir plus\nLIVE STREAMING\nPublicité\nBetclic.fr\nINFORMATIONS DE MATCH\nSTADE:\nSaarlandhalle\n (Sarrebruck)\nFORME\nOstergaard F.\n?\nV\nHooda U.\n?\nV\nD\nD\nD\nD\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT HYLO Open Hommes\nBWF WT HYLO Open Femmes\nBWF WT HYLO Open Doubles Hommes\nBWF WT HYLO Open Doubles Femmes\nBWF WT HYLO Open Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nSuivez Frederikke Ostergaard - Unnati Hooda le 29/10/2026 en direct, les derniers résultats de Frederikke Ostergaard,",
+        "text_excerpt_for_debug": "Frederikke Ostergaard - Unnati Hooda (29/10/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - FEMMESHYLO OPEN - 1/8 DE FINALE\nNouvelle fenêtre\n29.10.2026 17:30\nOstergaard F.\nBWF\n: 116.\n-\nSTREAM\nHooda U.\nBWF\n: 21.\n-\n29.10.2026 17:30\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nVIDÉO\nCOTES\nHOME/AWAY\n1\n2\nLIVE STREAM\n4.60\n1.11\nFAIRE UN PARI\n-\n-\nVoir plus\nLIVE STREAMING\nPublicité\nBetclic.fr\nINFORMATIONS DE MATCH\nSTADE:\nSaarlandhalle\n (Sarrebruck)\nFORME\nOstergaard F.\n?\nV\nHooda U.\n?\nV\nD\nD\nD\nD\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT HYLO Open Hommes\nBWF WT HYLO Open Femmes\nBWF WT HYLO Open Doubles Hommes\nBWF WT HYLO Open Doubles Femmes\nBWF WT HYLO Open Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nSuivez Frederikke Ostergaard - Unnati Hooda le 29/10/2026 en direct, les derniers résultats de Frederikke Oster",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 5049,
+        "body_characters": 5055,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -218,8 +218,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "140",
-      "body_sha256": "d9c3758b4a132f958d47b9e8cc92de5d17f799a16bfda4fa7a2c0718be7410e0",
+      "cache_age_seconds": "0",
+      "body_sha256": "782a7fb74043c7bf839bfcf08a0fd90c914f4fda13d16385c94ec8ced459a057",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
