@@ -1,8 +1,8 @@
 {
-  "observed_at_utc": "2026-10-29T09:01:18+00:00",
+  "observed_at_utc": "2026-10-29T09:24:21+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
-  "retail_shadow_rows": 8,
+  "retail_shadow_rows": 7,
   "sources": {
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=38; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=8,DH:OBSERVED_DATE_UNVERIFIED=8,DM:OBSERVED_DATE_UNVERIFIED=8,F:OBSERVED_DATE_UNVERIFIED=6,H:OBSERVED_DATE_UNVERIFIED=8; eligible_MS_H2H=0; local_now=2026-10-29T10:01:18.128401+01:00",
+      "parser_notes": "parsed; page_parsed_entries=33; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=7,DH:OBSERVED_DATE_UNVERIFIED=7,DM:OBSERVED_DATE_UNVERIFIED=6,F:OBSERVED_DATE_UNVERIFIED=5,H:OBSERVED_DATE_UNVERIFIED=8; eligible_MS_H2H=0; local_now=2026-10-29T10:24:21.964609+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "ceb6fcc5086b832ff5a5b368eaae04fadfe71d870ddf653129c597e6eb4b6599",
+      "body_sha256": "8e038c7c34e4a1a17afca4e48d4159626ae2947aa7976cafa58b142d31c61d59",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -32,14 +32,14 @@
     },
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-      "quotes": 8,
+      "quotes": 7,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "def70fdaa36834da9e645d1e053f0ffa9de813ae1df645f197746c805734d293",
+      "body_sha256": "7928ce5a0a357d0d0de97290c4b884bcf40f03bececa9ad0e33338fdb73d6111",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "7cbdf5bf49a3d1f626c6f9fbeae25b9ed93b4f2c75640aacad0c4e6e03dc66f7",
+      "body_sha256": "7a709590933fac73022fd123156d8c18856d0f453fac3c5b8b21c6113b5d403a",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "05d8cca088c22c6bc17320bd042eb06049987d0bc39b99b77ee0346d45f94c3e",
+      "body_sha256": "5990f9d5e0a5d015e2b034ab7d5060046774f6bb5dcd6dd1da7adf446259462a",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "26e9303122ed80541a5c7b1bcb6fca5af496e93a0a43f46dd1814af9cdac57cd",
+      "body_sha256": "005393fb5cc44610884c40d9527b6dc56e9ef95842e5d8dc65cdd2bee51d2c56",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "4e525877e559607276ed4442b425575d9367c927463975a555e6dad61f9c16f4",
+      "body_sha256": "0776e8fe856ae81d7a51ee10fb5cafc4e925efc37113bc1df2bc4a55b0857d27",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "409",
-      "body_sha256": "d9bcb210f17d4e0783c3400ba525918618d33f9dc5c86dbdbd31ee4ed7e304f9",
+      "cache_age_seconds": "414",
+      "body_sha256": "aaeb59370940d7b3cbb352932ad92d5daf85e3cd39f9a250a3773f44c72d4667",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/lee-zii-jia-fkHsTftd/naraoka-kodai-MPtLI8G5/?mid=pSiYP977",
@@ -164,7 +164,7 @@
         ],
         "index_match_link_count": 48,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n29/10 JE\nHYLO Open (Allemagne)\nBWF WORLD TOUR - HOMMES: \nTableau\n10:50\nNaraoka K.\nLee Z. J.\n-\n-\n12:30\nAntonsen A.\nDwicahyo A. R.\n-\n-\n12:40\nChristie J.\nKoga M.\n-\n-\n14:20\nGemke R.\nHolm J.\n-\n-\n15:00\nMerkle A.\nChi Y. J.\n-\n-\n16:40\nCarraggi J.\nPopov T. J.\n-\n-\n17:30\nGeorge K.\nSen L.\n-\n-\n18:20\nDinata A.\nKoljonen K.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - FEMMES: \nTableau\n10:05\nChochuwong Po.\nBuhrova P.\n-\n-\n11:50\nBansod M.\nZhang W. Y.\n-\n-\n13:30\nNalbantova K.\nSchulz A.\n-\n-\n14:10\nPancasari R. O.\nSindhu P. V.\n-\n-\n14:20\nKjaersfeldt L. H.\nBaruah I.\n-\n-\n15:00\nSung S. Y.\nGilmour K.\n-\n-\n17:30\nOstergaard F.\nHooda U.\n-\n-\n18:20\nKharb A.\nChristophersen L.\n-\n-\nFlashscore Actualités\n\"On a changé, elles ont changé\" : le Paris FC et Häcken se retrouvent dans une nouvelle ère\nLes Français de la F1 : Ocon hors des points, Gasly sauve les meubles, Hadjar légèrement à la traîne\nJeudi Boxe (S2 EP 38) : Spécial Christian Mbilli v. Canelo Álvarez\nAller vers Actualités\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n15:00\nGutama S. K.\nIsfahani M. R. P.\nTai A.\nYap R. K.\n-\n-\n15:50\nChen C. K.\nLiu K. H.\nAstrup K.\nRasmussen A. S.\n-\n-\n16:40\nAdam E.\nRossi L.\nLane B.\nVendy S.\n-\n-\n17:30\nChiu H. C.\nWang Chi-Lin\nBegga N.\nDeschamp G.\n-\n-\n18:20\nMaio J.\nVilleger W.\nLee J-H.\nYang Po-Hsuan\n-\n-\n19:10\nIndra R.\nJoaquin N.\nBoe W. K.\nEspersen R.\n-\n-\n20:00\nKral J.\nKral O.\nLundgaard D.\nVestergaard M.\n-\n-\n20:50\nKjaer C. F.\nKjaer R.\nGuildea S.\nReynolds P.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n11:40\nOng X. Y.\nTing C.\nYeung Nga T.\nYeung P. L."
+        "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n29/10 JE\nHYLO Open (Allemagne)\nBWF WORLD TOUR - HOMMES: \nTableau\n10:50\nNaraoka K.\nLee Z. J.\n-\n-\n12:30\nAntonsen A.\nDwicahyo A. R.\n-\n-\n12:40\nChristie J.\nKoga M.\n-\n-\n14:20\nGemke R.\nHolm J.\n-\n-\n15:00\nMerkle A.\nChi Y. J.\n-\n-\n16:40\nCarraggi J.\nPopov T. J.\n-\n-\n17:30\nGeorge K.\nSen L.\n-\n-\n18:20\nDinata A.\nKoljonen K.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - FEMMES: \nTableau\n1. set\nChochuwong Po.\nBuhrova P.\n0\n0\n20\n17\n11:50\nBansod M.\nZhang W. Y.\n-\n-\n13:30\nNalbantova K.\nSchulz A.\n-\n-\n14:10\nPancasari R. O.\nSindhu P. V.\n-\n-\n14:20\nKjaersfeldt L. H.\nBaruah I.\n-\n-\n15:00\nSung S. Y.\nGilmour K.\n-\n-\n17:30\nOstergaard F.\nHooda U.\n-\n-\n18:20\nKharb A.\nChristophersen L.\n-\n-\nFlashscore Actualités\n\"On a changé, elles ont changé\" : le Paris FC et Häcken se retrouvent dans une nouvelle ère\nLes Français de la F1 : Ocon hors des points, Gasly sauve les meubles, Hadjar légèrement à la traîne\nJeudi Boxe (S2 EP 38) : Spécial Christian Mbilli v. Canelo Álvarez\nAller vers Actualités\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n15:00\nGutama S. K.\nIsfahani M. R. P.\nTai A.\nYap R. K.\n-\n-\n15:50\nChen C. K.\nLiu K. H.\nAstrup K.\nRasmussen A. S.\n-\n-\n16:40\nAdam E.\nRossi L.\nLane B.\nVendy S.\n-\n-\n17:30\nChiu H. C.\nWang Chi-Lin\nBegga N.\nDeschamp G.\n-\n-\n18:20\nMaio J.\nVilleger W.\nLee J-H.\nYang Po-Hsuan\n-\n-\n19:10\nIndra R.\nJoaquin N.\nBoe W. K.\nEspersen R.\n-\n-\n20:00\nKral J.\nKral O.\nLundgaard D.\nVestergaard M.\n-\n-\n20:50\nKjaer C. F.\nKjaer R.\nGuildea S.\nReynolds P.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n11:40\nOng X. Y.\nTing C.\nYeung Nga T.\nYeun"
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/hooda-unnati-dOi52816/ostergaard-frederikke-S0Z10n05/#/cotes/home-away/temps-regulier/",
@@ -175,11 +175,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/hooda-unnati-dOi52816/ostergaard-frederikke-S0Z10n05/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "db2b98865b07681d45518ff42e68e2594b99d9619aa6e2e8e56fe687a882dc14",
+        "body_sha256": "69d26511baa2cef4b0d305a6fe5385089a6411e53a78de178c34f2534ca1bd2d",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Frederikke Ostergaard - Unnati Hooda (29/10/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - FEMMESHYLO OPEN - 1/8 DE FINALE\nNouvelle fenêtre\n29.10.2026 17:30\nOstergaard F.\nBWF\n: 116.\n-\nHooda U.\nBWF\n: 21.\n-\n29.10.2026 17:30\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nVIDÉO\nCOTES\nHOME/AWAY\n1\n2\n5.00\n1.14\nFAIRE UN PARI\nVoir plus\nOFFRES BONUS\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nINFORMATIONS DE MATCH\nSTADE:\nSaarlandhalle\n (Sarrebruck)\nFORME\nOstergaard F.\n?\nV\nHooda U.\n?\nV\nD\nD\nD\nD\nPublicité\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nPublicité\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT HYLO Open Hommes\nBWF WT HYLO Open Femmes\nBWF WT HYLO Open Doubles Hommes\nBWF WT HYLO Open Doubles Femmes\nBWF WT HYLO Open Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix -",
+        "text_excerpt_for_debug": "Frederikke Ostergaard - Unnati Hooda (29/10/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - FEMMESHYLO OPEN - 1/8 DE FINALE\nNouvelle fenêtre\n29.10.2026 17:30\nOstergaard F.\nBWF\n: 116.\n-\nSTREAM\nHooda U.\nBWF\n: 21.\n-\n29.10.2026 17:30\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nVIDÉO\nCOTES\nHOME/AWAY\n1\n2\n-\n-\nLIVE STREAM\n-\n-\n-\n-\n-\n-\n5.00\n1.14\nFAIRE UN PARI\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $350 in Bonus Bets when you wager $5 for 7 days\n21+ $5 first deposit required to get bonus bets which expire 7 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBetMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. 1-800-BETS-OFF (IA), New customers only. T&C apply Must opt-in and wager $10+ cash on any market to receive $50 in Bonus Bets each day for your first 5 days\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE MATCH\nSTADE:\nSaarlandhalle\n (Sarrebruck)\nFORME\nOstergaard F.\n?\nV\nHooda U.\n?\nV\nD\nD\nD\nD\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 5192,
+        "body_characters": 6016,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -191,11 +191,20 @@
           "HOME/AWAY",
           "1",
           "2",
+          "-",
+          "-",
+          "LIVE STREAM",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
           "5.00",
           "1.14",
           "FAIRE UN PARI"
         ],
-        "odds_section_dash_count": 0,
+        "odds_section_dash_count": 8,
         "odds_section_decimal_prices": [
           "5.00",
           "1.14"
@@ -214,7 +223,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "214b2b9b91db2920f5b0f9352b6d4b8f376dee675c460ff764f2bacbe44f5969",
+      "body_sha256": "7bf9bf54edbb661e0d8dedfc8fa00405ce5e22f0e3e9ea8628d395a5a0d790f3",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
