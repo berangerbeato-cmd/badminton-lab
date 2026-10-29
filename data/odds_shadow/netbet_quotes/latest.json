@@ -95,16 +95,16 @@
       "side_1": {
         "bookmaker_display": "Kodai Naraoka",
         "bwf_name": "Kodai NARAOKA",
-        "decimal_odds": 1.61,
-        "illustrative_ev_pct": 13.02,
+        "decimal_odds": 1.58,
+        "illustrative_ev_pct": 10.92,
         "model_fair_odds": 1.4245,
         "model_probability": 0.70199773
       },
       "side_2": {
         "bookmaker_display": "Lee Zii Jia",
         "bwf_name": "LEE Zii Jia",
-        "decimal_odds": 1.85,
-        "illustrative_ev_pct": -44.87,
+        "decimal_odds": 1.88,
+        "illustrative_ev_pct": -43.98,
         "model_fair_odds": 3.3557,
         "model_probability": 0.29800227
       },
@@ -165,8 +165,8 @@
       "side_1": {
         "bookmaker_display": "Julien Carraggi",
         "bwf_name": "Julien CARRAGGI",
-        "decimal_odds": 7.0,
-        "illustrative_ev_pct": -23.08,
+        "decimal_odds": 6.5,
+        "illustrative_ev_pct": -28.58,
         "model_fair_odds": 9.1007,
         "model_probability": 0.10988172
       },
@@ -387,21 +387,21 @@
   "index_badminton_link_count": 5,
   "index_badminton_link_examples": [
     "https://www.netbet.fr/badminton",
-    "https://www.netbet.fr/badminton/international/hylo-open",
     "https://www.netbet.fr/badminton/international/hylo-open-doubles-mixtes",
-    "https://www.netbet.fr/badminton/international/hylo-open-f",
-    "https://www.netbet.fr/badminton/international/hylo-open-doubles-f"
+    "https://www.netbet.fr/badminton/international/hylo-open",
+    "https://www.netbet.fr/badminton/international/hylo-open-doubles-f",
+    "https://www.netbet.fr/badminton/international/hylo-open-f"
   ],
-  "index_body_sha256": "62d235c66efbc1f50f017135ed237d2409bc3d47238a94f87a4bec34d1880ff6",
+  "index_body_sha256": "f45f979cd8e7689f3a73143f9755e579d7279223fe9772ce83096a32d4224c2b",
   "index_eligible_quotes": 2,
   "index_http_status": 200,
-  "index_link_count": 157,
+  "index_link_count": 161,
   "index_link_path_counts": {
     "": 9,
-    "badminton": 9,
+    "badminton": 10,
     "basketball": 2,
     "cashout": 2,
-    "evenement": 65,
+    "evenement": 68,
     "football": 8,
     "live": 5,
     "paris-en-direct": 5,
@@ -412,14 +412,14 @@
   },
   "index_market_audit": {
     "eligible_listing_rows": 2,
-    "markets_seen": 14,
+    "markets_seen": 15,
     "rejection_evidence": [
       {
         "following_lines": [
           "Pornpawee Chochuwong",
-          "1.01",
+          "1.10",
           "Polina Buhrova",
-          "6.00"
+          "3.95"
         ],
         "market_line": 112,
         "preceding_lines": [
@@ -435,36 +435,10 @@
           "LIVE",
           "Pornpawee Chochuwong",
           "Polina Buhrova",
-          "0",
-          "0"
+          "6",
+          "9"
         ],
         "reason": "PLAYER_PAIR_MISMATCH"
-      },
-      {
-        "following_lines": [
-          "Kodai Naraoka",
-          "1.61",
-          "Lee Zii Jia",
-          "1.85"
-        ],
-        "market_line": 124,
-        "preceding_lines": [
-          "0",
-          "0",
-          "Qui va gagner le match ?",
-          "Pornpawee Chochuwong",
-          "1.01",
-          "Polina Buhrova",
-          "6.00",
-          "+ 6",
-          "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
-          "Populaires",
-          "Hylo Open",
-          "LIVE dans 23 min",
-          "Kodai Naraoka",
-          "Lee Zii Jia"
-        ],
-        "reason": "COMPETITION_NOT_PROVEN"
       },
       {
         "following_lines": [
@@ -473,22 +447,74 @@
           "Kolding-Werge",
           "2.72"
         ],
-        "market_line": 134,
+        "market_line": 126,
+        "preceding_lines": [
+          "Qui va gagner le match ?",
+          "Pornpawee Chochuwong",
+          "1.10",
+          "Polina Buhrova",
+          "3.95",
+          "+ 9",
+          "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
+          "En direct",
+          "(3)",
+          "Populaires",
+          "Hylo Open, Doubles Mixtes",
+          "LIVE dans 20 min",
+          "Hemming-Van Leeuwen",
+          "Kolding-Werge"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Kodai Naraoka",
+          "1.58",
+          "Lee Zii Jia",
+          "1.88"
+        ],
+        "market_line": 136,
+        "preceding_lines": [
+          "Hylo Open, Doubles Mixtes",
+          "LIVE dans 20 min",
+          "Hemming-Van Leeuwen",
+          "Kolding-Werge",
+          "Qui va gagner le match ?",
+          "Hemming-Van Leeuwen",
+          "1.26",
+          "Kolding-Werge",
+          "2.72",
+          "+ 19",
+          "Hylo Open",
+          "LIVE dans 10 min",
+          "Kodai Naraoka",
+          "Lee Zii Jia"
+        ],
+        "reason": "COMPETITION_NOT_PROVEN"
+      },
+      {
+        "following_lines": [
+          "Ting-Ong",
+          "2.87",
+          "Yeung-Yeung",
+          "1.23"
+        ],
+        "market_line": 146,
         "preceding_lines": [
           "Hylo Open",
-          "LIVE dans 23 min",
+          "LIVE dans 10 min",
           "Kodai Naraoka",
           "Lee Zii Jia",
           "Qui va gagner le match ?",
           "Kodai Naraoka",
-          "1.61",
+          "1.58",
           "Lee Zii Jia",
-          "1.85",
+          "1.88",
           "+ 23",
-          "Hylo Open, Doubles Mixtes",
-          "LIVE dans 33 min",
-          "Hemming-Van Leeuwen",
-          "Kolding-Werge"
+          "Hylo Open, Doubles (F)",
+          "LIVE dans 35 min",
+          "Ting-Ong",
+          "Yeung-Yeung"
         ],
         "reason": "COMPETITION_NOT_PROVEN"
       },
@@ -499,16 +525,16 @@
           "Astrup-Rasmussen",
           "1.25"
         ],
-        "market_line": 145,
+        "market_line": 157,
         "preceding_lines": [
-          "LIVE dans 33 min",
-          "Hemming-Van Leeuwen",
-          "Kolding-Werge",
+          "LIVE dans 35 min",
+          "Ting-Ong",
+          "Yeung-Yeung",
           "Qui va gagner le match ?",
-          "Hemming-Van Leeuwen",
-          "1.26",
-          "Kolding-Werge",
-          "2.72",
+          "Ting-Ong",
+          "2.87",
+          "Yeung-Yeung",
+          "1.23",
           "+ 19",
           "Hylo Open, Doubles",
           "jeu. 29 oct.",
@@ -520,60 +546,34 @@
       },
       {
         "following_lines": [
-          "Pornpawee Chochuwong",
-          "1.01",
-          "Polina Buhrova",
-          "8.25"
+          "Kodai Naraoka",
+          "1.58",
+          "Lee Zii Jia",
+          "1.88"
         ],
-        "market_line": 162,
+        "market_line": 176,
         "preceding_lines": [
-          "Astrup-Rasmussen",
-          "1.25",
           "+ 16",
+          "Hylo Open, Doubles Mixtes",
+          "(8)",
           "Hylo Open",
           "(8)",
-          "Hylo Open, Doubles Mixtes",
-          "(8)",
+          "Hylo Open, Doubles (F)",
+          "(7)",
           "Toute l'offre Badminton",
-          "(39)",
+          "(38)",
           "À Venir",
-          "Hylo Open (F)",
-          "LIVE Maintenant",
-          "Pornpawee Chochuwong",
-          "Polina Buhrova"
-        ],
-        "reason": "COMPETITION_NOT_PROVEN"
-      },
-      {
-        "following_lines": [
-          "Liu-Hsu",
-          "1.26",
-          "Kudsk-Toft",
-          "2.72"
-        ],
-        "market_line": 172,
-        "preceding_lines": [
-          "Hylo Open (F)",
-          "LIVE Maintenant",
-          "Pornpawee Chochuwong",
-          "Polina Buhrova",
-          "Qui va gagner le match ?",
-          "Pornpawee Chochuwong",
-          "1.01",
-          "Polina Buhrova",
-          "8.25",
-          "+ 23",
-          "Hylo Open, Doubles Mixtes",
-          "LIVE dans 8 min",
-          "Liu-Hsu",
-          "Kudsk-Toft"
+          "Hylo Open",
+          "LIVE dans 10 min",
+          "Kodai Naraoka",
+          "Lee Zii Jia"
         ],
         "reason": "COMPETITION_NOT_PROVEN"
       }
     ],
     "rejections": {
-      "COMPETITION_NOT_PROVEN": 10,
-      "NON_MS_COMPETITION": 1,
+      "COMPETITION_NOT_PROVEN": 8,
+      "NON_MS_COMPETITION": 4,
       "PLAYER_PAIR_MISMATCH": 1
     }
   },
@@ -582,12 +582,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-10-29.csv",
   "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-  "observed_at_utc": "2026-10-29T09:02:24+00:00",
+  "observed_at_utc": "2026-10-29T09:14:47+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "1b1efebc8f9acb52258553e1138ebed40a7328354820dcab98059516cc7f052a",
+      "body_sha256": "3876701a891d4bfe9623910129609554edd3ec27ddb7f209f8f9d82d5ccaf1e8",
       "cache_age_seconds": null,
       "eligible_listing_rows": 8,
       "http_status": 200,
@@ -642,7 +642,7 @@
       "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
     },
     {
-      "bookmaker_overround_pct": 16.17,
+      "bookmaker_overround_pct": 16.48,
       "competition_display": "Hylo Open",
       "day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
       "discipline": "MS",
@@ -650,14 +650,14 @@
       "listed_day_paris": "2026-10-29",
       "market": "H2H_FULL_MATCH",
       "market_probabilities_only_not_v32_ev": true,
-      "normalized_market_probability_1": 0.534682,
-      "normalized_market_probability_2": 0.465318,
-      "odds_1": 1.61,
-      "odds_2": 1.85,
+      "normalized_market_probability_1": 0.543353,
+      "normalized_market_probability_2": 0.456647,
+      "odds_1": 1.58,
+      "odds_2": 1.88,
       "player_1_display": "Kodai Naraoka",
       "player_2_display": "Lee Zii Jia",
-      "raw_implied_probability_1": 0.621118,
-      "raw_implied_probability_2": 0.540541,
+      "raw_implied_probability_1": 0.632911,
+      "raw_implied_probability_2": 0.531915,
       "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
     },
     {
@@ -680,7 +680,7 @@
       "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
     },
     {
-      "bookmaker_overround_pct": 13.3,
+      "bookmaker_overround_pct": 14.39,
       "competition_display": "Hylo Open",
       "day_basis": "PUBLISHED_CALENDAR_DATE",
       "discipline": "MS",
@@ -688,13 +688,13 @@
       "listed_day_paris": "2026-10-29",
       "market": "H2H_FULL_MATCH",
       "market_probabilities_only_not_v32_ev": true,
-      "normalized_market_probability_1": 0.126092,
-      "normalized_market_probability_2": 0.873908,
-      "odds_1": 7.0,
+      "normalized_market_probability_1": 0.134487,
+      "normalized_market_probability_2": 0.865513,
+      "odds_1": 6.5,
       "odds_2": 1.01,
       "player_1_display": "Julien Carraggi",
       "player_2_display": "Toma Junior Popov",
-      "raw_implied_probability_1": 0.142857,
+      "raw_implied_probability_1": 0.153846,
       "raw_implied_probability_2": 0.990099,
       "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
     },
