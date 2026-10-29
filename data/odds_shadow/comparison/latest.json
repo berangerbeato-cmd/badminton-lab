@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-29T09:32:34+00:00",
+  "generated_at_utc": "2026-10-29T10:13:36+00:00",
   "match_count": 7,
   "matches": [
     {
@@ -46,10 +46,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 433,
+          "age_seconds": 40,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T09:25:22+00:00",
+          "observed_at_utc": "2026-10-29T10:12:57+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -57,7 +57,7 @@
             "MODEL_PROVISIONAL",
             "NO_BET"
           ],
-          "source_url": "https://www.netbet.fr/badminton"
+          "source_url": "https://www.netbet.fr/badminton/international/hylo-open"
         }
       },
       "valid_pre_match_T0": false
@@ -106,10 +106,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 433,
+          "age_seconds": 40,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T09:25:22+00:00",
+          "observed_at_utc": "2026-10-29T10:12:57+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -135,8 +135,8 @@
       "players": [
         {
           "best_historical_observation": {
-            "decimal_odds": 1.1,
-            "ev_pct": -7.07,
+            "decimal_odds": 1.11,
+            "ev_pct": -6.23,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -145,13 +145,13 @@
           "model_probability": 0.84480169,
           "name": "Rasmus GEMKE",
           "observed_odds": {
-            "NetBet.fr": 1.1
+            "NetBet.fr": 1.11
           }
         },
         {
           "best_historical_observation": {
-            "decimal_odds": 4.0,
-            "ev_pct": -37.92,
+            "decimal_odds": 3.8,
+            "ev_pct": -41.02,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -160,16 +160,16 @@
           "model_probability": 0.15519831,
           "name": "Ditlev Jaeger HOLM",
           "observed_odds": {
-            "NetBet.fr": 4.0
+            "NetBet.fr": 3.8
           }
         }
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 433,
+          "age_seconds": 40,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T09:25:22+00:00",
+          "observed_at_utc": "2026-10-29T10:12:57+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -226,10 +226,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 433,
+          "age_seconds": 40,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T09:25:22+00:00",
+          "observed_at_utc": "2026-10-29T10:12:57+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -286,10 +286,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 433,
+          "age_seconds": 40,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T09:25:22+00:00",
+          "observed_at_utc": "2026-10-29T10:12:57+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -346,10 +346,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 433,
+          "age_seconds": 40,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T09:25:22+00:00",
+          "observed_at_utc": "2026-10-29T10:12:57+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -375,8 +375,8 @@
       "players": [
         {
           "best_historical_observation": {
-            "decimal_odds": 4.7,
-            "ev_pct": 4.69,
+            "decimal_odds": 4.8,
+            "ev_pct": 6.92,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -385,7 +385,7 @@
           "model_probability": 0.22273986,
           "name": "Kiran GEORGE",
           "observed_odds": {
-            "NetBet.fr": 4.7
+            "NetBet.fr": 4.8
           }
         },
         {
@@ -406,10 +406,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 433,
+          "age_seconds": 40,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T09:25:22+00:00",
+          "observed_at_utc": "2026-10-29T10:12:57+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -435,7 +435,7 @@
   "schema_version": "badminton_shadow_comparator_v2.1",
   "sources": {
     "NetBet.fr": {
-      "observation_utc": "2026-10-29T09:25:22+00:00",
+      "observation_utc": "2026-10-29T10:12:57+00:00",
       "operator": "NetBet.fr",
       "rejected": [],
       "rows_current": 7,
