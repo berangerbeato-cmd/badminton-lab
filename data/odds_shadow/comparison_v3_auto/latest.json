@@ -66,7 +66,7 @@
     "missing_kickoff_count": 5,
     "missing_executable_price_count": 5
   },
-  "generated_at_utc": "2026-10-29T07:39:51+00:00",
+  "generated_at_utc": "2026-10-29T08:51:22+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 9,
   "rejected_sources": [],
@@ -99,61 +99,6 @@
     },
     {
       "source": "netbet_quotes",
-      "bwf_match_id": "5273:1560224",
-      "players": [
-        "Kodai NARAOKA",
-        "LEE Zii Jia"
-      ],
-      "prematch_timing_status": "KICKOFF_DATE_ONLY",
-      "kickoff_source_verified": false,
-      "external_schedule_status": "NO_EXTERNAL_SCHEDULE",
-      "external_scheduled_start_utc": null,
-      "external_schedule_source": null,
-      "external_schedule_source_url": null,
-      "kickoff_evidence_status": "SOURCE_MISSING",
-      "kickoff_source": null,
-      "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-29T07:39:40+00:00",
-      "model_asof_utc": "2026-10-29T07:38:01+00:00",
-      "model_age_seconds": 99,
-      "model_probability_a": 0.7406396,
-      "bookmaker_player_order_reversed": false,
-      "odds": [
-        1.45,
-        2.1
-      ],
-      "market_overround_pct": 16.58,
-      "market_implied_probability_raw": [
-        0.689655,
-        0.47619
-      ],
-      "market_implied_probability_normalized": [
-        0.591549,
-        0.408451
-      ],
-      "quote_listed_day_paris": "2026-10-29",
-      "quote_day_basis": "PUBLISHED_CALENDAR_DATE",
-      "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
-      "bookmaker_price_updated_at_utc": null,
-      "actual_kickoff_at_utc": null,
-      "observation_before_listed_calendar_day": false,
-      "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
-      "illustrative_ev_pct": [
-        7.39,
-        -45.53
-      ],
-      "flags": [
-        "MARKET_DETAIL_UNVERIFIED",
-        "KICKOFF_UNVERIFIED",
-        "EXECUTABLE_PRICE_UNVERIFIED",
-        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
-        "BWF_KICKOFF_DATE_ONLY"
-      ],
-      "status": "UNVERIFIED_SHADOW_ONLY",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
       "bwf_match_id": "5273:1560355",
       "players": [
         "Anders ANTONSEN",
@@ -168,9 +113,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-29T07:39:40+00:00",
-      "model_asof_utc": "2026-10-29T07:38:01+00:00",
-      "model_age_seconds": 99,
+      "observed_at_utc": "2026-10-29T08:51:13+00:00",
+      "model_asof_utc": "2026-10-29T08:49:29+00:00",
+      "model_age_seconds": 104,
       "model_probability_a": 0.96836567,
       "bookmaker_player_order_reversed": false,
       "odds": [
@@ -223,9 +168,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-29T07:39:40+00:00",
-      "model_asof_utc": "2026-10-29T07:38:01+00:00",
-      "model_age_seconds": 99,
+      "observed_at_utc": "2026-10-29T08:51:13+00:00",
+      "model_asof_utc": "2026-10-29T08:49:29+00:00",
+      "model_age_seconds": 104,
       "model_probability_a": 0.83292921,
       "bookmaker_player_order_reversed": false,
       "odds": [
@@ -251,6 +196,61 @@
       "illustrative_ev_pct": [
         -12.54,
         -21.48
+      ],
+      "flags": [
+        "MARKET_DETAIL_UNVERIFIED",
+        "KICKOFF_UNVERIFIED",
+        "EXECUTABLE_PRICE_UNVERIFIED",
+        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
+        "BWF_KICKOFF_DATE_ONLY"
+      ],
+      "status": "UNVERIFIED_SHADOW_ONLY",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5273:1560224",
+      "players": [
+        "Kodai NARAOKA",
+        "LEE Zii Jia"
+      ],
+      "prematch_timing_status": "KICKOFF_DATE_ONLY",
+      "kickoff_source_verified": false,
+      "external_schedule_status": "NO_EXTERNAL_SCHEDULE",
+      "external_scheduled_start_utc": null,
+      "external_schedule_source": null,
+      "external_schedule_source_url": null,
+      "kickoff_evidence_status": "SOURCE_MISSING",
+      "kickoff_source": null,
+      "kickoff_source_url": null,
+      "observed_at_utc": "2026-10-29T08:51:13+00:00",
+      "model_asof_utc": "2026-10-29T08:49:29+00:00",
+      "model_age_seconds": 104,
+      "model_probability_a": 0.7406396,
+      "bookmaker_player_order_reversed": false,
+      "odds": [
+        1.57,
+        1.9
+      ],
+      "market_overround_pct": 16.33,
+      "market_implied_probability_raw": [
+        0.636943,
+        0.526316
+      ],
+      "market_implied_probability_normalized": [
+        0.54755,
+        0.45245
+      ],
+      "quote_listed_day_paris": "2026-10-29",
+      "quote_day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
+      "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
+      "bookmaker_price_updated_at_utc": null,
+      "actual_kickoff_at_utc": null,
+      "observation_before_listed_calendar_day": false,
+      "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
+      "illustrative_ev_pct": [
+        16.28,
+        -50.72
       ],
       "flags": [
         "MARKET_DETAIL_UNVERIFIED",
@@ -290,23 +290,23 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-29T07:39:40+00:00",
-      "model_asof_utc": "2026-10-29T07:38:01+00:00",
-      "model_age_seconds": 99,
+      "observed_at_utc": "2026-10-29T08:51:13+00:00",
+      "model_asof_utc": "2026-10-29T08:49:29+00:00",
+      "model_age_seconds": 104,
       "model_probability_a": 0.1060719,
       "bookmaker_player_order_reversed": false,
       "odds": [
-        6.75,
+        7.0,
         1.01
       ],
-      "market_overround_pct": 13.82,
+      "market_overround_pct": 13.3,
       "market_implied_probability_raw": [
-        0.148148,
+        0.142857,
         0.990099
       ],
       "market_implied_probability_normalized": [
-        0.130155,
-        0.869845
+        0.126092,
+        0.873908
       ],
       "quote_listed_day_paris": "2026-10-29",
       "quote_day_basis": "PUBLISHED_CALENDAR_DATE",
@@ -316,7 +316,7 @@
       "observation_before_listed_calendar_day": false,
       "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
       "illustrative_ev_pct": [
-        -28.4,
+        -25.75,
         -9.71
       ],
       "flags": [
@@ -369,23 +369,23 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-29T07:39:40+00:00",
-      "model_asof_utc": "2026-10-29T07:38:01+00:00",
-      "model_age_seconds": 99,
+      "observed_at_utc": "2026-10-29T08:51:13+00:00",
+      "model_asof_utc": "2026-10-29T08:49:29+00:00",
+      "model_age_seconds": 104,
       "model_probability_a": 0.20064476,
       "bookmaker_player_order_reversed": false,
       "odds": [
-        4.7,
-        1.05
+        4.6,
+        1.06
       ],
-      "market_overround_pct": 16.51,
+      "market_overround_pct": 16.08,
       "market_implied_probability_raw": [
-        0.212766,
-        0.952381
+        0.217391,
+        0.943396
       ],
       "market_implied_probability_normalized": [
-        0.182609,
-        0.817391
+        0.187279,
+        0.812721
       ],
       "quote_listed_day_paris": "2026-10-29",
       "quote_day_basis": "PUBLISHED_CALENDAR_DATE",
@@ -395,8 +395,8 @@
       "observation_before_listed_calendar_day": false,
       "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
       "illustrative_ev_pct": [
-        -5.7,
-        -16.07
+        -7.7,
+        -15.27
       ],
       "flags": [
         "MARKET_DETAIL_UNVERIFIED",
