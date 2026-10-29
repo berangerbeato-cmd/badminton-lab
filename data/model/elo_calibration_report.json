@@ -1,6 +1,6 @@
 {
   "model": "bwf_elo_ms_platt_v1",
-  "generated_at_utc": "2026-10-28T05:45:26.888805+00:00",
+  "generated_at_utc": "2026-10-29T05:47:05.234375+00:00",
   "baseline_model": "bwf_elo_ms_v0",
   "k": 48,
   "fit_year": 2024,
@@ -149,17 +149,17 @@
       }
     ]
   },
-  "upcoming_count": 16,
+  "upcoming_count": 8,
   "snapshot_policy": "Rosters and start times from BWF cache; do not infer T0 for completed or already-started matches. Ratings exclude ALL same-UTC-day results.",
   "cold_start_policy": "Flag players without earlier completed matches; never treat unknown as 0 strength.",
   "trading_policy": "NO BET until a separately timestamped operator quote is verified before match, and stronger model-vs-market validation performed.",
   "data_quality": {
-    "not_MS": 52840,
+    "not_MS": 52872,
     "no_full_score": 289,
     "score_not_completed": 221,
-    "no_winner": 28,
+    "no_winner": 20,
     "missing_player_ids": 5,
     "archives_read": 411,
-    "clean_MS_matches": 13783
+    "clean_MS_matches": 13799
   }
 }
