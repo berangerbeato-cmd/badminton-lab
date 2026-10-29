@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-10-29T07:01:30+00:00",
+  "generated_at_utc": "2026-10-29T08:59:56+00:00",
   "policy": "SHADOW_ONLY_NO_BET",
-  "total_rows": 31,
+  "total_rows": 32,
   "decisions": {
     "NO_QUOTE": 15,
-    "OBSERVED_NOT_ACTIONABLE": 16
+    "OBSERVED_NOT_ACTIONABLE": 17
   },
   "sources": {
     "betclic_fr": {
@@ -48,8 +48,8 @@
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED"
     },
     "netbet_quotes": {
-      "rows": 8,
-      "observed": 8,
+      "rows": 9,
+      "observed": 9,
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
     },
     "oddschecker_badminton": {
@@ -65,7 +65,7 @@
     "oddsportal_badminton": {
       "rows": 1,
       "observed": 0,
-      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE"
+      "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED"
     },
     "pmu_fr": {
       "rows": 1,
@@ -80,7 +80,7 @@
     "unibet_fr": {
       "rows": 1,
       "observed": 0,
-      "status": "REJECT_HTTP_CACHE_AGE"
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES"
     },
     "v32_decision_report": {
       "rows": 1,

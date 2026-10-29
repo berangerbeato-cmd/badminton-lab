@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-10-29T08:50:06+00:00",
+  "observed_at_utc": "2026-10-29T08:58:51+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 8,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "parsed; page_parsed_entries=39; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=8,DH:OBSERVED_DATE_UNVERIFIED=8,DM:OBSERVED_DATE_UNVERIFIED=8,F:OBSERVED_DATE_UNVERIFIED=7,H:OBSERVED_DATE_UNVERIFIED=8; eligible_MS_H2H=0; local_now=2026-10-29T09:50:06.309412+01:00",
+      "parser_notes": "parsed; page_parsed_entries=39; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=8,DH:OBSERVED_DATE_UNVERIFIED=8,DM:OBSERVED_DATE_UNVERIFIED=8,F:OBSERVED_DATE_UNVERIFIED=7,H:OBSERVED_DATE_UNVERIFIED=8; eligible_MS_H2H=0; local_now=2026-10-29T09:58:51.646977+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "1ccb15d360b45673c3708510f6cf01506339c6f0596e308684e3a55c4f3af8c6",
+      "body_sha256": "a79fc76e497703c22283eb6bbd3558cbefe45fd8cfd1ecd3af03dfedc148ffbe",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -39,7 +39,7 @@
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "db732c15a10057e96ebd187a33f4d0476aafe89d8e49d231d933afb12112b147",
+      "body_sha256": "def70fdaa36834da9e645d1e053f0ffa9de813ae1df645f197746c805734d293",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "1333f85ba5f3763daaafb2412563d51b67ae01228242264e73e8dc2bbb5cad72",
+      "body_sha256": "8552c09bc3549c74afd8dd6831ece3ea55f1b04d59e2df4f181e3063bf3adad1",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "65e4496993cda0f58358b54babb71a8416bafbf5d113bdb7cdaadba1d0e42c42",
+      "body_sha256": "b49e355c32811db20a6078267b4d6ea10e4afd7c87cb3f1965202cb7c8c0d04e",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "47beceaae289c6c5790e8c38928fc2e7130dddc71683a8216de55f634ff8ba3e",
+      "body_sha256": "9904741dc66ae06afce64d9174bf2debb44a824a9a01d9ba0549447f85ccee0d",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "cf7dfa3c68b1725aec099f3e9d417a9cefd17b139dceee4b06c3566a613c7268",
+      "body_sha256": "2be5a0d34b00123a920f28c611674d8d0078a2ffa3f97e598b8008e2e8735f44",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "70",
-      "body_sha256": "7183600253fc190c5356fd48ca70cda0c805f6f9c23dc9c908f9244d8c895453",
+      "cache_age_seconds": "261",
+      "body_sha256": "af15beef49b7ade91b0ba17ab4daf8466e39bfaaeec2c3e3bfde2b179eff5f65",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/lee-zii-jia-fkHsTftd/naraoka-kodai-MPtLI8G5/?mid=pSiYP977",
@@ -175,11 +175,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/hooda-unnati-dOi52816/ostergaard-frederikke-S0Z10n05/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "4573b70d1f72faa1630f946b47933c9f34ac773e89ce739d9e24c284600d99d8",
+        "body_sha256": "1e2910a17e56210e5e9513694690e35c5f9a3a6ee3897d7e10cad370ca0f5662",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Frederikke Ostergaard - Unnati Hooda (29/10/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - FEMMESHYLO OPEN - 1/8 DE FINALE\nNouvelle fenêtre\n29.10.2026 17:30\nOstergaard F.\nBWF\n: 116.\n-\nSTREAM\nHooda U.\nBWF\n: 21.\n-\n29.10.2026 17:30\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nVIDÉO\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\nLIVE STREAM\n-\n-\n5.00\n1.14\nFAIRE UN PARI\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $350 in Bonus Bets when you wager $5 for 7 days\n21+ $5 first deposit required to get bonus bets which expire 7 days after. T&Cs apply\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nBET365 - Bet $10 Get $150 in Bonus Bets Win or Lose\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET Please gamble responsibly. Minimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE MATCH\nSTADE:\nSaarlandhalle\n (Sarrebruck)\nFORME\nOstergaard F.\n?\nV\nHooda",
+        "text_excerpt_for_debug": "Frederikke Ostergaard - Unnati Hooda (29/10/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - FEMMESHYLO OPEN - 1/8 DE FINALE\nNouvelle fenêtre\n29.10.2026 17:30\nOstergaard F.\nBWF\n: 116.\n-\nSTREAM\nHooda U.\nBWF\n: 21.\n-\n29.10.2026 17:30\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nVIDÉO\nCOTES\nHOME/AWAY\n1\n2\nLIVE STREAM\n4.30\n1.13\nFAIRE UN PARI\n-\n-\nVoir plus\nLIVE STREAMING\nPublicité\nBetclic.fr\nINFORMATIONS DE MATCH\nSTADE:\nSaarlandhalle\n (Sarrebruck)\nFORME\nOstergaard F.\n?\nV\nHooda U.\n?\nV\nD\nD\nD\nD\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT HYLO Open Hommes\nBWF WT HYLO Open Femmes\nBWF WT HYLO Open Doubles Hommes\nBWF WT HYLO Open Doubles Femmes\nBWF WT HYLO Open Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nSuivez Frederikke Ostergaard - Unnati Hooda le 29/10/2026 en direct, les derniers résultats de Frederikke Oster",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 6316,
+        "body_characters": 5055,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -191,27 +191,23 @@
           "HOME/AWAY",
           "1",
           "2",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
           "LIVE STREAM",
+          "4.30",
+          "1.13",
+          "FAIRE UN PARI",
           "-",
-          "-",
-          "5.00",
-          "1.14",
-          "FAIRE UN PARI"
+          "-"
         ],
-        "odds_section_dash_count": 8,
+        "odds_section_dash_count": 2,
         "odds_section_decimal_prices": [
-          "5.00",
-          "1.14"
+          "4.30",
+          "1.13"
         ],
         "odds_section_placeholder_only": false,
         "odds_section_bookmaker_names": [],
-        "contains_bookmaker_names": []
+        "contains_bookmaker_names": [
+          "Betclic"
+        ]
       }
     },
     "oddsportal_badminton": {
@@ -222,7 +218,7 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "78",
+      "cache_age_seconds": "0",
       "body_sha256": "7bf9bf54edbb661e0d8dedfc8fa00405ce5e22f0e3e9ea8628d395a5a0d790f3",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
