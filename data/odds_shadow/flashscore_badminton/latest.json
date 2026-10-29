@@ -1,10 +1,10 @@
 {
   "audit_only_stale_content_allowed": true,
   "audit_warning": "Diagnostic only; no bookmaker prices are extracted or accepted.",
-  "body_sha256": "7ad0212203de485520af9fbf22eb3375dbfac0881fc7e902b6706b1cf4dc3138",
+  "body_sha256": "3d1e1297fe5b19ef3b1b82c3b04d6a28ef883cd1a41ed87fb15be1522b23100b",
   "bookmaker_price_updated_at": null,
-  "cache_age_seconds": "293",
-  "finished_at_utc": "2026-10-29T10:00:22+00:00",
+  "cache_age_seconds": "403",
+  "finished_at_utc": "2026-10-29T10:23:54+00:00",
   "flashscore_discovery": {
     "index_match_link_count": 48,
     "index_match_links": [
@@ -25,13 +25,13 @@
       "https://www.flashscore.fr/match/badminton/hooda-unnati-dOi52816/ostergaard-frederikke-S0Z10n05/?mid=6yD2Jmec"
     ],
     "index_ms_context_visible": true,
-    "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n29/10 JE\nHYLO Open (Allemagne)\nBWF WORLD TOUR - HOMMES: \nTableau\n11:20\nNaraoka K.\nLee Z. J.\n-\n-\n12:55\nChristie J.\nKoga M.\n-\n-\n13:00\nAntonsen A.\nDwicahyo A. R.\n-\n-\n14:35\nGemke R.\nHolm J.\n-\n-\n15:15\nMerkle A.\nChi Y. J.\n-\n-\n17:10\nCarraggi J.\nPopov T. J.\n-\n-\n17:30\nGeorge K.\nSen L.\n-\n-\n18:50\nDinata A.\nKoljonen K.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - FEMMES: \nTableau\n3. set\nChochuwong Po.\nBuhrova P.\n1\n1\n21\n19\n17\n21\n13\n5\n11:50\nBansod M.\nZhang W. Y.\n-\n-\n13:45\nNalbantova K.\nSchulz A.\n-\n-\n14:20\nKjaersfeldt L. H.\nBaruah I.\n-\n-\n14:40\nPancasari R. O.\nSindhu P. V.\n-\n-\n15:00\nSung S. Y.\nGilmour K.\n-\n-\n18:00\nOstergaard F.\nHooda U.\n-\n-\n18:20\nKharb A.\nChristophersen L.\n-\n-\nFlashscore Actualités\n\"On a changé, elles ont changé\" : le Paris FC et Häcken se retrouvent dans une nouvelle ère\nLes Français de la F1 : Ocon hors des points, Gasly sauve les meubles, Hadjar légèrement à la traîne\nJeudi Boxe (S2 EP 38) : Spécial Christian Mbilli v. Canelo Álvarez\nAller vers Actualités\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n15:30\nGutama S. K.\nIsfahani M. R. P.\nTai A.\nYap R. K.\n-\n-\n16:20\nChen C. K.\nLiu K. H.\nAstrup K.\nRasmussen A. S.\n-\n-\n16:55\nAdam E.\nRossi L.\nLane B.\nVendy S.\n-\n-\n17:30\nChiu H. C.\nWang Chi-Lin\nBegga N.\nDeschamp G.\n-\n-\n18:20\nMaio J.\nVilleger W.\nLee J-H.\nYang Po-Hsuan\n-\n-\n19:10\nIndra R.\nJoaquin N.\nBoe W. K.\nEspersen R.\n-\n-\n20:15\nKral J.\nKral O.\nLundgaard D.\nVestergaard M.\n-\n-\n20:50\nKjaer C. F.\nKjaer R.\nGuildea S.\nReynolds P.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n12:10\nOng X. Y.\nTing C.\nYeung "
+    "index_text_excerpt": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n29/10 JE\nHYLO Open (Allemagne)\nBWF WORLD TOUR - HOMMES: \nTableau\n1. set\nNaraoka K.\nLee Z. J.\n0\n0\n11\n6\n12:55\nChristie J.\nKoga M.\n-\n-\n13:00\nAntonsen A.\nDwicahyo A. R.\n-\n-\n14:35\nGemke R.\nHolm J.\n-\n-\n15:15\nMerkle A.\nChi Y. J.\n-\n-\n17:10\nCarraggi J.\nPopov T. J.\n-\n-\n17:30\nGeorge K.\nSen L.\n-\n-\n18:50\nDinata A.\nKoljonen K.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nChochuwong Po.\nBuhrova P.\n2\n1\n21\n19\n17\n21\n21\n9\n11:50\nBansod M.\nZhang W. Y.\n-\n-\n13:45\nNalbantova K.\nSchulz A.\n-\n-\n14:20\nKjaersfeldt L. H.\nBaruah I.\n-\n-\n14:40\nPancasari R. O.\nSindhu P. V.\n-\n-\n15:00\nSung S. Y.\nGilmour K.\n-\n-\n18:00\nOstergaard F.\nHooda U.\n-\n-\n18:20\nKharb A.\nChristophersen L.\n-\n-\nFlashscore Actualités\n\"On a changé, elles ont changé\" : le Paris FC et Häcken se retrouvent dans une nouvelle ère\nLes Français de la F1 : Ocon hors des points, Gasly sauve les meubles, Hadjar légèrement à la traîne\nJeudi Boxe (S2 EP 38) : Spécial Christian Mbilli v. Canelo Álvarez\nAller vers Actualités\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n15:30\nGutama S. K.\nIsfahani M. R. P.\nTai A.\nYap R. K.\n-\n-\n16:20\nChen C. K.\nLiu K. H.\nAstrup K.\nRasmussen A. S.\n-\n-\n16:55\nAdam E.\nRossi L.\nLane B.\nVendy S.\n-\n-\n17:30\nChiu H. C.\nWang Chi-Lin\nBegga N.\nDeschamp G.\n-\n-\n18:20\nMaio J.\nVilleger W.\nLee J-H.\nYang Po-Hsuan\n-\n-\n19:10\nIndra R.\nJoaquin N.\nBoe W. K.\nEspersen R.\n-\n-\n20:15\nKral J.\nKral O.\nLundgaard D.\nVestergaard M.\n-\n-\n20:50\nKjaer C. F.\nKjaer R.\nGuildea S.\nReynolds P.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\n12:10\nOng X. Y.\nTing C."
   },
   "flashscore_match_audit": {
     "appears_doubles": false,
     "appears_mens_singles": false,
-    "body_characters": 6016,
-    "body_sha256": "8326411f14b878205273d161c862ccb7b7a994fb4ab2d3e4d3bc7cb355b5fbf8",
+    "body_characters": 6172,
+    "body_sha256": "cd452f66e8d51766a18df3c8f7308364b54dee13cbaf667a6d4daeb8f91ad710",
     "candidate_from_index": true,
     "candidate_selection": "last_named_public_link_not_verified_upcoming",
     "comparison_block_reason": "NO_VERIFIED_BOOKMAKER_PRICES",
@@ -41,7 +41,7 @@
     "http_status": 200,
     "match_finished": false,
     "odds_section_bookmaker_names": [],
-    "odds_section_dash_count": 8,
+    "odds_section_dash_count": 10,
     "odds_section_decimal_prices": [
       "5.00",
       "1.14"
@@ -61,7 +61,9 @@
       "-",
       "5.00",
       "1.14",
-      "FAIRE UN PARI"
+      "FAIRE UN PARI",
+      "-",
+      "-"
     ],
     "odds_section_placeholder_only": false,
     "quotes_extracted": 0,
@@ -71,12 +73,12 @@
     "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
     "screenshot_error": null,
     "status": "PUBLIC_MATCH_PAGE_REACHABLE_AUDIT_ONLY",
-    "text_excerpt_for_debug": "Frederikke Ostergaard - Unnati Hooda (29/10/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - FEMMESHYLO OPEN - 1/8 DE FINALE\nNouvelle fenêtre\n29.10.2026 18:00\nOstergaard F.\nBWF\n: 116.\n-\nSTREAM\nHooda U.\nBWF\n: 21.\n-\n29.10.2026 18:00\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nVIDÉO\nCOTES\nHOME/AWAY\n1\n2\n-\n-\nLIVE STREAM\n-\n-\n-\n-\n-\n-\n5.00\n1.14\nFAIRE UN PARI\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $350 in Bonus Bets when you wager $5 for 7 days\n21+ $5 first deposit required to get bonus bets which expire 7 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBetMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. 1-800-BETS-OFF (IA), New customers only. T&C apply Must opt-in and wager $10+ cash on any market to receive $50 in Bonus Bets each day for your first 5 days\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE MATCH\nSTADE:\nSaarlandhalle\n (Sarrebruck)\nFORME\nOstergaard F.\n?\nV\nHooda U.\n?\nV\nD\nD\nD\nD\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez",
+    "text_excerpt_for_debug": "Frederikke Ostergaard - Unnati Hooda (29/10/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - FEMMESHYLO OPEN - 1/8 DE FINALE\nNouvelle fenêtre\n29.10.2026 18:00\nOstergaard F.\nBWF\n: 116.\n-\nSTREAM\nHooda U.\nBWF\n: 21.\n-\n29.10.2026 18:00\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nVIDÉO\nCOTES\nHOME/AWAY\n1\n2\n-\n-\nLIVE STREAM\n-\n-\n-\n-\n-\n-\n5.00\n1.14\nFAIRE UN PARI\n-\n-\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $350 in Bonus Bets when you wager $5 for 7 days\n21+ $5 first deposit required to get bonus bets which expire 7 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA). T&C apply.\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE M",
     "url": "https://www.flashscore.fr/match/badminton/hooda-unnati-dOi52816/ostergaard-frederikke-S0Z10n05/#/cotes/home-away/temps-regulier/"
   },
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-29T10:00:08+00:00",
+  "observed_at_utc": "2026-10-29T10:23:41+00:00",
   "operator": "Flashscore (aggregator)",
   "operator_kind": "AGGREGATOR_AUDIT_ONLY",
   "public_badminton_event_links": [],
@@ -85,10 +87,10 @@
   "resolved_url": "https://www.flashscore.fr/badminton/",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Thu, 29 Oct 2026 10:00:09 GMT",
+  "server_date": "Thu, 29 Oct 2026 10:23:42 GMT",
   "source_key": "flashscore_badminton",
   "source_url": "https://www.flashscore.fr/badminton/",
   "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
-  "text_excerpt_for_debug": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n29/10 JE\nHYLO Open (Allemagne)\nBWF WORLD TOUR - HOMMES: \nTableau\n11:20\nNaraoka K.\nLee Z. J.\n-\n-\n12:55\nChristie J.\nKoga M.\n-\n-\n13:00\nAntonsen A.\nDwicahyo A. R.\n-\n-\n14:35\nGemke R.\nHolm J.\n-\n-\n15:15\nMerkle A.\nChi Y. J.\n-\n-\n17:10\nCarraggi J.\nPopov T. J.\n-\n-\n17:30\nGeorge K.\nSen L.\n-\n-\n18:50\nDinata A.\nKoljonen K.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - FEMMES: \nTableau\n3. set\nChochuwong Po.\nBuhrova P.\n1\n1\n21\n19\n17\n21\n13\n5\n11:50\nBansod M.\nZhang W. Y.\n-\n-\n13:45\nNalbantova K.\nSchulz A.\n-\n-\n14:20\nKjaersfeldt L. H.\nBaruah I.\n-\n-\n14:40\nPancasari R. O.\nSindhu P. V.\n-\n-\n15:00\nSung S. Y.\nGilmour K.\n-\n-\n18:00\nOstergaard F.\nHooda U.\n-\n-\n18:20\nKharb A.\nChristophersen L.\n-\n-\nFlashscore Actualités\n\"On a changé, elles ont changé\" : le Paris FC et Häcken se retrouvent dans une nouvelle ère\nLes Français de la F1 : Ocon hors des points, Gasly sauve les meubles, Hadjar légèrement à la traîne\nJeudi Boxe (S2 EP 38) : Spécial Christian Mbilli v. Canelo Álvarez\nAller vers Actualités\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n15:30\nGutama S. K.\nIsfahani M. R. P.\nTai A.\nYap R. K.\n-\n-\n16:20\nChen C. K.\nLiu K. H.\nAstrup K.\nRasmussen A. S.\n-\n-\n16:55\nAdam E.\nRossi L.\nLane B.\nVendy S.\n-\n-\n17:30\nChiu H. C.\nWang Chi-Lin\nBegga N.\nDeschamp G.\n-\n-\n18:20\nMaio J.\nVilleger W.\nLee J-H.\nYang Po-Hsuan\n-\n-\n19:10\nIndra R.\nJoaquin N.\nBoe W. K.\nEspersen R.\n-\n-\n20",
+  "text_excerpt_for_debug": "Hylo Open de badminton 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n29/10 JE\nHYLO Open (Allemagne)\nBWF WORLD TOUR - HOMMES: \nTableau\n1. set\nNaraoka K.\nLee Z. J.\n0\n0\n11\n6\n12:55\nChristie J.\nKoga M.\n-\n-\n13:00\nAntonsen A.\nDwicahyo A. R.\n-\n-\n14:35\nGemke R.\nHolm J.\n-\n-\n15:15\nMerkle A.\nChi Y. J.\n-\n-\n17:10\nCarraggi J.\nPopov T. J.\n-\n-\n17:30\nGeorge K.\nSen L.\n-\n-\n18:50\nDinata A.\nKoljonen K.\n-\n-\nHYLO Open (Allemagne)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nChochuwong Po.\nBuhrova P.\n2\n1\n21\n19\n17\n21\n21\n9\n11:50\nBansod M.\nZhang W. Y.\n-\n-\n13:45\nNalbantova K.\nSchulz A.\n-\n-\n14:20\nKjaersfeldt L. H.\nBaruah I.\n-\n-\n14:40\nPancasari R. O.\nSindhu P. V.\n-\n-\n15:00\nSung S. Y.\nGilmour K.\n-\n-\n18:00\nOstergaard F.\nHooda U.\n-\n-\n18:20\nKharb A.\nChristophersen L.\n-\n-\nFlashscore Actualités\n\"On a changé, elles ont changé\" : le Paris FC et Häcken se retrouvent dans une nouvelle ère\nLes Français de la F1 : Ocon hors des points, Gasly sauve les meubles, Hadjar légèrement à la traîne\nJeudi Boxe (S2 EP 38) : Spécial Christian Mbilli v. Canelo Álvarez\nAller vers Actualités\nHYLO Open (Allemagne)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\n15:30\nGutama S. K.\nIsfahani M. R. P.\nTai A.\nYap R. K.\n-\n-\n16:20\nChen C. K.\nLiu K. H.\nAstrup K.\nRasmussen A. S.\n-\n-\n16:55\nAdam E.\nRossi L.\nLane B.\nVendy S.\n-\n-\n17:30\nChiu H. C.\nWang Chi-Lin\nBegga N.\nDeschamp G.\n-\n-\n18:20\nMaio J.\nVilleger W.\nLee J-H.\nYang Po-Hsuan\n-\n-\n19:10\nIndra R.\nJoaquin N.\nBoe W. K.\nEspersen R.",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }

@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-29T10:00:38+00:00",
-  "comparison_generated_at_utc": "2026-10-29T10:00:37+00:00",
+  "generated_at_utc": "2026-10-29T10:24:09+00:00",
+  "comparison_generated_at_utc": "2026-10-29T10:24:08+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "comparison_count": 7,
   "status_counts": {
@@ -36,7 +36,7 @@
       "player_b": "Minoru KOGA",
       "model_age_minutes": 1.5,
       "ev_a_pct": -11.71,
-      "ev_b_pct": -23.15,
+      "ev_b_pct": -24.82,
       "quality_status": "BLOCKED_UNVERIFIED",
       "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED",
       "decision": "NO_BET"
@@ -95,7 +95,7 @@
       "player_a": "Kiran GEORGE",
       "player_b": "Lakshya SEN",
       "model_age_minutes": 1.5,
-      "ev_a_pct": -3.69,
+      "ev_a_pct": -5.7,
       "ev_b_pct": -16.07,
       "quality_status": "BLOCKED_UNVERIFIED",
       "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED",
