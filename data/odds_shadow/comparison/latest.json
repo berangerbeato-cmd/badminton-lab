@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-29T07:43:32+00:00",
+  "generated_at_utc": "2026-10-29T09:15:29+00:00",
   "match_count": 8,
   "matches": [
     {
@@ -15,8 +15,8 @@
       "players": [
         {
           "best_historical_observation": {
-            "decimal_odds": 1.45,
-            "ev_pct": 1.79,
+            "decimal_odds": 1.58,
+            "ev_pct": 10.92,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -25,13 +25,13 @@
           "model_probability": 0.70199773,
           "name": "Kodai NARAOKA",
           "observed_odds": {
-            "NetBet.fr": 1.45
+            "NetBet.fr": 1.58
           }
         },
         {
           "best_historical_observation": {
-            "decimal_odds": 2.1,
-            "ev_pct": -37.42,
+            "decimal_odds": 1.88,
+            "ev_pct": -43.98,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -40,16 +40,16 @@
           "model_probability": 0.29800227,
           "name": "LEE Zii Jia",
           "observed_odds": {
-            "NetBet.fr": 2.1
+            "NetBet.fr": 1.88
           }
         }
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 233,
+          "age_seconds": 42,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T07:39:40+00:00",
+          "observed_at_utc": "2026-10-29T09:14:47+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -57,7 +57,7 @@
             "MODEL_PROVISIONAL",
             "NO_BET"
           ],
-          "source_url": "https://www.netbet.fr/badminton"
+          "source_url": "https://www.netbet.fr/badminton/international/hylo-open"
         }
       },
       "valid_pre_match_T0": false
@@ -106,10 +106,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 233,
+          "age_seconds": 42,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T07:39:40+00:00",
+          "observed_at_utc": "2026-10-29T09:14:47+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -117,7 +117,7 @@
             "MODEL_PROVISIONAL",
             "NO_BET"
           ],
-          "source_url": "https://www.netbet.fr/badminton/international/hylo-open"
+          "source_url": "https://www.netbet.fr/badminton"
         }
       },
       "valid_pre_match_T0": false
@@ -135,8 +135,8 @@
       "players": [
         {
           "best_historical_observation": {
-            "decimal_odds": 6.75,
-            "ev_pct": -25.83,
+            "decimal_odds": 6.5,
+            "ev_pct": -28.58,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -145,7 +145,7 @@
           "model_probability": 0.10988172,
           "name": "Julien CARRAGGI",
           "observed_odds": {
-            "NetBet.fr": 6.75
+            "NetBet.fr": 6.5
           }
         },
         {
@@ -166,10 +166,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 233,
+          "age_seconds": 42,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T07:39:40+00:00",
+          "observed_at_utc": "2026-10-29T09:14:47+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -195,8 +195,8 @@
       "players": [
         {
           "best_historical_observation": {
-            "decimal_odds": 1.13,
-            "ev_pct": -4.54,
+            "decimal_odds": 1.12,
+            "ev_pct": -5.38,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -205,13 +205,13 @@
           "model_probability": 0.84480169,
           "name": "Rasmus GEMKE",
           "observed_odds": {
-            "NetBet.fr": 1.13
+            "NetBet.fr": 1.12
           }
         },
         {
           "best_historical_observation": {
-            "decimal_odds": 3.65,
-            "ev_pct": -43.35,
+            "decimal_odds": 3.75,
+            "ev_pct": -41.8,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -220,16 +220,16 @@
           "model_probability": 0.15519831,
           "name": "Ditlev Jaeger HOLM",
           "observed_odds": {
-            "NetBet.fr": 3.65
+            "NetBet.fr": 3.75
           }
         }
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 233,
+          "age_seconds": 42,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T07:39:40+00:00",
+          "observed_at_utc": "2026-10-29T09:14:47+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -286,10 +286,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 233,
+          "age_seconds": 42,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T07:39:40+00:00",
+          "observed_at_utc": "2026-10-29T09:14:47+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -297,7 +297,7 @@
             "MODEL_PROVISIONAL",
             "NO_BET"
           ],
-          "source_url": "https://www.netbet.fr/badminton/international/hylo-open"
+          "source_url": "https://www.netbet.fr/badminton"
         }
       },
       "valid_pre_match_T0": false
@@ -346,10 +346,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 233,
+          "age_seconds": 42,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T07:39:40+00:00",
+          "observed_at_utc": "2026-10-29T09:14:47+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -406,10 +406,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 233,
+          "age_seconds": 42,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T07:39:40+00:00",
+          "observed_at_utc": "2026-10-29T09:14:47+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -435,8 +435,8 @@
       "players": [
         {
           "best_historical_observation": {
-            "decimal_odds": 4.7,
-            "ev_pct": 4.69,
+            "decimal_odds": 4.6,
+            "ev_pct": 2.46,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -445,13 +445,13 @@
           "model_probability": 0.22273986,
           "name": "Kiran GEORGE",
           "observed_odds": {
-            "NetBet.fr": 4.7
+            "NetBet.fr": 4.6
           }
         },
         {
           "best_historical_observation": {
-            "decimal_odds": 1.05,
-            "ev_pct": -18.39,
+            "decimal_odds": 1.06,
+            "ev_pct": -17.61,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -460,16 +460,16 @@
           "model_probability": 0.77726014,
           "name": "Lakshya SEN",
           "observed_odds": {
-            "NetBet.fr": 1.05
+            "NetBet.fr": 1.06
           }
         }
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 233,
+          "age_seconds": 42,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T07:39:40+00:00",
+          "observed_at_utc": "2026-10-29T09:14:47+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -495,7 +495,7 @@
   "schema_version": "badminton_shadow_comparator_v2.1",
   "sources": {
     "NetBet.fr": {
-      "observation_utc": "2026-10-29T07:39:40+00:00",
+      "observation_utc": "2026-10-29T09:14:47+00:00",
       "operator": "NetBet.fr",
       "rejected": [],
       "rows_current": 8,
