@@ -1,0 +1,335 @@
+{
+  "verification_summary": {
+    "unique_matched_fixture_count": 4,
+    "matched_fixture_ids": [
+      "5273:1560225",
+      "5273:1560226",
+      "5273:1560355",
+      "5273:1560365"
+    ],
+    "unmatched_observation_count": 3,
+    "unmatched_observations": [
+      {
+        "source": "netbet_quotes",
+        "players": [
+          "Gemke Rasmus",
+          "Ditlev Jaeger Holm"
+        ],
+        "status": "FIXTURE_ABSENT_FROM_MODEL",
+        "listed_day_paris": "2026-10-29"
+      },
+      {
+        "source": "netbet_quotes",
+        "players": [
+          "Aria Dinata",
+          "Koljonen Kalle"
+        ],
+        "status": "FIXTURE_ABSENT_FROM_MODEL",
+        "listed_day_paris": "2026-10-29"
+      },
+      {
+        "source": "netbet_quotes",
+        "players": [
+          "Arnaud Merkle",
+          "Yu Jen Chi"
+        ],
+        "status": "FIXTURE_ABSENT_FROM_MODEL",
+        "listed_day_paris": "2026-10-29"
+      }
+    ],
+    "external_schedule_coverage_count": 0,
+    "kickoff_evidence_status_counts": {
+      "SOURCE_MISSING": 4
+    },
+    "prematch_timing_status_counts": {
+      "KICKOFF_DATE_ONLY": 4
+    },
+    "model_fixture_count": 8,
+    "public_quote_count": 7,
+    "comparison_count": 7,
+    "status_counts": {
+      "UNVERIFIED_SHADOW_ONLY": 4,
+      "FIXTURE_ABSENT_FROM_MODEL": 3
+    },
+    "verified_prematch_count": 0,
+    "validated_roi_pct": null,
+    "missing_kickoff_count": 4,
+    "missing_executable_price_count": 4
+  },
+  "generated_at_utc": "2026-10-29T10:00:37+00:00",
+  "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
+  "comparison_count": 7,
+  "rejected_sources": [],
+  "source_audit": {
+    "unibet_fr": {
+      "status": "FRESH_EMPTY",
+      "snapshot_file": "data/odds_shadow/unibet_fr/latest.json",
+      "quotes_read": 0,
+      "collector_status": "REJECT_HTTP_CACHE_AGE"
+    },
+    "netbet_quotes": {
+      "status": "FRESH_SNAPSHOT",
+      "snapshot_file": "data/odds_shadow/netbet_quotes/latest.json",
+      "quotes_read": 7,
+      "collector_status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+    }
+  },
+  "results": [
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5273:1560355",
+      "players": [
+        "Anders ANTONSEN",
+        "Ade Resky DWICAHYO"
+      ],
+      "prematch_timing_status": "KICKOFF_DATE_ONLY",
+      "kickoff_source_verified": false,
+      "external_schedule_status": "NO_EXTERNAL_SCHEDULE",
+      "external_scheduled_start_utc": null,
+      "external_schedule_source": null,
+      "external_schedule_source_url": null,
+      "kickoff_evidence_status": "SOURCE_MISSING",
+      "kickoff_source": null,
+      "kickoff_source_url": null,
+      "observed_at_utc": "2026-10-29T10:00:27+00:00",
+      "model_asof_utc": "2026-10-29T09:58:55+00:00",
+      "model_age_seconds": 92,
+      "model_probability_a": 0.96836567,
+      "bookmaker_player_order_reversed": false,
+      "odds": [
+        1.01,
+        9.25
+      ],
+      "market_overround_pct": 9.82,
+      "market_implied_probability_raw": [
+        0.990099,
+        0.108108
+      ],
+      "market_implied_probability_normalized": [
+        0.901559,
+        0.098441
+      ],
+      "quote_listed_day_paris": "2026-10-29",
+      "quote_day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
+      "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
+      "bookmaker_price_updated_at_utc": null,
+      "actual_kickoff_at_utc": null,
+      "observation_before_listed_calendar_day": false,
+      "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
+      "illustrative_ev_pct": [
+        -2.2,
+        -70.74
+      ],
+      "flags": [
+        "MARKET_DETAIL_UNVERIFIED",
+        "KICKOFF_UNVERIFIED",
+        "EXECUTABLE_PRICE_UNVERIFIED",
+        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
+        "BWF_KICKOFF_DATE_ONLY"
+      ],
+      "status": "UNVERIFIED_SHADOW_ONLY",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5273:1560225",
+      "players": [
+        "Jonatan CHRISTIE",
+        "Minoru KOGA"
+      ],
+      "prematch_timing_status": "KICKOFF_DATE_ONLY",
+      "kickoff_source_verified": false,
+      "external_schedule_status": "NO_EXTERNAL_SCHEDULE",
+      "external_scheduled_start_utc": null,
+      "external_schedule_source": null,
+      "external_schedule_source_url": null,
+      "kickoff_evidence_status": "SOURCE_MISSING",
+      "kickoff_source": null,
+      "kickoff_source_url": null,
+      "observed_at_utc": "2026-10-29T10:00:27+00:00",
+      "model_asof_utc": "2026-10-29T09:58:55+00:00",
+      "model_age_seconds": 92,
+      "model_probability_a": 0.83292921,
+      "bookmaker_player_order_reversed": false,
+      "odds": [
+        1.06,
+        4.6
+      ],
+      "market_overround_pct": 16.08,
+      "market_implied_probability_raw": [
+        0.943396,
+        0.217391
+      ],
+      "market_implied_probability_normalized": [
+        0.812721,
+        0.187279
+      ],
+      "quote_listed_day_paris": "2026-10-29",
+      "quote_day_basis": "FUTURE_COUNTDOWN_DAY_INFERRED_NOT_KICKOFF",
+      "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
+      "bookmaker_price_updated_at_utc": null,
+      "actual_kickoff_at_utc": null,
+      "observation_before_listed_calendar_day": false,
+      "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
+      "illustrative_ev_pct": [
+        -11.71,
+        -23.15
+      ],
+      "flags": [
+        "MARKET_DETAIL_UNVERIFIED",
+        "KICKOFF_UNVERIFIED",
+        "EXECUTABLE_PRICE_UNVERIFIED",
+        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
+        "BWF_KICKOFF_DATE_ONLY"
+      ],
+      "status": "UNVERIFIED_SHADOW_ONLY",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "players": [
+        "Gemke Rasmus",
+        "Ditlev Jaeger Holm"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 8,
+      "listed_day_paris": "2026-10-29",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5273:1560226",
+      "players": [
+        "Julien CARRAGGI",
+        "Toma Junior POPOV"
+      ],
+      "prematch_timing_status": "KICKOFF_DATE_ONLY",
+      "kickoff_source_verified": false,
+      "external_schedule_status": "NO_EXTERNAL_SCHEDULE",
+      "external_scheduled_start_utc": null,
+      "external_schedule_source": null,
+      "external_schedule_source_url": null,
+      "kickoff_evidence_status": "SOURCE_MISSING",
+      "kickoff_source": null,
+      "kickoff_source_url": null,
+      "observed_at_utc": "2026-10-29T10:00:27+00:00",
+      "model_asof_utc": "2026-10-29T09:58:55+00:00",
+      "model_age_seconds": 92,
+      "model_probability_a": 0.1060719,
+      "bookmaker_player_order_reversed": false,
+      "odds": [
+        6.5,
+        1.01
+      ],
+      "market_overround_pct": 14.39,
+      "market_implied_probability_raw": [
+        0.153846,
+        0.990099
+      ],
+      "market_implied_probability_normalized": [
+        0.134487,
+        0.865513
+      ],
+      "quote_listed_day_paris": "2026-10-29",
+      "quote_day_basis": "PUBLISHED_CALENDAR_DATE",
+      "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
+      "bookmaker_price_updated_at_utc": null,
+      "actual_kickoff_at_utc": null,
+      "observation_before_listed_calendar_day": false,
+      "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
+      "illustrative_ev_pct": [
+        -31.05,
+        -9.71
+      ],
+      "flags": [
+        "MARKET_DETAIL_UNVERIFIED",
+        "KICKOFF_UNVERIFIED",
+        "EXECUTABLE_PRICE_UNVERIFIED",
+        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
+        "BWF_KICKOFF_DATE_ONLY"
+      ],
+      "status": "UNVERIFIED_SHADOW_ONLY",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "players": [
+        "Aria Dinata",
+        "Koljonen Kalle"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 8,
+      "listed_day_paris": "2026-10-29",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "players": [
+        "Arnaud Merkle",
+        "Yu Jen Chi"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 8,
+      "listed_day_paris": "2026-10-29",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5273:1560365",
+      "players": [
+        "Kiran GEORGE",
+        "Lakshya SEN"
+      ],
+      "prematch_timing_status": "KICKOFF_DATE_ONLY",
+      "kickoff_source_verified": false,
+      "external_schedule_status": "NO_EXTERNAL_SCHEDULE",
+      "external_scheduled_start_utc": null,
+      "external_schedule_source": null,
+      "external_schedule_source_url": null,
+      "kickoff_evidence_status": "SOURCE_MISSING",
+      "kickoff_source": null,
+      "kickoff_source_url": null,
+      "observed_at_utc": "2026-10-29T10:00:27+00:00",
+      "model_asof_utc": "2026-10-29T09:58:55+00:00",
+      "model_age_seconds": 92,
+      "model_probability_a": 0.20064476,
+      "bookmaker_player_order_reversed": false,
+      "odds": [
+        4.8,
+        1.05
+      ],
+      "market_overround_pct": 16.07,
+      "market_implied_probability_raw": [
+        0.208333,
+        0.952381
+      ],
+      "market_implied_probability_normalized": [
+        0.179487,
+        0.820513
+      ],
+      "quote_listed_day_paris": "2026-10-29",
+      "quote_day_basis": "PUBLISHED_CALENDAR_DATE",
+      "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
+      "bookmaker_price_updated_at_utc": null,
+      "actual_kickoff_at_utc": null,
+      "observation_before_listed_calendar_day": false,
+      "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
+      "illustrative_ev_pct": [
+        -3.69,
+        -16.07
+      ],
+      "flags": [
+        "MARKET_DETAIL_UNVERIFIED",
+        "KICKOFF_UNVERIFIED",
+        "EXECUTABLE_PRICE_UNVERIFIED",
+        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
+        "BWF_KICKOFF_DATE_ONLY"
+      ],
+      "status": "UNVERIFIED_SHADOW_ONLY",
+      "decision": "NO_BET"
+    }
+  ]
+}

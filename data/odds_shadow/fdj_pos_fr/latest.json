@@ -1,11 +1,11 @@
 {
   "body_sha256": "696124900c4e72e1912b03aa74ec620b7cd07478dba7a6528c6d17cbcbd1a40b",
   "bookmaker_price_updated_at": null,
-  "cache_age_seconds": null,
-  "finished_at_utc": "2026-10-29T09:57:27+00:00",
+  "cache_age_seconds": "139",
+  "finished_at_utc": "2026-10-29T09:59:43+00:00",
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-10-29T09:57:14+00:00",
+  "observed_at_utc": "2026-10-29T09:59:33+00:00",
   "operator": "Parions Sport Point de Vente (FDJ)",
   "operator_kind": "RETAIL_NOT_ONLINE",
   "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
@@ -165,10 +165,10 @@
     }
   ],
   "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
-  "retail_page_cached": false,
+  "retail_page_cached": true,
   "retail_pages_audited": [
     {
-      "cache_age_seconds": null,
+      "cache_age_seconds": "137",
       "http_status": 200,
       "quotes": 7,
       "status": "retail face-à-face rows",
@@ -178,10 +178,10 @@
   "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Thu, 29 Oct 2026 09:57:16 GMT",
+  "server_date": "Thu, 29 Oct 2026 09:59:33 GMT",
   "source_key": "fdj_pos_fr",
   "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
-  "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
+  "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
   "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nSerie A\nEFL Cup\nCpe Ligue Port.\nL1 McDonald's\nLigue 2 BKT\nLaLiga\nPremier League\n+\nAfficher plus\nTennis\nToutes les compétitions\nBale\nVienne\nTokyo\nGuangzhou\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nD1 France (H)\nEurope Cup\nLiga ACB\nSerie A\nBBL\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBoxe\nFormule 1\nGolf\nMMA\nNascar\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nAujourd'hui\nYe/Chan-Garcia/Rodrigu\nHylo Open DM\n\nN°8885 Face à Face I Fin de valid. 29/10 10h55\n\nAfficher\nYe/Chan\n1,28\nGarcia/Rodrigu\n2,50\n94%\n5%\nK.Naraoka-ZJ.Lee\nHylo Open H\n\nN°19648 Face à Face I Fin de valid. 29/10 10h55\n\nAfficher\nK.Naraoka\n1,52\nZJ.Lee\n1,92\n16%\n83%\nHemmin/Leeuwen-Kolding/Werge\nHylo Open DM\n\nN°9489 Face à Face I Fin de valid. 29/10 10h55\n\nAfficher\nHemmin/Leeuwen\n1,28\nKolding/Werge\n2,50\n17%\n82%\nA.Antonsen-A.Dwicahyo\nHylo Open H\n\nN°19647 Face à Face I Fin de valid. 29/10 11h1",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }

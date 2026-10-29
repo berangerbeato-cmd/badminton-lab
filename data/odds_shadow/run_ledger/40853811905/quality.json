@@ -1,0 +1,106 @@
+{
+  "generated_at_utc": "2026-10-29T10:00:38+00:00",
+  "comparison_generated_at_utc": "2026-10-29T10:00:37+00:00",
+  "policy": "RESEARCH_ONLY_NO_BET",
+  "comparison_count": 7,
+  "status_counts": {
+    "BLOCKED_UNVERIFIED": 7
+  },
+  "reason_counts": {
+    "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN": 4,
+    "EXECUTABLE_PRICE_UNVERIFIED": 4,
+    "KICKOFF_UNVERIFIED": 4,
+    "MARKET_DETAIL_UNVERIFIED": 4,
+    "EV_MISSING_OR_INVALID": 3,
+    "MATCH_ID_MISSING": 3,
+    "MODEL_AGE_UNKNOWN": 3,
+    "UNEXPECTED_SOURCE_STATUS": 3
+  },
+  "rows": [
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5273:1560355",
+      "player_a": "Anders ANTONSEN",
+      "player_b": "Ade Resky DWICAHYO",
+      "model_age_minutes": 1.5,
+      "ev_a_pct": -2.2,
+      "ev_b_pct": -70.74,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5273:1560225",
+      "player_a": "Jonatan CHRISTIE",
+      "player_b": "Minoru KOGA",
+      "model_age_minutes": 1.5,
+      "ev_a_pct": -11.71,
+      "ev_b_pct": -23.15,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "",
+      "player_a": "Gemke Rasmus",
+      "player_b": "Ditlev Jaeger Holm",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5273:1560226",
+      "player_a": "Julien CARRAGGI",
+      "player_b": "Toma Junior POPOV",
+      "model_age_minutes": 1.5,
+      "ev_a_pct": -31.05,
+      "ev_b_pct": -9.71,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "",
+      "player_a": "Aria Dinata",
+      "player_b": "Koljonen Kalle",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "",
+      "player_a": "Arnaud Merkle",
+      "player_b": "Yu Jen Chi",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5273:1560365",
+      "player_a": "Kiran GEORGE",
+      "player_b": "Lakshya SEN",
+      "model_age_minutes": 1.5,
+      "ev_a_pct": -3.69,
+      "ev_b_pct": -16.07,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED",
+      "decision": "NO_BET"
+    }
+  ],
+  "note": "Quality audit only; never confirms a market or executable price."
+}
