@@ -8,8 +8,17 @@
       "5273:1560355",
       "5273:1560365"
     ],
-    "unmatched_observation_count": 3,
+    "unmatched_observation_count": 4,
     "unmatched_observations": [
+      {
+        "source": "netbet_quotes",
+        "players": [
+          "Hemming-Van Leeuwen",
+          "Kolding-Werge"
+        ],
+        "status": "FIXTURE_ABSENT_FROM_MODEL",
+        "listed_day_paris": "2026-10-29"
+      },
       {
         "source": "netbet_quotes",
         "players": [
@@ -46,20 +55,20 @@
       "KICKOFF_DATE_ONLY": 5
     },
     "model_fixture_count": 8,
-    "public_quote_count": 8,
-    "comparison_count": 8,
+    "public_quote_count": 9,
+    "comparison_count": 9,
     "status_counts": {
-      "UNVERIFIED_SHADOW_ONLY": 5,
-      "FIXTURE_ABSENT_FROM_MODEL": 3
+      "FIXTURE_ABSENT_FROM_MODEL": 4,
+      "UNVERIFIED_SHADOW_ONLY": 5
     },
     "verified_prematch_count": 0,
     "validated_roi_pct": null,
     "missing_kickoff_count": 5,
     "missing_executable_price_count": 5
   },
-  "generated_at_utc": "2026-10-29T06:47:45+00:00",
+  "generated_at_utc": "2026-10-29T07:03:40+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
-  "comparison_count": 8,
+  "comparison_count": 9,
   "rejected_sources": [],
   "source_audit": {
     "unibet_fr": {
@@ -71,11 +80,23 @@
     "netbet_quotes": {
       "status": "FRESH_SNAPSHOT",
       "snapshot_file": "data/odds_shadow/netbet_quotes/latest.json",
-      "quotes_read": 8,
+      "quotes_read": 9,
       "collector_status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
     }
   },
   "results": [
+    {
+      "source": "netbet_quotes",
+      "players": [
+        "Hemming-Van Leeuwen",
+        "Kolding-Werge"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 8,
+      "listed_day_paris": "2026-10-29",
+      "decision": "NO_BET"
+    },
     {
       "source": "netbet_quotes",
       "bwf_match_id": "5273:1560224",
@@ -92,23 +113,23 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-29T06:47:35+00:00",
-      "model_asof_utc": "2026-10-29T06:45:44+00:00",
-      "model_age_seconds": 111,
+      "observed_at_utc": "2026-10-29T07:03:32+00:00",
+      "model_asof_utc": "2026-10-29T07:02:11+00:00",
+      "model_age_seconds": 81,
       "model_probability_a": 0.7406396,
       "bookmaker_player_order_reversed": false,
       "odds": [
-        1.37,
-        2.32
+        1.43,
+        2.15
       ],
-      "market_overround_pct": 16.1,
+      "market_overround_pct": 16.44,
       "market_implied_probability_raw": [
-        0.729927,
-        0.431034
+        0.699301,
+        0.465116
       ],
       "market_implied_probability_normalized": [
-        0.628726,
-        0.371274
+        0.600559,
+        0.399441
       ],
       "quote_listed_day_paris": "2026-10-29",
       "quote_day_basis": "PUBLISHED_CALENDAR_DATE",
@@ -118,8 +139,8 @@
       "observation_before_listed_calendar_day": false,
       "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
       "illustrative_ev_pct": [
-        1.47,
-        -39.83
+        5.91,
+        -44.24
       ],
       "flags": [
         "MARKET_DETAIL_UNVERIFIED",
@@ -147,9 +168,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-29T06:47:35+00:00",
-      "model_asof_utc": "2026-10-29T06:45:44+00:00",
-      "model_age_seconds": 111,
+      "observed_at_utc": "2026-10-29T07:03:32+00:00",
+      "model_asof_utc": "2026-10-29T07:02:11+00:00",
+      "model_age_seconds": 81,
       "model_probability_a": 0.96836567,
       "bookmaker_player_order_reversed": false,
       "odds": [
@@ -202,9 +223,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-29T06:47:35+00:00",
-      "model_asof_utc": "2026-10-29T06:45:44+00:00",
-      "model_age_seconds": 111,
+      "observed_at_utc": "2026-10-29T07:03:32+00:00",
+      "model_asof_utc": "2026-10-29T07:02:11+00:00",
+      "model_age_seconds": 81,
       "model_probability_a": 0.83292921,
       "bookmaker_player_order_reversed": false,
       "odds": [
@@ -269,9 +290,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-29T06:47:35+00:00",
-      "model_asof_utc": "2026-10-29T06:45:44+00:00",
-      "model_age_seconds": 111,
+      "observed_at_utc": "2026-10-29T07:03:32+00:00",
+      "model_asof_utc": "2026-10-29T07:02:11+00:00",
+      "model_age_seconds": 81,
       "model_probability_a": 0.1060719,
       "bookmaker_player_order_reversed": false,
       "odds": [
@@ -336,9 +357,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-10-29T06:47:35+00:00",
-      "model_asof_utc": "2026-10-29T06:45:44+00:00",
-      "model_age_seconds": 111,
+      "observed_at_utc": "2026-10-29T07:03:32+00:00",
+      "model_asof_utc": "2026-10-29T07:02:11+00:00",
+      "model_age_seconds": 81,
       "model_probability_a": 0.20064476,
       "bookmaker_player_order_reversed": false,
       "odds": [
