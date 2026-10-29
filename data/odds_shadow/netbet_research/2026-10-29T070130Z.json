@@ -1,0 +1,22 @@
+{
+  "observed_at_utc": "2026-10-29T07:01:30+00:00",
+  "source": "https://www.netbet.fr/badminton",
+  "operator": "NetBet.fr",
+  "status": "EVENT_LIST_UNDETERMINED_NEEDS_PARSER_AUDIT",
+  "quotes": [],
+  "policy": "PUBLIC_RESEARCH_ONLY_NO_BET_NO_INFERRED_PRICES",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "http_status": 200,
+  "resolved_url": "https://www.netbet.fr/badminton",
+  "cache_age_seconds": null,
+  "body_sha256": "07550ef77616da9527b4d6ccd919dda6b31b8bf2fc9bce92fadfe99d86a1b792",
+  "event_area_excerpt": "",
+  "explicit_no_events": false,
+  "public_badminton_links": [
+    "https://www.netbet.fr/badminton",
+    "https://www.netbet.fr/badminton/international/hylo-open-doubles-mixtes",
+    "https://www.netbet.fr/badminton/international/hylo-open",
+    "https://www.netbet.fr/badminton/international/hylo-open-doubles-f",
+    "https://www.netbet.fr/badminton/international/hylo-open-f"
+  ]
+}
