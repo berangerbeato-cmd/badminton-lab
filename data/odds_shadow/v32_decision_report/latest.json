@@ -1,22 +1,22 @@
 {
   "snapshot_age_hours": 0.0,
   "snapshot_freshness": "FRESH",
-  "generated_at_utc": "2026-10-29T09:25:31+00:00",
+  "generated_at_utc": "2026-10-29T09:47:03+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "model_fixtures": 8,
-  "public_quotes": 7,
-  "unique_matched_fixtures": 4,
-  "matched_bookmaker_observations": 4,
+  "public_quotes": 8,
+  "unique_matched_fixtures": 5,
+  "matched_bookmaker_observations": 5,
   "unmatched_observations": 3,
   "quotes_by_bookmaker": {
-    "netbet_quotes": 4
+    "netbet_quotes": 5
   },
   "blockers": {
-    "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN": 4,
-    "BWF_KICKOFF_DATE_ONLY": 4,
-    "EXECUTABLE_PRICE_UNVERIFIED": 4,
-    "KICKOFF_UNVERIFIED": 4,
-    "MARKET_DETAIL_UNVERIFIED": 4
+    "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN": 5,
+    "BWF_KICKOFF_DATE_ONLY": 5,
+    "EXECUTABLE_PRICE_UNVERIFIED": 5,
+    "KICKOFF_UNVERIFIED": 5,
+    "MARKET_DETAIL_UNVERIFIED": 5
   },
   "verified_prematch_opportunities": 0,
   "validated_roi_pct": null,
