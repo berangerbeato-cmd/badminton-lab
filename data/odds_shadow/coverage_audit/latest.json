@@ -48,7 +48,7 @@
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 1
   },
-  "generated_at_utc": "2026-10-29T07:03:41.897448+00:00",
+  "generated_at_utc": "2026-10-29T07:39:53.133799+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 8,
@@ -122,8 +122,8 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T07:02:35+00:00",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-10-29T08:02:34.751719+01:00",
+      "observed_at_utc": "2026-10-29T07:38:36+00:00",
+      "parser_notes": "parsed; page_parsed_entries=39; by_discipline_and_status=DF:OBSERVED_DATE_UNVERIFIED=8,DH:OBSERVED_DATE_UNVERIFIED=8,DM:OBSERVED_DATE_UNVERIFIED=8,F:OBSERVED_DATE_UNVERIFIED=7,H:OBSERVED_DATE_UNVERIFIED=8; eligible_MS_H2H=0; local_now=2026-10-29T08:38:35.855138+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
@@ -131,7 +131,7 @@
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
       "quote_count": 9,
-      "observed_at_utc": "2026-10-29T07:03:32+00:00",
+      "observed_at_utc": "2026-10-29T07:39:40+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 2,
@@ -144,16 +144,16 @@
               "Astrup-Rasmussen",
               "1.25"
             ],
-            "market_line": 134,
+            "market_line": 132,
             "preceding_lines": [
               "10:25",
               "Kodai Naraoka",
               "Lee Zii Jia",
               "Qui va gagner le match ?",
               "Kodai Naraoka",
-              "1.43",
+              "1.45",
               "Lee Zii Jia",
-              "2.15",
+              "2.10",
               "+ 23",
               "Hylo Open, Doubles",
               "jeu. 29 oct.",
@@ -170,7 +170,7 @@
               "Stoeva-Stoeva",
               "1.01"
             ],
-            "market_line": 151,
+            "market_line": 149,
             "preceding_lines": [
               "Astrup-Rasmussen",
               "1.25",
@@ -183,7 +183,7 @@
               "(41)",
               "À Venir",
               "Hylo Open, Doubles (F)",
-              "LIVE dans 56 min",
+              "LIVE dans 20 min",
               "Buhrova-Kantemyr",
               "Stoeva-Stoeva"
             ],
@@ -196,10 +196,10 @@
               "Unnati Hooda",
               "1.06"
             ],
-            "market_line": 161,
+            "market_line": 159,
             "preceding_lines": [
               "Hylo Open, Doubles (F)",
-              "LIVE dans 56 min",
+              "LIVE dans 20 min",
               "Buhrova-Kantemyr",
               "Stoeva-Stoeva",
               "Qui va gagner le match ?",
@@ -209,7 +209,7 @@
               "1.01",
               "+ 16",
               "Hylo Open (F)",
-              "LIVE dans 56 min",
+              "LIVE dans 20 min",
               "Frederikke Ostergaard",
               "Unnati Hooda"
             ],
@@ -222,10 +222,10 @@
               "Kolding-Werge",
               "2.72"
             ],
-            "market_line": 171,
+            "market_line": 169,
             "preceding_lines": [
               "Hylo Open (F)",
-              "LIVE dans 56 min",
+              "LIVE dans 20 min",
               "Frederikke Ostergaard",
               "Unnati Hooda",
               "Qui va gagner le match ?",
@@ -235,7 +235,7 @@
               "1.06",
               "+ 24",
               "Hylo Open, Doubles Mixtes",
-              "LIVE dans 56 min",
+              "LIVE dans 20 min",
               "Hemming-Van Leeuwen",
               "Kolding-Werge"
             ],
@@ -248,10 +248,10 @@
               "Chang-Yang",
               "8.00"
             ],
-            "market_line": 181,
+            "market_line": 179,
             "preceding_lines": [
               "Hylo Open, Doubles Mixtes",
-              "LIVE dans 56 min",
+              "LIVE dans 20 min",
               "Hemming-Van Leeuwen",
               "Kolding-Werge",
               "Qui va gagner le match ?",
@@ -261,7 +261,7 @@
               "2.72",
               "+ 19",
               "Hylo Open, Doubles (F)",
-              "LIVE dans 56 min",
+              "LIVE dans 20 min",
               "Kusuma-Puspitasari",
               "Chang-Yang"
             ],
@@ -274,10 +274,10 @@
               "Seidel-Nguyen",
               "1.01"
             ],
-            "market_line": 191,
+            "market_line": 189,
             "preceding_lines": [
               "Hylo Open, Doubles (F)",
-              "LIVE dans 56 min",
+              "LIVE dans 20 min",
               "Kusuma-Puspitasari",
               "Chang-Yang",
               "Qui va gagner le match ?",
@@ -287,7 +287,7 @@
               "8.00",
               "+ 17",
               "Hylo Open, Doubles Mixtes",
-              "LIVE dans 56 min",
+              "LIVE dans 20 min",
               "Nielsen- Espersen",
               "Seidel-Nguyen"
             ],
@@ -308,7 +308,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T07:02:54+00:00",
+      "observed_at_utc": "2026-10-29T07:38:58+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -317,7 +317,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T07:03:09+00:00",
+      "observed_at_utc": "2026-10-29T07:39:16+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -326,16 +326,16 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T07:02:42+00:00",
+      "observed_at_utc": "2026-10-29T07:38:44+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE"
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
+      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quote_count": 8,
-      "observed_at_utc": "2026-10-29T07:02:44+00:00",
+      "observed_at_utc": "2026-10-29T07:38:45+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -344,7 +344,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T07:02:55+00:00",
+      "observed_at_utc": "2026-10-29T07:38:59+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -353,7 +353,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T07:03:04+00:00",
+      "observed_at_utc": "2026-10-29T07:39:11+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -362,7 +362,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T07:03:14+00:00",
+      "observed_at_utc": "2026-10-29T07:39:20+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -371,7 +371,7 @@
     "oddspedia_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T07:03:10+00:00",
+      "observed_at_utc": "2026-10-29T07:39:17+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -380,7 +380,7 @@
     "oddsportal_badminton": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-10-29T07:03:30+00:00",
+      "observed_at_utc": "2026-10-29T07:39:39+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
