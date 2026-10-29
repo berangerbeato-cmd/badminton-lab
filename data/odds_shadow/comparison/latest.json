@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-29T07:29:39+00:00",
+  "generated_at_utc": "2026-10-29T07:43:32+00:00",
   "match_count": 8,
   "matches": [
     {
@@ -15,8 +15,8 @@
       "players": [
         {
           "best_historical_observation": {
-            "decimal_odds": 1.43,
-            "ev_pct": 0.39,
+            "decimal_odds": 1.45,
+            "ev_pct": 1.79,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -25,13 +25,13 @@
           "model_probability": 0.70199773,
           "name": "Kodai NARAOKA",
           "observed_odds": {
-            "NetBet.fr": 1.43
+            "NetBet.fr": 1.45
           }
         },
         {
           "best_historical_observation": {
-            "decimal_odds": 2.12,
-            "ev_pct": -36.82,
+            "decimal_odds": 2.1,
+            "ev_pct": -37.42,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -40,16 +40,16 @@
           "model_probability": 0.29800227,
           "name": "LEE Zii Jia",
           "observed_odds": {
-            "NetBet.fr": 2.12
+            "NetBet.fr": 2.1
           }
         }
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 27,
+          "age_seconds": 233,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T07:29:12+00:00",
+          "observed_at_utc": "2026-10-29T07:39:40+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -106,10 +106,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 27,
+          "age_seconds": 233,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T07:29:12+00:00",
+          "observed_at_utc": "2026-10-29T07:39:40+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -166,10 +166,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 27,
+          "age_seconds": 233,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T07:29:12+00:00",
+          "observed_at_utc": "2026-10-29T07:39:40+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -226,10 +226,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 27,
+          "age_seconds": 233,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T07:29:12+00:00",
+          "observed_at_utc": "2026-10-29T07:39:40+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -286,10 +286,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 27,
+          "age_seconds": 233,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T07:29:12+00:00",
+          "observed_at_utc": "2026-10-29T07:39:40+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -346,10 +346,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 27,
+          "age_seconds": 233,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T07:29:12+00:00",
+          "observed_at_utc": "2026-10-29T07:39:40+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -406,10 +406,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 27,
+          "age_seconds": 233,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T07:29:12+00:00",
+          "observed_at_utc": "2026-10-29T07:39:40+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -466,10 +466,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 27,
+          "age_seconds": 233,
           "current": true,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
-          "observed_at_utc": "2026-10-29T07:29:12+00:00",
+          "observed_at_utc": "2026-10-29T07:39:40+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -495,7 +495,7 @@
   "schema_version": "badminton_shadow_comparator_v2.1",
   "sources": {
     "NetBet.fr": {
-      "observation_utc": "2026-10-29T07:29:12+00:00",
+      "observation_utc": "2026-10-29T07:39:40+00:00",
       "operator": "NetBet.fr",
       "rejected": [],
       "rows_current": 8,
