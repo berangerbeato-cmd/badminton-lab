@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-30T09:33:21+00:00",
+  "generated_at_utc": "2026-10-30T10:29:40+00:00",
   "match_count": 7,
   "matches": [
     {
@@ -46,7 +46,7 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 83362,
+          "age_seconds": 86741,
           "current": false,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
           "observed_at_utc": "2026-10-29T10:23:59+00:00",
@@ -106,7 +106,7 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 83362,
+          "age_seconds": 86741,
           "current": false,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
           "observed_at_utc": "2026-10-29T10:23:59+00:00",
@@ -166,7 +166,7 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 83362,
+          "age_seconds": 86741,
           "current": false,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
           "observed_at_utc": "2026-10-29T10:23:59+00:00",
@@ -226,7 +226,7 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 83362,
+          "age_seconds": 86741,
           "current": false,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
           "observed_at_utc": "2026-10-29T10:23:59+00:00",
@@ -286,7 +286,7 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 83362,
+          "age_seconds": 86741,
           "current": false,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
           "observed_at_utc": "2026-10-29T10:23:59+00:00",
@@ -346,7 +346,7 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 83362,
+          "age_seconds": 86741,
           "current": false,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
           "observed_at_utc": "2026-10-29T10:23:59+00:00",
@@ -406,7 +406,7 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 83362,
+          "age_seconds": 86741,
           "current": false,
           "model_snapshot_sha256": "6c5a8cc9cff001273bc7d1728d4a1ce8b3b27625b9440c09254ea1eaa6e970c2",
           "observed_at_utc": "2026-10-29T10:23:59+00:00",
