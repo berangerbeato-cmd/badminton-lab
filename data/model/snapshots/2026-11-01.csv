@@ -1,0 +1,2 @@
+bwf_match_id,start_utc,tournament,round,player_a_id,player_a,player_b_id,player_b,elo_a_asof,elo_b_asof,raw_p_a,calibrated_p_a,fair_odds_a,fair_odds_b,k,slope,intercept,asof_utc,model,cold_start,status,source
+5273:1560336,2026-11-01T00:00:00+00:00,HYLO Open 2026,Final,73442,Jonatan CHRISTIE,68870,Lakshya SEN,1964.4,1897.75,0.59474864,0.58678152,1.7042,2.42,48,1.05498189,-0.054048,2026-11-01T05:48:12+00:00,bwf_elo_ms_platt_v1,0,DATE_ONLY_START_UNVERIFIED_NO_BET,https://github.com/berangerbeato-cmd/badminton-lab/tree/main/data/bwf
