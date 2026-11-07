@@ -27,7 +27,7 @@
     "https://www.netbet.fr/badminton/international/open-de-coree-doubles-mixtes",
     "https://www.netbet.fr/badminton/international/open-de-coree"
   ],
-  "index_body_sha256": "9042d5f4f15faaa6f41e4290337793291098c4590a464049e92f62335027f4f6",
+  "index_body_sha256": "6d631dda9ab4e614816570aa0c68162c35ff94a8df07a14eabeb98200e8d9285",
   "index_eligible_quotes": 1,
   "index_http_status": 200,
   "index_link_count": 112,
@@ -163,12 +163,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-11-07.csv",
   "model_snapshot_sha256": "2b5f54b746d9b77727948d73dc05b8362f9be47c258b6f36dd524d2e243d71f9",
-  "observed_at_utc": "2026-11-07T13:21:27+00:00",
+  "observed_at_utc": "2026-11-07T13:29:53+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "b39c9d8dd3d096b25f25dd4e6e6ac0476202b41399a7c72c88a414514d77b374",
+      "body_sha256": "3074ab99e48a3e64e8d1590586d638bb35a2d5ceccc599dc9e945e4f0eba56ad",
       "cache_age_seconds": null,
       "eligible_listing_rows": 0,
       "http_status": 200,

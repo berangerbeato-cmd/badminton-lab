@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-07T13:07:06+00:00",
+  "observed_at_utc": "2026-11-07T13:28:51+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 1,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-07T14:07:06.648522+01:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-07T14:28:51.293189+01:00",
       "error": null,
-      "cache_age_seconds": "20",
-      "body_sha256": "4066d6dd67b4f2c6012c37c6c725b12c14fe15d2a5e3e411b2c01da0cfa8f8c7",
+      "cache_age_seconds": null,
+      "body_sha256": "1127a688783fc901534e75f1e39d5f2e62220e1d6f2e03f057d515839ee91b4d",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -39,7 +39,7 @@
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "062932f888047cc61cd54887d37589449b5a7ae2ffdd94242e712ac618dc9a2b",
+      "body_sha256": "322b296c2268e0b9ce5c0f5a973ed5f55d20d85ec6a872759f9f738f0117f45f",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "80ae4d5c37c43b08a902e8667fe7bc651c557653c0395dda2aadf5402d282016",
+      "body_sha256": "6d631dda9ab4e614816570aa0c68162c35ff94a8df07a14eabeb98200e8d9285",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "61663b04519b968fa41a31ae9f620dd0b5151e12ebd054454ac43551b633bacd",
+      "body_sha256": "c94c465877bd2816b50a43f2998b421181d9c09435a74922fdd89d569b551595",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "b62b6744e55db75d98bfc2c56a1d0b3c0b979538e81602eca2ddd65512ee9ae6",
+      "body_sha256": "a94f3a23b11afe91f2f14dd700b77dfae442468ea8e4cd9b1c0630678b0a83d4",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "034816182cd40119de26a08e124736028358c53d8a4f3e8a258c5732a1120830",
+      "body_sha256": "4709bde3341421f2068a04616ad5afbc41cc3b8e7467c4fe5dc34eb252a7bc6d",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,7 +142,7 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "0",
+      "cache_age_seconds": "11",
       "body_sha256": "eeb312ea3a82f78d2832a8e38870732e5a4d37fdbb7c902b6171bfe8ae83a161",
       "flashscore_discovery": {
         "index_match_links": [
@@ -171,11 +171,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/gunawan-jason-WWduvmf6/lai-victor-rVr83nk2/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "1cd0068212ac42b1982a976f10e46c9f12bcab283969c750a8f228e9e94d4ee6",
+        "body_sha256": "f8d6449f14047f0d9dbc5865f6108aba0d5191dbf423b6ff1db6bec24c7dd174",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Jason Gunawan - Victor Lai (08/11/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - HOMMESOPEN DE CORÉE - FINALE\nNouvelle fenêtre\n08.11.2026 05:30\nGunawan J.\nBWF\n: 22.\n-\nLai V.\nBWF\n: 6.\n-\n08.11.2026 05:30\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n3.50\n1.28\nFAIRE UN PARI\n-\n-\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA). T&C apply.\nINFORMATIONS DE MATCH\nSTADE:\nJinnam Gymnasium\n (Yeosu)\nFORME\nGunawan J.\n?\nV\nV\nV\nV\nD\nLai V.\n?\nV\nV\n",
+        "text_excerpt_for_debug": "Jason Gunawan - Victor Lai (08/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESOPEN DE CORÉE - FINALE\nNouvelle fenêtre\n08.11.2026 05:30\nGunawan J.\nBWF\n: 22.\n-\nLai V.\nBWF\n: 6.\n-\n08.11.2026 05:30\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n3.50\n1.28\nFAIRE UN PARI\nVoir plus\nOFFRES BONUS\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nINFORMATIONS DE MATCH\nSTADE:\nJinnam Gymnasium\n (Yeosu)\nFORME\nGunawan J.\n?\nV\nV\nV\nV\nD\nLai V.\n?\nV\nV\nV\nV\nD\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Kaohsiung Masters Hommes\nBWF WT Open de Corée Hommes\nBWF WT Open de Corée Femmes\nBWF WT Kumamoto Masters Doubles Hommes\nBWF WT Open de Corée Doubles Hommes\nBWF WT Kumamoto Masters Doubles Femmes\nBWF WT Open de Corée Doubles Femmes\nBWF WT Open de Corée Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 6219,
+        "body_characters": 5223,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -187,21 +187,11 @@
           "HOME/AWAY",
           "1",
           "2",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
           "3.50",
           "1.28",
-          "FAIRE UN PARI",
-          "-",
-          "-"
+          "FAIRE UN PARI"
         ],
-        "odds_section_dash_count": 10,
+        "odds_section_dash_count": 0,
         "odds_section_decimal_prices": [
           "3.50",
           "1.28"
@@ -220,7 +210,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "791e11ea63d931ceba7f1eb6f1518058798e9064eca92f49bd79d9acd38abb69",
+      "body_sha256": "f8e598c0422542bb16bc7812ec3b6c8053a28f2557703827d2ac58c3145df530",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }

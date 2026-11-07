@@ -1,0 +1,59 @@
+{
+  "body_sha256": "322b296c2268e0b9ce5c0f5a973ed5f55d20d85ec6a872759f9f738f0117f45f",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-11-07T13:29:09+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-11-07T13:28:59+00:00",
+  "operator": "Parions Sport Point de Vente (FDJ)",
+  "operator_kind": "RETAIL_NOT_ONLINE",
+  "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
+  "public_badminton_event_links": [
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/open-coree-df/49716",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/open-coree-dh/49714",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/open-coree-dm/49715",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/open-de-coree-f/49713",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/open-de-coree-h/49712",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/open-coree-dm/49715/match_jiangwei_gaowu/1322623",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/open-coree-df/49716/match_hirokhobar_kimlee/1322625",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/open-de-coree-f/49713/match_syan_ayamaguchi/1322624",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/open-de-coree-h/49712/match_jgunawan_vlai/1322734",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/open-coree-dh/49714/match_kimseo_hokikobayas/1322733"
+  ],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/fdj_pos_fr.png",
+  "quotes": [
+    {
+      "discipline": "MS",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+      "odds_1": 2.75,
+      "odds_2": 1.19,
+      "player_1_display": "J.Gunawan",
+      "player_2_display": "V.Lai",
+      "retail_competition_display": "Open de Corée H",
+      "retail_event_display": "J.Gunawan-V.Lai",
+      "valid_until_paris": "2026-11-08T04:10+01:00"
+    }
+  ],
+  "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "retail_page_cached": false,
+  "retail_pages_audited": [
+    {
+      "cache_age_seconds": null,
+      "http_status": 200,
+      "quotes": 1,
+      "status": "retail face-à-face rows",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/open-de-coree-h/49712"
+    }
+  ],
+  "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Sat, 07 Nov 2026 13:29:01 GMT",
+  "source_key": "fdj_pos_fr",
+  "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nL1 McDonald's\nLigue 2 BKT\nPremier League\nLaLiga\nSerie A\nBundesliga 1\nLDN\n+\nAfficher plus\nTennis\nToutes les compétitions\nOpen de Paris\nChennai\nWTA Finals\nOpen Paris DH\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nD1 France (H)\nD2 France (H)\nLFB\nTBSL\nLiga ACB\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBaseball\nBoxe\nFormule 1\nGolf\nMMA\nNascar\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\ndimanche 8 novembre\nJiang/Wei-Gao/Wu\nOpen Corée DM\n\nN°15885 Face à Face I Fin de valid. 08/11 02h55\n\nAfficher\nJiang/Wei\n1,16\nGao/Wu\n3,00\n96%\n3%\nHirok/Hobar-Kim/Lee\nOpen Corée DF\n\nN°16248 Face à Face I Fin de valid. 08/11 03h20\n\nAfficher\nHirok/Hobar\n1,93\nKim/Lee\n1,47\n97%\n2%\nSY.An-A.Yamaguchi\nOpen de Corée F\n\nN°15888 Face à Face I Fin de valid. 08/11 03h45\n\nAfficher\nSY.An\n1,07\nA.Yamaguchi\n3,85\n70%\n29%\nJ.Gunawan-V.Lai\nOpen de Corée H\n\nN°17596 Face à Face I Fin de valid. 08/11 04h10\n\nAfficher\nJ.Gunawan\n2,75\nV.Lai\n1,19\n0%",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}

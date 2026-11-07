@@ -1,0 +1,241 @@
+{
+  "bookmaker_price_updated_at": null,
+  "candidate_count": 1,
+  "candidate_urls": [
+    "https://www.netbet.fr/badminton/international/open-de-coree"
+  ],
+  "elo_comparisons": [],
+  "fixture_join_audit": [
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-08",
+      "model_rows_same_day": 1,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Jason Gunawan",
+        "Victor Lai"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    }
+  ],
+  "index_badminton_link_count": 5,
+  "index_badminton_link_examples": [
+    "https://www.netbet.fr/badminton",
+    "https://www.netbet.fr/badminton/international/open-de-coree-doubles-f",
+    "https://www.netbet.fr/badminton/international/open-de-coree-f",
+    "https://www.netbet.fr/badminton/international/open-de-coree-doubles-mixtes",
+    "https://www.netbet.fr/badminton/international/open-de-coree"
+  ],
+  "index_body_sha256": "6d631dda9ab4e614816570aa0c68162c35ff94a8df07a14eabeb98200e8d9285",
+  "index_eligible_quotes": 1,
+  "index_http_status": 200,
+  "index_link_count": 112,
+  "index_link_path_counts": {
+    "": 9,
+    "badminton": 7,
+    "basketball": 2,
+    "cashout": 2,
+    "evenement": 25,
+    "football": 14,
+    "paris-en-direct": 5,
+    "promotions": 2,
+    "rugby": 2,
+    "ski-alpin": 2,
+    "tennis": 8,
+    "zendesk": 2
+  },
+  "index_market_audit": {
+    "eligible_listing_rows": 1,
+    "markets_seen": 5,
+    "rejection_evidence": [
+      {
+        "following_lines": [
+          "Hirokami-Hobara",
+          "2.05",
+          "Kim-Lee",
+          "1.48"
+        ],
+        "market_line": 115,
+        "preceding_lines": [
+          "Scores en direct",
+          "Format des cotes",
+          "Accueil",
+          "Badminton",
+          "Pariez sur",
+          "Badminton",
+          "À L'AFFICHE",
+          "TOUTE L'OFFRE BADMINTON",
+          "À Venir",
+          "Open de Corée, Doubles (F)",
+          "dim. 8 nov.",
+          "02:00",
+          "Hirokami-Hobara",
+          "Kim-Lee"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Se Young An",
+          "1.04",
+          "Akane Yamaguchi",
+          "5.10"
+        ],
+        "market_line": 126,
+        "preceding_lines": [
+          "02:00",
+          "Hirokami-Hobara",
+          "Kim-Lee",
+          "Qui va gagner le match ?",
+          "Hirokami-Hobara",
+          "2.05",
+          "Kim-Lee",
+          "1.48",
+          "+ 15",
+          "Open de Corée (F)",
+          "dim. 8 nov.",
+          "02:00",
+          "Se Young An",
+          "Akane Yamaguchi"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Jiang-Wei",
+          "1.13",
+          "Gao-Wu",
+          "3.60"
+        ],
+        "market_line": 137,
+        "preceding_lines": [
+          "02:00",
+          "Se Young An",
+          "Akane Yamaguchi",
+          "Qui va gagner le match ?",
+          "Se Young An",
+          "1.04",
+          "Akane Yamaguchi",
+          "5.10",
+          "+ 25",
+          "Open de Corée, Doubles Mixtes",
+          "dim. 8 nov.",
+          "03:00",
+          "Jiang-Wei",
+          "Gao-Wu"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Kim-Seo",
+          "1.06",
+          "Hoki-Kobayashi",
+          "4.60"
+        ],
+        "market_line": 159,
+        "preceding_lines": [
+          "04:15",
+          "Jason Gunawan",
+          "Victor Lai",
+          "Qui va gagner le match ?",
+          "Jason Gunawan",
+          "3.20",
+          "Victor Lai",
+          "1.18",
+          "+ 25",
+          "Open de Corée, Doubles",
+          "dim. 8 nov.",
+          "04:40",
+          "Kim-Seo",
+          "Hoki-Kobayashi"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      }
+    ],
+    "rejections": {
+      "NON_MS_COMPETITION": 4
+    }
+  },
+  "index_resolved_url": "https://www.netbet.fr/badminton",
+  "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
+  "index_url": "https://www.netbet.fr/badminton",
+  "model_snapshot": "data/model/snapshots/2026-11-07.csv",
+  "model_snapshot_sha256": "2b5f54b746d9b77727948d73dc05b8362f9be47c258b6f36dd524d2e243d71f9",
+  "observed_at_utc": "2026-11-07T13:29:53+00:00",
+  "operator": "NetBet.fr",
+  "page_audit_limit": 8,
+  "page_audits": [
+    {
+      "body_sha256": "3074ab99e48a3e64e8d1590586d638bb35a2d5ceccc599dc9e945e4f0eba56ad",
+      "cache_age_seconds": null,
+      "eligible_listing_rows": 0,
+      "http_status": 200,
+      "markets_seen": 1,
+      "rejection_evidence": [
+        {
+          "following_lines": [
+            "Jason Gunawan",
+            "3.20",
+            "Victor Lai",
+            "1.18"
+          ],
+          "market_line": 114,
+          "preceding_lines": [
+            "Règlement des paris",
+            "Scores en direct",
+            "Format des cotes",
+            "Accueil",
+            "Badminton",
+            "International - Open de Corée",
+            "Pariez sur",
+            "Open de Corée",
+            "À Venir",
+            "Open de Corée",
+            "dim. 8 nov.",
+            "04:15",
+            "Jason Gunawan",
+            "Victor Lai"
+          ],
+          "reason": "COMPETITION_NOT_ADJACENT_TO_DATE"
+        }
+      ],
+      "rejections": {
+        "COMPETITION_NOT_ADJACENT_TO_DATE": 1
+      },
+      "resolved_url": "https://www.netbet.fr/badminton/international/open-de-coree",
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "screenshot": "data/odds_shadow/visual_evidence/netbet_event_0.png",
+      "status": "NO_CONFIDENT_MS_H2H",
+      "url": "https://www.netbet.fr/badminton/international/open-de-coree"
+    }
+  ],
+  "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
+  "quotes": [
+    {
+      "bookmaker_overround_pct": 16.0,
+      "competition_display": "Open de Corée",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-11-08",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.269406,
+      "normalized_market_probability_2": 0.730594,
+      "odds_1": 3.2,
+      "odds_2": 1.18,
+      "player_1_display": "Jason Gunawan",
+      "player_2_display": "Victor Lai",
+      "raw_implied_probability_1": 0.3125,
+      "raw_implied_probability_2": 0.847458,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    }
+  ],
+  "reason_counts": {
+    "NO_UNIQUE_BWF_FIXTURE": 1
+  },
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+}
