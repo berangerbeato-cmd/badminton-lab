@@ -36,7 +36,8 @@ on:
       - '.github/workflows/global_fixture_coverage.yml'
 jobs:
   audit:
-    runs-on: ubuntu-latest
+    # Playwright 1.55 supports Ubuntu 24.04; do not follow runner OS upgrades.
+    runs-on: ubuntu-24.04
     permissions:
       contents: read
     steps:

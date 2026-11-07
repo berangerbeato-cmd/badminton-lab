@@ -17,7 +17,8 @@ concurrency:
   cancel-in-progress: false
 jobs:
   paper:
-    runs-on: ubuntu-latest
+    # Playwright 1.55 supports Ubuntu 24.04; do not follow runner OS upgrades.
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
         with:

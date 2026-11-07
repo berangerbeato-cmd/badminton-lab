@@ -39,7 +39,8 @@ concurrency:
 jobs:
   compare:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
-    runs-on: ubuntu-latest
+    # Playwright 1.55 supports Ubuntu 24.04; do not follow runner OS upgrades.
+    runs-on: ubuntu-24.04
     timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
