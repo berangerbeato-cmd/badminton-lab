@@ -27,10 +27,10 @@
     "https://www.netbet.fr/badminton/international/open-de-coree-doubles-mixtes",
     "https://www.netbet.fr/badminton/international/open-de-coree"
   ],
-  "index_body_sha256": "80ae4d5c37c43b08a902e8667fe7bc651c557653c0395dda2aadf5402d282016",
+  "index_body_sha256": "9042d5f4f15faaa6f41e4290337793291098c4590a464049e92f62335027f4f6",
   "index_eligible_quotes": 1,
   "index_http_status": 200,
-  "index_link_count": 116,
+  "index_link_count": 112,
   "index_link_path_counts": {
     "": 9,
     "badminton": 7,
@@ -42,7 +42,7 @@
     "promotions": 2,
     "rugby": 2,
     "ski-alpin": 2,
-    "tennis": 10,
+    "tennis": 8,
     "zendesk": 2
   },
   "index_market_audit": {
@@ -56,7 +56,7 @@
           "Kim-Lee",
           "1.48"
         ],
-        "market_line": 121,
+        "market_line": 115,
         "preceding_lines": [
           "Scores en direct",
           "Format des cotes",
@@ -82,7 +82,7 @@
           "Akane Yamaguchi",
           "5.10"
         ],
-        "market_line": 132,
+        "market_line": 126,
         "preceding_lines": [
           "02:00",
           "Hirokami-Hobara",
@@ -108,7 +108,7 @@
           "Gao-Wu",
           "3.60"
         ],
-        "market_line": 143,
+        "market_line": 137,
         "preceding_lines": [
           "02:00",
           "Se Young An",
@@ -134,7 +134,7 @@
           "Hoki-Kobayashi",
           "4.60"
         ],
-        "market_line": 165,
+        "market_line": 159,
         "preceding_lines": [
           "04:15",
           "Jason Gunawan",
@@ -163,12 +163,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-11-07.csv",
   "model_snapshot_sha256": "2b5f54b746d9b77727948d73dc05b8362f9be47c258b6f36dd524d2e243d71f9",
-  "observed_at_utc": "2026-11-07T13:08:06+00:00",
+  "observed_at_utc": "2026-11-07T13:21:27+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "205a0c022e138ed884ef5c9062577b5ce08255b91c4f37badaee10791bb9d9eb",
+      "body_sha256": "b39c9d8dd3d096b25f25dd4e6e6ac0476202b41399a7c72c88a414514d77b374",
       "cache_age_seconds": null,
       "eligible_listing_rows": 0,
       "http_status": 200,
@@ -181,7 +181,7 @@
             "Victor Lai",
             "1.18"
           ],
-          "market_line": 120,
+          "market_line": 114,
           "preceding_lines": [
             "Règlement des paris",
             "Scores en direct",
