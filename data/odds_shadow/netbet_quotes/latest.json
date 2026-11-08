@@ -7,10 +7,10 @@
   "index_badminton_link_examples": [
     "https://www.netbet.fr/badminton"
   ],
-  "index_body_sha256": "8cec9785bf23ce59785a8dceaf0d336e578adc9fdbe6eb4a33bdd13d71222457",
+  "index_body_sha256": "5c917b629bf23f11949a9be5cf2a8688c563420c611d60480d98c48955aae98a",
   "index_eligible_quotes": 0,
   "index_http_status": 200,
-  "index_link_count": 80,
+  "index_link_count": 74,
   "index_link_path_counts": {
     "": 9,
     "basketball": 2,
@@ -22,7 +22,7 @@
     "promotions": 2,
     "rugby": 2,
     "ski-alpin": 2,
-    "tennis": 8,
+    "tennis": 6,
     "zendesk": 2
   },
   "index_market_audit": {
@@ -35,7 +35,7 @@
   "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": null,
-  "observed_at_utc": "2026-11-08T11:49:28+00:00",
+  "observed_at_utc": "2026-11-08T13:41:09+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [],
