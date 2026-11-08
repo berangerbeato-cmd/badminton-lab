@@ -1,0 +1,78 @@
+{
+  "audit_only_stale_content_allowed": true,
+  "audit_warning": "Diagnostic only; no bookmaker prices are extracted or accepted.",
+  "body_sha256": "20c9e0828a50cc46e32d238c804c97137a62b88409eec388e93f82b12ce4313a",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": "91",
+  "finished_at_utc": "2026-11-08T11:49:21+00:00",
+  "flashscore_discovery": {
+    "index_match_link_count": 5,
+    "index_match_links": [
+      "https://www.flashscore.fr/match/badminton/gunawan-jason-WWduvmf6/lai-victor-rVr83nk2/?mid=SUNmXS1D",
+      "https://www.flashscore.fr/match/badminton/an-se-young-CChiNgrS/yamaguchi-akane-pKuBkeNb/?mid=roQemBHU",
+      "https://www.flashscore.fr/match/badminton/0AKnSAfc/",
+      "https://www.flashscore.fr/match/badminton/UNJuigI5/",
+      "https://www.flashscore.fr/match/badminton/dALXhFmg/"
+    ],
+    "index_ms_context_visible": true,
+    "index_text_excerpt": "Open de Corée BWF 2026, résultats Badminton en direct, résultats de badminton, Badminton aujourd'hui, BWF World Tour\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n08/11 DI\nOpen de Corée (Corée du Sud)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nGunawan J.\nLai V.\n0\n2\n11\n21\n14\n21\nOpen de Corée (Corée du Sud)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nAn S. Y.\nYamaguchi A.\n2\n1\n21\n12\n15\n21\n21\n16\nFlashscore Actualités\nExclu' Flashscore - Emerson Fittipaldi : \"L'état d'esprit des jeunes pilotes est différent de celui que nous avions\"\nLe clash du dimanche soir : Thorgan Hazard x Amine Gouiri\nSans Estéban Lepaul, l'attaque est-elle le point faible du Stade Rennais ?\nAller vers Actualités\nOpen de Corée (Corée du Sud)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nKim W. H.\nSeo S. J.\nHoki T.\nKobayashi Y.\n2\n1\n21\n12\n20\n22\n21\n19\nOpen de Corée (Corée du Sud)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nHirokami R.\nHobara S.\nKim Y. J.\nLee Y. L.\n2\n0\n21\n18\n21\n18\nOpen de Corée (Corée du Sud)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nJiang Z. B.\nWei Y. X.\nGao J. X.\nWu M. Y.\n2\n0\n21\n16\n21\n13\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Kaohsiung Masters Hommes\nBWF WT Kumamoto Masters Hommes\nBWF WT Open de Corée Hommes\nBWF WT Kaohsiung Masters Femmes\nBWF WT Kumamoto Masters Femmes\nBWF WT Open de Corée Femmes\nBWF WT Kaohsiung Masters Doubles Hommes\nBWF WT Kumamoto Masters Doubles Hommes\nBWF WT Open de Corée Doubles Hommes\nBWF WT Kaohsiung Masters Doubles Femmes"
+  },
+  "flashscore_match_audit": {
+    "appears_doubles": false,
+    "appears_mens_singles": false,
+    "body_characters": 5239,
+    "body_sha256": "4243415efa1026c2753421491455f4acff2115c7686f88bb48fff0f2ccc14eda",
+    "candidate_from_index": true,
+    "candidate_selection": "last_named_public_link_not_verified_upcoming",
+    "comparison_block_reason": "NO_VERIFIED_BOOKMAKER_PRICES",
+    "contains_bookmaker_names": [
+      "Betclic"
+    ],
+    "contains_odds_heading": true,
+    "eligible_for_odds_comparison": false,
+    "http_status": 200,
+    "match_finished": false,
+    "odds_section_bookmaker_names": [],
+    "odds_section_dash_count": 2,
+    "odds_section_decimal_prices": [
+      "1.09",
+      "3.80"
+    ],
+    "odds_section_lines": [
+      "HOME/AWAY",
+      "1",
+      "2",
+      "1.09",
+      "3.80",
+      "-",
+      "-"
+    ],
+    "odds_section_placeholder_only": false,
+    "quotes_extracted": 0,
+    "resolved_to_requested_odds_tab": true,
+    "resolved_url": "https://www.flashscore.fr/match/badminton/an-se-young-CChiNgrS/yamaguchi-akane-pKuBkeNb/#/cotes/home-away/temps-regulier/",
+    "robots_status": "ALLOWED_BY_ROBOTS",
+    "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
+    "screenshot_error": null,
+    "status": "PUBLIC_MATCH_PAGE_REACHABLE_AUDIT_ONLY",
+    "text_excerpt_for_debug": "Se Young An - Akane Yamaguchi (08/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - FEMMESOPEN DE CORÉE - FINALE\nNouvelle fenêtre\n08.11.2026 05:20\nAn S. Y.\nBWF\n: 1.\n2\n-\n1\nTERMINÉ\nYamaguchi A.\nBWF\n: 2.\n2\n-\n1\nTERMINÉ\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nAn S. Y.\n2\n21\n15\n21\nYamaguchi A.\n1\n12\n21\n16\nCOTES\nHOME/AWAY\n1\n2\n1.09\n3.80\n-\n-\nVoir plus\nLIVE STREAMING\nPublicité\nBetclic.fr\nINFORMATIONS DE MATCH\nSTADE:\nJinnam Gymnasium\n (Yeosu)\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Kaohsiung Masters Hommes\nBWF WT Kumamoto Masters Hommes\nBWF WT Open de Corée Hommes\nBWF WT Kaohsiung Masters Femmes\nBWF WT Kumamoto Masters Femmes\nBWF WT Open de Corée Femmes\nBWF WT Kaohsiung Masters Doubles Hommes\nBWF WT Kumamoto Masters Doubles Hommes\nBWF WT Open de Corée Doubles Hommes\nBWF WT Kaohsiung Masters Doubles Femmes\nVoir plus (5)\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand ",
+    "url": "https://www.flashscore.fr/match/badminton/an-se-young-CChiNgrS/yamaguchi-akane-pKuBkeNb/#/cotes/home-away/temps-regulier/"
+  },
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-11-08T11:49:10+00:00",
+  "operator": "Flashscore (aggregator)",
+  "operator_kind": "AGGREGATOR_AUDIT_ONLY",
+  "public_badminton_event_links": [],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/flashscore_badminton.png",
+  "quotes": [],
+  "resolved_url": "https://www.flashscore.fr/badminton/",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Sun, 08 Nov 2026 11:49:11 GMT",
+  "source_key": "flashscore_badminton",
+  "source_url": "https://www.flashscore.fr/badminton/",
+  "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
+  "text_excerpt_for_debug": "Open de Corée BWF 2026, résultats Badminton en direct, résultats de badminton, Badminton aujourd'hui, BWF World Tour\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n08/11 DI\nOpen de Corée (Corée du Sud)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nGunawan J.\nLai V.\n0\n2\n11\n21\n14\n21\nOpen de Corée (Corée du Sud)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nAn S. Y.\nYamaguchi A.\n2\n1\n21\n12\n15\n21\n21\n16\nFlashscore Actualités\nExclu' Flashscore - Emerson Fittipaldi : \"L'état d'esprit des jeunes pilotes est différent de celui que nous avions\"\nLe clash du dimanche soir : Thorgan Hazard x Amine Gouiri\nSans Estéban Lepaul, l'attaque est-elle le point faible du Stade Rennais ?\nAller vers Actualités\nOpen de Corée (Corée du Sud)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nKim W. H.\nSeo S. J.\nHoki T.\nKobayashi Y.\n2\n1\n21\n12\n20\n22\n21\n19\nOpen de Corée (Corée du Sud)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nHirokami R.\nHobara S.\nKim Y. J.\nLee Y. L.\n2\n0\n21\n18\n21\n18\nOpen de Corée (Corée du Sud)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nJiang Z. B.\nWei Y. X.\nGao J. X.\nWu M. Y.\n2\n0\n21\n16\n21\n13\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Kaohsiung Masters Hommes\nBWF WT Kumamoto Masters Hommes\nBWF WT Open de Corée Hommes\nBWF WT Kaohsiung Masters Femmes\nBWF WT Kumamo",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
