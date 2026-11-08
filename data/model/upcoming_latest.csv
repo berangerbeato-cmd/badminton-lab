@@ -1,2 +1,1 @@
 bwf_match_id,start_utc,tournament,round,player_a_id,player_a,player_b_id,player_b,elo_a_asof,elo_b_asof,raw_p_a,calibrated_p_a,fair_odds_a,fair_odds_b,k,slope,intercept,asof_utc,model,cold_start,status,source
-5597:1562259,2026-11-08T00:00:00+00:00,YEOSU VICTOR Korea Open 2026,Final,65634,Jason GUNAWAN,94151,Victor LAI,1967.78,2056.38,0.37519505,0.35615731,2.8077,1.5532,48,1.05498189,-0.054048,2026-11-07T11:41:00+00:00,bwf_elo_ms_platt_v1,0,DATE_ONLY_START_UNVERIFIED_NO_BET,https://github.com/berangerbeato-cmd/badminton-lab/tree/main/data/bwf
