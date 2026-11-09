@@ -1,0 +1,755 @@
+{
+  "bookmaker_price_updated_at": null,
+  "candidate_count": 1,
+  "candidate_urls": [
+    "https://www.netbet.fr/badminton/international/masters-du-japon"
+  ],
+  "elo_comparisons": [],
+  "fixture_join_audit": [
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-10",
+      "model_rows_same_day": 30,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Riku Hatano",
+        "Riki Takei"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-10",
+      "model_rows_same_day": 30,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Minoru Koga",
+        "Lee Zii Jia"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-10",
+      "model_rows_same_day": 30,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Tae Bin Yoo",
+        "Muhamad Yusuf"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Alwi Farhan",
+        "Chun Yi Lin"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Lakshya Sen",
+        "Yu Jen Chi"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Li Yang Su",
+        "Toma Junior Popov"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Magnus Johannesen",
+        "Vitidsarn Kunlavut"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Moh Zaki Ubaidillah",
+        "Brian Yang"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Nhat Nguyen",
+        "Nishimoto Kenta"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Panitchaphon Teeraratsakul",
+        "Kodai Naraoka"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Po-Wei Wang",
+        "Tzu Wei Wang"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Tian Yao Dong",
+        "Chia Hao Lee"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Victor Lai",
+        "Yudai Okimoto"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Yushi Tanaka",
+        "Zhu Xuan Chen"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Zhe An Hu",
+        "Tien Chen Chou"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    }
+  ],
+  "index_badminton_link_count": 5,
+  "index_badminton_link_examples": [
+    "https://www.netbet.fr/badminton",
+    "https://www.netbet.fr/badminton/international/masters-du-japon-f",
+    "https://www.netbet.fr/badminton/international/masters-du-japon-doubles-mixtes",
+    "https://www.netbet.fr/badminton/international/masters-du-japon",
+    "https://www.netbet.fr/badminton/international/masters-du-japon-doubles-f"
+  ],
+  "index_body_sha256": "d08b90cdbe67586beb2f15fd5981c2615c0cdf053bcfdb38c6ad1491944e8803",
+  "index_eligible_quotes": 1,
+  "index_http_status": 200,
+  "index_link_count": 121,
+  "index_link_path_counts": {
+    "": 9,
+    "badminton": 7,
+    "basketball": 4,
+    "cashout": 2,
+    "evenement": 42,
+    "football": 6,
+    "hockey-glace": 4,
+    "paris-en-direct": 5,
+    "promotions": 2,
+    "rugby": 2,
+    "tennis": 8,
+    "zendesk": 2
+  },
+  "index_market_audit": {
+    "eligible_listing_rows": 1,
+    "markets_seen": 10,
+    "rejection_evidence": [
+      {
+        "following_lines": [
+          "Matsuta Niina",
+          "1.08",
+          "Yevheniia Kantemyr",
+          "4.20"
+        ],
+        "market_line": 107,
+        "preceding_lines": [
+          "Scores en direct",
+          "Format des cotes",
+          "Accueil",
+          "Badminton",
+          "Pariez sur",
+          "Badminton",
+          "À L'AFFICHE",
+          "TOUTE L'OFFRE BADMINTON",
+          "À Venir",
+          "Masters du Japon (F)",
+          "mar. 10 nov.",
+          "01:00",
+          "Matsuta Niina",
+          "Yevheniia Kantemyr"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Wu-Yang",
+          "1.01",
+          "Lock-Hoang",
+          "9.00"
+        ],
+        "market_line": 118,
+        "preceding_lines": [
+          "01:00",
+          "Matsuta Niina",
+          "Yevheniia Kantemyr",
+          "Qui va gagner le match ?",
+          "Matsuta Niina",
+          "1.08",
+          "Yevheniia Kantemyr",
+          "4.20",
+          "+ 3",
+          "Masters du Japon, Doubles Mixtes",
+          "mar. 10 nov.",
+          "01:00",
+          "Wu-Yang",
+          "Lock-Hoang"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Chen-Luo",
+          "1.12",
+          "Hara-Kiyose",
+          "3.70"
+        ],
+        "market_line": 140,
+        "preceding_lines": [
+          "01:10",
+          "Riku Hatano",
+          "Riki Takei",
+          "Qui va gagner le match ?",
+          "Riku Hatano",
+          "1.75",
+          "Riki Takei",
+          "1.68",
+          "+ 5",
+          "Masters du Japon, Doubles (F)",
+          "mar. 10 nov.",
+          "02:00",
+          "Chen-Luo",
+          "Hara-Kiyose"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Chia-Soh",
+          "1.01",
+          "Amsakarunan-Arjun",
+          "8.25"
+        ],
+        "market_line": 151,
+        "preceding_lines": [
+          "02:00",
+          "Chen-Luo",
+          "Hara-Kiyose",
+          "Qui va gagner le match ?",
+          "Chen-Luo",
+          "1.12",
+          "Hara-Kiyose",
+          "3.70",
+          "+ 4",
+          "Masters du Japon, Doubles",
+          "mar. 10 nov.",
+          "02:00",
+          "Chia-Soh",
+          "Amsakarunan-Arjun"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Chloe Hoang",
+          "5.30",
+          "Sunakawa Nodoka",
+          "1.02"
+        ],
+        "market_line": 162,
+        "preceding_lines": [
+          "02:00",
+          "Chia-Soh",
+          "Amsakarunan-Arjun",
+          "Qui va gagner le match ?",
+          "Chia-Soh",
+          "1.01",
+          "Amsakarunan-Arjun",
+          "8.25",
+          "+ 14",
+          "Masters du Japon (F)",
+          "mar. 10 nov.",
+          "02:00",
+          "Chloe Hoang",
+          "Sunakawa Nodoka"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Goto-Yoshida",
+          "1.52",
+          "Hung-Lui",
+          "1.97"
+        ],
+        "market_line": 173,
+        "preceding_lines": [
+          "02:00",
+          "Chloe Hoang",
+          "Sunakawa Nodoka",
+          "Qui va gagner le match ?",
+          "Chloe Hoang",
+          "5.30",
+          "Sunakawa Nodoka",
+          "1.02",
+          "+ 3",
+          "Masters du Japon, Doubles",
+          "mar. 10 nov.",
+          "02:00",
+          "Goto-Yoshida",
+          "Hung-Lui"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      }
+    ],
+    "rejections": {
+      "NON_MS_COMPETITION": 8,
+      "PRICE_NOT_CONFIRMED": 1
+    }
+  },
+  "index_resolved_url": "https://www.netbet.fr/badminton",
+  "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
+  "index_url": "https://www.netbet.fr/badminton",
+  "model_snapshot": "data/model/snapshots/2026-11-09.csv",
+  "model_snapshot_sha256": "8626355e2a591e4d0712f3519f239206ddf53cf0d767c8fd1f85c0e5d7fcad16",
+  "observed_at_utc": "2026-11-09T16:41:13+00:00",
+  "operator": "NetBet.fr",
+  "page_audit_limit": 8,
+  "page_audits": [
+    {
+      "body_sha256": "dd5da256c737cb5cc51830989d7a6878c902976d4e5086874955596c6e5735e9",
+      "cache_age_seconds": null,
+      "eligible_listing_rows": 14,
+      "http_status": 200,
+      "markets_seen": 16,
+      "rejection_evidence": [
+        {
+          "following_lines": [
+            "Riku Hatano",
+            "1.75",
+            "Riki Takei",
+            "1.68"
+          ],
+          "market_line": 106,
+          "preceding_lines": [
+            "Règlement des paris",
+            "Scores en direct",
+            "Format des cotes",
+            "Accueil",
+            "Badminton",
+            "International - Masters du Japon",
+            "Pariez sur",
+            "Masters du Japon",
+            "À Venir",
+            "Masters du Japon",
+            "mar. 10 nov.",
+            "01:10",
+            "Riku Hatano",
+            "Riki Takei"
+          ],
+          "reason": "COMPETITION_NOT_ADJACENT_TO_DATE"
+        },
+        {
+          "following_lines": [
+            "Timothy Lock",
+            "14.50",
+            "Hyeok Jin Jeon",
+            "-"
+          ],
+          "market_line": 139,
+          "preceding_lines": [
+            "02:00",
+            "Tae Bin Yoo",
+            "Muhamad Yusuf",
+            "Qui va gagner le match ?",
+            "Tae Bin Yoo",
+            "1.16",
+            "Muhamad Yusuf",
+            "3.30",
+            "+ 5",
+            "Masters du Japon",
+            "mar. 10 nov.",
+            "02:00",
+            "Timothy Lock",
+            "Hyeok Jin Jeon"
+          ],
+          "reason": "PRICE_NOT_CONFIRMED"
+        }
+      ],
+      "rejections": {
+        "COMPETITION_NOT_ADJACENT_TO_DATE": 1,
+        "PRICE_NOT_CONFIRMED": 1
+      },
+      "resolved_url": "https://www.netbet.fr/badminton/international/masters-du-japon",
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "screenshot": "data/odds_shadow/visual_evidence/netbet_event_0.png",
+      "status": "PUBLIC_LISTINGS_OBSERVED_NEEDS_CONFIRMATION",
+      "url": "https://www.netbet.fr/badminton/international/masters-du-japon"
+    }
+  ],
+  "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
+  "quotes": [
+    {
+      "bookmaker_overround_pct": 16.67,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-11-10",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.489796,
+      "normalized_market_probability_2": 0.510204,
+      "odds_1": 1.75,
+      "odds_2": 1.68,
+      "player_1_display": "Riku Hatano",
+      "player_2_display": "Riki Takei",
+      "raw_implied_probability_1": 0.571429,
+      "raw_implied_probability_2": 0.595238,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.0,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/masters-du-japon",
+      "listed_day_paris": "2026-11-10",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.269406,
+      "normalized_market_probability_2": 0.730594,
+      "odds_1": 3.2,
+      "odds_2": 1.18,
+      "player_1_display": "Minoru Koga",
+      "player_2_display": "Lee Zii Jia",
+      "raw_implied_probability_1": 0.3125,
+      "raw_implied_probability_2": 0.847458,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.51,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/masters-du-japon",
+      "listed_day_paris": "2026-11-10",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.73991,
+      "normalized_market_probability_2": 0.26009,
+      "odds_1": 1.16,
+      "odds_2": 3.3,
+      "player_1_display": "Tae Bin Yoo",
+      "player_2_display": "Muhamad Yusuf",
+      "raw_implied_probability_1": 0.862069,
+      "raw_implied_probability_2": 0.30303,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 15.88,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/masters-du-japon",
+      "listed_day_paris": "2026-11-11",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.607735,
+      "normalized_market_probability_2": 0.392265,
+      "odds_1": 1.42,
+      "odds_2": 2.2,
+      "player_1_display": "Alwi Farhan",
+      "player_2_display": "Chun Yi Lin",
+      "raw_implied_probability_1": 0.704225,
+      "raw_implied_probability_2": 0.454545,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.4,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/masters-du-japon",
+      "listed_day_paris": "2026-11-11",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.681818,
+      "normalized_market_probability_2": 0.318182,
+      "odds_1": 1.26,
+      "odds_2": 2.7,
+      "player_1_display": "Lakshya Sen",
+      "player_2_display": "Yu Jen Chi",
+      "raw_implied_probability_1": 0.793651,
+      "raw_implied_probability_2": 0.37037,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.56,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/masters-du-japon",
+      "listed_day_paris": "2026-11-11",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.158879,
+      "normalized_market_probability_2": 0.841121,
+      "odds_1": 5.4,
+      "odds_2": 1.02,
+      "player_1_display": "Li Yang Su",
+      "player_2_display": "Toma Junior Popov",
+      "raw_implied_probability_1": 0.185185,
+      "raw_implied_probability_2": 0.980392,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 10.12,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/masters-du-japon",
+      "listed_day_paris": "2026-11-11",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.100899,
+      "normalized_market_probability_2": 0.899101,
+      "odds_1": 9.0,
+      "odds_2": 1.01,
+      "player_1_display": "Magnus Johannesen",
+      "player_2_display": "Vitidsarn Kunlavut",
+      "raw_implied_probability_1": 0.111111,
+      "raw_implied_probability_2": 0.990099,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.4,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/masters-du-japon",
+      "listed_day_paris": "2026-11-11",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.681818,
+      "normalized_market_probability_2": 0.318182,
+      "odds_1": 1.26,
+      "odds_2": 2.7,
+      "player_1_display": "Moh Zaki Ubaidillah",
+      "player_2_display": "Brian Yang",
+      "raw_implied_probability_1": 0.793651,
+      "raw_implied_probability_2": 0.37037,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.64,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/masters-du-japon",
+      "listed_day_paris": "2026-11-11",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.439655,
+      "normalized_market_probability_2": 0.560345,
+      "odds_1": 1.95,
+      "odds_2": 1.53,
+      "player_1_display": "Nhat Nguyen",
+      "player_2_display": "Nishimoto Kenta",
+      "raw_implied_probability_1": 0.512821,
+      "raw_implied_probability_2": 0.653595,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.67,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/masters-du-japon",
+      "listed_day_paris": "2026-11-11",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.428571,
+      "normalized_market_probability_2": 0.571429,
+      "odds_1": 2.0,
+      "odds_2": 1.5,
+      "player_1_display": "Panitchaphon Teeraratsakul",
+      "player_2_display": "Kodai Naraoka",
+      "raw_implied_probability_1": 0.5,
+      "raw_implied_probability_2": 0.666667,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 15.88,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/masters-du-japon",
+      "listed_day_paris": "2026-11-11",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.416901,
+      "normalized_market_probability_2": 0.583099,
+      "odds_1": 2.07,
+      "odds_2": 1.48,
+      "player_1_display": "Po-Wei Wang",
+      "player_2_display": "Tzu Wei Wang",
+      "raw_implied_probability_1": 0.483092,
+      "raw_implied_probability_2": 0.675676,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.31,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/masters-du-japon",
+      "listed_day_paris": "2026-11-11",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.710526,
+      "normalized_market_probability_2": 0.289474,
+      "odds_1": 1.21,
+      "odds_2": 2.97,
+      "player_1_display": "Tian Yao Dong",
+      "player_2_display": "Chia Hao Lee",
+      "raw_implied_probability_1": 0.826446,
+      "raw_implied_probability_2": 0.3367,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.21,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/masters-du-japon",
+      "listed_day_paris": "2026-11-11",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.705314,
+      "normalized_market_probability_2": 0.294686,
+      "odds_1": 1.22,
+      "odds_2": 2.92,
+      "player_1_display": "Victor Lai",
+      "player_2_display": "Yudai Okimoto",
+      "raw_implied_probability_1": 0.819672,
+      "raw_implied_probability_2": 0.342466,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.34,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/masters-du-japon",
+      "listed_day_paris": "2026-11-11",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.656168,
+      "normalized_market_probability_2": 0.343832,
+      "odds_1": 1.31,
+      "odds_2": 2.5,
+      "player_1_display": "Yushi Tanaka",
+      "player_2_display": "Zhu Xuan Chen",
+      "raw_implied_probability_1": 0.763359,
+      "raw_implied_probability_2": 0.4,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.28,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/masters-du-japon",
+      "listed_day_paris": "2026-11-11",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.5,
+      "normalized_market_probability_2": 0.5,
+      "odds_1": 1.72,
+      "odds_2": 1.72,
+      "player_1_display": "Zhe An Hu",
+      "player_2_display": "Tien Chen Chou",
+      "raw_implied_probability_1": 0.581395,
+      "raw_implied_probability_2": 0.581395,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    }
+  ],
+  "reason_counts": {
+    "NO_UNIQUE_BWF_FIXTURE": 15
+  },
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+}
