@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_2_walkforward_v1",
-  "generated_at_utc": "2026-11-09T07:48:12+00:00",
+  "generated_at_utc": "2026-11-09T13:50:36+00:00",
   "policy": "MODEL_RESEARCH_ONLY_NO_ODDS_NO_BET_NO_T0_REWRITE",
   "model": "bwf_v3_2_walkforward",
   "fit_start_year": 2019,
@@ -614,12 +614,12 @@
     }
   },
   "source_quality": {
-    "not_MS": 53016,
+    "not_MS": 53093,
     "no_full_score": 290,
     "score_not_completed": 222,
-    "no_winner": 12,
+    "no_winner": 50,
     "missing_player_ids": 5,
-    "archives_read": 412,
+    "archives_read": 414,
     "clean_MS_matches": 13855
   },
   "methodology": [
