@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-09T13:44:29+00:00",
+  "observed_at_utc": "2026-11-09T16:11:54+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 15,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-09T14:44:29.788384+01:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-09T17:11:54.413979+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "b755fc12ce1c1eadf95297c74d7b9048e759d5148ed796d26f5e38bf1b3a2098",
+      "body_sha256": "21ba95656156c52cc0c1e7f9102255ef485beb8b2a3428033f2134691b8978bc",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -39,7 +39,7 @@
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "92553ff828dc076a75856333ff27e21b71cb5988ab8fb6e0e94da9ae25a8e3eb",
+      "body_sha256": "3fee17daadc84e4256980e610709190c2062a2af6485f47e4c1295fe15bd6e05",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "3a574959d2a48e9ffe1a92b5c0988a5db88fa13d72dac335afd1f0422e50c821",
+      "body_sha256": "70ac7e787035f77bb5b89dfdb628bf9fcfc6342f731427992a8b5cd0fd1bd544",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "3fcea280b2a817fb51b3ad13efa0661ca62dd235dd1172b39d06d78b486786ea",
+      "body_sha256": "82dd7be67ca1d595ae4bab36bdbf746eee67516ec7a0bd5b91e9fe52d5f310ad",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "1a3531c614575386c518f54e7724500aadfb7a3c7623715003a7f8859c861d15",
+      "body_sha256": "684cb2ec4a4c8c93b4e6db1255575a0ddb43f06e1fe47a57d00ab120a2a82cb5",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "233",
-      "body_sha256": "a24b70eeb4b145b57ce180a7a7c0f0d902a55eff64afa25d4b56bcfc97aa9ab9",
+      "cache_age_seconds": "102",
+      "body_sha256": "58b9d07467fe9c6bcbd6b72e26db7e82af882d6834597704e47af05a0874cff7",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/naraoka-kodai-MPtLI8G5/teeraratsakul-panitchaphon-l402bQTo/",
@@ -162,7 +162,7 @@
         ],
         "index_match_link_count": 13,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n09/11 LU\nAucun match aujourd'hui.\nJour de match précédent: 08.11.2026\nJour de match suivant: 10.11.2026\nFlashscore Actualités\nPierre Kalulu forfait avec les Bleus, Saël Kumbedi appelé pour la première fois\nGrâce à Antonelli, Mercedes signe son retour au sommet en Formule 1\nL'Espagne privée de Lamine Yamal et Oyarzabal contre la République tchèque\nAller vers Actualités\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Kaohsiung Masters Hommes\nBWF WT Kumamoto Masters Hommes\nBWF WT Kaohsiung Masters Femmes\nBWF WT Kumamoto Masters Femmes\nBWF WT Kaohsiung Masters Doubles Hommes\nBWF WT Kumamoto Masters Doubles Hommes\nBWF WT Kaohsiung Masters Doubles Femmes\nBWF WT Kumamoto Masters Doubles Femmes\nBWF WT Kaohsiung Masters Doubles Mixtes\nBWF WT Kumamoto Masters Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nLe service de résultats de badminton de Flashscore.fr offre les score"
+        "index_text_excerpt": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n09/11 LU\nAucun match aujourd'hui.\nJour de match précédent: 08.11.2026\nJour de match suivant: 10.11.2026\nFlashscore Actualités\nValenciennes : excédés, les supporters diffusent une musique de cirque en plein match\nPierre Kalulu forfait avec les Bleus, Saël Kumbedi appelé pour la première fois\nGrâce à Antonelli, Mercedes signe son retour au sommet en Formule 1\nAller vers Actualités\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Kaohsiung Masters Hommes\nBWF WT Kumamoto Masters Hommes\nBWF WT Kaohsiung Masters Femmes\nBWF WT Kumamoto Masters Femmes\nBWF WT Kaohsiung Masters Doubles Hommes\nBWF WT Kumamoto Masters Doubles Hommes\nBWF WT Kaohsiung Masters Doubles Femmes\nBWF WT Kumamoto Masters Doubles Femmes\nBWF WT Kaohsiung Masters Doubles Mixtes\nBWF WT Kumamoto Masters Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nLe service de résultats de badminton de Flashscore.fr offr"
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/tanaka-yuji-xQbRefgp/zhu-xuan-chen-zwZo4jVa/#/cotes/home-away/temps-regulier/",
@@ -173,11 +173,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/tanaka-yuji-xQbRefgp/zhu-xuan-chen-zwZo4jVa/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "2130534fe69ba4eb322448bb322bffcaa6388f8685399b15ab4360c568f8a361",
+        "body_sha256": "88b54af4bbd348a340c98d77267320722c89bdc169e858c9533045df7928b685",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Yushi Tanaka - Xuan Chen Zhu (11/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESKUMAMOTO MASTERS - 1/16 DE FINALE\nNouvelle fenêtre\n11.11.2026 01:00\nTanaka Y.\nBWF\n: 17.\n-\nZhu X. C.\nBWF\n: 36.\n-\n11.11.2026 01:00\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n1.33\n2.35\nFAIRE UN PARI\n-\n-\nVoir plus\nINFORMATIONS DE MATCH\nSTADE:\nKumamoto Prefectural Gymnasium\n (Kumamoto)\nFORME\nTanaka Y.\n?\nD\nV\nD\nD\nD\nZhu X. C.\n?\nD\nV\nD\nV\nV\nTÊTE-À-TÊTE\n10.06.26\nOA\nTanaka Y.\nZhu X. C.\n2\n1\nMontrer plus de matchs\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Kaohsiung Masters Hommes\nBWF WT Kumamoto Masters Hommes\nBWF WT Kaohsiung Masters Femmes\nBWF WT Kumamoto Masters Femmes\nBWF WT Kaohsiung Masters Doubles Hommes\nBWF WT Kumamoto Masters Doubles Hommes\nBWF WT Kaohsiung Masters Doubles Femmes\nBWF WT Kumamoto Masters Doubles Femmes\nBWF WT Kaohsiung Masters Doubles Mixtes\nBWF WT Kumamoto Masters Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF ",
+        "text_excerpt_for_debug": "Yushi Tanaka - Xuan Chen Zhu (11/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESKUMAMOTO MASTERS - 1/16 DE FINALE\nNouvelle fenêtre\n11.11.2026 01:00\nTanaka Y.\nBWF\n: 17.\n-\nZhu X. C.\nBWF\n: 36.\n-\n11.11.2026 01:00\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n1.40\n2.75\nFAIRE UN PARI\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBetMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. 1-800-BETS-OFF (IA), New customers only. T&C apply Must opt-in and wager $10+ cash on any market to receive $50 in Bonus Bets each day for your first 5 days\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nINFORMATIONS DE MATCH\nSTADE:\nKumamoto Prefectural Gymnasium\n (Kumamoto)\nFORME\nTanaka Y.\n?\nD\nV\nD\nD\nD\nZhu X. C.\n?\nD\nV\nD\nV\nV\nTÊTE-À-TÊTE\n10.06.26\nOA\nTanaka Y.\nZhu X. C.\n2\n1\nMontrer plus de matchs\nLIGUES ÉPINGLÉES\nPour sélec",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 5288,
+        "body_characters": 6250,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -189,16 +189,22 @@
           "HOME/AWAY",
           "1",
           "2",
-          "1.33",
-          "2.35",
-          "FAIRE UN PARI",
           "-",
-          "-"
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "1.40",
+          "2.75",
+          "FAIRE UN PARI"
         ],
-        "odds_section_dash_count": 2,
+        "odds_section_dash_count": 8,
         "odds_section_decimal_prices": [
-          "1.33",
-          "2.35"
+          "1.40",
+          "2.75"
         ],
         "odds_section_placeholder_only": false,
         "odds_section_bookmaker_names": [],
@@ -214,7 +220,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "44ab56ca65b49c9b2f68663fcf7a60e3cfb93c31155ccbea9a881660092caaa4",
+      "body_sha256": "e793cb18aeb7f8ad0088c529f4901a2e8573c74c94c5afc61e1db65fec7b0cf5",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
