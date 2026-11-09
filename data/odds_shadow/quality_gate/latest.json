@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-09T13:45:41+00:00",
-  "comparison_generated_at_utc": "2026-11-09T13:45:40+00:00",
+  "generated_at_utc": "2026-11-09T16:15:23+00:00",
+  "comparison_generated_at_utc": "2026-11-09T16:15:22+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "comparison_count": 15,
   "status_counts": {
@@ -8,11 +8,47 @@
   },
   "reason_counts": {
     "EV_MISSING_OR_INVALID": 15,
-    "MATCH_ID_MISSING": 12,
     "MODEL_AGE_UNKNOWN": 15,
-    "UNEXPECTED_SOURCE_STATUS": 15
+    "UNEXPECTED_SOURCE_STATUS": 15,
+    "MATCH_ID_MISSING": 12
   },
   "rows": [
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5216:1565879",
+      "player_a": "Riku Hatano",
+      "player_b": "Riki Takei",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5216:1565791",
+      "player_a": "Minoru Koga",
+      "player_b": "Lee Zii Jia",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5216:1565912",
+      "player_a": "Tae Bin Yoo",
+      "player_b": "Muhamad Yusuf",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
     {
       "source": "netbet_quotes",
       "bwf_match_id": "",
@@ -63,78 +99,6 @@
     },
     {
       "source": "netbet_quotes",
-      "bwf_match_id": "5216:1565791",
-      "player_a": "Minoru Koga",
-      "player_b": "Lee Zii Jia",
-      "model_age_minutes": "",
-      "ev_a_pct": null,
-      "ev_b_pct": null,
-      "quality_status": "BLOCKED_UNVERIFIED",
-      "reasons": "EV_MISSING_OR_INVALID|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "bwf_match_id": "",
-      "player_a": "Po-Wei Wang",
-      "player_b": "Tzu Wei Wang",
-      "model_age_minutes": "",
-      "ev_a_pct": null,
-      "ev_b_pct": null,
-      "quality_status": "BLOCKED_UNVERIFIED",
-      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "bwf_match_id": "5216:1565879",
-      "player_a": "Riku Hatano",
-      "player_b": "Riki Takei",
-      "model_age_minutes": "",
-      "ev_a_pct": null,
-      "ev_b_pct": null,
-      "quality_status": "BLOCKED_UNVERIFIED",
-      "reasons": "EV_MISSING_OR_INVALID|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "bwf_match_id": "5216:1565912",
-      "player_a": "Tae Bin Yoo",
-      "player_b": "Muhamad Yusuf",
-      "model_age_minutes": "",
-      "ev_a_pct": null,
-      "ev_b_pct": null,
-      "quality_status": "BLOCKED_UNVERIFIED",
-      "reasons": "EV_MISSING_OR_INVALID|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "bwf_match_id": "",
-      "player_a": "Tian Yao Dong",
-      "player_b": "Chia Hao Lee",
-      "model_age_minutes": "",
-      "ev_a_pct": null,
-      "ev_b_pct": null,
-      "quality_status": "BLOCKED_UNVERIFIED",
-      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "bwf_match_id": "",
-      "player_a": "Yushi Tanaka",
-      "player_b": "Zhu Xuan Chen",
-      "model_age_minutes": "",
-      "ev_a_pct": null,
-      "ev_b_pct": null,
-      "quality_status": "BLOCKED_UNVERIFIED",
-      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
       "bwf_match_id": "",
       "player_a": "Moh Zaki Ubaidillah",
       "player_b": "Brian Yang",
@@ -172,8 +136,44 @@
     {
       "source": "netbet_quotes",
       "bwf_match_id": "",
+      "player_a": "Po-Wei Wang",
+      "player_b": "Tzu Wei Wang",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "",
+      "player_a": "Tian Yao Dong",
+      "player_b": "Chia Hao Lee",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "",
       "player_a": "Victor Lai",
       "player_b": "Yudai Okimoto",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "",
+      "player_a": "Yushi Tanaka",
+      "player_b": "Zhu Xuan Chen",
       "model_age_minutes": "",
       "ev_a_pct": null,
       "ev_b_pct": null,

@@ -7,44 +7,8 @@
       {
         "source": "netbet_quotes",
         "players": [
-          "Alwi Farhan",
-          "Chun Yi Lin"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-10"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Lakshya Sen",
-          "Yu Jen Chi"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-10"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Li Yang Su",
-          "Toma Junior Popov"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-10"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Magnus Johannesen",
-          "Vitidsarn Kunlavut"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-10"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Minoru Koga",
-          "Lee Zii Jia"
+          "Riku Hatano",
+          "Riki Takei"
         ],
         "status": "TOURNAMENT_MISMATCH",
         "listed_day_paris": null
@@ -52,17 +16,8 @@
       {
         "source": "netbet_quotes",
         "players": [
-          "Po-Wei Wang",
-          "Tzu Wei Wang"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-10"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Riku Hatano",
-          "Riki Takei"
+          "Minoru Koga",
+          "Lee Zii Jia"
         ],
         "status": "TOURNAMENT_MISMATCH",
         "listed_day_paris": null
@@ -79,20 +34,38 @@
       {
         "source": "netbet_quotes",
         "players": [
-          "Tian Yao Dong",
-          "Chia Hao Lee"
+          "Alwi Farhan",
+          "Chun Yi Lin"
         ],
         "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-10"
+        "listed_day_paris": "2026-11-11"
       },
       {
         "source": "netbet_quotes",
         "players": [
-          "Yushi Tanaka",
-          "Zhu Xuan Chen"
+          "Lakshya Sen",
+          "Yu Jen Chi"
         ],
         "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-10"
+        "listed_day_paris": "2026-11-11"
+      },
+      {
+        "source": "netbet_quotes",
+        "players": [
+          "Li Yang Su",
+          "Toma Junior Popov"
+        ],
+        "status": "FIXTURE_ABSENT_FROM_MODEL",
+        "listed_day_paris": "2026-11-11"
+      },
+      {
+        "source": "netbet_quotes",
+        "players": [
+          "Magnus Johannesen",
+          "Vitidsarn Kunlavut"
+        ],
+        "status": "FIXTURE_ABSENT_FROM_MODEL",
+        "listed_day_paris": "2026-11-11"
       },
       {
         "source": "netbet_quotes",
@@ -124,8 +97,35 @@
       {
         "source": "netbet_quotes",
         "players": [
+          "Po-Wei Wang",
+          "Tzu Wei Wang"
+        ],
+        "status": "FIXTURE_ABSENT_FROM_MODEL",
+        "listed_day_paris": "2026-11-11"
+      },
+      {
+        "source": "netbet_quotes",
+        "players": [
+          "Tian Yao Dong",
+          "Chia Hao Lee"
+        ],
+        "status": "FIXTURE_ABSENT_FROM_MODEL",
+        "listed_day_paris": "2026-11-11"
+      },
+      {
+        "source": "netbet_quotes",
+        "players": [
           "Victor Lai",
           "Yudai Okimoto"
+        ],
+        "status": "FIXTURE_ABSENT_FROM_MODEL",
+        "listed_day_paris": "2026-11-11"
+      },
+      {
+        "source": "netbet_quotes",
+        "players": [
+          "Yushi Tanaka",
+          "Zhu Xuan Chen"
         ],
         "status": "FIXTURE_ABSENT_FROM_MODEL",
         "listed_day_paris": "2026-11-11"
@@ -147,15 +147,15 @@
     "public_quote_count": 15,
     "comparison_count": 15,
     "status_counts": {
-      "FIXTURE_ABSENT_FROM_MODEL": 12,
-      "TOURNAMENT_MISMATCH": 3
+      "TOURNAMENT_MISMATCH": 3,
+      "FIXTURE_ABSENT_FROM_MODEL": 12
     },
     "verified_prematch_count": 0,
     "validated_roi_pct": null,
     "missing_kickoff_count": 0,
     "missing_executable_price_count": 0
   },
-  "generated_at_utc": "2026-11-09T13:45:40+00:00",
+  "generated_at_utc": "2026-11-09T16:15:22+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 15,
   "rejected_sources": [],
@@ -177,49 +177,11 @@
     {
       "source": "netbet_quotes",
       "players": [
-        "Alwi Farhan",
-        "Chun Yi Lin"
+        "Riku Hatano",
+        "Riki Takei"
       ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 30,
-      "listed_day_paris": "2026-11-10",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Lakshya Sen",
-        "Yu Jen Chi"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 30,
-      "listed_day_paris": "2026-11-10",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Li Yang Su",
-        "Toma Junior Popov"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 30,
-      "listed_day_paris": "2026-11-10",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Magnus Johannesen",
-        "Vitidsarn Kunlavut"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 30,
-      "listed_day_paris": "2026-11-10",
+      "bwf_match_id": "5216:1565879",
+      "status": "TOURNAMENT_MISMATCH",
       "decision": "NO_BET"
     },
     {
@@ -229,28 +191,6 @@
         "Lee Zii Jia"
       ],
       "bwf_match_id": "5216:1565791",
-      "status": "TOURNAMENT_MISMATCH",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Po-Wei Wang",
-        "Tzu Wei Wang"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 30,
-      "listed_day_paris": "2026-11-10",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Riku Hatano",
-        "Riki Takei"
-      ],
-      "bwf_match_id": "5216:1565879",
       "status": "TOURNAMENT_MISMATCH",
       "decision": "NO_BET"
     },
@@ -267,25 +207,49 @@
     {
       "source": "netbet_quotes",
       "players": [
-        "Tian Yao Dong",
-        "Chia Hao Lee"
+        "Alwi Farhan",
+        "Chun Yi Lin"
       ],
       "status": "FIXTURE_ABSENT_FROM_MODEL",
       "matches": 0,
-      "model_fixtures_on_listed_day": 30,
-      "listed_day_paris": "2026-11-10",
+      "model_fixtures_on_listed_day": 0,
+      "listed_day_paris": "2026-11-11",
       "decision": "NO_BET"
     },
     {
       "source": "netbet_quotes",
       "players": [
-        "Yushi Tanaka",
-        "Zhu Xuan Chen"
+        "Lakshya Sen",
+        "Yu Jen Chi"
       ],
       "status": "FIXTURE_ABSENT_FROM_MODEL",
       "matches": 0,
-      "model_fixtures_on_listed_day": 30,
-      "listed_day_paris": "2026-11-10",
+      "model_fixtures_on_listed_day": 0,
+      "listed_day_paris": "2026-11-11",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "players": [
+        "Li Yang Su",
+        "Toma Junior Popov"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 0,
+      "listed_day_paris": "2026-11-11",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "players": [
+        "Magnus Johannesen",
+        "Vitidsarn Kunlavut"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 0,
+      "listed_day_paris": "2026-11-11",
       "decision": "NO_BET"
     },
     {
@@ -327,8 +291,44 @@
     {
       "source": "netbet_quotes",
       "players": [
+        "Po-Wei Wang",
+        "Tzu Wei Wang"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 0,
+      "listed_day_paris": "2026-11-11",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "players": [
+        "Tian Yao Dong",
+        "Chia Hao Lee"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 0,
+      "listed_day_paris": "2026-11-11",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "players": [
         "Victor Lai",
         "Yudai Okimoto"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 0,
+      "listed_day_paris": "2026-11-11",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "players": [
+        "Yushi Tanaka",
+        "Zhu Xuan Chen"
       ],
       "status": "FIXTURE_ABSENT_FROM_MODEL",
       "matches": 0,

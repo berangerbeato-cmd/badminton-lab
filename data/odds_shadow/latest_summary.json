@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-09T16:11:54+00:00",
+  "observed_at_utc": "2026-11-09T16:14:12+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 15,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-09T17:11:54.413979+01:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-09T17:14:12.907095+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "21ba95656156c52cc0c1e7f9102255ef485beb8b2a3428033f2134691b8978bc",
+      "body_sha256": "4d3d9a789c5f321de070b3fc9bad7db568154c231106d1bc9f2038d069efe171",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "82dd7be67ca1d595ae4bab36bdbf746eee67516ec7a0bd5b91e9fe52d5f310ad",
+      "body_sha256": "8a2344a33be6d24bb7e3687dc7de293d25112835c1a643d04eceb4f968dc36f6",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "684cb2ec4a4c8c93b4e6db1255575a0ddb43f06e1fe47a57d00ab120a2a82cb5",
+      "body_sha256": "36b4f53de5fb5af4783b92695d28d65a697b778c7d3f84b6233c7e5c223218f9",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "102",
-      "body_sha256": "58b9d07467fe9c6bcbd6b72e26db7e82af882d6834597704e47af05a0874cff7",
+      "cache_age_seconds": "235",
+      "body_sha256": "6c9e097156a0e55b579f363695e565a7b4fc8f01d373620f993e2122d45de71b",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/naraoka-kodai-MPtLI8G5/teeraratsakul-panitchaphon-l402bQTo/",
@@ -173,11 +173,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/tanaka-yuji-xQbRefgp/zhu-xuan-chen-zwZo4jVa/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "88b54af4bbd348a340c98d77267320722c89bdc169e858c9533045df7928b685",
+        "body_sha256": "ecc3b67ad8e6768f2bda50d0ec4dd2d23e566b2aa34957e758a5ee72adcde5dd",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Yushi Tanaka - Xuan Chen Zhu (11/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESKUMAMOTO MASTERS - 1/16 DE FINALE\nNouvelle fenêtre\n11.11.2026 01:00\nTanaka Y.\nBWF\n: 17.\n-\nZhu X. C.\nBWF\n: 36.\n-\n11.11.2026 01:00\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n1.40\n2.75\nFAIRE UN PARI\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBetMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. 1-800-BETS-OFF (IA), New customers only. T&C apply Must opt-in and wager $10+ cash on any market to receive $50 in Bonus Bets each day for your first 5 days\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nINFORMATIONS DE MATCH\nSTADE:\nKumamoto Prefectural Gymnasium\n (Kumamoto)\nFORME\nTanaka Y.\n?\nD\nV\nD\nD\nD\nZhu X. C.\n?\nD\nV\nD\nV\nV\nTÊTE-À-TÊTE\n10.06.26\nOA\nTanaka Y.\nZhu X. C.\n2\n1\nMontrer plus de matchs\nLIGUES ÉPINGLÉES\nPour sélec",
+        "text_excerpt_for_debug": "Yushi Tanaka - Xuan Chen Zhu (11/11/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - HOMMESKUMAMOTO MASTERS - 1/16 DE FINALE\nNouvelle fenêtre\n11.11.2026 01:00\nTanaka Y.\nBWF\n: 17.\n-\nZhu X. C.\nBWF\n: 36.\n-\n11.11.2026 01:00\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n1.40\n2.75\nFAIRE UN PARI\n-\n-\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA). T&C apply.\nINFORMATIONS DE MATCH\nSTADE:\nKumamoto Prefectural Gymnasium\n (Kumamoto)\nFORME\nTan",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 6250,
+        "body_characters": 6406,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -199,9 +199,11 @@
           "-",
           "1.40",
           "2.75",
-          "FAIRE UN PARI"
+          "FAIRE UN PARI",
+          "-",
+          "-"
         ],
-        "odds_section_dash_count": 8,
+        "odds_section_dash_count": 10,
         "odds_section_decimal_prices": [
           "1.40",
           "2.75"
@@ -219,8 +221,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "0",
-      "body_sha256": "e793cb18aeb7f8ad0088c529f4901a2e8573c74c94c5afc61e1db65fec7b0cf5",
+      "cache_age_seconds": "131",
+      "body_sha256": "84c70b2b0f93562df3c6e23b6310d88277b579fc6d7755c50f939f93eff5884e",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
