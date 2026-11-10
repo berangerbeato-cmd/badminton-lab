@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-10T14:50:16+00:00",
+  "observed_at_utc": "2026-11-10T14:52:32+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 16,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-10T15:50:16.689311+01:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-10T15:52:32.988851+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "1d7bfab4a462156189bb15272c83a710f5c63646acd68c24b8510ec85199629c",
+      "body_sha256": "6019e3a56c867981b2a15519b814c0f9b8174899e87b8546b65641b5fa5c5adc",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "ec957ade8d79588b8f78d29cedfd19c6ad3f2d8e94593fb130b9500201b41ae8",
+      "body_sha256": "da86d38080ab7d89d984083b15f208afccaea0e1aae3b92ae29b8d7eb1cf5e3b",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -90,7 +90,7 @@
       "resolved_url": "https://www.pmu.fr/sport/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "52",
+      "cache_age_seconds": null,
       "body_sha256": "a93b5034a3d3f0a1f89f0494427914534bfc74cfbb6793ce81e57e1e31010c28",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "6c1828e55b53970d8d1369eda9ac195b79351318c04fe6130dcce595c3dedc45",
+      "body_sha256": "e87ca2ae2b674a80193000efa9e9f53d98d8f3134b65cc6094bd9555703b73f9",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "c5f4f394990b8aa4f6700c3154dd747bc2089e639e5a3818e01653d844489dd3",
+      "body_sha256": "852feec4f09b4e9b080565b75a48d6414d1cc76966f99af31e443fe87f774814",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "305",
-      "body_sha256": "28fa134c54015dbc190711400dce035d6867d6db2f53fe9e43bee8d6a2ed5851",
+      "cache_age_seconds": "138",
+      "body_sha256": "300adb5dcaaa77ca2d3cef1f09a4565129472e88290eea8ac2dabd9e9f76aa65",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/cho-geon-yeop-2RV3FkCd/liu-wei-chi-tIbJmg8L/?mid=x6YBQyKU",
@@ -164,7 +164,7 @@
         ],
         "index_match_link_count": 52,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n10/11 MA\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nCho G. Y.\nLei C. F.\n2\n0\n21\n10\n22\n20\nTerminé\nVillaflor C.\nLee S-R\n1\n2\n21\n14\n12\n21\n17\n21\nTerminé\nHuang P.\nWu Z. Y.\n2\n0\n21\n15\n21\n7\nTerminé\nOng Z. Y.\nEwe E.\n1\n2\n21\n17\n9\n21\n18\n21\nTerminé\nTing Y.\nChiang T. C.\n2\n1\n25\n23\n12\n21\n21\n18\nTerminé\nHuan K. H.\nKavin K. T.\n2\n1\n14\n21\n21\n10\n21\n14\nTerminé\nAidil S.\nChen C. Y.\n2\n1\n14\n21\n21\n10\n21\n14\nTerminé\nKuo K. L.\nRaj N.\n2\n0\n21\n17\n21\n19\nTerminé\nCheng J.\nKim H. D.\n1\n2\n16\n21\n21\n18\n15\n21\nTerminé\nTakahashi K.\nLim Ming Hong\n1\n2\n18\n21\n21\n14\n16\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nAnnulé\nChen B. Y.\nLiu Y.\nGoh S. F.\nIzzuddin N.\n-\n-\nAnnulé\nRankireddy S.\nShetty C.\nWang C.\nXie H. N.\n-\n-\nAnnulé\nRayhan A. F.\nWahyudi D. A.\nJin Y.\nJo S. H.\n-\n-\nTerminé\n(abandon)\nChia A.\nSoh W. Y.\nAmsakarunan H.\nM.R. Arjun\n0\n0\n6\n11\nTerminé\nHu K. Y.\nLiang W. K.\nGutama S. K.\nIsfahani M. R. P.\n2\n0\n23\n21\n21\n16\nTerminé\nLundgaard D.\nVestergaard M.\nAzriyn N. M. A. A.\nTan W. K.\n2\n1\n21\n16\n16\n21\n22\n20\nTerminé\nKjaer C. F.\nKjaer R.\nGoh S. F.\nIzzuddin N.\n0\n2\n15\n21\n16\n21\nTerminé\nLee J-H.\nYang Po-Hsuan\nNomura T.\nShimogami Y.\n2\n0\n21\n17\n21\n15\nTerminé\nTai A.\nYap R. K.\nKumagai K.\nNishi H.\n2\n0\n21\n8\n21\n14\nTerminé\nChiu H. C.\nWang Chi-Lin\nChen Z. R.\nLin Y. C.\n2\n1\n14\n21\n21\n11\n21\n15\nTerminé\nLane B.\nVendy S.\nLee F. C\nLee F. J.\n2\n0\n21\n18\n21\n18\nTerminé\nKang M. H.\nLee J. M.\nJin Y.\nJo S. H.\n0\n2\n20\n22\n11\n21\nTerminé\nOkamura H.\nYamashita K.\nAlfian F.\nFikri M. S.\n2\n1\n21\n14\n11\n21\n29\n27\nTerminé\nChen B. Y.\nLiu Y.\nWang C.\nXie H"
+        "index_text_excerpt": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n10/11 MA\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nCho G. Y.\nLei C. F.\n2\n0\n21\n10\n22\n20\nTerminé\nVillaflor C.\nLee S-R\n1\n2\n21\n14\n12\n21\n17\n21\nTerminé\nHuang P.\nWu Z. Y.\n2\n0\n21\n15\n21\n7\nTerminé\nOng Z. Y.\nEwe E.\n1\n2\n21\n17\n9\n21\n18\n21\nTerminé\nTing Y.\nChiang T. C.\n2\n1\n25\n23\n12\n21\n21\n18\nTerminé\nHuan K. H.\nKavin K. T.\n2\n1\n14\n21\n21\n10\n21\n14\nTerminé\nAidil S.\nChen C. Y.\n2\n1\n14\n21\n21\n10\n21\n14\nTerminé\nKuo K. L.\nRaj N.\n2\n0\n21\n17\n21\n19\nTerminé\nCheng J.\nKim H. D.\n1\n2\n16\n21\n21\n18\n15\n21\nTerminé\nTakahashi K.\nLim Ming Hong\n1\n2\n18\n21\n21\n14\n16\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nAnnulé\nChen B. Y.\nLiu Y.\nGoh S. F.\nIzzuddin N.\n-\n-\nAnnulé\nRankireddy S.\nShetty C.\nWang C.\nXie H. N.\n-\n-\nAnnulé\nRayhan A. F.\nWahyudi D. A.\nJin Y.\nJo S. H.\n-\n-\nTerminé\n(abandon)\nChia A.\nSoh W. Y.\nAmsakarunan H.\nM.R. Arjun\n0\n0\n6\n11\nTerminé\nHu K. Y.\nLiang W. K.\nGutama S. K.\nIsfahani M. R. P.\n2\n0\n23\n21\n21\n16\nTerminé\nLundgaard D.\nVestergaard M.\nAzriyn N. M. A. A.\nTan W. K.\n2\n1\n21\n16\n16\n21\n22\n20\nTerminé\nKjaer C. F.\nKjaer R.\nGoh S. F.\nIzzuddin N.\n0\n2\n15\n21\n16\n21\nTerminé\nLee J-H.\nYang Po-Hsuan\nNomura T.\nShimogami Y.\n2\n0\n21\n17\n21\n15\nTerminé\nTai A.\nYap R. K.\nKumagai K.\nNishi H.\n2\n0\n21\n8\n21\n14\nTerminé\nChiu H. C.\nWang Chi-Lin\nChen Z. R.\nLin Y. C.\n2\n1\n14\n21\n21\n11\n21\n15\nTerminé\nLane B.\nVendy S.\nLee F. C\nLee F. J.\n2\n0\n21\n18\n21\n18\nTerminé\nKang M. H.\nLee J. M.\nJin Y.\nJo S. H.\n0\n2\n20\n22\n11\n21\nTerminé\nOkamura H.\nYamashita K.\nAlfian F.\nFikri M. S.\n2\n1\n21\n14\n11\n21\n29\n27\nTerminé\nChen B. Y.\nLiu Y.\nWang C.\nXie H. N.\n0\n2\n16\n21\n12\n21\nFlashscore Actualit"
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/lim-ming-hong-tlnqavJL/takahashi-koo-YH51wDdo/#/cotes/home-away/temps-regulier/",
@@ -212,7 +212,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "baef72c4acb9f5d4d9886e8ed02a5a7c431d4d3d574199c296578449f5e0cd6a",
+      "body_sha256": "e69f4af772c60fffc1acb7e8393f9b18765413d3526b632721c3d343757227ca",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }

@@ -5,6 +5,200 @@
     "https://www.netbet.fr/badminton/international/masters-du-japon"
   ],
   "elo_comparisons": [],
+  "fixture_join_audit": [
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 32,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Po-Wei Wang",
+        "Tzu Wei Wang"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 32,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Nhat Nguyen",
+        "Nishimoto Kenta"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 32,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Zhe An Hu",
+        "Tien Chen Chou"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 32,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Christo Popov",
+        "Minoru Koga"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 32,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Moh Zaki Ubaidillah",
+        "Brian Yang"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 32,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Li Yang Su",
+        "Toma Junior Popov"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 32,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Alwi Farhan",
+        "Chun Yi Lin"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 32,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Magnus Johannesen",
+        "Vitidsarn Kunlavut"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 32,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Yushi Tanaka",
+        "Zhu Xuan Chen"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 32,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Tae Bin Yoo",
+        "Riki Takei"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 32,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Victor Lai",
+        "Yudai Okimoto"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 32,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Lakshya Sen",
+        "Yu Jen Chi"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 32,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Tian Yao Dong",
+        "Chia Hao Lee"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 32,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Koki Watanabe",
+        "Hyeok Jin Jeon"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 32,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Srikanth Kidambi",
+        "Gemke Rasmus"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-11",
+      "model_rows_same_day": 32,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Panitchaphon Teeraratsakul",
+        "Kodai Naraoka"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    }
+  ],
   "index_badminton_link_count": 5,
   "index_badminton_link_examples": [
     "https://www.netbet.fr/badminton",
@@ -13,7 +207,7 @@
     "https://www.netbet.fr/badminton/international/masters-du-japon-doubles-mixtes",
     "https://www.netbet.fr/badminton/international/masters-du-japon"
   ],
-  "index_body_sha256": "953b8db137583bbc9469203554a19c4b64de1d10b2e2ff78a2343a7cc0365fc5",
+  "index_body_sha256": "da86d38080ab7d89d984083b15f208afccaea0e1aae3b92ae29b8d7eb1cf5e3b",
   "index_eligible_quotes": 3,
   "index_http_status": 200,
   "index_link_count": 143,
@@ -42,7 +236,7 @@
           "Huang Yu-Hsun",
           "3.40"
         ],
-        "market_line": 105,
+        "market_line": 107,
         "preceding_lines": [
           "Scores en direct",
           "Format des cotes",
@@ -68,7 +262,7 @@
           "Nakade-Takahashi",
           "1.68"
         ],
-        "market_line": 116,
+        "market_line": 118,
         "preceding_lines": [
           "04:20",
           "Katethong Supanida",
@@ -94,7 +288,7 @@
           "Chen-Chan",
           "1.25"
         ],
-        "market_line": 145,
+        "market_line": 147,
         "preceding_lines": [
           "1.58",
           "+ 17",
@@ -103,7 +297,7 @@
           "Masters du Japon, Doubles (F)",
           "(7)",
           "Toute l'offre Badminton",
-          "(60)",
+          "(61)",
           "À Venir",
           "Masters du Japon, Doubles Mixtes",
           "mer. 11 nov.",
@@ -120,7 +314,7 @@
           "Hsuan-Fang",
           "1.24"
         ],
-        "market_line": 156,
+        "market_line": 158,
         "preceding_lines": [
           "01:00",
           "Hobara-Shimogami",
@@ -146,7 +340,7 @@
           "Smith-Gai",
           "2.77"
         ],
-        "market_line": 167,
+        "market_line": 169,
         "preceding_lines": [
           "01:00",
           "Ishikawa-Kawabe",
@@ -172,7 +366,7 @@
           "Ishikawa-Konishi",
           "1.58"
         ],
-        "market_line": 178,
+        "market_line": 180,
         "preceding_lines": [
           "01:00",
           "Jae Hyeon-Ha Jeong",
@@ -200,13 +394,14 @@
   "index_resolved_url": "https://www.netbet.fr/badminton",
   "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
   "index_url": "https://www.netbet.fr/badminton",
-  "model_snapshot": null,
-  "observed_at_utc": "2026-11-10T13:23:43+00:00",
+  "model_snapshot": "data/model/snapshots/2026-11-10.csv",
+  "model_snapshot_sha256": "97d0caec34731376fe07a83557a96b4eeb956da6dfef5f88fa7149048b8d348d",
+  "observed_at_utc": "2026-11-10T14:53:37+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "7bf386bd1768126fc7ef053815de878e4306162e47f9643c0678fa10335ade6b",
+      "body_sha256": "dac915e8f8ebae2d33cafac62176c71b2e7f317a38889effec69813277c9448a",
       "cache_age_seconds": null,
       "eligible_listing_rows": 15,
       "http_status": 200,
@@ -219,7 +414,7 @@
             "Nishimoto Kenta",
             "1.72"
           ],
-          "market_line": 104,
+          "market_line": 106,
           "preceding_lines": [
             "Règlement des paris",
             "Scores en direct",
@@ -557,7 +752,7 @@
     }
   ],
   "reason_counts": {
-    "MISSING_SAME_DAY_ELO_SNAPSHOT": 16
+    "NO_UNIQUE_BWF_FIXTURE": 16
   },
   "robots_status": "ALLOWED_BY_ROBOTS",
   "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
