@@ -207,7 +207,7 @@
     "https://www.netbet.fr/badminton/international/masters-du-japon-doubles-mixtes",
     "https://www.netbet.fr/badminton/international/masters-du-japon"
   ],
-  "index_body_sha256": "da86d38080ab7d89d984083b15f208afccaea0e1aae3b92ae29b8d7eb1cf5e3b",
+  "index_body_sha256": "e884c204ae35d45b268056eb812ec0a4e8ed86fa0a452c7094808b475d328429",
   "index_eligible_quotes": 3,
   "index_http_status": 200,
   "index_link_count": 143,
@@ -236,7 +236,7 @@
           "Huang Yu-Hsun",
           "3.40"
         ],
-        "market_line": 107,
+        "market_line": 105,
         "preceding_lines": [
           "Scores en direct",
           "Format des cotes",
@@ -262,7 +262,7 @@
           "Nakade-Takahashi",
           "1.68"
         ],
-        "market_line": 118,
+        "market_line": 116,
         "preceding_lines": [
           "04:20",
           "Katethong Supanida",
@@ -288,7 +288,7 @@
           "Chen-Chan",
           "1.25"
         ],
-        "market_line": 147,
+        "market_line": 145,
         "preceding_lines": [
           "1.58",
           "+ 17",
@@ -314,7 +314,7 @@
           "Hsuan-Fang",
           "1.24"
         ],
-        "market_line": 158,
+        "market_line": 156,
         "preceding_lines": [
           "01:00",
           "Hobara-Shimogami",
@@ -340,7 +340,7 @@
           "Smith-Gai",
           "2.77"
         ],
-        "market_line": 169,
+        "market_line": 167,
         "preceding_lines": [
           "01:00",
           "Ishikawa-Kawabe",
@@ -366,7 +366,7 @@
           "Ishikawa-Konishi",
           "1.58"
         ],
-        "market_line": 180,
+        "market_line": 178,
         "preceding_lines": [
           "01:00",
           "Jae Hyeon-Ha Jeong",
@@ -396,12 +396,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-11-10.csv",
   "model_snapshot_sha256": "97d0caec34731376fe07a83557a96b4eeb956da6dfef5f88fa7149048b8d348d",
-  "observed_at_utc": "2026-11-10T14:53:37+00:00",
+  "observed_at_utc": "2026-11-10T15:04:21+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "dac915e8f8ebae2d33cafac62176c71b2e7f317a38889effec69813277c9448a",
+      "body_sha256": "f4b410274249d5dd387d3b7a105012482f1ac1e08a6311e095e5575616722f35",
       "cache_age_seconds": null,
       "eligible_listing_rows": 15,
       "http_status": 200,
@@ -414,7 +414,7 @@
             "Nishimoto Kenta",
             "1.72"
           ],
-          "market_line": 106,
+          "market_line": 104,
           "preceding_lines": [
             "Règlement des paris",
             "Scores en direct",
