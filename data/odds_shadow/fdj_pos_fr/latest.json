@@ -1,11 +1,11 @@
 {
-  "body_sha256": "a983cef35840072478d6bf1bcb931481d0039d4a872fd7e85d0627e89ab41a10",
+  "body_sha256": "53bbedd9d7d0fd15cb762fd50b7135f028ad9ac1fea8796a65be14ed15ceb333",
   "bookmaker_price_updated_at": null,
   "cache_age_seconds": null,
-  "finished_at_utc": "2026-11-10T14:52:51+00:00",
+  "finished_at_utc": "2026-11-10T15:11:59+00:00",
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-11-10T14:52:41+00:00",
+  "observed_at_utc": "2026-11-10T15:11:48+00:00",
   "operator": "Parions Sport Point de Vente (FDJ)",
   "operator_kind": "RETAIL_NOT_ONLINE",
   "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
@@ -258,10 +258,10 @@
   "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Tue, 10 Nov 2026 14:52:42 GMT",
+  "server_date": "Tue, 10 Nov 2026 15:11:49 GMT",
   "source_key": "fdj_pos_fr",
   "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
   "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nAmicaux (H)\nLDN\nLDC (F)\nLaLiga 2\nL1 McDonald's\nPremier League\nLaLiga\n+\nAfficher plus\nTennis\nToutes les compétitions\nStockholm\nWTA Finals\nWTA Finals DF\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nCpe de France H\nEurocup (H)\nChampionsLeague\nEurope Cup\nEuro Qualif.(F)\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBoxe\nGolf\nMMA\nSnooker\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nAujourd'hui\nKawabe/Ishika-Yang/Hu\nKumamoto DM\n\nN°11498 Face à Face I Fin de valid. 11/11 00h55\n\nAfficher\nKawabe/Ishika\n2,50\nYang/Hu\n1,25\n0%\n99%\nShimoga/Hobara-Chen/Chan\nKumamoto DM\n\nN°12748 Face à Face I Fin de valid. 11/11 00h55\n\nAfficher\nShimoga/Hobara\n2,70\nChen/Chan\n1,20\n17%\n82%\nKim/Jang-Smith/Gai\nKumamoto DM\n\nN°12103 Face à Face I Fin de valid. 11/11 00h55\n\nAfficher\nKim/Jang\n1,29\nSmith/Gai\n2,35\n99%\n0%\nCheng/Zhang-Chen/Corbett\nKumamoto DM\n\nN°2920 Face à Face I Fin de valid. 11/11 00h55\n\nAfficher\nChen/Corbett\n",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nAmicaux (H)\nLDN\nLDC (F)\nLaLiga 2\nL1 McDonald's\nPremier League\nLaLiga\n+\nAfficher plus\nTennis\nToutes les compétitions\nATP Finals\nStockholm\nWTA Finals\nWTA Finals DF\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nCpe de France H\nEurocup (H)\nChampionsLeague\nEurope Cup\nEuro Qualif.(F)\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBoxe\nGolf\nMMA\nSnooker\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nAujourd'hui\nKawabe/Ishika-Yang/Hu\nKumamoto DM\n\nN°11498 Face à Face I Fin de valid. 11/11 00h55\n\nAfficher\nKawabe/Ishika\n2,50\nYang/Hu\n1,25\n0%\n99%\nShimoga/Hobara-Chen/Chan\nKumamoto DM\n\nN°12748 Face à Face I Fin de valid. 11/11 00h55\n\nAfficher\nShimoga/Hobara\n2,70\nChen/Chan\n1,20\n92%\n7%\nKim/Jang-Smith/Gai\nKumamoto DM\n\nN°12103 Face à Face I Fin de valid. 11/11 00h55\n\nAfficher\nKim/Jang\n1,29\nSmith/Gai\n2,35\n99%\n0%\nCheng/Zhang-Chen/Corbett\nKumamoto DM\n\nN°2920 Face à Face I Fin de valid. 11/11 00h55\n\nAfficher\nChe",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }
