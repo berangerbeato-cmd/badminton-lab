@@ -43,128 +43,16 @@
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-11-10T15:12:53.771567+00:00",
+  "generated_at_utc": "2026-11-11T12:34:14.538522+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
-  "model_fixture_count": 32,
+  "model_fixture_count": 17,
   "model_fixtures": [
-    {
-      "match_id": "5216:1565766",
-      "players": [
-        "Alwi FARHAN",
-        "LIN Chun-Yi"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5216:1565771",
-      "players": [
-        "Tae Bin YOO",
-        "Riki TAKEI"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5216:1565774",
-      "players": [
-        "Yushi TANAKA",
-        "Xuan Chen ZHU"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5216:1565780",
-      "players": [
-        "Magnus JOHANNESEN",
-        "Kunlavut VITIDSARN"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5216:1565797",
-      "players": [
-        "Tian Yao DONG",
-        "Chia Hao LEE"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5216:1565820",
-      "players": [
-        "Victor LAI",
-        "Yudai OKIMOTO"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5216:1565832",
-      "players": [
-        "HU Zhe An",
-        "CHOU Tien Chen"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5216:1565843",
-      "players": [
-        "Christo POPOV",
-        "Minoru KOGA"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5216:1565855",
-      "players": [
-        "Lakshya SEN",
-        "CHI Yu Jen"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5216:1565863",
-      "players": [
-        "Koki WATANABE",
-        "JEON Hyeok Jin"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5216:1565876",
-      "players": [
-        "WANG Po-Wei",
-        "WANG Tzu Wei"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
     {
       "match_id": "5216:1565881",
       "players": [
         "KIDAMBI Srikanth",
         "Rasmus GEMKE"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5216:1565900",
-      "players": [
-        "Nhat NGUYEN",
-        "Kenta NISHIMOTO"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5216:1565909",
-      "players": [
-        "SU Li  Yang",
-        "Toma Junior POPOV"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5216:1565917",
-      "players": [
-        "Moh. Zaki UBAIDILLAH",
-        "Brian YANG"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
@@ -177,130 +65,122 @@
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5652:1565502",
+      "match_id": "5216:1565796",
+      "players": [
+        "WANG Po-Wei",
+        "Toma Junior POPOV"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5216:1565798",
+      "players": [
+        "Tae Bin YOO",
+        "Kunlavut VITIDSARN"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5216:1565800",
+      "players": [
+        "Koki WATANABE",
+        "CHOU Tien Chen"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5216:1565802",
+      "players": [
+        "Victor LAI",
+        "Yushi TANAKA"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5216:1565803",
+      "players": [
+        "Lakshya SEN",
+        "Tian Yao DONG"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5216:1565816",
+      "players": [
+        "Alwi FARHAN",
+        "Kenta NISHIMOTO"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5216:1565821",
+      "players": [
+        "Christo POPOV",
+        "Moh. Zaki UBAIDILLAH"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5652:1565551",
+      "players": [
+        "Kantaphon WANGCHAROEN",
+        "HUANG Yu"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5652:1565552",
+      "players": [
+        "Kosuke MASUMOTO",
+        "Sholeh AIDIL"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5652:1565554",
+      "players": [
+        "Geon Yeop CHO",
+        "Yuan-Syue JHUANG"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5652:1565556",
       "players": [
         "HUANG Ping-Hsien",
-        "Cheng-Han TSAI"
+        "Hae Deun KIM"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5652:1565504",
-      "players": [
-        "HUANG Yu",
-        "Wei-Cheng SU"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5652:1565506",
-      "players": [
-        "Usman AWAN",
-        "An Chi CHEN"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5652:1565522",
-      "players": [
-        "HOH Justin",
-        "LEE Samuel"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5652:1565593",
-      "players": [
-        "KOK Jing Hong",
-        "Ming Hong LIM"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5652:1565612",
-      "players": [
-        "Meiraba Luwang MAISNAM",
-        "Chung-Hsiang YIH"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5652:1565619",
-      "players": [
-        "Hae Deun KIM",
-        "Prahdiska Bagas SHUJIWO"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5652:1565623",
-      "players": [
-        "Sholeh AIDIL",
-        "Shogo OGAWA"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5652:1565640",
-      "players": [
-        "Yuan-Syue JHUANG",
-        "Jia Wei Joel KOH"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5652:1565654",
-      "players": [
-        "Yu-Kai WANG",
-        "Geon Yeop CHO"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5652:1565662",
+      "match_id": "5652:1565558",
       "players": [
         "Rei MIYASHITA",
-        "Ka To LAM"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5652:1565671",
-      "players": [
-        "Wei Tse LIAO",
-        "Kantaphon WANGCHAROEN"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5652:1565714",
-      "players": [
-        "LIAO Jhuo-Fu",
-        "KUO Kuan Lin"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5652:1565721",
-      "players": [
-        "Ethan ROSE",
-        "HUAN Kai Hern"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5652:1565743",
-      "players": [
-        "TING Yen-Chen",
         "Anthony Sinisuka GINTING"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5652:1565759",
+      "match_id": "5652:1565559",
       "players": [
         "Eogene EWE",
-        "Mark Shelley ALCALA"
+        "Richie Duta RICHARDO"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5652:1565603",
+      "players": [
+        "HOH Justin",
+        "HUAN Kai Hern"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5652:1565610",
+      "players": [
+        "KUO Kuan Lin",
+        "KOK Jing Hong"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     }
@@ -309,192 +189,192 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-10T15:11:38+00:00",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-10T16:11:38.226963+01:00",
+      "observed_at_utc": "2026-11-11T12:33:00+00:00",
+      "parser_notes": "parsed; page_parsed_entries=2; by_discipline_and_status=F:OBSERVED_DATE_UNVERIFIED=2; eligible_MS_H2H=0; local_now=2026-11-11T13:33:00.041681+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
     },
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
-      "quote_count": 16,
-      "observed_at_utc": "2026-11-10T15:12:42+00:00",
+      "quote_count": 3,
+      "observed_at_utc": "2026-11-11T12:34:03+00:00",
       "parser_notes": null,
       "index_market_audit": {
-        "eligible_listing_rows": 3,
-        "markets_seen": 13,
+        "eligible_listing_rows": 2,
+        "markets_seen": 11,
         "rejection_evidence": [
           {
             "following_lines": [
-              "Katethong Supanida",
-              "1.15",
-              "Huang Yu-Hsun",
-              "3.40"
+              "Chen Rachel",
+              "16.00",
+              "Zhiyi Wang",
+              "1.01"
             ],
-            "market_line": 105,
+            "market_line": 112,
             "preceding_lines": [
-              "Scores en direct",
-              "Format des cotes",
-              "Accueil",
-              "Badminton",
-              "Pariez sur",
               "Badminton",
               "À L'AFFICHE",
+              "EN DIRECT",
               "TOUTE L'OFFRE BADMINTON",
-              "Populaires",
+              "En direct",
               "Masters du Japon (F)",
-              "mer. 11 nov.",
-              "04:20",
-              "Katethong Supanida",
-              "Huang Yu-Hsun"
+              "Set 2",
+              "LIVE",
+              "Chen Rachel",
+              "Zhiyi Wang",
+              "0",
+              "1",
+              "8",
+              "9"
             ],
-            "reason": "NON_MS_COMPETITION"
+            "reason": "PLAYER_PAIR_MISMATCH"
           },
           {
             "following_lines": [
-              "Chen-Luo",
-              "1.75",
-              "Nakade-Takahashi",
-              "1.68"
+              "Xing-Chi",
+              "1.10",
+              "Jae Hyeon-Ha Jeong",
+              "3.90"
             ],
-            "market_line": 116,
+            "market_line": 127,
             "preceding_lines": [
-              "04:20",
-              "Katethong Supanida",
-              "Huang Yu-Hsun",
-              "Qui va gagner le match ?",
-              "Katethong Supanida",
-              "1.15",
-              "Huang Yu-Hsun",
-              "3.40",
-              "+ 16",
-              "Masters du Japon, Doubles (F)",
-              "mer. 11 nov.",
-              "01:20",
-              "Chen-Luo",
-              "Nakade-Takahashi"
-            ],
-            "reason": "NON_MS_COMPETITION"
-          },
-          {
-            "following_lines": [
-              "Hobara-Shimogami",
-              "2.77",
-              "Chen-Chan",
-              "1.25"
-            ],
-            "market_line": 145,
-            "preceding_lines": [
-              "1.58",
-              "+ 17",
-              "Masters du Japon (F)",
-              "(16)",
-              "Masters du Japon, Doubles (F)",
-              "(7)",
-              "Toute l'offre Badminton",
-              "(61)",
+              "Chen Rachel",
+              "16.00",
+              "Zhiyi Wang",
+              "1.01",
+              "+ 3",
+              "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
+              "En direct",
+              "(4)",
               "À Venir",
               "Masters du Japon, Doubles Mixtes",
-              "mer. 11 nov.",
+              "jeu. 12 nov.",
               "01:00",
-              "Hobara-Shimogami",
-              "Chen-Chan"
+              "Xing-Chi",
+              "Jae Hyeon-Ha Jeong"
             ],
             "reason": "NON_MS_COMPETITION"
           },
           {
             "following_lines": [
-              "Ishikawa-Kawabe",
-              "2.80",
-              "Hsuan-Fang",
-              "1.24"
-            ],
-            "market_line": 156,
-            "preceding_lines": [
-              "01:00",
-              "Hobara-Shimogami",
-              "Chen-Chan",
-              "Qui va gagner le match ?",
-              "Hobara-Shimogami",
-              "2.77",
-              "Chen-Chan",
-              "1.25",
-              "+ 17",
-              "Masters du Japon, Doubles Mixtes",
-              "mer. 11 nov.",
-              "01:00",
-              "Ishikawa-Kawabe",
-              "Hsuan-Fang"
-            ],
-            "reason": "NON_MS_COMPETITION"
-          },
-          {
-            "following_lines": [
-              "Jae Hyeon-Ha Jeong",
-              "1.25",
-              "Smith-Gai",
-              "2.77"
-            ],
-            "market_line": 167,
-            "preceding_lines": [
-              "01:00",
-              "Ishikawa-Kawabe",
-              "Hsuan-Fang",
-              "Qui va gagner le match ?",
-              "Ishikawa-Kawabe",
-              "2.80",
-              "Hsuan-Fang",
-              "1.24",
-              "+ 17",
-              "Masters du Japon, Doubles Mixtes",
-              "mer. 11 nov.",
-              "01:00",
-              "Jae Hyeon-Ha Jeong",
-              "Smith-Gai"
-            ],
-            "reason": "NON_MS_COMPETITION"
-          },
-          {
-            "following_lines": [
-              "Kato-Kanehiro",
-              "1.87",
-              "Ishikawa-Konishi",
+              "Syahnawi-Marwah",
+              "1.88",
+              "Watanabe-Taguchi",
               "1.58"
             ],
-            "market_line": 178,
+            "market_line": 138,
             "preceding_lines": [
               "01:00",
+              "Xing-Chi",
               "Jae Hyeon-Ha Jeong",
-              "Smith-Gai",
               "Qui va gagner le match ?",
+              "Xing-Chi",
+              "1.10",
               "Jae Hyeon-Ha Jeong",
-              "1.25",
-              "Smith-Gai",
-              "2.77",
+              "3.90",
+              "+ 2",
+              "Masters du Japon, Doubles Mixtes",
+              "jeu. 12 nov.",
+              "01:10",
+              "Syahnawi-Marwah",
+              "Watanabe-Taguchi"
+            ],
+            "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Wu-Yang",
+              "1.85",
+              "Ishikawa-Kawabe",
+              "1.60"
+            ],
+            "market_line": 149,
+            "preceding_lines": [
+              "01:10",
+              "Syahnawi-Marwah",
+              "Watanabe-Taguchi",
+              "Qui va gagner le match ?",
+              "Syahnawi-Marwah",
+              "1.88",
+              "Watanabe-Taguchi",
+              "1.58",
+              "+ 3",
+              "Masters du Japon, Doubles Mixtes",
+              "jeu. 12 nov.",
+              "01:10",
+              "Wu-Yang",
+              "Ishikawa-Kawabe"
+            ],
+            "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Hobara-Shimogami",
+              "1.73",
+              "Zhu-Li",
+              "1.71"
+            ],
+            "market_line": 171,
+            "preceding_lines": [
+              "01:20",
+              "Christo Popov",
+              "Moh Zaki Ubaidillah",
+              "Qui va gagner le match ?",
+              "Christo Popov",
+              "1.18",
+              "Moh Zaki Ubaidillah",
+              "3.20",
+              "+ 5",
+              "Masters du Japon, Doubles Mixtes",
+              "jeu. 12 nov.",
+              "01:50",
+              "Hobara-Shimogami",
+              "Zhu-Li"
+            ],
+            "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Chiu-Wang",
+              "2.10",
+              "Okamura-Yamashita",
+              "1.45"
+            ],
+            "market_line": 193,
+            "preceding_lines": [
+              "02:00",
+              "Alwi Farhan",
+              "Nishimoto Kenta",
+              "Qui va gagner le match ?",
+              "Alwi Farhan",
+              "1.09",
+              "Nishimoto Kenta",
+              "4.10",
               "+ 17",
-              "Masters du Japon, Doubles (F)",
-              "mer. 11 nov.",
-              "01:00",
-              "Kato-Kanehiro",
-              "Ishikawa-Konishi"
+              "Masters du Japon, Doubles",
+              "jeu. 12 nov.",
+              "02:00",
+              "Chiu-Wang",
+              "Okamura-Yamashita"
             ],
             "reason": "NON_MS_COMPETITION"
           }
         ],
         "rejections": {
-          "NON_MS_COMPETITION": 9,
-          "PRICE_NOT_CONFIRMED": 1
+          "NON_MS_COMPETITION": 8,
+          "PLAYER_PAIR_MISMATCH": 1
         }
       },
       "reason_counts": {
-        "NO_UNIQUE_BWF_FIXTURE": 16
+        "MISSING_SAME_DAY_ELO_SNAPSHOT": 3
       },
       "blocker": "QUOTE_OBSERVED_REQUIRES_VALIDATION"
     },
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-10T15:12:00+00:00",
+      "observed_at_utc": "2026-11-11T12:33:20+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -503,7 +383,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-10T15:12:15+00:00",
+      "observed_at_utc": "2026-11-11T12:33:35+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -512,7 +392,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-10T15:11:46+00:00",
+      "observed_at_utc": "2026-11-11T12:33:07+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -520,8 +400,8 @@
     },
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-      "quote_count": 16,
-      "observed_at_utc": "2026-11-10T15:11:48+00:00",
+      "quote_count": 3,
+      "observed_at_utc": "2026-11-11T12:33:08+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -530,7 +410,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-10T15:12:01+00:00",
+      "observed_at_utc": "2026-11-11T12:33:21+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -539,7 +419,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-10T15:12:11+00:00",
+      "observed_at_utc": "2026-11-11T12:33:31+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -548,7 +428,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-10T15:12:20+00:00",
+      "observed_at_utc": "2026-11-11T12:33:40+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -557,7 +437,7 @@
     "oddspedia_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-10T15:12:17+00:00",
+      "observed_at_utc": "2026-11-11T12:33:37+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -566,7 +446,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-10T15:12:37+00:00",
+      "observed_at_utc": "2026-11-11T12:33:59+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
