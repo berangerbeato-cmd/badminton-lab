@@ -1,0 +1,66 @@
+{
+  "generated_at_utc": "2026-11-12T13:41:09+00:00",
+  "comparison_generated_at_utc": "2026-11-12T13:41:07+00:00",
+  "policy": "RESEARCH_ONLY_NO_BET",
+  "comparison_count": 4,
+  "status_counts": {
+    "BLOCKED_UNVERIFIED": 4
+  },
+  "reason_counts": {
+    "EV_MISSING_OR_INVALID": 4,
+    "MATCH_ID_MISSING": 2,
+    "MODEL_AGE_UNKNOWN": 4,
+    "UNEXPECTED_SOURCE_STATUS": 4
+  },
+  "rows": [
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "",
+      "player_a": "Toma Junior Popov",
+      "player_b": "Vitidsarn Kunlavut",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5216:1565824",
+      "player_a": "Moh Zaki Ubaidillah",
+      "player_b": "Alwi Farhan",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "",
+      "player_a": "Srikanth Kidambi",
+      "player_b": "Koki Watanabe",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5216:1565828",
+      "player_a": "Yushi Tanaka",
+      "player_b": "Lakshya Sen",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    }
+  ],
+  "note": "Quality audit only; never confirms a market or executable price."
+}

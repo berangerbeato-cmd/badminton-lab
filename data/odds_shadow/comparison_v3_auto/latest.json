@@ -2,13 +2,22 @@
   "verification_summary": {
     "unique_matched_fixture_count": 0,
     "matched_fixture_ids": [],
-    "unmatched_observation_count": 3,
+    "unmatched_observation_count": 4,
     "unmatched_observations": [
       {
         "source": "netbet_quotes",
         "players": [
-          "Christo Popov",
-          "Moh Zaki Ubaidillah"
+          "Toma Junior Popov",
+          "Vitidsarn Kunlavut"
+        ],
+        "status": "FIXTURE_ABSENT_FROM_MODEL",
+        "listed_day_paris": "2026-11-13"
+      },
+      {
+        "source": "netbet_quotes",
+        "players": [
+          "Moh Zaki Ubaidillah",
+          "Alwi Farhan"
         ],
         "status": "TOURNAMENT_MISMATCH",
         "listed_day_paris": null
@@ -16,40 +25,40 @@
       {
         "source": "netbet_quotes",
         "players": [
-          "Alwi Farhan",
-          "Nishimoto Kenta"
+          "Srikanth Kidambi",
+          "Koki Watanabe"
         ],
         "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-12"
+        "listed_day_paris": "2026-11-13"
       },
       {
         "source": "netbet_quotes",
         "players": [
-          "Po-Wei Wang",
-          "Toma Junior Popov"
+          "Yushi Tanaka",
+          "Lakshya Sen"
         ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-12"
+        "status": "TOURNAMENT_MISMATCH",
+        "listed_day_paris": null
       }
     ],
     "external_schedule_coverage_count": 0,
     "kickoff_evidence_status_counts": {},
     "prematch_timing_status_counts": {},
-    "model_fixture_count": 17,
-    "public_quote_count": 3,
-    "comparison_count": 3,
+    "model_fixture_count": 8,
+    "public_quote_count": 4,
+    "comparison_count": 4,
     "status_counts": {
-      "TOURNAMENT_MISMATCH": 1,
-      "FIXTURE_ABSENT_FROM_MODEL": 2
+      "FIXTURE_ABSENT_FROM_MODEL": 2,
+      "TOURNAMENT_MISMATCH": 2
     },
     "verified_prematch_count": 0,
     "validated_roi_pct": null,
     "missing_kickoff_count": 0,
     "missing_executable_price_count": 0
   },
-  "generated_at_utc": "2026-11-11T12:34:13+00:00",
+  "generated_at_utc": "2026-11-12T13:41:07+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
-  "comparison_count": 3,
+  "comparison_count": 4,
   "rejected_sources": [],
   "source_audit": {
     "unibet_fr": {
@@ -61,7 +70,7 @@
     "netbet_quotes": {
       "status": "FRESH_SNAPSHOT",
       "snapshot_file": "data/odds_shadow/netbet_quotes/latest.json",
-      "quotes_read": 3,
+      "quotes_read": 4,
       "collector_status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
     }
   },
@@ -69,35 +78,45 @@
     {
       "source": "netbet_quotes",
       "players": [
-        "Christo Popov",
-        "Moh Zaki Ubaidillah"
+        "Toma Junior Popov",
+        "Vitidsarn Kunlavut"
       ],
-      "bwf_match_id": "5216:1565821",
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 8,
+      "listed_day_paris": "2026-11-13",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "players": [
+        "Moh Zaki Ubaidillah",
+        "Alwi Farhan"
+      ],
+      "bwf_match_id": "5216:1565824",
       "status": "TOURNAMENT_MISMATCH",
       "decision": "NO_BET"
     },
     {
       "source": "netbet_quotes",
       "players": [
-        "Alwi Farhan",
-        "Nishimoto Kenta"
+        "Srikanth Kidambi",
+        "Koki Watanabe"
       ],
       "status": "FIXTURE_ABSENT_FROM_MODEL",
       "matches": 0,
-      "model_fixtures_on_listed_day": 15,
-      "listed_day_paris": "2026-11-12",
+      "model_fixtures_on_listed_day": 8,
+      "listed_day_paris": "2026-11-13",
       "decision": "NO_BET"
     },
     {
       "source": "netbet_quotes",
       "players": [
-        "Po-Wei Wang",
-        "Toma Junior Popov"
+        "Yushi Tanaka",
+        "Lakshya Sen"
       ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 15,
-      "listed_day_paris": "2026-11-12",
+      "bwf_match_id": "5216:1565828",
+      "status": "TOURNAMENT_MISMATCH",
       "decision": "NO_BET"
     }
   ]
