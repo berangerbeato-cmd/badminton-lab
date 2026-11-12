@@ -63,7 +63,7 @@
     "https://www.netbet.fr/badminton/international/masters-du-japon",
     "https://www.netbet.fr/badminton/international/masters-du-japon-doubles-f"
   ],
-  "index_body_sha256": "206dae9ea2a63e454ddbd5b3d897ac3d11c127ba61b54e7159ca83a505aa90f6",
+  "index_body_sha256": "dd7f4b6b7966faa834d1758c40f4a1159e560c0b4341d394da0ccca6d4638ed5",
   "index_eligible_quotes": 4,
   "index_http_status": 200,
   "index_link_count": 129,
@@ -166,9 +166,9 @@
       {
         "following_lines": [
           "Zhu-Li",
-          "1.92",
+          "1.85",
           "Gao-Wu",
-          "1.55"
+          "1.61"
         ],
         "market_line": 146,
         "preceding_lines": [
@@ -206,7 +206,7 @@
           "2.17",
           "Alwi Farhan",
           "1.43",
-          "+ 16",
+          "+ 18",
           "Masters du Japon, Doubles Mixtes",
           "ven. 13 nov.",
           "02:30",
@@ -218,9 +218,9 @@
       {
         "following_lines": [
           "Lee-Yang",
-          "1.62",
+          "1.63",
           "Tai-King",
-          "1.83"
+          "1.82"
         ],
         "market_line": 212,
         "preceding_lines": [
@@ -251,12 +251,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-11-12.csv",
   "model_snapshot_sha256": "9dd772de5347014349cc3e668deabbb66528a9ed5973b26670965ca7a296274b",
-  "observed_at_utc": "2026-11-12T15:13:11+00:00",
+  "observed_at_utc": "2026-11-12T15:28:10+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "4e79b5139018f044e33c66384ba5fa9801c5885756c7943d0b210c8d741728e8",
+      "body_sha256": "f7748e6738126067b26bcffa4068c75f763cbfe421178b011cbee91b03bf8623",
       "cache_age_seconds": null,
       "eligible_listing_rows": 3,
       "http_status": 200,
@@ -340,7 +340,7 @@
       "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
     },
     {
-      "bookmaker_overround_pct": 16.08,
+      "bookmaker_overround_pct": 16.57,
       "competition_display": "Masters du Japon",
       "day_basis": "PUBLISHED_CALENDAR_DATE",
       "discipline": "MS",
@@ -348,14 +348,14 @@
       "listed_day_paris": "2026-11-13",
       "market": "H2H_FULL_MATCH",
       "market_probabilities_only_not_v32_ev": true,
-      "normalized_market_probability_1": 0.366577,
-      "normalized_market_probability_2": 0.633423,
-      "odds_1": 2.35,
-      "odds_2": 1.36,
+      "normalized_market_probability_1": 0.350133,
+      "normalized_market_probability_2": 0.649867,
+      "odds_1": 2.45,
+      "odds_2": 1.32,
       "player_1_display": "Srikanth Kidambi",
       "player_2_display": "Koki Watanabe",
-      "raw_implied_probability_1": 0.425532,
-      "raw_implied_probability_2": 0.735294,
+      "raw_implied_probability_1": 0.408163,
+      "raw_implied_probability_2": 0.757576,
       "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
     },
     {
