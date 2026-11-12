@@ -1,0 +1,16 @@
+{
+  "generated_at_utc": "2026-11-12T15:10:20+00:00",
+  "matched_fixtures_count": 0,
+  "matches": [],
+  "model_snapshot": "data/model/snapshots/2026-11-12.csv",
+  "model_snapshot_sha256": "9dd772de5347014349cc3e668deabbb66528a9ed5973b26670965ca7a296274b",
+  "notes": "Illustrative EV only. Source reading timestamp is NOT bookmaker quote update time. BWF start date at 00:00 is NOT a verified match start. Do not write Predictions, T0, Odds History or place wagers. Source status: NO_CONFIDENT_PREMATCH_QUOTES",
+  "operator": "Unibet.fr",
+  "policy": "NO_BET_SHADOW_ONLY_NO_SHEETS_WRITE",
+  "rejections": {},
+  "source_archive": "data/odds_shadow/unibet_fr/2026-11-12T150908Z.json",
+  "source_observed_at_utc": "2026-11-12T15:09:09+00:00",
+  "source_quotes_count": 0,
+  "source_sha256": "fc838c125df4a1e5dbdf51e3fec3a6e52cf729277ffa24ba43f8499ff5a9f12b",
+  "status": "SOURCE_NOT_READY"
+}

@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-12T13:39:51+00:00",
+  "observed_at_utc": "2026-11-12T15:09:08+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 4,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-12T14:39:51.897904+01:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-12T16:09:08.439788+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "d2e4075315794c942c38632f27c5ca372231ccdc4d07efb3d0b84bed0658236c",
+      "body_sha256": "c697bfebcb32b133e6b5c9398af49c3acc3e026cc29155418de2c7e43de7c0c4",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -39,7 +39,7 @@
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "38a02b8b9b43ec5e9e9729e08d89bd55cdf1c6c950b4749633472659852f7f28",
+      "body_sha256": "d2cffb3df5eb44a5c57d034395ae1ca4ad34d2d953b060539d4988143d4e53f5",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "b3febe006315479e5d60cc3e127158f6bbf866e5664b1702499d2a5251308f81",
+      "body_sha256": "0afc3f2136687c957b625ec4735d7eaec8db437f588fdf1f9755387378af6bef",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "241a6c504c14a3fdfcfd88d7701e44382e96152d24dd802a690306ad3aaee177",
+      "body_sha256": "2d278969c005b1efe54c1e2ea4662346887c66e5ab858193e06df69b0c687b9a",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "beef726a77241d665cb8ec26f3c8983d1a170f34eb112ace88c8cb76fcda384a",
+      "body_sha256": "30693a7a5e3439336a938792db86133cb608f9bf59aaf51ce03e14cdaf183527",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "eba516faa6b49169dc1ecda6b846dce65b90b8466d282a5b20608c0244a55a88",
+      "body_sha256": "f6b46fb17ba658dfc68b2c72d42cccc770af7fd12fc869759f676f58048f9870",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "185",
-      "body_sha256": "105ec7bddc05336718b12dc139472ac5f9edb7b793c87a014d6110978d99eaea",
+      "cache_age_seconds": "302",
+      "body_sha256": "faac5ca9d4ee1513a02aad7b90c4e02a16de2efe4dc03556320f0f69502abe96",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/hoh-justin-shou-wei-Ig3dxk1m/huan-kai-hern-rBbZ6dlJ/?mid=vHTaH1fB",
@@ -164,7 +164,7 @@
         ],
         "index_match_link_count": 84,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n12/11 JE\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nHoh J.\nHuan K. H.\n2\n0\n21\n17\n23\n21\nTerminé\nKuo K. L.\nKok J. H.\n2\n0\n21\n7\n21\n16\nTerminé\nMiyashita R.\nGinting A. S.\n2\n1\n7\n21\n23\n21\n21\n19\nTerminé\nHuang P.\nKim H. D.\n0\n2\n12\n21\n17\n21\nTerminé\nWangcharoen K.\nHuang Y.\n2\n0\n22\n20\n21\n14\nTerminé\nMasumoto K.\nAidil S.\n0\n2\n10\n21\n6\n21\nTerminé\nCho G.\nJhuang Y.\n2\n0\n21\n14\n21\n18\nTerminé\nEwe E.\nRichardo R. D.\n0\n2\n6\n21\n16\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nPopov C.\nUbaidillah M. Z.\n0\n2\n15\n21\n19\n21\nTerminé\nWang P.\nPopov T. J.\n0\n2\n9\n21\n18\n21\nTerminé\nFarhan A.\nNishimoto K.\n2\n1\n21\n13\n6\n21\n21\n11\nTerminé\nYoo T. B.\nVitidsarn K.\n0\n2\n19\n21\n14\n21\nTerminé\nWatanabe K.\nChou T. Ch.\n2\n0\n24\n22\n21\n19\nTerminé\nLai V.\nTanaka Y.\n0\n2\n16\n21\n19\n21\nTerminé\nSrikanth K.\nNaraoka K.\n2\n1\n21\n15\n11\n21\n21\n18\nTerminé\nSen L.\nDong T. Y.\n2\n0\n21\n8\n21\n14\nFlashscore Actualités\nPierre Sage limogé de son poste d'entraîneur à Crystal Palace\nManchester United se sépare de Michael Carrick après un début de saison catastrophique\nZverev retrouve Shelton dans le même groupe aux ATP Finals, Alcaraz face à Medvedev\nAller vers Actualités\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nChen S. Y.\nLiang K. W.\n2\n1\n20\n22\n21\n12\n21\n14\nTerminé\nHung Y.\nSu X.\n1\n2\n15\n21\n23\n21\n17\n21\nTerminé\nSattayathadakoon L.\nPratiwi N. K. D. A.\n1\n2\n18\n21\n21\n17\n12\n21\nTerminé\nPeng Y. W.\nWiryawan T. R.\n2\n1\n18\n21\n21\n18\n21\n15\nTerminé\nMasuki S.\nShah T.\n2\n1\n18\n21\n21\n15\n24\n22\nTerminé\nLo S. Y. H.\nWang P. Y.\n2\n0\n21\n15\n21\n14\nTerminé\nLiao Y. C.\nLiang T. Y.\n2\n1\n9\n2"
+        "index_text_excerpt": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n12/11 JE\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nHoh J.\nHuan K. H.\n2\n0\n21\n17\n23\n21\nTerminé\nKuo K. L.\nKok J. H.\n2\n0\n21\n7\n21\n16\nTerminé\nMiyashita R.\nGinting A. S.\n2\n1\n7\n21\n23\n21\n21\n19\nTerminé\nHuang P.\nKim H. D.\n0\n2\n12\n21\n17\n21\nTerminé\nWangcharoen K.\nHuang Y.\n2\n0\n22\n20\n21\n14\nTerminé\nMasumoto K.\nAidil S.\n0\n2\n10\n21\n6\n21\nTerminé\nCho G.\nJhuang Y.\n2\n0\n21\n14\n21\n18\nTerminé\nEwe E.\nRichardo R. D.\n0\n2\n6\n21\n16\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nPopov C.\nUbaidillah M. Z.\n0\n2\n15\n21\n19\n21\nTerminé\nWang P.\nPopov T. J.\n0\n2\n9\n21\n18\n21\nTerminé\nFarhan A.\nNishimoto K.\n2\n1\n21\n13\n6\n21\n21\n11\nTerminé\nYoo T. B.\nVitidsarn K.\n0\n2\n19\n21\n14\n21\nTerminé\nWatanabe K.\nChou T. Ch.\n2\n0\n24\n22\n21\n19\nTerminé\nLai V.\nTanaka Y.\n0\n2\n16\n21\n19\n21\nTerminé\nSrikanth K.\nNaraoka K.\n2\n1\n21\n15\n11\n21\n21\n18\nTerminé\nSen L.\nDong T. Y.\n2\n0\n21\n8\n21\n14\nFlashscore Actualités\nKylian Mbappé finalement apte à jouer contre l'Italie ?\nPierre Sage limogé de son poste d'entraîneur à Crystal Palace\nZverev retrouve Shelton dans le même groupe aux ATP Finals, Alcaraz face à Medvedev\nAller vers Actualités\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nChen S. Y.\nLiang K. W.\n2\n1\n20\n22\n21\n12\n21\n14\nTerminé\nHung Y.\nSu X.\n1\n2\n15\n21\n23\n21\n17\n21\nTerminé\nSattayathadakoon L.\nPratiwi N. K. D. A.\n1\n2\n18\n21\n21\n17\n12\n21\nTerminé\nPeng Y. W.\nWiryawan T. R.\n2\n1\n18\n21\n21\n18\n21\n15\nTerminé\nMasuki S.\nShah T.\n2\n1\n18\n21\n21\n15\n24\n22\nTerminé\nLo S. Y. H.\nWang P. Y.\n2\n0\n21\n15\n21\n14\nTerminé\nLiao Y. C.\nLiang T. Y.\n2\n1\n9\n21\n21\n13\n21\n13\nTerminé\nPuspitasa"
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/naraoka-kodai-MPtLI8G5/srikanth-kidambi-zq9lAhel/#/cotes/home-away/temps-regulier/",
@@ -175,7 +175,7 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/naraoka-kodai-MPtLI8G5/srikanth-kidambi-zq9lAhel/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "b38d17fca654c4a0660885d12dee7a6e6cb89eff3757e9cc7486d30a5aaed02a",
+        "body_sha256": "19e98fa319653cf0dc447c2302fcea3aeab9757a1af0708c69b8e71963e16bd3",
         "screenshot_error": null,
         "text_excerpt_for_debug": "Kidambi Srikanth - Kodai Naraoka (12/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESKUMAMOTO MASTERS - 1/8 DE FINALE\nNouvelle fenêtre\n12.11.2026 05:05\nSrikanth K.\nBWF\n: 31.\n2\n-\n1\nTERMINÉ\nNaraoka K.\nBWF\n: 8.\n2\n-\n1\nTERMINÉ\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nSrikanth K.\n2\n21\n11\n21\nNaraoka K.\n1\n15\n21\n18\nCOTES\nHOME/AWAY\n1\n2\n3.20\n1.16\n-\n-\nVoir plus\nLIVE STREAMING\nPublicité\nBetclic.fr\nINFORMATIONS DE MATCH\nSTADE:\nKumamoto Prefectural Gymnasium\n (Kumamoto)\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Kaohsiung Masters Hommes\nBWF WT Kumamoto Masters Hommes\nBWF WT Kaohsiung Masters Femmes\nBWF WT Kumamoto Masters Femmes\nBWF WT Kaohsiung Masters Doubles Hommes\nBWF WT Kumamoto Masters Doubles Hommes\nBWF WT Kaohsiung Masters Doubles Femmes\nBWF WT Kumamoto Masters Doubles Femmes\nBWF WT Kaohsiung Masters Doubles Mixtes\nBWF WT Kumamoto Masters Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tou",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
@@ -217,7 +217,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "2cd1564019cef36a59479391f55aa1563b88bf8bc55a5c500a62227810bd979b",
+      "body_sha256": "cd527677a5798a8bb40a8e1df2c26f63013b0842ed93688f9614cbecc1b5bdb4",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }

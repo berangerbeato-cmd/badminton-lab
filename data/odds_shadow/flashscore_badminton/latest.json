@@ -1,10 +1,10 @@
 {
   "audit_only_stale_content_allowed": true,
   "audit_warning": "Diagnostic only; no bookmaker prices are extracted or accepted.",
-  "body_sha256": "105ec7bddc05336718b12dc139472ac5f9edb7b793c87a014d6110978d99eaea",
+  "body_sha256": "faac5ca9d4ee1513a02aad7b90c4e02a16de2efe4dc03556320f0f69502abe96",
   "bookmaker_price_updated_at": null,
-  "cache_age_seconds": "185",
-  "finished_at_utc": "2026-11-12T13:40:51+00:00",
+  "cache_age_seconds": "302",
+  "finished_at_utc": "2026-11-12T15:10:09+00:00",
   "flashscore_discovery": {
     "index_match_link_count": 84,
     "index_match_links": [
@@ -25,13 +25,13 @@
       "https://www.flashscore.fr/match/badminton/naraoka-kodai-MPtLI8G5/srikanth-kidambi-zq9lAhel/?mid=hleJiwFs"
     ],
     "index_ms_context_visible": true,
-    "index_text_excerpt": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n12/11 JE\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nHoh J.\nHuan K. H.\n2\n0\n21\n17\n23\n21\nTerminé\nKuo K. L.\nKok J. H.\n2\n0\n21\n7\n21\n16\nTerminé\nMiyashita R.\nGinting A. S.\n2\n1\n7\n21\n23\n21\n21\n19\nTerminé\nHuang P.\nKim H. D.\n0\n2\n12\n21\n17\n21\nTerminé\nWangcharoen K.\nHuang Y.\n2\n0\n22\n20\n21\n14\nTerminé\nMasumoto K.\nAidil S.\n0\n2\n10\n21\n6\n21\nTerminé\nCho G.\nJhuang Y.\n2\n0\n21\n14\n21\n18\nTerminé\nEwe E.\nRichardo R. D.\n0\n2\n6\n21\n16\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nPopov C.\nUbaidillah M. Z.\n0\n2\n15\n21\n19\n21\nTerminé\nWang P.\nPopov T. J.\n0\n2\n9\n21\n18\n21\nTerminé\nFarhan A.\nNishimoto K.\n2\n1\n21\n13\n6\n21\n21\n11\nTerminé\nYoo T. B.\nVitidsarn K.\n0\n2\n19\n21\n14\n21\nTerminé\nWatanabe K.\nChou T. Ch.\n2\n0\n24\n22\n21\n19\nTerminé\nLai V.\nTanaka Y.\n0\n2\n16\n21\n19\n21\nTerminé\nSrikanth K.\nNaraoka K.\n2\n1\n21\n15\n11\n21\n21\n18\nTerminé\nSen L.\nDong T. Y.\n2\n0\n21\n8\n21\n14\nFlashscore Actualités\nPierre Sage limogé de son poste d'entraîneur à Crystal Palace\nManchester United se sépare de Michael Carrick après un début de saison catastrophique\nZverev retrouve Shelton dans le même groupe aux ATP Finals, Alcaraz face à Medvedev\nAller vers Actualités\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nChen S. Y.\nLiang K. W.\n2\n1\n20\n22\n21\n12\n21\n14\nTerminé\nHung Y.\nSu X.\n1\n2\n15\n21\n23\n21\n17\n21\nTerminé\nSattayathadakoon L.\nPratiwi N. K. D. A.\n1\n2\n18\n21\n21\n17\n12\n21\nTerminé\nPeng Y. W.\nWiryawan T. R.\n2\n1\n18\n21\n21\n18\n21\n15\nTerminé\nMasuki S.\nShah T.\n2\n1\n18\n21\n21\n15\n24\n22\nTerminé\nLo S. Y. H.\nWang P. Y.\n2\n0\n21\n15\n21\n14\nTerminé\nLiao Y. C.\nLiang T. Y.\n2\n1\n9\n2"
+    "index_text_excerpt": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n12/11 JE\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nHoh J.\nHuan K. H.\n2\n0\n21\n17\n23\n21\nTerminé\nKuo K. L.\nKok J. H.\n2\n0\n21\n7\n21\n16\nTerminé\nMiyashita R.\nGinting A. S.\n2\n1\n7\n21\n23\n21\n21\n19\nTerminé\nHuang P.\nKim H. D.\n0\n2\n12\n21\n17\n21\nTerminé\nWangcharoen K.\nHuang Y.\n2\n0\n22\n20\n21\n14\nTerminé\nMasumoto K.\nAidil S.\n0\n2\n10\n21\n6\n21\nTerminé\nCho G.\nJhuang Y.\n2\n0\n21\n14\n21\n18\nTerminé\nEwe E.\nRichardo R. D.\n0\n2\n6\n21\n16\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nPopov C.\nUbaidillah M. Z.\n0\n2\n15\n21\n19\n21\nTerminé\nWang P.\nPopov T. J.\n0\n2\n9\n21\n18\n21\nTerminé\nFarhan A.\nNishimoto K.\n2\n1\n21\n13\n6\n21\n21\n11\nTerminé\nYoo T. B.\nVitidsarn K.\n0\n2\n19\n21\n14\n21\nTerminé\nWatanabe K.\nChou T. Ch.\n2\n0\n24\n22\n21\n19\nTerminé\nLai V.\nTanaka Y.\n0\n2\n16\n21\n19\n21\nTerminé\nSrikanth K.\nNaraoka K.\n2\n1\n21\n15\n11\n21\n21\n18\nTerminé\nSen L.\nDong T. Y.\n2\n0\n21\n8\n21\n14\nFlashscore Actualités\nKylian Mbappé finalement apte à jouer contre l'Italie ?\nPierre Sage limogé de son poste d'entraîneur à Crystal Palace\nZverev retrouve Shelton dans le même groupe aux ATP Finals, Alcaraz face à Medvedev\nAller vers Actualités\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nChen S. Y.\nLiang K. W.\n2\n1\n20\n22\n21\n12\n21\n14\nTerminé\nHung Y.\nSu X.\n1\n2\n15\n21\n23\n21\n17\n21\nTerminé\nSattayathadakoon L.\nPratiwi N. K. D. A.\n1\n2\n18\n21\n21\n17\n12\n21\nTerminé\nPeng Y. W.\nWiryawan T. R.\n2\n1\n18\n21\n21\n18\n21\n15\nTerminé\nMasuki S.\nShah T.\n2\n1\n18\n21\n21\n15\n24\n22\nTerminé\nLo S. Y. H.\nWang P. Y.\n2\n0\n21\n15\n21\n14\nTerminé\nLiao Y. C.\nLiang T. Y.\n2\n1\n9\n21\n21\n13\n21\n13\nTerminé\nPuspitasa"
   },
   "flashscore_match_audit": {
     "appears_doubles": false,
     "appears_mens_singles": true,
     "body_characters": 5284,
-    "body_sha256": "b38d17fca654c4a0660885d12dee7a6e6cb89eff3757e9cc7486d30a5aaed02a",
+    "body_sha256": "19e98fa319653cf0dc447c2302fcea3aeab9757a1af0708c69b8e71963e16bd3",
     "candidate_from_index": true,
     "candidate_selection": "last_named_public_link_not_verified_upcoming",
     "comparison_block_reason": "NO_VERIFIED_BOOKMAKER_PRICES",
@@ -70,7 +70,7 @@
   },
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-11-12T13:40:38+00:00",
+  "observed_at_utc": "2026-11-12T15:09:57+00:00",
   "operator": "Flashscore (aggregator)",
   "operator_kind": "AGGREGATOR_AUDIT_ONLY",
   "public_badminton_event_links": [],
@@ -79,10 +79,10 @@
   "resolved_url": "https://www.flashscore.fr/badminton/",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Thu, 12 Nov 2026 13:40:38 GMT",
+  "server_date": "Thu, 12 Nov 2026 15:09:58 GMT",
   "source_key": "flashscore_badminton",
   "source_url": "https://www.flashscore.fr/badminton/",
   "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
-  "text_excerpt_for_debug": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n12/11 JE\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nHoh J.\nHuan K. H.\n2\n0\n21\n17\n23\n21\nTerminé\nKuo K. L.\nKok J. H.\n2\n0\n21\n7\n21\n16\nTerminé\nMiyashita R.\nGinting A. S.\n2\n1\n7\n21\n23\n21\n21\n19\nTerminé\nHuang P.\nKim H. D.\n0\n2\n12\n21\n17\n21\nTerminé\nWangcharoen K.\nHuang Y.\n2\n0\n22\n20\n21\n14\nTerminé\nMasumoto K.\nAidil S.\n0\n2\n10\n21\n6\n21\nTerminé\nCho G.\nJhuang Y.\n2\n0\n21\n14\n21\n18\nTerminé\nEwe E.\nRichardo R. D.\n0\n2\n6\n21\n16\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nPopov C.\nUbaidillah M. Z.\n0\n2\n15\n21\n19\n21\nTerminé\nWang P.\nPopov T. J.\n0\n2\n9\n21\n18\n21\nTerminé\nFarhan A.\nNishimoto K.\n2\n1\n21\n13\n6\n21\n21\n11\nTerminé\nYoo T. B.\nVitidsarn K.\n0\n2\n19\n21\n14\n21\nTerminé\nWatanabe K.\nChou T. Ch.\n2\n0\n24\n22\n21\n19\nTerminé\nLai V.\nTanaka Y.\n0\n2\n16\n21\n19\n21\nTerminé\nSrikanth K.\nNaraoka K.\n2\n1\n21\n15\n11\n21\n21\n18\nTerminé\nSen L.\nDong T. Y.\n2\n0\n21\n8\n21\n14\nFlashscore Actualités\nPierre Sage limogé de son poste d'entraîneur à Crystal Palace\nManchester United se sépare de Michael Carrick après un début de saison catastrophique\nZverev retrouve Shelton dans le même groupe aux ATP Finals, Alcaraz face à Medvedev\nAller vers Actualités\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nChen S. Y.\nLiang K. W.\n2\n1\n20\n22\n21\n12\n21\n14\nTerminé\nHung Y.\nSu X.\n1\n2\n15\n21\n23\n21\n17\n21\nTerminé\nSattayathadakoon L.\nPratiwi N. K. D. A.\n1\n2\n18\n21\n2",
+  "text_excerpt_for_debug": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n12/11 JE\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nHoh J.\nHuan K. H.\n2\n0\n21\n17\n23\n21\nTerminé\nKuo K. L.\nKok J. H.\n2\n0\n21\n7\n21\n16\nTerminé\nMiyashita R.\nGinting A. S.\n2\n1\n7\n21\n23\n21\n21\n19\nTerminé\nHuang P.\nKim H. D.\n0\n2\n12\n21\n17\n21\nTerminé\nWangcharoen K.\nHuang Y.\n2\n0\n22\n20\n21\n14\nTerminé\nMasumoto K.\nAidil S.\n0\n2\n10\n21\n6\n21\nTerminé\nCho G.\nJhuang Y.\n2\n0\n21\n14\n21\n18\nTerminé\nEwe E.\nRichardo R. D.\n0\n2\n6\n21\n16\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nPopov C.\nUbaidillah M. Z.\n0\n2\n15\n21\n19\n21\nTerminé\nWang P.\nPopov T. J.\n0\n2\n9\n21\n18\n21\nTerminé\nFarhan A.\nNishimoto K.\n2\n1\n21\n13\n6\n21\n21\n11\nTerminé\nYoo T. B.\nVitidsarn K.\n0\n2\n19\n21\n14\n21\nTerminé\nWatanabe K.\nChou T. Ch.\n2\n0\n24\n22\n21\n19\nTerminé\nLai V.\nTanaka Y.\n0\n2\n16\n21\n19\n21\nTerminé\nSrikanth K.\nNaraoka K.\n2\n1\n21\n15\n11\n21\n21\n18\nTerminé\nSen L.\nDong T. Y.\n2\n0\n21\n8\n21\n14\nFlashscore Actualités\nKylian Mbappé finalement apte à jouer contre l'Italie ?\nPierre Sage limogé de son poste d'entraîneur à Crystal Palace\nZverev retrouve Shelton dans le même groupe aux ATP Finals, Alcaraz face à Medvedev\nAller vers Actualités\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nChen S. Y.\nLiang K. W.\n2\n1\n20\n22\n21\n12\n21\n14\nTerminé\nHung Y.\nSu X.\n1\n2\n15\n21\n23\n21\n17\n21\nTerminé\nSattayathadakoon L.\nPratiwi N. K. D. A.\n1\n2\n18\n21\n21\n17\n12\n21\nTerminé\nPeng Y. W.\nW",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }
