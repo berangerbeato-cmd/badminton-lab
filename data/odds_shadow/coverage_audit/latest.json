@@ -43,7 +43,7 @@
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-11-12T15:13:22.734213+00:00",
+  "generated_at_utc": "2026-11-12T15:33:29.630653+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 8,
@@ -117,8 +117,8 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-12T15:12:06+00:00",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-12T16:12:04.378587+01:00",
+      "observed_at_utc": "2026-11-12T15:32:15+00:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-12T16:32:15.170653+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
@@ -126,7 +126,7 @@
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
       "quote_count": 4,
-      "observed_at_utc": "2026-11-12T15:13:11+00:00",
+      "observed_at_utc": "2026-11-12T15:33:18+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 4,
@@ -139,7 +139,7 @@
               "Vendy-Lane",
               "2.02"
             ],
-            "market_line": 113,
+            "market_line": 111,
             "preceding_lines": [
               "Scores en direct",
               "Format des cotes",
@@ -165,7 +165,7 @@
               "Watanabe-Taguchi",
               "1.25"
             ],
-            "market_line": 124,
+            "market_line": 122,
             "preceding_lines": [
               "02:00",
               "Hoki-Kobayashi",
@@ -191,7 +191,7 @@
               "Xing-Chi",
               "3.10"
             ],
-            "market_line": 135,
+            "market_line": 133,
             "preceding_lines": [
               "02:00",
               "Ye-Chan",
@@ -213,11 +213,11 @@
           {
             "following_lines": [
               "Zhu-Li",
-              "1.92",
+              "1.85",
               "Gao-Wu",
-              "1.55"
+              "1.61"
             ],
-            "market_line": 146,
+            "market_line": 144,
             "preceding_lines": [
               "02:10",
               "Jiang-Wei",
@@ -243,7 +243,7 @@
               "Koga-Saito",
               "1.13"
             ],
-            "market_line": 179,
+            "market_line": 177,
             "preceding_lines": [
               "02:30",
               "Moh Zaki Ubaidillah",
@@ -253,7 +253,7 @@
               "2.17",
               "Alwi Farhan",
               "1.43",
-              "+ 16",
+              "+ 18",
               "Masters du Japon, Doubles Mixtes",
               "ven. 13 nov.",
               "02:30",
@@ -265,11 +265,11 @@
           {
             "following_lines": [
               "Lee-Yang",
-              "1.62",
+              "1.78",
               "Tai-King",
-              "1.83"
+              "1.65"
             ],
-            "market_line": 212,
+            "market_line": 210,
             "preceding_lines": [
               "03:00",
               "Yushi Tanaka",
@@ -301,7 +301,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-12T15:12:26+00:00",
+      "observed_at_utc": "2026-11-12T15:32:36+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -310,7 +310,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-12T15:12:43+00:00",
+      "observed_at_utc": "2026-11-12T15:32:51+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -319,7 +319,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-12T15:12:13+00:00",
+      "observed_at_utc": "2026-11-12T15:32:22+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -328,7 +328,7 @@
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quote_count": 4,
-      "observed_at_utc": "2026-11-12T15:12:15+00:00",
+      "observed_at_utc": "2026-11-12T15:32:24+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -337,7 +337,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-12T15:12:28+00:00",
+      "observed_at_utc": "2026-11-12T15:32:37+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -346,7 +346,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-12T15:12:38+00:00",
+      "observed_at_utc": "2026-11-12T15:32:47+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -355,7 +355,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-12T15:12:48+00:00",
+      "observed_at_utc": "2026-11-12T15:32:56+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -364,7 +364,7 @@
     "oddspedia_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-12T15:12:45+00:00",
+      "observed_at_utc": "2026-11-12T15:32:53+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -373,7 +373,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-12T15:13:06+00:00",
+      "observed_at_utc": "2026-11-12T15:33:13+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,

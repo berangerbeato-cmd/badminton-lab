@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-12T15:12:04+00:00",
+  "observed_at_utc": "2026-11-12T15:32:15+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 4,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-12T16:12:04.378587+01:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-12T16:32:15.170653+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "d97e311bea8e53040c0d7178e65761224d032ef3ed29e3438874902d4fe462f5",
+      "body_sha256": "b0caa8704dc6cfd0c34b3ddab59ac0b4e26213a5141b81935630edc78353407d",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -39,7 +39,7 @@
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "d2cffb3df5eb44a5c57d034395ae1ca4ad34d2d953b060539d4988143d4e53f5",
+      "body_sha256": "5429bbd96ce4973af0d596bb047b515c3f9fdb0761b4d6559c9fc9e8ad74f2a5",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "206dae9ea2a63e454ddbd5b3d897ac3d11c127ba61b54e7159ca83a505aa90f6",
+      "body_sha256": "5f698c6ce5f9172399bca34a10e1f41b2701c64d695e8d7a4f8d192afa40a3b2",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "2d278969c005b1efe54c1e2ea4662346887c66e5ab858193e06df69b0c687b9a",
+      "body_sha256": "f9d50101cc863fbb4b8db2e70e3b27b592d53c22a5cf84dacc52d35f4db028fe",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "98570a27f69e128f69ca699cedf3614613ae772e788ff07462f4ddbb3d7fe8c5",
+      "body_sha256": "8c84fca82a5f2cb191c667bf173372fad8a7dd7df333cbea7a197558dfbdd01f",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "67321f38c977a78373ca5085b5f3879c0c39c312efd661b36cb5915594c865f7",
+      "body_sha256": "0fd1fabf20df4f0e2f9d326610ed8e14cd2a6e231ebf57f8a2b9632331414ce7",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,7 +142,7 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "171",
+      "cache_age_seconds": "0",
       "body_sha256": "faac5ca9d4ee1513a02aad7b90c4e02a16de2efe4dc03556320f0f69502abe96",
       "flashscore_discovery": {
         "index_match_links": [
@@ -175,11 +175,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/naraoka-kodai-MPtLI8G5/srikanth-kidambi-zq9lAhel/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "19e98fa319653cf0dc447c2302fcea3aeab9757a1af0708c69b8e71963e16bd3",
+        "body_sha256": "d07c170a75f1bd974d73896733bfa8ffbe75178a54f770f581cec94a9e87842f",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Kidambi Srikanth - Kodai Naraoka (12/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESKUMAMOTO MASTERS - 1/8 DE FINALE\nNouvelle fenêtre\n12.11.2026 05:05\nSrikanth K.\nBWF\n: 31.\n2\n-\n1\nTERMINÉ\nNaraoka K.\nBWF\n: 8.\n2\n-\n1\nTERMINÉ\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nSrikanth K.\n2\n21\n11\n21\nNaraoka K.\n1\n15\n21\n18\nCOTES\nHOME/AWAY\n1\n2\n3.20\n1.16\n-\n-\nVoir plus\nLIVE STREAMING\nPublicité\nBetclic.fr\nINFORMATIONS DE MATCH\nSTADE:\nKumamoto Prefectural Gymnasium\n (Kumamoto)\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Kaohsiung Masters Hommes\nBWF WT Kumamoto Masters Hommes\nBWF WT Kaohsiung Masters Femmes\nBWF WT Kumamoto Masters Femmes\nBWF WT Kaohsiung Masters Doubles Hommes\nBWF WT Kumamoto Masters Doubles Hommes\nBWF WT Kaohsiung Masters Doubles Femmes\nBWF WT Kumamoto Masters Doubles Femmes\nBWF WT Kaohsiung Masters Doubles Mixtes\nBWF WT Kumamoto Masters Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tou",
+        "text_excerpt_for_debug": "Kidambi Srikanth - Kodai Naraoka (12/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESKUMAMOTO MASTERS - 1/8 DE FINALE\nNouvelle fenêtre\n12.11.2026 05:05\nSrikanth K.\nBWF\n: 31.\n2\n-\n1\nTERMINÉ\nNaraoka K.\nBWF\n: 8.\n2\n-\n1\nTERMINÉ\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nSrikanth K.\n2\n21\n11\n21\nNaraoka K.\n1\n15\n21\n18\nCOTES\nHOME/AWAY\n1\n2\n4.30\n1.20\nVoir plus\nOFFRES BONUS\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nINFORMATIONS DE MATCH\nSTADE:\nKumamoto Prefectural Gymnasium\n (Kumamoto)\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Kaohsiung Masters Hommes\nBWF WT Kumamoto Masters Hommes\nBWF WT Kaohsiung Masters Femmes\nBWF WT Kumamoto Masters Femmes\nBWF WT Kaohsiung Masters Doubles Hommes\nBWF WT Kumamoto Masters Doubles Hommes\nBWF WT Kaohsiung Masters Doubles Femmes\nBWF WT Kumamoto Masters Doubles Femmes\nBWF WT Kaohsiung Masters Doubles Mixtes\nBWF WT Kumamoto Masters Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres ",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 5284,
+        "body_characters": 5370,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -191,21 +191,17 @@
           "HOME/AWAY",
           "1",
           "2",
-          "3.20",
-          "1.16",
-          "-",
-          "-"
+          "4.30",
+          "1.20"
         ],
-        "odds_section_dash_count": 2,
+        "odds_section_dash_count": 0,
         "odds_section_decimal_prices": [
-          "3.20",
-          "1.16"
+          "4.30",
+          "1.20"
         ],
         "odds_section_placeholder_only": false,
         "odds_section_bookmaker_names": [],
-        "contains_bookmaker_names": [
-          "Betclic"
-        ]
+        "contains_bookmaker_names": []
       }
     },
     "oddsportal_badminton": {
@@ -217,7 +213,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "dbf56db64ae36c3aac7ef9c1b2e8fa72b40362842cfd2d6b23323246ea5029d0",
+      "body_sha256": "7a9dc56647849cc4f91423f1ba56f5ef29ed5ddf9839b5388c13e3ed08420b18",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }

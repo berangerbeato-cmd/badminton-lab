@@ -63,7 +63,7 @@
     "https://www.netbet.fr/badminton/international/masters-du-japon",
     "https://www.netbet.fr/badminton/international/masters-du-japon-doubles-f"
   ],
-  "index_body_sha256": "dd7f4b6b7966faa834d1758c40f4a1159e560c0b4341d394da0ccca6d4638ed5",
+  "index_body_sha256": "11c7abb2d48e5363987658065bb62b20da67a4e7b35fdd104832defa3c78b5b2",
   "index_eligible_quotes": 4,
   "index_http_status": 200,
   "index_link_count": 129,
@@ -92,7 +92,7 @@
           "Vendy-Lane",
           "2.02"
         ],
-        "market_line": 113,
+        "market_line": 111,
         "preceding_lines": [
           "Scores en direct",
           "Format des cotes",
@@ -118,7 +118,7 @@
           "Watanabe-Taguchi",
           "1.25"
         ],
-        "market_line": 124,
+        "market_line": 122,
         "preceding_lines": [
           "02:00",
           "Hoki-Kobayashi",
@@ -144,7 +144,7 @@
           "Xing-Chi",
           "3.10"
         ],
-        "market_line": 135,
+        "market_line": 133,
         "preceding_lines": [
           "02:00",
           "Ye-Chan",
@@ -170,7 +170,7 @@
           "Gao-Wu",
           "1.61"
         ],
-        "market_line": 146,
+        "market_line": 144,
         "preceding_lines": [
           "02:10",
           "Jiang-Wei",
@@ -196,7 +196,7 @@
           "Koga-Saito",
           "1.13"
         ],
-        "market_line": 179,
+        "market_line": 177,
         "preceding_lines": [
           "02:30",
           "Moh Zaki Ubaidillah",
@@ -218,11 +218,11 @@
       {
         "following_lines": [
           "Lee-Yang",
-          "1.63",
+          "1.78",
           "Tai-King",
-          "1.82"
+          "1.65"
         ],
-        "market_line": 212,
+        "market_line": 210,
         "preceding_lines": [
           "03:00",
           "Yushi Tanaka",
@@ -251,12 +251,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-11-12.csv",
   "model_snapshot_sha256": "9dd772de5347014349cc3e668deabbb66528a9ed5973b26670965ca7a296274b",
-  "observed_at_utc": "2026-11-12T15:28:10+00:00",
+  "observed_at_utc": "2026-11-12T15:33:18+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "f7748e6738126067b26bcffa4068c75f763cbfe421178b011cbee91b03bf8623",
+      "body_sha256": "7a9c955d9d348713172f94b1ab51373d0b84e9a6f0fc70325a16e5214f73e0b1",
       "cache_age_seconds": null,
       "eligible_listing_rows": 3,
       "http_status": 200,
@@ -269,7 +269,7 @@
             "Vitidsarn Kunlavut",
             "1.26"
           ],
-          "market_line": 112,
+          "market_line": 110,
           "preceding_lines": [
             "Règlement des paris",
             "Scores en direct",

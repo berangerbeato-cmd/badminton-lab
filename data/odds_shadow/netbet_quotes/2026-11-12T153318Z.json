@@ -1,0 +1,386 @@
+{
+  "bookmaker_price_updated_at": null,
+  "candidate_count": 1,
+  "candidate_urls": [
+    "https://www.netbet.fr/badminton/international/masters-du-japon"
+  ],
+  "elo_comparisons": [],
+  "fixture_join_audit": [
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-13",
+      "model_rows_same_day": 8,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Toma Junior Popov",
+        "Vitidsarn Kunlavut"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-13",
+      "model_rows_same_day": 8,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Moh Zaki Ubaidillah",
+        "Alwi Farhan"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-13",
+      "model_rows_same_day": 8,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Srikanth Kidambi",
+        "Koki Watanabe"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-13",
+      "model_rows_same_day": 8,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Yushi Tanaka",
+        "Lakshya Sen"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    }
+  ],
+  "index_badminton_link_count": 5,
+  "index_badminton_link_examples": [
+    "https://www.netbet.fr/badminton",
+    "https://www.netbet.fr/badminton/international/masters-du-japon-doubles",
+    "https://www.netbet.fr/badminton/international/masters-du-japon-doubles-mixtes",
+    "https://www.netbet.fr/badminton/international/masters-du-japon",
+    "https://www.netbet.fr/badminton/international/masters-du-japon-doubles-f"
+  ],
+  "index_body_sha256": "11c7abb2d48e5363987658065bb62b20da67a4e7b35fdd104832defa3c78b5b2",
+  "index_eligible_quotes": 4,
+  "index_http_status": 200,
+  "index_link_count": 129,
+  "index_link_path_counts": {
+    "": 9,
+    "badminton": 7,
+    "basketball": 4,
+    "cashout": 2,
+    "evenement": 48,
+    "football": 6,
+    "hockey-glace": 4,
+    "paris-en-direct": 5,
+    "promotions": 2,
+    "super-cotes": 2,
+    "tennis": 8,
+    "zendesk": 2
+  },
+  "index_market_audit": {
+    "eligible_listing_rows": 4,
+    "markets_seen": 10,
+    "rejection_evidence": [
+      {
+        "following_lines": [
+          "Hoki-Kobayashi",
+          "1.48",
+          "Vendy-Lane",
+          "2.02"
+        ],
+        "market_line": 111,
+        "preceding_lines": [
+          "Scores en direct",
+          "Format des cotes",
+          "Accueil",
+          "Badminton",
+          "Pariez sur",
+          "Badminton",
+          "À L'AFFICHE",
+          "TOUTE L'OFFRE BADMINTON",
+          "À Venir",
+          "Masters du Japon, Doubles",
+          "ven. 13 nov.",
+          "02:00",
+          "Hoki-Kobayashi",
+          "Vendy-Lane"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Ye-Chan",
+          "2.75",
+          "Watanabe-Taguchi",
+          "1.25"
+        ],
+        "market_line": 122,
+        "preceding_lines": [
+          "02:00",
+          "Hoki-Kobayashi",
+          "Vendy-Lane",
+          "Qui va gagner le match ?",
+          "Hoki-Kobayashi",
+          "1.48",
+          "Vendy-Lane",
+          "2.02",
+          "+ 18",
+          "Masters du Japon, Doubles Mixtes",
+          "ven. 13 nov.",
+          "02:00",
+          "Ye-Chan",
+          "Watanabe-Taguchi"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Jiang-Wei",
+          "1.19",
+          "Xing-Chi",
+          "3.10"
+        ],
+        "market_line": 133,
+        "preceding_lines": [
+          "02:00",
+          "Ye-Chan",
+          "Watanabe-Taguchi",
+          "Qui va gagner le match ?",
+          "Ye-Chan",
+          "2.75",
+          "Watanabe-Taguchi",
+          "1.25",
+          "+ 15",
+          "Masters du Japon, Doubles Mixtes",
+          "ven. 13 nov.",
+          "02:10",
+          "Jiang-Wei",
+          "Xing-Chi"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Zhu-Li",
+          "1.85",
+          "Gao-Wu",
+          "1.61"
+        ],
+        "market_line": 144,
+        "preceding_lines": [
+          "02:10",
+          "Jiang-Wei",
+          "Xing-Chi",
+          "Qui va gagner le match ?",
+          "Jiang-Wei",
+          "1.19",
+          "Xing-Chi",
+          "3.10",
+          "+ 4",
+          "Masters du Japon, Doubles Mixtes",
+          "ven. 13 nov.",
+          "02:10",
+          "Zhu-Li",
+          "Gao-Wu"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Wu-Yang",
+          "3.60",
+          "Koga-Saito",
+          "1.13"
+        ],
+        "market_line": 177,
+        "preceding_lines": [
+          "02:30",
+          "Moh Zaki Ubaidillah",
+          "Alwi Farhan",
+          "Qui va gagner le match ?",
+          "Moh Zaki Ubaidillah",
+          "2.17",
+          "Alwi Farhan",
+          "1.43",
+          "+ 18",
+          "Masters du Japon, Doubles Mixtes",
+          "ven. 13 nov.",
+          "02:30",
+          "Wu-Yang",
+          "Koga-Saito"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Lee-Yang",
+          "1.78",
+          "Tai-King",
+          "1.65"
+        ],
+        "market_line": 210,
+        "preceding_lines": [
+          "03:00",
+          "Yushi Tanaka",
+          "Lakshya Sen",
+          "Qui va gagner le match ?",
+          "Yushi Tanaka",
+          "1.65",
+          "Lakshya Sen",
+          "1.78",
+          "+ 18",
+          "Masters du Japon, Doubles",
+          "ven. 13 nov.",
+          "03:10",
+          "Lee-Yang",
+          "Tai-King"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      }
+    ],
+    "rejections": {
+      "NON_MS_COMPETITION": 6
+    }
+  },
+  "index_resolved_url": "https://www.netbet.fr/badminton",
+  "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
+  "index_url": "https://www.netbet.fr/badminton",
+  "model_snapshot": "data/model/snapshots/2026-11-12.csv",
+  "model_snapshot_sha256": "9dd772de5347014349cc3e668deabbb66528a9ed5973b26670965ca7a296274b",
+  "observed_at_utc": "2026-11-12T15:33:18+00:00",
+  "operator": "NetBet.fr",
+  "page_audit_limit": 8,
+  "page_audits": [
+    {
+      "body_sha256": "7a9c955d9d348713172f94b1ab51373d0b84e9a6f0fc70325a16e5214f73e0b1",
+      "cache_age_seconds": null,
+      "eligible_listing_rows": 3,
+      "http_status": 200,
+      "markets_seen": 4,
+      "rejection_evidence": [
+        {
+          "following_lines": [
+            "Toma Junior Popov",
+            "2.72",
+            "Vitidsarn Kunlavut",
+            "1.26"
+          ],
+          "market_line": 110,
+          "preceding_lines": [
+            "Règlement des paris",
+            "Scores en direct",
+            "Format des cotes",
+            "Accueil",
+            "Badminton",
+            "International - Masters du Japon",
+            "Pariez sur",
+            "Masters du Japon",
+            "À Venir",
+            "Masters du Japon",
+            "ven. 13 nov.",
+            "02:20",
+            "Toma Junior Popov",
+            "Vitidsarn Kunlavut"
+          ],
+          "reason": "COMPETITION_NOT_ADJACENT_TO_DATE"
+        }
+      ],
+      "rejections": {
+        "COMPETITION_NOT_ADJACENT_TO_DATE": 1
+      },
+      "resolved_url": "https://www.netbet.fr/badminton/international/masters-du-japon",
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "screenshot": "data/odds_shadow/visual_evidence/netbet_event_0.png",
+      "status": "PUBLIC_LISTINGS_OBSERVED_NEEDS_CONFIRMATION",
+      "url": "https://www.netbet.fr/badminton/international/masters-du-japon"
+    }
+  ],
+  "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
+  "quotes": [
+    {
+      "bookmaker_overround_pct": 16.13,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-11-13",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.316583,
+      "normalized_market_probability_2": 0.683417,
+      "odds_1": 2.72,
+      "odds_2": 1.26,
+      "player_1_display": "Toma Junior Popov",
+      "player_2_display": "Vitidsarn Kunlavut",
+      "raw_implied_probability_1": 0.367647,
+      "raw_implied_probability_2": 0.793651,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.01,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-11-13",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.397222,
+      "normalized_market_probability_2": 0.602778,
+      "odds_1": 2.17,
+      "odds_2": 1.43,
+      "player_1_display": "Moh Zaki Ubaidillah",
+      "player_2_display": "Alwi Farhan",
+      "raw_implied_probability_1": 0.460829,
+      "raw_implied_probability_2": 0.699301,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.57,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-11-13",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.350133,
+      "normalized_market_probability_2": 0.649867,
+      "odds_1": 2.45,
+      "odds_2": 1.32,
+      "player_1_display": "Srikanth Kidambi",
+      "player_2_display": "Koki Watanabe",
+      "raw_implied_probability_1": 0.408163,
+      "raw_implied_probability_2": 0.757576,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.79,
+      "competition_display": "Masters du Japon",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-11-13",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.51895,
+      "normalized_market_probability_2": 0.48105,
+      "odds_1": 1.65,
+      "odds_2": 1.78,
+      "player_1_display": "Yushi Tanaka",
+      "player_2_display": "Lakshya Sen",
+      "raw_implied_probability_1": 0.606061,
+      "raw_implied_probability_2": 0.561798,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    }
+  ],
+  "reason_counts": {
+    "NO_UNIQUE_BWF_FIXTURE": 4
+  },
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+}
