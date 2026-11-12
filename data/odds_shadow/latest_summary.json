@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-12T15:09:08+00:00",
+  "observed_at_utc": "2026-11-12T15:12:04+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 4,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-12T16:09:08.439788+01:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-12T16:12:04.378587+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "c697bfebcb32b133e6b5c9398af49c3acc3e026cc29155418de2c7e43de7c0c4",
+      "body_sha256": "d97e311bea8e53040c0d7178e65761224d032ef3ed29e3438874902d4fe462f5",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "0afc3f2136687c957b625ec4735d7eaec8db437f588fdf1f9755387378af6bef",
+      "body_sha256": "206dae9ea2a63e454ddbd5b3d897ac3d11c127ba61b54e7159ca83a505aa90f6",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "30693a7a5e3439336a938792db86133cb608f9bf59aaf51ce03e14cdaf183527",
+      "body_sha256": "98570a27f69e128f69ca699cedf3614613ae772e788ff07462f4ddbb3d7fe8c5",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "f6b46fb17ba658dfc68b2c72d42cccc770af7fd12fc869759f676f58048f9870",
+      "body_sha256": "67321f38c977a78373ca5085b5f3879c0c39c312efd661b36cb5915594c865f7",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,7 +142,7 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "302",
+      "cache_age_seconds": "171",
       "body_sha256": "faac5ca9d4ee1513a02aad7b90c4e02a16de2efe4dc03556320f0f69502abe96",
       "flashscore_discovery": {
         "index_match_links": [
@@ -217,7 +217,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "cd527677a5798a8bb40a8e1df2c26f63013b0842ed93688f9614cbecc1b5bdb4",
+      "body_sha256": "dbf56db64ae36c3aac7ef9c1b2e8fa72b40362842cfd2d6b23323246ea5029d0",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
