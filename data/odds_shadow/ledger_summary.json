@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-11-12T15:33:29+00:00",
+  "generated_at_utc": "2026-11-13T12:58:41+00:00",
   "policy": "SHADOW_ONLY_NO_BET",
-  "run_count": 133,
-  "observation_count": 445,
-  "distinct_observation_keys": 159,
-  "repeated_observation_keys": 286,
+  "run_count": 134,
+  "observation_count": 447,
+  "distinct_observation_keys": 160,
+  "repeated_observation_keys": 287,
   "matched_unverified_observation_count": 144,
-  "no_bet_observation_count": 445,
+  "no_bet_observation_count": 447,
   "distinct_observation_note": "Unique by source, BWF match, prices and observation time; not statistically independent matches.",
-  "unique_bwf_matches": 31,
+  "unique_bwf_matches": 32,
   "quality_flag_counts": {
     "MARKET_DETAIL_UNVERIFIED": 144,
     "KICKOFF_UNVERIFIED": 144,
@@ -18,8 +18,8 @@
   },
   "source_status_counts": {
     "unibet_fr:FRESH_SNAPSHOT": 18,
-    "netbet_quotes:FRESH_SNAPSHOT": 84,
-    "unibet_fr:FRESH_EMPTY": 115,
+    "netbet_quotes:FRESH_SNAPSHOT": 85,
+    "unibet_fr:FRESH_EMPTY": 116,
     "netbet_quotes:FRESH_EMPTY": 49
   },
   "roi": null,
@@ -556,6 +556,10 @@
     {
       "run_id": "43248697940",
       "comparison_count": 4
+    },
+    {
+      "run_id": "43429391307",
+      "comparison_count": 2
     }
   ]
 }
