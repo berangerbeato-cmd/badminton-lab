@@ -1,0 +1,23 @@
+{
+  "body_sha256": "06d58fc35da0eb66b95e2ae3ebc7eb51954756f08b938459c2f5c4c81581f60f",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-11-13T14:34:47+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-11-13T14:34:43+00:00",
+  "operator": "PMU.fr",
+  "operator_kind": "ONLINE",
+  "public_badminton_event_links": [],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/pmu_fr.png",
+  "quotes": [],
+  "resolved_url": "https://www.pmu.fr/sport/",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Fri, 13 Nov 2026 14:34:44 GMT",
+  "source_key": "pmu_fr",
+  "source_url": "https://www.pmu.fr/sport/",
+  "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
+  "text_excerpt_for_debug": "PARCE QU’UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR (09 74 75 13 13 - APPEL NON SURTAXÉ)\nHIPPIQUE\nSPORT\nPOKER\nPLAY ZONE\n\nSe connecter\nS'inscrire\nAccueil\nLive\n7\nPromotions\nMes paris\nE-PACTOLE\nLe e-Pactole est de +80.000€ et continue de grimper jusqu'au début de la course !\nJE PARIE >\n\nRejoins-nous sur les réseaux sociaux :\n\n\n\n\n\nDÉFIS ET PROMOS\n\nNos promos\nPLAY ZONE\n\nJEU RESPONSABLE\n\nPMU AVEC VOUS\nNos conseils\nSOS joueurs\n\nAIDE ET CONTACT\n\nFAQ - Aide en ligne\nContact\n\nL'ENTREPRISE PMU\n\nL'entreprise\nCarrières\nNos applications mobiles\n\nINFOS LÉGALES ET COOKIES\n\nInfos légales et Cookies\nINTERDICTION VOLONTAIRE DE JEUX\nToute personne peut demander à être interdite de jeux. Cette demande est formée auprès de l'Autorité nationale des jeux. Cette interdiction est applicable dans les casinos, dans les clubs de jeux, sur les sites de jeux et de paris en ligne exploités par les opérateurs de jeux agréés en France, sur le site de jeux de loterie en ligne exploité par La Française des jeux ainsi que sur les bornes de jeux accessibles avec un compte joueur exploitées par les opérateurs titulaires de droits exclusifs, notamment La Française des jeux et le Pari mutuel urbain. Cette interdiction est prononcée pour une durée qui ne peut être inférieure à trois ans. Elle est renouvelable tacitement.\nVoir plus d'informations\n\nN° d’agrément Hippique : 0002-PH-2025-09-08-AGR-03 Sportif : 0002-PS-2025-09-08-AGR-03 Poker : 0002-PO-2025-09-08-AGR-03\n\nVendredi 13\nTon 1er dépôt boosté jusqu’à 50% !\nProfite d’un boost mystère et empoche jusqu’à 25€ sur ",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
