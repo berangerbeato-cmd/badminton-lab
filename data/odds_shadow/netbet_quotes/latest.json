@@ -39,16 +39,16 @@
     "https://www.netbet.fr/badminton/international/masters-du-japon-doubles",
     "https://www.netbet.fr/badminton/international/masters-du-japon-doubles-f"
   ],
-  "index_body_sha256": "4fb4407c9d5efd4a9e9f37f61e78d01ea8290768b9707bac9edf557461b1b220",
+  "index_body_sha256": "b11b4b81e7ce8786ca95a8099d7fcae053c9f1873a62bacb38fefa5482b1b0cb",
   "index_eligible_quotes": 2,
   "index_http_status": 200,
-  "index_link_count": 125,
+  "index_link_count": 127,
   "index_link_path_counts": {
     "": 9,
     "badminton": 7,
     "basketball": 4,
     "cashout": 2,
-    "evenement": 46,
+    "evenement": 48,
     "football": 4,
     "hockey-glace": 4,
     "paris-en-direct": 5,
@@ -66,7 +66,7 @@
           "Jiang-Wei",
           "1.01",
           "Watanabe-Taguchi",
-          "6.10"
+          "6.00"
         ],
         "market_line": 109,
         "preceding_lines": [
@@ -227,12 +227,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-11-13.csv",
   "model_snapshot_sha256": "c09e283fb56283317a1a6ce06f658070d6c89ffbf82018233d45293f2a9e8c27",
-  "observed_at_utc": "2026-11-13T14:44:50+00:00",
+  "observed_at_utc": "2026-11-13T14:53:53+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "b804bdd755983172dcf30b4aa3429269f3a1c59defac22239a184ae01439589a",
+      "body_sha256": "666cdde4294858e07240c81abcda1b12eec518deb2a661f82fdcc85e9be1c540",
       "cache_age_seconds": null,
       "eligible_listing_rows": 1,
       "http_status": 200,

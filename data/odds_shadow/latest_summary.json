@@ -1,19 +1,19 @@
 {
-  "observed_at_utc": "2026-11-13T14:34:12+00:00",
+  "observed_at_utc": "2026-11-13T14:52:46+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 2,
   "sources": {
     "unibet_fr": {
-      "status": "REJECT_HTTP_CACHE_AGE",
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quotes": 0,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": null,
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-13T15:52:46.964616+01:00",
       "error": null,
-      "cache_age_seconds": "138",
-      "body_sha256": "6a8b23b65ffbb2716cf57a5429baae402c7976f0c3be7cd97cf4a8f87dd9f474",
+      "cache_age_seconds": null,
+      "body_sha256": "102c1a807cd105e36c59f5ba8e8a85a4ef7e509fce3958f8d8726e6853f474b7",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -31,15 +31,15 @@
       "flashscore_match_audit": null
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
+      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quotes": 2,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
-      "cache_age_seconds": "142",
-      "body_sha256": "e22fa8b196c41bd12587df3ee35f58d402c1d2e491ee7944c9356fbc56f9db70",
+      "cache_age_seconds": null,
+      "body_sha256": "e52f2103d981759244b59e4d1bb1ae3541332f2401881795a94830615370036e",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "7901d51060c0b5ab34946866d2d6f375558b82df3b4ea71cbf4e5615813bc7ef",
+      "body_sha256": "b11b4b81e7ce8786ca95a8099d7fcae053c9f1873a62bacb38fefa5482b1b0cb",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "06d58fc35da0eb66b95e2ae3ebc7eb51954756f08b938459c2f5c4c81581f60f",
+      "body_sha256": "7847662578f653eee8fb57f4be5be6329ead52571dbb8d4a7b0e3818987f8a72",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "17340647aec24f76792ce408da1ee4b5fe6feed6cb298482230bc3284fd644ce",
+      "body_sha256": "6ccbb7b44614426b2ae586e965c02b3ae9a2042d0bc126553728ed6348bce471",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "cec5925e01c868d602dc80068e2de9ef5fc9399891f9c22a2f32d5c595bddc73",
+      "body_sha256": "53a98136723cde6ebc6a2be3d4e56eab7084192151acfc5770f4ab870dd5ff70",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "137",
-      "body_sha256": "d518b8032fd20821e7330b37a2fa0eaab22f6762b11525cc783330c2bf2cf0c7",
+      "cache_age_seconds": "91",
+      "body_sha256": "264be9e4a11d6aac273ebf053212f39291658b99773451ef5a2e9c48601c0eef",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/cho-geonyeop-Qom6JhzT/wangcharoen-kantaphon-fkLykQwG/?mid=ChlXJ71l",
@@ -164,7 +164,7 @@
         ],
         "index_match_link_count": 42,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n13/11 VE\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nWangcharoen K.\nCho G.\n0\n2\n11\n21\n12\n21\nTerminé\nKim H. D.\nAidil S.\n2\n1\n21\n16\n13\n21\n21\n17\nTerminé\nHoh J.\nKuo K. L.\n0\n2\n15\n21\n21\n23\nTerminé\nMiyashita R.\nRichardo R. D.\n2\n1\n14\n21\n21\n12\n22\n20\nKumamoto Masters (Japon)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nPopov T. J.\nVitidsarn K.\n0\n2\n18\n21\n7\n21\nTerminé\nUbaidillah M. Z.\nFarhan A.\n0\n2\n17\n21\n12\n21\nTerminé\nSrikanth K.\nWatanabe K.\n0\n2\n22\n24\n15\n21\nTerminé\nTanaka Y.\nSen L.\n0\n2\n16\n21\n15\n21\nFlashscore Actualités\nManchester United nomme Pochettino comme nouvel entraîneur après Carrick\nLes joueurs du Portugal avec le N°7 en hommage à Cristiano Ronaldo face au Danemark\nUpamecano quitte le groupe des Bleus avant le match contre la Turquie\nAller vers Actualités\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nPratiwi N. K. D. A.\nSu X.\n2\n1\n22\n20\n6\n21\n21\n18\nTerminé\nPeng Y. W.\nLiao Y. C.\n0\n2\n13\n21\n16\n21\nTerminé\nMasuki S.\nPuspitasari M. A.\n1\n2\n7\n21\n21\n17\n16\n21\nTerminé\nLo S. Y. H.\nChen S. Y.\n2\n0\n21\n3\n21\n9\nKumamoto Masters (Japon)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nChen Y. F.\nChochuwong Po.\n2\n1\n18\n21\n21\n17\n21\n11\nTerminé\nOkuhara N.\nWang Z. Y.\n1\n2\n17\n21\n21\n19\n8\n21\nTerminé\nYamaguchi A.\nGunji R.\n2\n0\n21\n13\n21\n12\nTerminé\nMiyazaki T.\nLin H. T.\n2\n0\n21\n14\n21\n12\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nAderya T.\nSubagio A. O.\nGoonting B. J.\nHaikal M.\n2\n1\n21\n19\n16\n21\n21\n19\nTerminé\nHuang K. Y.\nLin S.\nKoh E.\nWong J. H. H.\n0\n2\n18\n21\n16\n21\nTerminé\nCheng K. W.\nLiao Chao Pang\nChen P. H"
+        "index_text_excerpt": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n13/11 VE\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nWangcharoen K.\nCho G.\n0\n2\n11\n21\n12\n21\nTerminé\nKim H. D.\nAidil S.\n2\n1\n21\n16\n13\n21\n21\n17\nTerminé\nHoh J.\nKuo K. L.\n0\n2\n15\n21\n21\n23\nTerminé\nMiyashita R.\nRichardo R. D.\n2\n1\n14\n21\n21\n12\n22\n20\nKumamoto Masters (Japon)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nPopov T. J.\nVitidsarn K.\n0\n2\n18\n21\n7\n21\nTerminé\nUbaidillah M. Z.\nFarhan A.\n0\n2\n17\n21\n12\n21\nTerminé\nSrikanth K.\nWatanabe K.\n0\n2\n22\n24\n15\n21\nTerminé\nTanaka Y.\nSen L.\n0\n2\n16\n21\n15\n21\nFlashscore Actualités\nLe Barça propose à ses supporters de reposer pour l’éternité au Camp Nou\nManchester United nomme Pochettino comme nouvel entraîneur après Carrick\nLa charnière Lucu - Dupont, signe de panique pour le XV de France\nAller vers Actualités\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nPratiwi N. K. D. A.\nSu X.\n2\n1\n22\n20\n6\n21\n21\n18\nTerminé\nPeng Y. W.\nLiao Y. C.\n0\n2\n13\n21\n16\n21\nTerminé\nMasuki S.\nPuspitasari M. A.\n1\n2\n7\n21\n21\n17\n16\n21\nTerminé\nLo S. Y. H.\nChen S. Y.\n2\n0\n21\n3\n21\n9\nKumamoto Masters (Japon)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nChen Y. F.\nChochuwong Po.\n2\n1\n18\n21\n21\n17\n21\n11\nTerminé\nOkuhara N.\nWang Z. Y.\n1\n2\n17\n21\n21\n19\n8\n21\nTerminé\nYamaguchi A.\nGunji R.\n2\n0\n21\n13\n21\n12\nTerminé\nMiyazaki T.\nLin H. T.\n2\n0\n21\n14\n21\n12\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nAderya T.\nSubagio A. O.\nGoonting B. J.\nHaikal M.\n2\n1\n21\n19\n16\n21\n21\n19\nTerminé\nHuang K. Y.\nLin S.\nKoh E.\nWong J. H. H.\n0\n2\n18\n21\n16\n21\nTerminé\nCheng K. W.\nLiao Chao Pang\nChen P. H.\nLee W. T.\n2\n0"
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/gunji-riko-0hByYp6q/yamaguchi-akane-pKuBkeNb/#/cotes/home-away/temps-regulier/",
@@ -175,11 +175,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/gunji-riko-0hByYp6q/yamaguchi-akane-pKuBkeNb/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "0d0281d3e9b56acee4a79a31514d2e3b40df8d88199a8b343538b9c2ce1c3e37",
+        "body_sha256": "4c740a18acb11775e9d25124e948b127f12f779e459bbd184f9e95b371dbeb53",
         "screenshot_error": null,
         "text_excerpt_for_debug": "Akane Yamaguchi - Riko Gunji (13/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - FEMMESKUMAMOTO MASTERS - QUARTS DE FINALE\nNouvelle fenêtre\n13.11.2026 05:40\nYamaguchi A.\nBWF\n: 2.\n2\n-\n0\nTERMINÉ\nGunji R.\nBWF\n: 19.\n2\n-\n0\nTERMINÉ\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nYamaguchi A.\n2\n21\n21\nGunji R.\n0\n13\n12\nCOTES\nHOME/AWAY\n1\n2\n1.04\n4.60\n-\n-\nVoir plus\nLIVE STREAMING\nPublicité\nBetclic.fr\nINFORMATIONS DE MATCH\nSTADE:\nKumamoto Prefectural Gymnasium\n (Kumamoto)\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Kaohsiung Masters Hommes\nBWF WT Kumamoto Masters Hommes\nBWF WT Kaohsiung Masters Femmes\nBWF WT Kumamoto Masters Femmes\nBWF WT Kaohsiung Masters Doubles Hommes\nBWF WT Kumamoto Masters Doubles Hommes\nBWF WT Kaohsiung Masters Doubles Femmes\nBWF WT Kumamoto Masters Doubles Femmes\nBWF WT Kaohsiung Masters Doubles Mixtes\nBWF WT Kumamoto Masters Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubl",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 5289,
+        "body_characters": 5273,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -217,7 +217,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "370749a48c48821dbb36fd7da421fdda1db41df12bb5853df989ee126a4a367d",
+      "body_sha256": "7616d7463d1fccfed32763de914d80efa6c44375df4fd5b98d7c49c8d8e2482e",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
