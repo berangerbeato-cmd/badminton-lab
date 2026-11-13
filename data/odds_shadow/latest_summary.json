@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-13T12:57:27+00:00",
+  "observed_at_utc": "2026-11-13T14:31:53+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 2,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-13T13:57:27.280735+01:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-13T15:31:53.748183+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "78b0dc13b7fccbff3f918c2f76e792469d229494644400d974bbc66998669a1d",
+      "body_sha256": "6a8b23b65ffbb2716cf57a5429baae402c7976f0c3be7cd97cf4a8f87dd9f474",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -39,7 +39,7 @@
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "0f2658cf50cb6cb18b7ab6ac8af20c4da758e60765b296312cb2ab4a7043eecd",
+      "body_sha256": "e22fa8b196c41bd12587df3ee35f58d402c1d2e491ee7944c9356fbc56f9db70",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "63345205cefb55efa0e612be5e9e791b158a1e9f879805dbba263ce06b5a5f30",
+      "body_sha256": "f7748f4370a4908985ae384780a2a36f1c4fa4ac99d8259ae0b3f2f52b90ef90",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "855fd7616c6585b10928af54bbbc3a7a9a8dda7aeaf4824305db24b8a1af68a6",
+      "body_sha256": "a50962a7d66872f1d9941a3bd7532c79183228c3ac5545f71c8a96bcafc892e2",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "fe10a6b4acaeaa91d1ed51db2d56e42cde767a3759954ec5b5700ec5f3c98721",
+      "body_sha256": "1b8a1e26d93a4ea7ec9e69af47b4b150202fff9154ac351682f919d26710d3aa",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "6003ae3278ee9749636064af219e163b6b64ffaf1c134f5bd305687608585edf",
+      "body_sha256": "4e887b872aeff5bbb101bb8629aaa7b98697d3a2e4b56864f91a2fa2c46a70e4",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,7 +142,7 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "382",
+      "cache_age_seconds": "330",
       "body_sha256": "251d74f68255195c017079f111373f84502c61ba7bb77513f7d4a0083814fd0f",
       "flashscore_discovery": {
         "index_match_links": [
@@ -175,11 +175,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/gunji-riko-0hByYp6q/yamaguchi-akane-pKuBkeNb/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "cad78471ad65f9312cc741c7b59263c9cf46936ccc39938f59f50dda2652b745",
+        "body_sha256": "b73f807f5297cf791d09e7e6bb7007bd88bc3460a8f36cc98aa960184daab5c4",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Akane Yamaguchi - Riko Gunji (13/11/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - FEMMESKUMAMOTO MASTERS - QUARTS DE FINALE\nNouvelle fenêtre\n13.11.2026 05:40\nYamaguchi A.\nBWF\n: 2.\n2\n-\n0\nTERMINÉ\nGunji R.\nBWF\n: 19.\n2\n-\n0\nTERMINÉ\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nYamaguchi A.\n2\n21\n21\nGunji R.\n0\n13\n12\nCOTES\nHOME/AWAY\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBetMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. 1-800-BETS-OFF (IA), New customers only. T&C apply Must opt-in and wager $10+ cash on any market to receive $50 in Bonus Bets each day for your first 5 days\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE MATCH\nSTADE:\nKumamoto Prefectural Gymnasium\n (Kumamoto)\nPublicité\nLIGUES ÉPINGLÉES",
+        "text_excerpt_for_debug": "Akane Yamaguchi - Riko Gunji (13/11/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - FEMMESKUMAMOTO MASTERS - QUARTS DE FINALE\nNouvelle fenêtre\n13.11.2026 05:40\nYamaguchi A.\nBWF\n: 2.\n2\n-\n0\nTERMINÉ\nGunji R.\nBWF\n: 19.\n2\n-\n0\nTERMINÉ\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nYamaguchi A.\n2\n21\n21\nGunji R.\n0\n13\n12\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n1.07\n7.50\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBetMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. 1-800-BETS-OFF (IA), New customers only. T&C apply Must opt-in and wager $10+ cash on any market to receive $50 in Bonus Bets each day for your first 5 days\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE MATCH\nSTADE:\nKumamoto Prefectural Gymnasium\n (Kumamo",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 6290,
+        "body_characters": 6320,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -188,10 +188,25 @@
         "comparison_block_reason": "NO_VERIFIED_BOOKMAKER_PRICES",
         "contains_odds_heading": true,
         "odds_section_lines": [
-          "HOME/AWAY"
+          "HOME/AWAY",
+          "1",
+          "2",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "1.07",
+          "7.50"
         ],
-        "odds_section_dash_count": 0,
-        "odds_section_decimal_prices": [],
+        "odds_section_dash_count": 8,
+        "odds_section_decimal_prices": [
+          "1.07",
+          "7.50"
+        ],
         "odds_section_placeholder_only": false,
         "odds_section_bookmaker_names": [],
         "contains_bookmaker_names": []
@@ -206,7 +221,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "87cf89335a877af4b80f5131bee3ad8f500506680dc0bd95aa54c876932bc7b9",
+      "body_sha256": "e4aa1543f5d6eb0a6942d25dc13e091c33cc47405e94cb84fd550d30579441e3",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }

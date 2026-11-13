@@ -1,11 +1,11 @@
 {
-  "body_sha256": "0f2658cf50cb6cb18b7ab6ac8af20c4da758e60765b296312cb2ab4a7043eecd",
+  "body_sha256": "e22fa8b196c41bd12587df3ee35f58d402c1d2e491ee7944c9356fbc56f9db70",
   "bookmaker_price_updated_at": null,
   "cache_age_seconds": null,
-  "finished_at_utc": "2026-11-13T12:57:48+00:00",
+  "finished_at_utc": "2026-11-13T14:32:12+00:00",
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-11-13T12:57:37+00:00",
+  "observed_at_utc": "2026-11-13T14:32:01+00:00",
   "operator": "Parions Sport Point de Vente (FDJ)",
   "operator_kind": "RETAIL_NOT_ONLINE",
   "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
@@ -65,10 +65,10 @@
   "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Fri, 13 Nov 2026 12:57:38 GMT",
+  "server_date": "Fri, 13 Nov 2026 14:32:03 GMT",
   "source_key": "fdj_pos_fr",
   "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
   "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nLDN\nAmicaux (H)\nLDN CONCACAF\nU21 Qualif.\nL1 McDonald's\nLigue 2 BKT\nPremier League\n+\nAfficher plus\nTennis\nToutes les compétitions\nWTA Finals\nStockholm\nATP Finals\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nD1 France (H)\nD2 France (H)\nTBSL\nLiga ACB\nSerie A\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBoxe\nGolf\nMMA\nSki Alpin\nSnooker\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nsamedi 14 novembre\nJiang/Wei-Watanabe/Taguc\nKumamoto DM\n\nN°16794 Face à Face I Fin de valid. 14/11 01h55\n\nAfficher\nJiang/Wei\n1,05\nWatanabe/Taguc\n4,05\nA.Farhan-L.Sen\nKumamoto H\n\nN°16806 Face à Face I Fin de valid. 14/11 02h15\n\nAfficher\nA.Farhan\n1,44\nL.Sen\n1,97\nGao/Wu-Koga/Saito\nKumamoto DM\n\nN°16797 Face à Face I Fin de valid. 14/11 02h55\n\nAfficher\nGao/Wu\n1,40\nKoga/Saito\n2,05\nK.Watanabe-K.Vitidsarn\nKumamoto H\n\nN°16809 Face à Face I Fin de valid. 14/11 02h55\n\nAfficher\nK.Watanabe\n2,85\n",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nLDN\nAmicaux (H)\nLDN CONCACAF\nU21 Qualif.\nL1 McDonald's\nLigue 2 BKT\nPremier League\n+\nAfficher plus\nTennis\nToutes les compétitions\nWTA Finals\nStockholm\nATP Finals\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nD1 France (H)\nD2 France (H)\nTBSL\nLiga ACB\nSerie A\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBoxe\nGolf\nMMA\nSki Alpin\nSnooker\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nsamedi 14 novembre\nJiang/Wei-Watanabe/Taguc\nKumamoto DM\n\nN°16794 Face à Face I Fin de valid. 14/11 01h55\n\nAfficher\nJiang/Wei\n1,05\nWatanabe/Taguc\n4,00\n100%\n0%\nA.Farhan-L.Sen\nKumamoto H\n\nN°16806 Face à Face I Fin de valid. 14/11 02h15\n\nAfficher\nA.Farhan\n1,44\nL.Sen\n1,97\n100%\n0%\nGao/Wu-Koga/Saito\nKumamoto DM\n\nN°16797 Face à Face I Fin de valid. 14/11 02h55\n\nAfficher\nGao/Wu\n1,40\nKoga/Saito\n2,05\n100%\n0%\nK.Watanabe-K.Vitidsarn\nKumamoto H\n\nN°16809 Face à Face I Fin de valid. 14/11 02h55\n\nA",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }

@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-12T15:10:15+00:00",
+  "observed_at_utc": "2026-11-13T14:32:57+00:00",
   "source": "https://www.netbet.fr/badminton",
   "operator": "NetBet.fr",
   "status": "EVENT_LIST_UNDETERMINED_NEEDS_PARSER_AUDIT",
@@ -9,14 +9,14 @@
   "http_status": 200,
   "resolved_url": "https://www.netbet.fr/badminton",
   "cache_age_seconds": null,
-  "body_sha256": "0afc3f2136687c957b625ec4735d7eaec8db437f588fdf1f9755387378af6bef",
+  "body_sha256": "f7748f4370a4908985ae384780a2a36f1c4fa4ac99d8259ae0b3f2f52b90ef90",
   "event_area_excerpt": "",
   "explicit_no_events": false,
   "public_badminton_links": [
     "https://www.netbet.fr/badminton",
-    "https://www.netbet.fr/badminton/international/masters-du-japon-doubles",
     "https://www.netbet.fr/badminton/international/masters-du-japon-doubles-mixtes",
     "https://www.netbet.fr/badminton/international/masters-du-japon",
+    "https://www.netbet.fr/badminton/international/masters-du-japon-doubles",
     "https://www.netbet.fr/badminton/international/masters-du-japon-doubles-f"
   ]
 }
