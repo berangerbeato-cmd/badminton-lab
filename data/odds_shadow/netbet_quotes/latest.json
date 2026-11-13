@@ -39,16 +39,16 @@
     "https://www.netbet.fr/badminton/international/masters-du-japon-doubles",
     "https://www.netbet.fr/badminton/international/masters-du-japon-doubles-f"
   ],
-  "index_body_sha256": "7901d51060c0b5ab34946866d2d6f375558b82df3b4ea71cbf4e5615813bc7ef",
+  "index_body_sha256": "4fb4407c9d5efd4a9e9f37f61e78d01ea8290768b9707bac9edf557461b1b220",
   "index_eligible_quotes": 2,
   "index_http_status": 200,
-  "index_link_count": 123,
+  "index_link_count": 125,
   "index_link_path_counts": {
     "": 9,
     "badminton": 7,
     "basketball": 4,
     "cashout": 2,
-    "evenement": 44,
+    "evenement": 46,
     "football": 4,
     "hockey-glace": 4,
     "paris-en-direct": 5,
@@ -68,7 +68,7 @@
           "Watanabe-Taguchi",
           "6.10"
         ],
-        "market_line": 107,
+        "market_line": 109,
         "preceding_lines": [
           "Scores en direct",
           "Format des cotes",
@@ -90,11 +90,11 @@
       {
         "following_lines": [
           "Nan-Wang",
-          "1.58",
+          "1.60",
           "Hoki-Kobayashi",
-          "1.87"
+          "1.85"
         ],
-        "market_line": 129,
+        "market_line": 131,
         "preceding_lines": [
           "02:20",
           "Alwi Farhan",
@@ -120,16 +120,16 @@
           "Koga-Saito",
           "2.20"
         ],
-        "market_line": 140,
+        "market_line": 142,
         "preceding_lines": [
           "02:40",
           "Nan-Wang",
           "Hoki-Kobayashi",
           "Qui va gagner le match ?",
           "Nan-Wang",
-          "1.58",
+          "1.60",
           "Hoki-Kobayashi",
-          "1.87",
+          "1.85",
           "+ 6",
           "Masters du Japon, Doubles Mixtes",
           "sam. 14 nov.",
@@ -146,7 +146,7 @@
           "Nakanishi-Iwanaga",
           "1.32"
         ],
-        "market_line": 162,
+        "market_line": 164,
         "preceding_lines": [
           "03:00",
           "Koki Watanabe",
@@ -172,7 +172,7 @@
           "Zhiyi Wang",
           "1.15"
         ],
-        "market_line": 173,
+        "market_line": 175,
         "preceding_lines": [
           "03:20",
           "Lee-Kim",
@@ -198,7 +198,7 @@
           "Lundgaard-Vestergaard",
           "2.50"
         ],
-        "market_line": 184,
+        "market_line": 186,
         "preceding_lines": [
           "03:20",
           "Tomoka Miyazaki",
@@ -227,12 +227,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-11-13.csv",
   "model_snapshot_sha256": "c09e283fb56283317a1a6ce06f658070d6c89ffbf82018233d45293f2a9e8c27",
-  "observed_at_utc": "2026-11-13T14:35:14+00:00",
+  "observed_at_utc": "2026-11-13T14:44:50+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "654e9b8799bcb37eb6f3de8df3caa43a5bb992d55995e40dd6b30efd879f3b01",
+      "body_sha256": "b804bdd755983172dcf30b4aa3429269f3a1c59defac22239a184ae01439589a",
       "cache_age_seconds": null,
       "eligible_listing_rows": 1,
       "http_status": 200,
@@ -245,7 +245,7 @@
             "Lakshya Sen",
             "2.12"
           ],
-          "market_line": 106,
+          "market_line": 108,
           "preceding_lines": [
             "Règlement des paris",
             "Scores en direct",
