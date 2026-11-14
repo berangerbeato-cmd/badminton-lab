@@ -1,0 +1,59 @@
+{
+  "body_sha256": "06e16fa7d54b939a8afaa0ac136570f0290836ddc01b0963ec3eae1bf7291392",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-11-14T13:46:17+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-11-14T13:46:07+00:00",
+  "operator": "Parions Sport Point de Vente (FDJ)",
+  "operator_kind": "RETAIL_NOT_ONLINE",
+  "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
+  "public_badminton_event_links": [
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-df/56573",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-dh/56574",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-dm/56577",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-f/56576",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-h/56575",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-dm/56577/match_jiangwei_gaowu/1324780",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-h/56575/match_lsen_kwatanabe/1324779",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-dh/56574/match_hokikobayas_tai-yap/1324851",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-df/56573/match_iwanaganakani_hiramotoshida/1324852",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-f/56576/match_ayamaguchi_zwang/1324853"
+  ],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/fdj_pos_fr.png",
+  "quotes": [
+    {
+      "discipline": "MS",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+      "odds_1": 1.92,
+      "odds_2": 1.47,
+      "player_1_display": "L.Sen",
+      "player_2_display": "K.Watanabe",
+      "retail_competition_display": "Kumamoto H",
+      "retail_event_display": "L.Sen-K.Watanabe",
+      "valid_until_paris": "2026-11-15T03:15+01:00"
+    }
+  ],
+  "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "retail_page_cached": false,
+  "retail_pages_audited": [
+    {
+      "cache_age_seconds": null,
+      "http_status": 200,
+      "quotes": 1,
+      "status": "retail face-à-face rows",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-h/56575"
+    }
+  ],
+  "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Sat, 14 Nov 2026 13:46:08 GMT",
+  "source_key": "fdj_pos_fr",
+  "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nLDN\nAmicaux (H)\nLDN CONCACAF\nL1 McDonald's\nLigue 2 BKT\nPremier League\nLaLiga\n+\nAfficher plus\nTennis\nToutes les compétitions\nWTA Finals\nWTA Finals DF\nATP Finals\nStockholm DH\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nD1 France (H)\nTBSL\nLiga ACB\nSerie A\nBBL\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBoxe\nMMA\nSki Alpin\nSnooker\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\ndimanche 15 novembre\nJiang/Wei-Gao/Wu\nKumamoto DM\n\nN°14425 Face à Face I Fin de valid. 15/11 02h55\n\nAfficher\nJiang/Wei\n1,11\nGao/Wu\n3,35\n99%\n0%\nL.Sen-K.Watanabe\nKumamoto H\n\nN°14426 Face à Face I Fin de valid. 15/11 03h15\n\nAfficher\nL.Sen\n1,92\nK.Watanabe\n1,47\n21%\n78%\nHoki/Kobayas-Tai /Yap\nKumamoto DH\n\nN°17095 Face à Face I Fin de valid. 15/11 03h35\n\nAfficher\nHoki/Kobayas\n1,37\nTai /Yap\n2,10\n100%\n0%\nIwanaga/Nakani-Hiramoto/Shida\nKumamoto DF\n\nN°17205 Face à Face I Fin de valid. 15/11 03h55\n",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}

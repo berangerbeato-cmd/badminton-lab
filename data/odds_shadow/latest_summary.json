@@ -1,19 +1,19 @@
 {
-  "observed_at_utc": "2026-11-14T13:30:37+00:00",
+  "observed_at_utc": "2026-11-14T13:45:57+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 1,
   "sources": {
     "unibet_fr": {
-      "status": "REJECT_HTTP_CACHE_AGE",
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quotes": 0,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": null,
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-14T14:45:57.787769+01:00",
       "error": null,
-      "cache_age_seconds": "150",
-      "body_sha256": "841568baf925e6b889a84b8731cbd1f1802d983edee8c15b5eb538566567c82b",
+      "cache_age_seconds": null,
+      "body_sha256": "ded6d414ac614110fdc9d23f98322afd79c895a3616f5768d9be571343b0f5d9",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -31,15 +31,15 @@
       "flashscore_match_audit": null
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
+      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quotes": 1,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
-      "cache_age_seconds": "148",
-      "body_sha256": "8ba82da3608831971a649bf3c26d7f75a20c265fc782621f9a883dacfe5a549f",
+      "cache_age_seconds": null,
+      "body_sha256": "06e16fa7d54b939a8afaa0ac136570f0290836ddc01b0963ec3eae1bf7291392",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "1f64b8e7e46fa8dccbebf8b533bdcd5c79d3a1fd744789602ec1f164019ed7da",
+      "body_sha256": "fe7c80d4c588b1c086a8fb2cc94e7389b58ce3a7d8558e300907798cdeddc2d9",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "1917ae9060a1da500cf35d178fc0ed401e2f408826524788dc65b5ba16bf8abd",
+      "body_sha256": "2d0a2996ca05cae665188192f01400fabbd96f5901b111fcde65e778f3dc9a2e",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "4a55546d4eef33f9e1844812738c7915395529889f0e1266514444bac9bf29a0",
+      "body_sha256": "2d64e17fc591b42179537da9385051167364755f37cdb2c8b4c3412abc5dc16b",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "aa7acf536e98b4257b3457f1ec8c7c366a326cf68d345efb92c47083b003e2f0",
+      "body_sha256": "d9d9326de2e395f7cc12f847e2ec9b195378868451ee8315a9191dd4a979f67d",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "250",
-      "body_sha256": "1359a1e578e457d90c44582411dc1a8c594a484a5fbc7b52033f47a55d7bce7c",
+      "cache_age_seconds": "208",
+      "body_sha256": "94d8f112727fb5ec61fc5fb4d3d856391d21a96125d0fbdb510d035dae096cbb",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/kim-hae-deun-f33BF7Np/miyashita-rei-MooTXbfS/?mid=4O4nYl8F",
@@ -164,7 +164,7 @@
         ],
         "index_match_link_count": 21,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n14/11 SA\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nKim H. D.\nMiyashita R.\n2\n1\n19\n21\n21\n15\n21\n19\nTerminé\nKuo K. L.\nCho G.\n2\n1\n21\n14\n18\n21\n21\n15\nKumamoto Masters (Japon)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nFarhan A.\nSen L.\n1\n2\n12\n21\n21\n15\n11\n21\nTerminé\nWatanabe K.\nVitidsarn K.\n2\n1\n14\n21\n21\n11\n23\n21\nFlashscore Actualités\nOnze ans après sa retraite, Ronaldinho revient jouer en D3 italienne\n\"J'en veux toujours plus\", prévient Paul Seixas avant les objectifs de 2027\nUn Brésil rajeuni se fait surprendre par le Japon en match amical\nAller vers Actualités\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nLiao Y. C.\nPratiwi N. K. D. A.\n2\n1\n12\n21\n21\n19\n21\n19\nTerminé\nLo S. Y. H.\nPuspitasari M. A.\n0\n2\n16\n21\n18\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nMiyazaki T.\nWang Z. Y.\n0\n2\n10\n21\n15\n21\nTerminé\n(abandon)\nYamaguchi A.\nChen Y. F.\n1\n1\n18\n21\n21\n8\n11\n4\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nKoh E.\nWong J. H. H.\nCheng K. W.\nLiao Chao Pang\n0\n2\n18\n21\n17\n21\nTerminé\nChang Ko Ch.\nChen L.\nAderya T.\nSubagio A. O.\n2\n1\n19\n21\n22\n20\n21\n15\nKumamoto Masters (Japon)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nWang C.\nXie H. N.\nHoki T.\nKobayashi Y.\n1\n2\n15\n21\n21\n19\n17\n21\nTerminé\nTai A.\nYap R. K.\nLundgaard D.\nVestergaard M.\n2\n0\n21\n18\n21\n18\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nAiso M.\nNiimi M.\nMeida I. S.\nNastine R. K.\n0\n2\n21\n23\n13\n21\nTerminé\nOng X. Y.\nTing C.\nYen Yu L.\nWang Y. Z.\n2\n0\n21\n13\n21\n9\nKumamoto Ma"
+        "index_text_excerpt": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n14/11 SA\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nKim H. D.\nMiyashita R.\n2\n1\n19\n21\n21\n15\n21\n19\nTerminé\nKuo K. L.\nCho G.\n2\n1\n21\n14\n18\n21\n21\n15\nKumamoto Masters (Japon)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nFarhan A.\nSen L.\n1\n2\n12\n21\n21\n15\n11\n21\nTerminé\nWatanabe K.\nVitidsarn K.\n2\n1\n14\n21\n21\n11\n23\n21\nFlashscore Actualités\nOnze ans après sa retraite, Ronaldinho revient jouer en D3 italienne\n\"J'en veux toujours plus\", prévient Paul Seixas avant les objectifs de 2027\nUn Brésil rajeuni se fait surprendre par le Japon en match amical\nAller vers Actualités\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nLiao Y. C.\nPratiwi N. K. D. A.\n2\n1\n12\n21\n21\n19\n21\n19\nTerminé\nLo S. Y. H.\nPuspitasari M. A.\n0\n2\n16\n21\n18\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nMiyazaki T.\nWang Z. Y.\n0\n2\n10\n21\n15\n21\nTerminé\n(abandon)\nYamaguchi A.\nChen Y. F.\n1\n1\n18\n21\n21\n8\n11\n4\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nKoh E.\nWong J. H. H.\nCheng K. W.\nLiao Chao Pang\n0\n2\n18\n21\n17\n21\nTerminé\nChang Ko Ch.\nChen L.\nAderya T.\nSubagio A. O.\n2\n1\n19\n21\n22\n20\n21\n15\nKumamoto Masters (Japon)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nWang C.\nXie H. N.\nHoki T.\nKobayashi Y.\n1\n2\n15\n21\n21\n19\n17\n21\nTerminé\nTai A.\nYap R. K.\nLundgaard D.\nVestergaard M.\n2\n0\n21\n18\n21\n18\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nAiso M.\nNiimi M.\nMeida I. S.\nNastine R. K.\n0\n2\n21\n23\n13\n21\nTerminé\nOng X. Y.\nTing C.\nYen Yu "
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/chen-yufei-YLiWVObR/yamaguchi-akane-pKuBkeNb/#/cotes/home-away/temps-regulier/",
@@ -223,7 +223,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "c2cf0af2b456ba23d7f595d5dfc9a9c1527e64b3a84d84fc6dd2c391bcbce511",
+      "body_sha256": "45375028a021b02e68d759403fde69bfaba63e6f0d08499e779c992f73b36658",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }

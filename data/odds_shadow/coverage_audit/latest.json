@@ -2,8 +2,8 @@
   "next_actions": [
     {
       "source": "unibet_fr",
-      "priority": 3,
-      "action": "Record access limitation; do not bypass robots, authentication or geoblocks."
+      "priority": 2,
+      "action": "Inspect public page structure and discipline/date sections; do not interpret live prices as prematch."
     },
     {
       "source": "betclic_fr",
@@ -38,11 +38,12 @@
   ],
   "blocker_counts": {
     "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE": 4,
-    "HTTP_OR_REDIRECT_REJECTED": 3,
+    "HTTP_OR_REDIRECT_REJECTED": 2,
+    "NO_CONFIDENT_QUOTES_EXTRACTED": 1,
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-11-14T13:31:42.555844+00:00",
+  "generated_at_utc": "2026-11-14T13:47:03.633705+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 2,
@@ -66,18 +67,18 @@
   ],
   "source_audit": {
     "unibet_fr": {
-      "status": "REJECT_HTTP_CACHE_AGE",
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-14T13:30:39+00:00",
-      "parser_notes": null,
+      "observed_at_utc": "2026-11-14T13:45:59+00:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-14T14:45:57.787769+01:00",
       "index_market_audit": null,
       "reason_counts": null,
-      "blocker": "HTTP_OR_REDIRECT_REJECTED"
+      "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
     },
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
       "quote_count": 1,
-      "observed_at_utc": "2026-11-14T13:31:33+00:00",
+      "observed_at_utc": "2026-11-14T13:46:54+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 1,
@@ -178,7 +179,7 @@
               "1.42",
               "Hiramoto-Shida",
               "2.20",
-              "+ 15",
+              "+ 17",
               "Masters du Japon (F)",
               "dim. 15 nov.",
               "04:20",
@@ -200,7 +201,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-14T13:30:56+00:00",
+      "observed_at_utc": "2026-11-14T13:46:18+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -209,7 +210,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-14T13:31:10+00:00",
+      "observed_at_utc": "2026-11-14T13:46:31+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -218,16 +219,16 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-14T13:30:45+00:00",
+      "observed_at_utc": "2026-11-14T13:46:06+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE"
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
+      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quote_count": 1,
-      "observed_at_utc": "2026-11-14T13:30:46+00:00",
+      "observed_at_utc": "2026-11-14T13:46:07+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -236,7 +237,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-14T13:30:57+00:00",
+      "observed_at_utc": "2026-11-14T13:46:19+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -245,7 +246,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-14T13:31:05+00:00",
+      "observed_at_utc": "2026-11-14T13:46:27+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -254,7 +255,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-14T13:31:14+00:00",
+      "observed_at_utc": "2026-11-14T13:46:36+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -263,7 +264,7 @@
     "oddspedia_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-14T13:31:11+00:00",
+      "observed_at_utc": "2026-11-14T13:46:32+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -272,7 +273,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-14T13:31:29+00:00",
+      "observed_at_utc": "2026-11-14T13:46:50+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
