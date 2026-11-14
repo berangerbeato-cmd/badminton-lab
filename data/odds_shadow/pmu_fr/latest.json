@@ -1,11 +1,11 @@
 {
-  "body_sha256": "7940f3b3255dd36c78ace9f6394f33b027c6c2ce6a5bb68c0248c0854506ae5a",
+  "body_sha256": "1917ae9060a1da500cf35d178fc0ed401e2f408826524788dc65b5ba16bf8abd",
   "bookmaker_price_updated_at": null,
   "cache_age_seconds": null,
-  "finished_at_utc": "2026-11-14T13:28:44+00:00",
+  "finished_at_utc": "2026-11-14T13:31:09+00:00",
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-11-14T13:28:41+00:00",
+  "observed_at_utc": "2026-11-14T13:31:05+00:00",
   "operator": "PMU.fr",
   "operator_kind": "ONLINE",
   "public_badminton_event_links": [],
@@ -14,10 +14,10 @@
   "resolved_url": "https://www.pmu.fr/sport/",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Sat, 14 Nov 2026 13:28:41 GMT",
+  "server_date": "Sat, 14 Nov 2026 13:31:06 GMT",
   "source_key": "pmu_fr",
   "source_url": "https://www.pmu.fr/sport/",
   "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
-  "text_excerpt_for_debug": "PARCE QU’UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR (09 74 75 13 13 - APPEL NON SURTAXÉ)\nHIPPIQUE\nSPORT\nPOKER\nPLAY ZONE\n\nSe connecter\nS'inscrire\nAccueil\nLive\n7\nPromotions\nMes paris\n48H DE L’OBSTACLE \n40 000€ de Bonus à partager ce week-end !\nEN SAVOIR PLUS >\n\nRejoins-nous sur les réseaux sociaux :\n\n\n\n\n\nDÉFIS ET PROMOS\n\nNos promos\nPLAY ZONE\n\nJEU RESPONSABLE\n\nPMU AVEC VOUS\nNos conseils\nSOS joueurs\n\nAIDE ET CONTACT\n\nFAQ - Aide en ligne\nContact\n\nL'ENTREPRISE PMU\n\nL'entreprise\nCarrières\nNos applications mobiles\n\nINFOS LÉGALES ET COOKIES\n\nInfos légales et Cookies\nINTERDICTION VOLONTAIRE DE JEUX\nToute personne peut demander à être interdite de jeux. Cette demande est formée auprès de l'Autorité nationale des jeux. Cette interdiction est applicable dans les casinos, dans les clubs de jeux, sur les sites de jeux et de paris en ligne exploités par les opérateurs de jeux agréés en France, sur le site de jeux de loterie en ligne exploité par La Française des jeux ainsi que sur les bornes de jeux accessibles avec un compte joueur exploitées par les opérateurs titulaires de droits exclusifs, notamment La Française des jeux et le Pari mutuel urbain. Cette interdiction est prononcée pour une durée qui ne peut être inférieure à trois ans. Elle est renouvelable tacitement.\nVoir plus d'informations\n\nN° d’agrément Hippique : 0002-PH-2025-09-08-AGR-03 Sportif : 0002-PS-2025-09-08-AGR-03 Poker : 0002-PO-2025-09-08-AGR-03\n\n48h de l’Obstacle 🏇🏆\n2 jours, 2 cagnottes de 20 000€ à partager !\nGagne sur au moins 3 courses chaque jour des 48h de l’Obstac",
+  "text_excerpt_for_debug": "PARCE QU’UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR (09 74 75 13 13 - APPEL NON SURTAXÉ)\nHIPPIQUE\nSPORT\nPOKER\nPLAY ZONE\n\nSe connecter\nS'inscrire\nAccueil\nLive\nPromotions\nMes paris\n48H DE L’OBSTACLE \n40 000€ de Bonus à partager ce week-end !\nEN SAVOIR PLUS >\n\nRejoins-nous sur les réseaux sociaux :\n\n\n\n\n\nDÉFIS ET PROMOS\n\nNos promos\nPLAY ZONE\n\nJEU RESPONSABLE\n\nPMU AVEC VOUS\nNos conseils\nSOS joueurs\n\nAIDE ET CONTACT\n\nFAQ - Aide en ligne\nContact\n\nL'ENTREPRISE PMU\n\nLa boutique officielle PMU\nL'entreprise\nCarrières\nNos applications mobiles\n\nINFOS LÉGALES ET COOKIES\n\nInfos légales et Cookies\nINTERDICTION VOLONTAIRE DE JEUX\nToute personne peut demander à être interdite de jeux. Cette demande est formée auprès de l'Autorité nationale des jeux. Cette interdiction est applicable dans les casinos, dans les clubs de jeux, sur les sites de jeux et de paris en ligne exploités par les opérateurs de jeux agréés en France, sur le site de jeux de loterie en ligne exploité par La Française des jeux ainsi que sur les bornes de jeux accessibles avec un compte joueur exploitées par les opérateurs titulaires de droits exclusifs, notamment La Française des jeux et le Pari mutuel urbain. Cette interdiction est prononcée pour une durée qui ne peut être inférieure à trois ans. Elle est renouvelable tacitement.\nVoir plus d'informations\n\nN° d’agrément Hippique : 0002-PH-2025-09-08-AGR-03 Sportif : 0002-PS-2025-09-08-AGR-03 Poker : 0002-PO-2025-09-08-AGR-03\n\n48h de l’Obstacle 🏇🏆\n2 jours, 2 cagnottes de 20 000€ à partager !\nGagne sur au moins 3 courses chaque",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }

@@ -1,19 +1,19 @@
 {
-  "observed_at_utc": "2026-11-14T13:28:09+00:00",
+  "observed_at_utc": "2026-11-14T13:30:37+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 1,
   "sources": {
     "unibet_fr": {
-      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
+      "status": "REJECT_HTTP_CACHE_AGE",
       "quotes": 0,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-14T14:28:09.399247+01:00",
+      "parser_notes": null,
       "error": null,
-      "cache_age_seconds": null,
-      "body_sha256": "7715bc37d590b584a3dae951fbd7037e124792135eb174a6f2f9be1ee430f3c8",
+      "cache_age_seconds": "150",
+      "body_sha256": "841568baf925e6b889a84b8731cbd1f1802d983edee8c15b5eb538566567c82b",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -31,14 +31,14 @@
       "flashscore_match_audit": null
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
+      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
       "quotes": 1,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
-      "cache_age_seconds": null,
+      "cache_age_seconds": "148",
       "body_sha256": "8ba82da3608831971a649bf3c26d7f75a20c265fc782621f9a883dacfe5a549f",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "da127b6185c917901734f84af411f4b749d9143a67a733949a264e0458409532",
+      "body_sha256": "1f64b8e7e46fa8dccbebf8b533bdcd5c79d3a1fd744789602ec1f164019ed7da",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "7940f3b3255dd36c78ace9f6394f33b027c6c2ce6a5bb68c0248c0854506ae5a",
+      "body_sha256": "1917ae9060a1da500cf35d178fc0ed401e2f408826524788dc65b5ba16bf8abd",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "04f35b7d1c8a39dcbd40644a9574082ef285c8ccf2b17f59d8c9a864e1e40099",
+      "body_sha256": "4a55546d4eef33f9e1844812738c7915395529889f0e1266514444bac9bf29a0",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "7395ae6b89aaa43482d2f528ea7b109e536dc485807246bcb5f34aaebb9dae91",
+      "body_sha256": "aa7acf536e98b4257b3457f1ec8c7c366a326cf68d345efb92c47083b003e2f0",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "107",
-      "body_sha256": "4604cd281f37a8ac1837a9a8889fed90d7f5ce583c1e067fce09bc587bc3bec4",
+      "cache_age_seconds": "250",
+      "body_sha256": "1359a1e578e457d90c44582411dc1a8c594a484a5fbc7b52033f47a55d7bce7c",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/kim-hae-deun-f33BF7Np/miyashita-rei-MooTXbfS/?mid=4O4nYl8F",
@@ -175,11 +175,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/chen-yufei-YLiWVObR/yamaguchi-akane-pKuBkeNb/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "1a5f3931cc9364ca26ea2ac2d0872c14a9ce28760e7f133d9f388d846fbab5b5",
+        "body_sha256": "b2a1e729324affa415f173819d29a89648fb7683519dc39a672e60b4e07d5c7c",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Akane Yamaguchi - Yu Fei Chen (14/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - FEMMESKUMAMOTO MASTERS - DEMI-FINALES\nNouvelle fenêtre\n14.11.2026 08:30\nYamaguchi A.\nBWF\n: 2.\n1\n-\n1\nTERMINÉ / ABANDON -\nCHEN Y. F.\nChen Y. F.\nBWF\n: 4.\n1\n-\n1\nTERMINÉ / ABANDON -\nCHEN Y. F.\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nYamaguchi A.\n1\n18\n21\n11\nChen Y. F.\n1\n21\n8\n4\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n1.50\n2.50\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBetMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. 1-800-BETS-OFF (IA), New customers only. T&C apply Must opt-in and wager $10+ cash on any market to receive $50 in Bonus Bets each day for your first 5 days\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE MATCH\nSTADE:\nKumamoto Prefectural Gymnasium\n (Kumamo",
+        "text_excerpt_for_debug": "Akane Yamaguchi - Yu Fei Chen (14/11/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nAD\nBADMINTONBWF WORLD TOUR - FEMMESKUMAMOTO MASTERS - DEMI-FINALES\nNouvelle fenêtre\n14.11.2026 08:30\nYamaguchi A.\nBWF\n: 2.\n1\n-\n1\nTERMINÉ / ABANDON -\nCHEN Y. F.\nChen Y. F.\nBWF\n: 4.\n1\n-\n1\nTERMINÉ / ABANDON -\nCHEN Y. F.\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nYamaguchi A.\n1\n18\n21\n11\nChen Y. F.\n1\n21\n8\n4\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n1.50\n2.50\n-\n-\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA). T&C apply.\nL",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 6308,
+        "body_characters": 6417,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -200,9 +200,11 @@
           "-",
           "-",
           "1.50",
-          "2.50"
+          "2.50",
+          "-",
+          "-"
         ],
-        "odds_section_dash_count": 8,
+        "odds_section_dash_count": 10,
         "odds_section_decimal_prices": [
           "1.50",
           "2.50"
@@ -221,7 +223,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "e31c0d026eee128dda077982f78a23fa68b90831bde8cdfcca21c8f689b37ffd",
+      "body_sha256": "c2cf0af2b456ba23d7f595d5dfc9a9c1527e64b3a84d84fc6dd2c391bcbce511",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }

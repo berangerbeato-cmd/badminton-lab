@@ -5,6 +5,20 @@
     "https://www.netbet.fr/badminton/international/masters-du-japon"
   ],
   "elo_comparisons": [],
+  "fixture_join_audit": [
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-15",
+      "model_rows_same_day": 2,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Lakshya Sen",
+        "Koki Watanabe"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    }
+  ],
   "index_badminton_link_count": 5,
   "index_badminton_link_examples": [
     "https://www.netbet.fr/badminton",
@@ -13,10 +27,10 @@
     "https://www.netbet.fr/badminton/international/masters-du-japon",
     "https://www.netbet.fr/badminton/international/masters-du-japon-doubles-f"
   ],
-  "index_body_sha256": "eed15a6b3f2678a4c4500ef3933ed02de35a3bb0e994013f39687b3663989314",
+  "index_body_sha256": "1f64b8e7e46fa8dccbebf8b533bdcd5c79d3a1fd744789602ec1f164019ed7da",
   "index_eligible_quotes": 1,
   "index_http_status": 200,
-  "index_link_count": 102,
+  "index_link_count": 100,
   "index_link_path_counts": {
     "": 9,
     "badminton": 7,
@@ -28,7 +42,7 @@
     "paris-en-direct": 5,
     "promotions": 2,
     "rugby": 2,
-    "tennis": 8,
+    "tennis": 6,
     "zendesk": 2
   },
   "index_market_audit": {
@@ -42,7 +56,7 @@
           "Tai-King",
           "2.30"
         ],
-        "market_line": 105,
+        "market_line": 103,
         "preceding_lines": [
           "Scores en direct",
           "Format des cotes",
@@ -68,7 +82,7 @@
           "Gao-Wu",
           "4.30"
         ],
-        "market_line": 116,
+        "market_line": 114,
         "preceding_lines": [
           "02:00",
           "Hoki-Kobayashi",
@@ -94,7 +108,7 @@
           "Hiramoto-Shida",
           "2.20"
         ],
-        "market_line": 138,
+        "market_line": 136,
         "preceding_lines": [
           "03:20",
           "Lakshya Sen",
@@ -104,7 +118,7 @@
           "2.00",
           "Koki Watanabe",
           "1.50",
-          "+ 16",
+          "+ 25",
           "Masters du Japon, Doubles (F)",
           "dim. 15 nov.",
           "04:00",
@@ -116,11 +130,11 @@
       {
         "following_lines": [
           "Akane Yamaguchi",
-          "1.60",
+          "1.58",
           "Zhiyi Wang",
-          "1.85"
+          "1.88"
         ],
-        "market_line": 149,
+        "market_line": 147,
         "preceding_lines": [
           "04:00",
           "Nakanishi-Iwanaga",
@@ -130,7 +144,7 @@
           "1.42",
           "Hiramoto-Shida",
           "2.20",
-          "+ 6",
+          "+ 15",
           "Masters du Japon (F)",
           "dim. 15 nov.",
           "04:20",
@@ -147,13 +161,14 @@
   "index_resolved_url": "https://www.netbet.fr/badminton",
   "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
   "index_url": "https://www.netbet.fr/badminton",
-  "model_snapshot": null,
-  "observed_at_utc": "2026-11-14T12:01:51+00:00",
+  "model_snapshot": "data/model/snapshots/2026-11-14.csv",
+  "model_snapshot_sha256": "7fad4cb0215f4eaf1ec27f2bdf50f38610c1e4bd46e5798e36cdbcb142c24ab4",
+  "observed_at_utc": "2026-11-14T13:31:33+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "e736b70c982550f1cf5e6c129366e52dbb87ed8bf459c4f067ebbf1f6cabaf55",
+      "body_sha256": "4732c9e5c94931fd664b1b177e4ad557a48829f3387efcd83a108d73f3c8b277",
       "cache_age_seconds": null,
       "eligible_listing_rows": 0,
       "http_status": 200,
@@ -166,7 +181,7 @@
             "Koki Watanabe",
             "1.50"
           ],
-          "market_line": 104,
+          "market_line": 102,
           "preceding_lines": [
             "Règlement des paris",
             "Scores en direct",
@@ -219,7 +234,7 @@
     }
   ],
   "reason_counts": {
-    "MISSING_SAME_DAY_ELO_SNAPSHOT": 1
+    "NO_UNIQUE_BWF_FIXTURE": 1
   },
   "robots_status": "ALLOWED_BY_ROBOTS",
   "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"

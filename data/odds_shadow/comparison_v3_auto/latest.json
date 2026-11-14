@@ -28,7 +28,7 @@
     "missing_kickoff_count": 0,
     "missing_executable_price_count": 0
   },
-  "generated_at_utc": "2026-11-14T12:02:01+00:00",
+  "generated_at_utc": "2026-11-14T13:31:41+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 1,
   "rejected_sources": [],
@@ -37,7 +37,7 @@
       "status": "FRESH_EMPTY",
       "snapshot_file": "data/odds_shadow/unibet_fr/latest.json",
       "quotes_read": 0,
-      "collector_status": "NO_CONFIDENT_PREMATCH_QUOTES"
+      "collector_status": "REJECT_HTTP_CACHE_AGE"
     },
     "netbet_quotes": {
       "status": "FRESH_SNAPSHOT",
