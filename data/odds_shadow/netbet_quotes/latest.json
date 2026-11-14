@@ -27,7 +27,7 @@
     "https://www.netbet.fr/badminton/international/masters-du-japon",
     "https://www.netbet.fr/badminton/international/masters-du-japon-doubles-f"
   ],
-  "index_body_sha256": "1f64b8e7e46fa8dccbebf8b533bdcd5c79d3a1fd744789602ec1f164019ed7da",
+  "index_body_sha256": "fe7c80d4c588b1c086a8fb2cc94e7389b58ce3a7d8558e300907798cdeddc2d9",
   "index_eligible_quotes": 1,
   "index_http_status": 200,
   "index_link_count": 100,
@@ -144,7 +144,7 @@
           "1.42",
           "Hiramoto-Shida",
           "2.20",
-          "+ 15",
+          "+ 17",
           "Masters du Japon (F)",
           "dim. 15 nov.",
           "04:20",
@@ -163,12 +163,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-11-14.csv",
   "model_snapshot_sha256": "7fad4cb0215f4eaf1ec27f2bdf50f38610c1e4bd46e5798e36cdbcb142c24ab4",
-  "observed_at_utc": "2026-11-14T13:31:33+00:00",
+  "observed_at_utc": "2026-11-14T13:41:41+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "4732c9e5c94931fd664b1b177e4ad557a48829f3387efcd83a108d73f3c8b277",
+      "body_sha256": "de636dc93340c6b8668de9ccbb2dc87402c9007fb24e218791842a9bc2d55f8d",
       "cache_age_seconds": null,
       "eligible_listing_rows": 0,
       "http_status": 200,
