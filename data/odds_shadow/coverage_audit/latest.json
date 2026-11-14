@@ -43,40 +43,24 @@
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-11-13T14:54:04.896275+00:00",
+  "generated_at_utc": "2026-11-14T12:02:02.220665+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
-  "model_fixture_count": 4,
+  "model_fixture_count": 2,
   "model_fixtures": [
     {
-      "match_id": "5216:1565823",
+      "match_id": "5216:1565805",
       "players": [
-        "Koki WATANABE",
-        "Kunlavut VITIDSARN"
+        "Lakshya SEN",
+        "Koki WATANABE"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5216:1565825",
-      "players": [
-        "Alwi FARHAN",
-        "Lakshya SEN"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5652:1565598",
+      "match_id": "5652:1565601",
       "players": [
         "KUO Kuan Lin",
-        "Geon Yeop CHO"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5652:1565605",
-      "players": [
-        "Hae Deun KIM",
-        "Rei MIYASHITA"
+        "Hae Deun KIM"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     }
@@ -85,29 +69,29 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-13T14:52:48+00:00",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-13T15:52:46.964616+01:00",
+      "observed_at_utc": "2026-11-14T12:00:46+00:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-14T13:00:45.566846+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
     },
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
-      "quote_count": 2,
-      "observed_at_utc": "2026-11-13T14:53:53+00:00",
+      "quote_count": 1,
+      "observed_at_utc": "2026-11-14T12:01:51+00:00",
       "parser_notes": null,
       "index_market_audit": {
-        "eligible_listing_rows": 2,
-        "markets_seen": 10,
+        "eligible_listing_rows": 1,
+        "markets_seen": 5,
         "rejection_evidence": [
           {
             "following_lines": [
-              "Jiang-Wei",
-              "1.01",
-              "Watanabe-Taguchi",
-              "6.00"
+              "Hoki-Kobayashi",
+              "1.37",
+              "Tai-King",
+              "2.30"
             ],
-            "market_line": 109,
+            "market_line": 105,
             "preceding_lines": [
               "Scores en direct",
               "Format des cotes",
@@ -118,158 +102,106 @@
               "À L'AFFICHE",
               "TOUTE L'OFFRE BADMINTON",
               "À Venir",
-              "Masters du Japon, Doubles Mixtes",
-              "sam. 14 nov.",
-              "02:00",
-              "Jiang-Wei",
-              "Watanabe-Taguchi"
-            ],
-            "reason": "NON_MS_COMPETITION"
-          },
-          {
-            "following_lines": [
-              "Nan-Wang",
-              "1.60",
-              "Hoki-Kobayashi",
-              "1.85"
-            ],
-            "market_line": 131,
-            "preceding_lines": [
-              "02:20",
-              "Alwi Farhan",
-              "Lakshya Sen",
-              "Qui va gagner le match ?",
-              "Alwi Farhan",
-              "1.45",
-              "Lakshya Sen",
-              "2.12",
-              "+ 14",
               "Masters du Japon, Doubles",
-              "sam. 14 nov.",
-              "02:40",
-              "Nan-Wang",
-              "Hoki-Kobayashi"
+              "dim. 15 nov.",
+              "02:00",
+              "Hoki-Kobayashi",
+              "Tai-King"
             ],
             "reason": "NON_MS_COMPETITION"
           },
           {
             "following_lines": [
+              "Jiang-Wei",
+              "1.08",
               "Gao-Wu",
+              "4.30"
+            ],
+            "market_line": 116,
+            "preceding_lines": [
+              "02:00",
+              "Hoki-Kobayashi",
+              "Tai-King",
+              "Qui va gagner le match ?",
+              "Hoki-Kobayashi",
+              "1.37",
+              "Tai-King",
+              "2.30",
+              "+ 15",
+              "Masters du Japon, Doubles Mixtes",
+              "dim. 15 nov.",
+              "03:00",
+              "Jiang-Wei",
+              "Gao-Wu"
+            ],
+            "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Nakanishi-Iwanaga",
               "1.42",
-              "Koga-Saito",
+              "Hiramoto-Shida",
               "2.20"
             ],
-            "market_line": 142,
+            "market_line": 138,
             "preceding_lines": [
-              "02:40",
-              "Nan-Wang",
-              "Hoki-Kobayashi",
-              "Qui va gagner le match ?",
-              "Nan-Wang",
-              "1.60",
-              "Hoki-Kobayashi",
-              "1.85",
-              "+ 6",
-              "Masters du Japon, Doubles Mixtes",
-              "sam. 14 nov.",
-              "03:00",
-              "Gao-Wu",
-              "Koga-Saito"
-            ],
-            "reason": "NON_MS_COMPETITION"
-          },
-          {
-            "following_lines": [
-              "Lee-Kim",
-              "2.45",
-              "Nakanishi-Iwanaga",
-              "1.32"
-            ],
-            "market_line": 164,
-            "preceding_lines": [
-              "03:00",
+              "03:20",
+              "Lakshya Sen",
               "Koki Watanabe",
-              "Vitidsarn Kunlavut",
               "Qui va gagner le match ?",
+              "Lakshya Sen",
+              "2.00",
               "Koki Watanabe",
-              "3.35",
-              "Vitidsarn Kunlavut",
-              "1.16",
-              "+ 14",
+              "1.50",
+              "+ 16",
               "Masters du Japon, Doubles (F)",
-              "sam. 14 nov.",
-              "03:20",
-              "Lee-Kim",
-              "Nakanishi-Iwanaga"
+              "dim. 15 nov.",
+              "04:00",
+              "Nakanishi-Iwanaga",
+              "Hiramoto-Shida"
             ],
             "reason": "NON_MS_COMPETITION"
           },
           {
             "following_lines": [
-              "Tomoka Miyazaki",
-              "3.40",
+              "Akane Yamaguchi",
+              "1.60",
               "Zhiyi Wang",
-              "1.15"
+              "1.85"
             ],
-            "market_line": 175,
+            "market_line": 149,
             "preceding_lines": [
-              "03:20",
-              "Lee-Kim",
+              "04:00",
               "Nakanishi-Iwanaga",
+              "Hiramoto-Shida",
               "Qui va gagner le match ?",
-              "Lee-Kim",
-              "2.45",
               "Nakanishi-Iwanaga",
-              "1.32",
-              "+ 5",
+              "1.42",
+              "Hiramoto-Shida",
+              "2.20",
+              "+ 6",
               "Masters du Japon (F)",
-              "sam. 14 nov.",
-              "03:20",
-              "Tomoka Miyazaki",
+              "dim. 15 nov.",
+              "04:20",
+              "Akane Yamaguchi",
               "Zhiyi Wang"
-            ],
-            "reason": "NON_MS_COMPETITION"
-          },
-          {
-            "following_lines": [
-              "Tai-King",
-              "1.31",
-              "Lundgaard-Vestergaard",
-              "2.50"
-            ],
-            "market_line": 186,
-            "preceding_lines": [
-              "03:20",
-              "Tomoka Miyazaki",
-              "Zhiyi Wang",
-              "Qui va gagner le match ?",
-              "Tomoka Miyazaki",
-              "3.40",
-              "Zhiyi Wang",
-              "1.15",
-              "+ 26",
-              "Masters du Japon, Doubles",
-              "sam. 14 nov.",
-              "03:40",
-              "Tai-King",
-              "Lundgaard-Vestergaard"
             ],
             "reason": "NON_MS_COMPETITION"
           }
         ],
         "rejections": {
-          "NON_MS_COMPETITION": 8
+          "NON_MS_COMPETITION": 4
         }
       },
       "reason_counts": {
-        "NO_UNIQUE_BWF_FIXTURE": 2
+        "MISSING_SAME_DAY_ELO_SNAPSHOT": 1
       },
       "blocker": "QUOTE_OBSERVED_REQUIRES_VALIDATION"
     },
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-13T14:53:09+00:00",
+      "observed_at_utc": "2026-11-14T12:01:06+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -278,7 +210,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-13T14:53:26+00:00",
+      "observed_at_utc": "2026-11-14T12:01:23+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -287,7 +219,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-13T14:52:56+00:00",
+      "observed_at_utc": "2026-11-14T12:00:52+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -295,8 +227,8 @@
     },
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-      "quote_count": 2,
-      "observed_at_utc": "2026-11-13T14:52:57+00:00",
+      "quote_count": 1,
+      "observed_at_utc": "2026-11-14T12:00:54+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -305,7 +237,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-13T14:53:10+00:00",
+      "observed_at_utc": "2026-11-14T12:01:07+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -314,7 +246,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-13T14:53:21+00:00",
+      "observed_at_utc": "2026-11-14T12:01:18+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -323,7 +255,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-13T14:53:31+00:00",
+      "observed_at_utc": "2026-11-14T12:01:28+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -332,7 +264,7 @@
     "oddspedia_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-13T14:53:27+00:00",
+      "observed_at_utc": "2026-11-14T12:01:25+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -341,7 +273,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-13T14:53:48+00:00",
+      "observed_at_utc": "2026-11-14T12:01:46+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,

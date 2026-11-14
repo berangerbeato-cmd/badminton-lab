@@ -1,11 +1,11 @@
 {
-  "body_sha256": "e52f2103d981759244b59e4d1bb1ae3541332f2401881795a94830615370036e",
+  "body_sha256": "b6c719b6aa1c3659d8406f64bccadd7e78002a7373d5a96224fc573116a1e455",
   "bookmaker_price_updated_at": null,
   "cache_age_seconds": null,
-  "finished_at_utc": "2026-11-13T14:53:08+00:00",
+  "finished_at_utc": "2026-11-14T12:01:05+00:00",
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-11-13T14:52:57+00:00",
+  "observed_at_utc": "2026-11-14T12:00:54+00:00",
   "operator": "Parions Sport Point de Vente (FDJ)",
   "operator_kind": "RETAIL_NOT_ONLINE",
   "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
@@ -15,14 +15,11 @@
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-dm/56577",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-f/56576",
     "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-h/56575",
-    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-dm/56577/match_jiangwei_watanabetaguc/1324572",
-    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-h/56575/match_afarhan_lsen/1324581",
-    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-dm/56577/match_gaowu_kogasaito/1324571",
-    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-h/56575/match_kwatanabe_kvitidsarn/1324573",
-    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-f/56576/match_tmiyazaki_zwang/1324590",
-    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-dh/56574/match_tai-yap_lundgaardvest/1324588",
-    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-f/56576/match_ayamaguchi_ychen/1324589",
-    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-df/56573/match_hsulin_hiramotoshida/1324605"
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-dm/56577/match_jiangwei_gaowu/1324780",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-h/56575/match_lsen_kwatanabe/1324779",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-dh/56574/match_hokikobayas_tai-yap/1324851",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-df/56573/match_iwanaganakani_hiramotoshida/1324852",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-f/56576/match_ayamaguchi_zwang/1324853"
   ],
   "public_page_screenshot": "data/odds_shadow/visual_evidence/fdj_pos_fr.png",
   "quotes": [
@@ -30,25 +27,13 @@
       "discipline": "MS",
       "market": "H2H_FULL_MATCH",
       "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
-      "odds_1": 1.44,
-      "odds_2": 1.97,
-      "player_1_display": "A.Farhan",
-      "player_2_display": "L.Sen",
+      "odds_1": 1.92,
+      "odds_2": 1.47,
+      "player_1_display": "L.Sen",
+      "player_2_display": "K.Watanabe",
       "retail_competition_display": "Kumamoto H",
-      "retail_event_display": "A.Farhan-L.Sen",
-      "valid_until_paris": "2026-11-14T02:15+01:00"
-    },
-    {
-      "discipline": "MS",
-      "market": "H2H_FULL_MATCH",
-      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
-      "odds_1": 2.8,
-      "odds_2": 1.18,
-      "player_1_display": "K.Watanabe",
-      "player_2_display": "K.Vitidsarn",
-      "retail_competition_display": "Kumamoto H",
-      "retail_event_display": "K.Watanabe-K.Vitidsarn",
-      "valid_until_paris": "2026-11-14T02:55+01:00"
+      "retail_event_display": "L.Sen-K.Watanabe",
+      "valid_until_paris": "2026-11-15T03:15+01:00"
     }
   ],
   "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
@@ -57,7 +42,7 @@
     {
       "cache_age_seconds": null,
       "http_status": 200,
-      "quotes": 2,
+      "quotes": 1,
       "status": "retail face-à-face rows",
       "url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/kumamoto-h/56575"
     }
@@ -65,10 +50,10 @@
   "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Fri, 13 Nov 2026 14:52:58 GMT",
+  "server_date": "Sat, 14 Nov 2026 12:00:55 GMT",
   "source_key": "fdj_pos_fr",
   "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
   "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nLDN\nAmicaux (H)\nLDN CONCACAF\nU21 Qualif.\nL1 McDonald's\nLigue 2 BKT\nPremier League\n+\nAfficher plus\nTennis\nToutes les compétitions\nWTA Finals\nStockholm\nATP Finals\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nD1 France (H)\nD2 France (H)\nTBSL\nLiga ACB\nSerie A\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBoxe\nGolf\nMMA\nSki Alpin\nSnooker\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nsamedi 14 novembre\nJiang/Wei-Watanabe/Taguc\nKumamoto DM\n\nN°16794 Face à Face I Fin de valid. 14/11 01h55\n\nAfficher\nJiang/Wei\n1,06\nWatanabe/Taguc\n3,95\n100%\n0%\nA.Farhan-L.Sen\nKumamoto H\n\nN°16806 Face à Face I Fin de valid. 14/11 02h15\n\nAfficher\nA.Farhan\n1,44\nL.Sen\n1,97\n100%\n0%\nGao/Wu-Koga/Saito\nKumamoto DM\n\nN°16797 Face à Face I Fin de valid. 14/11 02h55\n\nAfficher\nGao/Wu\n1,40\nKoga/Saito\n2,05\n100%\n0%\nK.Watanabe-K.Vitidsarn\nKumamoto H\n\nN°16809 Face à Face I Fin de valid. 14/11 02h55\n\nA",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nLDN\nAmicaux (H)\nLDN CONCACAF\nL1 McDonald's\nLigue 2 BKT\nPremier League\nLaLiga\n+\nAfficher plus\nTennis\nToutes les compétitions\nWTA Finals\nStockholm\nWTA Finals DF\nATP Finals\nStockholm DH\nBasketball\nToutes les compétitions\nNBA\nEuroleague (H)\nNBL\nD1 France (H)\nTBSL\nLiga ACB\nSerie A\nBBL\n+\nAfficher plus\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBoxe\nGolf\nMMA\nSki Alpin\nSnooker\nTennis de Table\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\ndimanche 15 novembre\nJiang/Wei-Gao/Wu\nKumamoto DM\n\nN°14425 Face à Face I Fin de valid. 15/11 02h55\n\nAfficher\nJiang/Wei\n1,11\nGao/Wu\n3,35\n98%\n1%\nL.Sen-K.Watanabe\nKumamoto H\n\nN°14426 Face à Face I Fin de valid. 15/11 03h15\n\nAfficher\nL.Sen\n1,92\nK.Watanabe\n1,47\n32%\n67%\nHoki/Kobayas-Tai /Yap\nKumamoto DH\n\nN°17095 Face à Face I Fin de valid. 15/11 03h35\n\nAfficher\nHoki/Kobayas\n1,37\nTai /Yap\n2,10\nIwanaga/Nakani-Hiramoto/Shida\nKumamoto DF\n\nN°17205 Face à Face I Fin de valid. 15/11",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }
