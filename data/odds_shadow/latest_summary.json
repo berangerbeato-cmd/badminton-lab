@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-14T12:00:45+00:00",
+  "observed_at_utc": "2026-11-14T13:28:09+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 1,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-14T13:00:45.566846+01:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-14T14:28:09.399247+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "c6cba43b9f064ba956241c5eee0cff800d4cc74719766cf2d47236890223ad0f",
+      "body_sha256": "7715bc37d590b584a3dae951fbd7037e124792135eb174a6f2f9be1ee430f3c8",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -39,7 +39,7 @@
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "b6c719b6aa1c3659d8406f64bccadd7e78002a7373d5a96224fc573116a1e455",
+      "body_sha256": "8ba82da3608831971a649bf3c26d7f75a20c265fc782621f9a883dacfe5a549f",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "eed15a6b3f2678a4c4500ef3933ed02de35a3bb0e994013f39687b3663989314",
+      "body_sha256": "da127b6185c917901734f84af411f4b749d9143a67a733949a264e0458409532",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "ca12c58dffdb3ee749b77612ab0efe0f43c3fd240e34973b0f195fca893dd015",
+      "body_sha256": "7940f3b3255dd36c78ace9f6394f33b027c6c2ce6a5bb68c0248c0854506ae5a",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "072e5488070d3141cab7e925161847e1234fa91651e4205482b8818cfd633236",
+      "body_sha256": "04f35b7d1c8a39dcbd40644a9574082ef285c8ccf2b17f59d8c9a864e1e40099",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "4cf9477b36007699f67f4f2837944e2ff695633cb9f32c76bb0e555fa12eb0b3",
+      "body_sha256": "7395ae6b89aaa43482d2f528ea7b109e536dc485807246bcb5f34aaebb9dae91",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "285",
-      "body_sha256": "400f8e82772c5b45a23270ecd2e53ef309053810358e6a862a91532264e0d35f",
+      "cache_age_seconds": "107",
+      "body_sha256": "4604cd281f37a8ac1837a9a8889fed90d7f5ce583c1e067fce09bc587bc3bec4",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/kim-hae-deun-f33BF7Np/miyashita-rei-MooTXbfS/?mid=4O4nYl8F",
@@ -164,7 +164,7 @@
         ],
         "index_match_link_count": 21,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n14/11 SA\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nKim H. D.\nMiyashita R.\n2\n1\n19\n21\n21\n15\n21\n19\nTerminé\nKuo K. L.\nCho G.\n2\n1\n21\n14\n18\n21\n21\n15\nKumamoto Masters (Japon)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nFarhan A.\nSen L.\n1\n2\n12\n21\n21\n15\n11\n21\nTerminé\nWatanabe K.\nVitidsarn K.\n2\n1\n14\n21\n21\n11\n23\n21\nFlashscore Actualités\n\"J'en veux toujours plus\", prévient Paul Seixas avant les objectifs de 2027\nSabalenka éliminée dès les groupes des Finales WTA pour la première fois depuis 2021\n\"Dupont, pour moi c'est le GOAT\", affirme Aaron Grandidier-Nkanang\nAller vers Actualités\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nLiao Y. C.\nPratiwi N. K. D. A.\n2\n1\n12\n21\n21\n19\n21\n19\nTerminé\nLo S. Y. H.\nPuspitasari M. A.\n0\n2\n16\n21\n18\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nMiyazaki T.\nWang Z. Y.\n0\n2\n10\n21\n15\n21\nTerminé\n(abandon)\nYamaguchi A.\nChen Y. F.\n1\n1\n18\n21\n21\n8\n11\n4\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nKoh E.\nWong J. H. H.\nCheng K. W.\nLiao Chao Pang\n0\n2\n18\n21\n17\n21\nTerminé\nChang Ko Ch.\nChen L.\nAderya T.\nSubagio A. O.\n2\n1\n19\n21\n22\n20\n21\n15\nKumamoto Masters (Japon)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nWang C.\nXie H. N.\nHoki T.\nKobayashi Y.\n1\n2\n15\n21\n21\n19\n17\n21\nTerminé\nTai A.\nYap R. K.\nLundgaard D.\nVestergaard M.\n2\n0\n21\n18\n21\n18\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nAiso M.\nNiimi M.\nMeida I. S.\nNastine R. K.\n0\n2\n21\n23\n13\n21\nTerminé\nOng X. Y.\nTing C.\nYen Yu L.\nWang Y. Z.\n2\n0\n21\n13"
+        "index_text_excerpt": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n14/11 SA\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nKim H. D.\nMiyashita R.\n2\n1\n19\n21\n21\n15\n21\n19\nTerminé\nKuo K. L.\nCho G.\n2\n1\n21\n14\n18\n21\n21\n15\nKumamoto Masters (Japon)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nFarhan A.\nSen L.\n1\n2\n12\n21\n21\n15\n11\n21\nTerminé\nWatanabe K.\nVitidsarn K.\n2\n1\n14\n21\n21\n11\n23\n21\nFlashscore Actualités\nOnze ans après sa retraite, Ronaldinho revient jouer en D3 italienne\n\"J'en veux toujours plus\", prévient Paul Seixas avant les objectifs de 2027\nUn Brésil rajeuni se fait surprendre par le Japon en match amical\nAller vers Actualités\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nLiao Y. C.\nPratiwi N. K. D. A.\n2\n1\n12\n21\n21\n19\n21\n19\nTerminé\nLo S. Y. H.\nPuspitasari M. A.\n0\n2\n16\n21\n18\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nMiyazaki T.\nWang Z. Y.\n0\n2\n10\n21\n15\n21\nTerminé\n(abandon)\nYamaguchi A.\nChen Y. F.\n1\n1\n18\n21\n21\n8\n11\n4\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nKoh E.\nWong J. H. H.\nCheng K. W.\nLiao Chao Pang\n0\n2\n18\n21\n17\n21\nTerminé\nChang Ko Ch.\nChen L.\nAderya T.\nSubagio A. O.\n2\n1\n19\n21\n22\n20\n21\n15\nKumamoto Masters (Japon)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nWang C.\nXie H. N.\nHoki T.\nKobayashi Y.\n1\n2\n15\n21\n21\n19\n17\n21\nTerminé\nTai A.\nYap R. K.\nLundgaard D.\nVestergaard M.\n2\n0\n21\n18\n21\n18\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nAiso M.\nNiimi M.\nMeida I. S.\nNastine R. K.\n0\n2\n21\n23\n13\n21\nTerminé\nOng X. Y.\nTing C.\nYen Yu L.\nWang Y. Z.\n2\n0\n21\n13\n21\n9\nKumamoto Ma"
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/chen-yufei-YLiWVObR/yamaguchi-akane-pKuBkeNb/#/cotes/home-away/temps-regulier/",
@@ -175,11 +175,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/chen-yufei-YLiWVObR/yamaguchi-akane-pKuBkeNb/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "53f5fa12fc7f3d74fd51269ff98d404582c64037f8968a4be4a5686bd468b572",
+        "body_sha256": "1a5f3931cc9364ca26ea2ac2d0872c14a9ce28760e7f133d9f388d846fbab5b5",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Akane Yamaguchi - Yu Fei Chen (14/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - FEMMESKUMAMOTO MASTERS - DEMI-FINALES\nNouvelle fenêtre\n14.11.2026 08:30\nYamaguchi A.\nBWF\n: 2.\n1\n-\n1\nTERMINÉ / ABANDON -\nCHEN Y. F.\nChen Y. F.\nBWF\n: 4.\n1\n-\n1\nTERMINÉ / ABANDON -\nCHEN Y. F.\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nYamaguchi A.\n1\n18\n21\n11\nChen Y. F.\n1\n21\n8\n4\nCOTES\nHOME/AWAY\n1\n2\n1.38\n2.20\n-\n-\nVoir plus\nLIVE STREAMING\nPublicité\nBetclic.fr\nINFORMATIONS DE MATCH\nSTADE:\nKumamoto Prefectural Gymnasium\n (Kumamoto)\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Kaohsiung Masters Hommes\nBWF WT Kumamoto Masters Hommes\nBWF WT Kaohsiung Masters Femmes\nBWF WT Kumamoto Masters Femmes\nBWF WT Kaohsiung Masters Doubles Hommes\nBWF WT Kumamoto Masters Doubles Hommes\nBWF WT Open de Hong Kong Doubles Hommes\nBWF WT Kaohsiung Masters Doubles Femmes\nBWF WT Kumamoto Masters Doubles Femmes\nBWF WT Open de Hong Kong Doubles Femmes\nVoir plus (2)\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tou",
+        "text_excerpt_for_debug": "Akane Yamaguchi - Yu Fei Chen (14/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - FEMMESKUMAMOTO MASTERS - DEMI-FINALES\nNouvelle fenêtre\n14.11.2026 08:30\nYamaguchi A.\nBWF\n: 2.\n1\n-\n1\nTERMINÉ / ABANDON -\nCHEN Y. F.\nChen Y. F.\nBWF\n: 4.\n1\n-\n1\nTERMINÉ / ABANDON -\nCHEN Y. F.\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nYamaguchi A.\n1\n18\n21\n11\nChen Y. F.\n1\n21\n8\n4\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n1.50\n2.50\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBetMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. 1-800-BETS-OFF (IA), New customers only. T&C apply Must opt-in and wager $10+ cash on any market to receive $50 in Bonus Bets each day for your first 5 days\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE MATCH\nSTADE:\nKumamoto Prefectural Gymnasium\n (Kumamo",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 5347,
+        "body_characters": 6308,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -191,21 +191,25 @@
           "HOME/AWAY",
           "1",
           "2",
-          "1.38",
-          "2.20",
           "-",
-          "-"
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "1.50",
+          "2.50"
         ],
-        "odds_section_dash_count": 2,
+        "odds_section_dash_count": 8,
         "odds_section_decimal_prices": [
-          "1.38",
-          "2.20"
+          "1.50",
+          "2.50"
         ],
         "odds_section_placeholder_only": false,
         "odds_section_bookmaker_names": [],
-        "contains_bookmaker_names": [
-          "Betclic"
-        ]
+        "contains_bookmaker_names": []
       }
     },
     "oddsportal_badminton": {
@@ -217,7 +221,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "2aeaea1d784de645de76942e072c9b62f523f607a18cde8a1ae1540c59545c88",
+      "body_sha256": "e31c0d026eee128dda077982f78a23fa68b90831bde8cdfcca21c8f689b37ffd",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
