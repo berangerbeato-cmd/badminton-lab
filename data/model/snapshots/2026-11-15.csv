@@ -1,0 +1,1 @@
+bwf_match_id,start_utc,tournament,round,player_a_id,player_a,player_b_id,player_b,elo_a_asof,elo_b_asof,raw_p_a,calibrated_p_a,fair_odds_a,fair_odds_b,k,slope,intercept,asof_utc,model,cold_start,status,source
