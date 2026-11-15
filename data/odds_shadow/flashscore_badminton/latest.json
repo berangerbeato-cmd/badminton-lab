@@ -1,10 +1,10 @@
 {
   "audit_only_stale_content_allowed": true,
   "audit_warning": "Diagnostic only; no bookmaker prices are extracted or accepted.",
-  "body_sha256": "c14cd12c98945c89a7805a60bdd12958eb89c8b716b6d292b74e2efb288bc9b6",
+  "body_sha256": "a09170073d8a93f31467a5d5ebceae23d508f9dbeba828ad2dd10aaa7a42e37f",
   "bookmaker_price_updated_at": null,
-  "cache_age_seconds": "402",
-  "finished_at_utc": "2026-11-15T12:36:44+00:00",
+  "cache_age_seconds": "253",
+  "finished_at_utc": "2026-11-15T14:16:53+00:00",
   "flashscore_discovery": {
     "index_match_link_count": 10,
     "index_match_links": [
@@ -20,13 +20,13 @@
       "https://www.flashscore.fr/match/badminton/YcDBwbhg/"
     ],
     "index_ms_context_visible": true,
-    "index_text_excerpt": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n15/11 DI\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nKuo K. L.\nKim H. D.\n2\n0\n21\n13\n21\n19\nKumamoto Masters (Japon)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nSen L.\nWatanabe K.\n2\n1\n13\n21\n21\n18\n21\n14\nFlashscore Actualités\nLucas Da Cunha titulaire contre la Turquie\nExclu' Flashscore - Pier Gauthier : \"C'est une folie de ne pas travailler l'aspect mental\"\nAprès un énorme combat, Ciryl Gane conserve son titre poids lourds de l'UFC contre Josh Hokit\nAller vers Actualités\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nPuspitasari M. A.\nLiao Y. C.\n0\n2\n15\n21\n13\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nYamaguchi A.\nWang Z. Y.\n2\n0\n21\n14\n22\n20\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nCheng K. W.\nLiao Chao Pang\nChang Ko Ch.\nChen L.\n1\n2\n18\n21\n21\n18\n16\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nHoki T.\nKobayashi Y.\nTai A.\nYap R. K.\n1\n2\n21\n16\n13\n21\n15\n21\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nOng X. Y.\nTing C.\nMeida I. S.\nNastine R. K.\n0\n2\n15\n21\n15\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nIwanaga R.\nNakanishi K.\nHiramoto R.\nShida C.\n2\n0\n21\n19\n21\n15\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nKi D. J.\nJeong N. E.\nWee Y. H.\nGobi V.\n0\n2\n22\n24\n17\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nJiang Z. B.\nWei Y. X.\nGao J. X.\nWu M. Y.\n2\n1\n15\n21\n21\n15\n21\n14\nLIGUES ÉPINGLÉES\nPou"
+    "index_text_excerpt": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n15/11 DI\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nKuo K. L.\nKim H. D.\n2\n0\n21\n13\n21\n19\nKumamoto Masters (Japon)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nSen L.\nWatanabe K.\n2\n1\n13\n21\n21\n18\n21\n14\nFlashscore Actualités\nLucas Da Cunha titulaire contre la Turquie\nExclu' Flashscore - Pier Gauthier : \"C'est une folie de ne pas travailler l'aspect mental\"\nAprès un énorme combat, Ciryl Gane conserve son titre poids lourds de l'UFC contre Josh Hokit\nAller vers Actualités\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nPuspitasari M. A.\nLiao Y. C.\n0\n2\n15\n21\n13\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nYamaguchi A.\nWang Z. Y.\n2\n0\n21\n14\n22\n20\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nCheng K. W.\nLiao Chao Pang\nChang Ko Ch.\nChen L.\n1\n2\n18\n21\n21\n18\n16\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nHoki T.\nKobayashi Y.\nTai A.\nYap R. K.\n1\n2\n21\n16\n13\n21\n15\n21\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nOng X. Y.\nTing C.\nMeida I. S.\nNastine R. K.\n0\n2\n15\n21\n15\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nIwanaga R.\nNakanishi K.\nHiramoto R.\nShida C.\n2\n0\n21\n19\n21\n15\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nKi D. J.\nJeong N. E.\nWee Y. H.\nGobi V.\n0\n2\n22\n24\n17\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nJiang Z. B.\nWei Y. X.\nGao J. X.\nWu M. Y.\n2\n1\n15\n21\n21\n15\n21\n14\n"
   },
   "flashscore_match_audit": {
     "appears_doubles": false,
     "appears_mens_singles": false,
-    "body_characters": 6535,
-    "body_sha256": "7295472acdb7431a974ccc6223006943943413cbfc0426166f87f767d47bb0cb",
+    "body_characters": 6384,
+    "body_sha256": "2f60bb2610f0a939cc3d9e4e97ee65bd8e518dd3275b9e5a14e496fe73b94a44",
     "candidate_from_index": true,
     "candidate_selection": "last_named_public_link_not_verified_upcoming",
     "comparison_block_reason": "NO_VERIFIED_BOOKMAKER_PRICES",
@@ -36,7 +36,7 @@
     "http_status": 200,
     "match_finished": false,
     "odds_section_bookmaker_names": [],
-    "odds_section_dash_count": 8,
+    "odds_section_dash_count": 10,
     "odds_section_decimal_prices": [
       "1.58",
       "2.25"
@@ -54,7 +54,9 @@
       "-",
       "-",
       "1.58",
-      "2.25"
+      "2.25",
+      "-",
+      "-"
     ],
     "odds_section_placeholder_only": false,
     "quotes_extracted": 0,
@@ -64,12 +66,12 @@
     "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
     "screenshot_error": null,
     "status": "PUBLIC_MATCH_PAGE_REACHABLE_AUDIT_ONLY",
-    "text_excerpt_for_debug": "Akane Yamaguchi - Zhi Yi Wang (15/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - FEMMESKUMAMOTO MASTERS - FINALE\nNouvelle fenêtre\n15.11.2026 07:55\nYamaguchi A.\nBWF\n: 2.\n2\n-\n0\nTERMINÉ\nWang Z. Y.\nBWF\n: 3.\n2\n-\n0\nTERMINÉ\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nYamaguchi A.\n2\n21\n22\nWang Z. Y.\n0\n14\n20\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n1.58\n2.25\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nBET365 - Bet $10 Get $150 in Bonus Bets Win or Lose\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET Please gamble responsibly. Minimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE MATCH\nSTADE:\nKumamoto Prefectural Gymn",
+    "text_excerpt_for_debug": "Akane Yamaguchi - Zhi Yi Wang (15/11/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - FEMMESKUMAMOTO MASTERS - FINALE\nNouvelle fenêtre\n15.11.2026 07:55\nYamaguchi A.\nBWF\n: 2.\n2\n-\n0\nTERMINÉ\nWang Z. Y.\nBWF\n: 3.\n2\n-\n0\nTERMINÉ\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nYamaguchi A.\n2\n21\n22\nWang Z. Y.\n0\n14\n20\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n1.58\n2.25\n-\n-\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA). T&C apply.\nLIVE STREAMING\nPubli",
     "url": "https://www.flashscore.fr/match/badminton/wang-zhiyi-SvXcpLPt/yamaguchi-akane-pKuBkeNb/#/cotes/home-away/temps-regulier/"
   },
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-11-15T12:36:31+00:00",
+  "observed_at_utc": "2026-11-15T14:16:42+00:00",
   "operator": "Flashscore (aggregator)",
   "operator_kind": "AGGREGATOR_AUDIT_ONLY",
   "public_badminton_event_links": [],
@@ -78,10 +80,10 @@
   "resolved_url": "https://www.flashscore.fr/badminton/",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Sun, 15 Nov 2026 12:36:32 GMT",
+  "server_date": "Sun, 15 Nov 2026 14:16:43 GMT",
   "source_key": "flashscore_badminton",
   "source_url": "https://www.flashscore.fr/badminton/",
   "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
-  "text_excerpt_for_debug": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n15/11 DI\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nKuo K. L.\nKim H. D.\n2\n0\n21\n13\n21\n19\nKumamoto Masters (Japon)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nSen L.\nWatanabe K.\n2\n1\n13\n21\n21\n18\n21\n14\nFlashscore Actualités\nLucas Da Cunha titulaire contre la Turquie\nExclu' Flashscore - Pier Gauthier : \"C'est une folie de ne pas travailler l'aspect mental\"\nAprès un énorme combat, Ciryl Gane conserve son titre poids lourds de l'UFC contre Josh Hokit\nAller vers Actualités\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nPuspitasari M. A.\nLiao Y. C.\n0\n2\n15\n21\n13\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nYamaguchi A.\nWang Z. Y.\n2\n0\n21\n14\n22\n20\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nCheng K. W.\nLiao Chao Pang\nChang Ko Ch.\nChen L.\n1\n2\n18\n21\n21\n18\n16\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nHoki T.\nKobayashi Y.\nTai A.\nYap R. K.\n1\n2\n21\n16\n13\n21\n15\n21\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nOng X. Y.\nTing C.\nMeida I. S.\nNastine R. K.\n0\n2\n15\n21\n15\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nIwanaga R.\nNakanishi K.\nHiramoto R.\nShida C.\n2\n0\n21\n19\n21\n15\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nKi D. J.\nJeon",
+  "text_excerpt_for_debug": "Masters de Kumamoto 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n15/11 DI\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nKuo K. L.\nKim H. D.\n2\n0\n21\n13\n21\n19\nKumamoto Masters (Japon)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nSen L.\nWatanabe K.\n2\n1\n13\n21\n21\n18\n21\n14\nFlashscore Actualités\nLucas Da Cunha titulaire contre la Turquie\nExclu' Flashscore - Pier Gauthier : \"C'est une folie de ne pas travailler l'aspect mental\"\nAprès un énorme combat, Ciryl Gane conserve son titre poids lourds de l'UFC contre Josh Hokit\nAller vers Actualités\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nPuspitasari M. A.\nLiao Y. C.\n0\n2\n15\n21\n13\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nYamaguchi A.\nWang Z. Y.\n2\n0\n21\n14\n22\n20\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nCheng K. W.\nLiao Chao Pang\nChang Ko Ch.\nChen L.\n1\n2\n18\n21\n21\n18\n16\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nHoki T.\nKobayashi Y.\nTai A.\nYap R. K.\n1\n2\n21\n16\n13\n21\n15\n21\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nOng X. Y.\nTing C.\nMeida I. S.\nNastine R. K.\n0\n2\n15\n21\n15\n21\nKumamoto Masters (Japon)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nIwanaga R.\nNakanishi K.\nHiramoto R.\nShida C.\n2\n0\n21\n19\n21\n15\nKaohsiung Masters (Taïwan)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nT",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }
