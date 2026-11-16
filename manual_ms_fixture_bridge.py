@@ -49,8 +49,9 @@ def build(matches, observations):
         if players[0]["id"] == players[1]["id"]:
             blocked.append({"players": item["players"], "reason": "SAME_PLAYER_ID"})
             continue
-        rows.append({"match_id": str(index), "tournament_id": "5210",
+        rows.append({"match_id": str(index), "tournament_id": str(observations.get("tournament_id") or "5210"),
                      "players": players, "source": "USER_CAPTURE_UNVERIFIED",
+                     "match_date": item.get("match_date"),
                      "match_time_utc": None, "status": "SCHEDULE_PENDING"})
     return {"policy": "RESEARCH_ONLY_NO_BET", "schedule_pending": rows,
             "blocked": blocked, "matched_count": len(rows), "blocked_count": len(blocked),
