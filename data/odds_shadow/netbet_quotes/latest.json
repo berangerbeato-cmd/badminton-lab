@@ -25,30 +25,6 @@
       "model_rows_same_day": 8,
       "model_rows_same_tournament_and_day": 0,
       "players": [
-        "Tian Yao Dong",
-        "Muhamad Yusuf"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
-    },
-    {
-      "comparison_allowed": false,
-      "exact_player_pair_count": 0,
-      "listed_day_paris": "2026-11-17",
-      "model_rows_same_day": 8,
-      "model_rows_same_tournament_and_day": 0,
-      "players": [
-        "Wang Yu Kai",
-        "Li Yang Su"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
-    },
-    {
-      "comparison_allowed": false,
-      "exact_player_pair_count": 0,
-      "listed_day_paris": "2026-11-17",
-      "model_rows_same_day": 8,
-      "model_rows_same_tournament_and_day": 0,
-      "players": [
         "Wangcharoen Kantaphon",
         "Hyeok Jin Jeon"
       ],
@@ -63,6 +39,18 @@
       "players": [
         "Zhe An Hu",
         "June Wei Cheam"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    },
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-17",
+      "model_rows_same_day": 8,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Awan Usman",
+        "Muhamad Yusuf"
       ],
       "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
     },
@@ -229,8 +217,8 @@
     "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles",
     "https://www.netbet.fr/badminton/international/open-de-hong-kong"
   ],
-  "index_body_sha256": "fad4feb2198264dbe7d7d07412911b981469a1af213f7cd1bf182ac7bf18b4cf",
-  "index_eligible_quotes": 3,
+  "index_body_sha256": "dae99a61f0bc91e3b8aa5ff57301ed5eefa6a76f55e041a3ae430a1a168af052",
+  "index_eligible_quotes": 6,
   "index_http_status": 200,
   "index_link_count": 107,
   "index_link_path_counts": {
@@ -248,15 +236,15 @@
     "zendesk": 2
   },
   "index_market_audit": {
-    "eligible_listing_rows": 3,
+    "eligible_listing_rows": 6,
     "markets_seen": 10,
     "rejection_evidence": [
       {
         "following_lines": [
-          "Chen-Liu",
-          "2.45",
-          "Min-Jong",
-          "1.32"
+          "Chia-Soh",
+          "1.21",
+          "Lee-Yang",
+          "2.97"
         ],
         "market_line": 107,
         "preceding_lines": [
@@ -272,32 +260,6 @@
           "Open de Hong Kong, Doubles",
           "mar. 17 nov.",
           "02:00",
-          "Chen-Liu",
-          "Min-Jong"
-        ],
-        "reason": "NON_MS_COMPETITION"
-      },
-      {
-        "following_lines": [
-          "Chia-Soh",
-          "1.21",
-          "Lee-Yang",
-          "2.97"
-        ],
-        "market_line": 118,
-        "preceding_lines": [
-          "02:00",
-          "Chen-Liu",
-          "Min-Jong",
-          "Qui va gagner le match ?",
-          "Chen-Liu",
-          "2.45",
-          "Min-Jong",
-          "1.32",
-          "+ 1",
-          "Open de Hong Kong, Doubles",
-          "mar. 17 nov.",
-          "02:00",
           "Chia-Soh",
           "Lee-Yang"
         ],
@@ -310,7 +272,7 @@
           "Tai-King",
           "1.19"
         ],
-        "market_line": 129,
+        "market_line": 118,
         "preceding_lines": [
           "02:00",
           "Chia-Soh",
@@ -336,7 +298,7 @@
           "Isfahani-Gutama",
           "2.10"
         ],
-        "market_line": 140,
+        "market_line": 129,
         "preceding_lines": [
           "02:00",
           "Chiu-Wang",
@@ -357,59 +319,33 @@
       },
       {
         "following_lines": [
-          "Indra-Joaquin",
-          "1.21",
-          "Astrup-Rasmussen",
-          "2.95"
+          "Smith-Chen",
+          "4.20",
+          "Vendy-Lane",
+          "1.08"
         ],
         "market_line": 151,
         "preceding_lines": [
           "02:00",
-          "Hoki-Kobayashi",
-          "Isfahani-Gutama",
+          "Shogo Ogawa",
+          "Po-Wei Wang",
           "Qui va gagner le match ?",
-          "Hoki-Kobayashi",
-          "1.45",
-          "Isfahani-Gutama",
-          "2.10",
-          "+ 2",
-          "Open de Hong Kong, Doubles",
-          "mar. 17 nov.",
-          "02:00",
-          "Indra-Joaquin",
-          "Astrup-Rasmussen"
-        ],
-        "reason": "NON_MS_COMPETITION"
-      },
-      {
-        "following_lines": [
-          "Marthin-Carnando",
+          "Shogo Ogawa",
           "2.02",
-          "Goh-Izzuddin",
-          "1.50"
-        ],
-        "market_line": 162,
-        "preceding_lines": [
-          "02:00",
-          "Indra-Joaquin",
-          "Astrup-Rasmussen",
-          "Qui va gagner le match ?",
-          "Indra-Joaquin",
-          "1.21",
-          "Astrup-Rasmussen",
-          "2.95",
-          "+ 1",
+          "Po-Wei Wang",
+          "1.48",
+          "+ 3",
           "Open de Hong Kong, Doubles",
           "mar. 17 nov.",
           "02:00",
-          "Marthin-Carnando",
-          "Goh-Izzuddin"
+          "Smith-Chen",
+          "Vendy-Lane"
         ],
         "reason": "NON_MS_COMPETITION"
       }
     ],
     "rejections": {
-      "NON_MS_COMPETITION": 7
+      "NON_MS_COMPETITION": 4
     }
   },
   "index_resolved_url": "https://www.netbet.fr/badminton",
@@ -417,16 +353,16 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-11-16.csv",
   "model_snapshot_sha256": "db0578abff48b71b3678a34183ec0358201238b097f44047dc31b94a2fe51947",
-  "observed_at_utc": "2026-11-16T15:44:14+00:00",
+  "observed_at_utc": "2026-11-16T16:10:06+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "04fd53bcb45acf9f969a6a45223b802bddad390debe53c4c66e8fcfc9840d537",
+      "body_sha256": "6f002770d6acad3403f25d3eb48f606f16866060c5fbbc5c736aaadef8b88148",
       "cache_age_seconds": null,
-      "eligible_listing_rows": 17,
+      "eligible_listing_rows": 16,
       "http_status": 200,
-      "markets_seen": 18,
+      "markets_seen": 17,
       "rejection_evidence": [
         {
           "following_lines": [
@@ -487,49 +423,11 @@
       "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
     },
     {
-      "bookmaker_overround_pct": 16.34,
-      "competition_display": "Open de Hong Kong",
-      "day_basis": "PUBLISHED_CALENDAR_DATE",
-      "discipline": "MS",
-      "event_page_url": "https://www.netbet.fr/badminton",
-      "listed_day_paris": "2026-11-17",
-      "market": "H2H_FULL_MATCH",
-      "market_probabilities_only_not_v32_ev": true,
-      "normalized_market_probability_1": 0.656168,
-      "normalized_market_probability_2": 0.343832,
-      "odds_1": 1.31,
-      "odds_2": 2.5,
-      "player_1_display": "Tian Yao Dong",
-      "player_2_display": "Muhamad Yusuf",
-      "raw_implied_probability_1": 0.763359,
-      "raw_implied_probability_2": 0.4,
-      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
-    },
-    {
-      "bookmaker_overround_pct": 15.88,
-      "competition_display": "Open de Hong Kong",
-      "day_basis": "PUBLISHED_CALENDAR_DATE",
-      "discipline": "MS",
-      "event_page_url": "https://www.netbet.fr/badminton",
-      "listed_day_paris": "2026-11-17",
-      "market": "H2H_FULL_MATCH",
-      "market_probabilities_only_not_v32_ev": true,
-      "normalized_market_probability_1": 0.392265,
-      "normalized_market_probability_2": 0.607735,
-      "odds_1": 2.2,
-      "odds_2": 1.42,
-      "player_1_display": "Wang Yu Kai",
-      "player_2_display": "Li Yang Su",
-      "raw_implied_probability_1": 0.454545,
-      "raw_implied_probability_2": 0.704225,
-      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
-    },
-    {
       "bookmaker_overround_pct": 16.4,
       "competition_display": "Open de Hong Kong",
       "day_basis": "PUBLISHED_CALENDAR_DATE",
       "discipline": "MS",
-      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-hong-kong",
+      "event_page_url": "https://www.netbet.fr/badminton",
       "listed_day_paris": "2026-11-17",
       "market": "H2H_FULL_MATCH",
       "market_probabilities_only_not_v32_ev": true,
@@ -548,7 +446,7 @@
       "competition_display": "Open de Hong Kong",
       "day_basis": "PUBLISHED_CALENDAR_DATE",
       "discipline": "MS",
-      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-hong-kong",
+      "event_page_url": "https://www.netbet.fr/badminton",
       "listed_day_paris": "2026-11-17",
       "market": "H2H_FULL_MATCH",
       "market_probabilities_only_not_v32_ev": true,
@@ -563,11 +461,30 @@
       "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
     },
     {
+      "bookmaker_overround_pct": 16.31,
+      "competition_display": "Open de Hong Kong",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-11-17",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.289474,
+      "normalized_market_probability_2": 0.710526,
+      "odds_1": 2.97,
+      "odds_2": 1.21,
+      "player_1_display": "Awan Usman",
+      "player_2_display": "Muhamad Yusuf",
+      "raw_implied_probability_1": 0.3367,
+      "raw_implied_probability_2": 0.826446,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
       "bookmaker_overround_pct": 16.34,
       "competition_display": "Open de Hong Kong",
       "day_basis": "PUBLISHED_CALENDAR_DATE",
       "discipline": "MS",
-      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-hong-kong",
+      "event_page_url": "https://www.netbet.fr/badminton",
       "listed_day_paris": "2026-11-17",
       "market": "H2H_FULL_MATCH",
       "market_probabilities_only_not_v32_ev": true,
@@ -586,7 +503,7 @@
       "competition_display": "Open de Hong Kong",
       "day_basis": "PUBLISHED_CALENDAR_DATE",
       "discipline": "MS",
-      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-hong-kong",
+      "event_page_url": "https://www.netbet.fr/badminton",
       "listed_day_paris": "2026-11-17",
       "market": "H2H_FULL_MATCH",
       "market_probabilities_only_not_v32_ev": true,
@@ -811,7 +728,7 @@
     }
   ],
   "reason_counts": {
-    "NO_UNIQUE_BWF_FIXTURE": 18
+    "NO_UNIQUE_BWF_FIXTURE": 17
   },
   "robots_status": "ALLOWED_BY_ROBOTS",
   "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
