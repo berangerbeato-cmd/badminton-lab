@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_2_live_v1",
-  "generated_at_utc": "2026-11-16T16:20:22.223178+00:00",
+  "generated_at_utc": "2026-11-16T17:11:27.126545+00:00",
   "policy": "MODEL_ONLY_NO_BET_NO_T0_REWRITE",
   "model": "bwf_v3_2_score_rest_live",
   "selected_variant": "elo_plus_score_rest",
