@@ -285,8 +285,17 @@ def predict_official_unscheduled(bridge_path: Path, ratings, seen, histories,
                            "player_b": b.get("name"), "status": "BLOCKED",
                            "policy": "RESEARCH_ONLY_NO_BET", "probability_quality": "UNAVAILABLE"})
             continue
+        # For observed dated fixtures, calculate rest/inactivity on the intended
+        # match calendar date, without inventing a verified kickoff time.
+        observed_day = candidate.get("match_date")
+        try:
+            reference_day = date.fromisoformat(observed_day) if observed_day else now.date()
+        except (TypeError, ValueError):
+            continue
+        if reference_day < now.date() or reference_day > (now + timedelta(days=14)).date():
+            continue
         raw = elo_p(ratings[aid], ratings[bid])
-        feats = selected_features(histories[aid], histories[bid], now.date())
+        feats = selected_features(histories[aid], histories[bid], reference_day)
         probability = predict({"raw_p_a": raw, **feats}, fitted_model)
         output.append({"match_id": candidate["match_id"],
                        "tournament_id": candidate.get("tournament_id"),
@@ -294,10 +303,10 @@ def predict_official_unscheduled(bridge_path: Path, ratings, seen, histories,
                        "player_b_id": bid, "player_b": b.get("name"),
                        "v3_2_p_a": round(probability, 8),
                        "v3_2_p_b": round(1 - probability, 8),
-                       "match_time_utc": None, "feature_reference_date": now.date().isoformat(),
+                       "match_time_utc": None, "feature_reference_date": reference_day.isoformat(),
                        "status": "MODEL_READY",
                        "probability_quality": "PROVISIONAL_AS_OF_DATE",
-                       "rest_inactivity_reference": "REPORT_DATE_NOT_MATCH_DATE",
+                       "rest_inactivity_reference": ("OBSERVED_DATE_NOT_VERIFIED_START" if observed_day else "REPORT_DATE_NOT_MATCH_DATE"),
                        "requires_recalculation_when_scheduled": True,
                        "policy": "RESEARCH_ONLY_NO_BET",
                        "fixture_source": candidate.get("source")})
