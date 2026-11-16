@@ -1,0 +1,143 @@
+{
+  "tournament_id": "5218",
+  "tournament": "LI-NING Hong Kong Open 2026",
+  "source": "User-provided bookmaker screenshots observed 2026-11-16; pairings/dates unverified by official BWF start-time source; research only",
+  "fixtures": [
+    {
+      "match_date": "2026-11-17",
+      "players": [
+        "Yu-Kai WANG",
+        "Ka To LAM"
+      ]
+    },
+    {
+      "match_date": "2026-11-17",
+      "players": [
+        "Shogo OGAWA",
+        "WANG Po-Wei"
+      ]
+    },
+    {
+      "match_date": "2026-11-17",
+      "players": [
+        "HOH Justin",
+        "Pang Fong PUI"
+      ]
+    },
+    {
+      "match_date": "2026-11-17",
+      "players": [
+        "Ju-Sheng CHENG",
+        "CHEAM June Wei"
+      ]
+    },
+    {
+      "match_date": "2026-11-17",
+      "players": [
+        "Minoru KOGA",
+        "Xuan Chen ZHU"
+      ]
+    },
+    {
+      "match_date": "2026-11-17",
+      "players": [
+        "Usman AWAN",
+        "Muhamad YUSUF"
+      ]
+    },
+    {
+      "match_date": "2026-11-17",
+      "players": [
+        "YUNG King To",
+        "JEON Hyeok Jin"
+      ]
+    },
+    {
+      "match_date": "2026-11-17",
+      "players": [
+        "WANG Tzu Wei",
+        "Magnus JOHANNESEN"
+      ]
+    },
+    {
+      "match_date": "2026-11-18",
+      "players": [
+        "KIDAMBI Srikanth",
+        "Alwi FARHAN"
+      ]
+    },
+    {
+      "match_date": "2026-11-18",
+      "players": [
+        "Lakshya SEN",
+        "LEE Cheuk Yiu"
+      ]
+    },
+    {
+      "match_date": "2026-11-18",
+      "players": [
+        "NG Ka Long Angus",
+        "Jia Heng TEH"
+      ]
+    },
+    {
+      "match_date": "2026-11-18",
+      "players": [
+        "Moh. Zaki UBAIDILLAH",
+        "Victor LAI"
+      ],
+      "player_ids": {
+        "Victor LAI": "94151"
+      }
+    },
+    {
+      "match_date": "2026-11-18",
+      "players": [
+        "Koki WATANABE",
+        "Kenta NISHIMOTO"
+      ]
+    },
+    {
+      "match_date": "2026-11-18",
+      "players": [
+        "LOH Kean Yew",
+        "Arnaud MERKLE"
+      ]
+    },
+    {
+      "match_date": "2026-11-18",
+      "players": [
+        "Rasmus GEMKE",
+        "Yudai OKIMOTO"
+      ]
+    },
+    {
+      "match_date": "2026-11-18",
+      "players": [
+        "LEONG Jun Hao",
+        "LIN Chun-Yi"
+      ]
+    },
+    {
+      "match_date": "2026-11-18",
+      "players": [
+        "Panitchaphon TEERARATSAKUL",
+        "Jason GUNAWAN"
+      ]
+    },
+    {
+      "match_date": "2026-11-18",
+      "players": [
+        "Kodai NARAOKA",
+        "Brian YANG"
+      ]
+    },
+    {
+      "match_date": "2026-11-18",
+      "players": [
+        "Nhat NGUYEN",
+        "CHOU Tien Chen"
+      ]
+    }
+  ]
+}
