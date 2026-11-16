@@ -7,8 +7,8 @@
       {
         "source": "netbet_quotes",
         "players": [
-          "Minoru Koga",
-          "Zhu Xuan Chen"
+          "Shogo Ogawa",
+          "Po-Wei Wang"
         ],
         "status": "FIXTURE_ABSENT_FROM_MODEL",
         "listed_day_paris": "2026-11-17"
@@ -45,6 +45,24 @@
         "players": [
           "Zhe An Hu",
           "June Wei Cheam"
+        ],
+        "status": "FIXTURE_ABSENT_FROM_MODEL",
+        "listed_day_paris": "2026-11-17"
+      },
+      {
+        "source": "netbet_quotes",
+        "players": [
+          "Minoru Koga",
+          "Zhu Xuan Chen"
+        ],
+        "status": "FIXTURE_ABSENT_FROM_MODEL",
+        "listed_day_paris": "2026-11-17"
+      },
+      {
+        "source": "netbet_quotes",
+        "players": [
+          "Tzu Wei Wang",
+          "Magnus Johannesen"
         ],
         "status": "FIXTURE_ABSENT_FROM_MODEL",
         "listed_day_paris": "2026-11-17"
@@ -124,26 +142,8 @@
       {
         "source": "netbet_quotes",
         "players": [
-          "Shogo Ogawa",
-          "Po-Wei Wang"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-17"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
           "Srikanth Kidambi",
           "Alwi Farhan"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-17"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Tzu Wei Wang",
-          "Magnus Johannesen"
         ],
         "status": "FIXTURE_ABSENT_FROM_MODEL",
         "listed_day_paris": "2026-11-17"
@@ -181,7 +181,7 @@
     "missing_kickoff_count": 0,
     "missing_executable_price_count": 0
   },
-  "generated_at_utc": "2026-11-16T13:29:56+00:00",
+  "generated_at_utc": "2026-11-16T15:44:22+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 18,
   "rejected_sources": [],
@@ -203,8 +203,8 @@
     {
       "source": "netbet_quotes",
       "players": [
-        "Minoru Koga",
-        "Zhu Xuan Chen"
+        "Shogo Ogawa",
+        "Po-Wei Wang"
       ],
       "status": "FIXTURE_ABSENT_FROM_MODEL",
       "matches": 0,
@@ -253,6 +253,30 @@
       "players": [
         "Zhe An Hu",
         "June Wei Cheam"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 8,
+      "listed_day_paris": "2026-11-17",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "players": [
+        "Minoru Koga",
+        "Zhu Xuan Chen"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 8,
+      "listed_day_paris": "2026-11-17",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "players": [
+        "Tzu Wei Wang",
+        "Magnus Johannesen"
       ],
       "status": "FIXTURE_ABSENT_FROM_MODEL",
       "matches": 0,
@@ -359,32 +383,8 @@
     {
       "source": "netbet_quotes",
       "players": [
-        "Shogo Ogawa",
-        "Po-Wei Wang"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 8,
-      "listed_day_paris": "2026-11-17",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
         "Srikanth Kidambi",
         "Alwi Farhan"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 8,
-      "listed_day_paris": "2026-11-17",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Tzu Wei Wang",
-        "Magnus Johannesen"
       ],
       "status": "FIXTURE_ABSENT_FROM_MODEL",
       "matches": 0,
