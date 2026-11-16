@@ -5,12 +5,12 @@
   },
   "chosen_k": 48,
   "data_quality": {
-    "archives_read": 414,
+    "archives_read": 415,
     "clean_MS_matches": 13959,
     "missing_player_ids": 5,
     "no_full_score": 291,
-    "no_winner": 12,
-    "not_MS": 53320,
+    "no_winner": 24,
+    "not_MS": 53358,
     "score_not_completed": 223
   },
   "discipline": "MS",
