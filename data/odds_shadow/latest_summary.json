@@ -1,8 +1,8 @@
 {
-  "observed_at_utc": "2026-11-16T15:43:11+00:00",
+  "observed_at_utc": "2026-11-16T16:21:14+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
-  "retail_shadow_rows": 14,
+  "retail_shadow_rows": 15,
   "sources": {
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-16T16:43:11.963742+01:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-16T17:21:14.465418+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "1e00a82aa2e6bace9e7c34c86f540bcc575b381468619fa5d954d8d48fac64e3",
+      "body_sha256": "77dd9aa352e1937e81a50a456dde18e4d2c81f5e3c6ed8a398bd534dc369ccbc",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -32,14 +32,14 @@
     },
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-      "quotes": 14,
+      "quotes": 15,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "da9f096d8ef1de4fa67004ea411e6e54aec81299257d26f21eaee1c7156fac7d",
+      "body_sha256": "307fb4a42e891a82666e8b867c896ddba94942462423d78698c5c9e8f1d273e3",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "fad4feb2198264dbe7d7d07412911b981469a1af213f7cd1bf182ac7bf18b4cf",
+      "body_sha256": "4ba5c307d1c12b7b5240f7f74ea0873c689d646b4128f7c15deb72d38d38d745",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "e03a175ee298febabcb6e3abaa57929ae8724bccce6253fdb392ac6f0f1518b3",
+      "body_sha256": "115dd5126d7a62ffca0b4a6edc8a16065ec000fe5dae2df01171e1d825afc2d7",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -117,7 +117,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "0fa32c905295673dff8eb490c37e9288ecd67ecf0d730809c3eb3ef488a81aa3",
+      "body_sha256": "87b32e5c796eb38c42a5b7c3a1331df6a71e1ecdb85f0349559ca3547fbdb624",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "5ad76a267feb93769c26173da55e452d443dbf4f25705101c952ce2c30c643e4",
+      "body_sha256": "f745964d1e2eb79fe8015426b8bce503b259fb8ff8d5e07f471c7692b9bacce5",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "157",
-      "body_sha256": "f69afb7bde20d1c26d81caddcc04341ea18355f6f2672d5259a08046aacecc81",
+      "cache_age_seconds": "318",
+      "body_sha256": "1c8728fddb3e3e9b614f1a6a6f6e363ff872ac13170b5dc6d8e1891877cb317f",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/gunawan-jason-WWduvmf6/teeraratsakul-panitchaphon-l402bQTo/",
@@ -161,7 +161,7 @@
         ],
         "index_match_link_count": 12,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Open BWF de Hong Kong 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n16/11 LU\nAucun match aujourd'hui.\nJour de match précédent: 15.11.2026\nJour de match suivant: 17.11.2026\nFlashscore Actualités\nCarlos Alcaraz démarre son Masters en trombe contre Frances Tiafoe\nOpéré du genou, Emerson ne devrait pas rejouer avant 2027\nRomelu Lukaku annonce la fin de sa carrière internationale\nAller vers Actualités\nPublicité\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Open de Hong Kong Hommes\nBWF WT Open de Hong Kong Femmes\nBWF WT Open de Hong Kong Doubles Hommes\nBWF WT Open de Hong Kong Doubles Femmes\nBWF WT Open de Hong Kong Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nLe service de résultats de badminton de Flashscore.fr offre les scores en direct de badminton avec les résultats et les calendriers de la BWF World Tour Super Series, des Championnats du Monde, des championnats continentaux individuels et par équipe (ex. "
+        "index_text_excerpt": "Open BWF de Hong Kong 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n16/11 LU\nAucun match aujourd'hui.\nJour de match précédent: 15.11.2026\nJour de match suivant: 17.11.2026\nFlashscore Actualités\nPhilippe Diallo sera le candidat de l'UEFA pour la présidence de la FIFA\nCarlos Alcaraz démarre son Masters en trombe contre Frances Tiafoe\nOpéré du genou, Emerson ne devrait pas rejouer avant 2027\nAller vers Actualités\nPublicité\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Open de Hong Kong Hommes\nBWF WT Open de Hong Kong Femmes\nBWF WT Open de Hong Kong Doubles Hommes\nBWF WT Open de Hong Kong Doubles Femmes\nBWF WT Open de Hong Kong Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nLe service de résultats de badminton de Flashscore.fr offre les scores en direct de badminton avec les résultats et les calendriers de la BWF World Tour Super Series, des Championnats du Monde, des championnats continenta"
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/srikanth-kidambi-zq9lAhel/watanabe-koki-2N8B4tBf/#/cotes/home-away/temps-regulier/",
@@ -172,11 +172,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/srikanth-kidambi-zq9lAhel/watanabe-koki-2N8B4tBf/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "a4bb58fb7e16329ea7f3b997d4819465f2e6ff859f47f5f447157712a371b52b",
+        "body_sha256": "504f417c218c06b2a89b72c7cea7137a5a5ab90b874926d873e42ccbba5744b6",
         "screenshot_error": null,
         "text_excerpt_for_debug": "13/11 Srikanth K. - Watanabe K., 18/11 Srikanth K. - Watanabe K. en direct, résultats, statistiques\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nBADMINTONBWF WORLD TOUR - HOMMESOPEN DE HONG KONG - 1/16 DE FINALE\nNouvelle fenêtre\n18.11.2026 02:00\nSrikanth K.\nBWF\n: 31.\n-\nWatanabe K.\nBWF\n: 15.\n-\n18.11.2026 02:00\nRÉSUMÉ\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA). T&C apply.\nINFORMATIONS DE MATCH\nSTADE:\nKai Tak Arena\n (Hongkong)\nFORME\nSrikanth K.\n?\nD\nV\nV\nD\nD",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 5961,
+        "body_characters": 5964,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -217,7 +217,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "a60f3cc17282da3377ebbb6e250598c579229d04442c2fa3cc4ebed7ae4a1e74",
+      "body_sha256": "609779adfa96c326d069b83153fc86f407271974e6506a7d17324270a783f72c",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }

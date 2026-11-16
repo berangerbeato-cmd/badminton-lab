@@ -2,31 +2,13 @@
   "verification_summary": {
     "unique_matched_fixture_count": 0,
     "matched_fixture_ids": [],
-    "unmatched_observation_count": 18,
+    "unmatched_observation_count": 16,
     "unmatched_observations": [
       {
         "source": "netbet_quotes",
         "players": [
           "Shogo Ogawa",
           "Po-Wei Wang"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-17"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Tian Yao Dong",
-          "Muhamad Yusuf"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-17"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Wang Yu Kai",
-          "Li Yang Su"
         ],
         "status": "FIXTURE_ABSENT_FROM_MODEL",
         "listed_day_paris": "2026-11-17"
@@ -43,8 +25,8 @@
       {
         "source": "netbet_quotes",
         "players": [
-          "Zhe An Hu",
-          "June Wei Cheam"
+          "Awan Usman",
+          "Muhamad Yusuf"
         ],
         "status": "FIXTURE_ABSENT_FROM_MODEL",
         "listed_day_paris": "2026-11-17"
@@ -171,19 +153,19 @@
     "kickoff_evidence_status_counts": {},
     "prematch_timing_status_counts": {},
     "model_fixture_count": 8,
-    "public_quote_count": 18,
-    "comparison_count": 18,
+    "public_quote_count": 16,
+    "comparison_count": 16,
     "status_counts": {
-      "FIXTURE_ABSENT_FROM_MODEL": 18
+      "FIXTURE_ABSENT_FROM_MODEL": 16
     },
     "verified_prematch_count": 0,
     "validated_roi_pct": null,
     "missing_kickoff_count": 0,
     "missing_executable_price_count": 0
   },
-  "generated_at_utc": "2026-11-16T15:44:22+00:00",
+  "generated_at_utc": "2026-11-16T16:22:28+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
-  "comparison_count": 18,
+  "comparison_count": 16,
   "rejected_sources": [],
   "source_audit": {
     "unibet_fr": {
@@ -195,7 +177,7 @@
     "netbet_quotes": {
       "status": "FRESH_SNAPSHOT",
       "snapshot_file": "data/odds_shadow/netbet_quotes/latest.json",
-      "quotes_read": 18,
+      "quotes_read": 16,
       "collector_status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
     }
   },
@@ -205,30 +187,6 @@
       "players": [
         "Shogo Ogawa",
         "Po-Wei Wang"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 8,
-      "listed_day_paris": "2026-11-17",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Tian Yao Dong",
-        "Muhamad Yusuf"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 8,
-      "listed_day_paris": "2026-11-17",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Wang Yu Kai",
-        "Li Yang Su"
       ],
       "status": "FIXTURE_ABSENT_FROM_MODEL",
       "matches": 0,
@@ -251,8 +209,8 @@
     {
       "source": "netbet_quotes",
       "players": [
-        "Zhe An Hu",
-        "June Wei Cheam"
+        "Awan Usman",
+        "Muhamad Yusuf"
       ],
       "status": "FIXTURE_ABSENT_FROM_MODEL",
       "matches": 0,

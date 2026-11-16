@@ -1,0 +1,35 @@
+{
+  "body_sha256": "4ba5c307d1c12b7b5240f7f74ea0873c689d646b4128f7c15deb72d38d38d745",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-11-16T16:21:52+00:00",
+  "http_status": 200,
+  "netbet_public_audit": {
+    "badminton_term_visible": true,
+    "match_link_count": 3,
+    "match_links": [
+      "https://www.netbet.fr/badminton",
+      "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles",
+      "https://www.netbet.fr/badminton/international/open-de-hong-kong"
+    ],
+    "page_text_excerpt": "Nous utilisons des cookies essentiels pour faire fonctionner notre site. Avec votre consentement, nous pouvons également utiliser des cookies non essentiels pour améliorer l'expérience utilisateur, personnaliser le contenu et la publicité et analyser le trafic sur notre site web. Ces raisons pourront nous amener à partager des données concernant votre utilisation du site avec nos sociétés d’analyses, de réseaux sociaux et annonceurs partenaires. En cliquant sur “Accepter“, vous consentez à l’utilisation de cookies sur notre site web, conformément à la description fournie dans notre politique relative aux cookies. Vous pouvez modifier vos paramètres d’acceptation des cookies à tout moment en cliquant sur “Préférences”.\nPréférences\nRefuser\nAccepter\nPARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13 - APPEL NON SURTAXÉ)\n\nAccès rapide\n\nAccueil\nCashout\nEn direct\nPromotions\nContact\n\nPopulaire\n\nFootball du jour\nLigue des Nations\nTennis du Jour\nATP Finals\nNBA\nEuroligue\nEurocoupe\nLigue des Champions\nNHL\n\nSports\n\nEn direct\n(9)\nFootball\nTennis\nFoot US\nBasketball\nSki Alpin\nBadminton\nBaseball\nBiathlon\nBoxe\nCyclisme\nGolf\nHandball\nHockey/glace\nMMA\nSport Automobile\nRugby à XIII\nRugby\nVoile\nSnooker\nTennis de table\nVolleyball\n\nAutres pages\n\nRèglement des paris\nScores en direct\n\nFormat des cotes\n\nFermer\n\nAccès rapide\n\nAccueil\nCashout\nEn direct\nPromotions\nContact\n\nPopulaire\n\nFootball du jour\nLigue des Nations\nTennis du Jour\nATP Finals\nNBA\nEuroligue\nEurocoupe\nLigue des Champions\nNHL\n\nSports\n\nEn direct\n(9)\nFootball\nTennis\nFoot US\nBasketball\nSki Alpin\nBadminton\nBaseball\nBiathlon\nBoxe\nCyclisme\nGolf\nHandball\nHockey/glace\nMMA\nSport Automobile\nRugby à XIII\nRugby\nVoile\nSnooker\nTennis de table\nVolleyball\n\nAutres pages\n\nRèglement des paris\nScores en direct\n\nFormat des cotes\n\nAccueil\nBadminton\nPariez sur\nBadminton\nÀ L'AFFICHE\nTOUTE L'OFFRE BADMINTON\n\nÀ Venir\n\nOpen de Hong Kong, Doubles\nmar. 17 nov.\n02:00\nChia-Soh\nLee-Yang\nQui va gagner le match ?\nChia-Soh\n1.21\nLee-Yang\n2.97\n+ 2\nOpen de Hong Kong, Doubles\nmar. 17 nov.\n02:00\nChiu-Wang\nTai-King\nQui va gagner le match ?\nChiu-Wang\n3.10\nTai-King\n1.19\n+ 3\nOpen de Hong Kong, Doubles\nmar. 17 n",
+    "price_mapping_verified": false,
+    "quotes_extracted": 0
+  },
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-11-16T16:21:45+00:00",
+  "operator": "NetBet.fr",
+  "operator_kind": "ONLINE",
+  "public_badminton_event_links": [],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/netbet_fr.png",
+  "quotes": [],
+  "resolved_url": "https://www.netbet.fr/badminton",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Mon, 16 Nov 2026 16:21:46 GMT",
+  "source_key": "netbet_fr",
+  "source_url": "https://www.netbet.fr/badminton",
+  "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
+  "text_excerpt_for_debug": "Nous utilisons des cookies essentiels pour faire fonctionner notre site. Avec votre consentement, nous pouvons également utiliser des cookies non essentiels pour améliorer l'expérience utilisateur, personnaliser le contenu et la publicité et analyser le trafic sur notre site web. Ces raisons pourront nous amener à partager des données concernant votre utilisation du site avec nos sociétés d’analyses, de réseaux sociaux et annonceurs partenaires. En cliquant sur “Accepter“, vous consentez à l’utilisation de cookies sur notre site web, conformément à la description fournie dans notre politique relative aux cookies. Vous pouvez modifier vos paramètres d’acceptation des cookies à tout moment en cliquant sur “Préférences”.\nPréférences\nRefuser\nAccepter\nPARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13 - APPEL NON SURTAXÉ)\n\nAccès rapide\n\nAccueil\nCashout\nEn direct\nPromotions\nContact\n\nPopulaire\n\nFootball du jour\nLigue des Nations\nTennis du Jour\nATP Finals\nNBA\nEuroligue\nEurocoupe\nLigue des Champions\nNHL\n\nSports\n\nEn direct\n(9)\nFootball\nTennis\nFoot US\nBasketball\nSki Alpin\nBadminton\nBaseball\nBiathlon\nBoxe\nCyclisme\nGolf\nHandball\nHockey/glace\nMMA\nSport Automobile\nRugby à XIII\nRugby\nVoile\nSnooker\nTennis de table\nVolleyball\n\nAutres pages\n\nRèglement des paris\nScores en direct\n\nFormat des cotes\n\nFermer\n\nAccès rapide\n\nAccueil\nCashout\nEn direct\nPromotions\nContact\n\nPopulaire\n\nFootball du jour\nLigue des Nations\nTennis du Jour\nATP Finals\nNBA\nEuroligue\nEurocoupe\nLigue des Champions\nNHL\n\nSports\n\nEn direct\n(9)\nFootball\nTennis\nFoot US\nBasketb",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
