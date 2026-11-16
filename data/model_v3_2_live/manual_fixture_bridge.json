@@ -3,65 +3,191 @@
   "schedule_pending": [
     {
       "match_id": "1",
-      "tournament_id": "5210",
+      "tournament_id": "5218",
       "players": [
         {
-          "id": "85845",
-          "name": "Panitchaphon TEERARATSAKUL"
+          "id": "98279",
+          "name": "Yu-Kai WANG"
         },
         {
-          "id": "72885",
-          "name": "Christo POPOV"
+          "id": "89726",
+          "name": "Ka To LAM"
         }
       ],
       "source": "USER_CAPTURE_UNVERIFIED",
-      "match_date": null,
+      "match_date": "2026-11-17",
       "match_time_utc": null,
       "status": "SCHEDULE_PENDING"
     },
     {
       "match_id": "2",
-      "tournament_id": "5210",
+      "tournament_id": "5218",
       "players": [
         {
-          "id": "58089",
-          "name": "Alwi FARHAN"
+          "id": "62395",
+          "name": "Shogo OGAWA"
         },
         {
-          "id": "73442",
-          "name": "Jonatan CHRISTIE"
+          "id": "87029",
+          "name": "WANG Po-Wei"
         }
       ],
       "source": "USER_CAPTURE_UNVERIFIED",
-      "match_date": null,
+      "match_date": "2026-11-17",
       "match_time_utc": null,
       "status": "SCHEDULE_PENDING"
     },
     {
       "match_id": "3",
-      "tournament_id": "5210",
+      "tournament_id": "5218",
       "players": [
         {
-          "id": "65634",
-          "name": "Jason GUNAWAN"
+          "id": "68392",
+          "name": "HOH Justin"
         },
         {
-          "id": "91554",
-          "name": "Anders ANTONSEN"
+          "id": "98860",
+          "name": "Pang Fong PUI"
         }
       ],
       "source": "USER_CAPTURE_UNVERIFIED",
-      "match_date": null,
+      "match_date": "2026-11-17",
       "match_time_utc": null,
       "status": "SCHEDULE_PENDING"
     },
     {
       "match_id": "4",
-      "tournament_id": "5210",
+      "tournament_id": "5218",
       "players": [
         {
-          "id": "94151",
-          "name": "Victor LAI"
+          "id": "44017",
+          "name": "Ju-Sheng CHENG"
+        },
+        {
+          "id": "92796",
+          "name": "CHEAM June Wei"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_date": "2026-11-17",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "5",
+      "tournament_id": "5218",
+      "players": [
+        {
+          "id": "80062",
+          "name": "Minoru KOGA"
+        },
+        {
+          "id": "97345",
+          "name": "Xuan Chen ZHU"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_date": "2026-11-17",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "6",
+      "tournament_id": "5218",
+      "players": [
+        {
+          "id": "84907",
+          "name": "Usman AWAN"
+        },
+        {
+          "id": "90218",
+          "name": "Muhamad YUSUF"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_date": "2026-11-17",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "7",
+      "tournament_id": "5218",
+      "players": [
+        {
+          "id": "88249",
+          "name": "YUNG King To"
+        },
+        {
+          "id": "65580",
+          "name": "JEON Hyeok Jin"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_date": "2026-11-17",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "8",
+      "tournament_id": "5218",
+      "players": [
+        {
+          "id": "87375",
+          "name": "WANG Tzu Wei"
+        },
+        {
+          "id": "97030",
+          "name": "Magnus JOHANNESEN"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_date": "2026-11-17",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "9",
+      "tournament_id": "5218",
+      "players": [
+        {
+          "id": "93627",
+          "name": "KIDAMBI Srikanth"
+        },
+        {
+          "id": "58089",
+          "name": "Alwi FARHAN"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_date": "2026-11-18",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "10",
+      "tournament_id": "5218",
+      "players": [
+        {
+          "id": "68870",
+          "name": "Lakshya SEN"
+        },
+        {
+          "id": "94780",
+          "name": "LEE Cheuk Yiu"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_date": "2026-11-18",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "11",
+      "tournament_id": "5218",
+      "players": [
+        {
+          "id": "45171",
+          "name": "NG Ka Long Angus"
         },
         {
           "id": "82606",
@@ -69,67 +195,157 @@
         }
       ],
       "source": "USER_CAPTURE_UNVERIFIED",
-      "match_date": null,
+      "match_date": "2026-11-18",
       "match_time_utc": null,
       "status": "SCHEDULE_PENDING"
     },
     {
-      "match_id": "5",
-      "tournament_id": "5210",
+      "match_id": "12",
+      "tournament_id": "5218",
       "players": [
         {
-          "id": "94580",
-          "name": "Alex LANIER"
+          "id": "60321",
+          "name": "Moh. Zaki UBAIDILLAH"
         },
         {
-          "id": "93627",
-          "name": "KIDAMBI Srikanth"
+          "id": "94151",
+          "name": "Victor LAI"
         }
       ],
       "source": "USER_CAPTURE_UNVERIFIED",
-      "match_date": null,
+      "match_date": "2026-11-18",
       "match_time_utc": null,
       "status": "SCHEDULE_PENDING"
     },
     {
-      "match_id": "6",
-      "tournament_id": "5210",
+      "match_id": "13",
+      "tournament_id": "5218",
+      "players": [
+        {
+          "id": "97174",
+          "name": "Koki WATANABE"
+        },
+        {
+          "id": "85394",
+          "name": "Kenta NISHIMOTO"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_date": "2026-11-18",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "14",
+      "tournament_id": "5218",
+      "players": [
+        {
+          "id": "76115",
+          "name": "LOH Kean Yew"
+        },
+        {
+          "id": "59543",
+          "name": "Arnaud MERKLE"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_date": "2026-11-18",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "15",
+      "tournament_id": "5218",
       "players": [
         {
           "id": "62855",
           "name": "Rasmus GEMKE"
         },
         {
-          "id": "45171",
-          "name": "NG Ka Long Angus"
+          "id": "90735",
+          "name": "Yudai OKIMOTO"
         }
       ],
       "source": "USER_CAPTURE_UNVERIFIED",
-      "match_date": null,
+      "match_date": "2026-11-18",
       "match_time_utc": null,
       "status": "SCHEDULE_PENDING"
     },
     {
-      "match_id": "7",
-      "tournament_id": "5210",
+      "match_id": "16",
+      "tournament_id": "5218",
       "players": [
         {
-          "id": "90735",
-          "name": "Yudai OKIMOTO"
+          "id": "84838",
+          "name": "LEONG Jun Hao"
         },
         {
-          "id": "62063",
-          "name": "Kodai NARAOKA"
+          "id": "86114",
+          "name": "LIN Chun-Yi"
         }
       ],
       "source": "USER_CAPTURE_UNVERIFIED",
-      "match_date": null,
+      "match_date": "2026-11-18",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "17",
+      "tournament_id": "5218",
+      "players": [
+        {
+          "id": "85845",
+          "name": "Panitchaphon TEERARATSAKUL"
+        },
+        {
+          "id": "65634",
+          "name": "Jason GUNAWAN"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_date": "2026-11-18",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "18",
+      "tournament_id": "5218",
+      "players": [
+        {
+          "id": "62063",
+          "name": "Kodai NARAOKA"
+        },
+        {
+          "id": "63122",
+          "name": "Brian YANG"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_date": "2026-11-18",
+      "match_time_utc": null,
+      "status": "SCHEDULE_PENDING"
+    },
+    {
+      "match_id": "19",
+      "tournament_id": "5218",
+      "players": [
+        {
+          "id": "85095",
+          "name": "Nhat NGUYEN"
+        },
+        {
+          "id": "34810",
+          "name": "CHOU Tien Chen"
+        }
+      ],
+      "source": "USER_CAPTURE_UNVERIFIED",
+      "match_date": "2026-11-18",
       "match_time_utc": null,
       "status": "SCHEDULE_PENDING"
     }
   ],
   "blocked": [],
-  "matched_count": 7,
+  "matched_count": 19,
   "blocked_count": 0,
   "source_note": "Manual user-observed pairings; no official fixture/time verification"
 }
