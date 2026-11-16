@@ -51,9 +51,9 @@ jobs:
           python -m py_compile badminton_v3_2_daily.py
           python badminton_v3_2_daily.py --self-test
 
-      - name: Resolve observed Denmark MS pairings (research only)
+      - name: Resolve observed Hong Kong MS pairings (research only)
         run: |
-          python manual_ms_fixture_bridge.py --data-dir data/bwf --fixtures data/fixture_sources/denmark_2026_10_15_user_observed.json --out data/model_v3_2_live/manual_fixture_bridge.json
+          python manual_ms_fixture_bridge.py --data-dir data/bwf --fixtures data/fixture_sources/hong_kong_2026_11_17_18_user_observed.json --out data/model_v3_2_live/manual_fixture_bridge.json
 
       - name: Generate V3.2 prospective forecasts
         run: |
