@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "run_id": "44120491085",
+  "archived_at_utc": "2026-11-17T16:01:31+00:00",
+  "policy": "SHADOW_ONLY_NO_BET",
+  "comparison_count": 0,
+  "source_audit": {
+    "unibet_fr": {
+      "status": "FRESH_EMPTY",
+      "snapshot_file": "data/odds_shadow/unibet_fr/latest.json",
+      "quotes_read": 0,
+      "collector_status": "NO_CONFIDENT_PREMATCH_QUOTES"
+    },
+    "netbet_quotes": {
+      "status": "FRESH_EMPTY",
+      "snapshot_file": "data/odds_shadow/netbet_quotes/latest.json",
+      "quotes_read": 0,
+      "collector_status": "NO_CONFIDENT_QUOTES"
+    }
+  },
+  "files": {
+    "model": {
+      "source": "data/model_v3_2_live/latest_report.json",
+      "sha256": "1c9c190ee8dcd869aa0ab7f52a5a0179c9da82959830d11a902569a54454dace",
+      "size_bytes": 1828
+    },
+    "upcoming": {
+      "source": "data/model_v3_2_live/upcoming_latest.csv",
+      "sha256": "e5ad16bc3618ee6ff6bf160ebc6a98483bfcc5c8ecddee806b9499b551d61158",
+      "size_bytes": 6226
+    },
+    "comparison": {
+      "source": "data/odds_shadow/comparison_v3_auto/latest.json",
+      "sha256": "109ac2fe1a60e0210141a218938a016fda6b16dd7eadf07cf34b1bcc1883bfa1",
+      "size_bytes": 1143
+    },
+    "quality": {
+      "source": "data/odds_shadow/quality_gate/latest.json",
+      "sha256": "17b2aa080fe73c2f22906672a57e5986a23a5c64234aee051d9d26bdc96220e7",
+      "size_bytes": 315
+    },
+    "unibet": {
+      "source": "data/odds_shadow/unibet_fr/latest.json",
+      "sha256": "7aef96a9ab3047dbbd0383cf07c8c141104e46005fc4343bd9e8816c7976fffe",
+      "size_bytes": 3207
+    },
+    "netbet": {
+      "source": "data/odds_shadow/netbet_quotes/latest.json",
+      "sha256": "7e6c52b56e0efb4f961cd40527687b91c0d0a03637b0aebf1793fe5cb0093d29",
+      "size_bytes": 5318
+    }
+  }
+}

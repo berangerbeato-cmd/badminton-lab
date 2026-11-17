@@ -1,19 +1,19 @@
 {
-  "observed_at_utc": "2026-11-17T15:57:46+00:00",
+  "observed_at_utc": "2026-11-17T16:00:23+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 17,
   "sources": {
     "unibet_fr": {
-      "status": "REJECT_HTTP_CACHE_AGE",
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quotes": 0,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": null,
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-17T17:00:23.055582+01:00",
       "error": null,
-      "cache_age_seconds": "147",
-      "body_sha256": "5ae1829332c982ec7de881c7b22be1ad9e82d1113bcbba143695d22a2ce33bac",
+      "cache_age_seconds": null,
+      "body_sha256": "2575ef615811d2398837ca62152fb47edcdfdf1f1aee8757778ec81dddf1cbc1",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -39,7 +39,7 @@
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "667e5b33007dc6b9470ef36a23abab25ebef4feb4f734298c6575587ed386fa5",
+      "body_sha256": "3c888a6cedf4ad6d16abd6a468a745e38f6eb9c301f2703d8c5e5f5730dcfd11",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "3816b0a5a468bbf72d31a52470dacc00cb9f5370eac23104b8708e6b20ff7f77",
+      "body_sha256": "73d0ff0a8a392ba23308f4a51b08417818691b3dd1bcea2994dfe2a876e8a3ab",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "a22a102485fa969f8785538221c87c81f38da127417494c23f39c8402045ff04",
+      "body_sha256": "e66975d5d5fda797638b388924d4592474e6415cfec3459745ccf95569551f90",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "169",
-      "body_sha256": "fc78c9a5440d3cd1767604503415ea38c50fe839a60f1d26f9bba8ff49364ce2",
+      "cache_age_seconds": "333",
+      "body_sha256": "c7b12aaee707dc6f81512936aebe5c6f91bfa1b2fafbf0b5cbb83fda5d95adfc",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/SC84F7Xh/",
@@ -164,7 +164,7 @@
         ],
         "index_match_link_count": 45,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Open BWF de Hong Kong 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n17/11 MA\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nHe J. T.\nRen X. Y.\nRayhan A. F.\nWahyudi D. A.\n2\n1\n17\n21\n21\n17\n21\n19\nTerminé\nKang M. H.\nLee J. M.\nAstrup K.\nRasmussen A. S.\n2\n1\n21\n11\n21\n23\n21\n16\nTerminé\nAlfian F.\nFikri M. S.\nChen Z. R.\nLin Y. C.\n2\n1\n21\n15\n21\n23\n21\n19\nAnnulé\nAlfian F.\nFikri M. S.\nPopov C.\nPopov T. J.\n-\n-\nTerminé\nLee F. C\nLee F. J.\nKumagai K.\nNishi H.\n0\n2\n19\n21\n17\n21\nTerminé\nOkamura H.\nYamashita K.\nLiang W. K.\nWang C.\n1\n2\n21\n14\n16\n21\n18\n21\nTerminé\nChen Z. Y.\nSmith P.\nLane B.\nVendy S.\n0\n2\n12\n21\n16\n21\nAnnulé\nChia A.\nSoh W. Y.\nLee J-H.\nYang Po-Hsuan\n-\n-\nAnnulé\nRankireddy S.\nShetty C.\nHu K. Y.\nLin X. Y.\n-\n-\nTerminé\nRankireddy S.\nShetty C.\nLee J-H.\nYang Po-Hsuan\n2\n1\n15\n21\n21\n17\n28\n26\nAnnulé\nCarnando L. R.\nMarthin D.\nGoh S. F.\nIzzuddin N.\n-\n-\nAnnulé\nHoki T.\nKobayashi Y.\nGutama S. K.\nIsfahani M. R. P.\n-\n-\nAnnulé\nIndra R.\nJoaquin N.\nAstrup K.\nRasmussen A. S.\n-\n-\nTerminé\nIndra R.\nJoaquin N.\nHu K. Y.\nLin X. Y.\n1\n2\n21\n17\n18\n21\n16\n21\nTerminé\nCarnando L. R.\nMarthin D.\nGutama S. K.\nIsfahani M. R. P.\n2\n0\n21\n13\n21\n15\nTerminé\nJin Y.\nJo S. H.\nWeijie C.\nTeo Ee Y.\n1\n2\n16\n21\n21\n18\n12\n21\nAnnulé\nJin Y.\nJo S. H.\nChen B. Y.\nLiu Y.\n-\n-\nTerminé\nKjaer C. F.\nKjaer R.\nChen B. Y.\nLiu Y.\n0\n2\n17\n21\n12\n21\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nPratiwi A. C.\nRamadhanti S. F. S.\nChou Y. A.\nHsieh P. S.\n2\n0\n21\n6\n21\n7\nTerminé\nStoeva G.\nStoeva S.\nHara N.\nKiyose R.\n2\n0\n21\n9\n21\n19\nTerminé\nFukushima Y.\nMatsumoto M.\nJia Y. F.\nZhang C.\n2\n1\n21\n1"
+        "index_text_excerpt": "Open BWF de Hong Kong 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n17/11 MA\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nHe J. T.\nRen X. Y.\nRayhan A. F.\nWahyudi D. A.\n2\n1\n17\n21\n21\n17\n21\n19\nTerminé\nKang M. H.\nLee J. M.\nAstrup K.\nRasmussen A. S.\n2\n1\n21\n11\n21\n23\n21\n16\nTerminé\nAlfian F.\nFikri M. S.\nChen Z. R.\nLin Y. C.\n2\n1\n21\n15\n21\n23\n21\n19\nAnnulé\nAlfian F.\nFikri M. S.\nPopov C.\nPopov T. J.\n-\n-\nTerminé\nLee F. C\nLee F. J.\nKumagai K.\nNishi H.\n0\n2\n19\n21\n17\n21\nTerminé\nOkamura H.\nYamashita K.\nLiang W. K.\nWang C.\n1\n2\n21\n14\n16\n21\n18\n21\nTerminé\nChen Z. Y.\nSmith P.\nLane B.\nVendy S.\n0\n2\n12\n21\n16\n21\nAnnulé\nChia A.\nSoh W. Y.\nLee J-H.\nYang Po-Hsuan\n-\n-\nAnnulé\nRankireddy S.\nShetty C.\nHu K. Y.\nLin X. Y.\n-\n-\nTerminé\nRankireddy S.\nShetty C.\nLee J-H.\nYang Po-Hsuan\n2\n1\n15\n21\n21\n17\n28\n26\nAnnulé\nCarnando L. R.\nMarthin D.\nGoh S. F.\nIzzuddin N.\n-\n-\nAnnulé\nHoki T.\nKobayashi Y.\nGutama S. K.\nIsfahani M. R. P.\n-\n-\nAnnulé\nIndra R.\nJoaquin N.\nAstrup K.\nRasmussen A. S.\n-\n-\nTerminé\nIndra R.\nJoaquin N.\nHu K. Y.\nLin X. Y.\n1\n2\n21\n17\n18\n21\n16\n21\nTerminé\nCarnando L. R.\nMarthin D.\nGutama S. K.\nIsfahani M. R. P.\n2\n0\n21\n13\n21\n15\nTerminé\nJin Y.\nJo S. H.\nWeijie C.\nTeo Ee Y.\n1\n2\n16\n21\n21\n18\n12\n21\nAnnulé\nJin Y.\nJo S. H.\nChen B. Y.\nLiu Y.\n-\n-\nTerminé\nKjaer C. F.\nKjaer R.\nChen B. Y.\nLiu Y.\n0\n2\n17\n21\n12\n21\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nPratiwi A. C.\nRamadhanti S. F. S.\nChou Y. A.\nHsieh P. S.\n2\n0\n21\n6\n21\n7\nTerminé\nStoeva G.\nStoeva S.\nHara N.\nKiyose R.\n2\n0\n21\n9\n21\n19\nTerminé\nFukushima Y.\nMatsumoto M.\nJia Y. F.\nZhang C.\n2\n1\n21\n13\n17\n21\n21\n12\nTerminé\nLam L.\nLee A. Q.\nK"
       },
       "flashscore_match_audit": {
         "url": null,
@@ -182,8 +182,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "0",
-      "body_sha256": "ae75e41f8e97bc51c1a7d12bdcdda2018ee9ff27120cece49fa5ca9785706dff",
+      "cache_age_seconds": "164",
+      "body_sha256": "d6aa863c6a576ab2003baef625156063a20691548dd2f7b4051cc14767b03e59",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
