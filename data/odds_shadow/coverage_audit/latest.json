@@ -49,7 +49,7 @@
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 1,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-11-17T16:01:31.702859+00:00",
+  "generated_at_utc": "2026-11-17T16:26:56.528483+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 16,
@@ -187,8 +187,8 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-17T16:00:25+00:00",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-17T17:00:23.055582+01:00",
+      "observed_at_utc": "2026-11-17T16:25:54+00:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-17T17:25:53.272714+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
@@ -196,7 +196,7 @@
     "netbet_quotes": {
       "status": "NO_CONFIDENT_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-17T16:01:24+00:00",
+      "observed_at_utc": "2026-11-17T16:26:49+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 0,
@@ -209,7 +209,7 @@
               "Tai-King",
               "1.33"
             ],
-            "market_line": 111,
+            "market_line": 113,
             "preceding_lines": [
               "Scores en direct",
               "Format des cotes",
@@ -235,7 +235,7 @@
               "Isharani Baruah",
               "2.42"
             ],
-            "market_line": 125,
+            "market_line": 127,
             "preceding_lines": [
               "Qui va gagner le match ?",
               "Chiu-Wang",
@@ -244,7 +244,7 @@
               "1.33",
               "+ 3",
               "Toute l'offre Badminton",
-              "(60)",
+              "(61)",
               "À Venir",
               "Open de Hong Kong (F)",
               "mer. 18 nov.",
@@ -261,7 +261,7 @@
               "Haruki-Matsukawa",
               "1.73"
             ],
-            "market_line": 136,
+            "market_line": 138,
             "preceding_lines": [
               "02:00",
               "Ashmita Chaliha",
@@ -287,7 +287,7 @@
               "Lee-Kim",
               "1.01"
             ],
-            "market_line": 147,
+            "market_line": 149,
             "preceding_lines": [
               "02:00",
               "Azriyn-Tan",
@@ -313,7 +313,7 @@
               "Nidaira Natsuki",
               "1.23"
             ],
-            "market_line": 158,
+            "market_line": 160,
             "preceding_lines": [
               "02:00",
               "Chang-Yang",
@@ -339,7 +339,7 @@
               "Lin Hsiang Ti",
               "1.30"
             ],
-            "market_line": 169,
+            "market_line": 171,
             "preceding_lines": [
               "02:00",
               "Chen Rachel",
@@ -370,7 +370,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-17T16:00:47+00:00",
+      "observed_at_utc": "2026-11-17T16:26:12+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -379,7 +379,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-17T16:01:05+00:00",
+      "observed_at_utc": "2026-11-17T16:26:28+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -388,16 +388,16 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-17T16:00:34+00:00",
+      "observed_at_utc": "2026-11-17T16:26:01+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE"
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-      "quote_count": 17,
-      "observed_at_utc": "2026-11-17T16:00:35+00:00",
+      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
+      "quote_count": 16,
+      "observed_at_utc": "2026-11-17T16:26:02+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -406,7 +406,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-17T16:00:48+00:00",
+      "observed_at_utc": "2026-11-17T16:26:13+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -415,7 +415,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-17T16:00:59+00:00",
+      "observed_at_utc": "2026-11-17T16:26:23+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -424,7 +424,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-17T16:01:07+00:00",
+      "observed_at_utc": "2026-11-17T16:26:31+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -433,7 +433,7 @@
     "oddspedia_badminton": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-17T16:01:06+00:00",
+      "observed_at_utc": "2026-11-17T16:26:30+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -442,7 +442,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-17T16:01:19+00:00",
+      "observed_at_utc": "2026-11-17T16:26:45+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,

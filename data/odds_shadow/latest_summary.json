@@ -1,8 +1,8 @@
 {
-  "observed_at_utc": "2026-11-17T16:00:23+00:00",
+  "observed_at_utc": "2026-11-17T16:25:53+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
-  "retail_shadow_rows": 17,
+  "retail_shadow_rows": 16,
   "sources": {
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-17T17:00:23.055582+01:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-17T17:25:53.272714+01:00",
       "error": null,
-      "cache_age_seconds": null,
-      "body_sha256": "2575ef615811d2398837ca62152fb47edcdfdf1f1aee8757778ec81dddf1cbc1",
+      "cache_age_seconds": "9",
+      "body_sha256": "09a45dfd480ff2b418dcf9bfc4b323d6c9cb0e41f36f3aaaa4c8558a79f62d03",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -31,15 +31,15 @@
       "flashscore_match_audit": null
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-      "quotes": 17,
+      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
+      "quotes": 16,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
-      "cache_age_seconds": null,
-      "body_sha256": "3c888a6cedf4ad6d16abd6a468a745e38f6eb9c301f2703d8c5e5f5730dcfd11",
+      "cache_age_seconds": "146",
+      "body_sha256": "0ab88dfe8eab8678921a3668bfd67141ef4e2e343b1e988dfcd5c7256b355425",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "73d0ff0a8a392ba23308f4a51b08417818691b3dd1bcea2994dfe2a876e8a3ab",
+      "body_sha256": "b5a8b15b838aca21db840ca2d3e226cd40febdda2f936a7ff0dd744f6ab26654",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "d089190d43906b6a7a19bf13a6fd1e42f24f140d12cf5101eefedfd8a3bee44f",
+      "body_sha256": "3310c006b30c53f51f7107da8160d171c65e43569753dbaf8276c26dca22ca83",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "e66975d5d5fda797638b388924d4592474e6415cfec3459745ccf95569551f90",
+      "body_sha256": "8fac0c9920ba64b1058335cb36482fecfc0805fb4efed380c0ef5556a6f17734",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "333",
-      "body_sha256": "c7b12aaee707dc6f81512936aebe5c6f91bfa1b2fafbf0b5cbb83fda5d95adfc",
+      "cache_age_seconds": "107",
+      "body_sha256": "3c63bc7bcbbd57353e2bb2123a63d97256b4ba0ec3979f4adef8b0054e4ff7ed",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/SC84F7Xh/",
@@ -182,8 +182,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "164",
-      "body_sha256": "d6aa863c6a576ab2003baef625156063a20691548dd2f7b4051cc14767b03e59",
+      "cache_age_seconds": "0",
+      "body_sha256": "b824dbdee1fc71e1c1a71d9590c57da8936690f2d5b84231a82031f3a22eef90",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
