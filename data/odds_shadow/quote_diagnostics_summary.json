@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-11-16T15:41:37+00:00",
+  "generated_at_utc": "2026-11-17T15:58:39+00:00",
   "policy": "SHADOW_ONLY_NO_BET",
-  "total_rows": 47,
+  "total_rows": 33,
   "decisions": {
-    "NO_QUOTE": 15,
-    "OBSERVED_NOT_ACTIONABLE": 32
+    "NO_QUOTE": 16,
+    "OBSERVED_NOT_ACTIONABLE": 17
   },
   "sources": {
     "betclic_fr": {
@@ -33,14 +33,14 @@
       "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION"
     },
     "fdj_pos_fr": {
-      "rows": 14,
-      "observed": 14,
+      "rows": 17,
+      "observed": 17,
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE"
     },
     "flashscore_badminton": {
       "rows": 1,
       "observed": 0,
-      "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED"
+      "status": "PUBLIC_PAGE_REACHABLE_NO_MATCH_CANDIDATE"
     },
     "netbet_fr": {
       "rows": 1,
@@ -48,9 +48,9 @@
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED"
     },
     "netbet_quotes": {
-      "rows": 18,
-      "observed": 18,
-      "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+      "rows": 1,
+      "observed": 0,
+      "status": "NO_CONFIDENT_QUOTES"
     },
     "oddschecker_badminton": {
       "rows": 1,
@@ -60,7 +60,7 @@
     "oddspedia_badminton": {
       "rows": 1,
       "observed": 0,
-      "status": "REJECT_HTTP_STATUS_OR_REDIRECT"
+      "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE"
     },
     "oddsportal_badminton": {
       "rows": 1,
@@ -80,7 +80,7 @@
     "unibet_fr": {
       "rows": 1,
       "observed": 0,
-      "status": "NO_CONFIDENT_PREMATCH_QUOTES"
+      "status": "REJECT_HTTP_CACHE_AGE"
     },
     "v32_decision_report": {
       "rows": 1,

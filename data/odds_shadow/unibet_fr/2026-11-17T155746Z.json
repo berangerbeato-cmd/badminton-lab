@@ -1,0 +1,23 @@
+{
+  "body_sha256": "5ae1829332c982ec7de881c7b22be1ad9e82d1113bcbba143695d22a2ce33bac",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": "147",
+  "finished_at_utc": "2026-11-17T15:57:54+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-11-17T15:57:49+00:00",
+  "operator": "Unibet.fr",
+  "operator_kind": "ONLINE",
+  "public_badminton_event_links": [],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/unibet_fr.png",
+  "quotes": [],
+  "resolved_url": "https://www.unibet.fr/paris-badminton",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Tue, 17 Nov 2026 15:57:49 GMT",
+  "source_key": "unibet_fr",
+  "source_url": "https://www.unibet.fr/paris-badminton",
+  "status": "REJECT_HTTP_CACHE_AGE",
+  "text_excerpt_for_debug": "Aller au contenu principal\nAller au pied de page\n\nPARCE QU’UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\n\nRENDEZ-VOUS SUR JOUEURS-INFO-SERVICE.FR \n(s'ouvre dans un nouvel onglet)\n(09-74-75-13-13, APPEL NON SURTAXÉ)\n\nSports\nLive\n9\n9 live disponibles\nPromos & défis\n3\n3 défis disponibles\nPoker\nFavoris & Top compétitions\nCompétition de football -europe\nTop Foot Européen\nCompétition de football -monde\nLigue des Nations\nCompétition de tennis -monde\nATP Finals\nCompétition de basketball -europe\nCoupes d'Europe (H)\nCompétition de football -monde\nLDN CONCACAF\nCompétition de football -europe\nU21 Qualif.\nMes matchs favoris\nCotes boostées\nTous sports\nFootball\nTennis\nBasketball\nAussie Rules\nBadminton\nTout voir\nINTERNATIONAL\nTout International\nHong Kong H\nHong Kong F\nHong Kong DH\nHong Kong DF\nHong Kong DM\nBaseball\nBiathlon\nBoxe\nCyclisme\nFoot américain\nFormule 1\nFormule 2\nGolf\nHandball\nHockey Sur Glace\nMoto\nPetanque\nRugby\nRugby à XIII\nSki Alpin\nSnooker\nUFC/MMA\nVoile\nVolley Ball\nAccueil\nBadminton\nCompétition badminton\nBadminton\nFace à Face\nScore Exact\nRace to $n points\nDemain\nmonde\n\nHong Kong DM\n\nDemain à 02h00\nKawabe/Ishika\n-\nSmith/Gai\nKawabe/Ishika\n1,98\nÉtape \n3%\n\t\nSmith/Gai\n1,44\nÉtape \n97%\nmonde\n\nHong Kong F\n\nDemain à 02h00\nA.Chaliha\n-\nI.Baruah\nA.Chaliha\n1,35\nÉtape \n100%\n\t\nI.Baruah\n2,20\nÉtape \n0%\nmonde\n\nHong Kong H\n\nDemain à 02h00\nJH.Leong\n-\nTY.Dong\nJH.Leong\n1,56\nÉtape \n69%\n\t\nTY.Dong\n1,79\nÉtape \n31%\nmonde\n\nHong Kong DF\n\nDemain à 02h25\nIwanaga/Nakani\n-\nHarris/Van Lee\n\t\nHarris/Van Lee\n4,80\nmonde\n\nHong Kong DM\n\nDemain à 02h25\nGoh/Lai\n-\nChen/Corbett\nGoh/Lai\n1,02\nÉtape \n100%\n\t\nChen/Corbett\n4,5",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}

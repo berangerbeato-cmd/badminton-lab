@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-16T15:41:37+00:00",
+  "observed_at_utc": "2026-11-17T15:58:39+00:00",
   "source": "https://www.netbet.fr/badminton",
   "operator": "NetBet.fr",
   "status": "EVENT_LIST_UNDETERMINED_NEEDS_PARSER_AUDIT",
@@ -9,12 +9,14 @@
   "http_status": 200,
   "resolved_url": "https://www.netbet.fr/badminton",
   "cache_age_seconds": null,
-  "body_sha256": "430a73c73f45a3596773b39088e85589ee0769f9372d5324f2ff783ca8a6d891",
+  "body_sha256": "3816b0a5a468bbf72d31a52470dacc00cb9f5370eac23104b8708e6b20ff7f77",
   "event_area_excerpt": "",
   "explicit_no_events": false,
   "public_badminton_links": [
     "https://www.netbet.fr/badminton",
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong-f",
     "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles",
-    "https://www.netbet.fr/badminton/international/open-de-hong-kong"
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-f",
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-mixtes"
   ]
 }
