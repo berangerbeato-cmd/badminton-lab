@@ -11,10 +11,10 @@
     "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-f",
     "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-mixtes"
   ],
-  "index_body_sha256": "73d0ff0a8a392ba23308f4a51b08417818691b3dd1bcea2994dfe2a876e8a3ab",
+  "index_body_sha256": "4ef2f55299d67bcf6c01581db2207dfac02bc2bd54fc3087dbdda3e4e418df1c",
   "index_eligible_quotes": 0,
   "index_http_status": 200,
-  "index_link_count": 116,
+  "index_link_count": 118,
   "index_link_path_counts": {
     "": 9,
     "badminton": 7,
@@ -40,7 +40,7 @@
           "Tai-King",
           "1.33"
         ],
-        "market_line": 111,
+        "market_line": 113,
         "preceding_lines": [
           "Scores en direct",
           "Format des cotes",
@@ -66,7 +66,7 @@
           "Isharani Baruah",
           "2.42"
         ],
-        "market_line": 125,
+        "market_line": 127,
         "preceding_lines": [
           "Qui va gagner le match ?",
           "Chiu-Wang",
@@ -92,7 +92,7 @@
           "Haruki-Matsukawa",
           "1.73"
         ],
-        "market_line": 136,
+        "market_line": 138,
         "preceding_lines": [
           "02:00",
           "Ashmita Chaliha",
@@ -118,7 +118,7 @@
           "Lee-Kim",
           "1.01"
         ],
-        "market_line": 147,
+        "market_line": 149,
         "preceding_lines": [
           "02:00",
           "Azriyn-Tan",
@@ -144,7 +144,7 @@
           "Nidaira Natsuki",
           "1.23"
         ],
-        "market_line": 158,
+        "market_line": 160,
         "preceding_lines": [
           "02:00",
           "Chang-Yang",
@@ -170,7 +170,7 @@
           "Lin Hsiang Ti",
           "1.30"
         ],
-        "market_line": 169,
+        "market_line": 171,
         "preceding_lines": [
           "02:00",
           "Chen Rachel",
@@ -199,7 +199,7 @@
   "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": null,
-  "observed_at_utc": "2026-11-17T16:01:24+00:00",
+  "observed_at_utc": "2026-11-17T16:18:16+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [],
