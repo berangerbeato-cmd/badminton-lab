@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-11-16T16:22:29+00:00",
+  "generated_at_utc": "2026-11-17T14:16:09+00:00",
   "policy": "SHADOW_ONLY_NO_BET",
-  "run_count": 144,
+  "run_count": 145,
   "observation_count": 506,
   "distinct_observation_keys": 161,
   "repeated_observation_keys": 345,
@@ -19,8 +19,8 @@
   "source_status_counts": {
     "unibet_fr:FRESH_SNAPSHOT": 18,
     "netbet_quotes:FRESH_SNAPSHOT": 93,
-    "unibet_fr:FRESH_EMPTY": 126,
-    "netbet_quotes:FRESH_EMPTY": 51
+    "unibet_fr:FRESH_EMPTY": 127,
+    "netbet_quotes:FRESH_EMPTY": 52
   },
   "roi": null,
   "roi_status": "NOT_MEASURABLE_WITHOUT_VERIFIED_PREMATCH_ODDS_AND_SETTLED_RESULTS",
@@ -600,6 +600,10 @@
     {
       "run_id": "43906262061",
       "comparison_count": 16
+    },
+    {
+      "run_id": "44100656771",
+      "comparison_count": 0
     }
   ]
 }

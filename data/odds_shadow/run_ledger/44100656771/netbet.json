@@ -1,0 +1,211 @@
+{
+  "bookmaker_price_updated_at": null,
+  "candidate_count": 0,
+  "candidate_urls": [],
+  "elo_comparisons": [],
+  "index_badminton_link_count": 5,
+  "index_badminton_link_examples": [
+    "https://www.netbet.fr/badminton",
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong-f",
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles",
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-f",
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-mixtes"
+  ],
+  "index_body_sha256": "a6111e29be49c793492d839730577b36721d227f7f5041ed67c8ab0c8c783418",
+  "index_eligible_quotes": 0,
+  "index_http_status": 200,
+  "index_link_count": 116,
+  "index_link_path_counts": {
+    "": 9,
+    "badminton": 7,
+    "basketball": 8,
+    "cashout": 2,
+    "evenement": 33,
+    "football": 6,
+    "hockey-glace": 4,
+    "paris-en-direct": 5,
+    "promotions": 2,
+    "ski-alpin": 2,
+    "tennis": 6,
+    "zendesk": 2
+  },
+  "index_market_audit": {
+    "eligible_listing_rows": 0,
+    "markets_seen": 11,
+    "rejection_evidence": [
+      {
+        "following_lines": [
+          "Chiu-Wang",
+          "2.40",
+          "Tai-King",
+          "1.34"
+        ],
+        "market_line": 111,
+        "preceding_lines": [
+          "Scores en direct",
+          "Format des cotes",
+          "Accueil",
+          "Badminton",
+          "Pariez sur",
+          "Badminton",
+          "À L'AFFICHE",
+          "TOUTE L'OFFRE BADMINTON",
+          "Populaires",
+          "Open de Hong Kong, Doubles",
+          "mer. 18 nov.",
+          "02:00",
+          "Chiu-Wang",
+          "Tai-King"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Ashmita Chaliha",
+          "1.34",
+          "Isharani Baruah",
+          "2.42"
+        ],
+        "market_line": 125,
+        "preceding_lines": [
+          "Qui va gagner le match ?",
+          "Chiu-Wang",
+          "2.40",
+          "Tai-King",
+          "1.34",
+          "+ 3",
+          "Toute l'offre Badminton",
+          "(50)",
+          "À Venir",
+          "Open de Hong Kong (F)",
+          "mer. 18 nov.",
+          "02:00",
+          "Ashmita Chaliha",
+          "Isharani Baruah"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Azriyn-Tan",
+          "1.71",
+          "Haruki-Matsukawa",
+          "1.73"
+        ],
+        "market_line": 136,
+        "preceding_lines": [
+          "02:00",
+          "Ashmita Chaliha",
+          "Isharani Baruah",
+          "Qui va gagner le match ?",
+          "Ashmita Chaliha",
+          "1.34",
+          "Isharani Baruah",
+          "2.42",
+          "+ 3",
+          "Open de Hong Kong, Doubles",
+          "mer. 18 nov.",
+          "02:00",
+          "Azriyn-Tan",
+          "Haruki-Matsukawa"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Chang-Yang",
+          "7.75",
+          "Lee-Kim",
+          "1.01"
+        ],
+        "market_line": 147,
+        "preceding_lines": [
+          "02:00",
+          "Azriyn-Tan",
+          "Haruki-Matsukawa",
+          "Qui va gagner le match ?",
+          "Azriyn-Tan",
+          "1.71",
+          "Haruki-Matsukawa",
+          "1.73",
+          "+ 3",
+          "Open de Hong Kong, Doubles (F)",
+          "mer. 18 nov.",
+          "02:00",
+          "Chang-Yang",
+          "Lee-Kim"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Chen Rachel",
+          "3.10",
+          "Nidaira Natsuki",
+          "1.19"
+        ],
+        "market_line": 158,
+        "preceding_lines": [
+          "02:00",
+          "Chang-Yang",
+          "Lee-Kim",
+          "Qui va gagner le match ?",
+          "Chang-Yang",
+          "7.75",
+          "Lee-Kim",
+          "1.01",
+          "+ 2",
+          "Open de Hong Kong (F)",
+          "mer. 18 nov.",
+          "02:00",
+          "Chen Rachel",
+          "Nidaira Natsuki"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Ching Ping Huang",
+          "2.72",
+          "Lin Hsiang Ti",
+          "1.26"
+        ],
+        "market_line": 169,
+        "preceding_lines": [
+          "02:00",
+          "Chen Rachel",
+          "Nidaira Natsuki",
+          "Qui va gagner le match ?",
+          "Chen Rachel",
+          "3.10",
+          "Nidaira Natsuki",
+          "1.19",
+          "+ 3",
+          "Open de Hong Kong (F)",
+          "mer. 18 nov.",
+          "02:00",
+          "Ching Ping Huang",
+          "Lin Hsiang Ti"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      }
+    ],
+    "rejections": {
+      "NON_MS_COMPETITION": 10,
+      "PRICE_NOT_CONFIRMED": 1
+    }
+  },
+  "index_resolved_url": "https://www.netbet.fr/badminton",
+  "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
+  "index_url": "https://www.netbet.fr/badminton",
+  "model_snapshot": null,
+  "observed_at_utc": "2026-11-17T14:16:01+00:00",
+  "operator": "NetBet.fr",
+  "page_audit_limit": 8,
+  "page_audits": [],
+  "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
+  "quotes": [],
+  "reason_counts": {},
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "status": "NO_CONFIDENT_QUOTES"
+}
