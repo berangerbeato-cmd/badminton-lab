@@ -1,10 +1,10 @@
 {
   "audit_only_stale_content_allowed": true,
   "audit_warning": "Diagnostic only; no bookmaker prices are extracted or accepted.",
-  "body_sha256": "7b8da2006dc878bd165d01a5813d631e07035bd8c84b9114a4d5fc881179b15c",
+  "body_sha256": "a323e65b899b8d308e1d18ce75319cdfe2bbd543eb6a915475429c40a78532dd",
   "bookmaker_price_updated_at": null,
-  "cache_age_seconds": "159",
-  "finished_at_utc": "2026-11-18T15:42:57+00:00",
+  "cache_age_seconds": "341",
+  "finished_at_utc": "2026-11-18T16:03:20+00:00",
   "flashscore_discovery": {
     "index_match_link_count": 79,
     "index_match_links": [
@@ -30,8 +30,8 @@
   "flashscore_match_audit": {
     "appears_doubles": false,
     "appears_mens_singles": true,
-    "body_characters": 5027,
-    "body_sha256": "836c79ace0c633338ca827b1e977dbcd1a5854060b5aad760da1366690de0f65",
+    "body_characters": 3454,
+    "body_sha256": "b15509cd3e76305924c1f57aaa9684961522627af9146b7712f3cd74e6422c66",
     "candidate_from_index": true,
     "candidate_selection": "last_named_public_link_not_verified_upcoming",
     "comparison_block_reason": "NO_VERIFIED_BOOKMAKER_PRICES",
@@ -68,7 +68,7 @@
   },
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-11-18T15:42:46+00:00",
+  "observed_at_utc": "2026-11-18T16:03:09+00:00",
   "operator": "Flashscore (aggregator)",
   "operator_kind": "AGGREGATOR_AUDIT_ONLY",
   "public_badminton_event_links": [],
@@ -77,7 +77,7 @@
   "resolved_url": "https://www.flashscore.fr/badminton/",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Wed, 18 Nov 2026 15:42:47 GMT",
+  "server_date": "Wed, 18 Nov 2026 16:03:10 GMT",
   "source_key": "flashscore_badminton",
   "source_url": "https://www.flashscore.fr/badminton/",
   "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",

@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-18T15:42:01+00:00",
+  "observed_at_utc": "2026-11-18T16:02:23+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 8,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-18T16:42:01.236943+01:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-18T17:02:23.976751+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "05e0588f0a0d4a7d1229288bfac7c4dc51afdabf8def2f024af9e6bd035d57d6",
+      "body_sha256": "c7f7f260582499ede55962a9bedf062a0f40f0b1f250798b302a9d1ea5ecf3e8",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -39,7 +39,7 @@
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "6cd10c4b7a79e8d83bda23e126bd6eec741bf8cdf53a22f4d50f8da5b530dae2",
+      "body_sha256": "7899f89fe6e74341170d94d3f571cb3a6334631bd44b6ae49fedca702a315cb3",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "bb7f1959c661ff3ec3438a969df4ee295719bc38b008aec71700b6e1a10b9b5c",
+      "body_sha256": "165cccd3085d4d0732ebc8d32630afbdb9ea5b085e9468fc2aaf3e7551b44a5f",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -90,8 +90,8 @@
       "resolved_url": "https://www.pmu.fr/sport/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "37",
-      "body_sha256": "f66c84efcb49f2d84f186798a74fc8bbcc78557a29b64dad0149f59ccd58e042",
+      "cache_age_seconds": null,
+      "body_sha256": "275731f76fd7307551dafaa3292cda5443370c187ff2fee3c4c82bae53746740",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "ab4569ec78218efb54ab1a529eda46eecdd24538deaf2444dc0c7e1f59a390fb",
+      "body_sha256": "8818794a5cf7c7fd0ba55ed264fe6f021ef230bdcb78fd762ac732f96a2a0674",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "159",
-      "body_sha256": "7b8da2006dc878bd165d01a5813d631e07035bd8c84b9114a4d5fc881179b15c",
+      "cache_age_seconds": "341",
+      "body_sha256": "a323e65b899b8d308e1d18ce75319cdfe2bbd543eb6a915475429c40a78532dd",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/leong-jun-hao-4hdDjbY5/lin-chun-yi-6qDZ6CZ3/?mid=6LKtYcRb",
@@ -175,11 +175,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/lee-cheuk-yiu-CpINlLjE/sen-lakshya-xnv5nIsk/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "836c79ace0c633338ca827b1e977dbcd1a5854060b5aad760da1366690de0f65",
+        "body_sha256": "b15509cd3e76305924c1f57aaa9684961522627af9146b7712f3cd74e6422c66",
         "screenshot_error": null,
         "text_excerpt_for_debug": "Lakshya Sen - Cheuk Yiu Lee (18/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESOPEN DE HONG KONG\nNouvelle fenêtre\n18.11.2026 09:30\nSen L.\nBWF\n: 11.\n-\nANNULÉ\nLee C. Y.\nBWF\n: 19.\n-\nANNULÉ\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n1.48\n2.25\n-\n-\nVoir plus\nINFORMATIONS DE MATCH\nSTADE:\nKai Tak Arena\n (Hongkong)\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Open de Hong Kong Hommes\nBWF WT Open de Hong Kong Femmes\nBWF WT Open de Hong Kong Doubles Hommes\nBWF WT Open de Hong Kong Doubles Femmes\nBWF WT Open de Hong Kong Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nSuivez les informations du match Lakshya Sen - Cheuk Yiu Lee le 18/11/2026, les derniers résultats de Lakshya Sen, les actualités, le résumé et les statistiques tête-à-tête entre Lakshya Sen et Cheuk Yiu Lee ! La couvert",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 5027,
+        "body_characters": 3454,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -214,8 +214,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "353",
-      "body_sha256": "2a082af8bfe780db054003c8fd3b63dc7f42656cea5b70141ac76efb4de97834",
+      "cache_age_seconds": "0",
+      "body_sha256": "6432de00fd715f193fc3b2a253ae27e428b300a23af9dab8e95bab4acbc17e3e",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }

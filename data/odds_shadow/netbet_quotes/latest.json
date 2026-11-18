@@ -11,7 +11,7 @@
     "https://www.netbet.fr/badminton/international/open-de-hong-kong-f",
     "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-mixtes"
   ],
-  "index_body_sha256": "d70aadda7fdc3c2a1adb190baa304c58b2d2ccffe718c2602b3ca15d7830565b",
+  "index_body_sha256": "165cccd3085d4d0732ebc8d32630afbdb9ea5b085e9468fc2aaf3e7551b44a5f",
   "index_eligible_quotes": 0,
   "index_http_status": 200,
   "index_link_count": 125,
@@ -114,7 +114,7 @@
       {
         "following_lines": [
           "Pullela-Jolly",
-          "1.19",
+          "1.20",
           "Lam-Lee",
           "3.05"
         ],
@@ -128,7 +128,7 @@
           "1.83",
           "Vendy-Lane",
           "1.62",
-          "+ 3",
+          "+ 1",
           "Open de Hong Kong, Doubles (F)",
           "jeu. 19 nov.",
           "02:00",
@@ -151,7 +151,7 @@
           "Lam-Lee",
           "Qui va gagner le match ?",
           "Pullela-Jolly",
-          "1.19",
+          "1.20",
           "Lam-Lee",
           "3.05",
           "+ 3",
@@ -198,7 +198,7 @@
   "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": null,
-  "observed_at_utc": "2026-11-18T15:51:17+00:00",
+  "observed_at_utc": "2026-11-18T16:03:26+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [],
