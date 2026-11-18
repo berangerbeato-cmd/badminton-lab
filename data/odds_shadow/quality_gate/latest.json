@@ -1,10 +1,78 @@
 {
-  "generated_at_utc": "2026-11-17T16:26:56+00:00",
-  "comparison_generated_at_utc": "2026-11-17T16:26:55+00:00",
+  "generated_at_utc": "2026-11-18T13:46:36+00:00",
+  "comparison_generated_at_utc": "2026-11-18T13:46:35+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
-  "comparison_count": 0,
-  "status_counts": {},
-  "reason_counts": {},
-  "rows": [],
+  "comparison_count": 5,
+  "status_counts": {
+    "BLOCKED_UNVERIFIED": 5
+  },
+  "reason_counts": {
+    "EV_MISSING_OR_INVALID": 5,
+    "MODEL_AGE_UNKNOWN": 5,
+    "UNEXPECTED_SOURCE_STATUS": 5,
+    "MATCH_ID_MISSING": 3
+  },
+  "rows": [
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5218:1570067",
+      "player_a": "Anders Antonsen",
+      "player_b": "Jason Gunawan",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "",
+      "player_a": "Chun Yi Lin",
+      "player_b": "Zhu Xuan Chen",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "",
+      "player_a": "Kean Yew Loh",
+      "player_b": "Nishimoto Kenta",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "",
+      "player_a": "Lakshya Sen",
+      "player_b": "Gemke Rasmus",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5218:1570101",
+      "player_a": "Tian Yao Dong",
+      "player_b": "Toma Junior Popov",
+      "model_age_minutes": "",
+      "ev_a_pct": null,
+      "ev_b_pct": null,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "EV_MISSING_OR_INVALID|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS",
+      "decision": "NO_BET"
+    }
+  ],
   "note": "Quality audit only; never confirms a market or executable price."
 }

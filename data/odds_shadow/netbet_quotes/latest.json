@@ -1,27 +1,29 @@
 {
   "bookmaker_price_updated_at": null,
-  "candidate_count": 0,
-  "candidate_urls": [],
+  "candidate_count": 1,
+  "candidate_urls": [
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong"
+  ],
   "elo_comparisons": [],
   "index_badminton_link_count": 5,
   "index_badminton_link_examples": [
     "https://www.netbet.fr/badminton",
-    "https://www.netbet.fr/badminton/international/open-de-hong-kong-f",
-    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles",
     "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-f",
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles",
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong",
     "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-mixtes"
   ],
-  "index_body_sha256": "b5a8b15b838aca21db840ca2d3e226cd40febdda2f936a7ff0dd744f6ab26654",
-  "index_eligible_quotes": 0,
+  "index_body_sha256": "88727aa9e67abd5e5c3b8a2d2612af50c6eb0c8cd4f06502445be48fcf9a4b40",
+  "index_eligible_quotes": 1,
   "index_http_status": 200,
-  "index_link_count": 118,
+  "index_link_count": 123,
   "index_link_path_counts": {
     "": 9,
     "badminton": 7,
     "basketball": 8,
     "cashout": 2,
-    "evenement": 33,
-    "football": 6,
+    "evenement": 30,
+    "football": 14,
     "hockey-glace": 4,
     "paris-en-direct": 5,
     "promotions": 2,
@@ -30,17 +32,17 @@
     "zendesk": 2
   },
   "index_market_audit": {
-    "eligible_listing_rows": 0,
-    "markets_seen": 11,
+    "eligible_listing_rows": 1,
+    "markets_seen": 10,
     "rejection_evidence": [
       {
         "following_lines": [
-          "Chiu-Wang",
-          "2.42",
-          "Tai-King",
-          "1.33"
+          "Corbett-Gai",
+          "3.45",
+          "Hirokami-Hobara",
+          "1.15"
         ],
-        "market_line": 113,
+        "market_line": 119,
         "preceding_lines": [
           "Scores en direct",
           "Format des cotes",
@@ -50,162 +52,303 @@
           "Badminton",
           "À L'AFFICHE",
           "TOUTE L'OFFRE BADMINTON",
-          "Populaires",
-          "Open de Hong Kong, Doubles",
-          "mer. 18 nov.",
-          "09:50",
-          "Chiu-Wang",
-          "Tai-King"
-        ],
-        "reason": "NON_MS_COMPETITION"
-      },
-      {
-        "following_lines": [
-          "Ashmita Chaliha",
-          "1.34",
-          "Isharani Baruah",
-          "2.42"
-        ],
-        "market_line": 127,
-        "preceding_lines": [
-          "Qui va gagner le match ?",
-          "Chiu-Wang",
-          "2.42",
-          "Tai-King",
-          "1.33",
-          "+ 3",
-          "Toute l'offre Badminton",
-          "(61)",
           "À Venir",
-          "Open de Hong Kong (F)",
-          "mer. 18 nov.",
+          "Open de Hong Kong, Doubles (F)",
+          "jeu. 19 nov.",
           "02:00",
-          "Ashmita Chaliha",
-          "Isharani Baruah"
+          "Corbett-Gai",
+          "Hirokami-Hobara"
         ],
         "reason": "NON_MS_COMPETITION"
       },
       {
         "following_lines": [
-          "Azriyn-Tan",
-          "1.71",
-          "Haruki-Matsukawa",
-          "1.73"
+          "Fukushima-Matsutomo",
+          "1.07",
+          "Hirota-Sakuramoto",
+          "4.40"
         ],
-        "market_line": 138,
+        "market_line": 130,
         "preceding_lines": [
           "02:00",
-          "Ashmita Chaliha",
-          "Isharani Baruah",
+          "Corbett-Gai",
+          "Hirokami-Hobara",
           "Qui va gagner le match ?",
-          "Ashmita Chaliha",
-          "1.34",
-          "Isharani Baruah",
-          "2.42",
-          "+ 3",
-          "Open de Hong Kong, Doubles",
-          "mer. 18 nov.",
-          "02:00",
-          "Azriyn-Tan",
-          "Haruki-Matsukawa"
-        ],
-        "reason": "NON_MS_COMPETITION"
-      },
-      {
-        "following_lines": [
-          "Chang-Yang",
-          "7.75",
-          "Lee-Kim",
-          "1.01"
-        ],
-        "market_line": 149,
-        "preceding_lines": [
-          "02:00",
-          "Azriyn-Tan",
-          "Haruki-Matsukawa",
-          "Qui va gagner le match ?",
-          "Azriyn-Tan",
-          "1.71",
-          "Haruki-Matsukawa",
-          "1.73",
+          "Corbett-Gai",
+          "3.45",
+          "Hirokami-Hobara",
+          "1.15",
           "+ 3",
           "Open de Hong Kong, Doubles (F)",
-          "mer. 18 nov.",
+          "jeu. 19 nov.",
           "02:00",
-          "Chang-Yang",
-          "Lee-Kim"
+          "Fukushima-Matsutomo",
+          "Hirota-Sakuramoto"
         ],
         "reason": "NON_MS_COMPETITION"
       },
       {
         "following_lines": [
-          "Chen Rachel",
-          "2.87",
-          "Nidaira Natsuki",
-          "1.23"
+          "Hu-Lin",
+          "1.35",
+          "Kumagai-Nishi",
+          "2.37"
         ],
-        "market_line": 160,
+        "market_line": 141,
         "preceding_lines": [
           "02:00",
-          "Chang-Yang",
-          "Lee-Kim",
+          "Fukushima-Matsutomo",
+          "Hirota-Sakuramoto",
           "Qui va gagner le match ?",
-          "Chang-Yang",
-          "7.75",
-          "Lee-Kim",
-          "1.01",
-          "+ 2",
-          "Open de Hong Kong (F)",
-          "mer. 18 nov.",
-          "02:00",
-          "Chen Rachel",
-          "Nidaira Natsuki"
-        ],
-        "reason": "NON_MS_COMPETITION"
-      },
-      {
-        "following_lines": [
-          "Devika Sihag",
-          "2.55",
-          "Lin Hsiang Ti",
-          "1.30"
-        ],
-        "market_line": 171,
-        "preceding_lines": [
-          "02:00",
-          "Chen Rachel",
-          "Nidaira Natsuki",
-          "Qui va gagner le match ?",
-          "Chen Rachel",
-          "2.87",
-          "Nidaira Natsuki",
-          "1.23",
+          "Fukushima-Matsutomo",
+          "1.07",
+          "Hirota-Sakuramoto",
+          "4.40",
           "+ 3",
-          "Open de Hong Kong (F)",
-          "mer. 18 nov.",
+          "Open de Hong Kong, Doubles",
+          "jeu. 19 nov.",
           "02:00",
-          "Devika Sihag",
-          "Lin Hsiang Ti"
+          "Hu-Lin",
+          "Kumagai-Nishi"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Min-Jong",
+          "1.83",
+          "Vendy-Lane",
+          "1.61"
+        ],
+        "market_line": 152,
+        "preceding_lines": [
+          "02:00",
+          "Hu-Lin",
+          "Kumagai-Nishi",
+          "Qui va gagner le match ?",
+          "Hu-Lin",
+          "1.35",
+          "Kumagai-Nishi",
+          "2.37",
+          "+ 3",
+          "Open de Hong Kong, Doubles",
+          "jeu. 19 nov.",
+          "02:00",
+          "Min-Jong",
+          "Vendy-Lane"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Ren-He",
+          "1.73",
+          "Chen-Liu",
+          "1.70"
+        ],
+        "market_line": 163,
+        "preceding_lines": [
+          "02:00",
+          "Min-Jong",
+          "Vendy-Lane",
+          "Qui va gagner le match ?",
+          "Min-Jong",
+          "1.83",
+          "Vendy-Lane",
+          "1.61",
+          "+ 3",
+          "Open de Hong Kong, Doubles",
+          "jeu. 19 nov.",
+          "02:00",
+          "Ren-He",
+          "Chen-Liu"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Stoeva-Stoeva",
+          "2.10",
+          "Nakade-Takahashi",
+          "1.45"
+        ],
+        "market_line": 174,
+        "preceding_lines": [
+          "02:00",
+          "Ren-He",
+          "Chen-Liu",
+          "Qui va gagner le match ?",
+          "Ren-He",
+          "1.73",
+          "Chen-Liu",
+          "1.70",
+          "+ 3",
+          "Open de Hong Kong, Doubles (F)",
+          "jeu. 19 nov.",
+          "02:00",
+          "Stoeva-Stoeva",
+          "Nakade-Takahashi"
         ],
         "reason": "NON_MS_COMPETITION"
       }
     ],
     "rejections": {
-      "NON_MS_COMPETITION": 10,
-      "PRICE_NOT_CONFIRMED": 1
+      "NON_MS_COMPETITION": 9
     }
   },
   "index_resolved_url": "https://www.netbet.fr/badminton",
   "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": null,
-  "observed_at_utc": "2026-11-17T16:26:49+00:00",
+  "observed_at_utc": "2026-11-18T13:46:26+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
-  "page_audits": [],
+  "page_audits": [
+    {
+      "body_sha256": "cb1b8995a6b1eb387b957122240b73aef0eb97cef0b3477471fdc84fabda8aa7",
+      "cache_age_seconds": null,
+      "eligible_listing_rows": 4,
+      "http_status": 200,
+      "markets_seen": 5,
+      "rejection_evidence": [
+        {
+          "following_lines": [
+            "Anders Antonsen",
+            "1.17",
+            "Jason Gunawan",
+            "3.25"
+          ],
+          "market_line": 118,
+          "preceding_lines": [
+            "Règlement des paris",
+            "Scores en direct",
+            "Format des cotes",
+            "Accueil",
+            "Badminton",
+            "International - Open de Hong Kong",
+            "Pariez sur",
+            "Open de Hong Kong",
+            "À Venir",
+            "Open de Hong Kong",
+            "jeu. 19 nov.",
+            "03:00",
+            "Anders Antonsen",
+            "Jason Gunawan"
+          ],
+          "reason": "COMPETITION_NOT_ADJACENT_TO_DATE"
+        }
+      ],
+      "rejections": {
+        "COMPETITION_NOT_ADJACENT_TO_DATE": 1
+      },
+      "resolved_url": "https://www.netbet.fr/badminton/international/open-de-hong-kong",
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "screenshot": "data/odds_shadow/visual_evidence/netbet_event_0.png",
+      "status": "PUBLIC_LISTINGS_OBSERVED_NEEDS_CONFIRMATION",
+      "url": "https://www.netbet.fr/badminton/international/open-de-hong-kong"
+    }
+  ],
   "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
-  "quotes": [],
-  "reason_counts": {},
+  "quotes": [
+    {
+      "bookmaker_overround_pct": 16.24,
+      "competition_display": "Open de Hong Kong",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-11-19",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.735294,
+      "normalized_market_probability_2": 0.264706,
+      "odds_1": 1.17,
+      "odds_2": 3.25,
+      "player_1_display": "Anders Antonsen",
+      "player_2_display": "Jason Gunawan",
+      "raw_implied_probability_1": 0.854701,
+      "raw_implied_probability_2": 0.307692,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.24,
+      "competition_display": "Open de Hong Kong",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-hong-kong",
+      "listed_day_paris": "2026-11-19",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.735294,
+      "normalized_market_probability_2": 0.264706,
+      "odds_1": 1.17,
+      "odds_2": 3.25,
+      "player_1_display": "Chun Yi Lin",
+      "player_2_display": "Zhu Xuan Chen",
+      "raw_implied_probability_1": 0.854701,
+      "raw_implied_probability_2": 0.307692,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 15.88,
+      "competition_display": "Open de Hong Kong",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-hong-kong",
+      "listed_day_paris": "2026-11-19",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.607735,
+      "normalized_market_probability_2": 0.392265,
+      "odds_1": 1.42,
+      "odds_2": 2.2,
+      "player_1_display": "Kean Yew Loh",
+      "player_2_display": "Nishimoto Kenta",
+      "raw_implied_probability_1": 0.704225,
+      "raw_implied_probability_2": 0.454545,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.57,
+      "competition_display": "Open de Hong Kong",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-hong-kong",
+      "listed_day_paris": "2026-11-19",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.649867,
+      "normalized_market_probability_2": 0.350133,
+      "odds_1": 1.32,
+      "odds_2": 2.45,
+      "player_1_display": "Lakshya Sen",
+      "player_2_display": "Gemke Rasmus",
+      "raw_implied_probability_1": 0.757576,
+      "raw_implied_probability_2": 0.408163,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    },
+    {
+      "bookmaker_overround_pct": 16.31,
+      "competition_display": "Open de Hong Kong",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton/international/open-de-hong-kong",
+      "listed_day_paris": "2026-11-19",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.289474,
+      "normalized_market_probability_2": 0.710526,
+      "odds_1": 2.97,
+      "odds_2": 1.21,
+      "player_1_display": "Tian Yao Dong",
+      "player_2_display": "Toma Junior Popov",
+      "raw_implied_probability_1": 0.3367,
+      "raw_implied_probability_2": 0.826446,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    }
+  ],
+  "reason_counts": {
+    "MISSING_SAME_DAY_ELO_SNAPSHOT": 5
+  },
   "robots_status": "ALLOWED_BY_ROBOTS",
-  "status": "NO_CONFIDENT_QUOTES"
+  "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
 }

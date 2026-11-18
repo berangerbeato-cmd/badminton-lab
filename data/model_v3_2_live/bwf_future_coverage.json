@@ -1,19 +1,19 @@
 {
   "policy": "RESEARCH_ONLY_NO_BET",
-  "generated_at_utc": "2026-11-17T16:25:19.930248+00:00",
+  "generated_at_utc": "2026-11-18T13:44:44.902772+00:00",
   "horizon_days": 14,
   "archive_counts": {
     "archives_scanned": 415
   },
   "days": {
-    "2026-11-18": {
-      "ms_unfinished": 16,
-      "paired_singles": 16,
+    "2026-11-19": {
+      "ms_unfinished": 8,
+      "paired_singles": 8,
       "missing_pairing": 0,
-      "date_only_paired": 16
+      "date_only_paired": 8
     }
   },
-  "total_ms_unfinished": 16,
-  "total_paired_singles": 16,
+  "total_ms_unfinished": 8,
+  "total_paired_singles": 8,
   "note": "BWF archives only; date-only starts are not verified kickoffs."
 }
