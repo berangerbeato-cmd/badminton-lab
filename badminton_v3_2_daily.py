@@ -325,6 +325,47 @@ def run(data_dir: Path, v1_model_dir: Path, selection_dir: Path,
         output_dir: Path, now: datetime, days: int, official_bridge: Path | None = None):
     matches, quality = load_matches(data_dir)
 
+    # Expose the freshness of ACTUAL scored matches read from BWF archives.
+    # A successful refresh is not evidence that recent results were ingested.
+    recent_counts = Counter(
+        m.date for m in matches
+        if 0 <= (now.date() - date.fromisoformat(m.date)).days <= 21
+    )
+    recent_history = {
+        "latest_loaded_scored_match_day_utc": matches[-1].date if matches else None,
+        "days_since_latest_scored_match": (
+            (now.date() - date.fromisoformat(matches[-1].date)).days
+            if matches else None
+        ),
+        "freshness_status": (
+            "RECENT" if matches and
+            0 <= (now.date() - date.fromisoformat(matches[-1].date)).days <= 7
+            else "REVIEW_STALENESS"
+        ),
+        "last_7_days_count_including_today": sum(
+            n for day, n in recent_counts.items()
+            if (now.date() - date.fromisoformat(day)).days < 7
+        ),
+        "last_21_days_count_including_today": sum(recent_counts.values()),
+        "daily_loaded_scored_match_counts": [
+            {"day_utc": day, "scored_ms_matches": count}
+            for day, count in sorted(recent_counts.items(), reverse=True)
+        ],
+        "last_loaded_examples": [
+            {
+                "day_utc": m.date, "match_id": m.key, "tournament": m.tourney,
+                "players": [m.p1_name, m.p2_name],
+                "winner": m.p1_name if m.winner == 1 else m.p2_name,
+            }
+            for m in matches[-5:][::-1]
+        ],
+        "date_note": (
+            "Match day is derived from the BWF archive start_time; it is not "
+            "a separately verified score-publication timestamp. Same-UTC-day "
+            "results remain excluded from the current V3.2 Elo snapshot."
+        ),
+    }
+
     selection_path = selection_dir / "latest.json"
     if not selection_path.is_file():
         raise ValueError("Missing V3.2 walk-forward selection report")
@@ -395,6 +436,7 @@ def run(data_dir: Path, v1_model_dir: Path, selection_dir: Path,
             "requirements handled downstream."
         ),
         "data_quality": quality,
+        "scored_match_history_freshness": recent_history,
     }
     (output_dir / "latest_report.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n",
