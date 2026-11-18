@@ -1,6 +1,11 @@
 {
   "next_actions": [
     {
+      "source": "netbet_quotes",
+      "priority": 1,
+      "action": "Review public competition heading and player-pair context; do not infer tournament from URL."
+    },
+    {
       "source": "unibet_fr",
       "priority": 2,
       "action": "Inspect public page structure and discipline/date sections; do not interpret live prices as prematch."
@@ -39,11 +44,12 @@
   "blocker_counts": {
     "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE": 5,
     "HTTP_OR_REDIRECT_REJECTED": 1,
+    "MARKETS_SEEN_BUT_UNVERIFIED": 1,
     "NO_CONFIDENT_QUOTES_EXTRACTED": 1,
-    "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
+    "QUOTE_OBSERVED_REQUIRES_VALIDATION": 1,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-11-18T13:46:36.775681+00:00",
+  "generated_at_utc": "2026-11-18T15:43:11.370967+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 8,
@@ -117,29 +123,29 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T13:45:22+00:00",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-18T14:45:21.505622+01:00",
+      "observed_at_utc": "2026-11-18T15:42:04+00:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-18T16:42:01.236943+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
     },
     "netbet_quotes": {
-      "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
-      "quote_count": 5,
-      "observed_at_utc": "2026-11-18T13:46:26+00:00",
+      "status": "NO_CONFIDENT_QUOTES",
+      "quote_count": 0,
+      "observed_at_utc": "2026-11-18T15:43:03+00:00",
       "parser_notes": null,
       "index_market_audit": {
-        "eligible_listing_rows": 1,
+        "eligible_listing_rows": 0,
         "markets_seen": 10,
         "rejection_evidence": [
           {
             "following_lines": [
               "Corbett-Gai",
-              "3.45",
+              "3.40",
               "Hirokami-Hobara",
               "1.15"
             ],
-            "market_line": 119,
+            "market_line": 123,
             "preceding_lines": [
               "Scores en direct",
               "Format des cotes",
@@ -161,18 +167,18 @@
           {
             "following_lines": [
               "Fukushima-Matsutomo",
-              "1.07",
+              "1.14",
               "Hirota-Sakuramoto",
-              "4.40"
+              "3.45"
             ],
-            "market_line": 130,
+            "market_line": 134,
             "preceding_lines": [
               "02:00",
               "Corbett-Gai",
               "Hirokami-Hobara",
               "Qui va gagner le match ?",
               "Corbett-Gai",
-              "3.45",
+              "3.40",
               "Hirokami-Hobara",
               "1.15",
               "+ 3",
@@ -186,47 +192,21 @@
           },
           {
             "following_lines": [
-              "Hu-Lin",
-              "1.35",
-              "Kumagai-Nishi",
-              "2.37"
-            ],
-            "market_line": 141,
-            "preceding_lines": [
-              "02:00",
-              "Fukushima-Matsutomo",
-              "Hirota-Sakuramoto",
-              "Qui va gagner le match ?",
-              "Fukushima-Matsutomo",
-              "1.07",
-              "Hirota-Sakuramoto",
-              "4.40",
-              "+ 3",
-              "Open de Hong Kong, Doubles",
-              "jeu. 19 nov.",
-              "02:00",
-              "Hu-Lin",
-              "Kumagai-Nishi"
-            ],
-            "reason": "NON_MS_COMPETITION"
-          },
-          {
-            "following_lines": [
               "Min-Jong",
               "1.83",
               "Vendy-Lane",
-              "1.61"
+              "1.62"
             ],
-            "market_line": 152,
+            "market_line": 145,
             "preceding_lines": [
               "02:00",
-              "Hu-Lin",
-              "Kumagai-Nishi",
+              "Fukushima-Matsutomo",
+              "Hirota-Sakuramoto",
               "Qui va gagner le match ?",
-              "Hu-Lin",
-              "1.35",
-              "Kumagai-Nishi",
-              "2.37",
+              "Fukushima-Matsutomo",
+              "1.14",
+              "Hirota-Sakuramoto",
+              "3.45",
               "+ 3",
               "Open de Hong Kong, Doubles",
               "jeu. 19 nov.",
@@ -238,12 +218,12 @@
           },
           {
             "following_lines": [
-              "Ren-He",
-              "1.73",
-              "Chen-Liu",
-              "1.70"
+              "Pullela-Jolly",
+              "1.19",
+              "Lam-Lee",
+              "3.05"
             ],
-            "market_line": 163,
+            "market_line": 156,
             "preceding_lines": [
               "02:00",
               "Min-Jong",
@@ -252,13 +232,13 @@
               "Min-Jong",
               "1.83",
               "Vendy-Lane",
-              "1.61",
+              "1.62",
               "+ 3",
-              "Open de Hong Kong, Doubles",
+              "Open de Hong Kong, Doubles (F)",
               "jeu. 19 nov.",
               "02:00",
-              "Ren-He",
-              "Chen-Liu"
+              "Pullela-Jolly",
+              "Lam-Lee"
             ],
             "reason": "NON_MS_COMPETITION"
           },
@@ -269,16 +249,16 @@
               "Nakade-Takahashi",
               "1.45"
             ],
-            "market_line": 174,
+            "market_line": 167,
             "preceding_lines": [
               "02:00",
-              "Ren-He",
-              "Chen-Liu",
+              "Pullela-Jolly",
+              "Lam-Lee",
               "Qui va gagner le match ?",
-              "Ren-He",
-              "1.73",
-              "Chen-Liu",
-              "1.70",
+              "Pullela-Jolly",
+              "1.19",
+              "Lam-Lee",
+              "3.05",
               "+ 3",
               "Open de Hong Kong, Doubles (F)",
               "jeu. 19 nov.",
@@ -287,21 +267,45 @@
               "Nakade-Takahashi"
             ],
             "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Tomoka Miyazaki",
+              "1.08",
+              "Chiu Pin-Chian",
+              "4.30"
+            ],
+            "market_line": 178,
+            "preceding_lines": [
+              "02:00",
+              "Stoeva-Stoeva",
+              "Nakade-Takahashi",
+              "Qui va gagner le match ?",
+              "Stoeva-Stoeva",
+              "2.10",
+              "Nakade-Takahashi",
+              "1.45",
+              "+ 3",
+              "Open de Hong Kong (F)",
+              "jeu. 19 nov.",
+              "02:00",
+              "Tomoka Miyazaki",
+              "Chiu Pin-Chian"
+            ],
+            "reason": "NON_MS_COMPETITION"
           }
         ],
         "rejections": {
-          "NON_MS_COMPETITION": 9
+          "NON_MS_COMPETITION": 10
         }
       },
-      "reason_counts": {
-        "MISSING_SAME_DAY_ELO_SNAPSHOT": 5
-      },
-      "blocker": "QUOTE_OBSERVED_REQUIRES_VALIDATION"
+      "reason_counts": {},
+      "blocker": "MARKETS_SEEN_BUT_UNVERIFIED"
     },
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T13:45:45+00:00",
+      "observed_at_utc": "2026-11-18T15:42:25+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -310,7 +314,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T13:46:01+00:00",
+      "observed_at_utc": "2026-11-18T15:42:40+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -319,7 +323,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T13:45:29+00:00",
+      "observed_at_utc": "2026-11-18T15:42:12+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -327,8 +331,8 @@
     },
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-      "quote_count": 5,
-      "observed_at_utc": "2026-11-18T13:45:31+00:00",
+      "quote_count": 8,
+      "observed_at_utc": "2026-11-18T15:42:14+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -337,7 +341,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T13:45:46+00:00",
+      "observed_at_utc": "2026-11-18T15:42:26+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -346,7 +350,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T13:45:56+00:00",
+      "observed_at_utc": "2026-11-18T15:42:36+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -355,7 +359,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T13:46:04+00:00",
+      "observed_at_utc": "2026-11-18T15:42:42+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -364,7 +368,7 @@
     "oddspedia_badminton": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T13:46:03+00:00",
+      "observed_at_utc": "2026-11-18T15:42:41+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -373,7 +377,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T13:46:21+00:00",
+      "observed_at_utc": "2026-11-18T15:42:58+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
