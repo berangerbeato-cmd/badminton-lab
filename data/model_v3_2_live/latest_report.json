@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_2_live_v1",
-  "generated_at_utc": "2026-11-18T15:56:22.494054+00:00",
+  "generated_at_utc": "2026-11-18T21:11:26.023345+00:00",
   "policy": "MODEL_ONLY_NO_BET_NO_T0_REWRITE",
   "model": "bwf_v3_2_score_rest_live",
   "selected_variant": "elo_plus_score_rest",
@@ -57,5 +57,143 @@
     "missing_player_ids": 5,
     "archives_read": 415,
     "clean_MS_matches": 13987
+  },
+  "scored_match_history_freshness": {
+    "latest_loaded_scored_match_day_utc": "2026-11-18",
+    "days_since_latest_scored_match": 0,
+    "freshness_status": "RECENT",
+    "last_7_days_count_including_today": 58,
+    "last_21_days_count_including_today": 204,
+    "daily_loaded_scored_match_counts": [
+      {
+        "day_utc": "2026-11-18",
+        "scored_ms_matches": 16
+      },
+      {
+        "day_utc": "2026-11-17",
+        "scored_ms_matches": 12
+      },
+      {
+        "day_utc": "2026-11-15",
+        "scored_ms_matches": 2
+      },
+      {
+        "day_utc": "2026-11-14",
+        "scored_ms_matches": 4
+      },
+      {
+        "day_utc": "2026-11-13",
+        "scored_ms_matches": 8
+      },
+      {
+        "day_utc": "2026-11-12",
+        "scored_ms_matches": 16
+      },
+      {
+        "day_utc": "2026-11-11",
+        "scored_ms_matches": 36
+      },
+      {
+        "day_utc": "2026-11-10",
+        "scored_ms_matches": 38
+      },
+      {
+        "day_utc": "2026-11-08",
+        "scored_ms_matches": 1
+      },
+      {
+        "day_utc": "2026-11-07",
+        "scored_ms_matches": 2
+      },
+      {
+        "day_utc": "2026-11-06",
+        "scored_ms_matches": 4
+      },
+      {
+        "day_utc": "2026-11-05",
+        "scored_ms_matches": 8
+      },
+      {
+        "day_utc": "2026-11-04",
+        "scored_ms_matches": 16
+      },
+      {
+        "day_utc": "2026-11-03",
+        "scored_ms_matches": 12
+      },
+      {
+        "day_utc": "2026-11-01",
+        "scored_ms_matches": 1
+      },
+      {
+        "day_utc": "2026-10-31",
+        "scored_ms_matches": 1
+      },
+      {
+        "day_utc": "2026-10-30",
+        "scored_ms_matches": 4
+      },
+      {
+        "day_utc": "2026-10-29",
+        "scored_ms_matches": 7
+      },
+      {
+        "day_utc": "2026-10-28",
+        "scored_ms_matches": 16
+      }
+    ],
+    "last_loaded_examples": [
+      {
+        "day_utc": "2026-11-18",
+        "match_id": "5218:1570109",
+        "tournament": "LI-NING Hong Kong Open 2026",
+        "players": [
+          "LIN Chun-Yi",
+          "Brian YANG"
+        ],
+        "winner": "LIN Chun-Yi"
+      },
+      {
+        "day_utc": "2026-11-18",
+        "match_id": "5218:1570103",
+        "tournament": "LI-NING Hong Kong Open 2026",
+        "players": [
+          "LEONG Jun Hao",
+          "Tian Yao DONG"
+        ],
+        "winner": "Tian Yao DONG"
+      },
+      {
+        "day_utc": "2026-11-18",
+        "match_id": "5218:1570099",
+        "tournament": "LI-NING Hong Kong Open 2026",
+        "players": [
+          "Lakshya SEN",
+          "Arnaud MERKLE"
+        ],
+        "winner": "Lakshya SEN"
+      },
+      {
+        "day_utc": "2026-11-18",
+        "match_id": "5218:1570073",
+        "tournament": "LI-NING Hong Kong Open 2026",
+        "players": [
+          "Magnus JOHANNESEN",
+          "Tae Bin YOO"
+        ],
+        "winner": "Tae Bin YOO"
+      },
+      {
+        "day_utc": "2026-11-18",
+        "match_id": "5218:1570059",
+        "tournament": "LI-NING Hong Kong Open 2026",
+        "players": [
+          "Chia Hao LEE",
+          "Kenta NISHIMOTO"
+        ],
+        "winner": "Kenta NISHIMOTO"
+      }
+    ],
+    "date_note": "Match day is derived from the BWF archive start_time; it is not a separately verified score-publication timestamp. Same-UTC-day results remain excluded from the current V3.2 Elo snapshot."
   }
 }
