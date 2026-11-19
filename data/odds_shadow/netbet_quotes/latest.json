@@ -25,7 +25,7 @@
     "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-mixtes",
     "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles"
   ],
-  "index_body_sha256": "ed65c7994cf26bceae89770a3fb286fc4bde867939c494d8b89320c9904c8d8d",
+  "index_body_sha256": "415b0dffdd009125ba2f8ef6c0d78d0dbc1ea656e2c43aac847e758e0fc1292a",
   "index_eligible_quotes": 1,
   "index_http_status": 200,
   "index_link_count": 121,
@@ -213,7 +213,7 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-11-19.csv",
   "model_snapshot_sha256": "66cd69c9ed253d411abaeca47bda0cd8001491af478805fe7afdcddd3de96011",
-  "observed_at_utc": "2026-11-19T15:59:27+00:00",
+  "observed_at_utc": "2026-11-19T16:01:42+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [],

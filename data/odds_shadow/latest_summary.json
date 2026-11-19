@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-19T15:48:28+00:00",
+  "observed_at_utc": "2026-11-19T16:00:44+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 3,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-19T16:48:28.818720+01:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-19T17:00:44.473053+01:00",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "3fa6beb45e8a447eab547e3aacfe9c236bf5913f87da9f3c9ca337e1a4c15a8f",
+      "body_sha256": "7e1670a3311bbf04bc5d656b208030120d755cf3e19369159fe807c925721236",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -39,7 +39,7 @@
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "c9b003e03cc47b7f0d02d74a07b4ba9f5500d44703ebb6e8c732379ba43ef0e4",
+      "body_sha256": "d99fe0ee1544c899ee0918cfd8443c793dd11d09c90f01e79f6f4fd29c6168e0",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "43aeb5c5d8cd0ae7442ccbbefe2f3db3b26b0481f9e28ad9bb6ea641e0ab155e",
+      "body_sha256": "415b0dffdd009125ba2f8ef6c0d78d0dbc1ea656e2c43aac847e758e0fc1292a",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -90,8 +90,8 @@
       "resolved_url": "https://www.pmu.fr/sport/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": null,
-      "body_sha256": "525868004041236ea7c7203f4d87e6ee54ed10bbf7d13878e44f731fc520d139",
+      "cache_age_seconds": "8",
+      "body_sha256": "0e34639be1835575decf84ba1c134875e2e07fb1f486398b03f5b58927917985",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "57143d1f070e68bfb8afca89a880c24479655a25c400970b9a24b4d7368b00d9",
+      "body_sha256": "363de380d815d552b111779f843450cbc798921ddcb42ae07b7e237c627363fe",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "143",
-      "body_sha256": "606d1a13f37d8cd903f1587f1422708e6c73c1fd70b323ea02542e951cb049a6",
+      "cache_age_seconds": "101",
+      "body_sha256": "8c8f79482cec193f697d9fbc69fae421ba73d834493a9d72b8692c346b7a20c9",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/loh-kean-yew-0OyqJUwg/nishimoto-kenta-6wr01Umc/?mid=UF18c9T8",
@@ -164,7 +164,7 @@
         ],
         "index_match_link_count": 44,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Open BWF de Hong Kong 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n19/11 JE\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nLoh K. Y.\nNishimoto K.\n2\n1\n12\n21\n21\n9\n21\n14\nTerminé\nSen L.\nGemke R.\n2\n0\n21\n11\n21\n18\nTerminé\nDong T. Y.\nPopov T. J.\n0\n2\n9\n21\n20\n22\nTerminé\nAntonsen A.\nGunawan J.\n2\n0\n21\n19\n21\n15\nTerminé\nLin Chun-Yi\nZhu X. C.\n1\n2\n21\n16\n11\n21\n17\n21\nTerminé\n(abandon)\nNg Ka L. A.\nUbaidillah M. Z.\n0\n1\n10\n21\n4\n13\nTerminé\nLee C. Y.\nVitidsarn K.\n0\n2\n14\n21\n14\n21\nTerminé\nYoo T. B.\nSrikanth K.\n1\n2\n21\n12\n18\n21\n14\n21\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nAkechi H.\nChaliha A.\n2\n0\n21\n17\n21\n12\nTerminé\nMiyazaki T.\nChiu P.\n2\n0\n21\n17\n21\n15\nTerminé\n(abandon)\nLi M.\nHan Y.\n1\n0\n21\n14\n11\n5\nTerminé\nLin H. T.\nChochuwong Po.\n0\n2\n11\n21\n12\n21\nTerminé\nWong L. C.\nIntanon R.\n1\n2\n22\n20\n14\n21\n15\n21\nTerminé\nSanthosh Ramraj R. S.\nChen Y. F.\n2\n0\n21\n18\n24\n22\nTerminé\nWang Z. Y.\nNidaira N.\n2\n0\n21\n13\n21\n15\nTerminé\nWardani P. K.\nSaeheng T.\n2\n0\n21\n15\n21\n9\nFlashscore Actualités\nShelton bat Jodar et réduit les possibilités de qualification pour Fils à Turin\nJérôme Rothen veut une grève de Mbappé, Messi et Ronaldo pour faire tomber Infantino\n\"Essayer de rouvrir leurs plaies\" : Toulouse veut tester le RC Lens de Digard\nAller vers Actualités\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nForfait\nKang M. H.\nLee J. M.\nLane B.\nVendy S.\n-\n-\nTerminé\nHu K. Y.\nLin X. Y.\nKumagai K.\nNishi H.\n2\n0\n21\n19\n21\n17\nTerminé\nHe J. T.\nRen X. Y.\nChen B. Y.\nLiu Y.\n2\n0\n21\n15\n21\n11\nTerminé\nRankireddy S.\nShetty C.\nAzriyn N. M. A. A.\nTan W. K.\n2\n"
+        "index_text_excerpt": "Open BWF de Hong Kong 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n19/11 JE\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nLoh K. Y.\nNishimoto K.\n2\n1\n12\n21\n21\n9\n21\n14\nTerminé\nSen L.\nGemke R.\n2\n0\n21\n11\n21\n18\nTerminé\nDong T. Y.\nPopov T. J.\n0\n2\n9\n21\n20\n22\nTerminé\nAntonsen A.\nGunawan J.\n2\n0\n21\n19\n21\n15\nTerminé\nLin Chun-Yi\nZhu X. C.\n1\n2\n21\n16\n11\n21\n17\n21\nTerminé\n(abandon)\nNg Ka L. A.\nUbaidillah M. Z.\n0\n1\n10\n21\n4\n13\nTerminé\nLee C. Y.\nVitidsarn K.\n0\n2\n14\n21\n14\n21\nTerminé\nYoo T. B.\nSrikanth K.\n1\n2\n21\n12\n18\n21\n14\n21\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nAkechi H.\nChaliha A.\n2\n0\n21\n17\n21\n12\nTerminé\nMiyazaki T.\nChiu P.\n2\n0\n21\n17\n21\n15\nTerminé\n(abandon)\nLi M.\nHan Y.\n1\n0\n21\n14\n11\n5\nTerminé\nLin H. T.\nChochuwong Po.\n0\n2\n11\n21\n12\n21\nTerminé\nWong L. C.\nIntanon R.\n1\n2\n22\n20\n14\n21\n15\n21\nTerminé\nSanthosh Ramraj R. S.\nChen Y. F.\n2\n0\n21\n18\n24\n22\nTerminé\nWang Z. Y.\nNidaira N.\n2\n0\n21\n13\n21\n15\nTerminé\nWardani P. K.\nSaeheng T.\n2\n0\n21\n15\n21\n9\nFlashscore Actualités\nShelton bat Jodar et réduit les possibilités de qualification pour Fils à Turin\nJérôme Rothen veut une grève de Mbappé, Messi et Ronaldo pour faire tomber Infantino\n\"Essayer de rouvrir leurs plaies\" : Toulouse veut tester le RC Lens de Digard\nAller vers Actualités\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nForfait\nKang M. H.\nLee J. M.\nLane B.\nVendy S.\n-\n-\nTerminé\nHu K. Y.\nLin X. Y.\nKumagai K.\nNishi H.\n2\n0\n21\n19\n21\n17\nTerminé\nHe J. T.\nRen X. Y.\nChen B. Y.\nLiu Y.\n2\n0\n21\n15\n21\n11\nTerminé\nRankireddy S.\nShetty C.\nAzriyn N. M. A. A.\nTan W. K.\n2\n0\n21\n19\n21\n16\nTerminé\nMan W. C.\nTee K. W"
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/nidaira-natsuki-p6EwPHhd/wang-zhiyi-SvXcpLPt/#/cotes/home-away/temps-regulier/",
@@ -175,11 +175,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/nidaira-natsuki-p6EwPHhd/wang-zhiyi-SvXcpLPt/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "4a1a851c329fcedb68400ebcdbcc83efbbd194aac690b4b9482e0e7d6c73d6b8",
+        "body_sha256": "2fb47aa83d14139e69d27f5456138556eb282708d1cf74f5051acd2f6da55a5b",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Zhi Yi Wang - Natsuki Nidaira (19/11/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nBADMINTONBWF WORLD TOUR - FEMMESOPEN DE HONG KONG - 1/8 DE FINALE\nNouvelle fenêtre\n19.11.2026 11:40\nWang Z. Y.\nBWF\n: 3.\n2\n-\n0\nTERMINÉ\nNidaira N.\nBWF\n: 36.\n2\n-\n0\nTERMINÉ\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nWang Z. Y.\n2\n21\n21\nNidaira N.\n0\n13\n15\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n1.05\n9.00\n-\n-\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA). T&C apply.\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIO",
+        "text_excerpt_for_debug": "Zhi Yi Wang - Natsuki Nidaira (19/11/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - FEMMESOPEN DE HONG KONG - 1/8 DE FINALE\nNouvelle fenêtre\n19.11.2026 11:40\nWang Z. Y.\nBWF\n: 3.\n2\n-\n0\nTERMINÉ\nNidaira N.\nBWF\n: 36.\n2\n-\n0\nTERMINÉ\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nWang Z. Y.\n2\n21\n21\nNidaira N.\n0\n13\n15\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n1.05\n9.00\n-\n-\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA). T&C apply.\nLIVE STREAMING\n",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 6234,
+        "body_characters": 6274,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -223,7 +223,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "f990c6cf79ce4fed5bc25a6433592b27710b3004613d6749be1f5936c97ada56",
+      "body_sha256": "87223646158039568ea3c6138e63d09d4e88b022fb0af28359d903d85271e4f5",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
