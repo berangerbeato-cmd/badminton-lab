@@ -7,18 +7,18 @@
   "index_badminton_link_examples": [
     "https://www.netbet.fr/badminton",
     "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-f",
-    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles",
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-mixtes",
     "https://www.netbet.fr/badminton/international/open-de-hong-kong-f",
-    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-mixtes"
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles"
   ],
-  "index_body_sha256": "165cccd3085d4d0732ebc8d32630afbdb9ea5b085e9468fc2aaf3e7551b44a5f",
+  "index_body_sha256": "dc5e4609876e608e2577da8e1121b9febc303f4f557e532ee5aa7c1c75e8e603",
   "index_eligible_quotes": 0,
   "index_http_status": 200,
-  "index_link_count": 125,
+  "index_link_count": 121,
   "index_link_path_counts": {
     "": 9,
     "badminton": 7,
-    "basketball": 8,
+    "basketball": 4,
     "cashout": 2,
     "evenement": 30,
     "football": 14,
@@ -36,11 +36,11 @@
       {
         "following_lines": [
           "Corbett-Gai",
-          "3.40",
-          "Hirokami-Hobara",
-          "1.15"
+          "1.67",
+          "Low-Maisarah",
+          "1.77"
         ],
-        "market_line": 123,
+        "market_line": 119,
         "preceding_lines": [
           "Scores en direct",
           "Format des cotes",
@@ -52,140 +52,140 @@
           "TOUTE L'OFFRE BADMINTON",
           "À Venir",
           "Open de Hong Kong, Doubles (F)",
-          "jeu. 19 nov.",
-          "02:00",
+          "ven. 20 nov.",
+          "03:00",
           "Corbett-Gai",
-          "Hirokami-Hobara"
+          "Low-Maisarah"
         ],
         "reason": "NON_MS_COMPETITION"
       },
       {
         "following_lines": [
-          "Fukushima-Matsutomo",
-          "1.14",
-          "Hirota-Sakuramoto",
-          "3.45"
+          "Gao-Wu",
+          "4.30",
+          "Jiang-Wei",
+          "1.07"
         ],
-        "market_line": 134,
+        "market_line": 130,
         "preceding_lines": [
-          "02:00",
+          "03:00",
           "Corbett-Gai",
-          "Hirokami-Hobara",
+          "Low-Maisarah",
           "Qui va gagner le match ?",
           "Corbett-Gai",
-          "3.40",
-          "Hirokami-Hobara",
-          "1.15",
-          "+ 3",
-          "Open de Hong Kong, Doubles (F)",
-          "jeu. 19 nov.",
-          "02:00",
-          "Fukushima-Matsutomo",
-          "Hirota-Sakuramoto"
+          "1.67",
+          "Low-Maisarah",
+          "1.77",
+          "+ 2",
+          "Open de Hong Kong, Doubles Mixtes",
+          "ven. 20 nov.",
+          "03:00",
+          "Gao-Wu",
+          "Jiang-Wei"
         ],
         "reason": "NON_MS_COMPETITION"
       },
       {
         "following_lines": [
-          "Min-Jong",
-          "1.83",
-          "Vendy-Lane",
-          "1.62"
-        ],
-        "market_line": 145,
-        "preceding_lines": [
-          "02:00",
-          "Fukushima-Matsutomo",
-          "Hirota-Sakuramoto",
-          "Qui va gagner le match ?",
-          "Fukushima-Matsutomo",
-          "1.14",
-          "Hirota-Sakuramoto",
-          "3.45",
-          "+ 3",
-          "Open de Hong Kong, Doubles",
-          "jeu. 19 nov.",
-          "02:00",
-          "Min-Jong",
-          "Vendy-Lane"
-        ],
-        "reason": "NON_MS_COMPETITION"
-      },
-      {
-        "following_lines": [
-          "Pullela-Jolly",
+          "Guo-Chen",
           "1.20",
-          "Lam-Lee",
+          "Goh-Lai",
           "3.05"
         ],
-        "market_line": 156,
+        "market_line": 141,
         "preceding_lines": [
-          "02:00",
-          "Min-Jong",
-          "Vendy-Lane",
+          "03:00",
+          "Gao-Wu",
+          "Jiang-Wei",
           "Qui va gagner le match ?",
-          "Min-Jong",
-          "1.83",
-          "Vendy-Lane",
-          "1.62",
-          "+ 1",
-          "Open de Hong Kong, Doubles (F)",
-          "jeu. 19 nov.",
-          "02:00",
-          "Pullela-Jolly",
-          "Lam-Lee"
+          "Gao-Wu",
+          "4.30",
+          "Jiang-Wei",
+          "1.07",
+          "+ 3",
+          "Open de Hong Kong, Doubles Mixtes",
+          "ven. 20 nov.",
+          "03:00",
+          "Guo-Chen",
+          "Goh-Lai"
         ],
         "reason": "NON_MS_COMPETITION"
       },
       {
         "following_lines": [
-          "Stoeva-Stoeva",
-          "2.10",
-          "Nakade-Takahashi",
-          "1.45"
+          "Huang-Feng",
+          "1.01",
+          "Wu-Yang",
+          "10.00"
         ],
-        "market_line": 167,
+        "market_line": 152,
         "preceding_lines": [
-          "02:00",
-          "Pullela-Jolly",
-          "Lam-Lee",
+          "03:00",
+          "Guo-Chen",
+          "Goh-Lai",
           "Qui va gagner le match ?",
-          "Pullela-Jolly",
+          "Guo-Chen",
           "1.20",
-          "Lam-Lee",
+          "Goh-Lai",
           "3.05",
           "+ 3",
-          "Open de Hong Kong, Doubles (F)",
-          "jeu. 19 nov.",
-          "02:00",
-          "Stoeva-Stoeva",
-          "Nakade-Takahashi"
+          "Open de Hong Kong, Doubles Mixtes",
+          "ven. 20 nov.",
+          "03:00",
+          "Huang-Feng",
+          "Wu-Yang"
         ],
         "reason": "NON_MS_COMPETITION"
       },
       {
         "following_lines": [
-          "Tomoka Miyazaki",
-          "1.08",
-          "Chiu Pin-Chian",
-          "4.30"
+          "Lam-Lee",
+          "4.20",
+          "Tan-Muralitharan",
+          "1.08"
         ],
-        "market_line": 178,
+        "market_line": 163,
         "preceding_lines": [
-          "02:00",
-          "Stoeva-Stoeva",
-          "Nakade-Takahashi",
+          "03:00",
+          "Huang-Feng",
+          "Wu-Yang",
           "Qui va gagner le match ?",
-          "Stoeva-Stoeva",
-          "2.10",
-          "Nakade-Takahashi",
-          "1.45",
+          "Huang-Feng",
+          "1.01",
+          "Wu-Yang",
+          "10.00",
+          "+ 2",
+          "Open de Hong Kong, Doubles (F)",
+          "ven. 20 nov.",
+          "03:00",
+          "Lam-Lee",
+          "Tan-Muralitharan"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Michelle Li",
+          "2.20",
+          "Ratchanok Intanon",
+          "1.42"
+        ],
+        "market_line": 174,
+        "preceding_lines": [
+          "03:00",
+          "Lam-Lee",
+          "Tan-Muralitharan",
+          "Qui va gagner le match ?",
+          "Lam-Lee",
+          "4.20",
+          "Tan-Muralitharan",
+          "1.08",
           "+ 3",
           "Open de Hong Kong (F)",
-          "jeu. 19 nov.",
-          "02:00",
-          "Tomoka Miyazaki",
-          "Chiu Pin-Chian"
+          "ven. 20 nov.",
+          "03:00",
+          "Michelle Li",
+          "Ratchanok Intanon"
         ],
         "reason": "NON_MS_COMPETITION"
       }
@@ -198,7 +198,7 @@
   "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": null,
-  "observed_at_utc": "2026-11-18T16:03:26+00:00",
+  "observed_at_utc": "2026-11-19T14:19:30+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [],

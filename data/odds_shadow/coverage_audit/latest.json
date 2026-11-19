@@ -49,72 +49,40 @@
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 1,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-11-18T16:03:34.352762+00:00",
+  "generated_at_utc": "2026-11-19T14:19:38.264693+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
-  "model_fixture_count": 8,
+  "model_fixture_count": 4,
   "model_fixtures": [
     {
-      "match_id": "5218:1570067",
+      "match_id": "5218:1569946",
       "players": [
         "Anders ANTONSEN",
-        "Jason GUNAWAN"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5218:1570093",
-      "players": [
-        "Lakshya SEN",
-        "Rasmus GEMKE"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5218:1570094",
-      "players": [
-        "LIN Chun-Yi",
         "Xuan Chen ZHU"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5218:1570096",
+      "match_id": "5218:1570065",
       "players": [
         "LOH Kean Yew",
-        "Kenta NISHIMOTO"
+        "Lakshya SEN"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5218:1570100",
+      "match_id": "5218:1570070",
       "players": [
-        "Tae Bin YOO",
-        "KIDAMBI Srikanth"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5218:1570101",
-      "players": [
-        "Tian Yao DONG",
-        "Toma Junior POPOV"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5218:1570102",
-      "players": [
-        "LEE Cheuk Yiu",
-        "Kunlavut VITIDSARN"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5218:1570104",
-      "players": [
-        "NG Ka Long Angus",
+        "Toma Junior POPOV",
         "Moh. Zaki UBAIDILLAH"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5218:1570095",
+      "players": [
+        "KIDAMBI Srikanth",
+        "Kunlavut VITIDSARN"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     }
@@ -123,8 +91,8 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T16:02:26+00:00",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-18T17:02:23.976751+01:00",
+      "observed_at_utc": "2026-11-19T14:18:29+00:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-19T15:18:26.332770+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
@@ -132,7 +100,7 @@
     "netbet_quotes": {
       "status": "NO_CONFIDENT_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T16:03:26+00:00",
+      "observed_at_utc": "2026-11-19T14:19:30+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 0,
@@ -141,11 +109,11 @@
           {
             "following_lines": [
               "Corbett-Gai",
-              "3.40",
-              "Hirokami-Hobara",
-              "1.15"
+              "1.67",
+              "Low-Maisarah",
+              "1.77"
             ],
-            "market_line": 123,
+            "market_line": 119,
             "preceding_lines": [
               "Scores en direct",
               "Format des cotes",
@@ -157,140 +125,140 @@
               "TOUTE L'OFFRE BADMINTON",
               "À Venir",
               "Open de Hong Kong, Doubles (F)",
-              "jeu. 19 nov.",
-              "02:00",
+              "ven. 20 nov.",
+              "03:00",
               "Corbett-Gai",
-              "Hirokami-Hobara"
+              "Low-Maisarah"
             ],
             "reason": "NON_MS_COMPETITION"
           },
           {
             "following_lines": [
-              "Fukushima-Matsutomo",
-              "1.14",
-              "Hirota-Sakuramoto",
-              "3.45"
+              "Gao-Wu",
+              "4.30",
+              "Jiang-Wei",
+              "1.07"
             ],
-            "market_line": 134,
+            "market_line": 130,
             "preceding_lines": [
-              "02:00",
+              "03:00",
               "Corbett-Gai",
-              "Hirokami-Hobara",
+              "Low-Maisarah",
               "Qui va gagner le match ?",
               "Corbett-Gai",
-              "3.40",
-              "Hirokami-Hobara",
-              "1.15",
-              "+ 3",
-              "Open de Hong Kong, Doubles (F)",
-              "jeu. 19 nov.",
-              "02:00",
-              "Fukushima-Matsutomo",
-              "Hirota-Sakuramoto"
+              "1.67",
+              "Low-Maisarah",
+              "1.77",
+              "+ 2",
+              "Open de Hong Kong, Doubles Mixtes",
+              "ven. 20 nov.",
+              "03:00",
+              "Gao-Wu",
+              "Jiang-Wei"
             ],
             "reason": "NON_MS_COMPETITION"
           },
           {
             "following_lines": [
-              "Min-Jong",
-              "1.83",
-              "Vendy-Lane",
-              "1.62"
-            ],
-            "market_line": 145,
-            "preceding_lines": [
-              "02:00",
-              "Fukushima-Matsutomo",
-              "Hirota-Sakuramoto",
-              "Qui va gagner le match ?",
-              "Fukushima-Matsutomo",
-              "1.14",
-              "Hirota-Sakuramoto",
-              "3.45",
-              "+ 3",
-              "Open de Hong Kong, Doubles",
-              "jeu. 19 nov.",
-              "02:00",
-              "Min-Jong",
-              "Vendy-Lane"
-            ],
-            "reason": "NON_MS_COMPETITION"
-          },
-          {
-            "following_lines": [
-              "Pullela-Jolly",
+              "Guo-Chen",
               "1.20",
-              "Lam-Lee",
+              "Goh-Lai",
               "3.05"
             ],
-            "market_line": 156,
+            "market_line": 141,
             "preceding_lines": [
-              "02:00",
-              "Min-Jong",
-              "Vendy-Lane",
+              "03:00",
+              "Gao-Wu",
+              "Jiang-Wei",
               "Qui va gagner le match ?",
-              "Min-Jong",
-              "1.83",
-              "Vendy-Lane",
-              "1.62",
-              "+ 1",
-              "Open de Hong Kong, Doubles (F)",
-              "jeu. 19 nov.",
-              "02:00",
-              "Pullela-Jolly",
-              "Lam-Lee"
+              "Gao-Wu",
+              "4.30",
+              "Jiang-Wei",
+              "1.07",
+              "+ 3",
+              "Open de Hong Kong, Doubles Mixtes",
+              "ven. 20 nov.",
+              "03:00",
+              "Guo-Chen",
+              "Goh-Lai"
             ],
             "reason": "NON_MS_COMPETITION"
           },
           {
             "following_lines": [
-              "Stoeva-Stoeva",
-              "2.10",
-              "Nakade-Takahashi",
-              "1.45"
+              "Huang-Feng",
+              "1.01",
+              "Wu-Yang",
+              "10.00"
             ],
-            "market_line": 167,
+            "market_line": 152,
             "preceding_lines": [
-              "02:00",
-              "Pullela-Jolly",
-              "Lam-Lee",
+              "03:00",
+              "Guo-Chen",
+              "Goh-Lai",
               "Qui va gagner le match ?",
-              "Pullela-Jolly",
+              "Guo-Chen",
               "1.20",
-              "Lam-Lee",
+              "Goh-Lai",
               "3.05",
               "+ 3",
-              "Open de Hong Kong, Doubles (F)",
-              "jeu. 19 nov.",
-              "02:00",
-              "Stoeva-Stoeva",
-              "Nakade-Takahashi"
+              "Open de Hong Kong, Doubles Mixtes",
+              "ven. 20 nov.",
+              "03:00",
+              "Huang-Feng",
+              "Wu-Yang"
             ],
             "reason": "NON_MS_COMPETITION"
           },
           {
             "following_lines": [
-              "Tomoka Miyazaki",
-              "1.08",
-              "Chiu Pin-Chian",
-              "4.30"
+              "Lam-Lee",
+              "4.20",
+              "Tan-Muralitharan",
+              "1.08"
             ],
-            "market_line": 178,
+            "market_line": 163,
             "preceding_lines": [
-              "02:00",
-              "Stoeva-Stoeva",
-              "Nakade-Takahashi",
+              "03:00",
+              "Huang-Feng",
+              "Wu-Yang",
               "Qui va gagner le match ?",
-              "Stoeva-Stoeva",
-              "2.10",
-              "Nakade-Takahashi",
-              "1.45",
+              "Huang-Feng",
+              "1.01",
+              "Wu-Yang",
+              "10.00",
+              "+ 2",
+              "Open de Hong Kong, Doubles (F)",
+              "ven. 20 nov.",
+              "03:00",
+              "Lam-Lee",
+              "Tan-Muralitharan"
+            ],
+            "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Michelle Li",
+              "2.20",
+              "Ratchanok Intanon",
+              "1.42"
+            ],
+            "market_line": 174,
+            "preceding_lines": [
+              "03:00",
+              "Lam-Lee",
+              "Tan-Muralitharan",
+              "Qui va gagner le match ?",
+              "Lam-Lee",
+              "4.20",
+              "Tan-Muralitharan",
+              "1.08",
               "+ 3",
               "Open de Hong Kong (F)",
-              "jeu. 19 nov.",
-              "02:00",
-              "Tomoka Miyazaki",
-              "Chiu Pin-Chian"
+              "ven. 20 nov.",
+              "03:00",
+              "Michelle Li",
+              "Ratchanok Intanon"
             ],
             "reason": "NON_MS_COMPETITION"
           }
@@ -305,7 +273,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T16:02:48+00:00",
+      "observed_at_utc": "2026-11-19T14:18:51+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -314,7 +282,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T16:03:03+00:00",
+      "observed_at_utc": "2026-11-19T14:19:07+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -323,7 +291,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T16:02:34+00:00",
+      "observed_at_utc": "2026-11-19T14:18:38+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -331,8 +299,8 @@
     },
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-      "quote_count": 8,
-      "observed_at_utc": "2026-11-18T16:02:35+00:00",
+      "quote_count": 1,
+      "observed_at_utc": "2026-11-19T14:18:39+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -341,7 +309,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T16:02:49+00:00",
+      "observed_at_utc": "2026-11-19T14:18:53+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -350,7 +318,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T16:02:59+00:00",
+      "observed_at_utc": "2026-11-19T14:19:02+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -359,7 +327,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T16:03:05+00:00",
+      "observed_at_utc": "2026-11-19T14:19:09+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -368,7 +336,7 @@
     "oddspedia_badminton": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T16:03:04+00:00",
+      "observed_at_utc": "2026-11-19T14:19:08+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -377,7 +345,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-18T16:03:21+00:00",
+      "observed_at_utc": "2026-11-19T14:19:25+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
