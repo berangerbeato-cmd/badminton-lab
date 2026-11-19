@@ -3,16 +3,30 @@
   "candidate_count": 0,
   "candidate_urls": [],
   "elo_comparisons": [],
+  "fixture_join_audit": [
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-20",
+      "model_rows_same_day": 4,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Kean Yew Loh",
+        "Lakshya Sen"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    }
+  ],
   "index_badminton_link_count": 5,
   "index_badminton_link_examples": [
     "https://www.netbet.fr/badminton",
     "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-f",
-    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-mixtes",
     "https://www.netbet.fr/badminton/international/open-de-hong-kong-f",
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-mixtes",
     "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles"
   ],
-  "index_body_sha256": "dc5e4609876e608e2577da8e1121b9febc303f4f557e532ee5aa7c1c75e8e603",
-  "index_eligible_quotes": 0,
+  "index_body_sha256": "43aeb5c5d8cd0ae7442ccbbefe2f3db3b26b0481f9e28ad9bb6ea641e0ab155e",
+  "index_eligible_quotes": 1,
   "index_http_status": 200,
   "index_link_count": 121,
   "index_link_path_counts": {
@@ -30,15 +44,15 @@
     "zendesk": 2
   },
   "index_market_audit": {
-    "eligible_listing_rows": 0,
+    "eligible_listing_rows": 1,
     "markets_seen": 10,
     "rejection_evidence": [
       {
         "following_lines": [
           "Corbett-Gai",
-          "1.67",
+          "1.85",
           "Low-Maisarah",
-          "1.77"
+          "1.60"
         ],
         "market_line": 119,
         "preceding_lines": [
@@ -61,10 +75,10 @@
       },
       {
         "following_lines": [
-          "Gao-Wu",
-          "4.30",
-          "Jiang-Wei",
-          "1.07"
+          "Michelle Li",
+          "2.20",
+          "Ratchanok Intanon",
+          "1.42"
         ],
         "market_line": 130,
         "preceding_lines": [
@@ -73,41 +87,93 @@
           "Low-Maisarah",
           "Qui va gagner le match ?",
           "Corbett-Gai",
-          "1.67",
+          "1.85",
           "Low-Maisarah",
-          "1.77",
-          "+ 2",
-          "Open de Hong Kong, Doubles Mixtes",
+          "1.60",
+          "+ 3",
+          "Open de Hong Kong (F)",
           "ven. 20 nov.",
-          "03:00",
-          "Gao-Wu",
-          "Jiang-Wei"
+          "04:00",
+          "Michelle Li",
+          "Ratchanok Intanon"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Pornpawee Chochuwong",
+          "1.08",
+          "Rakshitha Sree Santhosh Ramraj",
+          "4.30"
+        ],
+        "market_line": 141,
+        "preceding_lines": [
+          "04:00",
+          "Michelle Li",
+          "Ratchanok Intanon",
+          "Qui va gagner le match ?",
+          "Michelle Li",
+          "2.20",
+          "Ratchanok Intanon",
+          "1.42",
+          "+ 3",
+          "Open de Hong Kong (F)",
+          "ven. 20 nov.",
+          "04:00",
+          "Pornpawee Chochuwong",
+          "Rakshitha Sree Santhosh Ramraj"
         ],
         "reason": "NON_MS_COMPETITION"
       },
       {
         "following_lines": [
           "Guo-Chen",
-          "1.20",
+          "1.21",
           "Goh-Lai",
-          "3.05"
+          "2.97"
         ],
-        "market_line": 141,
+        "market_line": 152,
         "preceding_lines": [
-          "03:00",
-          "Gao-Wu",
-          "Jiang-Wei",
+          "04:00",
+          "Pornpawee Chochuwong",
+          "Rakshitha Sree Santhosh Ramraj",
           "Qui va gagner le match ?",
-          "Gao-Wu",
+          "Pornpawee Chochuwong",
+          "1.08",
+          "Rakshitha Sree Santhosh Ramraj",
           "4.30",
-          "Jiang-Wei",
-          "1.07",
           "+ 3",
           "Open de Hong Kong, Doubles Mixtes",
           "ven. 20 nov.",
-          "03:00",
+          "04:20",
           "Guo-Chen",
           "Goh-Lai"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Rankireddy-Shetty",
+          "1.26",
+          "Hu-Lin",
+          "2.70"
+        ],
+        "market_line": 163,
+        "preceding_lines": [
+          "04:20",
+          "Guo-Chen",
+          "Goh-Lai",
+          "Qui va gagner le match ?",
+          "Guo-Chen",
+          "1.21",
+          "Goh-Lai",
+          "2.97",
+          "+ 3",
+          "Open de Hong Kong, Doubles",
+          "ven. 20 nov.",
+          "04:20",
+          "Rankireddy-Shetty",
+          "Hu-Lin"
         ],
         "reason": "NON_MS_COMPETITION"
       },
@@ -118,93 +184,64 @@
           "Wu-Yang",
           "10.00"
         ],
-        "market_line": 152,
+        "market_line": 174,
         "preceding_lines": [
-          "03:00",
-          "Guo-Chen",
-          "Goh-Lai",
+          "04:20",
+          "Rankireddy-Shetty",
+          "Hu-Lin",
           "Qui va gagner le match ?",
-          "Guo-Chen",
-          "1.20",
-          "Goh-Lai",
-          "3.05",
+          "Rankireddy-Shetty",
+          "1.26",
+          "Hu-Lin",
+          "2.70",
           "+ 3",
           "Open de Hong Kong, Doubles Mixtes",
           "ven. 20 nov.",
-          "03:00",
+          "04:40",
           "Huang-Feng",
           "Wu-Yang"
-        ],
-        "reason": "NON_MS_COMPETITION"
-      },
-      {
-        "following_lines": [
-          "Lam-Lee",
-          "4.20",
-          "Tan-Muralitharan",
-          "1.08"
-        ],
-        "market_line": 163,
-        "preceding_lines": [
-          "03:00",
-          "Huang-Feng",
-          "Wu-Yang",
-          "Qui va gagner le match ?",
-          "Huang-Feng",
-          "1.01",
-          "Wu-Yang",
-          "10.00",
-          "+ 2",
-          "Open de Hong Kong, Doubles (F)",
-          "ven. 20 nov.",
-          "03:00",
-          "Lam-Lee",
-          "Tan-Muralitharan"
-        ],
-        "reason": "NON_MS_COMPETITION"
-      },
-      {
-        "following_lines": [
-          "Michelle Li",
-          "2.20",
-          "Ratchanok Intanon",
-          "1.42"
-        ],
-        "market_line": 174,
-        "preceding_lines": [
-          "03:00",
-          "Lam-Lee",
-          "Tan-Muralitharan",
-          "Qui va gagner le match ?",
-          "Lam-Lee",
-          "4.20",
-          "Tan-Muralitharan",
-          "1.08",
-          "+ 3",
-          "Open de Hong Kong (F)",
-          "ven. 20 nov.",
-          "03:00",
-          "Michelle Li",
-          "Ratchanok Intanon"
         ],
         "reason": "NON_MS_COMPETITION"
       }
     ],
     "rejections": {
-      "NON_MS_COMPETITION": 10
+      "NON_MS_COMPETITION": 9
     }
   },
   "index_resolved_url": "https://www.netbet.fr/badminton",
   "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
   "index_url": "https://www.netbet.fr/badminton",
-  "model_snapshot": null,
-  "observed_at_utc": "2026-11-19T14:19:30+00:00",
+  "model_snapshot": "data/model/snapshots/2026-11-19.csv",
+  "model_snapshot_sha256": "66cd69c9ed253d411abaeca47bda0cd8001491af478805fe7afdcddd3de96011",
+  "observed_at_utc": "2026-11-19T15:49:23+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [],
   "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
-  "quotes": [],
-  "reason_counts": {},
+  "quotes": [
+    {
+      "bookmaker_overround_pct": 16.33,
+      "competition_display": "Open de Hong Kong",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-11-20",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.445402,
+      "normalized_market_probability_2": 0.554598,
+      "odds_1": 1.93,
+      "odds_2": 1.55,
+      "player_1_display": "Kean Yew Loh",
+      "player_2_display": "Lakshya Sen",
+      "raw_implied_probability_1": 0.518135,
+      "raw_implied_probability_2": 0.645161,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    }
+  ],
+  "reason_counts": {
+    "NO_UNIQUE_BWF_FIXTURE": 1
+  },
   "robots_status": "ALLOWED_BY_ROBOTS",
-  "status": "NO_CONFIDENT_QUOTES"
+  "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
 }
