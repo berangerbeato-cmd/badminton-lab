@@ -1,14 +1,15 @@
 {
   "asof_exclusive": "2026-11-20",
   "archives": 415,
-  "raw_ws": 11821,
+  "raw_ws": 11823,
   "valid_ws": 11379,
   "rejected": {
     "abnormal_status": 357,
     "incomplete_score": 2,
     "missing_player_ids": 5,
-    "no_winner": 7,
-    "invalid_game_score": 71
+    "no_winner": 5,
+    "invalid_game_score": 71,
+    "outside_asof_window": 4
   },
   "players": 1231,
   "tournaments": 331,
