@@ -1,0 +1,30 @@
+{
+  "base_commit": "6ec78fc9",
+  "baseline_tests": 129,
+  "tests": 141,
+  "ms_byte_identical": [
+    "latest_report.json",
+    "upcoming_latest.csv",
+    "snapshots/2026-11-20.csv"
+  ],
+  "self_tests": [
+    "elo_model",
+    "badminton_v3_2_daily",
+    "badminton_v3_2_walkforward",
+    "bwf_sync"
+  ],
+  "functional": [
+    "WS daily real cache",
+    "replay equals inference to 1e-12",
+    "disjoint MS/WS player sets",
+    "compressed archive training reproduces identical frozen model",
+    "manual quote CLI rejects missing prices/doubles/unknown players",
+    "immutable ledger append and settlement"
+  ],
+  "limitations": [
+    "no real verified bookmaker quote",
+    "no future WS fixtures in cache",
+    "scheduled activation and main publication require merge"
+  ],
+  "remote_actions": "pending"
+}

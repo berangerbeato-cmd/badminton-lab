@@ -1,0 +1,29 @@
+{
+  "policy": "RETROSPECTIVE_REPLAY_NOT_LIVE; date-based features; no verified kickoff or odds",
+  "match_id": "5218:1570078",
+  "date": "2026-11-19",
+  "players": [
+    "WANG Zhi Yi",
+    "Natsuki NIDAIRA"
+  ],
+  "p_a": 0.9520405218654392,
+  "raw_p_a": 0.9422112020670451,
+  "history_a": 334,
+  "history_b": 140,
+  "features": {
+    "form10_residual_diff": 0.03321430704955683,
+    "matches7_diff": 3.0,
+    "sets7_diff": 7.0,
+    "matches14_diff": 3.0,
+    "rest_days_diff": 0.0,
+    "inactive30_diff": 0.0,
+    "h2h24_residual": 0.029444571324736213,
+    "elo_trend30_diff": -42.17922852221773,
+    "elo_trend90_diff": -41.372036578509324,
+    "set_margin5_diff": 1.4,
+    "point_share5_diff": 0.09606751290818254
+  },
+  "bookmaker_odds": null,
+  "ev": null,
+  "decision": "NO BET"
+}

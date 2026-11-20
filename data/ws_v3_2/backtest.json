@@ -1,0 +1,2445 @@
+{
+  "policy": "RETROSPECTIVE_BACKTEST_NOT_LIVE_NOT_BETS",
+  "quality": {
+    "asof_exclusive": "2026-11-20",
+    "archives": 415,
+    "raw_ws": 11821,
+    "valid_ws": 11379,
+    "rejected": {
+      "abnormal_status": 357,
+      "incomplete_score": 2,
+      "missing_player_ids": 5,
+      "no_winner": 7,
+      "invalid_game_score": 71
+    },
+    "players": 1231,
+    "tournaments": 331,
+    "years": {
+      "2018": 1568,
+      "2019": 1538,
+      "2020": 285,
+      "2021": 603,
+      "2022": 995,
+      "2023": 1602,
+      "2024": 1622,
+      "2025": 1627,
+      "2026": 1539
+    },
+    "months": {
+      "2018-01": 123,
+      "2018-02": 109,
+      "2018-03": 102,
+      "2018-04": 194,
+      "2018-05": 67,
+      "2018-06": 127,
+      "2018-07": 197,
+      "2018-08": 126,
+      "2018-09": 175,
+      "2018-10": 135,
+      "2018-11": 197,
+      "2018-12": 16,
+      "2019-01": 103,
+      "2019-02": 84,
+      "2019-03": 189,
+      "2019-04": 175,
+      "2019-05": 31,
+      "2019-06": 97,
+      "2019-07": 220,
+      "2019-08": 155,
+      "2019-09": 141,
+      "2019-10": 182,
+      "2019-11": 145,
+      "2019-12": 16,
+      "2020-01": 105,
+      "2020-02": 88,
+      "2020-03": 31,
+      "2020-10": 60,
+      "2020-11": 1,
+      "2021-01": 75,
+      "2021-03": 98,
+      "2021-04": 52,
+      "2021-05": 28,
+      "2021-07": 110,
+      "2021-08": 4,
+      "2021-10": 89,
+      "2021-11": 92,
+      "2021-12": 55,
+      "2022-01": 83,
+      "2022-03": 126,
+      "2022-04": 203,
+      "2022-05": 37,
+      "2022-06": 87,
+      "2022-07": 109,
+      "2022-08": 99,
+      "2022-09": 67,
+      "2022-10": 107,
+      "2022-11": 62,
+      "2022-12": 15,
+      "2023-01": 96,
+      "2023-02": 80,
+      "2023-03": 165,
+      "2023-04": 83,
+      "2023-05": 60,
+      "2023-06": 164,
+      "2023-07": 134,
+      "2023-08": 116,
+      "2023-09": 182,
+      "2023-10": 256,
+      "2023-11": 163,
+      "2023-12": 103,
+      "2024-01": 112,
+      "2024-02": 112,
+      "2024-03": 255,
+      "2024-04": 107,
+      "2024-05": 101,
+      "2024-06": 143,
+      "2024-07": 73,
+      "2024-08": 150,
+      "2024-09": 181,
+      "2024-10": 156,
+      "2024-11": 138,
+      "2024-12": 94,
+      "2025-01": 124,
+      "2025-02": 99,
+      "2025-03": 151,
+      "2025-04": 108,
+      "2025-05": 148,
+      "2025-06": 64,
+      "2025-07": 122,
+      "2025-08": 69,
+      "2025-09": 278,
+      "2025-10": 237,
+      "2025-11": 139,
+      "2025-12": 88,
+      "2026-01": 131,
+      "2026-02": 139,
+      "2026-03": 145,
+      "2026-04": 118,
+      "2026-05": 151,
+      "2026-06": 133,
+      "2026-07": 126,
+      "2026-08": 99,
+      "2026-09": 147,
+      "2026-10": 212,
+      "2026-11": 138
+    },
+    "latest_match": "2026-11-19",
+    "missing_indexed_elite": [
+      {
+        "id": 5410,
+        "name": "2018 FISU World University Badminton Championship (Team)",
+        "start": "2018-10-15 00:00:00",
+        "category": "Multi-Sport Games"
+      },
+      {
+        "id": 3761,
+        "name": "Pacific Games 2019 - Non-WR Event",
+        "start": "2019-07-08 00:00:00",
+        "category": "Other"
+      },
+      {
+        "id": 4022,
+        "name": "CELCOM AXIATA Malaysia Open 2020 (New Dates)",
+        "start": "2020-11-24 00:00:00",
+        "category": "HSBC BWF World Tour Super 750"
+      },
+      {
+        "id": 3961,
+        "name": "All Africa Mixed Team Championships 2021(New dates)",
+        "start": "2021-10-21 00:00:00",
+        "category": "Continental Team Championships"
+      },
+      {
+        "id": 4622,
+        "name": "SEA Games 2021 ( Individual Event)",
+        "start": "2022-05-19 00:00:00",
+        "category": "Multi-Sport Games"
+      },
+      {
+        "id": 4794,
+        "name": "XXVI YONEX Pan Am Individual Championships 2023",
+        "start": "2023-04-26 00:00:00",
+        "category": "Continental Individual Championships"
+      },
+      {
+        "id": 5040,
+        "name": "Chengdu 2021 FISU World University Games (INDIVIDUAL))",
+        "start": "2023-08-04 00:00:00",
+        "category": "Grade 1 – Team Tournaments"
+      },
+      {
+        "id": 4719,
+        "name": "New Zealand Open 2023",
+        "start": "2023-08-08 00:00:00",
+        "category": "HSBC BWF World Tour Super 300"
+      },
+      {
+        "id": 5050,
+        "name": "Badminton Asia ( West Asia) Regional Championships 2023 (Mixed Team Event)",
+        "start": "2023-10-12 00:00:00",
+        "category": "Continental Team Games"
+      },
+      {
+        "id": 5000,
+        "name": "African Games 2023 - Team Event",
+        "start": "2024-03-04 00:00:00",
+        "category": "Continental Team Games"
+      },
+      {
+        "id": 5126,
+        "name": "2025 European Mixed Team Championships Qualification",
+        "start": "2024-12-04 00:00:00",
+        "category": "Continental Team Championships"
+      },
+      {
+        "id": 5730,
+        "name": "2026 European Men's & Women's Team Championships Qualification - Estonia",
+        "start": "2025-12-03 00:00:00",
+        "category": "Continental Team Championships"
+      },
+      {
+        "id": 6097,
+        "name": "SYOG2026",
+        "start": "2026-11-01 00:00:00",
+        "category": "Grade 1 – Individual Tournaments"
+      }
+    ],
+    "completeness": "UNPROVEN: indexed missing archives may include cancellations; cache is not the complete calendar",
+    "partial_collection_years": [
+      2020,
+      2021,
+      2023
+    ]
+  },
+  "folds": {
+    "2022": {
+      "k": 64,
+      "k_validation": {
+        "12": 0.179595,
+        "20": 0.1655,
+        "28": 0.157971,
+        "36": 0.153594,
+        "48": 0.150072,
+        "64": 0.148213
+      },
+      "raw": {
+        "n": 995,
+        "brier": 0.172592,
+        "log_loss": 0.515259,
+        "accuracy": 0.732663,
+        "calibration": {
+          "n": 995,
+          "player_a_probability_bins": [
+            {
+              "range_low": 0.0,
+              "range_high": 0.1,
+              "n": 82,
+              "mean_predicted": 0.055603,
+              "observed_frequency": 0.04878,
+              "calibration_gap": -0.006823
+            },
+            {
+              "range_low": 0.1,
+              "range_high": 0.2,
+              "n": 98,
+              "mean_predicted": 0.150031,
+              "observed_frequency": 0.102041,
+              "calibration_gap": -0.04799
+            },
+            {
+              "range_low": 0.2,
+              "range_high": 0.3,
+              "n": 79,
+              "mean_predicted": 0.245705,
+              "observed_frequency": 0.227848,
+              "calibration_gap": -0.017856
+            },
+            {
+              "range_low": 0.3,
+              "range_high": 0.4,
+              "n": 116,
+              "mean_predicted": 0.34765,
+              "observed_frequency": 0.422414,
+              "calibration_gap": 0.074764
+            },
+            {
+              "range_low": 0.4,
+              "range_high": 0.5,
+              "n": 131,
+              "mean_predicted": 0.456428,
+              "observed_frequency": 0.496183,
+              "calibration_gap": 0.039755
+            },
+            {
+              "range_low": 0.5,
+              "range_high": 0.6,
+              "n": 129,
+              "mean_predicted": 0.539126,
+              "observed_frequency": 0.573643,
+              "calibration_gap": 0.034518
+            },
+            {
+              "range_low": 0.6,
+              "range_high": 0.7,
+              "n": 97,
+              "mean_predicted": 0.64978,
+              "observed_frequency": 0.690722,
+              "calibration_gap": 0.040942
+            },
+            {
+              "range_low": 0.7,
+              "range_high": 0.8,
+              "n": 81,
+              "mean_predicted": 0.748665,
+              "observed_frequency": 0.839506,
+              "calibration_gap": 0.090841
+            },
+            {
+              "range_low": 0.8,
+              "range_high": 0.9,
+              "n": 86,
+              "mean_predicted": 0.852252,
+              "observed_frequency": 0.837209,
+              "calibration_gap": -0.015042
+            },
+            {
+              "range_low": 0.9,
+              "range_high": 1.0,
+              "n": 96,
+              "mean_predicted": 0.949055,
+              "observed_frequency": 0.916667,
+              "calibration_gap": -0.032388
+            }
+          ],
+          "predicted_winner_confidence_bins": [
+            {
+              "range_low": 0.5,
+              "range_high": 0.6,
+              "n": 260,
+              "mean_predicted": 0.541366,
+              "observed_frequency": 0.538462,
+              "calibration_gap": -0.002904
+            },
+            {
+              "range_low": 0.6,
+              "range_high": 0.7,
+              "n": 213,
+              "mean_predicted": 0.65118,
+              "observed_frequency": 0.629108,
+              "calibration_gap": -0.022072
+            },
+            {
+              "range_low": 0.7,
+              "range_high": 0.8,
+              "n": 160,
+              "mean_predicted": 0.751445,
+              "observed_frequency": 0.80625,
+              "calibration_gap": 0.054805
+            },
+            {
+              "range_low": 0.8,
+              "range_high": 0.9,
+              "n": 184,
+              "mean_predicted": 0.851036,
+              "observed_frequency": 0.869565,
+              "calibration_gap": 0.018529
+            },
+            {
+              "range_low": 0.9,
+              "range_high": 1.0,
+              "n": 178,
+              "mean_predicted": 0.946909,
+              "observed_frequency": 0.932584,
+              "calibration_gap": -0.014325
+            }
+          ],
+          "scope": "OUT_OF_SAMPLE_WALK_FORWARD_NO_BOOKMAKER_ODDS"
+        }
+      },
+      "variants": {
+        "elo_baseline": {
+          "n": 995,
+          "brier": 0.172298,
+          "log_loss": 0.516914,
+          "accuracy": 0.730653
+        },
+        "elo_plus_score": {
+          "n": 995,
+          "brier": 0.168614,
+          "log_loss": 0.508691,
+          "accuracy": 0.746734
+        },
+        "elo_plus_score_rest": {
+          "n": 995,
+          "brier": 0.168168,
+          "log_loss": 0.508115,
+          "accuracy": 0.744724
+        },
+        "elo_plus_score_h2h": {
+          "n": 995,
+          "brier": 0.167945,
+          "log_loss": 0.507356,
+          "accuracy": 0.747739
+        },
+        "elo_plus_score_rest_h2h": {
+          "n": 995,
+          "brier": 0.167516,
+          "log_loss": 0.50679,
+          "accuracy": 0.743719
+        },
+        "elo_v3_1_all": {
+          "n": 995,
+          "brier": 0.167682,
+          "log_loss": 0.506609,
+          "accuracy": 0.743719
+        }
+      }
+    },
+    "2023": {
+      "k": 64,
+      "k_validation": {
+        "12": 0.1935,
+        "20": 0.184709,
+        "28": 0.179835,
+        "36": 0.176826,
+        "48": 0.174198,
+        "64": 0.172592
+      },
+      "raw": {
+        "n": 1602,
+        "brier": 0.169211,
+        "log_loss": 0.505579,
+        "accuracy": 0.74407,
+        "calibration": {
+          "n": 1602,
+          "player_a_probability_bins": [
+            {
+              "range_low": 0.0,
+              "range_high": 0.1,
+              "n": 119,
+              "mean_predicted": 0.051159,
+              "observed_frequency": 0.02521,
+              "calibration_gap": -0.025949
+            },
+            {
+              "range_low": 0.1,
+              "range_high": 0.2,
+              "n": 98,
+              "mean_predicted": 0.151502,
+              "observed_frequency": 0.061224,
+              "calibration_gap": -0.090278
+            },
+            {
+              "range_low": 0.2,
+              "range_high": 0.3,
+              "n": 139,
+              "mean_predicted": 0.25015,
+              "observed_frequency": 0.280576,
+              "calibration_gap": 0.030425
+            },
+            {
+              "range_low": 0.3,
+              "range_high": 0.4,
+              "n": 148,
+              "mean_predicted": 0.34773,
+              "observed_frequency": 0.277027,
+              "calibration_gap": -0.070703
+            },
+            {
+              "range_low": 0.4,
+              "range_high": 0.5,
+              "n": 193,
+              "mean_predicted": 0.450397,
+              "observed_frequency": 0.435233,
+              "calibration_gap": -0.015164
+            },
+            {
+              "range_low": 0.5,
+              "range_high": 0.6,
+              "n": 276,
+              "mean_predicted": 0.540462,
+              "observed_frequency": 0.57971,
+              "calibration_gap": 0.039248
+            },
+            {
+              "range_low": 0.6,
+              "range_high": 0.7,
+              "n": 159,
+              "mean_predicted": 0.650554,
+              "observed_frequency": 0.610063,
+              "calibration_gap": -0.040491
+            },
+            {
+              "range_low": 0.7,
+              "range_high": 0.8,
+              "n": 157,
+              "mean_predicted": 0.750318,
+              "observed_frequency": 0.821656,
+              "calibration_gap": 0.071338
+            },
+            {
+              "range_low": 0.8,
+              "range_high": 0.9,
+              "n": 150,
+              "mean_predicted": 0.852074,
+              "observed_frequency": 0.866667,
+              "calibration_gap": 0.014592
+            },
+            {
+              "range_low": 0.9,
+              "range_high": 1.0,
+              "n": 163,
+              "mean_predicted": 0.948985,
+              "observed_frequency": 0.932515,
+              "calibration_gap": -0.016469
+            }
+          ],
+          "predicted_winner_confidence_bins": [
+            {
+              "range_low": 0.5,
+              "range_high": 0.6,
+              "n": 469,
+              "mean_predicted": 0.544224,
+              "observed_frequency": 0.573561,
+              "calibration_gap": 0.029337
+            },
+            {
+              "range_low": 0.6,
+              "range_high": 0.7,
+              "n": 307,
+              "mean_predicted": 0.651382,
+              "observed_frequency": 0.664495,
+              "calibration_gap": 0.013114
+            },
+            {
+              "range_low": 0.7,
+              "range_high": 0.8,
+              "n": 296,
+              "mean_predicted": 0.750098,
+              "observed_frequency": 0.773649,
+              "calibration_gap": 0.02355
+            },
+            {
+              "range_low": 0.8,
+              "range_high": 0.9,
+              "n": 248,
+              "mean_predicted": 0.850661,
+              "observed_frequency": 0.895161,
+              "calibration_gap": 0.0445
+            },
+            {
+              "range_low": 0.9,
+              "range_high": 1.0,
+              "n": 282,
+              "mean_predicted": 0.948924,
+              "observed_frequency": 0.950355,
+              "calibration_gap": 0.001431
+            }
+          ],
+          "scope": "OUT_OF_SAMPLE_WALK_FORWARD_NO_BOOKMAKER_ODDS"
+        }
+      },
+      "variants": {
+        "elo_baseline": {
+          "n": 1602,
+          "brier": 0.16902,
+          "log_loss": 0.505359,
+          "accuracy": 0.74407
+        },
+        "elo_plus_score": {
+          "n": 1602,
+          "brier": 0.166168,
+          "log_loss": 0.501314,
+          "accuracy": 0.756554
+        },
+        "elo_plus_score_rest": {
+          "n": 1602,
+          "brier": 0.165774,
+          "log_loss": 0.500321,
+          "accuracy": 0.753433
+        },
+        "elo_plus_score_h2h": {
+          "n": 1602,
+          "brier": 0.166236,
+          "log_loss": 0.501429,
+          "accuracy": 0.753433
+        },
+        "elo_plus_score_rest_h2h": {
+          "n": 1602,
+          "brier": 0.165829,
+          "log_loss": 0.500407,
+          "accuracy": 0.753433
+        },
+        "elo_v3_1_all": {
+          "n": 1602,
+          "brier": 0.165032,
+          "log_loss": 0.498583,
+          "accuracy": 0.754682
+        }
+      }
+    },
+    "2024": {
+      "k": 64,
+      "k_validation": {
+        "12": 0.190696,
+        "20": 0.181117,
+        "28": 0.175957,
+        "36": 0.172929,
+        "48": 0.17047,
+        "64": 0.169211
+      },
+      "raw": {
+        "n": 1622,
+        "brier": 0.182669,
+        "log_loss": 0.539603,
+        "accuracy": 0.718249,
+        "calibration": {
+          "n": 1622,
+          "player_a_probability_bins": [
+            {
+              "range_low": 0.0,
+              "range_high": 0.1,
+              "n": 104,
+              "mean_predicted": 0.055319,
+              "observed_frequency": 0.067308,
+              "calibration_gap": 0.011989
+            },
+            {
+              "range_low": 0.1,
+              "range_high": 0.2,
+              "n": 130,
+              "mean_predicted": 0.149175,
+              "observed_frequency": 0.146154,
+              "calibration_gap": -0.003022
+            },
+            {
+              "range_low": 0.2,
+              "range_high": 0.3,
+              "n": 154,
+              "mean_predicted": 0.249883,
+              "observed_frequency": 0.220779,
+              "calibration_gap": -0.029104
+            },
+            {
+              "range_low": 0.3,
+              "range_high": 0.4,
+              "n": 168,
+              "mean_predicted": 0.349792,
+              "observed_frequency": 0.35119,
+              "calibration_gap": 0.001399
+            },
+            {
+              "range_low": 0.4,
+              "range_high": 0.5,
+              "n": 202,
+              "mean_predicted": 0.447795,
+              "observed_frequency": 0.445545,
+              "calibration_gap": -0.002251
+            },
+            {
+              "range_low": 0.5,
+              "range_high": 0.6,
+              "n": 260,
+              "mean_predicted": 0.540933,
+              "observed_frequency": 0.553846,
+              "calibration_gap": 0.012913
+            },
+            {
+              "range_low": 0.6,
+              "range_high": 0.7,
+              "n": 153,
+              "mean_predicted": 0.650864,
+              "observed_frequency": 0.640523,
+              "calibration_gap": -0.010341
+            },
+            {
+              "range_low": 0.7,
+              "range_high": 0.8,
+              "n": 179,
+              "mean_predicted": 0.750294,
+              "observed_frequency": 0.748603,
+              "calibration_gap": -0.001691
+            },
+            {
+              "range_low": 0.8,
+              "range_high": 0.9,
+              "n": 122,
+              "mean_predicted": 0.847534,
+              "observed_frequency": 0.795082,
+              "calibration_gap": -0.052452
+            },
+            {
+              "range_low": 0.9,
+              "range_high": 1.0,
+              "n": 150,
+              "mean_predicted": 0.949546,
+              "observed_frequency": 0.953333,
+              "calibration_gap": 0.003788
+            }
+          ],
+          "predicted_winner_confidence_bins": [
+            {
+              "range_low": 0.5,
+              "range_high": 0.6,
+              "n": 462,
+              "mean_predicted": 0.545861,
+              "observed_frequency": 0.554113,
+              "calibration_gap": 0.008251
+            },
+            {
+              "range_low": 0.6,
+              "range_high": 0.7,
+              "n": 321,
+              "mean_predicted": 0.650521,
+              "observed_frequency": 0.64486,
+              "calibration_gap": -0.005661
+            },
+            {
+              "range_low": 0.7,
+              "range_high": 0.8,
+              "n": 333,
+              "mean_predicted": 0.750212,
+              "observed_frequency": 0.762763,
+              "calibration_gap": 0.01255
+            },
+            {
+              "range_low": 0.8,
+              "range_high": 0.9,
+              "n": 252,
+              "mean_predicted": 0.849231,
+              "observed_frequency": 0.825397,
+              "calibration_gap": -0.023835
+            },
+            {
+              "range_low": 0.9,
+              "range_high": 1.0,
+              "n": 254,
+              "mean_predicted": 0.947554,
+              "observed_frequency": 0.944882,
+              "calibration_gap": -0.002672
+            }
+          ],
+          "scope": "OUT_OF_SAMPLE_WALK_FORWARD_NO_BOOKMAKER_ODDS"
+        }
+      },
+      "variants": {
+        "elo_baseline": {
+          "n": 1622,
+          "brier": 0.183315,
+          "log_loss": 0.542356,
+          "accuracy": 0.717016
+        },
+        "elo_plus_score": {
+          "n": 1622,
+          "brier": 0.182097,
+          "log_loss": 0.53867,
+          "accuracy": 0.724414
+        },
+        "elo_plus_score_rest": {
+          "n": 1622,
+          "brier": 0.181588,
+          "log_loss": 0.537659,
+          "accuracy": 0.720715
+        },
+        "elo_plus_score_h2h": {
+          "n": 1622,
+          "brier": 0.181993,
+          "log_loss": 0.538697,
+          "accuracy": 0.722565
+        },
+        "elo_plus_score_rest_h2h": {
+          "n": 1622,
+          "brier": 0.181511,
+          "log_loss": 0.537727,
+          "accuracy": 0.718866
+        },
+        "elo_v3_1_all": {
+          "n": 1622,
+          "brier": 0.181692,
+          "log_loss": 0.538641,
+          "accuracy": 0.720715
+        }
+      }
+    },
+    "2025": {
+      "k": 64,
+      "k_validation": {
+        "12": 0.20011,
+        "20": 0.19209,
+        "28": 0.187931,
+        "36": 0.185536,
+        "48": 0.18362,
+        "64": 0.182669
+      },
+      "raw": {
+        "n": 1627,
+        "brier": 0.172646,
+        "log_loss": 0.514393,
+        "accuracy": 0.732637,
+        "calibration": {
+          "n": 1627,
+          "player_a_probability_bins": [
+            {
+              "range_low": 0.0,
+              "range_high": 0.1,
+              "n": 114,
+              "mean_predicted": 0.051759,
+              "observed_frequency": 0.061404,
+              "calibration_gap": 0.009645
+            },
+            {
+              "range_low": 0.1,
+              "range_high": 0.2,
+              "n": 135,
+              "mean_predicted": 0.148054,
+              "observed_frequency": 0.096296,
+              "calibration_gap": -0.051758
+            },
+            {
+              "range_low": 0.2,
+              "range_high": 0.3,
+              "n": 126,
+              "mean_predicted": 0.248962,
+              "observed_frequency": 0.238095,
+              "calibration_gap": -0.010867
+            },
+            {
+              "range_low": 0.3,
+              "range_high": 0.4,
+              "n": 147,
+              "mean_predicted": 0.353141,
+              "observed_frequency": 0.258503,
+              "calibration_gap": -0.094638
+            },
+            {
+              "range_low": 0.4,
+              "range_high": 0.5,
+              "n": 232,
+              "mean_predicted": 0.451986,
+              "observed_frequency": 0.452586,
+              "calibration_gap": 0.0006
+            },
+            {
+              "range_low": 0.5,
+              "range_high": 0.6,
+              "n": 223,
+              "mean_predicted": 0.544891,
+              "observed_frequency": 0.533632,
+              "calibration_gap": -0.011259
+            },
+            {
+              "range_low": 0.6,
+              "range_high": 0.7,
+              "n": 179,
+              "mean_predicted": 0.644684,
+              "observed_frequency": 0.569832,
+              "calibration_gap": -0.074851
+            },
+            {
+              "range_low": 0.7,
+              "range_high": 0.8,
+              "n": 163,
+              "mean_predicted": 0.75029,
+              "observed_frequency": 0.834356,
+              "calibration_gap": 0.084066
+            },
+            {
+              "range_low": 0.8,
+              "range_high": 0.9,
+              "n": 153,
+              "mean_predicted": 0.849198,
+              "observed_frequency": 0.843137,
+              "calibration_gap": -0.006061
+            },
+            {
+              "range_low": 0.9,
+              "range_high": 1.0,
+              "n": 155,
+              "mean_predicted": 0.952024,
+              "observed_frequency": 0.935484,
+              "calibration_gap": -0.01654
+            }
+          ],
+          "predicted_winner_confidence_bins": [
+            {
+              "range_low": 0.5,
+              "range_high": 0.6,
+              "n": 455,
+              "mean_predicted": 0.546483,
+              "observed_frequency": 0.540659,
+              "calibration_gap": -0.005824
+            },
+            {
+              "range_low": 0.6,
+              "range_high": 0.7,
+              "n": 326,
+              "mean_predicted": 0.645664,
+              "observed_frequency": 0.647239,
+              "calibration_gap": 0.001575
+            },
+            {
+              "range_low": 0.7,
+              "range_high": 0.8,
+              "n": 289,
+              "mean_predicted": 0.750616,
+              "observed_frequency": 0.802768,
+              "calibration_gap": 0.052152
+            },
+            {
+              "range_low": 0.8,
+              "range_high": 0.9,
+              "n": 288,
+              "mean_predicted": 0.850486,
+              "observed_frequency": 0.871528,
+              "calibration_gap": 0.021041
+            },
+            {
+              "range_low": 0.9,
+              "range_high": 1.0,
+              "n": 269,
+              "mean_predicted": 0.950421,
+              "observed_frequency": 0.936803,
+              "calibration_gap": -0.013618
+            }
+          ],
+          "scope": "OUT_OF_SAMPLE_WALK_FORWARD_NO_BOOKMAKER_ODDS"
+        }
+      },
+      "variants": {
+        "elo_baseline": {
+          "n": 1627,
+          "brier": 0.172685,
+          "log_loss": 0.514622,
+          "accuracy": 0.730178
+        },
+        "elo_plus_score": {
+          "n": 1627,
+          "brier": 0.170442,
+          "log_loss": 0.509,
+          "accuracy": 0.746773
+        },
+        "elo_plus_score_rest": {
+          "n": 1627,
+          "brier": 0.170387,
+          "log_loss": 0.508493,
+          "accuracy": 0.749232
+        },
+        "elo_plus_score_h2h": {
+          "n": 1627,
+          "brier": 0.171113,
+          "log_loss": 0.510627,
+          "accuracy": 0.744929
+        },
+        "elo_plus_score_rest_h2h": {
+          "n": 1627,
+          "brier": 0.171077,
+          "log_loss": 0.510168,
+          "accuracy": 0.746773
+        },
+        "elo_v3_1_all": {
+          "n": 1627,
+          "brier": 0.170657,
+          "log_loss": 0.509796,
+          "accuracy": 0.747388
+        }
+      }
+    }
+  },
+  "aggregate_validation": {
+    "elo_baseline": {
+      "n": 5846,
+      "brier": 0.174564,
+      "log_loss": 0.520169,
+      "accuracy": 0.730414
+    },
+    "elo_plus_score": {
+      "n": 5846,
+      "brier": 0.172193,
+      "log_loss": 0.515073,
+      "accuracy": 0.743243
+    },
+    "elo_plus_score_rest": {
+      "n": 5846,
+      "brier": 0.171853,
+      "log_loss": 0.514282,
+      "accuracy": 0.741704
+    },
+    "elo_plus_score_h2h": {
+      "n": 5846,
+      "brier": 0.172256,
+      "log_loss": 0.515338,
+      "accuracy": 0.741533
+    },
+    "elo_plus_score_rest_h2h": {
+      "n": 5846,
+      "brier": 0.171928,
+      "log_loss": 0.514565,
+      "accuracy": 0.740335
+    },
+    "elo_v3_1_all": {
+      "n": 5846,
+      "brier": 0.171671,
+      "log_loss": 0.514184,
+      "accuracy": 0.741362
+    }
+  },
+  "selected": "elo_v3_1_all",
+  "selection_rule": "Brier gain >0.001 and better in >=3/4 folds; otherwise calibrated Elo",
+  "final_k": 64,
+  "k_validation_2025": {
+    "12": 0.191256,
+    "20": 0.183427,
+    "28": 0.179126,
+    "36": 0.176453,
+    "48": 0.174085,
+    "64": 0.172646
+  },
+  "coefficients": {
+    "intercept": -0.004126,
+    "elo_logit": 1.173208,
+    "form10_residual_diff": -0.002502,
+    "matches7_diff": 0.158855,
+    "sets7_diff": -0.234371,
+    "matches14_diff": 0.044253,
+    "rest_days_diff": -0.124993,
+    "inactive30_diff": 0.030306,
+    "h2h24_residual": 0.049682,
+    "elo_trend30_diff": 0.103656,
+    "elo_trend90_diff": -0.088377,
+    "set_margin5_diff": -0.511572,
+    "point_share5_diff": 0.382945
+  },
+  "test_2026": {
+    "raw_elo": {
+      "n": 1539,
+      "brier": 0.177207,
+      "log_loss": 0.525156,
+      "accuracy": 0.723197,
+      "calibration": {
+        "n": 1539,
+        "player_a_probability_bins": [
+          {
+            "range_low": 0.0,
+            "range_high": 0.1,
+            "n": 121,
+            "mean_predicted": 0.048234,
+            "observed_frequency": 0.041322,
+            "calibration_gap": -0.006912
+          },
+          {
+            "range_low": 0.1,
+            "range_high": 0.2,
+            "n": 103,
+            "mean_predicted": 0.148368,
+            "observed_frequency": 0.242718,
+            "calibration_gap": 0.09435
+          },
+          {
+            "range_low": 0.2,
+            "range_high": 0.3,
+            "n": 133,
+            "mean_predicted": 0.252905,
+            "observed_frequency": 0.255639,
+            "calibration_gap": 0.002734
+          },
+          {
+            "range_low": 0.3,
+            "range_high": 0.4,
+            "n": 181,
+            "mean_predicted": 0.352099,
+            "observed_frequency": 0.364641,
+            "calibration_gap": 0.012542
+          },
+          {
+            "range_low": 0.4,
+            "range_high": 0.5,
+            "n": 222,
+            "mean_predicted": 0.4516,
+            "observed_frequency": 0.45045,
+            "calibration_gap": -0.001149
+          },
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 207,
+            "mean_predicted": 0.542898,
+            "observed_frequency": 0.545894,
+            "calibration_gap": 0.002996
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 166,
+            "mean_predicted": 0.648934,
+            "observed_frequency": 0.638554,
+            "calibration_gap": -0.010379
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 138,
+            "mean_predicted": 0.747186,
+            "observed_frequency": 0.84058,
+            "calibration_gap": 0.093394
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 124,
+            "mean_predicted": 0.854336,
+            "observed_frequency": 0.895161,
+            "calibration_gap": 0.040825
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 144,
+            "mean_predicted": 0.960674,
+            "observed_frequency": 0.951389,
+            "calibration_gap": -0.009285
+          }
+        ],
+        "predicted_winner_confidence_bins": [
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 429,
+            "mean_predicted": 0.545745,
+            "observed_frequency": 0.547786,
+            "calibration_gap": 0.00204
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 347,
+            "mean_predicted": 0.648395,
+            "observed_frequency": 0.636888,
+            "calibration_gap": -0.011508
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 271,
+            "mean_predicted": 0.747141,
+            "observed_frequency": 0.793358,
+            "calibration_gap": 0.046217
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 227,
+            "mean_predicted": 0.853109,
+            "observed_frequency": 0.832599,
+            "calibration_gap": -0.02051
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 265,
+            "mean_predicted": 0.956606,
+            "observed_frequency": 0.954717,
+            "calibration_gap": -0.001889
+          }
+        ],
+        "scope": "OUT_OF_SAMPLE_WALK_FORWARD_NO_BOOKMAKER_ODDS"
+      }
+    },
+    "calibrated_elo": {
+      "n": 1539,
+      "brier": 0.177157,
+      "log_loss": 0.525634,
+      "accuracy": 0.722547,
+      "calibration": {
+        "n": 1539,
+        "player_a_probability_bins": [
+          {
+            "range_low": 0.0,
+            "range_high": 0.1,
+            "n": 140,
+            "mean_predicted": 0.045811,
+            "observed_frequency": 0.071429,
+            "calibration_gap": 0.025618
+          },
+          {
+            "range_low": 0.1,
+            "range_high": 0.2,
+            "n": 104,
+            "mean_predicted": 0.149337,
+            "observed_frequency": 0.221154,
+            "calibration_gap": 0.071816
+          },
+          {
+            "range_low": 0.2,
+            "range_high": 0.3,
+            "n": 143,
+            "mean_predicted": 0.254413,
+            "observed_frequency": 0.321678,
+            "calibration_gap": 0.067265
+          },
+          {
+            "range_low": 0.3,
+            "range_high": 0.4,
+            "n": 160,
+            "mean_predicted": 0.353203,
+            "observed_frequency": 0.33125,
+            "calibration_gap": -0.021953
+          },
+          {
+            "range_low": 0.4,
+            "range_high": 0.5,
+            "n": 212,
+            "mean_predicted": 0.45041,
+            "observed_frequency": 0.462264,
+            "calibration_gap": 0.011855
+          },
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 194,
+            "mean_predicted": 0.543315,
+            "observed_frequency": 0.536082,
+            "calibration_gap": -0.007233
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 157,
+            "mean_predicted": 0.650126,
+            "observed_frequency": 0.624204,
+            "calibration_gap": -0.025923
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 134,
+            "mean_predicted": 0.746364,
+            "observed_frequency": 0.80597,
+            "calibration_gap": 0.059606
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 129,
+            "mean_predicted": 0.853465,
+            "observed_frequency": 0.914729,
+            "calibration_gap": 0.061263
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 166,
+            "mean_predicted": 0.960992,
+            "observed_frequency": 0.933735,
+            "calibration_gap": -0.027257
+          }
+        ],
+        "predicted_winner_confidence_bins": [
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 406,
+            "mean_predicted": 0.546592,
+            "observed_frequency": 0.536946,
+            "calibration_gap": -0.009646
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 317,
+            "mean_predicted": 0.648446,
+            "observed_frequency": 0.646688,
+            "calibration_gap": -0.001758
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 277,
+            "mean_predicted": 0.745963,
+            "observed_frequency": 0.740072,
+            "calibration_gap": -0.00589
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 233,
+            "mean_predicted": 0.852214,
+            "observed_frequency": 0.854077,
+            "calibration_gap": 0.001863
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 306,
+            "mean_predicted": 0.957879,
+            "observed_frequency": 0.931373,
+            "calibration_gap": -0.026507
+          }
+        ],
+        "scope": "OUT_OF_SAMPLE_WALK_FORWARD_NO_BOOKMAKER_ODDS"
+      }
+    },
+    "selected_ws": {
+      "n": 1539,
+      "brier": 0.171638,
+      "log_loss": 0.512399,
+      "accuracy": 0.744639,
+      "calibration": {
+        "n": 1539,
+        "player_a_probability_bins": [
+          {
+            "range_low": 0.0,
+            "range_high": 0.1,
+            "n": 152,
+            "mean_predicted": 0.046299,
+            "observed_frequency": 0.072368,
+            "calibration_gap": 0.026069
+          },
+          {
+            "range_low": 0.1,
+            "range_high": 0.2,
+            "n": 114,
+            "mean_predicted": 0.150167,
+            "observed_frequency": 0.236842,
+            "calibration_gap": 0.086676
+          },
+          {
+            "range_low": 0.2,
+            "range_high": 0.3,
+            "n": 146,
+            "mean_predicted": 0.256355,
+            "observed_frequency": 0.287671,
+            "calibration_gap": 0.031316
+          },
+          {
+            "range_low": 0.3,
+            "range_high": 0.4,
+            "n": 148,
+            "mean_predicted": 0.35029,
+            "observed_frequency": 0.344595,
+            "calibration_gap": -0.005696
+          },
+          {
+            "range_low": 0.4,
+            "range_high": 0.5,
+            "n": 211,
+            "mean_predicted": 0.451046,
+            "observed_frequency": 0.417062,
+            "calibration_gap": -0.033985
+          },
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 177,
+            "mean_predicted": 0.549626,
+            "observed_frequency": 0.559322,
+            "calibration_gap": 0.009696
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 155,
+            "mean_predicted": 0.64952,
+            "observed_frequency": 0.690323,
+            "calibration_gap": 0.040802
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 129,
+            "mean_predicted": 0.747051,
+            "observed_frequency": 0.79845,
+            "calibration_gap": 0.051398
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 135,
+            "mean_predicted": 0.852521,
+            "observed_frequency": 0.896296,
+            "calibration_gap": 0.043775
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 172,
+            "mean_predicted": 0.963026,
+            "observed_frequency": 0.953488,
+            "calibration_gap": -0.009538
+          }
+        ],
+        "predicted_winner_confidence_bins": [
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 388,
+            "mean_predicted": 0.54926,
+            "observed_frequency": 0.572165,
+            "calibration_gap": 0.022904
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 303,
+            "mean_predicted": 0.649613,
+            "observed_frequency": 0.673267,
+            "calibration_gap": 0.023655
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 275,
+            "mean_predicted": 0.745243,
+            "observed_frequency": 0.752727,
+            "calibration_gap": 0.007484
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 249,
+            "mean_predicted": 0.851291,
+            "observed_frequency": 0.835341,
+            "calibration_gap": -0.015949
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 324,
+            "mean_predicted": 0.958651,
+            "observed_frequency": 0.941358,
+            "calibration_gap": -0.017293
+          }
+        ],
+        "scope": "OUT_OF_SAMPLE_WALK_FORWARD_NO_BOOKMAKER_ODDS"
+      }
+    }
+  },
+  "test_variants_2026": {
+    "elo_baseline": {
+      "n": 1539,
+      "brier": 0.177157,
+      "log_loss": 0.525634,
+      "accuracy": 0.722547,
+      "calibration": {
+        "n": 1539,
+        "player_a_probability_bins": [
+          {
+            "range_low": 0.0,
+            "range_high": 0.1,
+            "n": 140,
+            "mean_predicted": 0.045811,
+            "observed_frequency": 0.071429,
+            "calibration_gap": 0.025618
+          },
+          {
+            "range_low": 0.1,
+            "range_high": 0.2,
+            "n": 104,
+            "mean_predicted": 0.149337,
+            "observed_frequency": 0.221154,
+            "calibration_gap": 0.071816
+          },
+          {
+            "range_low": 0.2,
+            "range_high": 0.3,
+            "n": 143,
+            "mean_predicted": 0.254413,
+            "observed_frequency": 0.321678,
+            "calibration_gap": 0.067265
+          },
+          {
+            "range_low": 0.3,
+            "range_high": 0.4,
+            "n": 160,
+            "mean_predicted": 0.353203,
+            "observed_frequency": 0.33125,
+            "calibration_gap": -0.021953
+          },
+          {
+            "range_low": 0.4,
+            "range_high": 0.5,
+            "n": 212,
+            "mean_predicted": 0.45041,
+            "observed_frequency": 0.462264,
+            "calibration_gap": 0.011855
+          },
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 194,
+            "mean_predicted": 0.543315,
+            "observed_frequency": 0.536082,
+            "calibration_gap": -0.007233
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 157,
+            "mean_predicted": 0.650126,
+            "observed_frequency": 0.624204,
+            "calibration_gap": -0.025923
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 134,
+            "mean_predicted": 0.746364,
+            "observed_frequency": 0.80597,
+            "calibration_gap": 0.059606
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 129,
+            "mean_predicted": 0.853465,
+            "observed_frequency": 0.914729,
+            "calibration_gap": 0.061263
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 166,
+            "mean_predicted": 0.960992,
+            "observed_frequency": 0.933735,
+            "calibration_gap": -0.027257
+          }
+        ],
+        "predicted_winner_confidence_bins": [
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 406,
+            "mean_predicted": 0.546592,
+            "observed_frequency": 0.536946,
+            "calibration_gap": -0.009646
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 317,
+            "mean_predicted": 0.648446,
+            "observed_frequency": 0.646688,
+            "calibration_gap": -0.001758
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 277,
+            "mean_predicted": 0.745963,
+            "observed_frequency": 0.740072,
+            "calibration_gap": -0.00589
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 233,
+            "mean_predicted": 0.852214,
+            "observed_frequency": 0.854077,
+            "calibration_gap": 0.001863
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 306,
+            "mean_predicted": 0.957879,
+            "observed_frequency": 0.931373,
+            "calibration_gap": -0.026507
+          }
+        ],
+        "scope": "OUT_OF_SAMPLE_WALK_FORWARD_NO_BOOKMAKER_ODDS"
+      }
+    },
+    "elo_plus_score": {
+      "n": 1539,
+      "brier": 0.173181,
+      "log_loss": 0.516168,
+      "accuracy": 0.734243,
+      "calibration": {
+        "n": 1539,
+        "player_a_probability_bins": [
+          {
+            "range_low": 0.0,
+            "range_high": 0.1,
+            "n": 150,
+            "mean_predicted": 0.045199,
+            "observed_frequency": 0.08,
+            "calibration_gap": 0.034801
+          },
+          {
+            "range_low": 0.1,
+            "range_high": 0.2,
+            "n": 112,
+            "mean_predicted": 0.150586,
+            "observed_frequency": 0.196429,
+            "calibration_gap": 0.045843
+          },
+          {
+            "range_low": 0.2,
+            "range_high": 0.3,
+            "n": 138,
+            "mean_predicted": 0.253489,
+            "observed_frequency": 0.311594,
+            "calibration_gap": 0.058105
+          },
+          {
+            "range_low": 0.3,
+            "range_high": 0.4,
+            "n": 162,
+            "mean_predicted": 0.348472,
+            "observed_frequency": 0.358025,
+            "calibration_gap": 0.009552
+          },
+          {
+            "range_low": 0.4,
+            "range_high": 0.5,
+            "n": 223,
+            "mean_predicted": 0.454327,
+            "observed_frequency": 0.443946,
+            "calibration_gap": -0.010381
+          },
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 168,
+            "mean_predicted": 0.552028,
+            "observed_frequency": 0.52381,
+            "calibration_gap": -0.028218
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 146,
+            "mean_predicted": 0.651069,
+            "observed_frequency": 0.657534,
+            "calibration_gap": 0.006466
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 134,
+            "mean_predicted": 0.742894,
+            "observed_frequency": 0.835821,
+            "calibration_gap": 0.092927
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 135,
+            "mean_predicted": 0.851378,
+            "observed_frequency": 0.888889,
+            "calibration_gap": 0.037511
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 171,
+            "mean_predicted": 0.962299,
+            "observed_frequency": 0.953216,
+            "calibration_gap": -0.009083
+          }
+        ],
+        "predicted_winner_confidence_bins": [
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 391,
+            "mean_predicted": 0.548404,
+            "observed_frequency": 0.542199,
+            "calibration_gap": -0.006204
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 308,
+            "mean_predicted": 0.65131,
+            "observed_frequency": 0.649351,
+            "calibration_gap": -0.001959
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 272,
+            "mean_predicted": 0.744729,
+            "observed_frequency": 0.761029,
+            "calibration_gap": 0.0163
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 247,
+            "mean_predicted": 0.850488,
+            "observed_frequency": 0.850202,
+            "calibration_gap": -0.000285
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 321,
+            "mean_predicted": 0.958795,
+            "observed_frequency": 0.937695,
+            "calibration_gap": -0.0211
+          }
+        ],
+        "scope": "OUT_OF_SAMPLE_WALK_FORWARD_NO_BOOKMAKER_ODDS"
+      }
+    },
+    "elo_plus_score_rest": {
+      "n": 1539,
+      "brier": 0.17262,
+      "log_loss": 0.514736,
+      "accuracy": 0.735543,
+      "calibration": {
+        "n": 1539,
+        "player_a_probability_bins": [
+          {
+            "range_low": 0.0,
+            "range_high": 0.1,
+            "n": 152,
+            "mean_predicted": 0.045655,
+            "observed_frequency": 0.085526,
+            "calibration_gap": 0.039871
+          },
+          {
+            "range_low": 0.1,
+            "range_high": 0.2,
+            "n": 107,
+            "mean_predicted": 0.149395,
+            "observed_frequency": 0.196262,
+            "calibration_gap": 0.046866
+          },
+          {
+            "range_low": 0.2,
+            "range_high": 0.3,
+            "n": 149,
+            "mean_predicted": 0.252975,
+            "observed_frequency": 0.315436,
+            "calibration_gap": 0.062462
+          },
+          {
+            "range_low": 0.3,
+            "range_high": 0.4,
+            "n": 151,
+            "mean_predicted": 0.349967,
+            "observed_frequency": 0.317881,
+            "calibration_gap": -0.032086
+          },
+          {
+            "range_low": 0.4,
+            "range_high": 0.5,
+            "n": 216,
+            "mean_predicted": 0.453934,
+            "observed_frequency": 0.458333,
+            "calibration_gap": 0.0044
+          },
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 180,
+            "mean_predicted": 0.552633,
+            "observed_frequency": 0.533333,
+            "calibration_gap": -0.0193
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 147,
+            "mean_predicted": 0.651293,
+            "observed_frequency": 0.659864,
+            "calibration_gap": 0.008571
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 129,
+            "mean_predicted": 0.74406,
+            "observed_frequency": 0.821705,
+            "calibration_gap": 0.077646
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 133,
+            "mean_predicted": 0.850347,
+            "observed_frequency": 0.894737,
+            "calibration_gap": 0.04439
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 175,
+            "mean_predicted": 0.961372,
+            "observed_frequency": 0.954286,
+            "calibration_gap": -0.007087
+          }
+        ],
+        "predicted_winner_confidence_bins": [
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 396,
+            "mean_predicted": 0.549051,
+            "observed_frequency": 0.537879,
+            "calibration_gap": -0.011173
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 298,
+            "mean_predicted": 0.650655,
+            "observed_frequency": 0.671141,
+            "calibration_gap": 0.020486
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 278,
+            "mean_predicted": 0.745649,
+            "observed_frequency": 0.748201,
+            "calibration_gap": 0.002552
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 240,
+            "mean_predicted": 0.850462,
+            "observed_frequency": 0.854167,
+            "calibration_gap": 0.003705
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 327,
+            "mean_predicted": 0.958106,
+            "observed_frequency": 0.93578,
+            "calibration_gap": -0.022326
+          }
+        ],
+        "scope": "OUT_OF_SAMPLE_WALK_FORWARD_NO_BOOKMAKER_ODDS"
+      }
+    },
+    "elo_plus_score_h2h": {
+      "n": 1539,
+      "brier": 0.173117,
+      "log_loss": 0.516085,
+      "accuracy": 0.737492,
+      "calibration": {
+        "n": 1539,
+        "player_a_probability_bins": [
+          {
+            "range_low": 0.0,
+            "range_high": 0.1,
+            "n": 150,
+            "mean_predicted": 0.045772,
+            "observed_frequency": 0.086667,
+            "calibration_gap": 0.040895
+          },
+          {
+            "range_low": 0.1,
+            "range_high": 0.2,
+            "n": 115,
+            "mean_predicted": 0.151103,
+            "observed_frequency": 0.2,
+            "calibration_gap": 0.048897
+          },
+          {
+            "range_low": 0.2,
+            "range_high": 0.3,
+            "n": 141,
+            "mean_predicted": 0.255839,
+            "observed_frequency": 0.304965,
+            "calibration_gap": 0.049126
+          },
+          {
+            "range_low": 0.3,
+            "range_high": 0.4,
+            "n": 158,
+            "mean_predicted": 0.349241,
+            "observed_frequency": 0.348101,
+            "calibration_gap": -0.00114
+          },
+          {
+            "range_low": 0.4,
+            "range_high": 0.5,
+            "n": 220,
+            "mean_predicted": 0.453723,
+            "observed_frequency": 0.440909,
+            "calibration_gap": -0.012814
+          },
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 176,
+            "mean_predicted": 0.553247,
+            "observed_frequency": 0.545455,
+            "calibration_gap": -0.007793
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 135,
+            "mean_predicted": 0.652535,
+            "observed_frequency": 0.674074,
+            "calibration_gap": 0.02154
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 146,
+            "mean_predicted": 0.746675,
+            "observed_frequency": 0.821918,
+            "calibration_gap": 0.075243
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 125,
+            "mean_predicted": 0.853893,
+            "observed_frequency": 0.888,
+            "calibration_gap": 0.034107
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 173,
+            "mean_predicted": 0.961445,
+            "observed_frequency": 0.947977,
+            "calibration_gap": -0.013468
+          }
+        ],
+        "predicted_winner_confidence_bins": [
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 396,
+            "mean_predicted": 0.549375,
+            "observed_frequency": 0.55303,
+            "calibration_gap": 0.003656
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 293,
+            "mean_predicted": 0.651577,
+            "observed_frequency": 0.662116,
+            "calibration_gap": 0.010539
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 287,
+            "mean_predicted": 0.74544,
+            "observed_frequency": 0.759582,
+            "calibration_gap": 0.014142
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 240,
+            "mean_predicted": 0.851499,
+            "observed_frequency": 0.845833,
+            "calibration_gap": -0.005666
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 323,
+            "mean_predicted": 0.958093,
+            "observed_frequency": 0.931889,
+            "calibration_gap": -0.026205
+          }
+        ],
+        "scope": "OUT_OF_SAMPLE_WALK_FORWARD_NO_BOOKMAKER_ODDS"
+      }
+    },
+    "elo_plus_score_rest_h2h": {
+      "n": 1539,
+      "brier": 0.172551,
+      "log_loss": 0.514628,
+      "accuracy": 0.738791,
+      "calibration": {
+        "n": 1539,
+        "player_a_probability_bins": [
+          {
+            "range_low": 0.0,
+            "range_high": 0.1,
+            "n": 151,
+            "mean_predicted": 0.045841,
+            "observed_frequency": 0.086093,
+            "calibration_gap": 0.040252
+          },
+          {
+            "range_low": 0.1,
+            "range_high": 0.2,
+            "n": 111,
+            "mean_predicted": 0.149425,
+            "observed_frequency": 0.207207,
+            "calibration_gap": 0.057783
+          },
+          {
+            "range_low": 0.2,
+            "range_high": 0.3,
+            "n": 147,
+            "mean_predicted": 0.254226,
+            "observed_frequency": 0.319728,
+            "calibration_gap": 0.065502
+          },
+          {
+            "range_low": 0.3,
+            "range_high": 0.4,
+            "n": 151,
+            "mean_predicted": 0.348259,
+            "observed_frequency": 0.304636,
+            "calibration_gap": -0.043623
+          },
+          {
+            "range_low": 0.4,
+            "range_high": 0.5,
+            "n": 218,
+            "mean_predicted": 0.454072,
+            "observed_frequency": 0.449541,
+            "calibration_gap": -0.004531
+          },
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 176,
+            "mean_predicted": 0.553072,
+            "observed_frequency": 0.551136,
+            "calibration_gap": -0.001935
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 142,
+            "mean_predicted": 0.648805,
+            "observed_frequency": 0.676056,
+            "calibration_gap": 0.027251
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 140,
+            "mean_predicted": 0.745865,
+            "observed_frequency": 0.8,
+            "calibration_gap": 0.054135
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 128,
+            "mean_predicted": 0.852495,
+            "observed_frequency": 0.898438,
+            "calibration_gap": 0.045943
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 175,
+            "mean_predicted": 0.961229,
+            "observed_frequency": 0.948571,
+            "calibration_gap": -0.012658
+          }
+        ],
+        "predicted_winner_confidence_bins": [
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 394,
+            "mean_predicted": 0.549119,
+            "observed_frequency": 0.550761,
+            "calibration_gap": 0.001642
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 293,
+            "mean_predicted": 0.650319,
+            "observed_frequency": 0.686007,
+            "calibration_gap": 0.035688
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 287,
+            "mean_predicted": 0.745819,
+            "observed_frequency": 0.738676,
+            "calibration_gap": -0.007143
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 239,
+            "mean_predicted": 0.851603,
+            "observed_frequency": 0.849372,
+            "calibration_gap": -0.002231
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 326,
+            "mean_predicted": 0.957955,
+            "observed_frequency": 0.932515,
+            "calibration_gap": -0.025439
+          }
+        ],
+        "scope": "OUT_OF_SAMPLE_WALK_FORWARD_NO_BOOKMAKER_ODDS"
+      }
+    },
+    "elo_v3_1_all": {
+      "n": 1539,
+      "brier": 0.171638,
+      "log_loss": 0.512399,
+      "accuracy": 0.744639,
+      "calibration": {
+        "n": 1539,
+        "player_a_probability_bins": [
+          {
+            "range_low": 0.0,
+            "range_high": 0.1,
+            "n": 152,
+            "mean_predicted": 0.046299,
+            "observed_frequency": 0.072368,
+            "calibration_gap": 0.026069
+          },
+          {
+            "range_low": 0.1,
+            "range_high": 0.2,
+            "n": 114,
+            "mean_predicted": 0.150167,
+            "observed_frequency": 0.236842,
+            "calibration_gap": 0.086676
+          },
+          {
+            "range_low": 0.2,
+            "range_high": 0.3,
+            "n": 146,
+            "mean_predicted": 0.256355,
+            "observed_frequency": 0.287671,
+            "calibration_gap": 0.031316
+          },
+          {
+            "range_low": 0.3,
+            "range_high": 0.4,
+            "n": 148,
+            "mean_predicted": 0.35029,
+            "observed_frequency": 0.344595,
+            "calibration_gap": -0.005696
+          },
+          {
+            "range_low": 0.4,
+            "range_high": 0.5,
+            "n": 211,
+            "mean_predicted": 0.451046,
+            "observed_frequency": 0.417062,
+            "calibration_gap": -0.033985
+          },
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 177,
+            "mean_predicted": 0.549626,
+            "observed_frequency": 0.559322,
+            "calibration_gap": 0.009696
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 155,
+            "mean_predicted": 0.64952,
+            "observed_frequency": 0.690323,
+            "calibration_gap": 0.040802
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 129,
+            "mean_predicted": 0.747051,
+            "observed_frequency": 0.79845,
+            "calibration_gap": 0.051398
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 135,
+            "mean_predicted": 0.852521,
+            "observed_frequency": 0.896296,
+            "calibration_gap": 0.043775
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 172,
+            "mean_predicted": 0.963026,
+            "observed_frequency": 0.953488,
+            "calibration_gap": -0.009538
+          }
+        ],
+        "predicted_winner_confidence_bins": [
+          {
+            "range_low": 0.5,
+            "range_high": 0.6,
+            "n": 388,
+            "mean_predicted": 0.54926,
+            "observed_frequency": 0.572165,
+            "calibration_gap": 0.022904
+          },
+          {
+            "range_low": 0.6,
+            "range_high": 0.7,
+            "n": 303,
+            "mean_predicted": 0.649613,
+            "observed_frequency": 0.673267,
+            "calibration_gap": 0.023655
+          },
+          {
+            "range_low": 0.7,
+            "range_high": 0.8,
+            "n": 275,
+            "mean_predicted": 0.745243,
+            "observed_frequency": 0.752727,
+            "calibration_gap": 0.007484
+          },
+          {
+            "range_low": 0.8,
+            "range_high": 0.9,
+            "n": 249,
+            "mean_predicted": 0.851291,
+            "observed_frequency": 0.835341,
+            "calibration_gap": -0.015949
+          },
+          {
+            "range_low": 0.9,
+            "range_high": 1.0,
+            "n": 324,
+            "mean_predicted": 0.958651,
+            "observed_frequency": 0.941358,
+            "calibration_gap": -0.017293
+          }
+        ],
+        "scope": "OUT_OF_SAMPLE_WALK_FORWARD_NO_BOOKMAKER_ODDS"
+      }
+    }
+  },
+  "segments": {
+    "balanced": {
+      "n": 388,
+      "brier": 0.244237,
+      "log_loss": 0.681571,
+      "accuracy": 0.572165
+    },
+    "favorite60_80": {
+      "n": 578,
+      "brier": 0.203515,
+      "log_loss": 0.59621,
+      "accuracy": 0.711073
+    },
+    "favorite80plus": {
+      "n": 573,
+      "brier": 0.090325,
+      "log_loss": 0.313303,
+      "accuracy": 0.895288
+    },
+    "history0_4": {
+      "n": 231,
+      "brier": 0.207051,
+      "log_loss": 0.596032,
+      "accuracy": 0.675325
+    },
+    "history5_19": {
+      "n": 266,
+      "brier": 0.174773,
+      "log_loss": 0.520256,
+      "accuracy": 0.744361
+    },
+    "history20plus": {
+      "n": 1042,
+      "brier": 0.162988,
+      "log_loss": 0.491853,
+      "accuracy": 0.760077
+    }
+  },
+  "ms_same_period": {
+    "n": 1818,
+    "brier": 0.204388,
+    "log_loss": 0.593914,
+    "accuracy": 0.685919,
+    "calibration": {
+      "n": 1818,
+      "player_a_probability_bins": [
+        {
+          "range_low": 0.0,
+          "range_high": 0.1,
+          "n": 61,
+          "mean_predicted": 0.063498,
+          "observed_frequency": 0.098361,
+          "calibration_gap": 0.034862
+        },
+        {
+          "range_low": 0.1,
+          "range_high": 0.2,
+          "n": 136,
+          "mean_predicted": 0.153105,
+          "observed_frequency": 0.191176,
+          "calibration_gap": 0.038071
+        },
+        {
+          "range_low": 0.2,
+          "range_high": 0.3,
+          "n": 169,
+          "mean_predicted": 0.252563,
+          "observed_frequency": 0.248521,
+          "calibration_gap": -0.004042
+        },
+        {
+          "range_low": 0.3,
+          "range_high": 0.4,
+          "n": 228,
+          "mean_predicted": 0.350609,
+          "observed_frequency": 0.333333,
+          "calibration_gap": -0.017275
+        },
+        {
+          "range_low": 0.4,
+          "range_high": 0.5,
+          "n": 257,
+          "mean_predicted": 0.452399,
+          "observed_frequency": 0.381323,
+          "calibration_gap": -0.071076
+        },
+        {
+          "range_low": 0.5,
+          "range_high": 0.6,
+          "n": 292,
+          "mean_predicted": 0.547036,
+          "observed_frequency": 0.530822,
+          "calibration_gap": -0.016214
+        },
+        {
+          "range_low": 0.6,
+          "range_high": 0.7,
+          "n": 256,
+          "mean_predicted": 0.651266,
+          "observed_frequency": 0.597656,
+          "calibration_gap": -0.05361
+        },
+        {
+          "range_low": 0.7,
+          "range_high": 0.8,
+          "n": 218,
+          "mean_predicted": 0.750857,
+          "observed_frequency": 0.756881,
+          "calibration_gap": 0.006023
+        },
+        {
+          "range_low": 0.8,
+          "range_high": 0.9,
+          "n": 131,
+          "mean_predicted": 0.840701,
+          "observed_frequency": 0.801527,
+          "calibration_gap": -0.039175
+        },
+        {
+          "range_low": 0.9,
+          "range_high": 1.0,
+          "n": 70,
+          "mean_predicted": 0.943035,
+          "observed_frequency": 0.942857,
+          "calibration_gap": -0.000178
+        }
+      ],
+      "predicted_winner_confidence_bins": [
+        {
+          "range_low": 0.5,
+          "range_high": 0.6,
+          "n": 549,
+          "mean_predicted": 0.547301,
+          "observed_frequency": 0.571949,
+          "calibration_gap": 0.024648
+        },
+        {
+          "range_low": 0.6,
+          "range_high": 0.7,
+          "n": 484,
+          "mean_predicted": 0.650383,
+          "observed_frequency": 0.630165,
+          "calibration_gap": -0.020218
+        },
+        {
+          "range_low": 0.7,
+          "range_high": 0.8,
+          "n": 387,
+          "mean_predicted": 0.749364,
+          "observed_frequency": 0.754522,
+          "calibration_gap": 0.005158
+        },
+        {
+          "range_low": 0.8,
+          "range_high": 0.9,
+          "n": 267,
+          "mean_predicted": 0.843856,
+          "observed_frequency": 0.805243,
+          "calibration_gap": -0.038612
+        },
+        {
+          "range_low": 0.9,
+          "range_high": 1.0,
+          "n": 131,
+          "mean_predicted": 0.939993,
+          "observed_frequency": 0.923664,
+          "calibration_gap": -0.016329
+        }
+      ],
+      "scope": "OUT_OF_SAMPLE_WALK_FORWARD_NO_BOOKMAKER_ODDS"
+    }
+  },
+  "comparison_note": "Same 2026 time window, different players and coverage; no claim WS inherently more predictable",
+  "tournament_categories": {
+    "HSBC BWF World Tour Super 1000": {
+      "n": 116,
+      "brier": 0.118147,
+      "log_loss": 0.366146,
+      "accuracy": 0.827586
+    },
+    "HSBC BWF World Tour Super 750": {
+      "n": 178,
+      "brier": 0.135363,
+      "log_loss": 0.441248,
+      "accuracy": 0.831461
+    },
+    "HSBC BWF World Tour Super 500": {
+      "n": 310,
+      "brier": 0.167782,
+      "log_loss": 0.499726,
+      "accuracy": 0.748387
+    },
+    "HSBC BWF World Tour Super 300": {
+      "n": 322,
+      "brier": 0.193136,
+      "log_loss": 0.572055,
+      "accuracy": 0.701863
+    },
+    "Continental Individual Championships": {
+      "n": 226,
+      "brier": 0.196435,
+      "log_loss": 0.568103,
+      "accuracy": 0.70354
+    },
+    "BWF Tour Super 100": {
+      "n": 293,
+      "brier": 0.205145,
+      "log_loss": 0.598787,
+      "accuracy": 0.679181
+    },
+    "Grade 1 – Individual Tournaments": {
+      "n": 61,
+      "brier": 0.06716,
+      "log_loss": 0.229505,
+      "accuracy": 0.934426
+    },
+    "Multi-Sport Games": {
+      "n": 33,
+      "brier": 0.10761,
+      "log_loss": 0.321642,
+      "accuracy": 0.878788
+    }
+  }
+}

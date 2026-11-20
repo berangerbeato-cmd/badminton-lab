@@ -1,0 +1,67 @@
+{
+  "discipline": "WS",
+  "version": "V3.2",
+  "k": 64,
+  "selected": "elo_v3_1_all",
+  "fitted": {
+    "features": [
+      "form10_residual_diff",
+      "matches7_diff",
+      "sets7_diff",
+      "matches14_diff",
+      "rest_days_diff",
+      "inactive30_diff",
+      "h2h24_residual",
+      "elo_trend30_diff",
+      "elo_trend90_diff",
+      "set_margin5_diff",
+      "point_share5_diff"
+    ],
+    "means": {
+      "form10_residual_diff": -0.0004994391469000175,
+      "matches7_diff": 0.009792069632495164,
+      "sets7_diff": 0.027321083172147,
+      "matches14_diff": 0.031068665377176015,
+      "rest_days_diff": -0.0519825918762089,
+      "inactive30_diff": 0.00012088974854932302,
+      "h2h24_residual": 0.00015489701067737606,
+      "elo_trend30_diff": -0.39978478836821685,
+      "elo_trend90_diff": 1.1549878298867147,
+      "set_margin5_diff": 0.011796824629271441,
+      "point_share5_diff": 0.0017104917354685471
+    },
+    "scales": {
+      "form10_residual_diff": 0.21359308108001815,
+      "matches7_diff": 1.2598838849566547,
+      "sets7_diff": 2.9979809742642907,
+      "matches14_diff": 1.7754441837026793,
+      "rest_days_diff": 19.468461474930614,
+      "inactive30_diff": 0.4156337763736861,
+      "h2h24_residual": 0.07908419023831868,
+      "elo_trend30_diff": 54.926107801436466,
+      "elo_trend90_diff": 86.17160289762458,
+      "set_margin5_diff": 1.1286895163994672,
+      "point_share5_diff": 0.07884645329624165
+    },
+    "beta": [
+      -0.004125583667121318,
+      1.173207699601636,
+      -0.00250245100558124,
+      0.1588552003564971,
+      -0.23437109276478518,
+      0.04425327679095456,
+      -0.12499301064816787,
+      0.03030632456790442,
+      0.04968232263120752,
+      0.10365551378386204,
+      -0.08837700857068057,
+      -0.5115721302022852,
+      0.38294456342890026
+    ]
+  },
+  "fit_start": "2019-01-01",
+  "fit_end": "2025-12-31",
+  "training_n": 8272,
+  "training_sha256": "c70d7dbe419431ccb5ed4d3cecbabbe00f0ba203f492569dfe0a3280869fc5b6",
+  "model_id": "75bec879527c6fd8"
+}
