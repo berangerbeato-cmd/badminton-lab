@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_2_live_v1",
-  "generated_at_utc": "2026-11-19T16:00:12.938756+00:00",
+  "generated_at_utc": "2026-11-20T13:54:52.551455+00:00",
   "policy": "MODEL_ONLY_NO_BET_NO_T0_REWRITE",
   "model": "bwf_v3_2_score_rest_live",
   "selected_variant": "elo_plus_score_rest",
@@ -40,31 +40,35 @@
     }
   },
   "retrospective_2026_current_cache": {
-    "n": 1818,
-    "brier": 0.204388,
-    "log_loss": 0.593914,
-    "accuracy": 0.685919
+    "n": 1822,
+    "brier": 0.204269,
+    "log_loss": 0.593674,
+    "accuracy": 0.686608
   },
-  "upcoming_count": 4,
+  "upcoming_count": 2,
   "snapshot_policy": "Current player state uses completed results strictly before the current UTC date; same-day results are excluded.",
   "selection_policy": "Feature set and K were selected before this daily publication. 2026 outcomes never refit coefficients.",
   "trading_policy": "NO BET. Bookmaker prices and verified prematch timing are separate requirements handled downstream.",
   "data_quality": {
-    "not_MS": 53447,
+    "not_MS": 53455,
     "no_full_score": 291,
     "score_not_completed": 224,
-    "no_winner": 16,
+    "no_winner": 14,
     "missing_player_ids": 5,
     "archives_read": 415,
-    "clean_MS_matches": 13994
+    "clean_MS_matches": 13998
   },
   "scored_match_history_freshness": {
-    "latest_loaded_scored_match_day_utc": "2026-11-19",
+    "latest_loaded_scored_match_day_utc": "2026-11-20",
     "days_since_latest_scored_match": 0,
     "freshness_status": "RECENT",
-    "last_7_days_count_including_today": 49,
-    "last_21_days_count_including_today": 195,
+    "last_7_days_count_including_today": 45,
+    "last_21_days_count_including_today": 192,
     "daily_loaded_scored_match_counts": [
+      {
+        "day_utc": "2026-11-20",
+        "scored_ms_matches": 4
+      },
       {
         "day_utc": "2026-11-19",
         "scored_ms_matches": 7
@@ -136,13 +140,49 @@
       {
         "day_utc": "2026-10-30",
         "scored_ms_matches": 4
-      },
-      {
-        "day_utc": "2026-10-29",
-        "scored_ms_matches": 7
       }
     ],
     "last_loaded_examples": [
+      {
+        "day_utc": "2026-11-20",
+        "match_id": "5218:1570095",
+        "tournament": "LI-NING Hong Kong Open 2026",
+        "players": [
+          "KIDAMBI Srikanth",
+          "Kunlavut VITIDSARN"
+        ],
+        "winner": "Kunlavut VITIDSARN"
+      },
+      {
+        "day_utc": "2026-11-20",
+        "match_id": "5218:1570070",
+        "tournament": "LI-NING Hong Kong Open 2026",
+        "players": [
+          "Toma Junior POPOV",
+          "Moh. Zaki UBAIDILLAH"
+        ],
+        "winner": "Moh. Zaki UBAIDILLAH"
+      },
+      {
+        "day_utc": "2026-11-20",
+        "match_id": "5218:1570065",
+        "tournament": "LI-NING Hong Kong Open 2026",
+        "players": [
+          "LOH Kean Yew",
+          "Lakshya SEN"
+        ],
+        "winner": "Lakshya SEN"
+      },
+      {
+        "day_utc": "2026-11-20",
+        "match_id": "5218:1569946",
+        "tournament": "LI-NING Hong Kong Open 2026",
+        "players": [
+          "Anders ANTONSEN",
+          "Xuan Chen ZHU"
+        ],
+        "winner": "Anders ANTONSEN"
+      },
       {
         "day_utc": "2026-11-19",
         "match_id": "5218:1570102",
@@ -152,46 +192,6 @@
           "Kunlavut VITIDSARN"
         ],
         "winner": "Kunlavut VITIDSARN"
-      },
-      {
-        "day_utc": "2026-11-19",
-        "match_id": "5218:1570101",
-        "tournament": "LI-NING Hong Kong Open 2026",
-        "players": [
-          "Tian Yao DONG",
-          "Toma Junior POPOV"
-        ],
-        "winner": "Toma Junior POPOV"
-      },
-      {
-        "day_utc": "2026-11-19",
-        "match_id": "5218:1570100",
-        "tournament": "LI-NING Hong Kong Open 2026",
-        "players": [
-          "Tae Bin YOO",
-          "KIDAMBI Srikanth"
-        ],
-        "winner": "KIDAMBI Srikanth"
-      },
-      {
-        "day_utc": "2026-11-19",
-        "match_id": "5218:1570096",
-        "tournament": "LI-NING Hong Kong Open 2026",
-        "players": [
-          "LOH Kean Yew",
-          "Kenta NISHIMOTO"
-        ],
-        "winner": "LOH Kean Yew"
-      },
-      {
-        "day_utc": "2026-11-19",
-        "match_id": "5218:1570094",
-        "tournament": "LI-NING Hong Kong Open 2026",
-        "players": [
-          "LIN Chun-Yi",
-          "Xuan Chen ZHU"
-        ],
-        "winner": "Xuan Chen ZHU"
       }
     ],
     "date_note": "Match day is derived from the BWF archive start_time; it is not a separately verified score-publication timestamp. Same-UTC-day results remain excluded from the current V3.2 Elo snapshot."

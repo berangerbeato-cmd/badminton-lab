@@ -7,28 +7,28 @@
       {
         "source": "netbet_quotes",
         "players": [
-          "Kean Yew Loh",
+          "Anders Antonsen",
           "Lakshya Sen"
         ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-20"
+        "status": "TOURNAMENT_MISMATCH",
+        "listed_day_paris": null
       }
     ],
     "external_schedule_coverage_count": 0,
     "kickoff_evidence_status_counts": {},
     "prematch_timing_status_counts": {},
-    "model_fixture_count": 4,
+    "model_fixture_count": 2,
     "public_quote_count": 1,
     "comparison_count": 1,
     "status_counts": {
-      "FIXTURE_ABSENT_FROM_MODEL": 1
+      "TOURNAMENT_MISMATCH": 1
     },
     "verified_prematch_count": 0,
     "validated_roi_pct": null,
     "missing_kickoff_count": 0,
     "missing_executable_price_count": 0
   },
-  "generated_at_utc": "2026-11-19T16:01:47+00:00",
+  "generated_at_utc": "2026-11-20T13:56:37+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 1,
   "rejected_sources": [],
@@ -50,13 +50,11 @@
     {
       "source": "netbet_quotes",
       "players": [
-        "Kean Yew Loh",
+        "Anders Antonsen",
         "Lakshya Sen"
       ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 4,
-      "listed_day_paris": "2026-11-20",
+      "bwf_match_id": "5218:1569947",
+      "status": "TOURNAMENT_MISMATCH",
       "decision": "NO_BET"
     }
   ]
