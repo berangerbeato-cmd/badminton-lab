@@ -6,11 +6,11 @@
   "chosen_k": 48,
   "data_quality": {
     "archives_read": 415,
-    "clean_MS_matches": 13994,
+    "clean_MS_matches": 13998,
     "missing_player_ids": 5,
     "no_full_score": 291,
-    "no_winner": 16,
-    "not_MS": 53447,
+    "no_winner": 14,
+    "not_MS": 53455,
     "score_not_completed": 224
   },
   "discipline": "MS",
@@ -28,7 +28,7 @@
     "2023": 2057,
     "2024": 2023,
     "2025": 1976,
-    "2026": 1818
+    "2026": 1822
   },
   "model": "bwf_elo_ms_v0",
   "notes": [
