@@ -1,0 +1,64 @@
+name: Badminton WS V3.2 independent daily
+on:
+  workflow_dispatch:
+  push:
+    branches: ['feature/ws-v32-model']
+    paths: ['ws_*.py', 'test_ws_v32.py', 'badminton_singles_value.py', 'singles_ledger.py', '.github/workflows/badminton_ws_v32.yml']
+  pull_request:
+    paths: ['ws_*.py', 'test_ws_v32.py', 'badminton_singles_value.py', 'singles_ledger.py', '.github/workflows/badminton_ws_v32.yml']
+  workflow_run:
+    workflows: ['Badminton BWF incremental source refresh (NO BET)']
+    types: [completed]
+    branches: [main]
+  schedule:
+    - cron: '50 9 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: ws-v32-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  ws:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Existing and WS regression tests
+        run: |
+          python -m unittest discover -v
+          python elo_model.py --self-test
+          python badminton_v3_2_daily.py --self-test
+          python badminton_v3_2_walkforward.py --self-test
+      - name: Reproduce independent training on review branches
+        if: github.ref != 'refs/heads/main'
+        run: |
+          python ws_model.py train --out /tmp/ws-reproduced
+          cmp data/ws_v3_2/model.json /tmp/ws-reproduced/model.json
+      - name: WS daily from shared cache without duplicate downloads or refitting
+        run: python ws_model.py daily
+      - name: Preserve diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ws-v32-${{ github.run_id }}
+          path: data/ws_v3_2
+      - name: Prepare isolated generated publication
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        run: python publish_generated.py prepare --bundle "${{ runner.temp }}/ws-bundle" --paths data/ws_v3_2 --guard data/bwf
+      - name: Publish WS outputs only
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        run: python publish_generated.py publish --bundle "${{ runner.temp }}/ws-bundle"
+      - name: Enforce freshness after preserving diagnostics
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import date
+          r=json.load(open('data/ws_v3_2/latest.json'))
+          age=(date.fromisoformat(r['asof_utc'][:10])-date.fromisoformat(r['quality']['latest_match'])).days
+          if age > 7: raise SystemExit('WS source stale: NO BET')
+          PY

@@ -1,0 +1,7388 @@
+[
+  {
+    "player_id": "87442",
+    "name": "AN Se Young",
+    "elo": 2842.2563621279933,
+    "matches": 418
+  },
+  {
+    "player_id": "96312",
+    "name": "Akane YAMAGUCHI",
+    "elo": 2509.350063614538,
+    "matches": 437
+  },
+  {
+    "player_id": "18228",
+    "name": "Carolina MARIN",
+    "elo": 2350.104100451073,
+    "matches": 246
+  },
+  {
+    "player_id": "78778",
+    "name": "CHEN Yu Fei",
+    "elo": 2327.438937856252,
+    "matches": 412
+  },
+  {
+    "player_id": "61854",
+    "name": "WANG Zhi Yi",
+    "elo": 2323.9859532187984,
+    "matches": 335
+  },
+  {
+    "player_id": "87434",
+    "name": "Bing Jiao HE",
+    "elo": 2263.1875137571596,
+    "matches": 252
+  },
+  {
+    "player_id": "92967",
+    "name": "HAN Yue",
+    "elo": 2202.569099085711,
+    "matches": 331
+  },
+  {
+    "player_id": "61427",
+    "name": "TAI Tzu Ying",
+    "elo": 2186.633870341923,
+    "matches": 291
+  },
+  {
+    "player_id": "73173",
+    "name": "PUSARLA V. Sindhu",
+    "elo": 2185.3454717298846,
+    "matches": 364
+  },
+  {
+    "player_id": "96713",
+    "name": "Nozomi OKUHARA",
+    "elo": 2163.385476900313,
+    "matches": 322
+  },
+  {
+    "player_id": "82070",
+    "name": "Tomoka MIYAZAKI",
+    "elo": 2151.4549554614173,
+    "matches": 168
+  },
+  {
+    "player_id": "99069",
+    "name": "SIM Yu Jin",
+    "elo": 2104.79653644858,
+    "matches": 159
+  },
+  {
+    "player_id": "68479",
+    "name": "Hina AKECHI",
+    "elo": 2102.5942538986897,
+    "matches": 100
+  },
+  {
+    "player_id": "70930",
+    "name": "KIM Gaeun",
+    "elo": 2085.401573792073,
+    "matches": 256
+  },
+  {
+    "player_id": "84062",
+    "name": "Pornpawee CHOCHUWONG",
+    "elo": 2071.873529622585,
+    "matches": 342
+  },
+  {
+    "player_id": "91224",
+    "name": "Mia BLICHFELDT",
+    "elo": 2068.677146511699,
+    "matches": 227
+  },
+  {
+    "player_id": "35642",
+    "name": "Ratchanok INTANON",
+    "elo": 2063.0695620583047,
+    "matches": 372
+  },
+  {
+    "player_id": "95189",
+    "name": "Aya OHORI",
+    "elo": 2058.785122835228,
+    "matches": 207
+  },
+  {
+    "player_id": "78116",
+    "name": "GAO Fang Jie",
+    "elo": 2038.8664500989612,
+    "matches": 144
+  },
+  {
+    "player_id": "69463",
+    "name": "Pitchamon OPATNIPUTH",
+    "elo": 1997.3385357745237,
+    "matches": 95
+  },
+  {
+    "player_id": "76890",
+    "name": "Putri Kusuma WARDANI",
+    "elo": 1995.1077232565315,
+    "matches": 198
+  },
+  {
+    "player_id": "76079",
+    "name": "Riko GUNJI",
+    "elo": 1980.5429750361736,
+    "matches": 104
+  },
+  {
+    "player_id": "85302",
+    "name": "Line CHRISTOPHERSEN",
+    "elo": 1966.8302443058424,
+    "matches": 208
+  },
+  {
+    "player_id": "83802",
+    "name": "Gregoria Mariska TUNJUNG",
+    "elo": 1965.8116750499548,
+    "matches": 263
+  },
+  {
+    "player_id": "58720",
+    "name": "ZHANG Yi Man",
+    "elo": 1960.8128310009245,
+    "matches": 179
+  },
+  {
+    "player_id": "96725",
+    "name": "LIN Hsiang Ti",
+    "elo": 1937.926356194578,
+    "matches": 164
+  },
+  {
+    "player_id": "34890",
+    "name": "Sayaka TAKAHASHI",
+    "elo": 1936.1460528013358,
+    "matches": 118
+  },
+  {
+    "player_id": "99042",
+    "name": "Tanvi SHARMA",
+    "elo": 1935.932629922375,
+    "matches": 73
+  },
+  {
+    "player_id": "60915",
+    "name": "XU Wen Jing",
+    "elo": 1909.8066983549584,
+    "matches": 52
+  },
+  {
+    "player_id": "84523",
+    "name": "Michelle LI",
+    "elo": 1905.7121839241845,
+    "matches": 311
+  },
+  {
+    "player_id": "75628",
+    "name": "Ashmita CHALIHA",
+    "elo": 1893.302852324566,
+    "matches": 98
+  },
+  {
+    "player_id": "91422",
+    "name": "Supanida KATETHONG",
+    "elo": 1879.1341207752866,
+    "matches": 239
+  },
+  {
+    "player_id": "80862",
+    "name": "CHIU Pin-Chian",
+    "elo": 1867.7151134000646,
+    "matches": 143
+  },
+  {
+    "player_id": "69046",
+    "name": "YUAN An Qi",
+    "elo": 1861.5938783051042,
+    "matches": 25
+  },
+  {
+    "player_id": "75678",
+    "name": "Thuy Linh NGUYEN",
+    "elo": 1849.7600399319945,
+    "matches": 168
+  },
+  {
+    "player_id": "91896",
+    "name": "Natsuki NIDAIRA",
+    "elo": 1831.6671460711466,
+    "matches": 141
+  },
+  {
+    "player_id": "92928",
+    "name": "HAN Qian Xi",
+    "elo": 1822.0557999231823,
+    "matches": 86
+  },
+  {
+    "player_id": "63437",
+    "name": "Line Højmark KJAERSFELDT",
+    "elo": 1820.7186761875023,
+    "matches": 265
+  },
+  {
+    "player_id": "76594",
+    "name": "SUNG Jihyun",
+    "elo": 1813.8395797686646,
+    "matches": 98
+  },
+  {
+    "player_id": "89700",
+    "name": "CAI Yan Yan",
+    "elo": 1811.0194140504598,
+    "matches": 120
+  },
+  {
+    "player_id": "92444",
+    "name": "Ni Kadek Dhinda Amartya PRATIWI",
+    "elo": 1800.7346980187529,
+    "matches": 50
+  },
+  {
+    "player_id": "58664",
+    "name": "Anmol KHARB",
+    "elo": 1798.7366766168032,
+    "matches": 67
+  },
+  {
+    "player_id": "87112",
+    "name": "Kaloyana NALBANTOVA",
+    "elo": 1790.9106734933441,
+    "matches": 65
+  },
+  {
+    "player_id": "48528",
+    "name": "Kirsty GILMOUR",
+    "elo": 1787.095900354441,
+    "matches": 235
+  },
+  {
+    "player_id": "83822",
+    "name": "YEO Jia Min",
+    "elo": 1780.374767950846,
+    "matches": 218
+  },
+  {
+    "player_id": "91807",
+    "name": "Rakshitha Sree SANTHOSH RAMRAJ",
+    "elo": 1779.2412687565345,
+    "matches": 67
+  },
+  {
+    "player_id": "58271",
+    "name": "Busanan ONGBAMRUNGPHAN",
+    "elo": 1774.8456874016988,
+    "matches": 295
+  },
+  {
+    "player_id": "75193",
+    "name": "Johanita SCHOLTZ",
+    "elo": 1770.6732644235924,
+    "matches": 38
+  },
+  {
+    "player_id": "59687",
+    "name": "Unnati HOODA",
+    "elo": 1766.8264620376647,
+    "matches": 94
+  },
+  {
+    "player_id": "53806",
+    "name": "Beiwen ZHANG",
+    "elo": 1763.778078895382,
+    "matches": 274
+  },
+  {
+    "player_id": "97495",
+    "name": "CHEN Lu",
+    "elo": 1762.4372010960344,
+    "matches": 13
+  },
+  {
+    "player_id": "76632",
+    "name": "LI Yun",
+    "elo": 1756.670261913736,
+    "matches": 23
+  },
+  {
+    "player_id": "62883",
+    "name": "Shaunna LI",
+    "elo": 1752.223700106799,
+    "matches": 37
+  },
+  {
+    "player_id": "53807",
+    "name": "Thamonwan NITHIITTIKRAI",
+    "elo": 1738.1121422829544,
+    "matches": 46
+  },
+  {
+    "player_id": "73969",
+    "name": "Ga Ram KIM",
+    "elo": 1725.989103728435,
+    "matches": 28
+  },
+  {
+    "player_id": "64643",
+    "name": "LI Xue Rui",
+    "elo": 1725.8076723606841,
+    "matches": 58
+  },
+  {
+    "player_id": "40545",
+    "name": "Hsuan-Yu Wendy CHEN",
+    "elo": 1724.9137830962907,
+    "matches": 50
+  },
+  {
+    "player_id": "81585",
+    "name": "DAI Wang",
+    "elo": 1724.70388279964,
+    "matches": 43
+  },
+  {
+    "player_id": "85048",
+    "name": "Ester Nurumi Tri WARDOYO",
+    "elo": 1723.765291805177,
+    "matches": 51
+  },
+  {
+    "player_id": "66644",
+    "name": "Minatsu MITANI",
+    "elo": 1719.1183123437133,
+    "matches": 34
+  },
+  {
+    "player_id": "64956",
+    "name": "Mutiara Ayu PUSPITASARI",
+    "elo": 1717.0097539822175,
+    "matches": 42
+  },
+  {
+    "player_id": "57971",
+    "name": "Nitchaon JINDAPOL",
+    "elo": 1716.1193425743656,
+    "matches": 84
+  },
+  {
+    "player_id": "59367",
+    "name": "Karupathevan LETSHANAA",
+    "elo": 1710.143325492134,
+    "matches": 99
+  },
+  {
+    "player_id": "87629",
+    "name": "HO Yen Mei",
+    "elo": 1705.181249379603,
+    "matches": 13
+  },
+  {
+    "player_id": "92400",
+    "name": "Evgeniya KOSETSKAYA",
+    "elo": 1704.961734457744,
+    "matches": 93
+  },
+  {
+    "player_id": "86261",
+    "name": "LO Sin Yan Happy",
+    "elo": 1704.6498059250646,
+    "matches": 93
+  },
+  {
+    "player_id": "88471",
+    "name": "Malvika BANSOD",
+    "elo": 1703.3025416840442,
+    "matches": 120
+  },
+  {
+    "player_id": "58637",
+    "name": "CHEN Xiao Xin",
+    "elo": 1701.0530055328707,
+    "matches": 56
+  },
+  {
+    "player_id": "70651",
+    "name": "Amalie SCHULZ",
+    "elo": 1699.1438094661694,
+    "matches": 79
+  },
+  {
+    "player_id": "77627",
+    "name": "DENG Joy Xuan",
+    "elo": 1694.7029702687862,
+    "matches": 18
+  },
+  {
+    "player_id": "90287",
+    "name": "Devika SIHAG",
+    "elo": 1691.867234189387,
+    "matches": 42
+  },
+  {
+    "player_id": "94712",
+    "name": "Asuka TAKAHASHI",
+    "elo": 1690.9941422162171,
+    "matches": 96
+  },
+  {
+    "player_id": "77002",
+    "name": "Julie Dawall JAKOBSEN",
+    "elo": 1688.0463856894164,
+    "matches": 129
+  },
+  {
+    "player_id": "79753",
+    "name": "JI Shu Ting",
+    "elo": 1684.0686196173774,
+    "matches": 37
+  },
+  {
+    "player_id": "61614",
+    "name": "TUNG Ciou-Tong",
+    "elo": 1683.1162320072692,
+    "matches": 79
+  },
+  {
+    "player_id": "66362",
+    "name": "Tidapron KLEEBYEESUN",
+    "elo": 1681.9788357511818,
+    "matches": 35
+  },
+  {
+    "player_id": "91560",
+    "name": "Wen Yu ZHANG",
+    "elo": 1681.8388143503587,
+    "matches": 95
+  },
+  {
+    "player_id": "66368",
+    "name": "Min Sun KIM",
+    "elo": 1676.989443954836,
+    "matches": 32
+  },
+  {
+    "player_id": "42679",
+    "name": "KATE FOO KUNE",
+    "elo": 1671.9887444794422,
+    "matches": 35
+  },
+  {
+    "player_id": "64389",
+    "name": "Tiffany HO",
+    "elo": 1671.5530252604606,
+    "matches": 48
+  },
+  {
+    "player_id": "81880",
+    "name": "Haruko SUZUKI",
+    "elo": 1666.3471741564479,
+    "matches": 11
+  },
+  {
+    "player_id": "40794",
+    "name": "Sheng Xuan LUO",
+    "elo": 1662.889611804821,
+    "matches": 15
+  },
+  {
+    "player_id": "97685",
+    "name": "HUANG Yu-Hsun",
+    "elo": 1661.9716566252382,
+    "matches": 108
+  },
+  {
+    "player_id": "76851",
+    "name": "Isharani BARUAH",
+    "elo": 1661.3402681628638,
+    "matches": 70
+  },
+  {
+    "player_id": "88133",
+    "name": "Natsuki OIE",
+    "elo": 1660.1923387969796,
+    "matches": 11
+  },
+  {
+    "player_id": "52748",
+    "name": "Saina NEHWAL",
+    "elo": 1655.5808230728069,
+    "matches": 124
+  },
+  {
+    "player_id": "88020",
+    "name": "Nour Ahmed YOUSSRI",
+    "elo": 1654.3490263650715,
+    "matches": 28
+  },
+  {
+    "player_id": "71280",
+    "name": "Yuan Chi LIAO",
+    "elo": 1652.7744405907254,
+    "matches": 21
+  },
+  {
+    "player_id": "67828",
+    "name": "Manami SUIZU",
+    "elo": 1652.466519124671,
+    "matches": 76
+  },
+  {
+    "player_id": "62928",
+    "name": "Sarunrak VITIDSARN",
+    "elo": 1651.0216280736445,
+    "matches": 10
+  },
+  {
+    "player_id": "88807",
+    "name": "SUNG Shuo Yun",
+    "elo": 1650.2670867395668,
+    "matches": 189
+  },
+  {
+    "player_id": "87885",
+    "name": "Neslihan ARIN",
+    "elo": 1649.5379709329477,
+    "matches": 128
+  },
+  {
+    "player_id": "93199",
+    "name": "Fadilah Shamika MOHAMED RAFI",
+    "elo": 1640.8423641669501,
+    "matches": 37
+  },
+  {
+    "player_id": "71455",
+    "name": "Thi Trang (B) VU",
+    "elo": 1638.2204956092426,
+    "matches": 57
+  },
+  {
+    "player_id": "86604",
+    "name": "Tasnim MIR",
+    "elo": 1637.5825600524163,
+    "matches": 49
+  },
+  {
+    "player_id": "73121",
+    "name": "Dorcas Ajoke ADESOKAN",
+    "elo": 1636.3877284967436,
+    "matches": 31
+  },
+  {
+    "player_id": "97446",
+    "name": "Yataweemin KETKLIENG",
+    "elo": 1633.107732597949,
+    "matches": 21
+  },
+  {
+    "player_id": "79082",
+    "name": "WU Luo Yu",
+    "elo": 1630.5253371740257,
+    "matches": 46
+  },
+  {
+    "player_id": "78208",
+    "name": "Rachel CHAN",
+    "elo": 1628.8590510471709,
+    "matches": 56
+  },
+  {
+    "player_id": "73387",
+    "name": "MANSI SINGH",
+    "elo": 1627.6984505864007,
+    "matches": 34
+  },
+  {
+    "player_id": "96036",
+    "name": "QIU Zi Ying",
+    "elo": 1622.886845065242,
+    "matches": 11
+  },
+  {
+    "player_id": "75398",
+    "name": "Moto HAYASHI",
+    "elo": 1622.6367958239232,
+    "matches": 14
+  },
+  {
+    "player_id": "62301",
+    "name": "LALINRAT CHAIWAN",
+    "elo": 1620.8667518797954,
+    "matches": 131
+  },
+  {
+    "player_id": "50959",
+    "name": "Tonrug SAEHENG",
+    "elo": 1620.2009560634613,
+    "matches": 30
+  },
+  {
+    "player_id": "69012",
+    "name": "GOH Jin Wei",
+    "elo": 1617.7419687375448,
+    "matches": 142
+  },
+  {
+    "player_id": "77278",
+    "name": "Shiori SAITO",
+    "elo": 1617.6248733903394,
+    "matches": 27
+  },
+  {
+    "player_id": "61568",
+    "name": "Saena KAWAKAMI",
+    "elo": 1616.812664288187,
+    "matches": 103
+  },
+  {
+    "player_id": "59283",
+    "name": "YANG Yu-Chi",
+    "elo": 1616.450469946917,
+    "matches": 9
+  },
+  {
+    "player_id": "70595",
+    "name": "Shriyanshi VALISHETTY",
+    "elo": 1616.067502002844,
+    "matches": 51
+  },
+  {
+    "player_id": "66485",
+    "name": "PARK Ga Eun",
+    "elo": 1615.1771457228933,
+    "matches": 45
+  },
+  {
+    "player_id": "95664",
+    "name": "Rachel HONDERICH",
+    "elo": 1614.4980524354157,
+    "matches": 28
+  },
+  {
+    "player_id": "75658",
+    "name": "Yasmina CHIBAH",
+    "elo": 1613.591665375768,
+    "matches": 21
+  },
+  {
+    "player_id": "77296",
+    "name": "WONG Ling Ching",
+    "elo": 1613.026499754604,
+    "matches": 78
+  },
+  {
+    "player_id": "86742",
+    "name": "Xiao-Ting SU",
+    "elo": 1612.0109028049621,
+    "matches": 5
+  },
+  {
+    "player_id": "57798",
+    "name": "Iris WANG",
+    "elo": 1611.9716084852053,
+    "matches": 95
+  },
+  {
+    "player_id": "96365",
+    "name": "Husina KOBUGABE",
+    "elo": 1611.0303018859354,
+    "matches": 27
+  },
+  {
+    "player_id": "89583",
+    "name": "Wen Chi HSU",
+    "elo": 1608.1883576646367,
+    "matches": 155
+  },
+  {
+    "player_id": "91598",
+    "name": "KIM Hyo Min",
+    "elo": 1608.0292794217264,
+    "matches": 51
+  },
+  {
+    "player_id": "81986",
+    "name": "Ruselli HARTAWAN",
+    "elo": 1607.2140390897384,
+    "matches": 79
+  },
+  {
+    "player_id": "88927",
+    "name": "Jesslyn CARRISIA",
+    "elo": 1604.110467052608,
+    "matches": 5
+  },
+  {
+    "player_id": "74809",
+    "name": "Sofiat Arinola OBANISHOLA",
+    "elo": 1601.3828421076319,
+    "matches": 11
+  },
+  {
+    "player_id": "95172",
+    "name": "Sakura MASUKI",
+    "elo": 1601.2685629824853,
+    "matches": 22
+  },
+  {
+    "player_id": "57727",
+    "name": "Shiori EBIHARA",
+    "elo": 1599.3681810849794,
+    "matches": 7
+  },
+  {
+    "player_id": "64055",
+    "name": "Chiara Marvella HANDOYO",
+    "elo": 1598.9249610461254,
+    "matches": 27
+  },
+  {
+    "player_id": "91106",
+    "name": "Yvonne LI",
+    "elo": 1598.6779515822657,
+    "matches": 193
+  },
+  {
+    "player_id": "60634",
+    "name": "Yu Wei PENG",
+    "elo": 1597.7314680150048,
+    "matches": 33
+  },
+  {
+    "player_id": "75513",
+    "name": "KIM Min Ji",
+    "elo": 1597.3292466047278,
+    "matches": 25
+  },
+  {
+    "player_id": "54511",
+    "name": "Porntip BURANAPRASERTSUK",
+    "elo": 1596.6969955444572,
+    "matches": 35
+  },
+  {
+    "player_id": "91611",
+    "name": "Joy LAI",
+    "elo": 1596.0,
+    "matches": 3
+  },
+  {
+    "player_id": "95820",
+    "name": "LEE Se Yeon",
+    "elo": 1594.5860400479964,
+    "matches": 30
+  },
+  {
+    "player_id": "72058",
+    "name": "Tamisha WILLIAMS",
+    "elo": 1594.5200079414135,
+    "matches": 9
+  },
+  {
+    "player_id": "86234",
+    "name": "Gladys MBABAZI",
+    "elo": 1594.4238339586655,
+    "matches": 24
+  },
+  {
+    "player_id": "89783",
+    "name": "Nodoka SUNAKAWA",
+    "elo": 1593.8302828273504,
+    "matches": 7
+  },
+  {
+    "player_id": "67921",
+    "name": "Sydney TJONADI",
+    "elo": 1592.0886642810965,
+    "matches": 17
+  },
+  {
+    "player_id": "88581",
+    "name": "Elsa HOW HONG",
+    "elo": 1592.006118429177,
+    "matches": 8
+  },
+  {
+    "player_id": "56963",
+    "name": "Mako URUSHIZAKI",
+    "elo": 1591.4187707787999,
+    "matches": 7
+  },
+  {
+    "player_id": "18143",
+    "name": "Soniia CHEAH",
+    "elo": 1590.2195825080178,
+    "matches": 60
+  },
+  {
+    "player_id": "64600",
+    "name": "Thalita Ramadhani WIRYAWAN",
+    "elo": 1589.25418567879,
+    "matches": 31
+  },
+  {
+    "player_id": "80757",
+    "name": "YANG Jing Rui",
+    "elo": 1589.2177272516356,
+    "matches": 15
+  },
+  {
+    "player_id": "64853",
+    "name": "ZHENG Shu Ya",
+    "elo": 1588.7545481277452,
+    "matches": 12
+  },
+  {
+    "player_id": "84428",
+    "name": "Ophelia CASIER",
+    "elo": 1586.9280338572971,
+    "matches": 4
+  },
+  {
+    "player_id": "16665",
+    "name": "Smrithi ADEPU",
+    "elo": 1585.3514818301894,
+    "matches": 10
+  },
+  {
+    "player_id": "44570",
+    "name": "Xin Yan ZHENG",
+    "elo": 1585.0625247419205,
+    "matches": 16
+  },
+  {
+    "player_id": "64901",
+    "name": "Hirari MIZUI",
+    "elo": 1583.8501223943929,
+    "matches": 9
+  },
+  {
+    "player_id": "54148",
+    "name": "Sylvina KURNIAWAN",
+    "elo": 1582.9876217379358,
+    "matches": 5
+  },
+  {
+    "player_id": "44874",
+    "name": "Mimi NGO",
+    "elo": 1582.6592431475174,
+    "matches": 8
+  },
+  {
+    "player_id": "96038",
+    "name": "Joo Eun KIM",
+    "elo": 1582.4734912471047,
+    "matches": 43
+  },
+  {
+    "player_id": "94348",
+    "name": "HUANG Ching Ping",
+    "elo": 1580.9629982270694,
+    "matches": 75
+  },
+  {
+    "player_id": "60908",
+    "name": "KIM Na Yeong",
+    "elo": 1575.3653709101995,
+    "matches": 6
+  },
+  {
+    "player_id": "73559",
+    "name": "Louisa MA",
+    "elo": 1571.8045066425336,
+    "matches": 30
+  },
+  {
+    "player_id": "74880",
+    "name": "Adita RAO",
+    "elo": 1571.6950310872528,
+    "matches": 11
+  },
+  {
+    "player_id": "87718",
+    "name": "Stephanie WIDJAJA",
+    "elo": 1569.9286490590282,
+    "matches": 16
+  },
+  {
+    "player_id": "87351",
+    "name": "Lalita SATTAYATHADAKOON",
+    "elo": 1567.5203160854135,
+    "matches": 6
+  },
+  {
+    "player_id": "80532",
+    "name": "Kaoru SUGIYAMA",
+    "elo": 1566.5942913553795,
+    "matches": 48
+  },
+  {
+    "player_id": "57339",
+    "name": "Saumya GUPTA",
+    "elo": 1566.0537748286397,
+    "matches": 7
+  },
+  {
+    "player_id": "70079",
+    "name": "Eliana ZHANG",
+    "elo": 1562.0763751041766,
+    "matches": 12
+  },
+  {
+    "player_id": "50591",
+    "name": "Jaymie LAURENS",
+    "elo": 1560.8582635193395,
+    "matches": 8
+  },
+  {
+    "player_id": "43256",
+    "name": "Yui HASHIMOTO",
+    "elo": 1560.4707762296393,
+    "matches": 3
+  },
+  {
+    "player_id": "93409",
+    "name": "ZHANG Xin Ran",
+    "elo": 1560.287664328559,
+    "matches": 9
+  },
+  {
+    "player_id": "77633",
+    "name": "Yuelin ZHANG",
+    "elo": 1559.9958924730865,
+    "matches": 12
+  },
+  {
+    "player_id": "80024",
+    "name": "Mau Ying YAU",
+    "elo": 1559.5770759784707,
+    "matches": 3
+  },
+  {
+    "player_id": "74582",
+    "name": "Yingzi JIANG",
+    "elo": 1556.8164909229101,
+    "matches": 8
+  },
+  {
+    "player_id": "80069",
+    "name": "RUTH CHINENYE EBERE",
+    "elo": 1556.3781610746237,
+    "matches": 12
+  },
+  {
+    "player_id": "82405",
+    "name": "Deidre LAURENS",
+    "elo": 1555.6315071340978,
+    "matches": 8
+  },
+  {
+    "player_id": "87428",
+    "name": "Kie NAKANISHI",
+    "elo": 1555.4962729311087,
+    "matches": 4
+  },
+  {
+    "player_id": "84113",
+    "name": "Michelle SKØDSTRUP",
+    "elo": 1553.5348801723155,
+    "matches": 9
+  },
+  {
+    "player_id": "79043",
+    "name": "Sydney GO",
+    "elo": 1553.1195269341574,
+    "matches": 9
+  },
+  {
+    "player_id": "64193",
+    "name": "Moe AOKI",
+    "elo": 1552.366339045328,
+    "matches": 3
+  },
+  {
+    "player_id": "69082",
+    "name": "Ayumi MINE",
+    "elo": 1552.30023725073,
+    "matches": 42
+  },
+  {
+    "player_id": "74481",
+    "name": "Anupama UPADHYAYA",
+    "elo": 1552.026563901749,
+    "matches": 72
+  },
+  {
+    "player_id": "81268",
+    "name": "Ilishaa PAL",
+    "elo": 1551.686517442163,
+    "matches": 5
+  },
+  {
+    "player_id": "95593",
+    "name": "Sorano YOSHIKAWA",
+    "elo": 1551.5545031688814,
+    "matches": 10
+  },
+  {
+    "player_id": "95555",
+    "name": "Chih-Yun CHENG",
+    "elo": 1551.4190798585448,
+    "matches": 9
+  },
+  {
+    "player_id": "31510",
+    "name": "Yi Qing YIN",
+    "elo": 1551.3923109111047,
+    "matches": 5
+  },
+  {
+    "player_id": "79968",
+    "name": "WANG Si Qi",
+    "elo": 1551.3648785684138,
+    "matches": 4
+  },
+  {
+    "player_id": "68566",
+    "name": "Natalie CHI",
+    "elo": 1551.0879570914606,
+    "matches": 12
+  },
+  {
+    "player_id": "64349",
+    "name": "Komang Ayu Cahya DEWI",
+    "elo": 1550.8318412895283,
+    "matches": 58
+  },
+  {
+    "player_id": "96877",
+    "name": "Polina BUHROVA",
+    "elo": 1549.7918211086383,
+    "matches": 102
+  },
+  {
+    "player_id": "71648",
+    "name": "Kana FURUKAWA",
+    "elo": 1549.7770252836267,
+    "matches": 5
+  },
+  {
+    "player_id": "66615",
+    "name": "Tanvi LAD",
+    "elo": 1549.5635054639272,
+    "matches": 8
+  },
+  {
+    "player_id": "98643",
+    "name": "Aliye DEMIRBAG",
+    "elo": 1549.5401710702442,
+    "matches": 29
+  },
+  {
+    "player_id": "78534",
+    "name": "Natalia Koch ROHDE",
+    "elo": 1549.31930677282,
+    "matches": 7
+  },
+  {
+    "player_id": "63380",
+    "name": "Jenny ZHU",
+    "elo": 1549.2730649313778,
+    "matches": 15
+  },
+  {
+    "player_id": "62777",
+    "name": "Amy WANG",
+    "elo": 1548.5009813922002,
+    "matches": 9
+  },
+  {
+    "player_id": "76343",
+    "name": "Jessica Pui Yan LI",
+    "elo": 1548.3901058049282,
+    "matches": 3
+  },
+  {
+    "player_id": "84897",
+    "name": "Juliana Viana VIEIRA",
+    "elo": 1548.2224568285671,
+    "matches": 42
+  },
+  {
+    "player_id": "71673",
+    "name": "Su Yu CHEN",
+    "elo": 1547.6666074246893,
+    "matches": 91
+  },
+  {
+    "player_id": "81842",
+    "name": "PARK Min Jeong",
+    "elo": 1546.9757395055728,
+    "matches": 3
+  },
+  {
+    "player_id": "63656",
+    "name": "Jana ASHRAF",
+    "elo": 1545.8756254914888,
+    "matches": 10
+  },
+  {
+    "player_id": "89154",
+    "name": "Faye HUO",
+    "elo": 1545.303934352498,
+    "matches": 9
+  },
+  {
+    "player_id": "56943",
+    "name": "Frederikke ØSTERGAARD",
+    "elo": 1544.5826117378422,
+    "matches": 3
+  },
+  {
+    "player_id": "80871",
+    "name": "Benyapa AIMSAARD",
+    "elo": 1544.3574513829722,
+    "matches": 13
+  },
+  {
+    "player_id": "83371",
+    "name": "Catelyn ROZARIO",
+    "elo": 1544.1743565025183,
+    "matches": 7
+  },
+  {
+    "player_id": "57246",
+    "name": "WEI Ya Xin",
+    "elo": 1543.9268126484892,
+    "matches": 15
+  },
+  {
+    "player_id": "97229",
+    "name": "Victoria TJONADI",
+    "elo": 1543.8948867641943,
+    "matches": 15
+  },
+  {
+    "player_id": "61871",
+    "name": "Isabella YAN",
+    "elo": 1542.894946805205,
+    "matches": 9
+  },
+  {
+    "player_id": "97138",
+    "name": "Saya YAMAMOTO",
+    "elo": 1540.943627935094,
+    "matches": 3
+  },
+  {
+    "player_id": "77256",
+    "name": "QI Xuefei",
+    "elo": 1540.8419480401337,
+    "matches": 83
+  },
+  {
+    "player_id": "80386",
+    "name": "Xin Yee ONG",
+    "elo": 1540.508727171748,
+    "matches": 7
+  },
+  {
+    "player_id": "98695",
+    "name": "QIN Jinjing",
+    "elo": 1540.2827862266245,
+    "matches": 3
+  },
+  {
+    "player_id": "85668",
+    "name": "WANG Pei Yu",
+    "elo": 1539.796007664074,
+    "matches": 29
+  },
+  {
+    "player_id": "86993",
+    "name": "Daniela ACOSTA",
+    "elo": 1536.4331725649008,
+    "matches": 4
+  },
+  {
+    "player_id": "99381",
+    "name": "Oei Louisa Jovanka Sandi WINARTO",
+    "elo": 1535.975832284023,
+    "matches": 3
+  },
+  {
+    "player_id": "65337",
+    "name": "Nanami SOMEYA",
+    "elo": 1535.3796255299505,
+    "matches": 3
+  },
+  {
+    "player_id": "35379",
+    "name": "Nicole FANG",
+    "elo": 1535.338463159601,
+    "matches": 3
+  },
+  {
+    "player_id": "97631",
+    "name": "DAI Qin Yi",
+    "elo": 1535.033635145395,
+    "matches": 14
+  },
+  {
+    "player_id": "96892",
+    "name": "Fitriani FITRIANI",
+    "elo": 1534.9772314310787,
+    "matches": 73
+  },
+  {
+    "player_id": "63462",
+    "name": "Zainab MOMOH",
+    "elo": 1534.939003057951,
+    "matches": 3
+  },
+  {
+    "player_id": "80440",
+    "name": "OO Shan Zi",
+    "elo": 1534.859422355084,
+    "matches": 10
+  },
+  {
+    "player_id": "82668",
+    "name": "Sirine IBRAHIM",
+    "elo": 1534.851850760201,
+    "matches": 3
+  },
+  {
+    "player_id": "58802",
+    "name": "Jessica LI",
+    "elo": 1534.6703919582533,
+    "matches": 1
+  },
+  {
+    "player_id": "19893",
+    "name": "Amy ZHANG",
+    "elo": 1534.167913818062,
+    "matches": 3
+  },
+  {
+    "player_id": "93372",
+    "name": "Akari KURIHARA",
+    "elo": 1533.5590354969413,
+    "matches": 27
+  },
+  {
+    "player_id": "90839",
+    "name": "Freya REDFEARN",
+    "elo": 1533.0670154006343,
+    "matches": 18
+  },
+  {
+    "player_id": "91957",
+    "name": "JIA Zhi Fan",
+    "elo": 1532.4273753941877,
+    "matches": 12
+  },
+  {
+    "player_id": "62639",
+    "name": "HUNG En-Tzu",
+    "elo": 1532.0501747969179,
+    "matches": 6
+  },
+  {
+    "player_id": "71483",
+    "name": "Bianca Oliveira LIMA",
+    "elo": 1532.0,
+    "matches": 3
+  },
+  {
+    "player_id": "61053",
+    "name": "Kisanet HEYELOM",
+    "elo": 1532.0,
+    "matches": 1
+  },
+  {
+    "player_id": "61327",
+    "name": "Courtney TRILLO",
+    "elo": 1532.0,
+    "matches": 1
+  },
+  {
+    "player_id": "58992",
+    "name": "Kawther Mohamed RABIE",
+    "elo": 1531.8687893625608,
+    "matches": 3
+  },
+  {
+    "player_id": "78021",
+    "name": "Rhucha SAWANT",
+    "elo": 1531.8454816016947,
+    "matches": 3
+  },
+  {
+    "player_id": "56824",
+    "name": "Dalila Aghnia PUTERI",
+    "elo": 1530.6856573972736,
+    "matches": 7
+  },
+  {
+    "player_id": "69484",
+    "name": "A Yeon YOO",
+    "elo": 1530.202267264363,
+    "matches": 6
+  },
+  {
+    "player_id": "78320",
+    "name": "Sara Michele BARRIOS CHIONG",
+    "elo": 1530.0760345066496,
+    "matches": 3
+  },
+  {
+    "player_id": "88718",
+    "name": "Surya Charisma TAMIRI",
+    "elo": 1530.0568771854812,
+    "matches": 3
+  },
+  {
+    "player_id": "87709",
+    "name": "CHEUNG Ngan Yi",
+    "elo": 1529.9414055136267,
+    "matches": 71
+  },
+  {
+    "player_id": "50001",
+    "name": "LIM Zhi Shin",
+    "elo": 1529.5995226878101,
+    "matches": 5
+  },
+  {
+    "player_id": "48723",
+    "name": "Meng Yun ZHANG",
+    "elo": 1529.5466634281327,
+    "matches": 3
+  },
+  {
+    "player_id": "63774",
+    "name": "RUAN Xin Yue",
+    "elo": 1529.4653183367525,
+    "matches": 3
+  },
+  {
+    "player_id": "80420",
+    "name": "Salmeen ESSAM ELSAID SALEM",
+    "elo": 1529.060996942049,
+    "matches": 3
+  },
+  {
+    "player_id": "82210",
+    "name": "Yaqueline DUARTE",
+    "elo": 1529.060996942049,
+    "matches": 3
+  },
+  {
+    "player_id": "95238",
+    "name": "WU Li Tong",
+    "elo": 1528.9446189281741,
+    "matches": 3
+  },
+  {
+    "player_id": "73321",
+    "name": "Ler Qi ENG",
+    "elo": 1528.8048792763802,
+    "matches": 7
+  },
+  {
+    "player_id": "79438",
+    "name": "ZHOU Meng",
+    "elo": 1528.513371418855,
+    "matches": 6
+  },
+  {
+    "player_id": "80624",
+    "name": "YE Zi Ying",
+    "elo": 1527.9743896786963,
+    "matches": 3
+  },
+  {
+    "player_id": "88713",
+    "name": "Sally FU",
+    "elo": 1527.8888556515406,
+    "matches": 12
+  },
+  {
+    "player_id": "58515",
+    "name": "Zecily FUNG",
+    "elo": 1527.7707377600675,
+    "matches": 7
+  },
+  {
+    "player_id": "76191",
+    "name": "Eva KATTIRTZI",
+    "elo": 1527.0465633412414,
+    "matches": 3
+  },
+  {
+    "player_id": "82108",
+    "name": "Amolika Singh SISODIYA",
+    "elo": 1526.7418592354002,
+    "matches": 7
+  },
+  {
+    "player_id": "69091",
+    "name": "Lauren LAM",
+    "elo": 1526.6883496558303,
+    "matches": 87
+  },
+  {
+    "player_id": "90162",
+    "name": "KIM Seong Min",
+    "elo": 1526.657297879242,
+    "matches": 9
+  },
+  {
+    "player_id": "85089",
+    "name": "ZHUANG Yi",
+    "elo": 1526.1711618358436,
+    "matches": 3
+  },
+  {
+    "player_id": "76798",
+    "name": "Sreshta Reddy KANNAREDDY",
+    "elo": 1526.1711618358436,
+    "matches": 3
+  },
+  {
+    "player_id": "65503",
+    "name": "Chiara HOW HONG",
+    "elo": 1524.9639249428258,
+    "matches": 6
+  },
+  {
+    "player_id": "99201",
+    "name": "Rashmi MUDALIGE",
+    "elo": 1524.6891588094843,
+    "matches": 2
+  },
+  {
+    "player_id": "69682",
+    "name": "Uchechukwu Deborah UKEH",
+    "elo": 1524.571282464575,
+    "matches": 13
+  },
+  {
+    "player_id": "55717",
+    "name": "Sri FATMAWATI",
+    "elo": 1524.4277933043622,
+    "matches": 8
+  },
+  {
+    "player_id": "78068",
+    "name": "Devi Yunita INDAH SARI",
+    "elo": 1524.2881558801157,
+    "matches": 5
+  },
+  {
+    "player_id": "97295",
+    "name": "Ira Sameer ACHARYA",
+    "elo": 1524.2560185205143,
+    "matches": 5
+  },
+  {
+    "player_id": "68853",
+    "name": "Passa-Orn PHANNACHET",
+    "elo": 1524.1823726791404,
+    "matches": 21
+  },
+  {
+    "player_id": "79504",
+    "name": "Josephine ZHAO",
+    "elo": 1524.04905999881,
+    "matches": 7
+  },
+  {
+    "player_id": "74788",
+    "name": "Asty Dwi WIDYANINGRUM",
+    "elo": 1523.5975072469175,
+    "matches": 5
+  },
+  {
+    "player_id": "95027",
+    "name": "Hok In LAM",
+    "elo": 1523.398114625028,
+    "matches": 3
+  },
+  {
+    "player_id": "78679",
+    "name": "Kavitha Nadjwa AULIA",
+    "elo": 1522.8688653324475,
+    "matches": 3
+  },
+  {
+    "player_id": "57281",
+    "name": "Seo Jin LEE",
+    "elo": 1522.695195342536,
+    "matches": 3
+  },
+  {
+    "player_id": "98960",
+    "name": "Taymara OROPESA PUPO",
+    "elo": 1522.0532690892794,
+    "matches": 11
+  },
+  {
+    "player_id": "76456",
+    "name": "Yuki SUZUKI",
+    "elo": 1522.0505098485228,
+    "matches": 2
+  },
+  {
+    "player_id": "57813",
+    "name": "JEON Jui",
+    "elo": 1521.906017991319,
+    "matches": 27
+  },
+  {
+    "player_id": "89361",
+    "name": "Rebecca ZHANG",
+    "elo": 1520.844469748711,
+    "matches": 3
+  },
+  {
+    "player_id": "35438",
+    "name": "Allisen CAMILLE",
+    "elo": 1520.5594455830426,
+    "matches": 3
+  },
+  {
+    "player_id": "76070",
+    "name": "Likhita SRIVASTAVA",
+    "elo": 1520.3399299144503,
+    "matches": 5
+  },
+  {
+    "player_id": "25427",
+    "name": "Hanna ZHANG",
+    "elo": 1520.204658293184,
+    "matches": 4
+  },
+  {
+    "player_id": "79790",
+    "name": "Momoka KIMURA",
+    "elo": 1520.102800565552,
+    "matches": 3
+  },
+  {
+    "player_id": "55662",
+    "name": "Tanishka DESHPANDE",
+    "elo": 1520.0800289750155,
+    "matches": 3
+  },
+  {
+    "player_id": "89013",
+    "name": "Alexandra MOCANU",
+    "elo": 1519.9218001590066,
+    "matches": 3
+  },
+  {
+    "player_id": "98629",
+    "name": "Esther MWANSA",
+    "elo": 1519.8474262206605,
+    "matches": 2
+  },
+  {
+    "player_id": "98168",
+    "name": "Mounib CELIA",
+    "elo": 1519.3580502467644,
+    "matches": 7
+  },
+  {
+    "player_id": "64063",
+    "name": "Halla BOUKSANI",
+    "elo": 1519.0991202065243,
+    "matches": 19
+  },
+  {
+    "player_id": "90717",
+    "name": "Tara SHAH",
+    "elo": 1518.5098591938458,
+    "matches": 8
+  },
+  {
+    "player_id": "61244",
+    "name": "Mariana UGALDE",
+    "elo": 1518.186297494505,
+    "matches": 9
+  },
+  {
+    "player_id": "86700",
+    "name": "Ranithma LIYANAGE",
+    "elo": 1517.8975865284174,
+    "matches": 15
+  },
+  {
+    "player_id": "59557",
+    "name": "Megan DE BEER",
+    "elo": 1517.8838320932427,
+    "matches": 4
+  },
+  {
+    "player_id": "82446",
+    "name": "Kriti BHARADWAJ",
+    "elo": 1516.8485772197348,
+    "matches": 2
+  },
+  {
+    "player_id": "63070",
+    "name": "Ji Won BAE",
+    "elo": 1516.6523845687489,
+    "matches": 4
+  },
+  {
+    "player_id": "97921",
+    "name": "Natsumi SHIMODA",
+    "elo": 1516.6511954075513,
+    "matches": 13
+  },
+  {
+    "player_id": "77317",
+    "name": "Sayaka SATO",
+    "elo": 1516.5944500967853,
+    "matches": 28
+  },
+  {
+    "player_id": "58688",
+    "name": "Rabiatu OFOLI",
+    "elo": 1516.3201041016214,
+    "matches": 2
+  },
+  {
+    "player_id": "74153",
+    "name": "Manassanan LERTHATTASIN",
+    "elo": 1515.8048949296708,
+    "matches": 5
+  },
+  {
+    "player_id": "30950",
+    "name": "MALIKA MOHAMED",
+    "elo": 1515.442763622946,
+    "matches": 2
+  },
+  {
+    "player_id": "73814",
+    "name": "Thi Phuong Thuy TRAN",
+    "elo": 1514.7751915856982,
+    "matches": 6
+  },
+  {
+    "player_id": "92553",
+    "name": "Jui-Chi LIAO",
+    "elo": 1514.4885587842857,
+    "matches": 8
+  },
+  {
+    "player_id": "81033",
+    "name": "CHUA Hui Zhen Grace",
+    "elo": 1514.2376961581522,
+    "matches": 20
+  },
+  {
+    "player_id": "65525",
+    "name": "Saifi Rizka NURHIDAYAH",
+    "elo": 1513.6278711692685,
+    "matches": 2
+  },
+  {
+    "player_id": "67204",
+    "name": "Su Ching ONG",
+    "elo": 1513.5332617224649,
+    "matches": 2
+  },
+  {
+    "player_id": "80795",
+    "name": "HUNG Yi-Ting",
+    "elo": 1513.3927155141428,
+    "matches": 68
+  },
+  {
+    "player_id": "69393",
+    "name": "Talia NG",
+    "elo": 1513.097840676683,
+    "matches": 26
+  },
+  {
+    "player_id": "85542",
+    "name": "Ella LIN",
+    "elo": 1513.0834756954964,
+    "matches": 10
+  },
+  {
+    "player_id": "21854",
+    "name": "Fabienne DEPREZ",
+    "elo": 1512.908164377515,
+    "matches": 35
+  },
+  {
+    "player_id": "58001",
+    "name": "So Yul LEE",
+    "elo": 1512.6573220807686,
+    "matches": 21
+  },
+  {
+    "player_id": "66290",
+    "name": "TANYA HEMANTH",
+    "elo": 1512.5671293998805,
+    "matches": 79
+  },
+  {
+    "player_id": "60557",
+    "name": "LEUNG Yuet Yee",
+    "elo": 1512.5404102037,
+    "matches": 4
+  },
+  {
+    "player_id": "61317",
+    "name": "WANG Yu Si",
+    "elo": 1512.5236542618384,
+    "matches": 9
+  },
+  {
+    "player_id": "83074",
+    "name": "Jennie GAI",
+    "elo": 1512.476676722922,
+    "matches": 32
+  },
+  {
+    "player_id": "80376",
+    "name": "Claudia LAM",
+    "elo": 1511.9681377170436,
+    "matches": 4
+  },
+  {
+    "player_id": "53816",
+    "name": "Victoria NA",
+    "elo": 1511.1862720677361,
+    "matches": 4
+  },
+  {
+    "player_id": "99887",
+    "name": "Salsabila AMIRADANA",
+    "elo": 1511.106962036434,
+    "matches": 4
+  },
+  {
+    "player_id": "77611",
+    "name": "Katherine WYNTER",
+    "elo": 1510.701466787151,
+    "matches": 9
+  },
+  {
+    "player_id": "77937",
+    "name": "Bich Phuong BUI",
+    "elo": 1510.350667035343,
+    "matches": 6
+  },
+  {
+    "player_id": "74279",
+    "name": "Mrunmayee DESHPANDE",
+    "elo": 1510.2324371922482,
+    "matches": 2
+  },
+  {
+    "player_id": "98991",
+    "name": "Byeol Lim LEE",
+    "elo": 1510.2251555525424,
+    "matches": 4
+  },
+  {
+    "player_id": "66474",
+    "name": "Tebogo NDZINGE",
+    "elo": 1509.8481256302566,
+    "matches": 4
+  },
+  {
+    "player_id": "67569",
+    "name": "Joanna RUDNA",
+    "elo": 1509.163030375428,
+    "matches": 2
+  },
+  {
+    "player_id": "84992",
+    "name": "LEE Jang Mi",
+    "elo": 1509.1112352854977,
+    "matches": 9
+  },
+  {
+    "player_id": "81779",
+    "name": "Fatema RABIE",
+    "elo": 1508.8846359825104,
+    "matches": 4
+  },
+  {
+    "player_id": "81703",
+    "name": "Mysha Omer KHAN",
+    "elo": 1508.1303152057687,
+    "matches": 6
+  },
+  {
+    "player_id": "61746",
+    "name": "Doha HANY",
+    "elo": 1507.988549648613,
+    "matches": 53
+  },
+  {
+    "player_id": "61151",
+    "name": "Anwesha GOWDA",
+    "elo": 1507.228457093813,
+    "matches": 8
+  },
+  {
+    "player_id": "70940",
+    "name": "Rosie YANG",
+    "elo": 1507.0717692148569,
+    "matches": 4
+  },
+  {
+    "player_id": "39221",
+    "name": "Xinyuan LIANG",
+    "elo": 1506.8630662545368,
+    "matches": 2
+  },
+  {
+    "player_id": "85556",
+    "name": "Viktoriia KOZYREVA",
+    "elo": 1506.7951333433284,
+    "matches": 2
+  },
+  {
+    "player_id": "99182",
+    "name": "NG Tin Yan",
+    "elo": 1506.732142531311,
+    "matches": 2
+  },
+  {
+    "player_id": "37376",
+    "name": "Nanaho KONDO",
+    "elo": 1506.7253352626258,
+    "matches": 2
+  },
+  {
+    "player_id": "76767",
+    "name": "Chloe LEE",
+    "elo": 1506.0404983821227,
+    "matches": 2
+  },
+  {
+    "player_id": "61412",
+    "name": "Saranporn SOMBUTWATTHANANUKOOL",
+    "elo": 1505.5406671569847,
+    "matches": 2
+  },
+  {
+    "player_id": "39092",
+    "name": "Naomi WANDILI",
+    "elo": 1505.536444077867,
+    "matches": 2
+  },
+  {
+    "player_id": "45435",
+    "name": "Nagarajan NAVINA",
+    "elo": 1505.4811234420806,
+    "matches": 2
+  },
+  {
+    "player_id": "71065",
+    "name": "Angela YU",
+    "elo": 1505.42747697865,
+    "matches": 2
+  },
+  {
+    "player_id": "57457",
+    "name": "Jaqueline LIMA",
+    "elo": 1505.356876410492,
+    "matches": 9
+  },
+  {
+    "player_id": "97740",
+    "name": "Zainab Damilola ALABI",
+    "elo": 1505.3205101045587,
+    "matches": 11
+  },
+  {
+    "player_id": "61929",
+    "name": "Venosha RADHAKRISHNAN",
+    "elo": 1505.3000961717535,
+    "matches": 2
+  },
+  {
+    "player_id": "69917",
+    "name": "Tiya BHURTUN",
+    "elo": 1505.0034438133364,
+    "matches": 4
+  },
+  {
+    "player_id": "76910",
+    "name": "Natalya VOYTSEKH",
+    "elo": 1504.8988478601914,
+    "matches": 10
+  },
+  {
+    "player_id": "62110",
+    "name": "Amy ACKERMAN",
+    "elo": 1504.8447207906606,
+    "matches": 2
+  },
+  {
+    "player_id": "61007",
+    "name": "SUN Zi Chun",
+    "elo": 1504.7335652906697,
+    "matches": 2
+  },
+  {
+    "player_id": "81434",
+    "name": "Naomi JUNCO",
+    "elo": 1504.046155715965,
+    "matches": 4
+  },
+  {
+    "player_id": "80947",
+    "name": "Sanika Dhawan GURAV",
+    "elo": 1503.4501015190651,
+    "matches": 2
+  },
+  {
+    "player_id": "62294",
+    "name": "Yibei XU",
+    "elo": 1503.1652861106495,
+    "matches": 2
+  },
+  {
+    "player_id": "67746",
+    "name": "Aurelie JEAN- LOUIS",
+    "elo": 1502.9682357855756,
+    "matches": 2
+  },
+  {
+    "player_id": "67630",
+    "name": "PARDESHI Shreyanshi",
+    "elo": 1502.7281578219408,
+    "matches": 5
+  },
+  {
+    "player_id": "96103",
+    "name": "Charis HO",
+    "elo": 1502.5186928369478,
+    "matches": 2
+  },
+  {
+    "player_id": "94739",
+    "name": "WU Yu Qi",
+    "elo": 1502.4902288318008,
+    "matches": 9
+  },
+  {
+    "player_id": "78895",
+    "name": "Rahma Mohamed Saad ELADAWY",
+    "elo": 1502.3861796916087,
+    "matches": 7
+  },
+  {
+    "player_id": "77280",
+    "name": "Fernanda MUNAR",
+    "elo": 1502.148538569983,
+    "matches": 7
+  },
+  {
+    "player_id": "89454",
+    "name": "Gayle MAHULETTE",
+    "elo": 1502.0226700733947,
+    "matches": 19
+  },
+  {
+    "player_id": "99805",
+    "name": "Dharshinie VASIGARAN",
+    "elo": 1502.0025231420202,
+    "matches": 2
+  },
+  {
+    "player_id": "79426",
+    "name": "Desima Aqmar SYARAFINA",
+    "elo": 1501.9401492963045,
+    "matches": 4
+  },
+  {
+    "player_id": "72873",
+    "name": "Emily BEACH",
+    "elo": 1501.8681171190271,
+    "matches": 2
+  },
+  {
+    "player_id": "20170",
+    "name": "Ojo FAVOUR IFELOLUWA",
+    "elo": 1501.8014051028408,
+    "matches": 2
+  },
+  {
+    "player_id": "91963",
+    "name": "Mathilde LEPETIT",
+    "elo": 1501.6399002685234,
+    "matches": 2
+  },
+  {
+    "player_id": "71746",
+    "name": "Jeisiane ALVES",
+    "elo": 1501.496821931194,
+    "matches": 10
+  },
+  {
+    "player_id": "32113",
+    "name": "Alison BRADEL",
+    "elo": 1501.4792724663598,
+    "matches": 2
+  },
+  {
+    "player_id": "64028",
+    "name": "Elme DE VILLIERS",
+    "elo": 1500.6588891817032,
+    "matches": 4
+  },
+  {
+    "player_id": "39758",
+    "name": "Yi Nuo CHEN",
+    "elo": 1500.5446608269278,
+    "matches": 2
+  },
+  {
+    "player_id": "71087",
+    "name": "Celeste LEE",
+    "elo": 1500.4968037047652,
+    "matches": 4
+  },
+  {
+    "player_id": "85209",
+    "name": "Akansha MATTE",
+    "elo": 1500.4636473837322,
+    "matches": 2
+  },
+  {
+    "player_id": "70576",
+    "name": "Perpertual Mensah QUAYE",
+    "elo": 1500.2459473455526,
+    "matches": 2
+  },
+  {
+    "player_id": "65540",
+    "name": "Rosy Oktavia PANCASARI",
+    "elo": 1500.2360607299995,
+    "matches": 16
+  },
+  {
+    "player_id": "17438",
+    "name": "Jacinta NYARANDA SENGERA",
+    "elo": 1500.1986088688518,
+    "matches": 2
+  },
+  {
+    "player_id": "66868",
+    "name": "Joanne ZHENG",
+    "elo": 1500.053929758308,
+    "matches": 2
+  },
+  {
+    "player_id": "99815",
+    "name": "Ashley TAN",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "96913",
+    "name": "Roanne APALISOK",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "69146",
+    "name": "Gifty MENSAH",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "72550",
+    "name": "Dounia NAAMA",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "84913",
+    "name": "Olivia (Li) LEI",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "50626",
+    "name": "Soo Bin LIM",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "82470",
+    "name": "Ji Hye LEE",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "98373",
+    "name": "Holly NEWALL",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "99667",
+    "name": "Tomoka SAGAWA",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "73730",
+    "name": "Janelle PANGILINAN",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "77609",
+    "name": "LI Yu Fan",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "93963",
+    "name": "ZHANG Yu Ning",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "80325",
+    "name": "FENG Jing Le",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "88055",
+    "name": "HUANG Xin Yi",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "58092",
+    "name": "Hasara WIJAYARATHNE",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "88375",
+    "name": "Pei-Yu LI",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "84673",
+    "name": "Kadidjata DIALLO",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "84988",
+    "name": "JIANG Jing",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "46692",
+    "name": "Yu Xuan HU",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "98961",
+    "name": "Shu-Yu WEN",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "72031",
+    "name": "Ishu MALIK",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "29602",
+    "name": "Hao (Angela) SHEN",
+    "elo": 1500.0,
+    "matches": 2
+  },
+  {
+    "player_id": "55629",
+    "name": "Katia NORMAND",
+    "elo": 1499.8585806650726,
+    "matches": 2
+  },
+  {
+    "player_id": "99002",
+    "name": "Seyedehaysan SHOORIDEHZIABARI",
+    "elo": 1499.817510136003,
+    "matches": 1
+  },
+  {
+    "player_id": "88063",
+    "name": "Fernanda SAPONARA",
+    "elo": 1499.7717602845357,
+    "matches": 11
+  },
+  {
+    "player_id": "41331",
+    "name": "Altangerel MUNKHTSETSEG",
+    "elo": 1499.5447662398647,
+    "matches": 1
+  },
+  {
+    "player_id": "21245",
+    "name": "Ava WONG",
+    "elo": 1499.4044022026421,
+    "matches": 2
+  },
+  {
+    "player_id": "59830",
+    "name": "Zoraida Dela Torre COSTA GUSMAO DE JESUS",
+    "elo": 1499.387468178329,
+    "matches": 1
+  },
+  {
+    "player_id": "26977",
+    "name": "Yao (Amy) QIN",
+    "elo": 1499.3558831992364,
+    "matches": 2
+  },
+  {
+    "player_id": "80922",
+    "name": "Catlyn KRUUS",
+    "elo": 1499.3538892980669,
+    "matches": 1
+  },
+  {
+    "player_id": "45652",
+    "name": "Liana BEDIER",
+    "elo": 1499.143589304028,
+    "matches": 2
+  },
+  {
+    "player_id": "98556",
+    "name": "Jazmine LAM",
+    "elo": 1499.1159690427855,
+    "matches": 4
+  },
+  {
+    "player_id": "92002",
+    "name": "Lata ‘ISITOLO",
+    "elo": 1499.030155374325,
+    "matches": 2
+  },
+  {
+    "player_id": "26935",
+    "name": "Sarangua KHERLENBAATAR",
+    "elo": 1498.6333740544787,
+    "matches": 1
+  },
+  {
+    "player_id": "80210",
+    "name": "Grace GABRIEL",
+    "elo": 1498.1314211069123,
+    "matches": 4
+  },
+  {
+    "player_id": "87878",
+    "name": "Zhing Yi TAN",
+    "elo": 1497.937119025293,
+    "matches": 2
+  },
+  {
+    "player_id": "88314",
+    "name": "Micah Henares CRUZ",
+    "elo": 1497.9307189268843,
+    "matches": 2
+  },
+  {
+    "player_id": "96382",
+    "name": "Josie LEE",
+    "elo": 1497.9287935509458,
+    "matches": 2
+  },
+  {
+    "player_id": "88628",
+    "name": "Christiana Olajumoke OBASANMI",
+    "elo": 1497.7784589976875,
+    "matches": 2
+  },
+  {
+    "player_id": "25366",
+    "name": "Xin Yi GUO",
+    "elo": 1497.7179735537159,
+    "matches": 6
+  },
+  {
+    "player_id": "20077",
+    "name": "Jin Hyang KIM",
+    "elo": 1497.5475476081253,
+    "matches": 1
+  },
+  {
+    "player_id": "39798",
+    "name": "Jia Ling KE",
+    "elo": 1497.1152603689209,
+    "matches": 2
+  },
+  {
+    "player_id": "71801",
+    "name": "Chasinee KOREPAP",
+    "elo": 1497.060996942049,
+    "matches": 2
+  },
+  {
+    "player_id": "95783",
+    "name": "Sang Eun PARK",
+    "elo": 1497.060996942049,
+    "matches": 2
+  },
+  {
+    "player_id": "83268",
+    "name": "Olivia Chelin Maria KAMBEY",
+    "elo": 1497.060996942049,
+    "matches": 2
+  },
+  {
+    "player_id": "20432",
+    "name": "Melissa SANMOESTANOM",
+    "elo": 1497.060996942049,
+    "matches": 2
+  },
+  {
+    "player_id": "81149",
+    "name": "Nivetha MUTHUKUMAR",
+    "elo": 1496.8544227109787,
+    "matches": 2
+  },
+  {
+    "player_id": "61665",
+    "name": "Dinar Dyah AYUSTINE",
+    "elo": 1496.7774795095725,
+    "matches": 18
+  },
+  {
+    "player_id": "72934",
+    "name": "Dgenyva MATAULI",
+    "elo": 1496.6519425912952,
+    "matches": 6
+  },
+  {
+    "player_id": "71986",
+    "name": "Majan ALMAZAN",
+    "elo": 1496.6195865601878,
+    "matches": 2
+  },
+  {
+    "player_id": "28957",
+    "name": "Kaitlyn RODRIGUES",
+    "elo": 1496.3901669056074,
+    "matches": 2
+  },
+  {
+    "player_id": "73055",
+    "name": "Nicki CHAN-LAM",
+    "elo": 1496.3216480037026,
+    "matches": 2
+  },
+  {
+    "player_id": "81899",
+    "name": "Victoria GUO",
+    "elo": 1496.2795335097826,
+    "matches": 2
+  },
+  {
+    "player_id": "68582",
+    "name": "HSIEH Chih Ying",
+    "elo": 1495.7887632602221,
+    "matches": 4
+  },
+  {
+    "player_id": "74624",
+    "name": "Flora KPOGBEMABOU",
+    "elo": 1495.5727347956104,
+    "matches": 2
+  },
+  {
+    "player_id": "50260",
+    "name": "Priska KUSTIADI",
+    "elo": 1495.4619312657435,
+    "matches": 2
+  },
+  {
+    "player_id": "65656",
+    "name": "Alifia Intan NURROHKHIM",
+    "elo": 1495.411586981784,
+    "matches": 2
+  },
+  {
+    "player_id": "96160",
+    "name": "Ana Júlia YWATA",
+    "elo": 1495.3538884315572,
+    "matches": 1
+  },
+  {
+    "player_id": "22435",
+    "name": "Jana Priya KRISHNAKUMAR",
+    "elo": 1495.15045559428,
+    "matches": 2
+  },
+  {
+    "player_id": "72777",
+    "name": "Nerea IVORRA",
+    "elo": 1495.096874438302,
+    "matches": 2
+  },
+  {
+    "player_id": "92376",
+    "name": "Augustina EBHOMIEN SUNDAY",
+    "elo": 1495.0620511686614,
+    "matches": 2
+  },
+  {
+    "player_id": "65691",
+    "name": "Vijetha HARISH",
+    "elo": 1494.951803486569,
+    "matches": 2
+  },
+  {
+    "player_id": "92135",
+    "name": "Adriana Irais VALERO MATA",
+    "elo": 1494.749594832267,
+    "matches": 2
+  },
+  {
+    "player_id": "56445",
+    "name": "Katie HO-SHUE",
+    "elo": 1494.7113459286575,
+    "matches": 2
+  },
+  {
+    "player_id": "66639",
+    "name": "Ines ZIANI",
+    "elo": 1494.3906049837958,
+    "matches": 4
+  },
+  {
+    "player_id": "60452",
+    "name": "Coco ZHU",
+    "elo": 1494.3733998104956,
+    "matches": 2
+  },
+  {
+    "player_id": "97526",
+    "name": "Anu MAYA RAI",
+    "elo": 1494.3074157227225,
+    "matches": 1
+  },
+  {
+    "player_id": "93592",
+    "name": "Jahvaya WHEKI",
+    "elo": 1494.1711618358436,
+    "matches": 2
+  },
+  {
+    "player_id": "76601",
+    "name": "HUI Xirui",
+    "elo": 1494.1711618358436,
+    "matches": 2
+  },
+  {
+    "player_id": "60313",
+    "name": "Pranavi NATARAJAN",
+    "elo": 1493.7798806403084,
+    "matches": 2
+  },
+  {
+    "player_id": "77775",
+    "name": "DIAZ Vania",
+    "elo": 1493.7364306327243,
+    "matches": 2
+  },
+  {
+    "player_id": "77258",
+    "name": "Kimberley Helen CLAGUE",
+    "elo": 1493.6512391950475,
+    "matches": 2
+  },
+  {
+    "player_id": "50715",
+    "name": "Chloe CONEY",
+    "elo": 1493.58734323168,
+    "matches": 45
+  },
+  {
+    "player_id": "69884",
+    "name": "Maya GRILLS",
+    "elo": 1493.5460343937302,
+    "matches": 2
+  },
+  {
+    "player_id": "22029",
+    "name": "Jonah PEACE TUNZE",
+    "elo": 1493.473222390815,
+    "matches": 2
+  },
+  {
+    "player_id": "62164",
+    "name": "Shahidi SHANEESA",
+    "elo": 1493.2630519840623,
+    "matches": 3
+  },
+  {
+    "player_id": "12078",
+    "name": "Anna IWAKI",
+    "elo": 1492.9508529066347,
+    "matches": 1
+  },
+  {
+    "player_id": "61715",
+    "name": "Ying TSE",
+    "elo": 1492.8258501743844,
+    "matches": 5
+  },
+  {
+    "player_id": "56834",
+    "name": "Yukino NAKAI",
+    "elo": 1492.6192850462105,
+    "matches": 14
+  },
+  {
+    "player_id": "96692",
+    "name": "Kungkaew KAKANIK",
+    "elo": 1492.6070299253374,
+    "matches": 2
+  },
+  {
+    "player_id": "57466",
+    "name": "Taisia KASIANOV KASIANOVA",
+    "elo": 1492.5316451559813,
+    "matches": 1
+  },
+  {
+    "player_id": "92656",
+    "name": "KAVIDI SIRIMANNAGE",
+    "elo": 1492.3885453454736,
+    "matches": 5
+  },
+  {
+    "player_id": "95045",
+    "name": "Marion LE TURDU",
+    "elo": 1492.3084658736975,
+    "matches": 2
+  },
+  {
+    "player_id": "55905",
+    "name": "Lucie AMIGUET",
+    "elo": 1492.245300758381,
+    "matches": 2
+  },
+  {
+    "player_id": "59770",
+    "name": "Ruo Hsuan KO",
+    "elo": 1492.2107053739328,
+    "matches": 17
+  },
+  {
+    "player_id": "56785",
+    "name": "Nana HISAMINATO",
+    "elo": 1492.2063050905078,
+    "matches": 5
+  },
+  {
+    "player_id": "56934",
+    "name": "Jackie DENT",
+    "elo": 1491.7248513629997,
+    "matches": 10
+  },
+  {
+    "player_id": "79373",
+    "name": "Sanchita PANDEY",
+    "elo": 1491.5183604529493,
+    "matches": 1
+  },
+  {
+    "player_id": "70234",
+    "name": "Nurani Ratu AZZAHRA",
+    "elo": 1491.510229608404,
+    "matches": 7
+  },
+  {
+    "player_id": "83425",
+    "name": "Lauren LIM",
+    "elo": 1491.4751795393483,
+    "matches": 2
+  },
+  {
+    "player_id": "57277",
+    "name": "Yi An YAN",
+    "elo": 1490.6412804810368,
+    "matches": 2
+  },
+  {
+    "player_id": "14599",
+    "name": "Juliana Akemi MUROSAKI",
+    "elo": 1490.5001560035923,
+    "matches": 2
+  },
+  {
+    "player_id": "78292",
+    "name": "Namie MIYAHIRA",
+    "elo": 1489.936358944099,
+    "matches": 9
+  },
+  {
+    "player_id": "41928",
+    "name": "Mi Song YU",
+    "elo": 1489.842796355718,
+    "matches": 1
+  },
+  {
+    "player_id": "61839",
+    "name": "Isamar AYANG EBEE MBA",
+    "elo": 1489.4085531520118,
+    "matches": 1
+  },
+  {
+    "player_id": "21502",
+    "name": "Lin Ran HUANG",
+    "elo": 1489.0987249188395,
+    "matches": 4
+  },
+  {
+    "player_id": "90963",
+    "name": "Anna Gladys AKAKPO",
+    "elo": 1488.7591521230083,
+    "matches": 1
+  },
+  {
+    "player_id": "56816",
+    "name": "Anyapat PHICHITPREECHASAK",
+    "elo": 1488.5871330820694,
+    "matches": 1
+  },
+  {
+    "player_id": "95145",
+    "name": "Janelle Anne ANDRES",
+    "elo": 1488.4179267998352,
+    "matches": 2
+  },
+  {
+    "player_id": "81991",
+    "name": "Moosa Aminath SHAHURUNAZ",
+    "elo": 1488.1933163199271,
+    "matches": 1
+  },
+  {
+    "player_id": "95394",
+    "name": "Erghya Aulia PUTRI",
+    "elo": 1488.1435362689872,
+    "matches": 2
+  },
+  {
+    "player_id": "95812",
+    "name": "Jana ABDELKADER",
+    "elo": 1487.6217424047047,
+    "matches": 3
+  },
+  {
+    "player_id": "98727",
+    "name": "Choirunnisa CHOIRUNNISA",
+    "elo": 1487.5702552946177,
+    "matches": 20
+  },
+  {
+    "player_id": "97087",
+    "name": "Brittney TAM",
+    "elo": 1486.9405525146951,
+    "matches": 44
+  },
+  {
+    "player_id": "68001",
+    "name": "Kyleigh O’DONOGHUE",
+    "elo": 1486.8108784930025,
+    "matches": 2
+  },
+  {
+    "player_id": "99713",
+    "name": "Bilqis PRASISTA",
+    "elo": 1486.8094462239617,
+    "matches": 23
+  },
+  {
+    "player_id": "51218",
+    "name": "Mahoor SHAHZAD",
+    "elo": 1486.7283397006966,
+    "matches": 11
+  },
+  {
+    "player_id": "78543",
+    "name": "Nangsal TAMANG",
+    "elo": 1486.673978737453,
+    "matches": 3
+  },
+  {
+    "player_id": "23639",
+    "name": "Medhavi NAGAR",
+    "elo": 1486.673383527335,
+    "matches": 7
+  },
+  {
+    "player_id": "84697",
+    "name": "Lauren VILLALOBOS",
+    "elo": 1486.5418992060231,
+    "matches": 5
+  },
+  {
+    "player_id": "92398",
+    "name": "Paula MOLINS",
+    "elo": 1486.4985411218252,
+    "matches": 1
+  },
+  {
+    "player_id": "41940",
+    "name": "Hao Wai CHAN",
+    "elo": 1486.4873020271984,
+    "matches": 1
+  },
+  {
+    "player_id": "85414",
+    "name": "Yanxi LIU",
+    "elo": 1486.3977991707386,
+    "matches": 6
+  },
+  {
+    "player_id": "76180",
+    "name": "Weronika GORNIAK",
+    "elo": 1486.2988695388901,
+    "matches": 4
+  },
+  {
+    "player_id": "65483",
+    "name": "Grammatoula SOTIRIOU",
+    "elo": 1486.2250140159379,
+    "matches": 7
+  },
+  {
+    "player_id": "70188",
+    "name": "CHEUNG Ying Mei",
+    "elo": 1485.376705058087,
+    "matches": 14
+  },
+  {
+    "player_id": "57665",
+    "name": "Jennifer TAM",
+    "elo": 1484.7753558745537,
+    "matches": 9
+  },
+  {
+    "player_id": "79056",
+    "name": "Delphine LANSAC",
+    "elo": 1484.6599497862048,
+    "matches": 3
+  },
+  {
+    "player_id": "76260",
+    "name": "Urmi AKTER",
+    "elo": 1484.499197338702,
+    "matches": 3
+  },
+  {
+    "player_id": "61949",
+    "name": "Vivien SANDORHAZI",
+    "elo": 1484.2455298347388,
+    "matches": 39
+  },
+  {
+    "player_id": "83334",
+    "name": "Seo Yeon YOO",
+    "elo": 1484.083671048381,
+    "matches": 1
+  },
+  {
+    "player_id": "62313",
+    "name": "DENG Joy Xuan",
+    "elo": 1483.9454371004492,
+    "matches": 23
+  },
+  {
+    "player_id": "64108",
+    "name": "Layna Luxmi CHINIAH",
+    "elo": 1483.67175970857,
+    "matches": 3
+  },
+  {
+    "player_id": "75190",
+    "name": "Simran SINGHI",
+    "elo": 1483.46231231514,
+    "matches": 4
+  },
+  {
+    "player_id": "91548",
+    "name": "Julia Viana VIEIRA",
+    "elo": 1483.126275936026,
+    "matches": 1
+  },
+  {
+    "player_id": "55770",
+    "name": "Airi MIKKELA",
+    "elo": 1482.8676847204254,
+    "matches": 17
+  },
+  {
+    "player_id": "73275",
+    "name": "Jessica Jazmin BAUTISTA TRIGUEROS",
+    "elo": 1482.8592796512676,
+    "matches": 1
+  },
+  {
+    "player_id": "53726",
+    "name": "Navya KANDERI",
+    "elo": 1482.767154915807,
+    "matches": 2
+  },
+  {
+    "player_id": "73268",
+    "name": "Selin HÜBSCH",
+    "elo": 1482.4004350562782,
+    "matches": 1
+  },
+  {
+    "player_id": "99271",
+    "name": "Chloe HOANG",
+    "elo": 1482.1802229889852,
+    "matches": 17
+  },
+  {
+    "player_id": "73015",
+    "name": "Kristin KUUBA",
+    "elo": 1482.1471878104821,
+    "matches": 81
+  },
+  {
+    "player_id": "83437",
+    "name": "Jessica GURUNG",
+    "elo": 1482.0122714234326,
+    "matches": 1
+  },
+  {
+    "player_id": "49119",
+    "name": "Melody CAI",
+    "elo": 1481.6182445578852,
+    "matches": 3
+  },
+  {
+    "player_id": "64515",
+    "name": "Na Rin LEE",
+    "elo": 1481.4451476689412,
+    "matches": 1
+  },
+  {
+    "player_id": "74022",
+    "name": "Tanvi Reddy ANDLURI",
+    "elo": 1480.939824185999,
+    "matches": 2
+  },
+  {
+    "player_id": "77353",
+    "name": "Hana tarek ZAHER",
+    "elo": 1480.8711491628353,
+    "matches": 12
+  },
+  {
+    "player_id": "95277",
+    "name": "Maria Delia ZAMBRANO",
+    "elo": 1480.8169519350524,
+    "matches": 13
+  },
+  {
+    "player_id": "72280",
+    "name": "Pornpicha CHOEIKEEWONG",
+    "elo": 1480.1662149650354,
+    "matches": 80
+  },
+  {
+    "player_id": "78749",
+    "name": "ZAKARIA Aaliyah",
+    "elo": 1479.7528083047102,
+    "matches": 1
+  },
+  {
+    "player_id": "62406",
+    "name": "Vilte PAULAUSKAITE",
+    "elo": 1479.70374743857,
+    "matches": 1
+  },
+  {
+    "player_id": "81357",
+    "name": "Karolina ORELLANA ARDON",
+    "elo": 1479.5689336710889,
+    "matches": 3
+  },
+  {
+    "player_id": "99214",
+    "name": "Made Dinda WINDIASARI",
+    "elo": 1479.5620388547334,
+    "matches": 1
+  },
+  {
+    "player_id": "95898",
+    "name": "Dhea Bunga ANJANI",
+    "elo": 1479.279964108125,
+    "matches": 1
+  },
+  {
+    "player_id": "88246",
+    "name": "Joanna Yan Nok CHAN",
+    "elo": 1479.0979551918535,
+    "matches": 1
+  },
+  {
+    "player_id": "84854",
+    "name": "Hilary Ornelia Bignon FABOSSOU",
+    "elo": 1478.6307868253707,
+    "matches": 1
+  },
+  {
+    "player_id": "98557",
+    "name": "Thi Dieu Ly PHAM",
+    "elo": 1478.2816685832747,
+    "matches": 1
+  },
+  {
+    "player_id": "80615",
+    "name": "Vennala KALAGOTLA",
+    "elo": 1478.2324371922482,
+    "matches": 1
+  },
+  {
+    "player_id": "75567",
+    "name": "BU Jin Yi",
+    "elo": 1478.0599608787545,
+    "matches": 1
+  },
+  {
+    "player_id": "84305",
+    "name": "Varvara MALIK",
+    "elo": 1478.0005387561573,
+    "matches": 1
+  },
+  {
+    "player_id": "73274",
+    "name": "Sara BOYLE",
+    "elo": 1478.0000074259115,
+    "matches": 5
+  },
+  {
+    "player_id": "26850",
+    "name": "Dorsa YAVARIVAFA",
+    "elo": 1477.9642253611814,
+    "matches": 2
+  },
+  {
+    "player_id": "78120",
+    "name": "Juliane PIRON",
+    "elo": 1477.7330038337318,
+    "matches": 1
+  },
+  {
+    "player_id": "73060",
+    "name": "Siti ZULAIKHA",
+    "elo": 1477.581665829587,
+    "matches": 18
+  },
+  {
+    "player_id": "62363",
+    "name": "ZOE Morris",
+    "elo": 1477.5814060773591,
+    "matches": 1
+  },
+  {
+    "player_id": "90039",
+    "name": "Rashila MAHARJAN",
+    "elo": 1477.38069827081,
+    "matches": 6
+  },
+  {
+    "player_id": "16059",
+    "name": "Eileen Linda SHAMIM",
+    "elo": 1477.374460070038,
+    "matches": 1
+  },
+  {
+    "player_id": "74893",
+    "name": "Caragh ALLEY",
+    "elo": 1477.3057297238413,
+    "matches": 1
+  },
+  {
+    "player_id": "94032",
+    "name": "Yevheniia KANTEMYR",
+    "elo": 1477.160909766246,
+    "matches": 35
+  },
+  {
+    "player_id": "62218",
+    "name": "Melania Nchama EDU OYE",
+    "elo": 1476.9891175887205,
+    "matches": 1
+  },
+  {
+    "player_id": "75154",
+    "name": "YU Chien Hui",
+    "elo": 1476.6509693345583,
+    "matches": 21
+  },
+  {
+    "player_id": "62782",
+    "name": "Mitchelle GAZA",
+    "elo": 1476.6466890911252,
+    "matches": 1
+  },
+  {
+    "player_id": "63385",
+    "name": "Cindy Etornam TORNYENYOR",
+    "elo": 1476.5607847646434,
+    "matches": 4
+  },
+  {
+    "player_id": "58397",
+    "name": "SMIT TOSHNIWAL",
+    "elo": 1476.489823826716,
+    "matches": 13
+  },
+  {
+    "player_id": "74073",
+    "name": "FLORA ENGINEER",
+    "elo": 1476.3813078306987,
+    "matches": 3
+  },
+  {
+    "player_id": "78940",
+    "name": "Bening Sri RAHAYU",
+    "elo": 1476.366766966143,
+    "matches": 12
+  },
+  {
+    "player_id": "75150",
+    "name": "Yulia VASILYEVA",
+    "elo": 1476.2426360686152,
+    "matches": 1
+  },
+  {
+    "player_id": "59566",
+    "name": "Jenjira STADELMANN",
+    "elo": 1476.2381536821792,
+    "matches": 37
+  },
+  {
+    "player_id": "71285",
+    "name": "Anna TATRANOVA",
+    "elo": 1476.2376275957895,
+    "matches": 17
+  },
+  {
+    "player_id": "72821",
+    "name": "Anne FUGLSANG",
+    "elo": 1476.0982030010414,
+    "matches": 1
+  },
+  {
+    "player_id": "88582",
+    "name": "LéOnice HUET",
+    "elo": 1476.066148686221,
+    "matches": 45
+  },
+  {
+    "player_id": "99714",
+    "name": "Imad Farooqui SAMIYA",
+    "elo": 1475.9450679711904,
+    "matches": 28
+  },
+  {
+    "player_id": "51649",
+    "name": "YIP Pui Yin",
+    "elo": 1475.7823697713118,
+    "matches": 48
+  },
+  {
+    "player_id": "69830",
+    "name": "Moslena Ama Korama ADU",
+    "elo": 1475.6579316588645,
+    "matches": 1
+  },
+  {
+    "player_id": "98963",
+    "name": "Aissatou FAYE",
+    "elo": 1475.6579316588645,
+    "matches": 1
+  },
+  {
+    "player_id": "75009",
+    "name": "Petra SAARNIVAARA",
+    "elo": 1475.5398025919476,
+    "matches": 6
+  },
+  {
+    "player_id": "98126",
+    "name": "Anna Siess RYBERG",
+    "elo": 1475.0238092889804,
+    "matches": 11
+  },
+  {
+    "player_id": "68207",
+    "name": "LEPERLIER Estelle",
+    "elo": 1474.8813626007739,
+    "matches": 1
+  },
+  {
+    "player_id": "97343",
+    "name": "Soraye MARCH",
+    "elo": 1474.6842773324888,
+    "matches": 1
+  },
+  {
+    "player_id": "80071",
+    "name": "Yashica .",
+    "elo": 1474.1231585409453,
+    "matches": 1
+  },
+  {
+    "player_id": "61618",
+    "name": "Cristal VILLARREAL ZAPATA",
+    "elo": 1474.0945960732447,
+    "matches": 4
+  },
+  {
+    "player_id": "76370",
+    "name": "Iben BERGSTEIN",
+    "elo": 1474.0804708944943,
+    "matches": 1
+  },
+  {
+    "player_id": "93419",
+    "name": "Soraya DE VISCH EIJBERGEN",
+    "elo": 1473.9709221333078,
+    "matches": 30
+  },
+  {
+    "player_id": "78333",
+    "name": "Tinabora TEKEIAKI",
+    "elo": 1473.9589279705003,
+    "matches": 1
+  },
+  {
+    "player_id": "91044",
+    "name": "Lilit POGHOSYAN",
+    "elo": 1473.9537812741585,
+    "matches": 3
+  },
+  {
+    "player_id": "8558",
+    "name": "Olga ARKHANGELSKAYA",
+    "elo": 1473.8288381641564,
+    "matches": 1
+  },
+  {
+    "player_id": "78446",
+    "name": "Fuyu IWASAKI",
+    "elo": 1473.819936344694,
+    "matches": 1
+  },
+  {
+    "player_id": "22455",
+    "name": "BAE Yeon Ju",
+    "elo": 1472.9591199280603,
+    "matches": 1
+  },
+  {
+    "player_id": "68661",
+    "name": "Clarisa PIE",
+    "elo": 1472.9496111201004,
+    "matches": 3
+  },
+  {
+    "player_id": "80824",
+    "name": "Vanessa Karmine VILLALOBOS VAZQUEZ",
+    "elo": 1472.7615020878436,
+    "matches": 5
+  },
+  {
+    "player_id": "23213",
+    "name": "Ahliba Immelda Daniela KUASSI-KPEDE",
+    "elo": 1472.616453960675,
+    "matches": 1
+  },
+  {
+    "player_id": "80537",
+    "name": "Mia XU",
+    "elo": 1472.6095512292293,
+    "matches": 3
+  },
+  {
+    "player_id": "61998",
+    "name": "Tsholofelo WILLIE",
+    "elo": 1472.4949222636762,
+    "matches": 1
+  },
+  {
+    "player_id": "70379",
+    "name": "Anastasiia SHAPOVALOVA",
+    "elo": 1472.4689899463117,
+    "matches": 1
+  },
+  {
+    "player_id": "64540",
+    "name": "Louise WILLIAMS",
+    "elo": 1472.1595177203142,
+    "matches": 1
+  },
+  {
+    "player_id": "59101",
+    "name": "Alya ELGHANDOUR",
+    "elo": 1472.048537700127,
+    "matches": 1
+  },
+  {
+    "player_id": "22333",
+    "name": "Jasmine JAP",
+    "elo": 1471.7397404888343,
+    "matches": 1
+  },
+  {
+    "player_id": "77960",
+    "name": "Preethi KONADAM",
+    "elo": 1471.7172498880207,
+    "matches": 1
+  },
+  {
+    "player_id": "97168",
+    "name": "AALISHA NAIK",
+    "elo": 1471.6950837372879,
+    "matches": 4
+  },
+  {
+    "player_id": "76682",
+    "name": "Mattana HEMRACHATANUN",
+    "elo": 1471.6671490327524,
+    "matches": 7
+  },
+  {
+    "player_id": "81451",
+    "name": "Ghazala SIDDIQUE",
+    "elo": 1471.5438321783624,
+    "matches": 3
+  },
+  {
+    "player_id": "99312",
+    "name": "Hasini AMBALANGODAGE",
+    "elo": 1471.2803160148512,
+    "matches": 3
+  },
+  {
+    "player_id": "82358",
+    "name": "Rana ABU HARBESH",
+    "elo": 1471.191095963742,
+    "matches": 1
+  },
+  {
+    "player_id": "97359",
+    "name": "Laura ALVAREZ",
+    "elo": 1471.1726343592147,
+    "matches": 1
+  },
+  {
+    "player_id": "85576",
+    "name": "WU Wei",
+    "elo": 1471.1400694751514,
+    "matches": 3
+  },
+  {
+    "player_id": "61609",
+    "name": "Angelina UNG",
+    "elo": 1471.1276454090225,
+    "matches": 3
+  },
+  {
+    "player_id": "80016",
+    "name": "Wendy Nayeli RECINOS",
+    "elo": 1470.9436391727163,
+    "matches": 1
+  },
+  {
+    "player_id": "77993",
+    "name": "Justine VILLEGAS",
+    "elo": 1470.939003057951,
+    "matches": 1
+  },
+  {
+    "player_id": "86653",
+    "name": "Daria RADCHENKO",
+    "elo": 1470.939003057951,
+    "matches": 1
+  },
+  {
+    "player_id": "90988",
+    "name": "Ashley YEE",
+    "elo": 1470.939003057951,
+    "matches": 1
+  },
+  {
+    "player_id": "56979",
+    "name": "Lou Gohi Theophile Annick DOULOU",
+    "elo": 1470.939003057951,
+    "matches": 1
+  },
+  {
+    "player_id": "71953",
+    "name": "Elaa KHEDHIRI",
+    "elo": 1470.821309824066,
+    "matches": 1
+  },
+  {
+    "player_id": "63252",
+    "name": "Farah ALHAJJI",
+    "elo": 1470.8163030785465,
+    "matches": 1
+  },
+  {
+    "player_id": "95287",
+    "name": "Michaela OHLSON",
+    "elo": 1470.7927076415028,
+    "matches": 3
+  },
+  {
+    "player_id": "74563",
+    "name": "Eva ZHANG",
+    "elo": 1470.736699942333,
+    "matches": 1
+  },
+  {
+    "player_id": "82778",
+    "name": "JIANG Zhi Rou",
+    "elo": 1470.7242168575108,
+    "matches": 3
+  },
+  {
+    "player_id": "62400",
+    "name": "Cristen Elizabeth MARRITT",
+    "elo": 1470.6703919582533,
+    "matches": 1
+  },
+  {
+    "player_id": "53678",
+    "name": "Ekaterina KHMELJ",
+    "elo": 1470.537702279392,
+    "matches": 1
+  },
+  {
+    "player_id": "63230",
+    "name": "Kelly YAU",
+    "elo": 1470.4099141816573,
+    "matches": 1
+  },
+  {
+    "player_id": "98007",
+    "name": "Carina SAM",
+    "elo": 1470.2830915492727,
+    "matches": 1
+  },
+  {
+    "player_id": "58840",
+    "name": "Siti NURSHUHAINI",
+    "elo": 1470.0700599709924,
+    "matches": 7
+  },
+  {
+    "player_id": "94762",
+    "name": "Ozge BAYRAK",
+    "elo": 1470.0102791645202,
+    "matches": 19
+  },
+  {
+    "player_id": "62867",
+    "name": "LIM Yin Fun",
+    "elo": 1469.966586790957,
+    "matches": 8
+  },
+  {
+    "player_id": "25591",
+    "name": "Camille GIUSTI",
+    "elo": 1469.9391757350807,
+    "matches": 1
+  },
+  {
+    "player_id": "61289",
+    "name": "Cassey Rynn ROMPOG",
+    "elo": 1469.8741059264885,
+    "matches": 1
+  },
+  {
+    "player_id": "98398",
+    "name": "Alena YU",
+    "elo": 1469.7413737576871,
+    "matches": 1
+  },
+  {
+    "player_id": "75435",
+    "name": "Kelly XU",
+    "elo": 1469.6878101868476,
+    "matches": 1
+  },
+  {
+    "player_id": "82898",
+    "name": "Chieh YU",
+    "elo": 1469.6296264149996,
+    "matches": 1
+  },
+  {
+    "player_id": "96465",
+    "name": "ELGENDY Hadia",
+    "elo": 1469.6289501723163,
+    "matches": 1
+  },
+  {
+    "player_id": "63796",
+    "name": "Michelle CHRISTY",
+    "elo": 1469.5938148866921,
+    "matches": 1
+  },
+  {
+    "player_id": "43677",
+    "name": "Anushka SHAHAPURKAR",
+    "elo": 1469.5855789397992,
+    "matches": 1
+  },
+  {
+    "player_id": "67791",
+    "name": "Valeria SANTOS",
+    "elo": 1469.5854063817064,
+    "matches": 1
+  },
+  {
+    "player_id": "42128",
+    "name": "Ying Ying NONG",
+    "elo": 1469.3790994761512,
+    "matches": 1
+  },
+  {
+    "player_id": "25196",
+    "name": "Pin Hsuan CHIANG",
+    "elo": 1469.3594385685988,
+    "matches": 3
+  },
+  {
+    "player_id": "98472",
+    "name": "Jiya RAWAT",
+    "elo": 1469.3259086479038,
+    "matches": 1
+  },
+  {
+    "player_id": "81322",
+    "name": "Anastasiia PUSTINSKAIA",
+    "elo": 1469.3141958274869,
+    "matches": 1
+  },
+  {
+    "player_id": "88189",
+    "name": "Tessa KABELO",
+    "elo": 1469.3141951223797,
+    "matches": 3
+  },
+  {
+    "player_id": "59370",
+    "name": "Rasika RAJE",
+    "elo": 1469.2497056541374,
+    "matches": 6
+  },
+  {
+    "player_id": "88559",
+    "name": "Daniela MATAMOROS",
+    "elo": 1469.1833661288765,
+    "matches": 1
+  },
+  {
+    "player_id": "46434",
+    "name": "Djoarata SEBGO",
+    "elo": 1469.1477691756338,
+    "matches": 1
+  },
+  {
+    "player_id": "76901",
+    "name": "Mariana Isabel PAIZ QUAN",
+    "elo": 1469.1240898786716,
+    "matches": 1
+  },
+  {
+    "player_id": "84573",
+    "name": "JEONG Da Yeon",
+    "elo": 1469.0927690940478,
+    "matches": 1
+  },
+  {
+    "player_id": "89473",
+    "name": "Hsin-Pei TSAI",
+    "elo": 1469.0320592755004,
+    "matches": 12
+  },
+  {
+    "player_id": "70347",
+    "name": "PENG Li Ting",
+    "elo": 1468.9702850646934,
+    "matches": 1
+  },
+  {
+    "player_id": "62992",
+    "name": "Bztecho LOUBAKI",
+    "elo": 1468.9556752759863,
+    "matches": 3
+  },
+  {
+    "player_id": "67864",
+    "name": "Rituparna DAS",
+    "elo": 1468.9000981031386,
+    "matches": 33
+  },
+  {
+    "player_id": "40468",
+    "name": "Shaina MALONZO",
+    "elo": 1468.7899987397984,
+    "matches": 1
+  },
+  {
+    "player_id": "85514",
+    "name": "Haramara GAITAN",
+    "elo": 1468.7776084969314,
+    "matches": 26
+  },
+  {
+    "player_id": "81501",
+    "name": "Suhasni VIDANAGE",
+    "elo": 1468.7544433226146,
+    "matches": 1
+  },
+  {
+    "player_id": "56877",
+    "name": "Sevinch SODIKOVA",
+    "elo": 1468.7388067907123,
+    "matches": 1
+  },
+  {
+    "player_id": "86412",
+    "name": "Maharani Sekar BATARI",
+    "elo": 1468.708768427475,
+    "matches": 3
+  },
+  {
+    "player_id": "96511",
+    "name": "Cecilia MADERA",
+    "elo": 1468.5601316626012,
+    "matches": 1
+  },
+  {
+    "player_id": "66369",
+    "name": "Marie CESARI",
+    "elo": 1468.4191980139642,
+    "matches": 1
+  },
+  {
+    "player_id": "84389",
+    "name": "Iza SALEHAR",
+    "elo": 1468.3351685916607,
+    "matches": 1
+  },
+  {
+    "player_id": "51535",
+    "name": "Kristel RATTIK",
+    "elo": 1468.2706857287342,
+    "matches": 1
+  },
+  {
+    "player_id": "69504",
+    "name": "Wulan Cahya Utami SUKOPUTRI",
+    "elo": 1468.2706857287342,
+    "matches": 1
+  },
+  {
+    "player_id": "64609",
+    "name": "Jenny MAHO",
+    "elo": 1468.2706857287342,
+    "matches": 1
+  },
+  {
+    "player_id": "88536",
+    "name": "Jessica DE ALMEIDA",
+    "elo": 1468.25984652629,
+    "matches": 1
+  },
+  {
+    "player_id": "61142",
+    "name": "Harshika AMARTI",
+    "elo": 1468.2525356852316,
+    "matches": 1
+  },
+  {
+    "player_id": "18461",
+    "name": "Tin En Tiffany LIM",
+    "elo": 1468.2126062467291,
+    "matches": 1
+  },
+  {
+    "player_id": "81980",
+    "name": "Rajab SHAMSA MBIRA",
+    "elo": 1468.1231339135245,
+    "matches": 1
+  },
+  {
+    "player_id": "61431",
+    "name": "Elise Danielle DIXON",
+    "elo": 1468.0557460386128,
+    "matches": 1
+  },
+  {
+    "player_id": "82783",
+    "name": "Thi Ngoc Lan NGUYEN",
+    "elo": 1468.053085395298,
+    "matches": 1
+  },
+  {
+    "player_id": "97857",
+    "name": "Piramon CHAMNAKTAN",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "63639",
+    "name": "Kristina SILICH",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "66963",
+    "name": "Febby ANGGUNI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "93094",
+    "name": "Sarah CAI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "93581",
+    "name": "Carline BENTLEY",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "63675",
+    "name": "Karine DESFOUR",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "87936",
+    "name": "Grace CAI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "69639",
+    "name": "Rachel LI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "80022",
+    "name": "Rebecca FONG",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "96372",
+    "name": "Karyn GIBSON",
+    "elo": 1468.0,
+    "matches": 3
+  },
+  {
+    "player_id": "55377",
+    "name": "Leesa GRUNDY",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "76840",
+    "name": "Louise Lisane MBAS",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "90870",
+    "name": "Olga MATSANURA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "48833",
+    "name": "Daisy NAKALYANGO",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "95613",
+    "name": "Sendila MOURAT",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "81113",
+    "name": "Safa JEBALI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "79758",
+    "name": "Nyasha KOPOLO",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "62372",
+    "name": "Amrouni KAHINA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "70645",
+    "name": "Ainoa DESMONS",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "75759",
+    "name": "Juliette MOINARD",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "75632",
+    "name": "Palwasha BASHIR",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "85171",
+    "name": "Chloe LE TISSIER",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "90863",
+    "name": "Emily TEMPLE REDSHAW",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "99205",
+    "name": "CHEN Nianzu",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "92339",
+    "name": "CHENG Chi Ya",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "88907",
+    "name": "FAN Mengyan",
+    "elo": 1468.0,
+    "matches": 3
+  },
+  {
+    "player_id": "51518",
+    "name": "CHEN Hsiao Huan",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "90086",
+    "name": "Nathalie Angelique FEDNEY VIDAL",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "73320",
+    "name": "Ana Lucia ALBANES CORDON",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "62001",
+    "name": "SKARIC Mickaela",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "57516",
+    "name": "URRUTIA Cecilia",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "70036",
+    "name": "Ana Laura MARTINEZ VEGA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "88009",
+    "name": "Adriana ARTIZ ATAURY",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "63012",
+    "name": "Daniela ZAPATA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "62499",
+    "name": "Diana Judith MONTERROSO ORTIZ",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "73605",
+    "name": "Sophie MALES",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "77783",
+    "name": "Samantha HUI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "70481",
+    "name": "Debora Rumate VEHRENICA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "60952",
+    "name": "Liliia ABIBULAEVA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "65751",
+    "name": "Chisato HOSHI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "93240",
+    "name": "Sofiia DOROSHENKO",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "60094",
+    "name": "Yuri NAKAMURA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "82524",
+    "name": "Elizaveta TARASOVA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "78755",
+    "name": "TANG Wan Yi",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "85434",
+    "name": "Shatha ALMUTAIRI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "91541",
+    "name": "Rizma Anestasy VIOLETA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "63214",
+    "name": "Ruhi RAJU",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "95905",
+    "name": "FAN Ka Yan",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "84652",
+    "name": "Khushi GUPTA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "97286",
+    "name": "Alya Rahma MULYANI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "85154",
+    "name": "Yasnita Enggira SETIAWAN",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "85972",
+    "name": "Natalia MITCHELL",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "87840",
+    "name": "Toni WOODS",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "57206",
+    "name": "Ella SODERSTROM",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "60246",
+    "name": "Grace KING",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "82616",
+    "name": "Ye Ji KIM",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "69048",
+    "name": "Ingrid ATENI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "81811",
+    "name": "Miho KAYAMA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "97433",
+    "name": "Rena OZEKI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "68122",
+    "name": "Mbuyi Bernice BOKOTSHA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "88228",
+    "name": "Jennifer ABITTY",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "96421",
+    "name": "Xena ARISA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "76644",
+    "name": "Adjele Joeline DEGBEY",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "64635",
+    "name": "Jacqueline CHEUNG",
+    "elo": 1468.0,
+    "matches": 3
+  },
+  {
+    "player_id": "88318",
+    "name": "Ghaida Nurul GHANIYU",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "54108",
+    "name": "Nekeisha BLAKE",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "93548",
+    "name": "Misuzu OKA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "65338",
+    "name": "Nanami AKECHI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "72615",
+    "name": "Samin ABEDKHOJASTEH",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "84155",
+    "name": "Felicitas ANDRE",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "91018",
+    "name": "Eleanor WICHMAN",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "96807",
+    "name": "Loureina KURETA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "71020",
+    "name": "Marine SOUVIAT",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "96915",
+    "name": "Shaama SANDOOYEA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "85406",
+    "name": "BEN AHMED Wiem",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "98243",
+    "name": "Mercy JOSEPH",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "84050",
+    "name": "Camille POGNANTE",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "71108",
+    "name": "Malya HOAREAU",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "62773",
+    "name": "GONZALEZ Ana Pamela",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "82558",
+    "name": "Cristina TERUEL",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "81744",
+    "name": "MANSARD Sylvie",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "35183",
+    "name": "Ngandwe MIYAMBO",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "79935",
+    "name": "Zoé SINICO",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "98094",
+    "name": "Damaris Mercedes ORTIZ PARADA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "73761",
+    "name": "MYISHA Mohd Khairul",
+    "elo": 1468.0,
+    "matches": 3
+  },
+  {
+    "player_id": "81950",
+    "name": "Domou AMRO",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "63749",
+    "name": "Vicky CHATER",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "58428",
+    "name": "Elizabeth CHIPELEME",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "96720",
+    "name": "Chloe CHOI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "99911",
+    "name": "Siti Sarah AZZAHRA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "80779",
+    "name": "Aura Ihza AULIA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "90559",
+    "name": "Lok Yee CHAN",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "71964",
+    "name": "Soizick HO-YAGUES",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "90348",
+    "name": "Lata `ISITOLO",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "61429",
+    "name": "Amreen VIRK",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "87154",
+    "name": "WANG Xiu Xiu",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "98865",
+    "name": "WU Jia Shu",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "89856",
+    "name": "MA Mu Chen",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "58851",
+    "name": "CHENG Ling Lu",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "86764",
+    "name": "LU Yi",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "55420",
+    "name": "YAN Zi Yu",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "73120",
+    "name": "Era MAFTUHA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "64288",
+    "name": "Romina TAJIK",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "80855",
+    "name": "Sayane Regina LIMA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "95164",
+    "name": "Uthsava PALIT",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "64562",
+    "name": "Chujia Joanna WU",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "97092",
+    "name": "Motunrayo ABIOLA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "71848",
+    "name": "Yan Fei CHEN",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "82705",
+    "name": "LIN Tzu-Yun",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "55570",
+    "name": "KUO Yen Chi",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "58591",
+    "name": "Hsing Chen TSAI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "77656",
+    "name": "Akansha RAJ",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "20537",
+    "name": "Desiree TOEPFFER",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "40450",
+    "name": "Neila Caelle Samantha JEAN",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "88417",
+    "name": "Carine TEE",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "74034",
+    "name": "Victoria LI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "29392",
+    "name": "Hessa MAHAROOF",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "59511",
+    "name": "Taphira BARSINAS",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "38858",
+    "name": "Leticia Yayra DAVORDZI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "76665",
+    "name": "Bettie HUANG",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "70554",
+    "name": "ZHAO Xian Wen",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "59032",
+    "name": "LIU Hoi Kiu Anna",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "76834",
+    "name": "Angie HUANG",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "58017",
+    "name": "Baruni PARSHWAL",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "91826",
+    "name": "Sivaranjani SIVAKUMAR",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "85867",
+    "name": "Emily GRONDIN",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "21574",
+    "name": "Emmanuelle ADMETTE",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "25135",
+    "name": "Christaline Looh AKUMBOM NTANGSI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "56955",
+    "name": "Ravza BODUR",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "68673",
+    "name": "Muskan SANGWAN",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "17884",
+    "name": "Genelyn LANSANGAN",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "19710",
+    "name": "Joanna Maria ELLIMOOTTIL",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "83317",
+    "name": "Ashley DESERT",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "48262",
+    "name": "Kimberley MORALDO",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "20945",
+    "name": "Sirui LU",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "19137",
+    "name": "Lily CHEN",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "20318",
+    "name": "Jialin QIU",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "67954",
+    "name": "Olivia NAKAJJA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "86488",
+    "name": "Angela LEKPEHI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "48403",
+    "name": "Lerato MATLOSA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "43760",
+    "name": "Valerie Tapiwa SAMURIWO",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "29341",
+    "name": "Kelumetse MOELETSI",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "28269",
+    "name": "Thato TALEJANE",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "66073",
+    "name": "Aneri KOTAK",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "92903",
+    "name": "Wening Arviani SABRINA",
+    "elo": 1468.0,
+    "matches": 1
+  },
+  {
+    "player_id": "91792",
+    "name": "Mayté MACIAS MARIN",
+    "elo": 1467.9566574055232,
+    "matches": 1
+  },
+  {
+    "player_id": "96168",
+    "name": "Emilie HAMANG",
+    "elo": 1467.908431007186,
+    "matches": 1
+  },
+  {
+    "player_id": "95551",
+    "name": "Jeanelyn CARDINIO",
+    "elo": 1467.8406043378336,
+    "matches": 1
+  },
+  {
+    "player_id": "75698",
+    "name": "Folole IOANE",
+    "elo": 1467.8297630965035,
+    "matches": 1
+  },
+  {
+    "player_id": "66863",
+    "name": "Emilie DROUIN",
+    "elo": 1467.8259722966584,
+    "matches": 1
+  },
+  {
+    "player_id": "70495",
+    "name": "Amalie HERTZ",
+    "elo": 1467.8198639626257,
+    "matches": 3
+  },
+  {
+    "player_id": "64544",
+    "name": "YANG Rui Wen",
+    "elo": 1467.727629845163,
+    "matches": 3
+  },
+  {
+    "player_id": "81909",
+    "name": "EOON Qi Xuan",
+    "elo": 1467.6696980922093,
+    "matches": 3
+  },
+  {
+    "player_id": "52901",
+    "name": "Hadia HOSNY",
+    "elo": 1467.5753782122895,
+    "matches": 15
+  },
+  {
+    "player_id": "68882",
+    "name": "Anastasia ZINTSIDOU",
+    "elo": 1467.4873291187541,
+    "matches": 1
+  },
+  {
+    "player_id": "58737",
+    "name": "Polyvia TZIKA",
+    "elo": 1467.4873291187541,
+    "matches": 1
+  },
+  {
+    "player_id": "17558",
+    "name": "Ker Yie CHONG",
+    "elo": 1467.461534838366,
+    "matches": 1
+  },
+  {
+    "player_id": "69347",
+    "name": "Yvonne MWIKALI",
+    "elo": 1467.3498218195477,
+    "matches": 1
+  },
+  {
+    "player_id": "18799",
+    "name": "Olympe DARCHEVILLE",
+    "elo": 1467.344006052039,
+    "matches": 1
+  },
+  {
+    "player_id": "77909",
+    "name": "Anastasia KHOMICH",
+    "elo": 1467.2109027975578,
+    "matches": 1
+  },
+  {
+    "player_id": "66266",
+    "name": "WONG Yi",
+    "elo": 1467.195283819075,
+    "matches": 5
+  },
+  {
+    "player_id": "64740",
+    "name": "Monyata RIVIERA",
+    "elo": 1467.1325857821412,
+    "matches": 1
+  },
+  {
+    "player_id": "88079",
+    "name": "Sih Yun LIN",
+    "elo": 1467.1189027422597,
+    "matches": 35
+  },
+  {
+    "player_id": "94199",
+    "name": "sadhana FENELON",
+    "elo": 1467.0632820615933,
+    "matches": 1
+  },
+  {
+    "player_id": "64125",
+    "name": "Ye-Bin LEE",
+    "elo": 1466.7956198484553,
+    "matches": 1
+  },
+  {
+    "player_id": "69760",
+    "name": "SONG Hyeon Joo",
+    "elo": 1466.767800685103,
+    "matches": 1
+  },
+  {
+    "player_id": "56752",
+    "name": "Liana LENCEVICA",
+    "elo": 1466.7581863250741,
+    "matches": 1
+  },
+  {
+    "player_id": "87903",
+    "name": "Christabel Calista PURWANTO",
+    "elo": 1466.7416386095051,
+    "matches": 1
+  },
+  {
+    "player_id": "60891",
+    "name": "Myagmartseren GANBAATAR",
+    "elo": 1466.6905988686226,
+    "matches": 1
+  },
+  {
+    "player_id": "72346",
+    "name": "Abigail HOLDEN",
+    "elo": 1466.6079018761275,
+    "matches": 5
+  },
+  {
+    "player_id": "83562",
+    "name": "Natalia SLOBODOVA",
+    "elo": 1466.5240674049546,
+    "matches": 1
+  },
+  {
+    "player_id": "76468",
+    "name": "Marianne GONZALEZ ORTIZ",
+    "elo": 1466.5200838180629,
+    "matches": 1
+  },
+  {
+    "player_id": "65575",
+    "name": "Refiloe MOELETSI",
+    "elo": 1466.4827132594,
+    "matches": 1
+  },
+  {
+    "player_id": "21431",
+    "name": "Waianuhea TEHEURA",
+    "elo": 1466.4675034213521,
+    "matches": 1
+  },
+  {
+    "player_id": "93354",
+    "name": "Pawankorn PUNYARATABANDHU",
+    "elo": 1466.2918333412422,
+    "matches": 1
+  },
+  {
+    "player_id": "76747",
+    "name": "Sara PEÑALVER",
+    "elo": 1466.175761387636,
+    "matches": 9
+  },
+  {
+    "player_id": "41065",
+    "name": "Chananchida PHIRIYAPOKANONT",
+    "elo": 1466.1472901296793,
+    "matches": 1
+  },
+  {
+    "player_id": "63845",
+    "name": "Rihanna SHERCHAN",
+    "elo": 1466.0998966181276,
+    "matches": 1
+  },
+  {
+    "player_id": "57638",
+    "name": "Teitiria UTIMAWA",
+    "elo": 1466.0058555747514,
+    "matches": 1
+  },
+  {
+    "player_id": "23267",
+    "name": "Paula RODAS",
+    "elo": 1465.9787861619993,
+    "matches": 1
+  },
+  {
+    "player_id": "87987",
+    "name": "Alicia MOLITOR",
+    "elo": 1465.9298786655052,
+    "matches": 3
+  },
+  {
+    "player_id": "49676",
+    "name": "Alana LIM",
+    "elo": 1465.6635220629066,
+    "matches": 1
+  },
+  {
+    "player_id": "47912",
+    "name": "Blessing BUYANZI",
+    "elo": 1465.5940956469701,
+    "matches": 1
+  },
+  {
+    "player_id": "18838",
+    "name": "Chloe LAI",
+    "elo": 1465.5940956469701,
+    "matches": 1
+  },
+  {
+    "player_id": "67387",
+    "name": "Ria TUOMINEN",
+    "elo": 1465.5406814216842,
+    "matches": 1
+  },
+  {
+    "player_id": "67073",
+    "name": "Victoria SLOBODYANYUK",
+    "elo": 1465.4722216251655,
+    "matches": 1
+  },
+  {
+    "player_id": "78319",
+    "name": "Sehra AKRAM",
+    "elo": 1465.4507679290487,
+    "matches": 1
+  },
+  {
+    "player_id": "88389",
+    "name": "Ritika THAKER",
+    "elo": 1465.4227414622508,
+    "matches": 9
+  },
+  {
+    "player_id": "76273",
+    "name": "Rujula RAMU",
+    "elo": 1465.3386484604378,
+    "matches": 1
+  },
+  {
+    "player_id": "85030",
+    "name": "Kaitlyn EA",
+    "elo": 1465.3296080417467,
+    "matches": 1
+  },
+  {
+    "player_id": "61551",
+    "name": "Maeva GAILLARD",
+    "elo": 1465.3296080417467,
+    "matches": 1
+  },
+  {
+    "player_id": "70420",
+    "name": "Theresa ISENBERG",
+    "elo": 1465.259814744181,
+    "matches": 3
+  },
+  {
+    "player_id": "76311",
+    "name": "Julie FRANCONVILLE",
+    "elo": 1465.167800516239,
+    "matches": 1
+  },
+  {
+    "player_id": "77795",
+    "name": "Valentina VILLARREAL ZAPATA",
+    "elo": 1465.084474391245,
+    "matches": 1
+  },
+  {
+    "player_id": "58133",
+    "name": "Avishi RAINA",
+    "elo": 1465.0764897779854,
+    "matches": 1
+  },
+  {
+    "player_id": "10597",
+    "name": "Juliette AH-WAN",
+    "elo": 1465.060996942049,
+    "matches": 1
+  },
+  {
+    "player_id": "83393",
+    "name": "Cheryl MARCH",
+    "elo": 1465.060996942049,
+    "matches": 1
+  },
+  {
+    "player_id": "76027",
+    "name": "Alana BAILEY",
+    "elo": 1465.060996942049,
+    "matches": 1
+  },
+  {
+    "player_id": "36996",
+    "name": "Elena KOMENDROVSKAJA",
+    "elo": 1465.060996942049,
+    "matches": 1
+  },
+  {
+    "player_id": "84004",
+    "name": "Marsa Indah SALSABILA",
+    "elo": 1465.060996942049,
+    "matches": 1
+  },
+  {
+    "player_id": "57451",
+    "name": "Lizzie CAFFARELLI",
+    "elo": 1465.060996942049,
+    "matches": 1
+  },
+  {
+    "player_id": "72491",
+    "name": "GUO Rui Yi",
+    "elo": 1465.060996942049,
+    "matches": 1
+  },
+  {
+    "player_id": "57506",
+    "name": "Yue YANG CAO",
+    "elo": 1465.060996942049,
+    "matches": 1
+  },
+  {
+    "player_id": "75740",
+    "name": "Katembua ODIA",
+    "elo": 1465.060996942049,
+    "matches": 1
+  },
+  {
+    "player_id": "60347",
+    "name": "Pascaline VITOU",
+    "elo": 1465.060996942049,
+    "matches": 1
+  },
+  {
+    "player_id": "75792",
+    "name": "Aïcha Laurene N'DIA",
+    "elo": 1465.060996942049,
+    "matches": 1
+  },
+  {
+    "player_id": "54945",
+    "name": "TAI Yi",
+    "elo": 1465.060996942049,
+    "matches": 1
+  },
+  {
+    "player_id": "57755",
+    "name": "Maria Julieth PEREZ TANGARIFE",
+    "elo": 1465.060996942049,
+    "matches": 1
+  },
+  {
+    "player_id": "96480",
+    "name": "Anastasiia YEROKHINA",
+    "elo": 1465.060996942049,
+    "matches": 1
+  },
+  {
+    "player_id": "96347",
+    "name": "I Kuan AO",
+    "elo": 1465.060996942049,
+    "matches": 1
+  },
+  {
+    "player_id": "76507",
+    "name": "Samia LIMA",
+    "elo": 1464.8890692325951,
+    "matches": 8
+  },
+  {
+    "player_id": "89910",
+    "name": "CHAN Wing Lam",
+    "elo": 1464.8481537357127,
+    "matches": 1
+  },
+  {
+    "player_id": "78239",
+    "name": "Patchamon LAISUAN",
+    "elo": 1464.83829978215,
+    "matches": 1
+  },
+  {
+    "player_id": "92014",
+    "name": "KISONA Selvaduray",
+    "elo": 1464.8108721942317,
+    "matches": 80
+  },
+  {
+    "player_id": "17608",
+    "name": "Xin Yi GU",
+    "elo": 1464.792947903358,
+    "matches": 1
+  },
+  {
+    "player_id": "33042",
+    "name": "Praxede Reine Eunice EYONO",
+    "elo": 1464.5520307129602,
+    "matches": 1
+  },
+  {
+    "player_id": "75821",
+    "name": "Helina RÜÜTEL",
+    "elo": 1464.5358844508785,
+    "matches": 1
+  },
+  {
+    "player_id": "27094",
+    "name": "Latifata BELEM",
+    "elo": 1464.5121348613493,
+    "matches": 1
+  },
+  {
+    "player_id": "71414",
+    "name": "Eyota KWAN",
+    "elo": 1464.4123373372115,
+    "matches": 1
+  },
+  {
+    "player_id": "58908",
+    "name": "Ziwen GUO",
+    "elo": 1464.3913817871555,
+    "matches": 1
+  },
+  {
+    "player_id": "17802",
+    "name": "Rachidatou BILOGO",
+    "elo": 1464.3548532572063,
+    "matches": 1
+  },
+  {
+    "player_id": "83488",
+    "name": "Chequeda DE BOULET",
+    "elo": 1464.2881988489244,
+    "matches": 5
+  },
+  {
+    "player_id": "75744",
+    "name": "Lisa CURTIN",
+    "elo": 1464.2389455173886,
+    "matches": 1
+  },
+  {
+    "player_id": "85408",
+    "name": "Sarah Daisy Theresia Christina RAMBITAN",
+    "elo": 1464.1795593192594,
+    "matches": 3
+  },
+  {
+    "player_id": "97270",
+    "name": "Emily TREBERT",
+    "elo": 1464.1718945473126,
+    "matches": 1
+  },
+  {
+    "player_id": "37943",
+    "name": "Lillian CAO",
+    "elo": 1464.0892694572478,
+    "matches": 3
+  },
+  {
+    "player_id": "68933",
+    "name": "Sai Abhijna BRAHMAKAL",
+    "elo": 1464.0719716866404,
+    "matches": 1
+  },
+  {
+    "player_id": "72739",
+    "name": "Vaishnavi KARRI",
+    "elo": 1464.0419067627697,
+    "matches": 3
+  },
+  {
+    "player_id": "27383",
+    "name": "Alysa Mukti SALSABIELA",
+    "elo": 1463.981988474864,
+    "matches": 1
+  },
+  {
+    "player_id": "95822",
+    "name": "Marta GONZALEZ",
+    "elo": 1463.7981936954984,
+    "matches": 1
+  },
+  {
+    "player_id": "73893",
+    "name": "Ania SETIEN",
+    "elo": 1463.74817413003,
+    "matches": 6
+  },
+  {
+    "player_id": "98011",
+    "name": "Prakriti BHARATH",
+    "elo": 1463.6768813758101,
+    "matches": 11
+  },
+  {
+    "player_id": "75516",
+    "name": "Mirjam LINDGÄRDE",
+    "elo": 1463.5642857782584,
+    "matches": 1
+  },
+  {
+    "player_id": "89622",
+    "name": "Nicole KRAWCZYK",
+    "elo": 1463.3275311770801,
+    "matches": 1
+  },
+  {
+    "player_id": "63440",
+    "name": "Vilina APPIAH",
+    "elo": 1463.304685689526,
+    "matches": 3
+  },
+  {
+    "player_id": "99096",
+    "name": "NONG Sophia",
+    "elo": 1463.253917657419,
+    "matches": 1
+  },
+  {
+    "player_id": "97358",
+    "name": "KOH Yee Xin",
+    "elo": 1462.9976471116272,
+    "matches": 1
+  },
+  {
+    "player_id": "63104",
+    "name": "MENDOZA Daibelis",
+    "elo": 1462.916564844342,
+    "matches": 3
+  },
+  {
+    "player_id": "97293",
+    "name": "Kruthum NALUMANSI",
+    "elo": 1462.8974250076647,
+    "matches": 1
+  },
+  {
+    "player_id": "61189",
+    "name": "Sakshi KURBKHELGI",
+    "elo": 1462.889364616688,
+    "matches": 3
+  },
+  {
+    "player_id": "91988",
+    "name": "Maureen  Clarissa WIJAYA",
+    "elo": 1462.8359684686634,
+    "matches": 5
+  },
+  {
+    "player_id": "74448",
+    "name": "Laura Valentina LONDONO",
+    "elo": 1462.8299488949135,
+    "matches": 1
+  },
+  {
+    "player_id": "69396",
+    "name": "Sirada ROONGPIBOONSOPIT",
+    "elo": 1462.8193430744886,
+    "matches": 5
+  },
+  {
+    "player_id": "69451",
+    "name": "Blanca LUCAS",
+    "elo": 1462.705135201213,
+    "matches": 1
+  },
+  {
+    "player_id": "74785",
+    "name": "Dana DANILENKO",
+    "elo": 1462.6840322528885,
+    "matches": 1
+  },
+  {
+    "player_id": "31903",
+    "name": "Augustine CAPITAINE",
+    "elo": 1462.679294745482,
+    "matches": 1
+  },
+  {
+    "player_id": "68655",
+    "name": "Iliana SALDAÑA",
+    "elo": 1462.6454817092742,
+    "matches": 1
+  },
+  {
+    "player_id": "46169",
+    "name": "Stefani STOEVA",
+    "elo": 1462.6326952150077,
+    "matches": 13
+  },
+  {
+    "player_id": "55851",
+    "name": "Ann-Katrin HIPPCHEN",
+    "elo": 1462.5847390507663,
+    "matches": 1
+  },
+  {
+    "player_id": "75002",
+    "name": "Mele Lingisiva KEI",
+    "elo": 1462.4332703251728,
+    "matches": 1
+  },
+  {
+    "player_id": "37278",
+    "name": "Mariangel GARCIA",
+    "elo": 1462.405847918109,
+    "matches": 1
+  },
+  {
+    "player_id": "74850",
+    "name": "Shukla SHALINI SURYAKARAN",
+    "elo": 1462.22070012212,
+    "matches": 1
+  },
+  {
+    "player_id": "74645",
+    "name": "Maria Veronica Ngadien PRAWESTI",
+    "elo": 1462.2172830098732,
+    "matches": 1
+  },
+  {
+    "player_id": "63365",
+    "name": "Ariana MUNAR",
+    "elo": 1462.1782435108462,
+    "matches": 1
+  },
+  {
+    "player_id": "68792",
+    "name": "Sara AVILA",
+    "elo": 1462.1782435108462,
+    "matches": 1
+  },
+  {
+    "player_id": "76559",
+    "name": "Pei Chu CHEN",
+    "elo": 1462.1716278948954,
+    "matches": 1
+  },
+  {
+    "player_id": "82011",
+    "name": "Aminat Oluwafunke ILORI",
+    "elo": 1462.1711618358436,
+    "matches": 1
+  },
+  {
+    "player_id": "74846",
+    "name": "Enkhlen TSELMEG-OD",
+    "elo": 1462.1046875622624,
+    "matches": 1
+  },
+  {
+    "player_id": "92730",
+    "name": "Lara LUCAS",
+    "elo": 1461.904774770986,
+    "matches": 1
+  },
+  {
+    "player_id": "95065",
+    "name": "Lyric SU",
+    "elo": 1461.8170139633467,
+    "matches": 1
+  },
+  {
+    "player_id": "72946",
+    "name": "Bermary Altagracia POLANCO MUNOZ",
+    "elo": 1461.674784393759,
+    "matches": 2
+  },
+  {
+    "player_id": "85239",
+    "name": "Ulyana VOLSKAYA",
+    "elo": 1461.4922851645501,
+    "matches": 1
+  },
+  {
+    "player_id": "57304",
+    "name": "Rebecca KUHL",
+    "elo": 1461.3103378600608,
+    "matches": 3
+  },
+  {
+    "player_id": "88399",
+    "name": "Ishika JAISWAL",
+    "elo": 1461.1424899249369,
+    "matches": 49
+  },
+  {
+    "player_id": "70136",
+    "name": "Ghadeer Ali ALTAHRI",
+    "elo": 1460.868512761018,
+    "matches": 1
+  },
+  {
+    "player_id": "86959",
+    "name": "Tasya FARAHNAILAH",
+    "elo": 1460.522749178478,
+    "matches": 10
+  },
+  {
+    "player_id": "90125",
+    "name": "Rachael QUARCOO",
+    "elo": 1460.2655380905262,
+    "matches": 1
+  },
+  {
+    "player_id": "83984",
+    "name": "Aditi BHATT",
+    "elo": 1460.2004971686176,
+    "matches": 11
+  },
+  {
+    "player_id": "66598",
+    "name": "GUTIERREZ Fatima",
+    "elo": 1460.1310997471708,
+    "matches": 1
+  },
+  {
+    "player_id": "48392",
+    "name": "Sofia RODAS",
+    "elo": 1460.125131390066,
+    "matches": 1
+  },
+  {
+    "player_id": "30318",
+    "name": "Nicholine Tabile SIBANDA",
+    "elo": 1460.1076179907736,
+    "matches": 1
+  },
+  {
+    "player_id": "52950",
+    "name": "Eunice HERMANTO",
+    "elo": 1459.6677897432328,
+    "matches": 1
+  },
+  {
+    "player_id": "81375",
+    "name": "Nadia FANKHAUSER",
+    "elo": 1459.5522365847924,
+    "matches": 3
+  },
+  {
+    "player_id": "71881",
+    "name": "Esther SHI",
+    "elo": 1459.532022083923,
+    "matches": 15
+  },
+  {
+    "player_id": "95175",
+    "name": "Afrika MATSINHE",
+    "elo": 1459.4012820687233,
+    "matches": 1
+  },
+  {
+    "player_id": "25274",
+    "name": "Barbara LAMAS",
+    "elo": 1459.0935719824547,
+    "matches": 1
+  },
+  {
+    "player_id": "87520",
+    "name": "Akshaya ANNAMALAIRAJA",
+    "elo": 1458.9710598476254,
+    "matches": 1
+  },
+  {
+    "player_id": "78056",
+    "name": "Natchananpon ROONGPIBOONSOPIT",
+    "elo": 1458.857613774002,
+    "matches": 2
+  },
+  {
+    "player_id": "77808",
+    "name": "Shikha GAUTAM",
+    "elo": 1458.808125028763,
+    "matches": 7
+  },
+  {
+    "player_id": "95683",
+    "name": "Yi Xing UNG",
+    "elo": 1458.1554574786915,
+    "matches": 5
+  },
+  {
+    "player_id": "79819",
+    "name": "Kim SCHMIDT",
+    "elo": 1457.9419280751063,
+    "matches": 11
+  },
+  {
+    "player_id": "96554",
+    "name": "Alejandra Jose PAIZ QUAN",
+    "elo": 1457.80170899734,
+    "matches": 7
+  },
+  {
+    "player_id": "75944",
+    "name": "Jelena BUCHBERGER",
+    "elo": 1457.5784297401017,
+    "matches": 1
+  },
+  {
+    "player_id": "62708",
+    "name": "Jacqueline Wendy MYERS",
+    "elo": 1457.562516435104,
+    "matches": 1
+  },
+  {
+    "player_id": "81498",
+    "name": "TANEESHA SINGH",
+    "elo": 1457.1361929292464,
+    "matches": 1
+  },
+  {
+    "player_id": "74774",
+    "name": "Aisha ZHUMABEK",
+    "elo": 1457.0830764752263,
+    "matches": 1
+  },
+  {
+    "player_id": "78133",
+    "name": "Tanina Violette MAMMERI",
+    "elo": 1457.0774570550236,
+    "matches": 6
+  },
+  {
+    "player_id": "79363",
+    "name": "Alina KURGUZOVA",
+    "elo": 1456.9726873383493,
+    "matches": 1
+  },
+  {
+    "player_id": "86778",
+    "name": "Ririna HIRAMOTO",
+    "elo": 1456.4554741369925,
+    "matches": 8
+  },
+  {
+    "player_id": "72809",
+    "name": "Mutale MUKUKA",
+    "elo": 1456.425893996081,
+    "matches": 1
+  },
+  {
+    "player_id": "73746",
+    "name": "Saloni Samirbhai MEHTA",
+    "elo": 1456.0640056321574,
+    "matches": 55
+  },
+  {
+    "player_id": "45380",
+    "name": "Soraya AGHAEIHAJIAGHA",
+    "elo": 1455.7873820094933,
+    "matches": 8
+  },
+  {
+    "player_id": "89342",
+    "name": "Kanika KANWAL",
+    "elo": 1455.2271173963584,
+    "matches": 3
+  },
+  {
+    "player_id": "89543",
+    "name": "Maria De Los Angeles ROJAS CAMACHO",
+    "elo": 1455.2195712134446,
+    "matches": 2
+  },
+  {
+    "player_id": "95374",
+    "name": "Silvi WULANDARI",
+    "elo": 1455.1820035098513,
+    "matches": 2
+  },
+  {
+    "player_id": "75598",
+    "name": "Deswanti Hujansih NURTERTIATI",
+    "elo": 1454.9018964521767,
+    "matches": 16
+  },
+  {
+    "player_id": "66804",
+    "name": "CHEN Li",
+    "elo": 1454.8108784930025,
+    "matches": 1
+  },
+  {
+    "player_id": "63404",
+    "name": "Jia Rong SITO",
+    "elo": 1454.6820416370979,
+    "matches": 1
+  },
+  {
+    "player_id": "58247",
+    "name": "Francesca CAROZZI DE BELAUNDE",
+    "elo": 1454.2214243340777,
+    "matches": 1
+  },
+  {
+    "player_id": "75546",
+    "name": "Catrina Chia-Yu TAN",
+    "elo": 1453.93738140767,
+    "matches": 2
+  },
+  {
+    "player_id": "71061",
+    "name": "Nairoby Abigail JIMENEZ",
+    "elo": 1453.8923121998198,
+    "matches": 12
+  },
+  {
+    "player_id": "68628",
+    "name": "THINAAH Muralitharan",
+    "elo": 1453.63932451066,
+    "matches": 4
+  },
+  {
+    "player_id": "99925",
+    "name": "PAI Yu Po",
+    "elo": 1453.5223091311816,
+    "matches": 190
+  },
+  {
+    "player_id": "68059",
+    "name": "Anja BLAZINA",
+    "elo": 1453.205729856155,
+    "matches": 1
+  },
+  {
+    "player_id": "87268",
+    "name": "Maja PAVLINIC",
+    "elo": 1453.1428541969826,
+    "matches": 7
+  },
+  {
+    "player_id": "13993",
+    "name": "Andra WHITESIDE",
+    "elo": 1452.9538254902964,
+    "matches": 4
+  },
+  {
+    "player_id": "17774",
+    "name": "Nikte SOTOMAYOR",
+    "elo": 1452.898189465924,
+    "matches": 21
+  },
+  {
+    "player_id": "98162",
+    "name": "Brid STEPPER",
+    "elo": 1452.6826655483264,
+    "matches": 2
+  },
+  {
+    "player_id": "59430",
+    "name": "Viktoriia BELONYUK",
+    "elo": 1452.4429014012344,
+    "matches": 1
+  },
+  {
+    "player_id": "67373",
+    "name": "Debora JILLE",
+    "elo": 1452.3602640546367,
+    "matches": 3
+  },
+  {
+    "player_id": "95780",
+    "name": "Beatriz CORRALES",
+    "elo": 1452.2874870067474,
+    "matches": 51
+  },
+  {
+    "player_id": "57244",
+    "name": "LIN Ying Chun",
+    "elo": 1452.035428115347,
+    "matches": 19
+  },
+  {
+    "player_id": "83734",
+    "name": "LYU Xue Zhou",
+    "elo": 1451.9619323982645,
+    "matches": 4
+  },
+  {
+    "player_id": "57795",
+    "name": "Katelin NGO",
+    "elo": 1451.918453614428,
+    "matches": 4
+  },
+  {
+    "player_id": "22221",
+    "name": "Alphonsa BIJOMON",
+    "elo": 1451.8535258782813,
+    "matches": 4
+  },
+  {
+    "player_id": "93873",
+    "name": "Yuran ZHANG",
+    "elo": 1451.752216191777,
+    "matches": 4
+  },
+  {
+    "player_id": "92046",
+    "name": "Palitapat HIRAN-AKKHARAWONG",
+    "elo": 1451.4078813826582,
+    "matches": 2
+  },
+  {
+    "player_id": "82707",
+    "name": "Sofie Holmboe DAHL",
+    "elo": 1451.2866905420171,
+    "matches": 2
+  },
+  {
+    "player_id": "80146",
+    "name": "Tanishq MAMILLA PALLI",
+    "elo": 1451.239017613419,
+    "matches": 9
+  },
+  {
+    "player_id": "57175",
+    "name": "Edith URELL",
+    "elo": 1451.096563955975,
+    "matches": 2
+  },
+  {
+    "player_id": "91021",
+    "name": "Ka Wing LIANG",
+    "elo": 1450.797788080651,
+    "matches": 43
+  },
+  {
+    "player_id": "52908",
+    "name": "Fabiana SILVA",
+    "elo": 1450.7883172151996,
+    "matches": 15
+  },
+  {
+    "player_id": "81520",
+    "name": "Prerana NEELURI",
+    "elo": 1450.740264176708,
+    "matches": 6
+  },
+  {
+    "player_id": "68579",
+    "name": "Yeganeh KERMANI",
+    "elo": 1450.6279396486577,
+    "matches": 1
+  },
+  {
+    "player_id": "56466",
+    "name": "Adriana F. GONCALVES",
+    "elo": 1450.4602384171953,
+    "matches": 2
+  },
+  {
+    "player_id": "87799",
+    "name": "Gaea GALVEZ",
+    "elo": 1450.4124872152297,
+    "matches": 6
+  },
+  {
+    "player_id": "27588",
+    "name": "CHIANG Ying Li",
+    "elo": 1450.277112398399,
+    "matches": 39
+  },
+  {
+    "player_id": "56471",
+    "name": "Saili RANE",
+    "elo": 1449.9130556334658,
+    "matches": 11
+  },
+  {
+    "player_id": "79188",
+    "name": "Petra MAIXNEROVÁ",
+    "elo": 1449.7707451517988,
+    "matches": 8
+  },
+  {
+    "player_id": "81949",
+    "name": "Emily CHAN",
+    "elo": 1449.7032576753136,
+    "matches": 1
+  },
+  {
+    "player_id": "80803",
+    "name": "Phanitphicha PAWATNITIKORN",
+    "elo": 1449.5798245646856,
+    "matches": 2
+  },
+  {
+    "player_id": "61882",
+    "name": "Francesca CORBETT",
+    "elo": 1448.92296088868,
+    "matches": 2
+  },
+  {
+    "player_id": "70311",
+    "name": "Kyla Legiana AGATHA",
+    "elo": 1448.7753525020885,
+    "matches": 8
+  },
+  {
+    "player_id": "80519",
+    "name": "Yee-Yuan LIM",
+    "elo": 1448.7698119031252,
+    "matches": 4
+  },
+  {
+    "player_id": "76780",
+    "name": "HSIEH Yu Ying",
+    "elo": 1448.083232772324,
+    "matches": 4
+  },
+  {
+    "player_id": "86431",
+    "name": "Ishita NEGI",
+    "elo": 1448.0692272645408,
+    "matches": 2
+  },
+  {
+    "player_id": "68457",
+    "name": "Adriana BARRIOS CHIONG",
+    "elo": 1447.5893757317226,
+    "matches": 4
+  },
+  {
+    "player_id": "54996",
+    "name": "Yui SUIZU",
+    "elo": 1446.4290787787304,
+    "matches": 2
+  },
+  {
+    "player_id": "51665",
+    "name": "Ogar SIAMUPANGILA",
+    "elo": 1446.3650967710532,
+    "matches": 6
+  },
+  {
+    "player_id": "64861",
+    "name": "Elsie Magdalena DE VILLERS",
+    "elo": 1446.249120237454,
+    "matches": 2
+  },
+  {
+    "player_id": "74117",
+    "name": "Dania NUGROHO",
+    "elo": 1446.1383513294286,
+    "matches": 2
+  },
+  {
+    "player_id": "74952",
+    "name": "Disha SANTOSH",
+    "elo": 1446.0525809341038,
+    "matches": 7
+  },
+  {
+    "player_id": "94784",
+    "name": "Meble NAMAKOYE",
+    "elo": 1445.819119684622,
+    "matches": 4
+  },
+  {
+    "player_id": "99823",
+    "name": "Eyram MIGBODZI",
+    "elo": 1445.7392811175805,
+    "matches": 4
+  },
+  {
+    "player_id": "52294",
+    "name": "Alesia ZAITSAVA",
+    "elo": 1445.072109648019,
+    "matches": 5
+  },
+  {
+    "player_id": "80425",
+    "name": "Gabriela  Meilani MONINGKA",
+    "elo": 1444.7674347133495,
+    "matches": 5
+  },
+  {
+    "player_id": "86034",
+    "name": "Ruzana RUZANA",
+    "elo": 1444.6746619135113,
+    "matches": 21
+  },
+  {
+    "player_id": "54920",
+    "name": "Cecilia MOUSSY",
+    "elo": 1444.4624839009136,
+    "matches": 2
+  },
+  {
+    "player_id": "65618",
+    "name": "Ekaterina RIAZANTCEVA",
+    "elo": 1444.1722964911528,
+    "matches": 2
+  },
+  {
+    "player_id": "87188",
+    "name": "Grace ATIPAKA",
+    "elo": 1444.0185549947848,
+    "matches": 4
+  },
+  {
+    "player_id": "22107",
+    "name": "Mado Promesse NGO HIOL",
+    "elo": 1443.9970388666434,
+    "matches": 2
+  },
+  {
+    "player_id": "69281",
+    "name": "Cecilia WANG",
+    "elo": 1443.8239146757808,
+    "matches": 2
+  },
+  {
+    "player_id": "76748",
+    "name": "HSIEH Yun-Shan",
+    "elo": 1443.136110187844,
+    "matches": 4
+  },
+  {
+    "player_id": "77393",
+    "name": "Aminath Nabeeha ABDUL RAZZAQ",
+    "elo": 1442.2611747094963,
+    "matches": 5
+  },
+  {
+    "player_id": "76349",
+    "name": "Maria ULITINA",
+    "elo": 1442.2285317624487,
+    "matches": 30
+  },
+  {
+    "player_id": "49415",
+    "name": "Leilah CHUNG",
+    "elo": 1442.1682974969506,
+    "matches": 2
+  },
+  {
+    "player_id": "88412",
+    "name": "Katharina FINK",
+    "elo": 1442.071405547527,
+    "matches": 2
+  },
+  {
+    "player_id": "98433",
+    "name": "Fabiana Layla OLIVIERO",
+    "elo": 1442.0066948044741,
+    "matches": 2
+  },
+  {
+    "player_id": "65301",
+    "name": "Sarah UNG",
+    "elo": 1441.8288381641564,
+    "matches": 2
+  },
+  {
+    "player_id": "44497",
+    "name": "Ann MOK",
+    "elo": 1441.6270878697715,
+    "matches": 2
+  },
+  {
+    "player_id": "90267",
+    "name": "Tahlia RICHARDSON",
+    "elo": 1441.6160713335557,
+    "matches": 9
+  },
+  {
+    "player_id": "82677",
+    "name": "Ashley MONTRE",
+    "elo": 1441.275717743119,
+    "matches": 4
+  },
+  {
+    "player_id": "58469",
+    "name": "Dounia PELUPESSY",
+    "elo": 1441.127588531974,
+    "matches": 3
+  },
+  {
+    "player_id": "22307",
+    "name": "Airi OKU",
+    "elo": 1440.9744783605365,
+    "matches": 2
+  },
+  {
+    "player_id": "82685",
+    "name": "Shruti MUNDADA",
+    "elo": 1440.8295162908842,
+    "matches": 13
+  },
+  {
+    "player_id": "59810",
+    "name": "Anna MIKHALKOVA",
+    "elo": 1440.6814029214381,
+    "matches": 2
+  },
+  {
+    "player_id": "81068",
+    "name": "Ashwathi PILLAI",
+    "elo": 1440.204824972218,
+    "matches": 2
+  },
+  {
+    "player_id": "78187",
+    "name": "Farza NAZRIN",
+    "elo": 1440.171340390023,
+    "matches": 2
+  },
+  {
+    "player_id": "99017",
+    "name": "Crystal PAN",
+    "elo": 1439.9961688230967,
+    "matches": 29
+  },
+  {
+    "player_id": "58650",
+    "name": "Elizaberth CHIPELEME",
+    "elo": 1439.886106798127,
+    "matches": 2
+  },
+  {
+    "player_id": "64766",
+    "name": "Mariia STOLIARENKO",
+    "elo": 1439.5271090666877,
+    "matches": 5
+  },
+  {
+    "player_id": "96332",
+    "name": "Chen HAN",
+    "elo": 1439.4788165660846,
+    "matches": 2
+  },
+  {
+    "player_id": "96531",
+    "name": "Srivedya GURAZADA",
+    "elo": 1439.4087103991947,
+    "matches": 9
+  },
+  {
+    "player_id": "13882",
+    "name": "Johanna KOU",
+    "elo": 1439.1849662466198,
+    "matches": 2
+  },
+  {
+    "player_id": "74892",
+    "name": "Ganesha MUNGRAH",
+    "elo": 1439.1525982128232,
+    "matches": 4
+  },
+  {
+    "player_id": "81695",
+    "name": "Nina SMITS",
+    "elo": 1439.0740895668814,
+    "matches": 2
+  },
+  {
+    "player_id": "76069",
+    "name": "Veronika DOBIÁŠOVÁ",
+    "elo": 1439.0219461778668,
+    "matches": 2
+  },
+  {
+    "player_id": "64139",
+    "name": "Ella SMITH",
+    "elo": 1438.939003057951,
+    "matches": 4
+  },
+  {
+    "player_id": "13538",
+    "name": "Alissa DEAN",
+    "elo": 1438.939003057951,
+    "matches": 2
+  },
+  {
+    "player_id": "13992",
+    "name": "Danielle WHITESIDE",
+    "elo": 1438.939003057951,
+    "matches": 2
+  },
+  {
+    "player_id": "69869",
+    "name": "Stella Koteikai AMASAH",
+    "elo": 1438.939003057951,
+    "matches": 2
+  },
+  {
+    "player_id": "87542",
+    "name": "Stella Joel NGADJUI",
+    "elo": 1438.939003057951,
+    "matches": 2
+  },
+  {
+    "player_id": "59236",
+    "name": "WU Yu Han",
+    "elo": 1438.939003057951,
+    "matches": 2
+  },
+  {
+    "player_id": "88474",
+    "name": "Inga BUDARINA",
+    "elo": 1438.939003057951,
+    "matches": 2
+  },
+  {
+    "player_id": "95334",
+    "name": "Laurene BENLAHOUSSINE",
+    "elo": 1438.939003057951,
+    "matches": 2
+  },
+  {
+    "player_id": "88915",
+    "name": "Sristi NADAN",
+    "elo": 1438.939003057951,
+    "matches": 2
+  },
+  {
+    "player_id": "81954",
+    "name": "Tereapii AKAVI",
+    "elo": 1438.939003057951,
+    "matches": 2
+  },
+  {
+    "player_id": "86191",
+    "name": "Samayara PANWAR",
+    "elo": 1438.939003057951,
+    "matches": 2
+  },
+  {
+    "player_id": "50367",
+    "name": "LI Tzu Pei",
+    "elo": 1438.939003057951,
+    "matches": 2
+  },
+  {
+    "player_id": "68482",
+    "name": "ZHANG Le Yao",
+    "elo": 1438.939003057951,
+    "matches": 2
+  },
+  {
+    "player_id": "64926",
+    "name": "Ramona ÜPRUS",
+    "elo": 1438.939003057951,
+    "matches": 2
+  },
+  {
+    "player_id": "43916",
+    "name": "Lana TOA",
+    "elo": 1438.939003057951,
+    "matches": 2
+  },
+  {
+    "player_id": "22604",
+    "name": "Tuaine NICHOLAS-HERMAN",
+    "elo": 1438.939003057951,
+    "matches": 2
+  },
+  {
+    "player_id": "61948",
+    "name": "Thi Cam Tu NGUYEN",
+    "elo": 1438.8061100413204,
+    "matches": 2
+  },
+  {
+    "player_id": "72277",
+    "name": "Muskaan KHAN",
+    "elo": 1438.8018026162938,
+    "matches": 2
+  },
+  {
+    "player_id": "81552",
+    "name": "Elizaveta PYATINA",
+    "elo": 1438.7603472071607,
+    "matches": 2
+  },
+  {
+    "player_id": "77801",
+    "name": "Zuzanna JANKOWSKA",
+    "elo": 1438.6196882908946,
+    "matches": 6
+  },
+  {
+    "player_id": "94164",
+    "name": "Julie WONGSODJIRONO",
+    "elo": 1438.5984928238756,
+    "matches": 2
+  },
+  {
+    "player_id": "61594",
+    "name": "Madhumitha SUNDARAPANDIAN",
+    "elo": 1438.1373015915497,
+    "matches": 4
+  },
+  {
+    "player_id": "78142",
+    "name": "Matildah KALANDANYA",
+    "elo": 1437.767909070253,
+    "matches": 2
+  },
+  {
+    "player_id": "79522",
+    "name": "Te Pa O Te Rangi TUPA",
+    "elo": 1437.639399333189,
+    "matches": 2
+  },
+  {
+    "player_id": "85479",
+    "name": "Morani KARIKA",
+    "elo": 1437.559065413532,
+    "matches": 2
+  },
+  {
+    "player_id": "71057",
+    "name": "Cristina PEREZ",
+    "elo": 1437.3414572325576,
+    "matches": 2
+  },
+  {
+    "player_id": "74714",
+    "name": "Tracy NALUWOOZA",
+    "elo": 1437.1159232298808,
+    "matches": 11
+  },
+  {
+    "player_id": "93726",
+    "name": "Prashansa BONAM",
+    "elo": 1437.0716218840919,
+    "matches": 2
+  },
+  {
+    "player_id": "81493",
+    "name": "Neha PANDIT",
+    "elo": 1437.0699303869303,
+    "matches": 2
+  },
+  {
+    "player_id": "95615",
+    "name": "Niina MATSUTA",
+    "elo": 1436.9571545304248,
+    "matches": 2
+  },
+  {
+    "player_id": "57847",
+    "name": "Malak OUCHEFOUN",
+    "elo": 1436.9567440757962,
+    "matches": 15
+  },
+  {
+    "player_id": "90330",
+    "name": "Shalom Tapiwanashe SIBANDA",
+    "elo": 1436.6707878206798,
+    "matches": 2
+  },
+  {
+    "player_id": "66881",
+    "name": "Aisha NAKIYEMBA",
+    "elo": 1436.5811483331104,
+    "matches": 8
+  },
+  {
+    "player_id": "51335",
+    "name": "Michelle BUTLER-EMMETT",
+    "elo": 1436.2681940554662,
+    "matches": 2
+  },
+  {
+    "player_id": "59046",
+    "name": "Sofiya ZAKIROVA",
+    "elo": 1436.2565448957964,
+    "matches": 2
+  },
+  {
+    "player_id": "94071",
+    "name": "Esme Osseane Davila LOESS",
+    "elo": 1436.0,
+    "matches": 2
+  },
+  {
+    "player_id": "93462",
+    "name": "Harshitaa ROUT",
+    "elo": 1435.9345835171218,
+    "matches": 2
+  },
+  {
+    "player_id": "78345",
+    "name": "Rolande ADJIMA",
+    "elo": 1435.8741191689323,
+    "matches": 2
+  },
+  {
+    "player_id": "65706",
+    "name": "Jui-Yi HSU",
+    "elo": 1435.7293142712658,
+    "matches": 2
+  },
+  {
+    "player_id": "98315",
+    "name": "Khahliso KHETHENG",
+    "elo": 1435.472177805059,
+    "matches": 2
+  },
+  {
+    "player_id": "98100",
+    "name": "Annalena DIKS",
+    "elo": 1434.9226906560737,
+    "matches": 2
+  },
+  {
+    "player_id": "95936",
+    "name": "Khan DIACK WOTI",
+    "elo": 1434.661355814998,
+    "matches": 2
+  },
+  {
+    "player_id": "87429",
+    "name": "Pitchaya Elysia VIRAVONG",
+    "elo": 1434.6239279905278,
+    "matches": 2
+  },
+  {
+    "player_id": "79853",
+    "name": "Jamie HSU",
+    "elo": 1434.2430232581044,
+    "matches": 6
+  },
+  {
+    "player_id": "79705",
+    "name": "Thilini HENDAHEWA",
+    "elo": 1433.909894849552,
+    "matches": 2
+  },
+  {
+    "player_id": "57358",
+    "name": "Kuzivakwashe Tritania MUDZAMIRI",
+    "elo": 1433.8501946038023,
+    "matches": 2
+  },
+  {
+    "player_id": "84390",
+    "name": "Aurelie Marie Elisa ALLET",
+    "elo": 1433.5639207746121,
+    "matches": 4
+  },
+  {
+    "player_id": "77871",
+    "name": "Judith MAIR",
+    "elo": 1433.5347641757942,
+    "matches": 5
+  },
+  {
+    "player_id": "77541",
+    "name": "Christina LOH",
+    "elo": 1433.4831058905359,
+    "matches": 2
+  },
+  {
+    "player_id": "58168",
+    "name": "Constanza NARANJO",
+    "elo": 1433.4167176468188,
+    "matches": 2
+  },
+  {
+    "player_id": "81056",
+    "name": "Ronja STERN",
+    "elo": 1433.3970967928763,
+    "matches": 11
+  },
+  {
+    "player_id": "60367",
+    "name": "Camille LEBLANC",
+    "elo": 1433.1733863915495,
+    "matches": 2
+  },
+  {
+    "player_id": "62186",
+    "name": "Wei XU",
+    "elo": 1433.0874166997278,
+    "matches": 2
+  },
+  {
+    "player_id": "55777",
+    "name": "Evelyn SIAMUPANGILA",
+    "elo": 1432.965897960933,
+    "matches": 5
+  },
+  {
+    "player_id": "34229",
+    "name": "Zuzana PAVELKOVA",
+    "elo": 1432.454081018862,
+    "matches": 2
+  },
+  {
+    "player_id": "93713",
+    "name": "Madeleine Carene Leticia AKOUMBA ZE",
+    "elo": 1432.0890790591625,
+    "matches": 10
+  },
+  {
+    "player_id": "70098",
+    "name": "Samanta GOLUBICKAITE",
+    "elo": 1431.9159803460245,
+    "matches": 5
+  },
+  {
+    "player_id": "96401",
+    "name": "Nikki RAPRIA",
+    "elo": 1431.9059972033879,
+    "matches": 2
+  },
+  {
+    "player_id": "75083",
+    "name": "Viktoriia VOROBEVA",
+    "elo": 1431.6220774048024,
+    "matches": 5
+  },
+  {
+    "player_id": "57230",
+    "name": "Thi Anh Thu VU",
+    "elo": 1431.1133872748192,
+    "matches": 17
+  },
+  {
+    "player_id": "57906",
+    "name": "Mariya MITSOVA",
+    "elo": 1431.0562551304529,
+    "matches": 25
+  },
+  {
+    "player_id": "82922",
+    "name": "Leona LEE",
+    "elo": 1431.0285884838631,
+    "matches": 2
+  },
+  {
+    "player_id": "84725",
+    "name": "Tiffany SÁNCHEZ",
+    "elo": 1430.7434136345526,
+    "matches": 2
+  },
+  {
+    "player_id": "94256",
+    "name": "Jemimah LEUNG FOR SANG",
+    "elo": 1430.7035377465245,
+    "matches": 5
+  },
+  {
+    "player_id": "73995",
+    "name": "Mary CHILAMBE",
+    "elo": 1429.0594190209706,
+    "matches": 2
+  },
+  {
+    "player_id": "99019",
+    "name": "Prashi JOSHI",
+    "elo": 1428.9663086858218,
+    "matches": 8
+  },
+  {
+    "player_id": "66005",
+    "name": "KEYURA MOPATI",
+    "elo": 1428.944103388469,
+    "matches": 23
+  },
+  {
+    "player_id": "59500",
+    "name": "Shreya LELE",
+    "elo": 1428.7028294425527,
+    "matches": 10
+  },
+  {
+    "player_id": "61561",
+    "name": "Anjana KUMARI",
+    "elo": 1428.538091772883,
+    "matches": 2
+  },
+  {
+    "player_id": "61443",
+    "name": "Fatima Beatriz CENTENO FUENTES",
+    "elo": 1428.4579061124332,
+    "matches": 11
+  },
+  {
+    "player_id": "59536",
+    "name": "Reshma KARTHIK",
+    "elo": 1428.0267357345585,
+    "matches": 4
+  },
+  {
+    "player_id": "62853",
+    "name": "Fathimath Nabaaha ABDUL RAZZAQ",
+    "elo": 1427.811932851442,
+    "matches": 21
+  },
+  {
+    "player_id": "20987",
+    "name": "Polina MAKKOVEEVA",
+    "elo": 1427.7672061743303,
+    "matches": 2
+  },
+  {
+    "player_id": "61667",
+    "name": "Séraphine Merveille AVIDI MEKA",
+    "elo": 1427.6816617437912,
+    "matches": 2
+  },
+  {
+    "player_id": "74003",
+    "name": "CHEN You-Chi",
+    "elo": 1427.4952512880518,
+    "matches": 2
+  },
+  {
+    "player_id": "66267",
+    "name": "Kati-Kreet KÄSNER",
+    "elo": 1427.2992707305593,
+    "matches": 4
+  },
+  {
+    "player_id": "59692",
+    "name": "Disha GUPTA",
+    "elo": 1426.9401089189396,
+    "matches": 56
+  },
+  {
+    "player_id": "79083",
+    "name": "Ana HIGUITA",
+    "elo": 1426.7900623130981,
+    "matches": 2
+  },
+  {
+    "player_id": "67477",
+    "name": "Yeily Mari ORTIZ RODRIGUEZ",
+    "elo": 1425.775820226036,
+    "matches": 5
+  },
+  {
+    "player_id": "73195",
+    "name": "Anastasiia SEMENOVA",
+    "elo": 1425.6401847249076,
+    "matches": 9
+  },
+  {
+    "player_id": "95699",
+    "name": "Katsiaryna ZABLOTSKAYA",
+    "elo": 1424.8615141741009,
+    "matches": 2
+  },
+  {
+    "player_id": "66778",
+    "name": "Annanya PRAVIN",
+    "elo": 1424.4296972691045,
+    "matches": 5
+  },
+  {
+    "player_id": "65401",
+    "name": "Rachel SUGDEN",
+    "elo": 1424.1699094505304,
+    "matches": 4
+  },
+  {
+    "player_id": "79132",
+    "name": "Iona GUALDI",
+    "elo": 1423.819934613898,
+    "matches": 8
+  },
+  {
+    "player_id": "95366",
+    "name": "Nayonika RAJESH",
+    "elo": 1423.7985685286224,
+    "matches": 2
+  },
+  {
+    "player_id": "70319",
+    "name": "Naishaa Kaur BHATOYE",
+    "elo": 1423.2854465533965,
+    "matches": 3
+  },
+  {
+    "player_id": "88913",
+    "name": "Zhasmin AISAROVA",
+    "elo": 1422.4951209671658,
+    "matches": 2
+  },
+  {
+    "player_id": "81006",
+    "name": "Juliana GIRALDO",
+    "elo": 1422.1877858447156,
+    "matches": 10
+  },
+  {
+    "player_id": "43761",
+    "name": "Mette POULSEN",
+    "elo": 1421.979519841932,
+    "matches": 13
+  },
+  {
+    "player_id": "72367",
+    "name": "Vytaute FOMKINAITE",
+    "elo": 1421.6633872851257,
+    "matches": 5
+  },
+  {
+    "player_id": "58884",
+    "name": "Kamila SMAGULOVA",
+    "elo": 1421.5785676387238,
+    "matches": 7
+  },
+  {
+    "player_id": "68737",
+    "name": "Mst Nasima KHATUN",
+    "elo": 1421.410962852823,
+    "matches": 2
+  },
+  {
+    "player_id": "27024",
+    "name": "Myriam SIAO",
+    "elo": 1420.863784658987,
+    "matches": 3
+  },
+  {
+    "player_id": "71132",
+    "name": "Lorna BODHA",
+    "elo": 1420.2636936198742,
+    "matches": 7
+  },
+  {
+    "player_id": "93270",
+    "name": "Prospera NANTUO",
+    "elo": 1419.8694740404558,
+    "matches": 3
+  },
+  {
+    "player_id": "60301",
+    "name": "Mariana PAIVA",
+    "elo": 1419.8221634287127,
+    "matches": 2
+  },
+  {
+    "player_id": "79198",
+    "name": "Nuntakarn AIMSAARD",
+    "elo": 1419.8097554584974,
+    "matches": 12
+  },
+  {
+    "player_id": "64424",
+    "name": "Maryna ILYINSKAYA",
+    "elo": 1419.4349211172005,
+    "matches": 5
+  },
+  {
+    "player_id": "58478",
+    "name": "Kate FROST",
+    "elo": 1418.8617916976311,
+    "matches": 5
+  },
+  {
+    "player_id": "94743",
+    "name": "Marie BATOMENE",
+    "elo": 1418.8585833689558,
+    "matches": 32
+  },
+  {
+    "player_id": "77615",
+    "name": "Juanita SIVIORA",
+    "elo": 1418.5390954965212,
+    "matches": 3
+  },
+  {
+    "player_id": "77812",
+    "name": "Nella NYQVIST",
+    "elo": 1418.4266318279263,
+    "matches": 8
+  },
+  {
+    "player_id": "69671",
+    "name": "Rafaela MUNAR",
+    "elo": 1418.0928034193678,
+    "matches": 2
+  },
+  {
+    "player_id": "64431",
+    "name": "Aadya VARIYATH",
+    "elo": 1418.0865275431893,
+    "matches": 10
+  },
+  {
+    "player_id": "75188",
+    "name": "Martina REPISKA",
+    "elo": 1416.5806035945086,
+    "matches": 36
+  },
+  {
+    "player_id": "94594",
+    "name": "Yue Yann Jaslyn HOOI",
+    "elo": 1416.5522940150279,
+    "matches": 17
+  },
+  {
+    "player_id": "65556",
+    "name": "LEE Xin Yi Megan",
+    "elo": 1416.5104054876876,
+    "matches": 18
+  },
+  {
+    "player_id": "71396",
+    "name": "Ailen OLIVA",
+    "elo": 1416.4087904235969,
+    "matches": 7
+  },
+  {
+    "player_id": "56401",
+    "name": "Diana CORLETO",
+    "elo": 1415.3339595508737,
+    "matches": 3
+  },
+  {
+    "player_id": "74525",
+    "name": "Rusydina Antardayu RIODINGIN",
+    "elo": 1415.0694679532803,
+    "matches": 9
+  },
+  {
+    "player_id": "66628",
+    "name": "Karen PATIÑO",
+    "elo": 1414.967057262317,
+    "matches": 2
+  },
+  {
+    "player_id": "79834",
+    "name": "Katherine Sarai LARA GUZMAN",
+    "elo": 1414.6209564375522,
+    "matches": 3
+  },
+  {
+    "player_id": "74696",
+    "name": "Helis PAJUSTE",
+    "elo": 1414.379883842005,
+    "matches": 2
+  },
+  {
+    "player_id": "80402",
+    "name": "AAKARSHI KASHYAP",
+    "elo": 1414.0655559551146,
+    "matches": 124
+  },
+  {
+    "player_id": "93338",
+    "name": "Jesica MULJATI",
+    "elo": 1413.9988553055466,
+    "matches": 5
+  },
+  {
+    "player_id": "73892",
+    "name": "Diane OLIVIER",
+    "elo": 1413.777482518084,
+    "matches": 5
+  },
+  {
+    "player_id": "84311",
+    "name": "HUANG Yu Wei",
+    "elo": 1413.5017825566238,
+    "matches": 7
+  },
+  {
+    "player_id": "86383",
+    "name": "Margareth REVELO",
+    "elo": 1412.6315799903005,
+    "matches": 5
+  },
+  {
+    "player_id": "95747",
+    "name": "Janani ANANTHAKUMAR",
+    "elo": 1412.5125405555837,
+    "matches": 8
+  },
+  {
+    "player_id": "79180",
+    "name": "YASHVI BHAT",
+    "elo": 1411.6947161614871,
+    "matches": 5
+  },
+  {
+    "player_id": "86539",
+    "name": "Ann-Kathrin SPOERI",
+    "elo": 1411.0135317668942,
+    "matches": 5
+  },
+  {
+    "player_id": "58421",
+    "name": "PURVA BARVE",
+    "elo": 1410.403272698149,
+    "matches": 4
+  },
+  {
+    "player_id": "99177",
+    "name": "Lia SALEHAR",
+    "elo": 1410.2127053741879,
+    "matches": 7
+  },
+  {
+    "player_id": "89501",
+    "name": "Aashi RAWAT",
+    "elo": 1410.0433687871566,
+    "matches": 11
+  },
+  {
+    "player_id": "42763",
+    "name": "Ria BAIRY",
+    "elo": 1409.892598313415,
+    "matches": 7
+  },
+  {
+    "player_id": "63506",
+    "name": "Thi Anh TRAN",
+    "elo": 1409.3571175115917,
+    "matches": 3
+  },
+  {
+    "player_id": "69436",
+    "name": "Siang Syuan LIN",
+    "elo": 1408.949901410897,
+    "matches": 3
+  },
+  {
+    "player_id": "44698",
+    "name": "Karen Yun Qiao FENG",
+    "elo": 1407.5330439135196,
+    "matches": 3
+  },
+  {
+    "player_id": "73556",
+    "name": "Johanna MAGNUSSON",
+    "elo": 1407.5192601363344,
+    "matches": 3
+  },
+  {
+    "player_id": "81727",
+    "name": "Kavipriya SELVAM",
+    "elo": 1407.4368109847182,
+    "matches": 7
+  },
+  {
+    "player_id": "61268",
+    "name": "Petra POLANC",
+    "elo": 1406.6958215893383,
+    "matches": 7
+  },
+  {
+    "player_id": "69009",
+    "name": "LIN Jhih Yun",
+    "elo": 1406.5173722499983,
+    "matches": 3
+  },
+  {
+    "player_id": "95068",
+    "name": "Weng Chi NG",
+    "elo": 1406.17962809131,
+    "matches": 4
+  },
+  {
+    "player_id": "98258",
+    "name": "Sophia NOBLE",
+    "elo": 1406.1193743248114,
+    "matches": 4
+  },
+  {
+    "player_id": "77522",
+    "name": "Yi Tsen HSIEH",
+    "elo": 1405.6113175522805,
+    "matches": 11
+  },
+  {
+    "player_id": "86222",
+    "name": "Getter SAAR",
+    "elo": 1405.5304301797216,
+    "matches": 3
+  },
+  {
+    "player_id": "79258",
+    "name": "Ines Lucia CASTILLO SALAZAR",
+    "elo": 1405.4764219656086,
+    "matches": 44
+  },
+  {
+    "player_id": "89697",
+    "name": "Jekaterina ROMANOVA",
+    "elo": 1404.5513465005895,
+    "matches": 4
+  },
+  {
+    "player_id": "92606",
+    "name": "Miranda WILSON",
+    "elo": 1404.0701702899557,
+    "matches": 24
+  },
+  {
+    "player_id": "91906",
+    "name": "Heirautea CURET",
+    "elo": 1403.719671976886,
+    "matches": 3
+  },
+  {
+    "player_id": "83494",
+    "name": "Mariana PALACIOS CASTILLO",
+    "elo": 1403.238520708237,
+    "matches": 3
+  },
+  {
+    "player_id": "83856",
+    "name": "IRA SHARMA",
+    "elo": 1403.1470503918272,
+    "matches": 35
+  },
+  {
+    "player_id": "96751",
+    "name": "Deepshikha SINGH",
+    "elo": 1403.0995121144058,
+    "matches": 11
+  },
+  {
+    "player_id": "63779",
+    "name": "Nattanant KULAMAT",
+    "elo": 1402.7574209099928,
+    "matches": 3
+  },
+  {
+    "player_id": "96276",
+    "name": "Irina Amalie ANDERSEN",
+    "elo": 1402.0724282310662,
+    "matches": 17
+  },
+  {
+    "player_id": "69582",
+    "name": "Luisa SANTIZO ALFARO",
+    "elo": 1401.808149792709,
+    "matches": 3
+  },
+  {
+    "player_id": "74218",
+    "name": "Clara AZURMENDI",
+    "elo": 1401.312038956656,
+    "matches": 81
+  },
+  {
+    "player_id": "75837",
+    "name": "Meghana Reddy MAREDDY",
+    "elo": 1401.057404128757,
+    "matches": 8
+  },
+  {
+    "player_id": "98084",
+    "name": "Sakshi GAHLAWAT",
+    "elo": 1400.6517850544815,
+    "matches": 4
+  },
+  {
+    "player_id": "55318",
+    "name": "Lianne TAN",
+    "elo": 1398.102330316217,
+    "matches": 112
+  },
+  {
+    "player_id": "77860",
+    "name": "Sarah NGU",
+    "elo": 1397.9907386692787,
+    "matches": 5
+  },
+  {
+    "player_id": "77988",
+    "name": "Aisyah Sativa FATETANI",
+    "elo": 1397.6565739476102,
+    "matches": 18
+  },
+  {
+    "player_id": "63871",
+    "name": "Zainaba REEM SIRAJ",
+    "elo": 1396.8608440615453,
+    "matches": 3
+  },
+  {
+    "player_id": "97207",
+    "name": "Hanna RAMADINI",
+    "elo": 1396.2754883079838,
+    "matches": 4
+  },
+  {
+    "player_id": "67857",
+    "name": "Luise HEIM",
+    "elo": 1395.6507053415128,
+    "matches": 12
+  },
+  {
+    "player_id": "94400",
+    "name": "Anastasiya CHERNIAVSKAYA",
+    "elo": 1392.5458420251698,
+    "matches": 4
+  },
+  {
+    "player_id": "90471",
+    "name": "Heli NEIMAN",
+    "elo": 1392.4161912551378,
+    "matches": 8
+  },
+  {
+    "player_id": "73164",
+    "name": "Chi Wa PUI",
+    "elo": 1392.4009401483702,
+    "matches": 23
+  },
+  {
+    "player_id": "43626",
+    "name": "Juliana Zefanya GABRIELA",
+    "elo": 1392.2295650806732,
+    "matches": 14
+  },
+  {
+    "player_id": "59922",
+    "name": "Linda MAZRI",
+    "elo": 1392.12161778446,
+    "matches": 12
+  },
+  {
+    "player_id": "98804",
+    "name": "Daniella GONDA",
+    "elo": 1392.0671841579904,
+    "matches": 11
+  },
+  {
+    "player_id": "68199",
+    "name": "Aurum Oktavia WINATA",
+    "elo": 1391.8876841957003,
+    "matches": 10
+  },
+  {
+    "player_id": "69361",
+    "name": "Kobita DOOKHEE",
+    "elo": 1391.8871908103317,
+    "matches": 9
+  },
+  {
+    "player_id": "83066",
+    "name": "ZIH Ling HUANG",
+    "elo": 1391.7489761147997,
+    "matches": 12
+  },
+  {
+    "player_id": "60035",
+    "name": "Clara LASSAUX",
+    "elo": 1391.5684146464002,
+    "matches": 11
+  },
+  {
+    "player_id": "82827",
+    "name": "Katarina VARGOVA",
+    "elo": 1391.4841383663245,
+    "matches": 3
+  },
+  {
+    "player_id": "97529",
+    "name": "Milena SCHNIDER",
+    "elo": 1391.0512564369067,
+    "matches": 14
+  },
+  {
+    "player_id": "54547",
+    "name": "Sabrina SCOTT",
+    "elo": 1387.9478466181984,
+    "matches": 6
+  },
+  {
+    "player_id": "78135",
+    "name": "Romane CLOTEAUX-FOUCAULT",
+    "elo": 1387.9440017568304,
+    "matches": 11
+  },
+  {
+    "player_id": "92893",
+    "name": "Elisa WIBORG",
+    "elo": 1386.2119068207974,
+    "matches": 4
+  },
+  {
+    "player_id": "34899",
+    "name": "Laura SAROSI",
+    "elo": 1386.0705603512818,
+    "matches": 12
+  },
+  {
+    "player_id": "15105",
+    "name": "Linda ZETCHIRI",
+    "elo": 1385.7434030476977,
+    "matches": 39
+  },
+  {
+    "player_id": "86296",
+    "name": "SHENG-CHUN HUANG",
+    "elo": 1383.772497487189,
+    "matches": 4
+  },
+  {
+    "player_id": "86511",
+    "name": "Thamolwan POOPRADUBSIL",
+    "elo": 1382.8213403354282,
+    "matches": 9
+  },
+  {
+    "player_id": "79078",
+    "name": "Keisha Fatimah AZZAHRA",
+    "elo": 1381.078292286401,
+    "matches": 39
+  },
+  {
+    "player_id": "89360",
+    "name": "Sreeyuktha SREEJITH PAROL",
+    "elo": 1380.629667181561,
+    "matches": 7
+  },
+  {
+    "player_id": "64889",
+    "name": "LEE Ying Ying",
+    "elo": 1380.6174674333981,
+    "matches": 26
+  },
+  {
+    "player_id": "83786",
+    "name": "Daniela HERNANDEZ",
+    "elo": 1379.891109553112,
+    "matches": 8
+  },
+  {
+    "player_id": "93852",
+    "name": "LIANG Ting Yu",
+    "elo": 1378.4193511914095,
+    "matches": 88
+  },
+  {
+    "player_id": "35949",
+    "name": "Yu Chen HAN",
+    "elo": 1377.990583329952,
+    "matches": 30
+  },
+  {
+    "player_id": "57833",
+    "name": "Joanne NG",
+    "elo": 1377.6017785803376,
+    "matches": 8
+  },
+  {
+    "player_id": "87721",
+    "name": "Ieva POPE",
+    "elo": 1377.468810349255,
+    "matches": 4
+  },
+  {
+    "player_id": "75535",
+    "name": "Maeva Princia Gertrude ANAMBA",
+    "elo": 1377.2170366983153,
+    "matches": 5
+  },
+  {
+    "player_id": "92109",
+    "name": "Sri Nitya NARAHARISETTI",
+    "elo": 1377.2161663997592,
+    "matches": 4
+  },
+  {
+    "player_id": "71421",
+    "name": "Eleni CHRISTODOULOU",
+    "elo": 1376.8274807587723,
+    "matches": 12
+  },
+  {
+    "player_id": "63472",
+    "name": "DE GUZMAN Mikaela Joy",
+    "elo": 1376.3354203899562,
+    "matches": 13
+  },
+  {
+    "player_id": "71252",
+    "name": "Daniela MACIAS",
+    "elo": 1375.7119683069777,
+    "matches": 15
+  },
+  {
+    "player_id": "87972",
+    "name": "Esther TAU",
+    "elo": 1374.7341655544587,
+    "matches": 7
+  },
+  {
+    "player_id": "57646",
+    "name": "Monika RADOVSKA",
+    "elo": 1373.1770160703536,
+    "matches": 4
+  },
+  {
+    "player_id": "75174",
+    "name": "Yu-Hsuan LEE",
+    "elo": 1371.8912413115327,
+    "matches": 40
+  },
+  {
+    "player_id": "72489",
+    "name": "Sonia GONCALVES",
+    "elo": 1371.65613195055,
+    "matches": 7
+  },
+  {
+    "player_id": "87660",
+    "name": "Georgina BLAND",
+    "elo": 1371.341180130962,
+    "matches": 5
+  },
+  {
+    "player_id": "79442",
+    "name": "MéIissa MI YOU",
+    "elo": 1369.105065333755,
+    "matches": 5
+  },
+  {
+    "player_id": "56940",
+    "name": "Mugdha AGREY",
+    "elo": 1369.0698613276477,
+    "matches": 29
+  },
+  {
+    "player_id": "76459",
+    "name": "Riya MOOKERJEE",
+    "elo": 1366.636750302297,
+    "matches": 22
+  },
+  {
+    "player_id": "87854",
+    "name": "Katrin NEUDOLT",
+    "elo": 1366.0920588032739,
+    "matches": 5
+  },
+  {
+    "player_id": "14865",
+    "name": "CHANG Ya Lan",
+    "elo": 1365.930621025231,
+    "matches": 7
+  },
+  {
+    "player_id": "84635",
+    "name": "Gianna STIGLICH",
+    "elo": 1365.4671898622162,
+    "matches": 4
+  },
+  {
+    "player_id": "83745",
+    "name": "TAN Shen Thing",
+    "elo": 1361.114833978462,
+    "matches": 5
+  },
+  {
+    "player_id": "87945",
+    "name": "VAIDEHI CHOUDHARI",
+    "elo": 1359.505243711402,
+    "matches": 18
+  },
+  {
+    "player_id": "67996",
+    "name": "Yulia Yosephine SUSANTO",
+    "elo": 1359.0326607955603,
+    "matches": 67
+  },
+  {
+    "player_id": "80852",
+    "name": "Gabriela BARRIOS",
+    "elo": 1358.4976449377066,
+    "matches": 5
+  },
+  {
+    "player_id": "84178",
+    "name": "Wiktoria DABCZYNSKA",
+    "elo": 1358.1923048597184,
+    "matches": 14
+  },
+  {
+    "player_id": "69386",
+    "name": "LOH Zhi Wei",
+    "elo": 1357.8858382948456,
+    "matches": 6
+  },
+  {
+    "player_id": "68576",
+    "name": "Priyanna RAMDHANI",
+    "elo": 1356.3690786533748,
+    "matches": 5
+  },
+  {
+    "player_id": "94806",
+    "name": "Jordan HART",
+    "elo": 1355.317297232176,
+    "matches": 30
+  },
+  {
+    "player_id": "81649",
+    "name": "Hristomira POPOVSKA",
+    "elo": 1354.2411470440827,
+    "matches": 15
+  },
+  {
+    "player_id": "83013",
+    "name": "Chananchida JUCHAROEN",
+    "elo": 1352.2425247034503,
+    "matches": 19
+  },
+  {
+    "player_id": "78605",
+    "name": "Natalia PERMINOVA",
+    "elo": 1350.1636562294618,
+    "matches": 32
+  },
+  {
+    "player_id": "92691",
+    "name": "Ayla HUSER",
+    "elo": 1349.888124011635,
+    "matches": 5
+  },
+  {
+    "player_id": "98186",
+    "name": "Sabrina SOLIS",
+    "elo": 1346.2346091587872,
+    "matches": 17
+  },
+  {
+    "player_id": "93187",
+    "name": "Sai Uttejitha Rao CHUKKA",
+    "elo": 1345.8075052003758,
+    "matches": 31
+  },
+  {
+    "player_id": "98560",
+    "name": "Alissa Juleixi ACOSTA",
+    "elo": 1343.1562188898206,
+    "matches": 5
+  },
+  {
+    "player_id": "86757",
+    "name": "Ngoc Van LE",
+    "elo": 1340.7780665317039,
+    "matches": 8
+  },
+  {
+    "player_id": "68719",
+    "name": "Marija SUDIMAC",
+    "elo": 1338.725504454774,
+    "matches": 5
+  },
+  {
+    "player_id": "82409",
+    "name": "Yaelle HOYAUX",
+    "elo": 1335.9407351168645,
+    "matches": 31
+  },
+  {
+    "player_id": "80889",
+    "name": "Rachael DARRAGH",
+    "elo": 1334.1767792752762,
+    "matches": 49
+  },
+  {
+    "player_id": "54068",
+    "name": "Sabrina JAQUET",
+    "elo": 1327.564835057824,
+    "matches": 61
+  },
+  {
+    "player_id": "74916",
+    "name": "Sum Yee YEUNG",
+    "elo": 1327.0697783713676,
+    "matches": 38
+  },
+  {
+    "player_id": "67568",
+    "name": "Vrushali GUMMADI",
+    "elo": 1325.864728764686,
+    "matches": 13
+  },
+  {
+    "player_id": "83422",
+    "name": "Kai Qi (Bernice) TEOH",
+    "elo": 1324.1462407176687,
+    "matches": 29
+  },
+  {
+    "player_id": "57791",
+    "name": "Catherine CHOI",
+    "elo": 1320.9850574939178,
+    "matches": 7
+  },
+  {
+    "player_id": "85869",
+    "name": "Kadeeja nizah KOTHOOR",
+    "elo": 1319.28399849841,
+    "matches": 6
+  },
+  {
+    "player_id": "69619",
+    "name": "GADDE Ruthvika Shivani",
+    "elo": 1317.393813996027,
+    "matches": 21
+  },
+  {
+    "player_id": "96612",
+    "name": "Vanessa Maricela GARCIA CONTRERAS",
+    "elo": 1315.261318421524,
+    "matches": 10
+  },
+  {
+    "player_id": "60397",
+    "name": "Tereza ŠVÁBÍKOVÁ",
+    "elo": 1314.857361105477,
+    "matches": 65
+  },
+  {
+    "player_id": "90854",
+    "name": "Yasmine HAMZA",
+    "elo": 1314.5736234933245,
+    "matches": 13
+  },
+  {
+    "player_id": "64127",
+    "name": "Vlada GINGA",
+    "elo": 1314.0694818156855,
+    "matches": 8
+  },
+  {
+    "player_id": "77216",
+    "name": "Kasturi RADHAKRISHNAN",
+    "elo": 1306.4443775411798,
+    "matches": 8
+  },
+  {
+    "player_id": "57465",
+    "name": "INSYIRAH Khan",
+    "elo": 1302.4143036610924,
+    "matches": 16
+  },
+  {
+    "player_id": "76717",
+    "name": "LEE Chia Hsin",
+    "elo": 1294.2079726502034,
+    "matches": 21
+  },
+  {
+    "player_id": "87723",
+    "name": "Vaishnavi Reddy JAKKA",
+    "elo": 1293.680418193542,
+    "matches": 14
+  },
+  {
+    "player_id": "95958",
+    "name": "Yi En HSIEH",
+    "elo": 1291.3716143683616,
+    "matches": 30
+  },
+  {
+    "player_id": "88809",
+    "name": "Sri Krishna Priya KUDARAVALLI",
+    "elo": 1287.9854263874918,
+    "matches": 24
+  },
+  {
+    "player_id": "74051",
+    "name": "Agnes KOROSI",
+    "elo": 1285.0485784213656,
+    "matches": 39
+  },
+  {
+    "player_id": "62385",
+    "name": "THET HTAR THUZAR",
+    "elo": 1276.0848260561852,
+    "matches": 91
+  },
+  {
+    "player_id": "69394",
+    "name": "Nutnalin RATTANAPANUWONG",
+    "elo": 1274.3724862772076,
+    "matches": 19
+  },
+  {
+    "player_id": "89998",
+    "name": "Isabelle RUSLI",
+    "elo": 1252.684167135029,
+    "matches": 31
+  },
+  {
+    "player_id": "64558",
+    "name": "Lyanny Alessandra MAINAKY",
+    "elo": 1248.1222303437198,
+    "matches": 46
+  },
+  {
+    "player_id": "81794",
+    "name": "Katerina TOMALOVA",
+    "elo": 1247.596317844287,
+    "matches": 21
+  },
+  {
+    "player_id": "67069",
+    "name": "Ksenia POLIKARPOVA",
+    "elo": 1218.7018854526777,
+    "matches": 60
+  },
+  {
+    "player_id": "76882",
+    "name": "Anura PRABHUDESAI",
+    "elo": 1216.0393578794321,
+    "matches": 16
+  },
+  {
+    "player_id": "52636",
+    "name": "Isabel ZHONG",
+    "elo": 1156.2183713347515,
+    "matches": 25
+  }
+]

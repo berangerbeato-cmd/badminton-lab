@@ -1,0 +1,71 @@
+{
+  "scope": "Only explicit imported records; legacy history not automatically imported",
+  "summary": {
+    "actual_MS": {
+      "bets": 0,
+      "won": 0,
+      "lost": 0,
+      "pending": 0,
+      "total_staked": 0,
+      "settled_stake": 0,
+      "returns": 0,
+      "net": 0,
+      "roi": null
+    },
+    "actual_WS": {
+      "bets": 0,
+      "won": 0,
+      "lost": 0,
+      "pending": 0,
+      "total_staked": 0,
+      "settled_stake": 0,
+      "returns": 0,
+      "net": 0,
+      "roi": null
+    },
+    "actual_ALL": {
+      "bets": 0,
+      "won": 0,
+      "lost": 0,
+      "pending": 0,
+      "total_staked": 0,
+      "settled_stake": 0,
+      "returns": 0,
+      "net": 0,
+      "roi": null
+    },
+    "simulation_MS": {
+      "bets": 0,
+      "won": 0,
+      "lost": 0,
+      "pending": 0,
+      "total_staked": 0,
+      "settled_stake": 0,
+      "returns": 0,
+      "net": 0,
+      "roi": null
+    },
+    "simulation_WS": {
+      "bets": 0,
+      "won": 0,
+      "lost": 0,
+      "pending": 0,
+      "total_staked": 0,
+      "settled_stake": 0,
+      "returns": 0,
+      "net": 0,
+      "roi": null
+    },
+    "simulation_ALL": {
+      "bets": 0,
+      "won": 0,
+      "lost": 0,
+      "pending": 0,
+      "total_staked": 0,
+      "settled_stake": 0,
+      "returns": 0,
+      "net": 0,
+      "roi": null
+    }
+  }
+}
