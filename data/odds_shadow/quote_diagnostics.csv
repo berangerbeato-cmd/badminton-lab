@@ -1,20 +1,18 @@
 ﻿source,operator,observed_at_utc,source_status,player_1,player_2,odds_1,odds_2,listed_start_paris,market_verification,decision,reason,source_file
-betclic_fr,Betclic.fr,2026-11-19T15:42:19+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/betclic_fr/latest.json
-betsson_fr,Betsson.fr,2026-11-19T15:42:34+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/betsson_fr/latest.json
-bwin_fr,bwin.fr,2026-11-19T15:42:07+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/bwin_fr/latest.json
+betclic_fr,Betclic.fr,2026-11-20T15:24:40+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/betclic_fr/latest.json
+betsson_fr,Betsson.fr,2026-11-20T15:24:54+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/betsson_fr/latest.json
+bwin_fr,bwin.fr,2026-11-20T15:24:27+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/bwin_fr/latest.json
 comparison_v3_auto,,,,,,,,,,NO_QUOTE,UNKNOWN,data/odds_shadow/comparison_v3_auto/latest.json
 coverage_audit,,,QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION,,,,,,,NO_QUOTE,QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION,data/odds_shadow/coverage_audit/latest.json
-fdj_pos_fr,Parions Sport Point de Vente (FDJ),2026-11-19T15:42:08+00:00,OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE,KY.Loh,L.Sen,1.85,1.52,,RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION,OBSERVED_NOT_ACTIONABLE,Point de vente uniquement; pas de cote executable en ligne confirmee,data/odds_shadow/fdj_pos_fr/latest.json
-fdj_pos_fr,Parions Sport Point de Vente (FDJ),2026-11-19T15:42:08+00:00,OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE,A.Antonsen,XC.Zhu,1.18,2.85,,RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION,OBSERVED_NOT_ACTIONABLE,Point de vente uniquement; pas de cote executable en ligne confirmee,data/odds_shadow/fdj_pos_fr/latest.json
-fdj_pos_fr,Parions Sport Point de Vente (FDJ),2026-11-19T15:42:08+00:00,OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE,TJ.Popov,MZ.Ubaidillah,1.56,1.78,,RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION,OBSERVED_NOT_ACTIONABLE,Point de vente uniquement; pas de cote executable en ligne confirmee,data/odds_shadow/fdj_pos_fr/latest.json
-flashscore_badminton,Flashscore (aggregator),2026-11-19T15:42:41+00:00,PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED,,,,,,,NO_QUOTE,ALLOWED_BY_ROBOTS,data/odds_shadow/flashscore_badminton/latest.json
-netbet_fr,NetBet.fr,2026-11-19T15:42:22+00:00,PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED,,,,,,,NO_QUOTE,ALLOWED_BY_ROBOTS,data/odds_shadow/netbet_fr/latest.json
-netbet_quotes,NetBet.fr,2026-11-19T14:19:30+00:00,NO_CONFIDENT_QUOTES,,,,,,,NO_QUOTE,ALLOWED_BY_ROBOTS,data/odds_shadow/netbet_quotes/latest.json
-oddschecker_badminton,Oddschecker (aggregator),2026-11-19T15:42:37+00:00,REJECT_HTTP_STATUS_OR_REDIRECT,,,,,,,NO_QUOTE,ALLOWED_BY_ROBOTS,data/odds_shadow/oddschecker_badminton/latest.json
-oddspedia_badminton,Oddspedia (aggregator),2026-11-19T15:42:36+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/oddspedia_badminton/latest.json
-oddsportal_badminton,OddsPortal (aggregator),2026-11-19T15:42:55+00:00,PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED,,,,,,,NO_QUOTE,ALLOWED_BY_ROBOTS,data/odds_shadow/oddsportal_badminton/latest.json
-pmu_fr,PMU.fr,2026-11-19T15:42:30+00:00,PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED,,,,,,,NO_QUOTE,ALLOWED_BY_ROBOTS,data/odds_shadow/pmu_fr/latest.json
+fdj_pos_fr,Parions Sport Point de Vente (FDJ),2026-11-20T15:24:28+00:00,OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE,MZ.Ubaidillah,K.Vitidsarn,2.45,1.27,,RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION,OBSERVED_NOT_ACTIONABLE,Point de vente uniquement; pas de cote executable en ligne confirmee,data/odds_shadow/fdj_pos_fr/latest.json
+flashscore_badminton,Flashscore (aggregator),2026-11-20T15:25:00+00:00,PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED,,,,,,,NO_QUOTE,ALLOWED_BY_ROBOTS,data/odds_shadow/flashscore_badminton/latest.json
+netbet_fr,NetBet.fr,2026-11-20T15:24:42+00:00,PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED,,,,,,,NO_QUOTE,ALLOWED_BY_ROBOTS,data/odds_shadow/netbet_fr/latest.json
+netbet_quotes,NetBet.fr,2026-11-20T13:56:31+00:00,OBSERVED_SHADOW_NEEDS_CONFIRMATION,Anders Antonsen,Lakshya Sen,1.6,1.85,,LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION,OBSERVED_NOT_ACTIONABLE,Marche et heure de debut non verifies sur page detail,data/odds_shadow/netbet_quotes/latest.json
+oddschecker_badminton,Oddschecker (aggregator),2026-11-20T15:24:57+00:00,REJECT_HTTP_STATUS_OR_REDIRECT,,,,,,,NO_QUOTE,ALLOWED_BY_ROBOTS,data/odds_shadow/oddschecker_badminton/latest.json
+oddspedia_badminton,Oddspedia (aggregator),2026-11-20T15:24:56+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/oddspedia_badminton/latest.json
+oddsportal_badminton,OddsPortal (aggregator),2026-11-20T15:25:13+00:00,PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED,,,,,,,NO_QUOTE,ALLOWED_BY_ROBOTS,data/odds_shadow/oddsportal_badminton/latest.json
+pmu_fr,PMU.fr,2026-11-20T15:24:50+00:00,PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED,,,,,,,NO_QUOTE,ALLOWED_BY_ROBOTS,data/odds_shadow/pmu_fr/latest.json
 quality_gate,,,,,,,,,,NO_QUOTE,UNKNOWN,data/odds_shadow/quality_gate/latest.json
-unibet_fr,Unibet.fr,2026-11-19T15:41:59+00:00,NO_CONFIDENT_PREMATCH_QUOTES,,,,,,,NO_QUOTE,no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-19T16:41:58.038906+01:00,data/odds_shadow/unibet_fr/latest.json
+unibet_fr,Unibet.fr,2026-11-20T15:24:21+00:00,NO_CONFIDENT_PREMATCH_QUOTES,,,,,,,NO_QUOTE,no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-20T16:24:21.329391+01:00,data/odds_shadow/unibet_fr/latest.json
 v32_decision_report,,,,,,,,,,NO_QUOTE,UNKNOWN,data/odds_shadow/v32_decision_report/latest.json
-winamax_fr,Winamax.fr,2026-11-19T15:42:21+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/winamax_fr/latest.json
+winamax_fr,Winamax.fr,2026-11-20T15:24:41+00:00,SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE,,,,,,,NO_QUOTE,ROBOTS_HTTP_403,data/odds_shadow/winamax_fr/latest.json
