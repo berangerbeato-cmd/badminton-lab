@@ -2,7 +2,7 @@ name: Badminton WS V3.2 independent daily
 on:
   workflow_dispatch:
   push:
-    branches: ['feature/ws-v32-model']
+    branches: ['main', 'feature/ws-v32-model']
     paths: ['ws_*.py', 'test_ws_v32.py', 'badminton_singles_value.py', 'singles_ledger.py', '.github/workflows/badminton_ws_v32.yml']
   pull_request:
     paths: ['ws_*.py', 'test_ws_v32.py', 'badminton_singles_value.py', 'singles_ledger.py', '.github/workflows/badminton_ws_v32.yml']
