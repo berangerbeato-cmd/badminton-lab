@@ -1,0 +1,46 @@
+{
+  "schema_version": "user_confirmed_ms_bets_v1",
+  "scope": "REAL_MONEY_USER_CONFIRMED_MENS_SINGLES_ONLY",
+  "history_complete": false,
+  "note": "Partial ledger containing only user-confirmed results; do not compute overall historical ROI from this subset. Separate from model training and exploratory paper-trading ledgers. No personal bookmaker ticket identifiers stored.",
+  "bets": [
+    {
+      "bet_id": "2026-10-28-hylo-cheam-v-george",
+      "placed_date_local": "2026-10-28",
+      "event": "HYLO Open 2026",
+      "discipline": "MS",
+      "selection": "JW Cheam",
+      "opponent": "K. George",
+      "bookmaker": null,
+      "decimal_odds": 2.25,
+      "stake_eur": 5,
+      "payout_eur": 0,
+      "net_pnl_eur": -5,
+      "outcome": "LOSS",
+      "model_version": null,
+      "model_probability": null,
+      "model_ev_pct": null,
+      "source": "User-confirmed result reported in prior conversation"
+    },
+    {
+      "bet_id": "2026-11-20-hk-srikanth-v-vitidsarn",
+      "placed_at_local": "2026-11-20T00:21:00+01:00",
+      "match_date_local": "2026-11-20",
+      "event": "Hong Kong Open 2026",
+      "discipline": "MS",
+      "selection": "Kidambi Srikanth",
+      "opponent": "Kunlavut Vitidsarn",
+      "bookmaker": "Unibet",
+      "decimal_odds": 3.95,
+      "stake_eur": 3,
+      "payout_eur": 0,
+      "net_pnl_eur": -3,
+      "outcome": "LOSS",
+      "model_version": "MS V3.2",
+      "model_probability": 0.3052782,
+      "model_ev_pct": 20.6,
+      "model_prediction_asof_utc": "2026-11-19T16:00:12+00:00",
+      "source": "User-provided Unibet settled-bet screenshot; gain 0.00 EUR"
+    }
+  ]
+}
