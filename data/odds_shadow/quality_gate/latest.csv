@@ -1,2 +1,3 @@
 ﻿source,bwf_match_id,player_a,player_b,model_age_minutes,ev_a_pct,ev_b_pct,quality_status,reasons,decision
 netbet_quotes,5218:1569947,Anders Antonsen,Lakshya Sen,,,,BLOCKED_UNVERIFIED,EV_MISSING_OR_INVALID|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS,NO_BET
+netbet_quotes,,Moh Zaki Ubaidillah,Vitidsarn Kunlavut,,,,BLOCKED_UNVERIFIED,EV_MISSING_OR_INVALID|MATCH_ID_MISSING|MODEL_AGE_UNKNOWN|UNEXPECTED_SOURCE_STATUS,NO_BET

@@ -2,7 +2,7 @@
   "body_sha256": "562b8e8180e24c30797376bdd576e3b6dce352b51f5a9b1d5f2890784b51559b",
   "bookmaker_price_updated_at": null,
   "cache_age_seconds": null,
-  "finished_at_utc": "2026-11-20T15:24:49+00:00",
+  "finished_at_utc": "2026-11-20T15:27:07+00:00",
   "http_status": 200,
   "netbet_public_audit": {
     "badminton_term_visible": true,
@@ -19,7 +19,7 @@
     "quotes_extracted": 0
   },
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-11-20T15:24:42+00:00",
+  "observed_at_utc": "2026-11-20T15:27:01+00:00",
   "operator": "NetBet.fr",
   "operator_kind": "ONLINE",
   "public_badminton_event_links": [],
@@ -28,7 +28,7 @@
   "resolved_url": "https://www.netbet.fr/badminton",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Fri, 20 Nov 2026 15:24:43 GMT",
+  "server_date": "Fri, 20 Nov 2026 15:27:02 GMT",
   "source_key": "netbet_fr",
   "source_url": "https://www.netbet.fr/badminton",
   "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",

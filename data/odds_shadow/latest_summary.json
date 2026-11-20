@@ -1,19 +1,19 @@
 {
-  "observed_at_utc": "2026-11-20T15:24:21+00:00",
+  "observed_at_utc": "2026-11-20T15:26:41+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 1,
   "sources": {
     "unibet_fr": {
-      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
+      "status": "REJECT_HTTP_CACHE_AGE",
       "quotes": 0,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-20T16:24:21.329391+01:00",
+      "parser_notes": null,
       "error": null,
-      "cache_age_seconds": null,
-      "body_sha256": "9416a2ee0c0b6c9feee2bbb528d51855a47cc151cc85f8ae40028f99479bf5f8",
+      "cache_age_seconds": "140",
+      "body_sha256": "4637464967dfe6dc1e42c819f9bacf8f1511259f25c51ee9353c84c6991cace7",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -31,14 +31,14 @@
       "flashscore_match_audit": null
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
+      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
       "quotes": 1,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
-      "cache_age_seconds": null,
+      "cache_age_seconds": "141",
       "body_sha256": "97d2c6a1f06be8ca82e8749a7788e3906c250d057dbd0af61f0401d2d94f7203",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "7e312b853cecd5e4bbd00abf29f0f3515dd730569452743cefc3fc7b58391250",
+      "body_sha256": "859cd7a1bfedf77d2b362a6dc99d464cb7ca9d1c877b3eaa09675e1271d4c7d6",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "187",
-      "body_sha256": "70022de24fa22db98913c8ba9fe1f9103484816f9feb626276acefbcfa35d885",
+      "cache_age_seconds": "1",
+      "body_sha256": "5928a9059ffc7fd5b9271a800847f0812687395c40bff05d419896eae3deed7c",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/loh-kean-yew-0OyqJUwg/sen-lakshya-xnv5nIsk/?mid=Qck2P1TG",
@@ -175,11 +175,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/akechi-hina-v34hwVos/miyazaki-tomoka-Eq6xmXhj/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "95ec24ea90a06f584a1db72f7c0ab38f8650e75304618c3fe15c0fc90dcd39d0",
+        "body_sha256": "2b503d81880ebf88f78973d0cbcc1e90e6d30c391456d0bd70f4bc6d6e083469",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Tomoka Miyazaki - Hina Akechi (20/11/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - FEMMESOPEN DE HONG KONG - QUARTS DE FINALE\nNouvelle fenêtre\n20.11.2026 06:55\nMiyazaki T.\nBWF\n: 7.\n2\n-\n0\nTERMINÉ\nAkechi H.\nBWF\n: 14.\n2\n-\n0\nTERMINÉ\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nMiyazaki T.\n2\n21\n21\nAkechi H.\n0\n11\n9\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n1.45\n2.65\n-\n-\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA). T&C apply.\nLIVE STREAMIN",
+        "text_excerpt_for_debug": "Tomoka Miyazaki - Hina Akechi (20/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - FEMMESOPEN DE HONG KONG - QUARTS DE FINALE\nNouvelle fenêtre\n20.11.2026 06:55\nMiyazaki T.\nBWF\n: 7.\n2\n-\n0\nTERMINÉ\nAkechi H.\nBWF\n: 14.\n2\n-\n0\nTERMINÉ\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nMiyazaki T.\n2\n21\n21\nAkechi H.\n0\n11\n9\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n1.45\n2.65\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBetMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. 1-800-BETS-OFF (IA), New customers only. T&C apply Must opt-in and wager $10+ cash on any market to receive $50 in Bonus Bets each day for your first 5 days\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nLIVE STREAMING\nPublicité\nbet365.nj\nINFORMATIONS DE MATCH\nSTADE:\nKai Tak Arena\n (Hongkong)\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'i",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 6314,
+        "body_characters": 6158,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -200,11 +200,9 @@
           "-",
           "-",
           "1.45",
-          "2.65",
-          "-",
-          "-"
+          "2.65"
         ],
-        "odds_section_dash_count": 10,
+        "odds_section_dash_count": 8,
         "odds_section_decimal_prices": [
           "1.45",
           "2.65"
@@ -222,8 +220,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "0",
-      "body_sha256": "0581697fc8fd223309deeccf8df0e45d16e74da3a112c0350260f30abda6d4bf",
+      "cache_age_seconds": "140",
+      "body_sha256": "2597977c94b1f6454b9df5074223290d9bc19f1eb0b3d974ed8c042a4bf9fe70",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
