@@ -227,7 +227,7 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-11-20.csv",
   "model_snapshot_sha256": "a4e4c0677e64289752a1e8d5a632337acfa64163e810b822350b1a1aefbe1add",
-  "observed_at_utc": "2026-11-20T15:39:29+00:00",
+  "observed_at_utc": "2026-11-20T15:45:17+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
