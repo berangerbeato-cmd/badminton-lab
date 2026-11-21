@@ -1,0 +1,2 @@
+bwf_match_id,start_utc,tournament,round,player_a_id,player_a,player_b_id,player_b,elo_a_asof,elo_b_asof,raw_p_a,calibrated_p_a,fair_odds_a,fair_odds_b,k,slope,intercept,asof_utc,model,cold_start,status,source
+5218:1569944,2026-11-21T00:00:00+00:00,LI-NING Hong Kong Open 2026,SF,60321,Moh. Zaki UBAIDILLAH,64032,Kunlavut VITIDSARN,2006.71,2077.58,0.3994021,0.38120536,2.6233,1.616,48,1.05498189,-0.054048,2026-11-21T13:24:45+00:00,bwf_elo_ms_platt_v1,0,DATE_ONLY_START_UNVERIFIED_NO_BET,https://github.com/berangerbeato-cmd/badminton-lab/tree/main/data/bwf
