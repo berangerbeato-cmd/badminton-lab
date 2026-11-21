@@ -1,19 +1,19 @@
 {
-  "asof_utc": "2026-11-20T15:07:44.635994+00:00",
+  "asof_utc": "2026-11-21T13:18:41.859330+00:00",
   "discipline": "WS",
   "model_id": "75bec879527c6fd8",
   "quality": {
-    "asof_exclusive": "2026-11-20",
+    "asof_exclusive": "2026-11-21",
     "archives": 415,
-    "raw_ws": 11823,
-    "valid_ws": 11379,
+    "raw_ws": 11824,
+    "valid_ws": 11383,
     "rejected": {
       "abnormal_status": 357,
       "incomplete_score": 2,
       "missing_player_ids": 5,
-      "no_winner": 5,
+      "no_winner": 4,
       "invalid_game_score": 71,
-      "outside_asof_window": 4
+      "outside_asof_window": 2
     },
     "players": 1231,
     "tournaments": 331,
@@ -26,7 +26,7 @@
       "2023": 1602,
       "2024": 1622,
       "2025": 1627,
-      "2026": 1539
+      "2026": 1543
     },
     "months": {
       "2018-01": 123,
@@ -124,9 +124,9 @@
       "2026-08": 99,
       "2026-09": 147,
       "2026-10": 212,
-      "2026-11": 138
+      "2026-11": 142
     },
-    "latest_match": "2026-11-19",
+    "latest_match": "2026-11-20",
     "missing_indexed_elite": [
       {
         "id": 5410,
@@ -216,70 +216,37 @@
   },
   "predictions": [
     {
-      "match_id": "5218:1569994",
-      "start_utc": "2026-11-21T00:00:00+00:00",
-      "player_a_id": "35642",
+      "match_id": "5218:1569996",
+      "start_utc": "2026-11-22T00:00:00+00:00",
+      "player_a_id": "61854",
       "player_b_id": "84062",
-      "player_a": "Ratchanok INTANON",
+      "player_a": "WANG Zhi Yi",
       "player_b": "Pornpawee CHOCHUWONG",
       "tournament": "LI-NING Hong Kong Open 2026",
       "discipline": "WS",
-      "asof_utc": "2026-11-20T15:07:44.635994+00:00",
+      "asof_utc": "2026-11-21T13:18:41.859330+00:00",
       "model_id": "75bec879527c6fd8",
-      "history_a": 372,
-      "history_b": 342,
-      "latest_result": "2026-11-19",
-      "p_a": 0.44536874516384534,
+      "history_a": 336,
+      "history_b": 343,
+      "latest_result": "2026-11-20",
+      "p_a": 0.8649657056586619,
       "status": "DATE_ONLY_NO_BET",
       "source_age_days": 1,
       "inactivity_days": 1,
       "features": {
-        "form10_residual_diff": 0.005190018248898951,
-        "matches7_diff": 0.0,
-        "sets7_diff": 1.0,
-        "matches14_diff": -1.0,
-        "rest_days_diff": 0.0,
-        "inactive30_diff": 0.0,
-        "h2h24_residual": -0.04046854816939206,
-        "elo_trend30_diff": -47.22508170227093,
-        "elo_trend90_diff": 71.85332329050698,
-        "set_margin5_diff": -1.2,
-        "point_share5_diff": -0.08379318128052074
-      },
-      "raw_p_a": 0.4873327833300746
-    },
-    {
-      "match_id": "5218:1569995",
-      "start_utc": "2026-11-21T00:00:00+00:00",
-      "player_a_id": "61854",
-      "player_b_id": "82070",
-      "player_a": "WANG Zhi Yi",
-      "player_b": "Tomoka MIYAZAKI",
-      "tournament": "LI-NING Hong Kong Open 2026",
-      "discipline": "WS",
-      "asof_utc": "2026-11-20T15:07:44.635994+00:00",
-      "model_id": "75bec879527c6fd8",
-      "history_a": 335,
-      "history_b": 168,
-      "latest_result": "2026-11-19",
-      "p_a": 0.8312970951863723,
-      "status": "DATE_ONLY_NO_BET",
-      "source_age_days": 1,
-      "inactivity_days": 1,
-      "features": {
-        "form10_residual_diff": -0.07122271929740809,
+        "form10_residual_diff": -0.03931841224324343,
         "matches7_diff": 1.0,
         "sets7_diff": 2.0,
-        "matches14_diff": 1.0,
+        "matches14_diff": 2.0,
         "rest_days_diff": 0.0,
         "inactive30_diff": 0.0,
-        "h2h24_residual": -0.0743214871151483,
-        "elo_trend30_diff": 38.47787921456484,
-        "elo_trend90_diff": -147.9832789793095,
-        "set_margin5_diff": 0.0,
-        "point_share5_diff": 0.05393061641655999
+        "h2h24_residual": 0.11591297736668937,
+        "elo_trend30_diff": 32.02369939823484,
+        "elo_trend90_diff": 54.60609512114661,
+        "set_margin5_diff": -0.19999999999999996,
+        "point_share5_diff": -0.003478348866291711
       },
-      "raw_p_a": 0.7297132583839292
+      "raw_p_a": 0.808739296440298
     }
   ]
 }
