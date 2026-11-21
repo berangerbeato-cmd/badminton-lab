@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_2_live_v1",
-  "generated_at_utc": "2026-11-20T15:43:27.221895+00:00",
+  "generated_at_utc": "2026-11-21T13:18:59.769968+00:00",
   "policy": "MODEL_ONLY_NO_BET_NO_T0_REWRITE",
   "model": "bwf_v3_2_score_rest_live",
   "selected_variant": "elo_plus_score_rest",
@@ -40,31 +40,35 @@
     }
   },
   "retrospective_2026_current_cache": {
-    "n": 1822,
-    "brier": 0.204269,
-    "log_loss": 0.593674,
-    "accuracy": 0.686608
+    "n": 1823,
+    "brier": 0.204266,
+    "log_loss": 0.593672,
+    "accuracy": 0.68678
   },
-  "upcoming_count": 2,
+  "upcoming_count": 1,
   "snapshot_policy": "Current player state uses completed results strictly before the current UTC date; same-day results are excluded.",
   "selection_policy": "Feature set and K were selected before this daily publication. 2026 outcomes never refit coefficients.",
   "trading_policy": "NO BET. Bookmaker prices and verified prematch timing are separate requirements handled downstream.",
   "data_quality": {
-    "not_MS": 53455,
+    "not_MS": 53459,
     "no_full_score": 291,
     "score_not_completed": 224,
     "no_winner": 14,
     "missing_player_ids": 5,
     "archives_read": 415,
-    "clean_MS_matches": 13998
+    "clean_MS_matches": 13999
   },
   "scored_match_history_freshness": {
-    "latest_loaded_scored_match_day_utc": "2026-11-20",
+    "latest_loaded_scored_match_day_utc": "2026-11-21",
     "days_since_latest_scored_match": 0,
     "freshness_status": "RECENT",
-    "last_7_days_count_including_today": 45,
-    "last_21_days_count_including_today": 192,
+    "last_7_days_count_including_today": 42,
+    "last_21_days_count_including_today": 189,
     "daily_loaded_scored_match_counts": [
+      {
+        "day_utc": "2026-11-21",
+        "scored_ms_matches": 1
+      },
       {
         "day_utc": "2026-11-20",
         "scored_ms_matches": 4
@@ -136,13 +140,19 @@
       {
         "day_utc": "2026-10-31",
         "scored_ms_matches": 1
-      },
-      {
-        "day_utc": "2026-10-30",
-        "scored_ms_matches": 4
       }
     ],
     "last_loaded_examples": [
+      {
+        "day_utc": "2026-11-21",
+        "match_id": "5218:1569947",
+        "tournament": "LI-NING Hong Kong Open 2026",
+        "players": [
+          "Anders ANTONSEN",
+          "Lakshya SEN"
+        ],
+        "winner": "Anders ANTONSEN"
+      },
       {
         "day_utc": "2026-11-20",
         "match_id": "5218:1570095",
@@ -182,16 +192,6 @@
           "Xuan Chen ZHU"
         ],
         "winner": "Anders ANTONSEN"
-      },
-      {
-        "day_utc": "2026-11-19",
-        "match_id": "5218:1570102",
-        "tournament": "LI-NING Hong Kong Open 2026",
-        "players": [
-          "LEE Cheuk Yiu",
-          "Kunlavut VITIDSARN"
-        ],
-        "winner": "Kunlavut VITIDSARN"
       }
     ],
     "date_note": "Match day is derived from the BWF archive start_time; it is not a separately verified score-publication timestamp. Same-UTC-day results remain excluded from the current V3.2 Elo snapshot."

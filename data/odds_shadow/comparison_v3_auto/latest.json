@@ -2,45 +2,23 @@
   "verification_summary": {
     "unique_matched_fixture_count": 0,
     "matched_fixture_ids": [],
-    "unmatched_observation_count": 2,
-    "unmatched_observations": [
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Anders Antonsen",
-          "Lakshya Sen"
-        ],
-        "status": "TOURNAMENT_MISMATCH",
-        "listed_day_paris": null
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Moh Zaki Ubaidillah",
-          "Vitidsarn Kunlavut"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-21"
-      }
-    ],
+    "unmatched_observation_count": 0,
+    "unmatched_observations": [],
     "external_schedule_coverage_count": 0,
     "kickoff_evidence_status_counts": {},
     "prematch_timing_status_counts": {},
-    "model_fixture_count": 2,
-    "public_quote_count": 2,
-    "comparison_count": 2,
-    "status_counts": {
-      "TOURNAMENT_MISMATCH": 1,
-      "FIXTURE_ABSENT_FROM_MODEL": 1
-    },
+    "model_fixture_count": 1,
+    "public_quote_count": 0,
+    "comparison_count": 0,
+    "status_counts": {},
     "verified_prematch_count": 0,
     "validated_roi_pct": null,
     "missing_kickoff_count": 0,
     "missing_executable_price_count": 0
   },
-  "generated_at_utc": "2026-11-20T15:45:25+00:00",
+  "generated_at_utc": "2026-11-21T13:20:51+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
-  "comparison_count": 2,
+  "comparison_count": 0,
   "rejected_sources": [],
   "source_audit": {
     "unibet_fr": {
@@ -50,34 +28,11 @@
       "collector_status": "NO_CONFIDENT_PREMATCH_QUOTES"
     },
     "netbet_quotes": {
-      "status": "FRESH_SNAPSHOT",
+      "status": "FRESH_EMPTY",
       "snapshot_file": "data/odds_shadow/netbet_quotes/latest.json",
-      "quotes_read": 2,
-      "collector_status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+      "quotes_read": 0,
+      "collector_status": "NO_CONFIDENT_QUOTES"
     }
   },
-  "results": [
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Anders Antonsen",
-        "Lakshya Sen"
-      ],
-      "bwf_match_id": "5218:1569947",
-      "status": "TOURNAMENT_MISMATCH",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Moh Zaki Ubaidillah",
-        "Vitidsarn Kunlavut"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 2,
-      "listed_day_paris": "2026-11-21",
-      "decision": "NO_BET"
-    }
-  ]
+  "results": []
 }
