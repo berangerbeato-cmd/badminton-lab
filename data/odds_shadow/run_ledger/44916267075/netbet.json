@@ -1,0 +1,241 @@
+{
+  "bookmaker_price_updated_at": null,
+  "candidate_count": 1,
+  "candidate_urls": [
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong"
+  ],
+  "elo_comparisons": [],
+  "fixture_join_audit": [
+    {
+      "comparison_allowed": false,
+      "exact_player_pair_count": 0,
+      "listed_day_paris": "2026-11-22",
+      "model_rows_same_day": 0,
+      "model_rows_same_tournament_and_day": 0,
+      "players": [
+        "Anders Antonsen",
+        "Vitidsarn Kunlavut"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL_SNAPSHOT"
+    }
+  ],
+  "index_badminton_link_count": 5,
+  "index_badminton_link_examples": [
+    "https://www.netbet.fr/badminton",
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong-f",
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles",
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-f",
+    "https://www.netbet.fr/badminton/international/open-de-hong-kong"
+  ],
+  "index_body_sha256": "099cb6be22a0a42b3e8e4c33e10ff3f82378f78eb5b7af408c61541e8d855ffb",
+  "index_eligible_quotes": 1,
+  "index_http_status": 200,
+  "index_link_count": 98,
+  "index_link_path_counts": {
+    "": 9,
+    "badminton": 7,
+    "basketball": 2,
+    "cashout": 2,
+    "evenement": 15,
+    "football": 14,
+    "paris-en-direct": 5,
+    "promotions": 2,
+    "ski-alpin": 2,
+    "super-cotes": 2,
+    "tennis": 6,
+    "zendesk": 2
+  },
+  "index_market_audit": {
+    "eligible_listing_rows": 1,
+    "markets_seen": 5,
+    "rejection_evidence": [
+      {
+        "following_lines": [
+          "Zhiyi Wang",
+          "1.06",
+          "Pornpawee Chochuwong",
+          "4.60"
+        ],
+        "market_line": 113,
+        "preceding_lines": [
+          "Scores en direct",
+          "Format des cotes",
+          "Accueil",
+          "Badminton",
+          "Pariez sur",
+          "Badminton",
+          "À L'AFFICHE",
+          "TOUTE L'OFFRE BADMINTON",
+          "À Venir",
+          "Open de Hong Kong (F)",
+          "dim. 22 nov.",
+          "07:00",
+          "Zhiyi Wang",
+          "Pornpawee Chochuwong"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Man-Tee",
+          "1.81",
+          "Marthin-Carnando",
+          "1.63"
+        ],
+        "market_line": 124,
+        "preceding_lines": [
+          "07:00",
+          "Zhiyi Wang",
+          "Pornpawee Chochuwong",
+          "Qui va gagner le match ?",
+          "Zhiyi Wang",
+          "1.06",
+          "Pornpawee Chochuwong",
+          "4.60",
+          "+ 3",
+          "Open de Hong Kong, Doubles",
+          "dim. 22 nov.",
+          "07:25",
+          "Man-Tee",
+          "Marthin-Carnando"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Nakade-Takahashi",
+          "2.32",
+          "Tan-Muralitharan",
+          "1.37"
+        ],
+        "market_line": 135,
+        "preceding_lines": [
+          "07:25",
+          "Man-Tee",
+          "Marthin-Carnando",
+          "Qui va gagner le match ?",
+          "Man-Tee",
+          "1.81",
+          "Marthin-Carnando",
+          "1.63",
+          "+ 3",
+          "Open de Hong Kong, Doubles (F)",
+          "dim. 22 nov.",
+          "08:15",
+          "Nakade-Takahashi",
+          "Tan-Muralitharan"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Huang-Feng",
+          "1.73",
+          "Jiang-Wei",
+          "1.70"
+        ],
+        "market_line": 157,
+        "preceding_lines": [
+          "08:20",
+          "Anders Antonsen",
+          "Vitidsarn Kunlavut",
+          "Qui va gagner le match ?",
+          "Anders Antonsen",
+          "1.87",
+          "Vitidsarn Kunlavut",
+          "1.58",
+          "+ 3",
+          "Open de Hong Kong, Doubles Mixtes",
+          "dim. 22 nov.",
+          "08:35",
+          "Huang-Feng",
+          "Jiang-Wei"
+        ],
+        "reason": "NON_MS_COMPETITION"
+      }
+    ],
+    "rejections": {
+      "NON_MS_COMPETITION": 4
+    }
+  },
+  "index_resolved_url": "https://www.netbet.fr/badminton",
+  "index_screenshot": "data/odds_shadow/visual_evidence/netbet_index.png",
+  "index_url": "https://www.netbet.fr/badminton",
+  "model_snapshot": "data/model/snapshots/2026-11-21.csv",
+  "model_snapshot_sha256": "76e922d44bf48117c0791c91bc679630f9035fbb699e45b3376d4eabc2bf3d35",
+  "observed_at_utc": "2026-11-21T14:55:34+00:00",
+  "operator": "NetBet.fr",
+  "page_audit_limit": 8,
+  "page_audits": [
+    {
+      "body_sha256": "5b075be4532b617c3c613d1c4f55af82c39c81d241e2e4f7e532084998bbe44a",
+      "cache_age_seconds": null,
+      "eligible_listing_rows": 0,
+      "http_status": 200,
+      "markets_seen": 1,
+      "rejection_evidence": [
+        {
+          "following_lines": [
+            "Anders Antonsen",
+            "1.87",
+            "Vitidsarn Kunlavut",
+            "1.58"
+          ],
+          "market_line": 112,
+          "preceding_lines": [
+            "Règlement des paris",
+            "Scores en direct",
+            "Format des cotes",
+            "Accueil",
+            "Badminton",
+            "International - Open de Hong Kong",
+            "Pariez sur",
+            "Open de Hong Kong",
+            "À Venir",
+            "Open de Hong Kong",
+            "dim. 22 nov.",
+            "08:20",
+            "Anders Antonsen",
+            "Vitidsarn Kunlavut"
+          ],
+          "reason": "COMPETITION_NOT_ADJACENT_TO_DATE"
+        }
+      ],
+      "rejections": {
+        "COMPETITION_NOT_ADJACENT_TO_DATE": 1
+      },
+      "resolved_url": "https://www.netbet.fr/badminton/international/open-de-hong-kong",
+      "robots_status": "ALLOWED_BY_ROBOTS",
+      "screenshot": "data/odds_shadow/visual_evidence/netbet_event_0.png",
+      "status": "NO_CONFIDENT_MS_H2H",
+      "url": "https://www.netbet.fr/badminton/international/open-de-hong-kong"
+    }
+  ],
+  "policy": "SHADOW_ONLY_NO_BET_NO_SHEETS_NO_T0",
+  "quotes": [
+    {
+      "bookmaker_overround_pct": 16.77,
+      "competition_display": "Open de Hong Kong",
+      "day_basis": "PUBLISHED_CALENDAR_DATE",
+      "discipline": "MS",
+      "event_page_url": "https://www.netbet.fr/badminton",
+      "listed_day_paris": "2026-11-22",
+      "market": "H2H_FULL_MATCH",
+      "market_probabilities_only_not_v32_ev": true,
+      "normalized_market_probability_1": 0.457971,
+      "normalized_market_probability_2": 0.542029,
+      "odds_1": 1.87,
+      "odds_2": 1.58,
+      "player_1_display": "Anders Antonsen",
+      "player_2_display": "Vitidsarn Kunlavut",
+      "raw_implied_probability_1": 0.534759,
+      "raw_implied_probability_2": 0.632911,
+      "verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION"
+    }
+  ],
+  "reason_counts": {
+    "NO_UNIQUE_BWF_FIXTURE": 1
+  },
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+}

@@ -27,7 +27,7 @@
     "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-f",
     "https://www.netbet.fr/badminton/international/open-de-hong-kong"
   ],
-  "index_body_sha256": "4f4fe55fe6e0c1d22c1e4f4df1a84bc5e42065d5440e232ae369ca1747214ae2",
+  "index_body_sha256": "099cb6be22a0a42b3e8e4c33e10ff3f82378f78eb5b7af408c61541e8d855ffb",
   "index_eligible_quotes": 1,
   "index_http_status": 200,
   "index_link_count": 98,
@@ -163,12 +163,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-11-21.csv",
   "model_snapshot_sha256": "76e922d44bf48117c0791c91bc679630f9035fbb699e45b3376d4eabc2bf3d35",
-  "observed_at_utc": "2026-11-21T14:50:04+00:00",
+  "observed_at_utc": "2026-11-21T14:55:34+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "efe2a4bd929e21d9cda70dcf0dd17b827563679c9014fc9fdf9d1139925ea714",
+      "body_sha256": "5b075be4532b617c3c613d1c4f55af82c39c81d241e2e4f7e532084998bbe44a",
       "cache_age_seconds": null,
       "eligible_listing_rows": 0,
       "http_status": 200,

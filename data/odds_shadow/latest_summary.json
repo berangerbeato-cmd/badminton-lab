@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-21T14:39:41+00:00",
+  "observed_at_utc": "2026-11-21T14:54:42+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
@@ -10,10 +10,10 @@
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-21T15:39:41.429092+01:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-21T15:54:42.908126+01:00",
       "error": null,
-      "cache_age_seconds": null,
-      "body_sha256": "373340c8fbf9d9d72aa0c4b23adcabad165e259db680c68336580136e70da726",
+      "cache_age_seconds": "8",
+      "body_sha256": "cf629e1bbf40de08b81fdd8f0bd7c857f2aaea245b133ace03e1d0fa88041a3a",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -39,7 +39,7 @@
       "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "da7b22a85423d4e1deb5a6dd6ef897b77821f0a61264f4a9dae75daed5982b31",
+      "body_sha256": "de5aaf8be7c4f3f0536f0419c1e2478ffae7334fa4b53c8c482a1b4186020804",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "6f17410603f8da9bf730b9451b3a78473942eaae51eb0009c4dc52355932736f",
+      "body_sha256": "099cb6be22a0a42b3e8e4c33e10ff3f82378f78eb5b7af408c61541e8d855ffb",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "d9e9de1690c07047aef1ef319c978639ef1dcc85e02f1a54401281e6338360f3",
+      "body_sha256": "87087cc641720454e1d1d300df0c21828fd62c1d1d6064cd31b3eafc10566591",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "bc801903689de8abc03930dabcf9eb3e1e86528b1383364a0ea7a6f106f33ba0",
+      "body_sha256": "d92e26ef60f9c7f9bc82b9cbc6ce0e473d790d286b48c445dfdf06da84f18e41",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "147",
-      "body_sha256": "10f2c8f790a86014772c73cefd37c695c96c7903729ec207a880c7760f97360e",
+      "cache_age_seconds": "530",
+      "body_sha256": "c770dc4b1e95f8faa8a5bdda90e312d40cf65724aade6bd1994b153aa6660563",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/antonsen-anders-GMQqJqeP/sen-lakshya-xnv5nIsk/?mid=b3N7svaB",
@@ -160,7 +160,7 @@
         ],
         "index_match_link_count": 11,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Open BWF de Hong Kong 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n21/11 SA\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nAntonsen A.\nSen L.\n2\n0\n21\n13\n21\n13\nTerminé\nUbaidillah M. Z.\nVitidsarn K.\n1\n2\n21\n18\n15\n21\n16\n21\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nIntanon R.\nChochuwong Po.\n1\n2\n16\n21\n21\n18\n13\n21\nTerminé\nWang Z. Y.\nMiyazaki T.\n2\n0\n21\n15\n21\n15\nFlashscore Actualités\nHarry Kane opéré avec succès de la cheville gauche\nIncontournable en premier centre, Yoram Moefana est déjà dans l'avion pour l'Australie\nQu'est-ce qui coince dans la machine monégasque ?\nAller vers Actualités\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nMan W. C.\nTee K. W.\nRankireddy S.\nShetty C.\n2\n0\n21\n18\n21\n19\nTerminé\nCarnando L. R.\nMarthin D.\nKang M. H.\nLee J. M.\n2\n0\n21\n18\n21\n11\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nPratiwi A. C.\nRamadhanti S. F. S.\nNakade S.\nTakahashi M.\n0\n2\n16\n21\n21\n23\nTerminé\nLow Z. Y.\nMaisarah N.\nTan P.\nMuralitharan T.\n0\n2\n13\n21\n19\n21\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nFeng Y. Z.\nHuang D. P.\nGoh S. H.\nLai S. J.\n2\n0\n21\n17\n21\n18\nTerminé\nFerdinansyah D.\nPasaribu F. A. N.\nJiang Z. B.\nWei Y. X.\n0\n2\n13\n21\n13\n21\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Open de Hong Kong Hommes\nBWF WT Open de Hong Kong Femmes\nBWF WT Open de Hong Kong Doubles Homm"
+        "index_text_excerpt": "Open BWF de Hong Kong 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n21/11 SA\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nAntonsen A.\nSen L.\n2\n0\n21\n13\n21\n13\nTerminé\nUbaidillah M. Z.\nVitidsarn K.\n1\n2\n21\n18\n15\n21\n16\n21\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nIntanon R.\nChochuwong Po.\n1\n2\n16\n21\n21\n18\n13\n21\nTerminé\nWang Z. Y.\nMiyazaki T.\n2\n0\n21\n15\n21\n15\nFlashscore Actualités\nHarry Kane opéré avec succès de la cheville gauche\nIncontournable en premier centre, Yoram Moefana est déjà dans l'avion pour l'Australie\nQu'est-ce qui coince dans la machine monégasque ?\nAller vers Actualités\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nMan W. C.\nTee K. W.\nRankireddy S.\nShetty C.\n2\n0\n21\n18\n21\n19\nTerminé\nCarnando L. R.\nMarthin D.\nKang M. H.\nLee J. M.\n2\n0\n21\n18\n21\n11\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nPratiwi A. C.\nRamadhanti S. F. S.\nNakade S.\nTakahashi M.\n0\n2\n16\n21\n21\n23\nTerminé\nLow Z. Y.\nMaisarah N.\nTan P.\nMuralitharan T.\n0\n2\n13\n21\n19\n21\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nFeng Y. Z.\nHuang D. P.\nGoh S. H.\nLai S. J.\n2\n0\n21\n17\n21\n18\nTerminé\nFerdinansyah D.\nPasaribu F. A. N.\nJiang Z. B.\nWei Y. X.\n0\n2\n13\n21\n13\n21\nPublicité\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Open de Hong Kong Hommes\nBWF WT Open de Hong"
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/antonsen-anders-GMQqJqeP/vitidsarn-kunlavut-tdE7qrlF/#/cotes/home-away/temps-regulier/",
@@ -171,11 +171,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/antonsen-anders-GMQqJqeP/vitidsarn-kunlavut-tdE7qrlF/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "7346dde21b7540b2c7e5a3cbde7ad0f444b388e767b6d82e0fca433e2cdfcda8",
+        "body_sha256": "8236d5b0d8779c5ccd5ebaee3b39f0c2868c2d3d9a6083f7214bad337962e047",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Anders Antonsen - Kunlavut Vitidsarn (22/11/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - HOMMESOPEN DE HONG KONG - FINALE\nNouvelle fenêtre\n22.11.2026 10:20\nAntonsen A.\nBWF\n: 3.\n-\nVitidsarn K.\nBWF\n: 2.\n-\n22.11.2026 10:20\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n2.10\n1.66\nFAIRE UN PARI\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBetMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. 1-800-BETS-OFF (IA), New customers only. T&C apply Must opt-in and wager $10+ cash on any market to receive $50 in Bonus Bets each day for your first 5 days\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nINFORMATIONS DE MATCH\nSTADE:\nKai Tak Arena\n (Hongkong)\nFORME\nAntonsen A.\n?\nV\nV\nV\nV\nD\nVitidsarn K.\n?\nV\nV\nV\nV\nD\nTÊTE-À-TÊTE\n04.09.26\nCHI\nVitidsarn K.\nAntonsen A.\n1\n2\n17",
+        "text_excerpt_for_debug": "Anders Antonsen - Kunlavut Vitidsarn (22/11/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nBADMINTONBWF WORLD TOUR - HOMMESOPEN DE HONG KONG - FINALE\nNouvelle fenêtre\n22.11.2026 10:20\nAntonsen A.\nBWF\n: 3.\n-\nVitidsarn K.\nBWF\n: 2.\n-\n22.11.2026 10:20\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n2.10\n1.66\nFAIRE UN PARI\n-\n-\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA). T&C apply.\nINFORMATIONS DE MATCH\nSTADE:\nKai Tak Arena\n (Hongkong)\nFORME\nAntonsen A.\n?\nV\nV\nV\nV\nD\nVitidsarn K.\n?\nV\nV\nV\nV",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 6348,
+        "body_characters": 6394,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -197,9 +197,11 @@
           "-",
           "2.10",
           "1.66",
-          "FAIRE UN PARI"
+          "FAIRE UN PARI",
+          "-",
+          "-"
         ],
-        "odds_section_dash_count": 8,
+        "odds_section_dash_count": 10,
         "odds_section_decimal_prices": [
           "2.10",
           "1.66"
@@ -217,8 +219,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "125",
-      "body_sha256": "e414124cbbd81d1c47c7f23a38967394ef189fa0ba819dff561746b5fafb10d4",
+      "cache_age_seconds": "0",
+      "body_sha256": "0129b8212b00a23e8e10f924069df35b83a762bce73570707ab0214e3c5c057d",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }

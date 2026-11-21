@@ -43,7 +43,7 @@
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 1,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-11-21T14:40:44.195542+00:00",
+  "generated_at_utc": "2026-11-21T14:55:43.050521+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 1,
@@ -61,8 +61,8 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T14:39:42+00:00",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-21T15:39:41.429092+01:00",
+      "observed_at_utc": "2026-11-21T14:54:45+00:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-21T15:54:42.908126+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
@@ -70,7 +70,7 @@
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
       "quote_count": 1,
-      "observed_at_utc": "2026-11-21T14:40:35+00:00",
+      "observed_at_utc": "2026-11-21T14:55:34+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 1,
@@ -83,7 +83,7 @@
               "Pornpawee Chochuwong",
               "4.60"
             ],
-            "market_line": 115,
+            "market_line": 113,
             "preceding_lines": [
               "Scores en direct",
               "Format des cotes",
@@ -109,7 +109,7 @@
               "Marthin-Carnando",
               "1.63"
             ],
-            "market_line": 126,
+            "market_line": 124,
             "preceding_lines": [
               "07:00",
               "Zhiyi Wang",
@@ -135,7 +135,7 @@
               "Tan-Muralitharan",
               "1.37"
             ],
-            "market_line": 137,
+            "market_line": 135,
             "preceding_lines": [
               "07:25",
               "Man-Tee",
@@ -161,7 +161,7 @@
               "Jiang-Wei",
               "1.70"
             ],
-            "market_line": 159,
+            "market_line": 157,
             "preceding_lines": [
               "08:20",
               "Anders Antonsen",
@@ -193,7 +193,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T14:39:55+00:00",
+      "observed_at_utc": "2026-11-21T14:54:58+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -202,7 +202,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T14:40:10+00:00",
+      "observed_at_utc": "2026-11-21T14:55:12+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -211,7 +211,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T14:39:48+00:00",
+      "observed_at_utc": "2026-11-21T14:54:51+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -220,7 +220,7 @@
     "fdj_pos_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T14:39:49+00:00",
+      "observed_at_utc": "2026-11-21T14:54:53+00:00",
       "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -229,7 +229,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T14:39:56+00:00",
+      "observed_at_utc": "2026-11-21T14:54:59+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -238,7 +238,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T14:40:05+00:00",
+      "observed_at_utc": "2026-11-21T14:55:07+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -247,7 +247,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T14:40:13+00:00",
+      "observed_at_utc": "2026-11-21T14:55:14+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -256,7 +256,7 @@
     "oddspedia_badminton": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T14:40:11+00:00",
+      "observed_at_utc": "2026-11-21T14:55:13+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -265,7 +265,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T14:40:30+00:00",
+      "observed_at_utc": "2026-11-21T14:55:29+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
