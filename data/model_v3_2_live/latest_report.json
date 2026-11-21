@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_2_live_v1",
-  "generated_at_utc": "2026-11-21T13:39:18.969109+00:00",
+  "generated_at_utc": "2026-11-21T14:39:10.409866+00:00",
   "policy": "MODEL_ONLY_NO_BET_NO_T0_REWRITE",
   "model": "bwf_v3_2_score_rest_live",
   "selected_variant": "elo_plus_score_rest",
@@ -40,10 +40,10 @@
     }
   },
   "retrospective_2026_current_cache": {
-    "n": 1823,
-    "brier": 0.204266,
-    "log_loss": 0.593672,
-    "accuracy": 0.68678
+    "n": 1824,
+    "brier": 0.204242,
+    "log_loss": 0.593626,
+    "accuracy": 0.686952
   },
   "upcoming_count": 1,
   "snapshot_policy": "Current player state uses completed results strictly before the current UTC date; same-day results are excluded.",
@@ -53,21 +53,21 @@
     "not_MS": 53459,
     "no_full_score": 291,
     "score_not_completed": 224,
-    "no_winner": 14,
+    "no_winner": 13,
     "missing_player_ids": 5,
     "archives_read": 415,
-    "clean_MS_matches": 13999
+    "clean_MS_matches": 14000
   },
   "scored_match_history_freshness": {
     "latest_loaded_scored_match_day_utc": "2026-11-21",
     "days_since_latest_scored_match": 0,
     "freshness_status": "RECENT",
-    "last_7_days_count_including_today": 42,
-    "last_21_days_count_including_today": 189,
+    "last_7_days_count_including_today": 43,
+    "last_21_days_count_including_today": 190,
     "daily_loaded_scored_match_counts": [
       {
         "day_utc": "2026-11-21",
-        "scored_ms_matches": 1
+        "scored_ms_matches": 2
       },
       {
         "day_utc": "2026-11-20",
@@ -154,6 +154,16 @@
         "winner": "Anders ANTONSEN"
       },
       {
+        "day_utc": "2026-11-21",
+        "match_id": "5218:1569944",
+        "tournament": "LI-NING Hong Kong Open 2026",
+        "players": [
+          "Moh. Zaki UBAIDILLAH",
+          "Kunlavut VITIDSARN"
+        ],
+        "winner": "Kunlavut VITIDSARN"
+      },
+      {
         "day_utc": "2026-11-20",
         "match_id": "5218:1570095",
         "tournament": "LI-NING Hong Kong Open 2026",
@@ -182,16 +192,6 @@
           "Lakshya SEN"
         ],
         "winner": "Lakshya SEN"
-      },
-      {
-        "day_utc": "2026-11-20",
-        "match_id": "5218:1569946",
-        "tournament": "LI-NING Hong Kong Open 2026",
-        "players": [
-          "Anders ANTONSEN",
-          "Xuan Chen ZHU"
-        ],
-        "winner": "Anders ANTONSEN"
       }
     ],
     "date_note": "Match day is derived from the BWF archive start_time; it is not a separately verified score-publication timestamp. Same-UTC-day results remain excluded from the current V3.2 Elo snapshot."

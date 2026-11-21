@@ -1,11 +1,6 @@
 {
   "next_actions": [
     {
-      "source": "netbet_quotes",
-      "priority": 1,
-      "action": "Review public competition heading and player-pair context; do not infer tournament from URL."
-    },
-    {
       "source": "unibet_fr",
       "priority": 2,
       "action": "Inspect public page structure and discipline/date sections; do not interpret live prices as prematch."
@@ -44,19 +39,19 @@
   "blocker_counts": {
     "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE": 5,
     "HTTP_OR_REDIRECT_REJECTED": 1,
-    "MARKETS_SEEN_BUT_UNVERIFIED": 1,
     "NO_CONFIDENT_QUOTES_EXTRACTED": 2,
+    "QUOTE_OBSERVED_REQUIRES_VALIDATION": 1,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-11-21T13:20:53.022719+00:00",
+  "generated_at_utc": "2026-11-21T14:40:44.195542+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
-  "status": "NO_CONFIRMED_PREMATCH_QUOTES",
+  "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 1,
   "model_fixtures": [
     {
-      "match_id": "5218:1569944",
+      "match_id": "5218:1570126",
       "players": [
-        "Moh. Zaki UBAIDILLAH",
+        "Anders ANTONSEN",
         "Kunlavut VITIDSARN"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
@@ -66,64 +61,38 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T13:19:52+00:00",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-21T14:19:49.994839+01:00",
+      "observed_at_utc": "2026-11-21T14:39:42+00:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-21T15:39:41.429092+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
     },
     "netbet_quotes": {
-      "status": "NO_CONFIDENT_QUOTES",
-      "quote_count": 0,
-      "observed_at_utc": "2026-11-21T13:20:45+00:00",
+      "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
+      "quote_count": 1,
+      "observed_at_utc": "2026-11-21T14:40:35+00:00",
       "parser_notes": null,
       "index_market_audit": {
-        "eligible_listing_rows": 0,
-        "markets_seen": 3,
+        "eligible_listing_rows": 1,
+        "markets_seen": 5,
         "rejection_evidence": [
           {
             "following_lines": [
-              "Moh Zaki Ubaidillah",
-              "4.00",
-              "Vitidsarn Kunlavut",
-              "1.10"
+              "Zhiyi Wang",
+              "1.06",
+              "Pornpawee Chochuwong",
+              "4.60"
             ],
-            "market_line": 120,
+            "market_line": 115,
             "preceding_lines": [
+              "Scores en direct",
+              "Format des cotes",
+              "Accueil",
+              "Badminton",
+              "Pariez sur",
               "Badminton",
               "À L'AFFICHE",
-              "EN DIRECT",
               "TOUTE L'OFFRE BADMINTON",
-              "En direct",
-              "Open de Hong Kong",
-              "Set 3",
-              "LIVE",
-              "Moh Zaki Ubaidillah",
-              "Vitidsarn Kunlavut",
-              "1",
-              "1",
-              "6",
-              "9"
-            ],
-            "reason": "PLAYER_PAIR_MISMATCH"
-          },
-          {
-            "following_lines": [
-              "Zhiyi Wang",
-              "1.05",
-              "Pornpawee Chochuwong",
-              "4.80"
-            ],
-            "market_line": 133,
-            "preceding_lines": [
-              "9",
-              "Qui va gagner le match ?",
-              "Moh Zaki Ubaidillah",
-              "4.00",
-              "Vitidsarn Kunlavut",
-              "1.10",
-              "+ 6",
-              "Les scores et autres contenus multimedias peuvent être sujets à des décalages",
               "À Venir",
               "Open de Hong Kong (F)",
               "dim. 22 nov.",
@@ -135,21 +104,73 @@
           },
           {
             "following_lines": [
-              "Huang-Feng",
-              "1.75",
-              "Jiang-Wei",
-              "1.68"
+              "Man-Tee",
+              "1.81",
+              "Marthin-Carnando",
+              "1.63"
             ],
-            "market_line": 144,
+            "market_line": 126,
             "preceding_lines": [
               "07:00",
               "Zhiyi Wang",
               "Pornpawee Chochuwong",
               "Qui va gagner le match ?",
               "Zhiyi Wang",
-              "1.05",
+              "1.06",
               "Pornpawee Chochuwong",
-              "4.80",
+              "4.60",
+              "+ 3",
+              "Open de Hong Kong, Doubles",
+              "dim. 22 nov.",
+              "07:25",
+              "Man-Tee",
+              "Marthin-Carnando"
+            ],
+            "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Nakade-Takahashi",
+              "2.32",
+              "Tan-Muralitharan",
+              "1.37"
+            ],
+            "market_line": 137,
+            "preceding_lines": [
+              "07:25",
+              "Man-Tee",
+              "Marthin-Carnando",
+              "Qui va gagner le match ?",
+              "Man-Tee",
+              "1.81",
+              "Marthin-Carnando",
+              "1.63",
+              "+ 3",
+              "Open de Hong Kong, Doubles (F)",
+              "dim. 22 nov.",
+              "08:15",
+              "Nakade-Takahashi",
+              "Tan-Muralitharan"
+            ],
+            "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Huang-Feng",
+              "1.73",
+              "Jiang-Wei",
+              "1.70"
+            ],
+            "market_line": 159,
+            "preceding_lines": [
+              "08:20",
+              "Anders Antonsen",
+              "Vitidsarn Kunlavut",
+              "Qui va gagner le match ?",
+              "Anders Antonsen",
+              "1.87",
+              "Vitidsarn Kunlavut",
+              "1.58",
               "+ 3",
               "Open de Hong Kong, Doubles Mixtes",
               "dim. 22 nov.",
@@ -161,17 +182,18 @@
           }
         ],
         "rejections": {
-          "NON_MS_COMPETITION": 2,
-          "PLAYER_PAIR_MISMATCH": 1
+          "NON_MS_COMPETITION": 4
         }
       },
-      "reason_counts": {},
-      "blocker": "MARKETS_SEEN_BUT_UNVERIFIED"
+      "reason_counts": {
+        "NO_UNIQUE_BWF_FIXTURE": 1
+      },
+      "blocker": "QUOTE_OBSERVED_REQUIRES_VALIDATION"
     },
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T13:20:06+00:00",
+      "observed_at_utc": "2026-11-21T14:39:55+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -180,7 +202,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T13:20:22+00:00",
+      "observed_at_utc": "2026-11-21T14:40:10+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -189,7 +211,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T13:19:59+00:00",
+      "observed_at_utc": "2026-11-21T14:39:48+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -198,7 +220,7 @@
     "fdj_pos_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T13:20:00+00:00",
+      "observed_at_utc": "2026-11-21T14:39:49+00:00",
       "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -207,7 +229,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T13:20:07+00:00",
+      "observed_at_utc": "2026-11-21T14:39:56+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -216,7 +238,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T13:20:17+00:00",
+      "observed_at_utc": "2026-11-21T14:40:05+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -225,7 +247,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T13:20:24+00:00",
+      "observed_at_utc": "2026-11-21T14:40:13+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -234,7 +256,7 @@
     "oddspedia_badminton": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T13:20:23+00:00",
+      "observed_at_utc": "2026-11-21T14:40:11+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -243,7 +265,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-21T13:20:40+00:00",
+      "observed_at_utc": "2026-11-21T14:40:30+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
