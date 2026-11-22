@@ -12,16 +12,16 @@
     "matches": 437
   },
   {
+    "player_id": "61854",
+    "name": "WANG Zhi Yi",
+    "elo": 2351.0871773907706,
+    "matches": 337
+  },
+  {
     "player_id": "18228",
     "name": "Carolina MARIN",
     "elo": 2350.104100451073,
     "matches": 246
-  },
-  {
-    "player_id": "61854",
-    "name": "WANG Zhi Yi",
-    "elo": 2332.3624556458276,
-    "matches": 336
   },
   {
     "player_id": "78778",
@@ -54,16 +54,22 @@
     "matches": 364
   },
   {
-    "player_id": "82070",
-    "name": "Tomoka MIYAZAKI",
-    "elo": 2178.9841534732323,
-    "matches": 169
-  },
-  {
     "player_id": "96713",
     "name": "Nozomi OKUHARA",
     "elo": 2163.385476900313,
     "matches": 322
+  },
+  {
+    "player_id": "82070",
+    "name": "Tomoka MIYAZAKI",
+    "elo": 2160.259431728289,
+    "matches": 170
+  },
+  {
+    "player_id": "84062",
+    "name": "Pornpawee CHOCHUWONG",
+    "elo": 2113.852770168099,
+    "matches": 344
   },
   {
     "player_id": "99069",
@@ -76,18 +82,6 @@
     "name": "KIM Gaeun",
     "elo": 2085.401573792073,
     "matches": 256
-  },
-  {
-    "player_id": "84062",
-    "name": "Pornpawee CHOCHUWONG",
-    "elo": 2081.889336897068,
-    "matches": 343
-  },
-  {
-    "player_id": "35642",
-    "name": "Ratchanok INTANON",
-    "elo": 2081.4923185089524,
-    "matches": 373
   },
   {
     "player_id": "68479",
@@ -106,6 +100,12 @@
     "name": "Aya OHORI",
     "elo": 2058.785122835228,
     "matches": 207
+  },
+  {
+    "player_id": "35642",
+    "name": "Ratchanok INTANON",
+    "elo": 2049.5288852379213,
+    "matches": 374
   },
   {
     "player_id": "78116",

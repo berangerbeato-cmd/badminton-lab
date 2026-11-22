@@ -1,19 +1,19 @@
 {
-  "asof_utc": "2026-11-21T16:58:35.485856+00:00",
+  "asof_utc": "2026-11-22T13:10:23.178798+00:00",
   "discipline": "WS",
   "model_id": "75bec879527c6fd8",
   "quality": {
-    "asof_exclusive": "2026-11-21",
+    "asof_exclusive": "2026-11-22",
     "archives": 415,
     "raw_ws": 11824,
-    "valid_ws": 11383,
+    "valid_ws": 11385,
     "rejected": {
       "abnormal_status": 357,
       "incomplete_score": 2,
       "missing_player_ids": 5,
-      "no_winner": 4,
+      "no_winner": 3,
       "invalid_game_score": 71,
-      "outside_asof_window": 2
+      "outside_asof_window": 1
     },
     "players": 1231,
     "tournaments": 331,
@@ -26,7 +26,7 @@
       "2023": 1602,
       "2024": 1622,
       "2025": 1627,
-      "2026": 1543
+      "2026": 1545
     },
     "months": {
       "2018-01": 123,
@@ -124,9 +124,9 @@
       "2026-08": 99,
       "2026-09": 147,
       "2026-10": 212,
-      "2026-11": 142
+      "2026-11": 144
     },
-    "latest_match": "2026-11-20",
+    "latest_match": "2026-11-21",
     "missing_indexed_elite": [
       {
         "id": 5410,
@@ -214,39 +214,5 @@
       2023
     ]
   },
-  "predictions": [
-    {
-      "match_id": "5218:1569996",
-      "start_utc": "2026-11-22T00:00:00+00:00",
-      "player_a_id": "61854",
-      "player_b_id": "84062",
-      "player_a": "WANG Zhi Yi",
-      "player_b": "Pornpawee CHOCHUWONG",
-      "tournament": "LI-NING Hong Kong Open 2026",
-      "discipline": "WS",
-      "asof_utc": "2026-11-21T16:58:35.485856+00:00",
-      "model_id": "75bec879527c6fd8",
-      "history_a": 336,
-      "history_b": 343,
-      "latest_result": "2026-11-20",
-      "p_a": 0.8649657056586619,
-      "status": "DATE_ONLY_NO_BET",
-      "source_age_days": 1,
-      "inactivity_days": 1,
-      "features": {
-        "form10_residual_diff": -0.03931841224324343,
-        "matches7_diff": 1.0,
-        "sets7_diff": 2.0,
-        "matches14_diff": 2.0,
-        "rest_days_diff": 0.0,
-        "inactive30_diff": 0.0,
-        "h2h24_residual": 0.11591297736668937,
-        "elo_trend30_diff": 32.02369939823484,
-        "elo_trend90_diff": 54.60609512114661,
-        "set_margin5_diff": -0.19999999999999996,
-        "point_share5_diff": -0.003478348866291711
-      },
-      "raw_p_a": 0.808739296440298
-    }
-  ]
+  "predictions": []
 }
