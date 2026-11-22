@@ -1,19 +1,19 @@
 {
-  "observed_at_utc": "2026-11-21T14:54:42+00:00",
+  "observed_at_utc": "2026-11-22T13:11:25+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
   "sources": {
     "unibet_fr": {
-      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
+      "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quotes": 0,
       "robots_status": "ALLOWED_BY_ROBOTS",
-      "http_status": 200,
-      "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-21T15:54:42.908126+01:00",
+      "http_status": 404,
+      "resolved_url": "https://www.unibet.fr/page-introuvable",
+      "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "8",
-      "body_sha256": "cf629e1bbf40de08b81fdd8f0bd7c857f2aaea245b133ace03e1d0fa88041a3a",
+      "cache_age_seconds": null,
+      "body_sha256": "902d5175322f5b9b91160c8de3c48eee2cc61f71f5781bba176968962cd7a526",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -39,7 +39,7 @@
       "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "de5aaf8be7c4f3f0536f0419c1e2478ffae7334fa4b53c8c482a1b4186020804",
+      "body_sha256": "2c9f1c7a540685fcb053a92efced6d0a7fffa889551f6600f6382f697293abed",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "099cb6be22a0a42b3e8e4c33e10ff3f82378f78eb5b7af408c61541e8d855ffb",
+      "body_sha256": "aa01f65dc4ab85405ba3546fabf28e9056969b5cfb8e5c60a3f88dca9969eee1",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "87087cc641720454e1d1d300df0c21828fd62c1d1d6064cd31b3eafc10566591",
+      "body_sha256": "0c1ea5544bc1edd597e0f6ac3dc0443ca4a89eaaffa99fb60639e13627889c8b",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "d92e26ef60f9c7f9bc82b9cbc6ce0e473d790d286b48c445dfdf06da84f18e41",
+      "body_sha256": "28b7a8e0dde4398dfa5de6e632501f55d89eea07a43b2cd648fbc79f414a93a7",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,44 +142,38 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "530",
-      "body_sha256": "c770dc4b1e95f8faa8a5bdda90e312d40cf65724aade6bd1994b153aa6660563",
+      "cache_age_seconds": "342",
+      "body_sha256": "d4adf930642e9891827a78d97154daacbfa94d25cac7c784835bd6e54cc2201f",
       "flashscore_discovery": {
         "index_match_links": [
-          "https://www.flashscore.fr/match/badminton/antonsen-anders-GMQqJqeP/sen-lakshya-xnv5nIsk/?mid=b3N7svaB",
-          "https://www.flashscore.fr/match/badminton/ubaidillah-moh-zaki-UiCMjVtj/vitidsarn-kunlavut-tdE7qrlF/?mid=bFezcYGl",
-          "https://www.flashscore.fr/match/badminton/chochuwong-pornpawee-GKVi2Jal/intanon-ratchanok-4CEwVcY9/?mid=botIcNig",
-          "https://www.flashscore.fr/match/badminton/miyazaki-tomoka-Eq6xmXhj/wang-zhiyi-SvXcpLPt/?mid=2yWSfzf2",
-          "https://www.flashscore.fr/match/badminton/8n8fIbS6/",
-          "https://www.flashscore.fr/match/badminton/zkdFbxZ9/",
-          "https://www.flashscore.fr/match/badminton/G0oX6FqK/",
-          "https://www.flashscore.fr/match/badminton/0liQekyJ/",
-          "https://www.flashscore.fr/match/badminton/riaEtpZi/",
-          "https://www.flashscore.fr/match/badminton/8daXcaqh/",
-          "https://www.flashscore.fr/match/badminton/antonsen-anders-GMQqJqeP/vitidsarn-kunlavut-tdE7qrlF/"
+          "https://www.flashscore.fr/match/badminton/antonsen-anders-GMQqJqeP/vitidsarn-kunlavut-tdE7qrlF/?mid=S4tFCG06",
+          "https://www.flashscore.fr/match/badminton/chochuwong-pornpawee-GKVi2Jal/wang-zhiyi-SvXcpLPt/?mid=CE3xw3T8",
+          "https://www.flashscore.fr/match/badminton/nTwJP7Br/",
+          "https://www.flashscore.fr/match/badminton/2uduFUAT/",
+          "https://www.flashscore.fr/match/badminton/GbbcyaBm/"
         ],
-        "index_match_link_count": 11,
+        "index_match_link_count": 5,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Open BWF de Hong Kong 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n21/11 SA\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nAntonsen A.\nSen L.\n2\n0\n21\n13\n21\n13\nTerminé\nUbaidillah M. Z.\nVitidsarn K.\n1\n2\n21\n18\n15\n21\n16\n21\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nIntanon R.\nChochuwong Po.\n1\n2\n16\n21\n21\n18\n13\n21\nTerminé\nWang Z. Y.\nMiyazaki T.\n2\n0\n21\n15\n21\n15\nFlashscore Actualités\nHarry Kane opéré avec succès de la cheville gauche\nIncontournable en premier centre, Yoram Moefana est déjà dans l'avion pour l'Australie\nQu'est-ce qui coince dans la machine monégasque ?\nAller vers Actualités\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nMan W. C.\nTee K. W.\nRankireddy S.\nShetty C.\n2\n0\n21\n18\n21\n19\nTerminé\nCarnando L. R.\nMarthin D.\nKang M. H.\nLee J. M.\n2\n0\n21\n18\n21\n11\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nPratiwi A. C.\nRamadhanti S. F. S.\nNakade S.\nTakahashi M.\n0\n2\n16\n21\n21\n23\nTerminé\nLow Z. Y.\nMaisarah N.\nTan P.\nMuralitharan T.\n0\n2\n13\n21\n19\n21\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nFeng Y. Z.\nHuang D. P.\nGoh S. H.\nLai S. J.\n2\n0\n21\n17\n21\n18\nTerminé\nFerdinansyah D.\nPasaribu F. A. N.\nJiang Z. B.\nWei Y. X.\n0\n2\n13\n21\n13\n21\nPublicité\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Open de Hong Kong Hommes\nBWF WT Open de Hong"
+        "index_text_excerpt": "Open BWF de Hong Kong 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n22/11 DI\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - HOMMES: \nTableau\nForfait\nAntonsen A.\nVitidsarn K.\n-\n-\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nWang Z. Y.\nChochuwong Po.\n2\n0\n21\n16\n21\n11\nFlashscore Actualités\nLe PSG confirme : Doué est victime d'une rupture du ligament croisé antérieur du genou droit\nFlashback : la finale du Masters 1996 entre Sampras et Becker, un sommet inégalé de tennis\nMax Verstappen remporte un Grand Prix de Las Vegas très spectaculaire\nAller vers Actualités\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nMan W. C.\nTee K. W.\nCarnando L. R.\nMarthin D.\n2\n0\n21\n19\n21\n18\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nNakade S.\nTakahashi M.\nTan P.\nMuralitharan T.\n0\n2\n20\n22\n16\n21\nOpen de Hong Kong (Hong Kong)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nFeng Y. Z.\nHuang D. P.\nJiang Z. B.\nWei Y. X.\n2\n1\n17\n21\n21\n9\n21\n15\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Open de Hong Kong Hommes\nBWF WT Open de Hong Kong Femmes\nBWF WT Open de Hong Kong Doubles Hommes\nBWF WT Open de Hong Kong Doubles Femmes\nBWF WT Open de Hong Kong Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries "
       },
       "flashscore_match_audit": {
-        "url": "https://www.flashscore.fr/match/badminton/antonsen-anders-GMQqJqeP/vitidsarn-kunlavut-tdE7qrlF/#/cotes/home-away/temps-regulier/",
+        "url": "https://www.flashscore.fr/match/badminton/chochuwong-pornpawee-GKVi2Jal/wang-zhiyi-SvXcpLPt/#/cotes/home-away/temps-regulier/",
         "status": "PUBLIC_MATCH_PAGE_REACHABLE_AUDIT_ONLY",
         "quotes_extracted": 0,
         "candidate_from_index": true,
         "candidate_selection": "last_named_public_link_not_verified_upcoming",
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
-        "resolved_url": "https://www.flashscore.fr/match/badminton/antonsen-anders-GMQqJqeP/vitidsarn-kunlavut-tdE7qrlF/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "8236d5b0d8779c5ccd5ebaee3b39f0c2868c2d3d9a6083f7214bad337962e047",
+        "resolved_url": "https://www.flashscore.fr/match/badminton/chochuwong-pornpawee-GKVi2Jal/wang-zhiyi-SvXcpLPt/#/cotes/home-away/temps-regulier/",
+        "body_sha256": "573ba3af75c7d826e64abc03e09ebb2fbcad5cb0c9e0b730fe74c381fee78ab1",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Anders Antonsen - Kunlavut Vitidsarn (22/11/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nBADMINTONBWF WORLD TOUR - HOMMESOPEN DE HONG KONG - FINALE\nNouvelle fenêtre\n22.11.2026 10:20\nAntonsen A.\nBWF\n: 3.\n-\nVitidsarn K.\nBWF\n: 2.\n-\n22.11.2026 10:20\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n2.10\n1.66\nFAIRE UN PARI\n-\n-\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $200 in Bonus Bets when you wager $5 for 4 days\n21+ $5 first deposit required to get bonus bets which expire 4 days after. T&Cs apply\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA). T&C apply.\nINFORMATIONS DE MATCH\nSTADE:\nKai Tak Arena\n (Hongkong)\nFORME\nAntonsen A.\n?\nV\nV\nV\nV\nD\nVitidsarn K.\n?\nV\nV\nV\nV",
+        "text_excerpt_for_debug": "Zhi Yi Wang - Pornpawee Chochuwong (22/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - FEMMESOPEN DE HONG KONG - FINALE\nNouvelle fenêtre\n22.11.2026 07:10\nWang Z. Y.\nBWF\n: 3.\n2\n-\n0\nTERMINÉ\nChochuwong Po.\nBWF\n: 8.\n2\n-\n0\nTERMINÉ\nMATCH\nCOTES\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nWang Z. Y.\n2\n21\n21\nChochuwong Po.\n0\n16\n11\nCOTES\nHOME/AWAY\n1\n2\n1.09\n3.80\n-\n-\nVoir plus\nLIVE STREAMING\nPublicité\nBetclic.fr\nINFORMATIONS DE MATCH\nSTADE:\nKai Tak Arena\n (Hongkong)\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Open de Hong Kong Hommes\nBWF WT Open de Hong Kong Femmes\nBWF WT Open de Hong Kong Doubles Hommes\nBWF WT Open de Hong Kong Doubles Femmes\nBWF WT Open de Hong Kong Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand Prix - Doubles Femmes\nVoir plus\nSuivez les informations du match Zhi Yi Wang - Pornpawee Chochuwong le 22/11",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 6394,
+        "body_characters": 5227,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
-        "appears_mens_singles": true,
+        "appears_mens_singles": false,
         "eligible_for_odds_comparison": false,
         "comparison_block_reason": "NO_VERIFIED_BOOKMAKER_PRICES",
         "contains_odds_heading": true,
@@ -187,28 +181,21 @@
           "HOME/AWAY",
           "1",
           "2",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "-",
-          "2.10",
-          "1.66",
-          "FAIRE UN PARI",
+          "1.09",
+          "3.80",
           "-",
           "-"
         ],
-        "odds_section_dash_count": 10,
+        "odds_section_dash_count": 2,
         "odds_section_decimal_prices": [
-          "2.10",
-          "1.66"
+          "1.09",
+          "3.80"
         ],
         "odds_section_placeholder_only": false,
         "odds_section_bookmaker_names": [],
-        "contains_bookmaker_names": []
+        "contains_bookmaker_names": [
+          "Betclic"
+        ]
       }
     },
     "oddsportal_badminton": {
@@ -219,8 +206,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "0",
-      "body_sha256": "0129b8212b00a23e8e10f924069df35b83a762bce73570707ab0214e3c5c057d",
+      "cache_age_seconds": "257",
+      "body_sha256": "e5ead4126cb1ce8ecd9d4e9a32131f5684649450bc37cc07c2e2f9e15f229089",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
