@@ -14,8 +14,8 @@
   {
     "player_id": "61854",
     "name": "WANG Zhi Yi",
-    "elo": 2351.0871773907706,
-    "matches": 337
+    "elo": 2364.100082184179,
+    "matches": 338
   },
   {
     "player_id": "18228",
@@ -66,16 +66,16 @@
     "matches": 170
   },
   {
-    "player_id": "84062",
-    "name": "Pornpawee CHOCHUWONG",
-    "elo": 2113.852770168099,
-    "matches": 344
-  },
-  {
     "player_id": "99069",
     "name": "SIM Yu Jin",
     "elo": 2104.79653644858,
     "matches": 159
+  },
+  {
+    "player_id": "84062",
+    "name": "Pornpawee CHOCHUWONG",
+    "elo": 2100.839865374691,
+    "matches": 345
   },
   {
     "player_id": "70930",
