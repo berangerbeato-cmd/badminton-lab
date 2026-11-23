@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_1_features_v1",
-  "generated_at_utc": "2026-11-22T13:17:35+00:00",
+  "generated_at_utc": "2026-11-23T15:54:46+00:00",
   "policy": "MODEL_RESEARCH_ONLY_NO_ODDS_NO_BET_NO_T0_REWRITE",
   "model": "bwf_v3_1_feature_logit",
   "feature_families": {
@@ -34,12 +34,12 @@
   "ridge": 5.0,
   "elo_k": 48,
   "source_quality": {
-    "not_MS": 53459,
+    "not_MS": 53499,
     "no_full_score": 292,
     "score_not_completed": 224,
-    "no_winner": 12,
+    "no_winner": 24,
     "missing_player_ids": 5,
-    "archives_read": 415,
+    "archives_read": 416,
     "clean_MS_matches": 14000
   },
   "methodology": [
