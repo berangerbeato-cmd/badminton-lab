@@ -1,13 +1,13 @@
 {
   "asof_exclusive": "2026-11-23",
-  "archives": 415,
-  "raw_ws": 11824,
+  "archives": 416,
+  "raw_ws": 11828,
   "valid_ws": 11386,
   "rejected": {
     "abnormal_status": 357,
     "incomplete_score": 2,
     "missing_player_ids": 5,
-    "no_winner": 3,
+    "no_winner": 7,
     "invalid_game_score": 71
   },
   "players": 1231,
