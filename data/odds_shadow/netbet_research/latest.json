@@ -1,22 +1,18 @@
 {
-  "observed_at_utc": "2026-11-21T14:38:30+00:00",
+  "observed_at_utc": "2026-11-23T18:01:39+00:00",
   "source": "https://www.netbet.fr/badminton",
   "operator": "NetBet.fr",
-  "status": "EVENT_LIST_UNDETERMINED_NEEDS_PARSER_AUDIT",
+  "status": "NO_PUBLIC_BADMINTON_EVENTS_LISTED",
   "quotes": [],
   "policy": "PUBLIC_RESEARCH_ONLY_NO_BET_NO_INFERRED_PRICES",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "http_status": 200,
   "resolved_url": "https://www.netbet.fr/badminton",
   "cache_age_seconds": null,
-  "body_sha256": "108b6c0ed3ca83ca7c535b42e92d4581be6a164108882ceb36c6d67dfcc4a189",
-  "event_area_excerpt": "",
-  "explicit_no_events": false,
+  "body_sha256": "7536bd0d68e71640bbf847bf7139a691283ff363f9cf5169b3369ea1a578b594",
+  "event_area_excerpt": "Aucun événement n'est actuellement disponible pour ce sport, cette catégorie ou cette compétition.\nVeuillez revenir à la page d'accueil pour consulter notre offre de paris.\npage d'accueil\n",
+  "explicit_no_events": true,
   "public_badminton_links": [
-    "https://www.netbet.fr/badminton",
-    "https://www.netbet.fr/badminton/international/open-de-hong-kong-f",
-    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles",
-    "https://www.netbet.fr/badminton/international/open-de-hong-kong-doubles-f",
-    "https://www.netbet.fr/badminton/international/open-de-hong-kong"
+    "https://www.netbet.fr/badminton"
   ]
 }
