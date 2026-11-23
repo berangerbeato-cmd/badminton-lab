@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-23T18:00:44+00:00",
+  "observed_at_utc": "2026-11-23T18:02:59+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
@@ -38,7 +38,7 @@
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
       "error": null,
-      "cache_age_seconds": null,
+      "cache_age_seconds": "134",
       "body_sha256": "30756b514779ed3b078e1624608037dbec2554210b24ccaa71ba1b46714c7ccd",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "7536bd0d68e71640bbf847bf7139a691283ff363f9cf5169b3369ea1a578b594",
+      "body_sha256": "05dfea2027de5edbb2effa22ea45a50d3dc5dc4bd67e719ccaf15879c2be51ee",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "b7184fcf2db200a13adc0bcdda3c5cf10f6a6b9baf59ccd2163c323f2671ecb4",
+      "body_sha256": "61c055c6f78ba3da12b74c1850f59f67c5eadbc92603ee033680013fc705ffc7",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "0",
-      "body_sha256": "e08a1e28b5e1b41832b253908abf1522c1df630c2e1a88cecdb07602ec78c9fb",
+      "cache_age_seconds": "133",
+      "body_sha256": "e8d4c7e00250df54d08dd51d6d482e0e248d4213a5b622738a8b220374e4cf94",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/roy-enogat-40PpcsJJ/teh-jia-heng-jason-67ZMg1T7/",
@@ -172,24 +172,28 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/lee-zii-jia-fkHsTftd/subramanian-s-sankar-muthusamy-IwLDzTVa/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "45bf42a9611076034d64168a148888541f6c916874ead00efbf4120857ad3e07",
+        "body_sha256": "46e26bcff70ad9efd87689211c7969e55dc50487b7f7c26d33ae1f92790f2b9b",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "S.Sankar Muthusamy Subramanian - Zii Jia Lee (25/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESSYED MODI INTERNATIONAL CHAMPIONSHIPS - 1/16 DE FINALE\nNouvelle fenêtre\n25.11.2026 04:30\nSubramanian S. M.\nBWF\n: 98.\n-\nLee Z. J.\nBWF\n: 42.\n-\n25.11.2026 04:30\nRÉSUMÉ\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\nOFFRES BONUS\nFANDUEL - Get $250 in Bonus Bets when you bet $5 for 5 days\n21+ (18+ DC, WY), select states. 1st online wager only. Min $5 wager 5 days in a row, $5 deposit. Non-withdrawable bonus bets expire in 7 days. T&Cs apply.\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBetMGM - Up to $1,500 Back in Bonus Bets\nGAMBLING PROBLEM? 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. 1-800-BETS-OFF (IA), New customers only. T&C apply Must opt-in and wager $10+ cash on any market to receive $50 in Bonus Bets each day for your first 5 days\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nINFORMATIONS DE MATCH\nSTADE:\nBabu Banarasi Das Indoor Stadium\n (Lucknow)\nFORME\nSubramanian S. M.\n?\nD\nD\nV\nD\nD\nLee Z. J.\n?\nD\nV\nD\nV\nV\nTÊTE-À-TÊTE\n12.06.24\nOA\nLee Z. J.\nSu",
+        "text_excerpt_for_debug": "S.Sankar Muthusamy Subramanian - Zii Jia Lee (25/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESSYED MODI INTERNATIONAL CHAMPIONSHIPS - 1/16 DE FINALE\nNouvelle fenêtre\n25.11.2026 04:30\nSubramanian S. M.\nBWF\n: 98.\n-\nLee Z. J.\nBWF\n: 42.\n-\n25.11.2026 04:30\nRÉSUMÉ\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n-\n-\nOFFRES BONUS\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nINFORMATIONS DE MATCH\nSTADE:\nBabu Banarasi Das Indoor Stadium\n (Lucknow)\nFORME\nSubramanian S. M.\n?\nD\nD\nV\nD\nD\nLee Z. J.\n?\nD\nV\nD\nV\nV\nTÊTE-À-TÊTE\n12.06.24\nOA\nLee Z. J.\nSubramanian S. M.\n2\n1\nMontrer plus de matchs\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Syed Modi International Championships Hommes\nBWF WT Syed Modi International Championships Femmes\nBWF WT Syed Modi International Championships Doubles Hommes\nBWF WT Syed Modi International Championships Doubles Femmes\nBWF WT Syed Modi International Championships Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Double",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 6410,
+        "body_characters": 5526,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
         "appears_mens_singles": true,
         "eligible_for_odds_comparison": false,
-        "comparison_block_reason": "NO_VERIFIED_BOOKMAKER_PRICES",
+        "comparison_block_reason": "ODDS_SECTION_PLACEHOLDERS",
         "contains_odds_heading": true,
         "odds_section_lines": [
-          "HOME/AWAY"
+          "HOME/AWAY",
+          "1",
+          "2",
+          "-",
+          "-"
         ],
-        "odds_section_dash_count": 0,
+        "odds_section_dash_count": 2,
         "odds_section_decimal_prices": [],
-        "odds_section_placeholder_only": false,
+        "odds_section_placeholder_only": true,
         "odds_section_bookmaker_names": [],
         "contains_bookmaker_names": []
       }
@@ -203,7 +207,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "e243313fc5599b896e727d3a05b733089d26e7a22ff5c7836a2d22edf1c5f4be",
+      "body_sha256": "344cc4ca674506615b3ebb7e1b26dd1680c3ada059888870952eeb09f905fb60",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
