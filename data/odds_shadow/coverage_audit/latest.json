@@ -42,7 +42,7 @@
     "NO_CONFIDENT_QUOTES_EXTRACTED": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-11-24T15:41:29.360416+00:00",
+  "generated_at_utc": "2026-11-24T17:42:23.241512+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "NO_CONFIRMED_PREMATCH_QUOTES",
   "model_fixture_count": 16,
@@ -180,7 +180,7 @@
     "unibet_fr": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T15:40:33+00:00",
+      "observed_at_utc": "2026-11-24T17:41:24+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -189,7 +189,7 @@
     "netbet_quotes": {
       "status": "NO_CONFIDENT_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T15:41:22+00:00",
+      "observed_at_utc": "2026-11-24T17:42:15+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 0,
@@ -203,7 +203,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T15:40:46+00:00",
+      "observed_at_utc": "2026-11-24T17:41:38+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -212,7 +212,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T15:41:02+00:00",
+      "observed_at_utc": "2026-11-24T17:41:55+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -221,7 +221,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T15:40:39+00:00",
+      "observed_at_utc": "2026-11-24T17:41:30+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -230,7 +230,7 @@
     "fdj_pos_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T15:40:40+00:00",
+      "observed_at_utc": "2026-11-24T17:41:31+00:00",
       "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -239,7 +239,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T15:40:47+00:00",
+      "observed_at_utc": "2026-11-24T17:41:39+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -248,7 +248,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T15:40:58+00:00",
+      "observed_at_utc": "2026-11-24T17:41:49+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -257,7 +257,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T15:41:04+00:00",
+      "observed_at_utc": "2026-11-24T17:41:58+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -266,7 +266,7 @@
     "oddspedia_badminton": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T15:41:03+00:00",
+      "observed_at_utc": "2026-11-24T17:41:57+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -275,7 +275,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T15:41:17+00:00",
+      "observed_at_utc": "2026-11-24T17:42:10+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
