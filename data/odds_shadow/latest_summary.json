@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-24T17:41:23+00:00",
+  "observed_at_utc": "2026-11-24T18:12:41+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 0,
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "90b7b49bcca3a634c144f63c9982d2749e2894ea86995eef6bbe20b9a3f1fd7f",
+      "body_sha256": "bcf3be27cb040ce8b75ccbe89d75fbc0f77be9ad1b5bc5b28e1dd8da8efc0328",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "54cb343ec33362ee0101755f27382621d8232e1fc44dd20c0102c7f2c59d57e2",
+      "body_sha256": "94e7fbfe3a25dc89e9c36f3f431362fc8f2fc9663e71d990766d8c95435378ca",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "f8b4f45848d1e7a9da3b8c258f5e5688432a9cc45adc8e75a26b5d52a5f1d85a",
+      "body_sha256": "4f91632437a27e2525d5d7ff93a9569e7a7c5003c5a6f1154696ecc146a9dfb3",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,7 +142,7 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "369",
+      "cache_age_seconds": "93",
       "body_sha256": "10a5482ca591f3be4f62e5ef143d5cef424bfd57dc97242bcf807c90d92092f6",
       "flashscore_discovery": {
         "index_match_links": [
@@ -182,8 +182,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "138",
-      "body_sha256": "032e46cb70139805ea927929d0b0ac14fff612da5bc1dc9756f4cedbbb16932b",
+      "cache_age_seconds": "0",
+      "body_sha256": "c049531e86c12476580aaccbe121ba6072e05017bc883e2a500046b94ce07a7b",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }
