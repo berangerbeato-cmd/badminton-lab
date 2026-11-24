@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_2_live_v1",
-  "generated_at_utc": "2026-11-23T18:41:45.746895+00:00",
+  "generated_at_utc": "2026-11-24T15:39:57.321488+00:00",
   "policy": "MODEL_ONLY_NO_BET_NO_T0_REWRITE",
   "model": "bwf_v3_2_score_rest_live",
   "selected_variant": "elo_plus_score_rest",
@@ -40,31 +40,35 @@
     }
   },
   "retrospective_2026_current_cache": {
-    "n": 1824,
-    "brier": 0.204242,
-    "log_loss": 0.593626,
-    "accuracy": 0.686952
+    "n": 1835,
+    "brier": 0.204586,
+    "log_loss": 0.594509,
+    "accuracy": 0.686104
   },
-  "upcoming_count": 8,
+  "upcoming_count": 16,
   "snapshot_policy": "Current player state uses completed results strictly before the current UTC date; same-day results are excluded.",
   "selection_policy": "Feature set and K were selected before this daily publication. 2026 outcomes never refit coefficients.",
   "trading_policy": "NO BET. Bookmaker prices and verified prematch timing are separate requirements handled downstream.",
   "data_quality": {
-    "not_MS": 53499,
+    "not_MS": 53539,
     "no_full_score": 292,
-    "score_not_completed": 224,
-    "no_winner": 24,
+    "score_not_completed": 225,
+    "no_winner": 28,
     "missing_player_ids": 5,
     "archives_read": 416,
-    "clean_MS_matches": 14000
+    "clean_MS_matches": 14011
   },
   "scored_match_history_freshness": {
-    "latest_loaded_scored_match_day_utc": "2026-11-21",
-    "days_since_latest_scored_match": 2,
+    "latest_loaded_scored_match_day_utc": "2026-11-24",
+    "days_since_latest_scored_match": 0,
     "freshness_status": "RECENT",
-    "last_7_days_count_including_today": 41,
-    "last_21_days_count_including_today": 188,
+    "last_7_days_count_including_today": 40,
+    "last_21_days_count_including_today": 199,
     "daily_loaded_scored_match_counts": [
+      {
+        "day_utc": "2026-11-24",
+        "scored_ms_matches": 11
+      },
       {
         "day_utc": "2026-11-21",
         "scored_ms_matches": 2
@@ -136,54 +140,54 @@
     ],
     "last_loaded_examples": [
       {
-        "day_utc": "2026-11-21",
-        "match_id": "5218:1569947",
-        "tournament": "LI-NING Hong Kong Open 2026",
+        "day_utc": "2026-11-24",
+        "match_id": "5274:1572739",
+        "tournament": "Syed Modi India International 2026",
         "players": [
-          "Anders ANTONSEN",
-          "Lakshya SEN"
+          "Siddhanth GUPTA",
+          "Koo TAKAHASHI"
         ],
-        "winner": "Anders ANTONSEN"
+        "winner": "Koo TAKAHASHI"
       },
       {
-        "day_utc": "2026-11-21",
-        "match_id": "5218:1569944",
-        "tournament": "LI-NING Hong Kong Open 2026",
+        "day_utc": "2026-11-24",
+        "match_id": "5274:1572737",
+        "tournament": "Syed Modi India International 2026",
         "players": [
-          "Moh. Zaki UBAIDILLAH",
-          "Kunlavut VITIDSARN"
+          "Dhruv NEGI",
+          "Pranay SHETTIGAR"
         ],
-        "winner": "Kunlavut VITIDSARN"
+        "winner": "Pranay SHETTIGAR"
       },
       {
-        "day_utc": "2026-11-20",
-        "match_id": "5218:1570095",
-        "tournament": "LI-NING Hong Kong Open 2026",
+        "day_utc": "2026-11-24",
+        "match_id": "5274:1572732",
+        "tournament": "Syed Modi India International 2026",
         "players": [
-          "KIDAMBI Srikanth",
-          "Kunlavut VITIDSARN"
+          "Lakshay SHARMA",
+          "Chico  Aura DWI WARDOYO"
         ],
-        "winner": "Kunlavut VITIDSARN"
+        "winner": "Chico  Aura DWI WARDOYO"
       },
       {
-        "day_utc": "2026-11-20",
-        "match_id": "5218:1570070",
-        "tournament": "LI-NING Hong Kong Open 2026",
+        "day_utc": "2026-11-24",
+        "match_id": "5274:1572718",
+        "tournament": "Syed Modi India International 2026",
         "players": [
-          "Toma Junior POPOV",
-          "Moh. Zaki UBAIDILLAH"
+          "Sanskar SARASWAT",
+          "Shashwat DALAL"
         ],
-        "winner": "Moh. Zaki UBAIDILLAH"
+        "winner": "Shashwat DALAL"
       },
       {
-        "day_utc": "2026-11-20",
-        "match_id": "5218:1570065",
-        "tournament": "LI-NING Hong Kong Open 2026",
+        "day_utc": "2026-11-24",
+        "match_id": "5274:1572710",
+        "tournament": "Syed Modi India International 2026",
         "players": [
-          "LOH Kean Yew",
-          "Lakshya SEN"
+          "Bharath LATHEESH",
+          "Shashwat DALAL"
         ],
-        "winner": "Lakshya SEN"
+        "winner": "Shashwat DALAL"
       }
     ],
     "date_note": "Match day is derived from the BWF archive start_time; it is not a separately verified score-publication timestamp. Same-UTC-day results remain excluded from the current V3.2 Elo snapshot."

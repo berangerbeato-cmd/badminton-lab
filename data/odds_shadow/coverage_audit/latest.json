@@ -42,72 +42,136 @@
     "NO_CONFIDENT_QUOTES_EXTRACTED": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-11-23T18:43:50.843318+00:00",
+  "generated_at_utc": "2026-11-24T15:41:29.360416+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "NO_CONFIRMED_PREMATCH_QUOTES",
-  "model_fixture_count": 8,
+  "model_fixture_count": 16,
   "model_fixtures": [
     {
-      "match_id": "5274:1572585",
+      "match_id": "5274:1572580",
       "players": [
-        "Siddhanth GUPTA",
-        "Manraj SINGH"
+        "Ginpaul SONNA",
+        "Rounak CHOUHAN"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5274:1572588",
+      "match_id": "5274:1572596",
       "players": [
-        "Hmar LALTHAZUALA",
-        "Lakshay SHARMA"
+        "Daniil DUBOVENKO",
+        "Magnus JOHANNESEN"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5274:1572619",
+      "match_id": "5274:1572608",
       "players": [
-        "Bharath LATHEESH",
-        "Alap MISHRA"
+        "Zhe Ying WU",
+        "PRANNOY H. S."
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5274:1572620",
+      "match_id": "5274:1572630",
       "players": [
-        "Orijit CHALIHA",
-        "Pranay SHETTIGAR"
+        "Matthias KICKLITZ",
+        "Koo TAKAHASHI"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5274:1572644",
+      "match_id": "5274:1572646",
       "players": [
-        "Numair SHAIK",
+        "Sholeh AIDIL",
+        "Prahdiska Bagas SHUJIWO"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5274:1572647",
+      "players": [
+        "S.Sankar Muthusamy SUBRAMANIAN",
+        "LEE Zii Jia"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5274:1572659",
+      "players": [
+        "CHEAM June Wei",
         "Chico  Aura DWI WARDOYO"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5274:1572645",
+      "match_id": "5274:1572661",
       "players": [
-        "Koo TAKAHASHI",
-        "Bharat RAGHAV"
+        "Jia Heng TEH",
+        "Enogat ROY"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5274:1572691",
+      "match_id": "5274:1572668",
       "players": [
-        "Dhruv NEGI",
-        "Kavin Thangam KAVIN"
+        "Pranay SHETTIGAR",
+        "Saneeth DAYANAND"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5274:1572718",
+      "match_id": "5274:1572677",
       "players": [
-        "Sanskar SARASWAT",
-        "Shashwat DALAL"
+        "Riku HATANO",
+        "Eogene EWE"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5274:1572681",
+      "players": [
+        "JEON Hyeok Jin",
+        "Dmitriy PANARIN"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5274:1572698",
+      "players": [
+        "Harry HUANG",
+        "Tharun MANNEPALLI"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5274:1572712",
+      "players": [
+        "Richie Duta RICHARDO",
+        "Kiran GEORGE"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5274:1572713",
+      "players": [
+        "Shashwat DALAL",
+        "Mark Shelley ALCALA"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5274:1572716",
+      "players": [
+        "Garret TAN",
+        "Arnaud MERKLE"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5274:1572724",
+      "players": [
+        "HOH Justin",
+        "Tushar SUVEER"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     }
@@ -116,7 +180,7 @@
     "unibet_fr": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-23T18:42:50+00:00",
+      "observed_at_utc": "2026-11-24T15:40:33+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -125,7 +189,7 @@
     "netbet_quotes": {
       "status": "NO_CONFIDENT_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-23T18:43:43+00:00",
+      "observed_at_utc": "2026-11-24T15:41:22+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 0,
@@ -139,7 +203,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-23T18:43:05+00:00",
+      "observed_at_utc": "2026-11-24T15:40:46+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -148,7 +212,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-23T18:43:19+00:00",
+      "observed_at_utc": "2026-11-24T15:41:02+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -157,7 +221,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-23T18:42:56+00:00",
+      "observed_at_utc": "2026-11-24T15:40:39+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -166,7 +230,7 @@
     "fdj_pos_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-23T18:42:57+00:00",
+      "observed_at_utc": "2026-11-24T15:40:40+00:00",
       "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -175,7 +239,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-23T18:43:06+00:00",
+      "observed_at_utc": "2026-11-24T15:40:47+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -184,7 +248,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-23T18:43:15+00:00",
+      "observed_at_utc": "2026-11-24T15:40:58+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -193,7 +257,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-23T18:43:21+00:00",
+      "observed_at_utc": "2026-11-24T15:41:04+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -202,7 +266,7 @@
     "oddspedia_badminton": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-23T18:43:20+00:00",
+      "observed_at_utc": "2026-11-24T15:41:03+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -211,7 +275,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-23T18:43:38+00:00",
+      "observed_at_utc": "2026-11-24T15:41:17+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
