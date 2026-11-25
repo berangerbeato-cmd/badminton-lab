@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_2_live_v1",
-  "generated_at_utc": "2026-11-24T18:12:02.395172+00:00",
+  "generated_at_utc": "2026-11-25T15:24:00.584592+00:00",
   "policy": "MODEL_ONLY_NO_BET_NO_T0_REWRITE",
   "model": "bwf_v3_2_score_rest_live",
   "selected_variant": "elo_plus_score_rest",
@@ -40,31 +40,35 @@
     }
   },
   "retrospective_2026_current_cache": {
-    "n": 1835,
-    "brier": 0.204586,
-    "log_loss": 0.594509,
-    "accuracy": 0.686104
+    "n": 1851,
+    "brier": 0.204913,
+    "log_loss": 0.595117,
+    "accuracy": 0.685035
   },
-  "upcoming_count": 16,
+  "upcoming_count": 8,
   "snapshot_policy": "Current player state uses completed results strictly before the current UTC date; same-day results are excluded.",
   "selection_policy": "Feature set and K were selected before this daily publication. 2026 outcomes never refit coefficients.",
   "trading_policy": "NO BET. Bookmaker prices and verified prematch timing are separate requirements handled downstream.",
   "data_quality": {
-    "not_MS": 53539,
+    "not_MS": 53571,
     "no_full_score": 292,
     "score_not_completed": 225,
-    "no_winner": 28,
+    "no_winner": 20,
     "missing_player_ids": 5,
     "archives_read": 416,
-    "clean_MS_matches": 14011
+    "clean_MS_matches": 14027
   },
   "scored_match_history_freshness": {
-    "latest_loaded_scored_match_day_utc": "2026-11-24",
+    "latest_loaded_scored_match_day_utc": "2026-11-25",
     "days_since_latest_scored_match": 0,
     "freshness_status": "RECENT",
     "last_7_days_count_including_today": 40,
-    "last_21_days_count_including_today": 199,
+    "last_21_days_count_including_today": 203,
     "daily_loaded_scored_match_counts": [
+      {
+        "day_utc": "2026-11-25",
+        "scored_ms_matches": 16
+      },
       {
         "day_utc": "2026-11-24",
         "scored_ms_matches": 11
@@ -132,62 +136,58 @@
       {
         "day_utc": "2026-11-04",
         "scored_ms_matches": 16
-      },
-      {
-        "day_utc": "2026-11-03",
-        "scored_ms_matches": 12
       }
     ],
     "last_loaded_examples": [
       {
-        "day_utc": "2026-11-24",
-        "match_id": "5274:1572739",
+        "day_utc": "2026-11-25",
+        "match_id": "5274:1572724",
         "tournament": "Syed Modi India International 2026",
         "players": [
-          "Siddhanth GUPTA",
-          "Koo TAKAHASHI"
+          "HOH Justin",
+          "Tushar SUVEER"
         ],
-        "winner": "Koo TAKAHASHI"
+        "winner": "Tushar SUVEER"
       },
       {
-        "day_utc": "2026-11-24",
-        "match_id": "5274:1572737",
+        "day_utc": "2026-11-25",
+        "match_id": "5274:1572716",
         "tournament": "Syed Modi India International 2026",
         "players": [
-          "Dhruv NEGI",
-          "Pranay SHETTIGAR"
+          "Garret TAN",
+          "Arnaud MERKLE"
         ],
-        "winner": "Pranay SHETTIGAR"
+        "winner": "Arnaud MERKLE"
       },
       {
-        "day_utc": "2026-11-24",
-        "match_id": "5274:1572732",
+        "day_utc": "2026-11-25",
+        "match_id": "5274:1572713",
         "tournament": "Syed Modi India International 2026",
         "players": [
-          "Lakshay SHARMA",
-          "Chico  Aura DWI WARDOYO"
-        ],
-        "winner": "Chico  Aura DWI WARDOYO"
-      },
-      {
-        "day_utc": "2026-11-24",
-        "match_id": "5274:1572718",
-        "tournament": "Syed Modi India International 2026",
-        "players": [
-          "Sanskar SARASWAT",
-          "Shashwat DALAL"
+          "Shashwat DALAL",
+          "Mark Shelley ALCALA"
         ],
         "winner": "Shashwat DALAL"
       },
       {
-        "day_utc": "2026-11-24",
-        "match_id": "5274:1572710",
+        "day_utc": "2026-11-25",
+        "match_id": "5274:1572712",
         "tournament": "Syed Modi India International 2026",
         "players": [
-          "Bharath LATHEESH",
-          "Shashwat DALAL"
+          "Richie Duta RICHARDO",
+          "Kiran GEORGE"
         ],
-        "winner": "Shashwat DALAL"
+        "winner": "Richie Duta RICHARDO"
+      },
+      {
+        "day_utc": "2026-11-25",
+        "match_id": "5274:1572698",
+        "tournament": "Syed Modi India International 2026",
+        "players": [
+          "Harry HUANG",
+          "Tharun MANNEPALLI"
+        ],
+        "winner": "Harry HUANG"
       }
     ],
     "date_note": "Match day is derived from the BWF archive start_time; it is not a separately verified score-publication timestamp. Same-UTC-day results remain excluded from the current V3.2 Elo snapshot."

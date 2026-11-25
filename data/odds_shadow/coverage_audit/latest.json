@@ -42,136 +42,72 @@
     "NO_CONFIDENT_QUOTES_EXTRACTED": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-11-24T18:13:34.791363+00:00",
+  "generated_at_utc": "2026-11-25T15:25:47.184196+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "NO_CONFIRMED_PREMATCH_QUOTES",
-  "model_fixture_count": 16,
+  "model_fixture_count": 8,
   "model_fixtures": [
     {
-      "match_id": "5274:1572580",
+      "match_id": "5274:1572587",
       "players": [
-        "Ginpaul SONNA",
-        "Rounak CHOUHAN"
+        "Koo TAKAHASHI",
+        "Harry HUANG"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5274:1572596",
+      "match_id": "5274:1572590",
       "players": [
         "Daniil DUBOVENKO",
-        "Magnus JOHANNESEN"
+        "Zhe Ying WU"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5274:1572608",
+      "match_id": "5274:1572591",
       "players": [
-        "Zhe Ying WU",
-        "PRANNOY H. S."
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5274:1572630",
-      "players": [
-        "Matthias KICKLITZ",
-        "Koo TAKAHASHI"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5274:1572646",
-      "players": [
-        "Sholeh AIDIL",
-        "Prahdiska Bagas SHUJIWO"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5274:1572647",
-      "players": [
-        "S.Sankar Muthusamy SUBRAMANIAN",
-        "LEE Zii Jia"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5274:1572659",
-      "players": [
-        "CHEAM June Wei",
-        "Chico  Aura DWI WARDOYO"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5274:1572661",
-      "players": [
-        "Jia Heng TEH",
-        "Enogat ROY"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5274:1572668",
-      "players": [
-        "Pranay SHETTIGAR",
-        "Saneeth DAYANAND"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5274:1572677",
-      "players": [
-        "Riku HATANO",
-        "Eogene EWE"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5274:1572681",
-      "players": [
-        "JEON Hyeok Jin",
-        "Dmitriy PANARIN"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5274:1572698",
-      "players": [
-        "Harry HUANG",
-        "Tharun MANNEPALLI"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5274:1572712",
-      "players": [
-        "Richie Duta RICHARDO",
-        "Kiran GEORGE"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5274:1572713",
-      "players": [
-        "Shashwat DALAL",
-        "Mark Shelley ALCALA"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5274:1572716",
-      "players": [
-        "Garret TAN",
+        "Ginpaul SONNA",
         "Arnaud MERKLE"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5274:1572724",
+      "match_id": "5274:1572592",
       "players": [
-        "HOH Justin",
-        "Tushar SUVEER"
+        "Pranay SHETTIGAR",
+        "LEE Zii Jia"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5274:1572600",
+      "players": [
+        "Jia Heng TEH",
+        "Prahdiska Bagas SHUJIWO"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5274:1572601",
+      "players": [
+        "Tushar SUVEER",
+        "Shashwat DALAL"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5274:1572602",
+      "players": [
+        "Richie Duta RICHARDO",
+        "Chico  Aura DWI WARDOYO"
+      ],
+      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
+    },
+    {
+      "match_id": "5274:1572603",
+      "players": [
+        "JEON Hyeok Jin",
+        "Eogene EWE"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     }
@@ -180,7 +116,7 @@
     "unibet_fr": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T18:12:43+00:00",
+      "observed_at_utc": "2026-11-25T15:24:54+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -189,7 +125,7 @@
     "netbet_quotes": {
       "status": "NO_CONFIDENT_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T18:13:29+00:00",
+      "observed_at_utc": "2026-11-25T15:25:41+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 0,
@@ -203,7 +139,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T18:12:54+00:00",
+      "observed_at_utc": "2026-11-25T15:25:05+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -212,7 +148,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T18:13:09+00:00",
+      "observed_at_utc": "2026-11-25T15:25:19+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -221,7 +157,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T18:12:48+00:00",
+      "observed_at_utc": "2026-11-25T15:24:59+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -230,7 +166,7 @@
     "fdj_pos_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T18:12:49+00:00",
+      "observed_at_utc": "2026-11-25T15:25:00+00:00",
       "parser_notes": "no unexpired face-à-face retail rows; audited 0 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -239,7 +175,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T18:12:56+00:00",
+      "observed_at_utc": "2026-11-25T15:25:06+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -248,7 +184,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T18:13:05+00:00",
+      "observed_at_utc": "2026-11-25T15:25:15+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -257,7 +193,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T18:13:12+00:00",
+      "observed_at_utc": "2026-11-25T15:25:22+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -266,7 +202,7 @@
     "oddspedia_badminton": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T18:13:11+00:00",
+      "observed_at_utc": "2026-11-25T15:25:21+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -275,7 +211,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-24T18:13:24+00:00",
+      "observed_at_utc": "2026-11-25T15:25:37+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
