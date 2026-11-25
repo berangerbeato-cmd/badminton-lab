@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-24T17:39:57+00:00",
+  "generated_at_utc": "2026-11-25T17:11:46+00:00",
   "policy": "SHADOW_ONLY_NO_BET",
   "total_rows": 17,
   "decisions": {
@@ -39,7 +39,7 @@
     "flashscore_badminton": {
       "rows": 1,
       "observed": 0,
-      "status": "PUBLIC_PAGE_REACHABLE_NO_MATCH_CANDIDATE"
+      "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED"
     },
     "netbet_fr": {
       "rows": 1,

@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-24T17:39:58+00:00",
+  "observed_at_utc": "2026-11-25T17:11:46+00:00",
   "source": "https://www.netbet.fr/badminton",
   "operator": "NetBet.fr",
   "status": "NO_PUBLIC_BADMINTON_EVENTS_LISTED",
@@ -9,7 +9,7 @@
   "http_status": 200,
   "resolved_url": "https://www.netbet.fr/badminton",
   "cache_age_seconds": null,
-  "body_sha256": "78d6a73839e0a922bb80e1e86cb0794e07bfdd7bc920331b1e38a11a2fd01d9a",
+  "body_sha256": "d180d9db5ba44015bd91416f57c7ce0669faf018fd41610f041ccf83d6e35553",
   "event_area_excerpt": "Aucun événement n'est actuellement disponible pour ce sport, cette catégorie ou cette compétition.\nVeuillez revenir à la page d'accueil pour consulter notre offre de paris.\npage d'accueil\n",
   "explicit_no_events": true,
   "public_badminton_links": [
