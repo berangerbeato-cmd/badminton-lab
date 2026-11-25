@@ -324,6 +324,12 @@
     "matches": 46
   },
   {
+    "player_id": "64956",
+    "name": "Mutiara Ayu PUSPITASARI",
+    "elo": 1729.182315566815,
+    "matches": 43
+  },
+  {
     "player_id": "73969",
     "name": "Ga Ram KIM",
     "elo": 1725.989103728435,
@@ -358,12 +364,6 @@
     "name": "Minatsu MITANI",
     "elo": 1719.1183123437133,
     "matches": 34
-  },
-  {
-    "player_id": "64956",
-    "name": "Mutiara Ayu PUSPITASARI",
-    "elo": 1717.0097539822175,
-    "matches": 42
   },
   {
     "player_id": "57971",
@@ -534,6 +534,12 @@
     "matches": 76
   },
   {
+    "player_id": "97446",
+    "name": "Yataweemin KETKLIENG",
+    "elo": 1651.5451978642607,
+    "matches": 22
+  },
+  {
     "player_id": "62928",
     "name": "Sarunrak VITIDSARN",
     "elo": 1651.0216280736445,
@@ -574,12 +580,6 @@
     "name": "Dorcas Ajoke ADESOKAN",
     "elo": 1636.3877284967436,
     "matches": 31
-  },
-  {
-    "player_id": "97446",
-    "name": "Yataweemin KETKLIENG",
-    "elo": 1633.107732597949,
-    "matches": 21
   },
   {
     "player_id": "79082",
@@ -930,6 +930,12 @@
     "matches": 7
   },
   {
+    "player_id": "88718",
+    "name": "Surya Charisma TAMIRI",
+    "elo": 1562.9536493805572,
+    "matches": 4
+  },
+  {
     "player_id": "70079",
     "name": "Eliana ZHANG",
     "elo": 1562.0763751041766,
@@ -1200,12 +1206,6 @@
     "matches": 3
   },
   {
-    "player_id": "85668",
-    "name": "WANG Pei Yu",
-    "elo": 1539.796007664074,
-    "matches": 29
-  },
-  {
     "player_id": "86993",
     "name": "Daniela ACOSTA",
     "elo": 1536.4331725649008,
@@ -1284,6 +1284,12 @@
     "matches": 18
   },
   {
+    "player_id": "93817",
+    "name": "Tanvi PATRI",
+    "elo": 1532.7356429797521,
+    "matches": 1
+  },
+  {
     "player_id": "91957",
     "name": "JIA Zhi Fan",
     "elo": 1532.4273753941877,
@@ -1341,12 +1347,6 @@
     "player_id": "78320",
     "name": "Sara Michele BARRIOS CHIONG",
     "elo": 1530.0760345066496,
-    "matches": 3
-  },
-  {
-    "player_id": "88718",
-    "name": "Surya Charisma TAMIRI",
-    "elo": 1530.0568771854812,
     "matches": 3
   },
   {
@@ -1830,12 +1830,6 @@
     "matches": 6
   },
   {
-    "player_id": "61746",
-    "name": "Doha HANY",
-    "elo": 1507.988549648613,
-    "matches": 53
-  },
-  {
     "player_id": "61151",
     "name": "Anwesha GOWDA",
     "elo": 1507.228457093813,
@@ -1846,6 +1840,12 @@
     "name": "Rosie YANG",
     "elo": 1507.0717692148569,
     "matches": 4
+  },
+  {
+    "player_id": "85668",
+    "name": "WANG Pei Yu",
+    "elo": 1506.899235468998,
+    "matches": 30
   },
   {
     "player_id": "39221",
@@ -3114,12 +3114,6 @@
     "matches": 45
   },
   {
-    "player_id": "99714",
-    "name": "Imad Farooqui SAMIYA",
-    "elo": 1475.9450679711904,
-    "matches": 28
-  },
-  {
     "player_id": "51649",
     "name": "YIP Pui Yin",
     "elo": 1475.7823697713118,
@@ -3142,6 +3136,12 @@
     "name": "Petra SAARNIVAARA",
     "elo": 1475.5398025919476,
     "matches": 6
+  },
+  {
+    "player_id": "61746",
+    "name": "Doha HANY",
+    "elo": 1475.2529066688608,
+    "matches": 54
   },
   {
     "player_id": "98126",
@@ -4794,12 +4794,6 @@
     "matches": 9
   },
   {
-    "player_id": "76273",
-    "name": "Rujula RAMU",
-    "elo": 1465.3386484604378,
-    "matches": 1
-  },
-  {
     "player_id": "85030",
     "name": "Kaitlyn EA",
     "elo": 1465.3296080417467,
@@ -5370,6 +5364,12 @@
     "matches": 1
   },
   {
+    "player_id": "99714",
+    "name": "Imad Farooqui SAMIYA",
+    "elo": 1457.5076027048788,
+    "matches": 29
+  },
+  {
     "player_id": "81498",
     "name": "TANEESHA SINGH",
     "elo": 1457.1361929292464,
@@ -5488,6 +5488,12 @@
     "name": "Anja BLAZINA",
     "elo": 1453.205729856155,
     "matches": 1
+  },
+  {
+    "player_id": "76273",
+    "name": "Rujula RAMU",
+    "elo": 1453.1660868758402,
+    "matches": 2
   },
   {
     "player_id": "87268",

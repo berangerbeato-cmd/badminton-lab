@@ -1,18 +1,18 @@
 {
-  "asof_exclusive": "2026-11-24",
+  "asof_exclusive": "2026-11-25",
   "archives": 416,
-  "raw_ws": 11844,
-  "valid_ws": 11386,
+  "raw_ws": 11852,
+  "valid_ws": 11390,
   "rejected": {
-    "abnormal_status": 357,
+    "abnormal_status": 360,
     "incomplete_score": 2,
     "missing_player_ids": 5,
-    "no_winner": 19,
+    "no_winner": 11,
     "invalid_game_score": 71,
-    "outside_asof_window": 4
+    "outside_asof_window": 13
   },
-  "players": 1231,
-  "tournaments": 331,
+  "players": 1232,
+  "tournaments": 332,
   "years": {
     "2018": 1568,
     "2019": 1538,
@@ -22,7 +22,7 @@
     "2023": 1602,
     "2024": 1622,
     "2025": 1627,
-    "2026": 1546
+    "2026": 1550
   },
   "months": {
     "2018-01": 123,
@@ -120,9 +120,9 @@
     "2026-08": 99,
     "2026-09": 147,
     "2026-10": 212,
-    "2026-11": 145
+    "2026-11": 149
   },
-  "latest_match": "2026-11-22",
+  "latest_match": "2026-11-24",
   "missing_indexed_elite": [
     {
       "id": 5410,
