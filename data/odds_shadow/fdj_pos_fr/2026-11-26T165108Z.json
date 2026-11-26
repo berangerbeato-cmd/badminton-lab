@@ -1,0 +1,94 @@
+{
+  "body_sha256": "88524888de5a3ee57ad9f6dd2de6508113b78564cad2cd775cc8eea710bd4517",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-11-26T16:51:30+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-11-26T16:51:20+00:00",
+  "operator": "Parions Sport Point de Vente (FDJ)",
+  "operator_kind": "RETAIL_NOT_ONLINE",
+  "parser_notes": "no unexpired face-à-face retail rows; audited 1 retail MS pages",
+  "public_badminton_event_links": [
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-df/63108",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-dh/63107",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-dm/63104",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-f/63105",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106"
+  ],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/fdj_pos_fr.png",
+  "quotes": [
+    {
+      "discipline": "MS",
+      "event_page_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+      "odds_1": 1.55,
+      "odds_2": 2.0,
+      "player_1_display": "RD.Richardo",
+      "player_2_display": "HJ.Jeon",
+      "retail_competition_display": "Syed Modi H",
+      "retail_event_display": "RD.Richardo-HJ.Jeon",
+      "valid_until_paris": "2026-11-27T07:45+01:00"
+    },
+    {
+      "discipline": "MS",
+      "event_page_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+      "odds_1": 1.62,
+      "odds_2": 1.9,
+      "player_1_display": "PB.Shujiwo",
+      "player_2_display": "T.Suveer",
+      "retail_competition_display": "Syed Modi H",
+      "retail_event_display": "PB.Shujiwo-T.Suveer",
+      "valid_until_paris": "2026-11-27T07:45+01:00"
+    },
+    {
+      "discipline": "MS",
+      "event_page_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+      "odds_1": 1.65,
+      "odds_2": 1.85,
+      "player_1_display": "K.Takahashi",
+      "player_2_display": "ZY.Wu",
+      "retail_competition_display": "Syed Modi H",
+      "retail_event_display": "K.Takahashi-ZY.Wu",
+      "valid_until_paris": "2026-11-27T08:05+01:00"
+    },
+    {
+      "discipline": "MS",
+      "event_page_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+      "odds_1": 1.72,
+      "odds_2": 1.78,
+      "player_1_display": "A.Merkle",
+      "player_2_display": "ZJ.Lee",
+      "retail_competition_display": "Syed Modi H",
+      "retail_event_display": "A.Merkle-ZJ.Lee",
+      "valid_until_paris": "2026-11-27T08:25+01:00"
+    }
+  ],
+  "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "retail_page_cached": true,
+  "retail_pages_audited": [
+    {
+      "cache_age_seconds": "264",
+      "http_status": 200,
+      "quotes": 4,
+      "status": "retail face-à-face rows",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106"
+    }
+  ],
+  "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Thu, 26 Nov 2026 16:51:21 GMT",
+  "source_key": "fdj_pos_fr",
+  "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nEuropa League\nEuropa Conf.\nL1 McDonald's\nPremier League\nLaLiga\nSerie A\nBundesliga 1\n+\nAfficher plus\nTennis\nToutes les compétitions\nCoupe Davis\nBasketball\nToutes les compétitions\nNBA\nEuro Qualif (H)\nCDM Q Amérique\nCDM Q Asie/Océ.\nCDM Q Europe\nEurocup (F)\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBiathlon\nBoxe\nFormule 1\nGolf\nMoto GP\nSki de Fond\nSnooker\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nLiens utiles :\nLoto Foot\nRésultats Loto Foot\nParions Sport résultat\nListe Parions Sport\nParions Sport match du jour\nMon Panier\nMes QR codes\nMes sélections\nVotre panier est vide\n\nSélectionner au moins un pronostic pour pouvoir parier\n\nCotes\nboostées\n\nSélectionner au moins une cote boostée\n\nLes cotes et les gains potentiels sont susceptibles d'évoluer jusqu'à votre paiement en point de vente. Seules les cotes et les gains potentiels figurant sur votre reçu de jeu font foi.\nConservez votre reçu de jeu émis par votre détaillant, car seul ce dernier vou",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}

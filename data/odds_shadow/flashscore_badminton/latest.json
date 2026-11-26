@@ -1,10 +1,10 @@
 {
   "audit_only_stale_content_allowed": true,
   "audit_warning": "Diagnostic only; no bookmaker prices are extracted or accepted.",
-  "body_sha256": "d6bbb7c952b78c5485bc5a89a00047b1449a07818e8a62d339de5fa4b69cc7d3",
+  "body_sha256": "7d61bac25032b005bb68628c25fc5e265eadf5ca9f2cdcbe958e515ec1cbadff",
   "bookmaker_price_updated_at": null,
-  "cache_age_seconds": "160",
-  "finished_at_utc": "2026-11-26T14:53:58+00:00",
+  "cache_age_seconds": "285",
+  "finished_at_utc": "2026-11-26T16:52:04+00:00",
   "flashscore_discovery": {
     "index_match_link_count": 44,
     "index_match_links": [
@@ -25,13 +25,13 @@
       "https://www.flashscore.fr/match/badminton/gunji-riko-0hByYp6q/santhosh-ramraj-rakshitha-sree-GU5yWVNR/?mid=rknQFpQb"
     ],
     "index_ms_context_visible": true,
-    "index_text_excerpt": "Syed Modi 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n26/11 JE\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nJeon H. J.\nEwe E.\n2\n0\n21\n5\n21\n14\nTerminé\nRichardo R. D.\nDwi Wardoyo Ch. A.\n2\n0\n21\n12\n21\n12\nTerminé\nDubovenko D.\nWu Z. Y.\n0\n2\n16\n21\n12\n21\nTerminé\nSuveer T.\nShashwat D.\n2\n0\n21\n14\n21\n12\nTerminé\nSonna G.\nMerkle A.\n1\n2\n5\n21\n21\n9\n5\n21\nTerminé\nTakahashi K.\nHuang H.\n2\n0\n21\n14\n21\n11\nTerminé\nTeh J. H. J.\nShujiwo P. B.\n1\n2\n21\n14\n15\n21\n17\n21\nTerminé\nShettigar P.\nLee Z. J.\n0\n2\n11\n21\n18\n21\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nJaiswal I.\nHooda U.\n0\n2\n14\n21\n18\n21\nTerminé\nKharb A.\nChaliha A.\n2\n0\n21\n16\n21\n15\nTerminé\nHemanth T.\nWong L. C.\n1\n2\n21\n16\n13\n21\n17\n21\nTerminé\nKatethong S.\nKetklieng Y.\n2\n0\n21\n16\n21\n12\nTerminé\nGilmour K.\nMir T.\n0\n2\n19\n21\n15\n21\nTerminé\nPratiwi N. K. D. A.\nBaruah I.\n2\n1\n21\n9\n9\n21\n21\n17\nTerminé\nGunji R.\nSanthosh Ramraj R. S.\n2\n0\n21\n13\n21\n19\nTerminé\nPuspitasari M. A.\nSharma T.\n1\n2\n21\n18\n18\n21\n18\n21\nFlashscore Actualités\nInterview Flashscore - Lou Martinet : \"La France et le Venezuela font tous les deux partie de moi\"\nInterview Flashscore - Hélène Lascombe : \"Il y a énormément de charge mentale car une famille et des gens se sacrifient\"\nInterview Flashscore - Lauryne Brankaer : \"Je comprends le trash talk mais ce n'est pas dans ma personnalité\"\nAller vers Actualités\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nCharoenkitamorn C.\nThongsa-Nga W.\nBegga N.\nDeschamp G.\n2\n1\n18\n21\n21\n15\n21\n13\nTerminé\nLau Yi Sheng\nLee Y. B.\nLai P. Y.\nTsai F. C.\n1\n2\n17\n21\n21\n16"
+    "index_text_excerpt": "Syed Modi 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n26/11 JE\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nJeon H. J.\nEwe E.\n2\n0\n21\n5\n21\n14\nTerminé\nRichardo R. D.\nDwi Wardoyo Ch. A.\n2\n0\n21\n12\n21\n12\nTerminé\nDubovenko D.\nWu Z. Y.\n0\n2\n16\n21\n12\n21\nTerminé\nSuveer T.\nShashwat D.\n2\n0\n21\n14\n21\n12\nTerminé\nSonna G.\nMerkle A.\n1\n2\n5\n21\n21\n9\n5\n21\nTerminé\nTakahashi K.\nHuang H.\n2\n0\n21\n14\n21\n11\nTerminé\nTeh J. H. J.\nShujiwo P. B.\n1\n2\n21\n14\n15\n21\n17\n21\nTerminé\nShettigar P.\nLee Z. J.\n0\n2\n11\n21\n18\n21\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nJaiswal I.\nHooda U.\n0\n2\n14\n21\n18\n21\nTerminé\nKharb A.\nChaliha A.\n2\n0\n21\n16\n21\n15\nTerminé\nHemanth T.\nWong L. C.\n1\n2\n21\n16\n13\n21\n17\n21\nTerminé\nKatethong S.\nKetklieng Y.\n2\n0\n21\n16\n21\n12\nTerminé\nGilmour K.\nMir T.\n0\n2\n19\n21\n15\n21\nTerminé\nPratiwi N. K. D. A.\nBaruah I.\n2\n1\n21\n9\n9\n21\n21\n17\nTerminé\nGunji R.\nSanthosh Ramraj R. S.\n2\n0\n21\n13\n21\n19\nTerminé\nPuspitasari M. A.\nSharma T.\n1\n2\n21\n18\n18\n21\n18\n21\nFlashscore Actualités\nIt's all Wright ! L'Américain remporte l'individuel, première course de la saison de biathlon\nInterview Flashscore - Lou Martinet : \"La France et le Venezuela font tous les deux partie de moi\"\nInterview Flashscore - Hélène Lascombe : \"Il y a énormément de charge mentale car une famille et des gens se sacrifient\"\nAller vers Actualités\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nCharoenkitamorn C.\nThongsa-Nga W.\nBegga N.\nDeschamp G.\n2\n1\n18\n21\n21\n15\n21\n13\nTerminé\nLau Yi Sheng\nLee Y. B.\nLai P. Y.\nTsai F. C.\n1\n2\n17\n21\n21\n16\n18\n21\nTerminé\nA"
   },
   "flashscore_match_audit": {
     "appears_doubles": false,
     "appears_mens_singles": false,
-    "body_characters": 5371,
-    "body_sha256": "808a7693e700cd7c6ac6d4cbe199704ff1ca6599d5fad933b174754121a3e4f1",
+    "body_characters": 3798,
+    "body_sha256": "1823faefa596f4e53fcd69bb8fc3d568400e9cb5c8288c0f66f1e982340e0c02",
     "candidate_from_index": true,
     "candidate_selection": "last_named_public_link_not_verified_upcoming",
     "comparison_block_reason": "ODDS_SECTION_PLACEHOLDERS",
@@ -65,7 +65,7 @@
   },
   "http_status": 200,
   "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
-  "observed_at_utc": "2026-11-26T14:53:47+00:00",
+  "observed_at_utc": "2026-11-26T16:51:53+00:00",
   "operator": "Flashscore (aggregator)",
   "operator_kind": "AGGREGATOR_AUDIT_ONLY",
   "public_badminton_event_links": [],
@@ -74,10 +74,10 @@
   "resolved_url": "https://www.flashscore.fr/badminton/",
   "robots_status": "ALLOWED_BY_ROBOTS",
   "screenshot_error": null,
-  "server_date": "Thu, 26 Nov 2026 14:53:47 GMT",
+  "server_date": "Thu, 26 Nov 2026 16:51:54 GMT",
   "source_key": "flashscore_badminton",
   "source_url": "https://www.flashscore.fr/badminton/",
   "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
-  "text_excerpt_for_debug": "Syed Modi 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n26/11 JE\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nJeon H. J.\nEwe E.\n2\n0\n21\n5\n21\n14\nTerminé\nRichardo R. D.\nDwi Wardoyo Ch. A.\n2\n0\n21\n12\n21\n12\nTerminé\nDubovenko D.\nWu Z. Y.\n0\n2\n16\n21\n12\n21\nTerminé\nSuveer T.\nShashwat D.\n2\n0\n21\n14\n21\n12\nTerminé\nSonna G.\nMerkle A.\n1\n2\n5\n21\n21\n9\n5\n21\nTerminé\nTakahashi K.\nHuang H.\n2\n0\n21\n14\n21\n11\nTerminé\nTeh J. H. J.\nShujiwo P. B.\n1\n2\n21\n14\n15\n21\n17\n21\nTerminé\nShettigar P.\nLee Z. J.\n0\n2\n11\n21\n18\n21\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nJaiswal I.\nHooda U.\n0\n2\n14\n21\n18\n21\nTerminé\nKharb A.\nChaliha A.\n2\n0\n21\n16\n21\n15\nTerminé\nHemanth T.\nWong L. C.\n1\n2\n21\n16\n13\n21\n17\n21\nTerminé\nKatethong S.\nKetklieng Y.\n2\n0\n21\n16\n21\n12\nTerminé\nGilmour K.\nMir T.\n0\n2\n19\n21\n15\n21\nTerminé\nPratiwi N. K. D. A.\nBaruah I.\n2\n1\n21\n9\n9\n21\n21\n17\nTerminé\nGunji R.\nSanthosh Ramraj R. S.\n2\n0\n21\n13\n21\n19\nTerminé\nPuspitasari M. A.\nSharma T.\n1\n2\n21\n18\n18\n21\n18\n21\nFlashscore Actualités\nInterview Flashscore - Lou Martinet : \"La France et le Venezuela font tous les deux partie de moi\"\nInterview Flashscore - Hélène Lascombe : \"Il y a énormément de charge mentale car une famille et des gens se sacrifient\"\nInterview Flashscore - Lauryne Brankaer : \"Je comprends le trash talk mais ce n'est pas dans ma personnalité\"\nAller vers Actualités\nSyed Modi International Championships (",
+  "text_excerpt_for_debug": "Syed Modi 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n26/11 JE\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nJeon H. J.\nEwe E.\n2\n0\n21\n5\n21\n14\nTerminé\nRichardo R. D.\nDwi Wardoyo Ch. A.\n2\n0\n21\n12\n21\n12\nTerminé\nDubovenko D.\nWu Z. Y.\n0\n2\n16\n21\n12\n21\nTerminé\nSuveer T.\nShashwat D.\n2\n0\n21\n14\n21\n12\nTerminé\nSonna G.\nMerkle A.\n1\n2\n5\n21\n21\n9\n5\n21\nTerminé\nTakahashi K.\nHuang H.\n2\n0\n21\n14\n21\n11\nTerminé\nTeh J. H. J.\nShujiwo P. B.\n1\n2\n21\n14\n15\n21\n17\n21\nTerminé\nShettigar P.\nLee Z. J.\n0\n2\n11\n21\n18\n21\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nJaiswal I.\nHooda U.\n0\n2\n14\n21\n18\n21\nTerminé\nKharb A.\nChaliha A.\n2\n0\n21\n16\n21\n15\nTerminé\nHemanth T.\nWong L. C.\n1\n2\n21\n16\n13\n21\n17\n21\nTerminé\nKatethong S.\nKetklieng Y.\n2\n0\n21\n16\n21\n12\nTerminé\nGilmour K.\nMir T.\n0\n2\n19\n21\n15\n21\nTerminé\nPratiwi N. K. D. A.\nBaruah I.\n2\n1\n21\n9\n9\n21\n21\n17\nTerminé\nGunji R.\nSanthosh Ramraj R. S.\n2\n0\n21\n13\n21\n19\nTerminé\nPuspitasari M. A.\nSharma T.\n1\n2\n21\n18\n18\n21\n18\n21\nFlashscore Actualités\nIt's all Wright ! L'Américain remporte l'individuel, première course de la saison de biathlon\nInterview Flashscore - Lou Martinet : \"La France et le Venezuela font tous les deux partie de moi\"\nInterview Flashscore - Hélène Lascombe : \"Il y a énormément de charge mentale car une famille et des gens se sacrifient\"\nAller vers Actualités\nSyed Modi International Championships (Inde)\nBWF WORLD ",
   "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
 }
