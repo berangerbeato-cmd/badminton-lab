@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-26T14:54:12+00:00",
-  "comparison_generated_at_utc": "2026-11-26T14:54:10+00:00",
+  "generated_at_utc": "2026-11-26T16:55:07+00:00",
+  "comparison_generated_at_utc": "2026-11-26T16:55:05+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "comparison_count": 3,
   "status_counts": {
@@ -46,9 +46,9 @@
       "bwf_match_id": "5274:1572598",
       "player_a": "Arnaud MERKLE",
       "player_b": "LEE Zii Jia",
-      "model_age_minutes": 1.6,
-      "ev_a_pct": -38.31,
-      "ev_b_pct": 11.88,
+      "model_age_minutes": 2.0,
+      "ev_a_pct": -34.91,
+      "ev_b_pct": 6.91,
       "quality_status": "BLOCKED_UNVERIFIED",
       "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED",
       "decision": "NO_BET"

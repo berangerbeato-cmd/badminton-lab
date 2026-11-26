@@ -44,7 +44,7 @@
     "missing_kickoff_count": 1,
     "missing_executable_price_count": 1
   },
-  "generated_at_utc": "2026-11-26T14:54:10+00:00",
+  "generated_at_utc": "2026-11-26T16:55:05+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 3,
   "rejected_sources": [],
@@ -53,7 +53,7 @@
       "status": "FRESH_EMPTY",
       "snapshot_file": "data/odds_shadow/unibet_fr/latest.json",
       "quotes_read": 0,
-      "collector_status": "NO_CONFIDENT_PREMATCH_QUOTES"
+      "collector_status": "REJECT_HTTP_CACHE_AGE"
     },
     "netbet_quotes": {
       "status": "FRESH_SNAPSHOT",
@@ -103,23 +103,23 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-11-26T14:54:04+00:00",
-      "model_asof_utc": "2026-11-26T14:52:30+00:00",
-      "model_age_seconds": 94,
+      "observed_at_utc": "2026-11-26T16:55:00+00:00",
+      "model_asof_utc": "2026-11-26T16:53:02+00:00",
+      "model_age_seconds": 118,
       "model_probability_a": 0.37844355,
       "bookmaker_player_order_reversed": false,
       "odds": [
-        1.63,
-        1.8
+        1.72,
+        1.72
       ],
-      "market_overround_pct": 16.91,
+      "market_overround_pct": 16.28,
       "market_implied_probability_raw": [
-        0.613497,
-        0.555556
+        0.581395,
+        0.581395
       ],
       "market_implied_probability_normalized": [
-        0.524781,
-        0.475219
+        0.5,
+        0.5
       ],
       "quote_listed_day_paris": "2026-11-27",
       "quote_day_basis": "PUBLISHED_CALENDAR_DATE",
@@ -129,8 +129,8 @@
       "observation_before_listed_calendar_day": true,
       "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
       "illustrative_ev_pct": [
-        -38.31,
-        11.88
+        -34.91,
+        6.91
       ],
       "flags": [
         "MARKET_DETAIL_UNVERIFIED",
