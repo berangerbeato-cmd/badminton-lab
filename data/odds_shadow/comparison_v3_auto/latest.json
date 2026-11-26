@@ -44,7 +44,7 @@
     "missing_kickoff_count": 1,
     "missing_executable_price_count": 1
   },
-  "generated_at_utc": "2026-11-26T16:55:05+00:00",
+  "generated_at_utc": "2026-11-26T17:17:04+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 3,
   "rejected_sources": [],
@@ -53,7 +53,7 @@
       "status": "FRESH_EMPTY",
       "snapshot_file": "data/odds_shadow/unibet_fr/latest.json",
       "quotes_read": 0,
-      "collector_status": "REJECT_HTTP_CACHE_AGE"
+      "collector_status": "NO_CONFIDENT_PREMATCH_QUOTES"
     },
     "netbet_quotes": {
       "status": "FRESH_SNAPSHOT",
@@ -103,9 +103,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-11-26T16:55:00+00:00",
-      "model_asof_utc": "2026-11-26T16:53:02+00:00",
-      "model_age_seconds": 118,
+      "observed_at_utc": "2026-11-26T17:16:58+00:00",
+      "model_asof_utc": "2026-11-26T17:15:10+00:00",
+      "model_age_seconds": 108,
       "model_probability_a": 0.37844355,
       "bookmaker_player_order_reversed": false,
       "odds": [

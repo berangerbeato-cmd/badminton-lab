@@ -2,8 +2,8 @@
   "next_actions": [
     {
       "source": "unibet_fr",
-      "priority": 3,
-      "action": "Record access limitation; do not bypass robots, authentication or geoblocks."
+      "priority": 2,
+      "action": "Inspect public page structure and discipline/date sections; do not interpret live prices as prematch."
     },
     {
       "source": "betclic_fr",
@@ -38,11 +38,12 @@
   ],
   "blocker_counts": {
     "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE": 5,
-    "HTTP_OR_REDIRECT_REJECTED": 2,
+    "HTTP_OR_REDIRECT_REJECTED": 1,
+    "NO_CONFIDENT_QUOTES_EXTRACTED": 1,
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-11-26T16:55:07.303794+00:00",
+  "generated_at_utc": "2026-11-26T17:17:06.135878+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 4,
@@ -82,18 +83,18 @@
   ],
   "source_audit": {
     "unibet_fr": {
-      "status": "REJECT_HTTP_CACHE_AGE",
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T16:53:55+00:00",
-      "parser_notes": null,
+      "observed_at_utc": "2026-11-26T17:15:57+00:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-26T18:15:55.158568+01:00",
       "index_market_audit": null,
       "reason_counts": null,
-      "blocker": "HTTP_OR_REDIRECT_REJECTED"
+      "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
     },
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
       "quote_count": 3,
-      "observed_at_utc": "2026-11-26T16:55:00+00:00",
+      "observed_at_utc": "2026-11-26T17:16:58+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 3,
@@ -130,7 +131,7 @@
               "Riko Gunji",
               "1.01",
               "Tasnim Mir",
-              "6.75"
+              "6.20"
             ],
             "market_line": 122,
             "preceding_lines": [
@@ -167,7 +168,7 @@
               "Riko Gunji",
               "1.01",
               "Tasnim Mir",
-              "6.75",
+              "6.20",
               "+ 15",
               "Syed Modi, Doubles Mixtes",
               "ven. 27 nov.",
@@ -179,10 +180,10 @@
           },
           {
             "following_lines": [
-              "Hidayatullah-Nastine",
-              "1.21",
-              "Hemming-Van Leeuwen",
-              "2.95"
+              "Katethong Supanida",
+              "1.15",
+              "Ling Ching Wong",
+              "3.45"
             ],
             "market_line": 144,
             "preceding_lines": [
@@ -195,32 +196,6 @@
               "Dunn-Macpherson",
               "3.70",
               "+ 15",
-              "Syed Modi, Doubles Mixtes",
-              "ven. 27 nov.",
-              "05:30",
-              "Hidayatullah-Nastine",
-              "Hemming-Van Leeuwen"
-            ],
-            "reason": "NON_MS_COMPETITION"
-          },
-          {
-            "following_lines": [
-              "Katethong Supanida",
-              "1.15",
-              "Ling Ching Wong",
-              "3.45"
-            ],
-            "market_line": 155,
-            "preceding_lines": [
-              "05:30",
-              "Hidayatullah-Nastine",
-              "Hemming-Van Leeuwen",
-              "Qui va gagner le match ?",
-              "Hidayatullah-Nastine",
-              "1.21",
-              "Hemming-Van Leeuwen",
-              "2.95",
-              "+ 2",
               "Syed Modi (F)",
               "ven. 27 nov.",
               "05:30",
@@ -236,7 +211,7 @@
               "Khoiriyansyah-Jamil",
               "1.68"
             ],
-            "market_line": 177,
+            "market_line": 166,
             "preceding_lines": [
               "05:30",
               "Takahashi Koo",
@@ -254,6 +229,32 @@
               "Khoiriyansyah-Jamil"
             ],
             "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Hidayatullah-Nastine",
+              "1.21",
+              "Hemming-Van Leeuwen",
+              "2.95"
+            ],
+            "market_line": 177,
+            "preceding_lines": [
+              "05:30",
+              "Wee-Gobi",
+              "Khoiriyansyah-Jamil",
+              "Qui va gagner le match ?",
+              "Wee-Gobi",
+              "1.75",
+              "Khoiriyansyah-Jamil",
+              "1.68",
+              "+ 2",
+              "Syed Modi, Doubles Mixtes",
+              "ven. 27 nov.",
+              "07:30",
+              "Hidayatullah-Nastine",
+              "Hemming-Van Leeuwen"
+            ],
+            "reason": "NON_MS_COMPETITION"
           }
         ],
         "rejections": {
@@ -268,7 +269,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T16:54:21+00:00",
+      "observed_at_utc": "2026-11-26T17:16:20+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -277,7 +278,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T16:54:36+00:00",
+      "observed_at_utc": "2026-11-26T17:16:34+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -286,16 +287,16 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T16:54:05+00:00",
+      "observed_at_utc": "2026-11-26T17:16:05+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE"
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
+      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quote_count": 4,
-      "observed_at_utc": "2026-11-26T16:54:06+00:00",
+      "observed_at_utc": "2026-11-26T17:16:06+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -304,7 +305,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T16:54:23+00:00",
+      "observed_at_utc": "2026-11-26T17:16:21+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -313,7 +314,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T16:54:32+00:00",
+      "observed_at_utc": "2026-11-26T17:16:30+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -322,7 +323,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T16:54:38+00:00",
+      "observed_at_utc": "2026-11-26T17:16:36+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -331,7 +332,7 @@
     "oddspedia_badminton": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T16:54:37+00:00",
+      "observed_at_utc": "2026-11-26T17:16:35+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -340,7 +341,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T16:54:54+00:00",
+      "observed_at_utc": "2026-11-26T17:16:53+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,

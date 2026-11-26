@@ -118,7 +118,7 @@
     "https://www.netbet.fr/badminton/international/syed-modi-f",
     "https://www.netbet.fr/badminton/international/syed-modi-doubles-mixtes"
   ],
-  "index_body_sha256": "dbb2607d368f1834590e87f5e62ad6998952981ed9c07a02d206bede82cb6074",
+  "index_body_sha256": "c9614fee174e1a90335cd5857a1cfa929b54c47b4d42ac0daf6221e0c27beb6a",
   "index_eligible_quotes": 3,
   "index_http_status": 200,
   "index_link_count": 120,
@@ -171,7 +171,7 @@
           "Riko Gunji",
           "1.01",
           "Tasnim Mir",
-          "6.75"
+          "6.20"
         ],
         "market_line": 122,
         "preceding_lines": [
@@ -208,7 +208,7 @@
           "Riko Gunji",
           "1.01",
           "Tasnim Mir",
-          "6.75",
+          "6.20",
           "+ 15",
           "Syed Modi, Doubles Mixtes",
           "ven. 27 nov.",
@@ -306,7 +306,7 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-11-26.csv",
   "model_snapshot_sha256": "5cd85812090d9f6f772a9e81a9330cb5a9da4d0ea09f48882c2020e9143241b7",
-  "observed_at_utc": "2026-11-26T17:08:57+00:00",
+  "observed_at_utc": "2026-11-26T17:16:58+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [],

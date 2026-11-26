@@ -1,0 +1,13 @@
+{
+  "bookmaker_price_updated_at": null,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-11-26T17:16:35+00:00",
+  "operator": "Oddspedia (aggregator)",
+  "operator_kind": "AGGREGATOR_AUDIT_ONLY",
+  "quotes": [],
+  "robots_status": "ROBOTS_HTTP_403",
+  "source_key": "oddspedia_badminton",
+  "source_url": "https://oddspedia.com/badminton/odds",
+  "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}

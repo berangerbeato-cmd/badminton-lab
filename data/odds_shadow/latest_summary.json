@@ -1,19 +1,19 @@
 {
-  "observed_at_utc": "2026-11-26T16:53:53+00:00",
+  "observed_at_utc": "2026-11-26T17:15:55+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 4,
   "sources": {
     "unibet_fr": {
-      "status": "REJECT_HTTP_CACHE_AGE",
+      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quotes": 0,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": null,
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-26T18:15:55.158568+01:00",
       "error": null,
-      "cache_age_seconds": "165",
-      "body_sha256": "513c26551494794b66e5c2f6b2aebc42c4480856b80f8c79b023cdbb2a426be8",
+      "cache_age_seconds": null,
+      "body_sha256": "20aed8fd0c44c1c6fdad4db85935e93d82c064e914f53f72f280dd4ad5a4b225",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -31,15 +31,15 @@
       "flashscore_match_audit": null
     },
     "fdj_pos_fr": {
-      "status": "OBSERVED_SHADOW_RETAIL_CACHED_NOT_CURRENT",
+      "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quotes": 4,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "error": null,
-      "cache_age_seconds": "166",
-      "body_sha256": "92a27b457d2287ccb33edb5fc8d0efefee6b19c829d72162ff3520edc9b4f968",
+      "cache_age_seconds": null,
+      "body_sha256": "c7b092d88a183aa373bd1262b7347da68a0c2947adc71936bd2fcaf89ab8a82b",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "8a48ff3f225d771b767ce383a308a7abf0316038a3297b61d144cd7d869703e7",
+      "body_sha256": "c9614fee174e1a90335cd5857a1cfa929b54c47b4d42ac0daf6221e0c27beb6a",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "fc0f3daf6adbcc9f906dcddb64efcd1e9658539f532f4dc1a9fcaac4c78b49e2",
+      "body_sha256": "8d2f94288c3487dc4a3e5bc808cce84d46daec60d5beba6dd6adddea5f853633",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "455e93f012c745fa2c31b1a22619333374afd0ccb938f983a33d78cdf5a4bd06",
+      "body_sha256": "c77b677472bd62dcfc50406ceeaf7ad0782512225fcbfe26fa59b2fb35bf8941",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "453",
-      "body_sha256": "6aa1f4a2c44b6982abb33fe67f99f164e67859918216ece90bc081b0f9039830",
+      "cache_age_seconds": "263",
+      "body_sha256": "7d61bac25032b005bb68628c25fc5e265eadf5ca9f2cdcbe958e515ec1cbadff",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/ewe-eogene-0ri2b110/jeon-hyeok-jin-2ilS4Dv7/?mid=AaCBav6K",
@@ -175,11 +175,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/gunji-riko-0hByYp6q/santhosh-ramraj-rakshitha-sree-GU5yWVNR/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "808a7693e700cd7c6ac6d4cbe199704ff1ca6599d5fad933b174754121a3e4f1",
+        "body_sha256": "1823faefa596f4e53fcd69bb8fc3d568400e9cb5c8288c0f66f1e982340e0c02",
         "screenshot_error": null,
         "text_excerpt_for_debug": "Riko Gunji - Rakshitha Sree Santhosh Ramraj (26/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - FEMMESSYED MODI INTERNATIONAL CHAMPIONSHIPS - 1/8 DE FINALE\nNouvelle fenêtre\n26.11.2026 10:25\nGunji R.\nBWF\n: 19.\n2\n-\n0\nTERMINÉ\nSanthosh Ramraj R. S.\nBWF\n: 39.\n2\n-\n0\nTERMINÉ\nMATCH\nTÀT\nTABLEAU\nRÉSUMÉ\nDÉROULEMENT DU MATCH\nSCORE\nGunji R.\n2\n21\n21\nSanthosh Ramraj R. S.\n0\n13\n19\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\nINFORMATIONS DE MATCH\nSTADE:\nBabu Banarasi Das Indoor Stadium\n (Lucknow)\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simples Dames\nVoir plus (3)\nTOURNOIS ACTUELS\nBWF WT Syed Modi International Championships Hommes\nBWF WT Syed Modi International Championships Femmes\nBWF WT Syed Modi International Championships Doubles Hommes\nBWF WT Syed Modi International Championships Doubles Femmes\nBWF WT Syed Modi International Championships Doubles Mixtes\nCATÉGORIES\nBWF - Hommes\nBWF - Femmes\nBWF - Doubles Hommes\nBWF - Doubles Femmes\nBWF - Doubles Mixtes\nAutres - Hommes\nBWF World Tour - Hommes\nAutres - Femmes\nBWF World Tour - Femmes\nSuperseries - Hommes\nSuperseries - Femmes\nSuperseries - Doubles Hommes\nSuperseries - Doubles Femmes\nSuperseries - Doubles Mixtes\nAutres - Doubles Hommes\nBWF World Tour - Doubles Hommes\nAutres - Doubles Femmes\nBWF World Tour - Doubles Femmes\nGrand Prix - Hommes\nGrand Prix - Femmes\nGrand Prix - Doubles Hommes\nGrand ",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 5371,
+        "body_characters": 3798,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -211,8 +211,8 @@
       "resolved_url": "https://www.oddsportal.com/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "169",
-      "body_sha256": "1696d81c71545229d796cc5d4cbbf3dd7428dadc8d174cb5fd987f590ccdb0f9",
+      "cache_age_seconds": "0",
+      "body_sha256": "7f0006560f88b7fc90c19344380a47dab00f45b120c284789acdb6a24b3015e7",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }

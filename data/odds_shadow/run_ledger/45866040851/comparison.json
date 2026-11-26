@@ -1,0 +1,146 @@
+{
+  "verification_summary": {
+    "unique_matched_fixture_count": 1,
+    "matched_fixture_ids": [
+      "5274:1572598"
+    ],
+    "unmatched_observation_count": 2,
+    "unmatched_observations": [
+      {
+        "source": "netbet_quotes",
+        "players": [
+          "Takahashi Koo",
+          "Zhe Ying Wu"
+        ],
+        "status": "FIXTURE_ABSENT_FROM_MODEL",
+        "listed_day_paris": "2026-11-27"
+      },
+      {
+        "source": "netbet_quotes",
+        "players": [
+          "Prahdiska Shujiwo",
+          "Suveer Tushar"
+        ],
+        "status": "FIXTURE_ABSENT_FROM_MODEL",
+        "listed_day_paris": "2026-11-27"
+      }
+    ],
+    "external_schedule_coverage_count": 0,
+    "kickoff_evidence_status_counts": {
+      "SOURCE_MISSING": 1
+    },
+    "prematch_timing_status_counts": {
+      "KICKOFF_DATE_ONLY": 1
+    },
+    "model_fixture_count": 4,
+    "public_quote_count": 3,
+    "comparison_count": 3,
+    "status_counts": {
+      "FIXTURE_ABSENT_FROM_MODEL": 2,
+      "UNVERIFIED_SHADOW_ONLY": 1
+    },
+    "verified_prematch_count": 0,
+    "validated_roi_pct": null,
+    "missing_kickoff_count": 1,
+    "missing_executable_price_count": 1
+  },
+  "generated_at_utc": "2026-11-26T17:17:04+00:00",
+  "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
+  "comparison_count": 3,
+  "rejected_sources": [],
+  "source_audit": {
+    "unibet_fr": {
+      "status": "FRESH_EMPTY",
+      "snapshot_file": "data/odds_shadow/unibet_fr/latest.json",
+      "quotes_read": 0,
+      "collector_status": "NO_CONFIDENT_PREMATCH_QUOTES"
+    },
+    "netbet_quotes": {
+      "status": "FRESH_SNAPSHOT",
+      "snapshot_file": "data/odds_shadow/netbet_quotes/latest.json",
+      "quotes_read": 3,
+      "collector_status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
+    }
+  },
+  "results": [
+    {
+      "source": "netbet_quotes",
+      "players": [
+        "Takahashi Koo",
+        "Zhe Ying Wu"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 4,
+      "listed_day_paris": "2026-11-27",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "players": [
+        "Prahdiska Shujiwo",
+        "Suveer Tushar"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 4,
+      "listed_day_paris": "2026-11-27",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5274:1572598",
+      "players": [
+        "Arnaud MERKLE",
+        "LEE Zii Jia"
+      ],
+      "prematch_timing_status": "KICKOFF_DATE_ONLY",
+      "kickoff_source_verified": false,
+      "external_schedule_status": "NO_EXTERNAL_SCHEDULE",
+      "external_scheduled_start_utc": null,
+      "external_schedule_source": null,
+      "external_schedule_source_url": null,
+      "kickoff_evidence_status": "SOURCE_MISSING",
+      "kickoff_source": null,
+      "kickoff_source_url": null,
+      "observed_at_utc": "2026-11-26T17:16:58+00:00",
+      "model_asof_utc": "2026-11-26T17:15:10+00:00",
+      "model_age_seconds": 108,
+      "model_probability_a": 0.37844355,
+      "bookmaker_player_order_reversed": false,
+      "odds": [
+        1.72,
+        1.72
+      ],
+      "market_overround_pct": 16.28,
+      "market_implied_probability_raw": [
+        0.581395,
+        0.581395
+      ],
+      "market_implied_probability_normalized": [
+        0.5,
+        0.5
+      ],
+      "quote_listed_day_paris": "2026-11-27",
+      "quote_day_basis": "PUBLISHED_CALENDAR_DATE",
+      "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
+      "bookmaker_price_updated_at_utc": null,
+      "actual_kickoff_at_utc": null,
+      "observation_before_listed_calendar_day": true,
+      "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
+      "illustrative_ev_pct": [
+        -34.91,
+        6.91
+      ],
+      "flags": [
+        "MARKET_DETAIL_UNVERIFIED",
+        "KICKOFF_UNVERIFIED",
+        "EXECUTABLE_PRICE_UNVERIFIED",
+        "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN",
+        "BWF_KICKOFF_DATE_ONLY"
+      ],
+      "status": "UNVERIFIED_SHADOW_ONLY",
+      "decision": "NO_BET"
+    }
+  ]
+}
