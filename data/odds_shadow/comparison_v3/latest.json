@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_2_shadow_compare_v1",
-  "generated_at_utc": "2026-11-26T17:09:38+00:00",
+  "generated_at_utc": "2026-11-26T17:21:27+00:00",
   "policy": "SHADOW_ONLY_NO_BET_NO_T0_NO_SHEETS_WRITE",
   "model": "bwf_v3_2_score_rest_live",
   "max_age_seconds": 2700,
@@ -17,7 +17,7 @@
       ]
     },
     "NetBet.fr": {
-      "observation_utc": "2026-11-26T17:08:57+00:00",
+      "observation_utc": "2026-11-26T17:16:58+00:00",
       "snapshot_status": "OK",
       "snapshot_path": "data/model_v3_2_live/snapshots/2026-11-26.csv",
       "snapshot_sha256": "7e25ef86c27bbaa420b56218be2ebeae096a032593d5cb4c72d70e6069d0e2ca",
@@ -43,8 +43,8 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-11-26T17:08:57+00:00",
-          "age_seconds": 42,
+          "observed_at_utc": "2026-11-26T17:16:58+00:00",
+          "age_seconds": 269,
           "current": true,
           "source_url": "https://www.netbet.fr/badminton",
           "quality_flags": [
@@ -98,8 +98,8 @@
       "executable_price_verified": false,
       "source_details": {
         "NetBet.fr": {
-          "observed_at_utc": "2026-11-26T17:08:57+00:00",
-          "age_seconds": 42,
+          "observed_at_utc": "2026-11-26T17:16:58+00:00",
+          "age_seconds": 269,
           "current": true,
           "source_url": "https://www.netbet.fr/badminton",
           "quality_flags": [
