@@ -118,7 +118,7 @@
     "https://www.netbet.fr/badminton/international/syed-modi-f",
     "https://www.netbet.fr/badminton/international/syed-modi-doubles-mixtes"
   ],
-  "index_body_sha256": "8a48ff3f225d771b767ce383a308a7abf0316038a3297b61d144cd7d869703e7",
+  "index_body_sha256": "dbb2607d368f1834590e87f5e62ad6998952981ed9c07a02d206bede82cb6074",
   "index_eligible_quotes": 3,
   "index_http_status": 200,
   "index_link_count": 120,
@@ -220,10 +220,10 @@
       },
       {
         "following_lines": [
-          "Hidayatullah-Nastine",
-          "1.21",
-          "Hemming-Van Leeuwen",
-          "2.95"
+          "Katethong Supanida",
+          "1.15",
+          "Ling Ching Wong",
+          "3.45"
         ],
         "market_line": 144,
         "preceding_lines": [
@@ -236,32 +236,6 @@
           "Dunn-Macpherson",
           "3.70",
           "+ 15",
-          "Syed Modi, Doubles Mixtes",
-          "ven. 27 nov.",
-          "05:30",
-          "Hidayatullah-Nastine",
-          "Hemming-Van Leeuwen"
-        ],
-        "reason": "NON_MS_COMPETITION"
-      },
-      {
-        "following_lines": [
-          "Katethong Supanida",
-          "1.15",
-          "Ling Ching Wong",
-          "3.45"
-        ],
-        "market_line": 155,
-        "preceding_lines": [
-          "05:30",
-          "Hidayatullah-Nastine",
-          "Hemming-Van Leeuwen",
-          "Qui va gagner le match ?",
-          "Hidayatullah-Nastine",
-          "1.21",
-          "Hemming-Van Leeuwen",
-          "2.95",
-          "+ 2",
           "Syed Modi (F)",
           "ven. 27 nov.",
           "05:30",
@@ -277,7 +251,7 @@
           "Khoiriyansyah-Jamil",
           "1.68"
         ],
-        "market_line": 177,
+        "market_line": 166,
         "preceding_lines": [
           "05:30",
           "Takahashi Koo",
@@ -295,6 +269,32 @@
           "Khoiriyansyah-Jamil"
         ],
         "reason": "NON_MS_COMPETITION"
+      },
+      {
+        "following_lines": [
+          "Hidayatullah-Nastine",
+          "1.21",
+          "Hemming-Van Leeuwen",
+          "2.95"
+        ],
+        "market_line": 177,
+        "preceding_lines": [
+          "05:30",
+          "Wee-Gobi",
+          "Khoiriyansyah-Jamil",
+          "Qui va gagner le match ?",
+          "Wee-Gobi",
+          "1.75",
+          "Khoiriyansyah-Jamil",
+          "1.68",
+          "+ 2",
+          "Syed Modi, Doubles Mixtes",
+          "ven. 27 nov.",
+          "07:30",
+          "Hidayatullah-Nastine",
+          "Hemming-Van Leeuwen"
+        ],
+        "reason": "NON_MS_COMPETITION"
       }
     ],
     "rejections": {
@@ -306,7 +306,7 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-11-26.csv",
   "model_snapshot_sha256": "5cd85812090d9f6f772a9e81a9330cb5a9da4d0ea09f48882c2020e9143241b7",
-  "observed_at_utc": "2026-11-26T16:55:00+00:00",
+  "observed_at_utc": "2026-11-26T17:08:57+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [],
