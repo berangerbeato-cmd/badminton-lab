@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-26T17:09:25+00:00",
+  "generated_at_utc": "2026-11-26T17:21:03+00:00",
   "match_count": 2,
   "matches": [
     {
@@ -46,10 +46,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 29,
+          "age_seconds": 246,
           "current": true,
           "model_snapshot_sha256": "5cd85812090d9f6f772a9e81a9330cb5a9da4d0ea09f48882c2020e9143241b7",
-          "observed_at_utc": "2026-11-26T17:08:57+00:00",
+          "observed_at_utc": "2026-11-26T17:16:58+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -106,10 +106,10 @@
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 29,
+          "age_seconds": 246,
           "current": true,
           "model_snapshot_sha256": "5cd85812090d9f6f772a9e81a9330cb5a9da4d0ea09f48882c2020e9143241b7",
-          "observed_at_utc": "2026-11-26T17:08:57+00:00",
+          "observed_at_utc": "2026-11-26T17:16:58+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -135,7 +135,7 @@
   "schema_version": "badminton_shadow_comparator_v2.1",
   "sources": {
     "NetBet.fr": {
-      "observation_utc": "2026-11-26T17:08:57+00:00",
+      "observation_utc": "2026-11-26T17:16:58+00:00",
       "operator": "NetBet.fr",
       "rejected": [],
       "rows_current": 2,
