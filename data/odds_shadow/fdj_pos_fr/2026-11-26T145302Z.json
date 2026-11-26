@@ -1,0 +1,97 @@
+{
+  "body_sha256": "59a44a2d31a8498dbb666c73c2b360a062d7ea68ca64f6971bd44c5476310081",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-11-26T14:53:22+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-11-26T14:53:11+00:00",
+  "operator": "Parions Sport Point de Vente (FDJ)",
+  "operator_kind": "RETAIL_NOT_ONLINE",
+  "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
+  "public_badminton_event_links": [
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-dm/63104",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-f/63105",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106/match_rdrichardo_hjjeon/1328308",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106/match_pbshujiwo_tsuveer/1328315",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-dm/63104/match_kusharjoktavi_dunnmacphers/1328318",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-f/63105/match_rgunji_tmir/1328309",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106/match_ktakahashi_zywu/1328314",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-f/63105/match_skatethong_lcwong/1328307",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106/match_amerkle_zjlee/1328310",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-f/63105/match_npratiwi_tsharma/1328311",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-f/63105/match_akharb_uhooda/1328312"
+  ],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/fdj_pos_fr.png",
+  "quotes": [
+    {
+      "discipline": "MS",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+      "odds_1": 1.55,
+      "odds_2": 2.0,
+      "player_1_display": "RD.Richardo",
+      "player_2_display": "HJ.Jeon",
+      "retail_competition_display": "Syed Modi H",
+      "retail_event_display": "RD.Richardo-HJ.Jeon",
+      "valid_until_paris": "2026-11-27T07:45+01:00"
+    },
+    {
+      "discipline": "MS",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+      "odds_1": 1.62,
+      "odds_2": 1.9,
+      "player_1_display": "PB.Shujiwo",
+      "player_2_display": "T.Suveer",
+      "retail_competition_display": "Syed Modi H",
+      "retail_event_display": "PB.Shujiwo-T.Suveer",
+      "valid_until_paris": "2026-11-27T07:45+01:00"
+    },
+    {
+      "discipline": "MS",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+      "odds_1": 1.65,
+      "odds_2": 1.85,
+      "player_1_display": "K.Takahashi",
+      "player_2_display": "ZY.Wu",
+      "retail_competition_display": "Syed Modi H",
+      "retail_event_display": "K.Takahashi-ZY.Wu",
+      "valid_until_paris": "2026-11-27T08:05+01:00"
+    },
+    {
+      "discipline": "MS",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+      "odds_1": 1.6,
+      "odds_2": 1.95,
+      "player_1_display": "A.Merkle",
+      "player_2_display": "ZJ.Lee",
+      "retail_competition_display": "Syed Modi H",
+      "retail_event_display": "A.Merkle-ZJ.Lee",
+      "valid_until_paris": "2026-11-27T08:25+01:00"
+    }
+  ],
+  "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "retail_page_cached": false,
+  "retail_pages_audited": [
+    {
+      "cache_age_seconds": null,
+      "http_status": 200,
+      "quotes": 4,
+      "status": "retail face-à-face rows",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106"
+    }
+  ],
+  "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Thu, 26 Nov 2026 14:53:13 GMT",
+  "source_key": "fdj_pos_fr",
+  "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nEuropa League\nEuropa Conf.\nL1 McDonald's\nPremier League\nLaLiga\nSerie A\nBundesliga 1\n+\nAfficher plus\nTennis\nToutes les compétitions\nCoupe Davis\nBasketball\nToutes les compétitions\nNBA\nEuro Qualif (H)\nCDM Q Amérique\nCDM Q Asie/Océ.\nCDM Q Europe\nEurocup (F)\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBiathlon\nBoxe\nFormule 1\nGolf\nMoto GP\nSnooker\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nvendredi 27 novembre\nRD.Richardo-HJ.Jeon\nSyed Modi H\n\nN°17873 Face à Face I Fin de valid. 27/11 07h45\n\nAfficher\nRD.Richardo\n1,55\nHJ.Jeon\n2,00\nPB.Shujiwo-T.Suveer\nSyed Modi H\n\nN°17870 Face à Face I Fin de valid. 27/11 07h45\n\nAfficher\nPB.Shujiwo\n1,62\nT.Suveer\n1,90\nKusharj/Oktavi-Dunn/Macphers\nSyed Modi DM\n\nN°17851 Face à Face I Fin de valid. 27/11 07h45\n\nAfficher\nKusharj/Oktavi\n1,15\nDunn/Macphers\n3,70\nR.Gunji-T.Mir\nSyed Modi F\n\nN°17854 Face à Face I Fin de valid. 27/11 08h05\n\nAfficher\nR.Gunji\n1,06\nT.Mir\n5,00\nK.Takaha",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
