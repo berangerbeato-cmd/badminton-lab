@@ -35,7 +35,7 @@
     "missing_kickoff_count": 1,
     "missing_executable_price_count": 1
   },
-  "generated_at_utc": "2026-11-27T14:52:49+00:00",
+  "generated_at_utc": "2026-11-27T16:40:13+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 2,
   "rejected_sources": [],
@@ -70,23 +70,23 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-11-27T14:52:41+00:00",
-      "model_asof_utc": "2026-11-27T14:51:14+00:00",
-      "model_age_seconds": 87,
+      "observed_at_utc": "2026-11-27T16:40:03+00:00",
+      "model_asof_utc": "2026-11-27T16:38:16+00:00",
+      "model_age_seconds": 107,
       "model_probability_a": 0.35028701,
       "bookmaker_player_order_reversed": false,
       "odds": [
-        2.07,
-        1.47
+        2.15,
+        1.43
       ],
-      "market_overround_pct": 16.34,
+      "market_overround_pct": 16.44,
       "market_implied_probability_raw": [
-        0.483092,
-        0.680272
+        0.465116,
+        0.699301
       ],
       "market_implied_probability_normalized": [
-        0.415254,
-        0.584746
+        0.399441,
+        0.600559
       ],
       "quote_listed_day_paris": "2026-11-28",
       "quote_day_basis": "PUBLISHED_CALENDAR_DATE",
@@ -96,8 +96,8 @@
       "observation_before_listed_calendar_day": true,
       "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
       "illustrative_ev_pct": [
-        -27.49,
-        -4.49
+        -24.69,
+        -7.09
       ],
       "flags": [
         "MARKET_DETAIL_UNVERIFIED",

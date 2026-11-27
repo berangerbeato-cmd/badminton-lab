@@ -43,7 +43,7 @@
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-11-27T14:52:50.684299+00:00",
+  "generated_at_utc": "2026-11-27T16:40:14.530009+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 2,
@@ -69,8 +69,8 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-27T14:51:42+00:00",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-27T15:51:41.746431+01:00",
+      "observed_at_utc": "2026-11-27T16:39:01+00:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-27T17:38:59.002529+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
@@ -78,7 +78,7 @@
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
       "quote_count": 2,
-      "observed_at_utc": "2026-11-27T14:52:41+00:00",
+      "observed_at_utc": "2026-11-27T16:40:03+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 2,
@@ -87,9 +87,9 @@
           {
             "following_lines": [
               "Oktavianti-Kusharjanto",
-              "1.97",
+              "1.91",
               "Hidayatullah-Nastine",
-              "1.53"
+              "1.55"
             ],
             "market_line": 113,
             "preceding_lines": [
@@ -113,9 +113,9 @@
           {
             "following_lines": [
               "Na-Wang",
-              "1.90",
+              "1.92",
               "Sukphun-Teeraratsakul",
-              "1.57"
+              "1.55"
             ],
             "market_line": 146,
             "preceding_lines": [
@@ -124,9 +124,9 @@
               "Richie Duta Richardo",
               "Qui va gagner le match ?",
               "Prahdiska Shujiwo",
-              "2.20",
+              "2.60",
               "Richie Duta Richardo",
-              "1.41",
+              "1.28",
               "+ 3",
               "Syed Modi, Doubles",
               "sam. 28 nov.",
@@ -139,9 +139,9 @@
           {
             "following_lines": [
               "Riko Gunji",
-              "1.67",
+              "1.68",
               "Katethong Supanida",
-              "1.77"
+              "1.75"
             ],
             "market_line": 157,
             "preceding_lines": [
@@ -150,10 +150,10 @@
               "Sukphun-Teeraratsakul",
               "Qui va gagner le match ?",
               "Na-Wang",
-              "1.90",
+              "1.92",
               "Sukphun-Teeraratsakul",
-              "1.57",
-              "+ 6",
+              "1.55",
+              "+ 15",
               "Syed Modi (F)",
               "sam. 28 nov.",
               "08:30",
@@ -176,9 +176,9 @@
               "Katethong Supanida",
               "Qui va gagner le match ?",
               "Riko Gunji",
-              "1.67",
+              "1.68",
               "Katethong Supanida",
-              "1.77",
+              "1.75",
               "+ 15",
               "Syed Modi, Doubles",
               "sam. 28 nov.",
@@ -191,9 +191,9 @@
           {
             "following_lines": [
               "Unnati Hooda",
-              "1.72",
+              "1.77",
               "Tanvi Sharma",
-              "1.72"
+              "1.67"
             ],
             "market_line": 179,
             "preceding_lines": [
@@ -228,10 +228,10 @@
               "Tanvi Sharma",
               "Qui va gagner le match ?",
               "Unnati Hooda",
-              "1.72",
+              "1.77",
               "Tanvi Sharma",
-              "1.72",
-              "+ 5",
+              "1.67",
+              "+ 15",
               "Syed Modi, Doubles (F)",
               "sam. 28 nov.",
               "09:50",
@@ -247,14 +247,14 @@
         }
       },
       "reason_counts": {
-        "MISSING_SAME_DAY_ELO_SNAPSHOT": 2
+        "NO_UNIQUE_BWF_FIXTURE": 1
       },
       "blocker": "QUOTE_OBSERVED_REQUIRES_VALIDATION"
     },
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-27T14:52:02+00:00",
+      "observed_at_utc": "2026-11-27T16:39:23+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -263,7 +263,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-27T14:52:18+00:00",
+      "observed_at_utc": "2026-11-27T16:39:39+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -272,7 +272,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-27T14:51:48+00:00",
+      "observed_at_utc": "2026-11-27T16:39:09+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -281,7 +281,7 @@
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quote_count": 2,
-      "observed_at_utc": "2026-11-27T14:51:50+00:00",
+      "observed_at_utc": "2026-11-27T16:39:11+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -290,7 +290,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-27T14:52:03+00:00",
+      "observed_at_utc": "2026-11-27T16:39:24+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -299,7 +299,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-27T14:52:13+00:00",
+      "observed_at_utc": "2026-11-27T16:39:35+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -308,7 +308,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-27T14:52:20+00:00",
+      "observed_at_utc": "2026-11-27T16:39:42+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -317,7 +317,7 @@
     "oddspedia_badminton": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-27T14:52:19+00:00",
+      "observed_at_utc": "2026-11-27T16:39:41+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -326,7 +326,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-27T14:52:37+00:00",
+      "observed_at_utc": "2026-11-27T16:39:58+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
