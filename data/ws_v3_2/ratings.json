@@ -114,6 +114,12 @@
     "matches": 144
   },
   {
+    "player_id": "76079",
+    "name": "Riko GUNJI",
+    "elo": 1999.06248916132,
+    "matches": 106
+  },
+  {
     "player_id": "69463",
     "name": "Pitchamon OPATNIPUTH",
     "elo": 1997.3385357745237,
@@ -124,12 +130,6 @@
     "name": "Putri Kusuma WARDANI",
     "elo": 1986.7312208295023,
     "matches": 199
-  },
-  {
-    "player_id": "76079",
-    "name": "Riko GUNJI",
-    "elo": 1983.6503894851703,
-    "matches": 105
   },
   {
     "player_id": "85302",
@@ -150,6 +150,12 @@
     "matches": 179
   },
   {
+    "player_id": "99042",
+    "name": "Tanvi SHARMA",
+    "elo": 1951.498378340351,
+    "matches": 74
+  },
+  {
     "player_id": "96725",
     "name": "LIN Hsiang Ti",
     "elo": 1937.926356194578,
@@ -162,28 +168,16 @@
     "matches": 118
   },
   {
-    "player_id": "99042",
-    "name": "Tanvi SHARMA",
-    "elo": 1935.932629922375,
-    "matches": 73
-  },
-  {
     "player_id": "60915",
     "name": "XU Wen Jing",
     "elo": 1909.8066983549584,
     "matches": 52
   },
   {
-    "player_id": "75628",
-    "name": "Ashmita CHALIHA",
-    "elo": 1901.0849559987366,
-    "matches": 99
-  },
-  {
     "player_id": "91422",
     "name": "Supanida KATETHONG",
-    "elo": 1891.3200474350858,
-    "matches": 240
+    "elo": 1904.1820027019796,
+    "matches": 241
   },
   {
     "player_id": "84523",
@@ -204,6 +198,18 @@
     "matches": 25
   },
   {
+    "player_id": "75628",
+    "name": "Ashmita CHALIHA",
+    "elo": 1861.341329516459,
+    "matches": 100
+  },
+  {
+    "player_id": "58664",
+    "name": "Anmol KHARB",
+    "elo": 1855.0519340775531,
+    "matches": 69
+  },
+  {
     "player_id": "75678",
     "name": "Thuy Linh NGUYEN",
     "elo": 1849.7600399319945,
@@ -214,6 +220,12 @@
     "name": "Natsuki NIDAIRA",
     "elo": 1831.6671460711466,
     "matches": 141
+  },
+  {
+    "player_id": "92444",
+    "name": "Ni Kadek Dhinda Amartya PRATIWI",
+    "elo": 1822.6011284208898,
+    "matches": 51
   },
   {
     "player_id": "92928",
@@ -228,12 +240,6 @@
     "matches": 265
   },
   {
-    "player_id": "58664",
-    "name": "Anmol KHARB",
-    "elo": 1815.3083075952754,
-    "matches": 68
-  },
-  {
     "player_id": "76594",
     "name": "SUNG Jihyun",
     "elo": 1813.8395797686646,
@@ -246,40 +252,22 @@
     "matches": 120
   },
   {
-    "player_id": "92444",
-    "name": "Ni Kadek Dhinda Amartya PRATIWI",
-    "elo": 1800.7346980187529,
-    "matches": 50
-  },
-  {
-    "player_id": "48528",
-    "name": "Kirsty GILMOUR",
-    "elo": 1796.2569177368828,
-    "matches": 236
-  },
-  {
     "player_id": "87112",
     "name": "Kaloyana NALBANTOVA",
     "elo": 1790.9106734933441,
     "matches": 65
   },
   {
-    "player_id": "91807",
-    "name": "Rakshitha Sree SANTHOSH RAMRAJ",
-    "elo": 1784.1838603753004,
-    "matches": 69
+    "player_id": "59687",
+    "name": "Unnati HOODA",
+    "elo": 1786.8129598191497,
+    "matches": 96
   },
   {
     "player_id": "83822",
     "name": "YEO Jia Min",
     "elo": 1780.374767950846,
     "matches": 218
-  },
-  {
-    "player_id": "59687",
-    "name": "Unnati HOODA",
-    "elo": 1776.9873961564356,
-    "matches": 95
   },
   {
     "player_id": "58271",
@@ -292,6 +280,12 @@
     "name": "Johanita SCHOLTZ",
     "elo": 1770.6732644235924,
     "matches": 38
+  },
+  {
+    "player_id": "91807",
+    "name": "Rakshitha Sree SANTHOSH RAMRAJ",
+    "elo": 1768.7717606991507,
+    "matches": 70
   },
   {
     "player_id": "53806",
@@ -312,16 +306,16 @@
     "matches": 23
   },
   {
+    "player_id": "48528",
+    "name": "Kirsty GILMOUR",
+    "elo": 1753.5672927700818,
+    "matches": 237
+  },
+  {
     "player_id": "62883",
     "name": "Shaunna LI",
     "elo": 1752.223700106799,
     "matches": 37
-  },
-  {
-    "player_id": "64956",
-    "name": "Mutiara Ayu PUSPITASARI",
-    "elo": 1738.7395953496869,
-    "matches": 44
   },
   {
     "player_id": "53807",
@@ -360,10 +354,22 @@
     "matches": 51
   },
   {
+    "player_id": "64956",
+    "name": "Mutiara Ayu PUSPITASARI",
+    "elo": 1723.1738469317108,
+    "matches": 45
+  },
+  {
     "player_id": "66644",
     "name": "Minatsu MITANI",
     "elo": 1719.1183123437133,
     "matches": 34
+  },
+  {
+    "player_id": "86604",
+    "name": "Tasnim MIR",
+    "elo": 1718.2540440119822,
+    "matches": 51
   },
   {
     "player_id": "57971",
@@ -426,12 +432,6 @@
     "matches": 129
   },
   {
-    "player_id": "76851",
-    "name": "Isharani BARUAH",
-    "elo": 1686.7945530702696,
-    "matches": 71
-  },
-  {
     "player_id": "79753",
     "name": "JI Shu Ting",
     "elo": 1684.0686196173774,
@@ -462,12 +462,6 @@
     "matches": 32
   },
   {
-    "player_id": "86604",
-    "name": "Tasnim MIR",
-    "elo": 1675.5644190451812,
-    "matches": 50
-  },
-  {
     "player_id": "42679",
     "name": "KATE FOO KUNE",
     "elo": 1671.9887444794422,
@@ -490,6 +484,12 @@
     "name": "Malvika BANSOD",
     "elo": 1665.3206826912792,
     "matches": 121
+  },
+  {
+    "player_id": "76851",
+    "name": "Isharani BARUAH",
+    "elo": 1664.9281226681326,
+    "matches": 72
   },
   {
     "player_id": "40794",
@@ -522,6 +522,12 @@
     "matches": 28
   },
   {
+    "player_id": "77296",
+    "name": "WONG Ling Ching",
+    "elo": 1654.2249127555049,
+    "matches": 80
+  },
+  {
     "player_id": "71280",
     "name": "Yuan Chi LIAO",
     "elo": 1652.7744405907254,
@@ -532,12 +538,6 @@
     "name": "Manami SUIZU",
     "elo": 1652.466519124671,
     "matches": 76
-  },
-  {
-    "player_id": "97446",
-    "name": "Yataweemin KETKLIENG",
-    "elo": 1651.5451978642607,
-    "matches": 22
   },
   {
     "player_id": "62928",
@@ -570,6 +570,12 @@
     "matches": 37
   },
   {
+    "player_id": "97446",
+    "name": "Yataweemin KETKLIENG",
+    "elo": 1638.6832425973669,
+    "matches": 23
+  },
+  {
     "player_id": "71455",
     "name": "Thi Trang (B) VU",
     "elo": 1638.2204956092426,
@@ -592,12 +598,6 @@
     "name": "Rachel CHAN",
     "elo": 1628.8590510471709,
     "matches": 56
-  },
-  {
-    "player_id": "77296",
-    "name": "WONG Ling Ching",
-    "elo": 1628.4726784846914,
-    "matches": 79
   },
   {
     "player_id": "96036",
@@ -960,12 +960,6 @@
     "matches": 12
   },
   {
-    "player_id": "66290",
-    "name": "TANYA HEMANTH",
-    "elo": 1559.7562160500179,
-    "matches": 80
-  },
-  {
     "player_id": "80024",
     "name": "Mau Ying YAU",
     "elo": 1559.5770759784707,
@@ -1276,6 +1270,12 @@
     "name": "Amy ZHANG",
     "elo": 1534.167913818062,
     "matches": 3
+  },
+  {
+    "player_id": "66290",
+    "name": "TANYA HEMANTH",
+    "elo": 1534.0039817792044,
+    "matches": 81
   },
   {
     "player_id": "93372",
@@ -2916,12 +2916,6 @@
     "matches": 13
   },
   {
-    "player_id": "88399",
-    "name": "Ishika JAISWAL",
-    "elo": 1480.4126251788816,
-    "matches": 50
-  },
-  {
     "player_id": "72280",
     "name": "Pornpicha CHOEIKEEWONG",
     "elo": 1480.1662149650354,
@@ -3382,6 +3376,12 @@
     "name": "Cristen Elizabeth MARRITT",
     "elo": 1470.6703919582533,
     "matches": 1
+  },
+  {
+    "player_id": "88399",
+    "name": "Ishika JAISWAL",
+    "elo": 1470.5870615161675,
+    "matches": 51
   },
   {
     "player_id": "53678",
