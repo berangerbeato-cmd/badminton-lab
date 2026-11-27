@@ -1,0 +1,73 @@
+{
+  "body_sha256": "8e5f7dc88ae6d73d4ebd67de142b02bd4dd7f0050d4e31a43b5f773ef7979481",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-11-27T16:36:44+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-11-27T16:36:32+00:00",
+  "operator": "Parions Sport Point de Vente (FDJ)",
+  "operator_kind": "RETAIL_NOT_ONLINE",
+  "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
+  "public_badminton_event_links": [
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-df/63108",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-dh/63107",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-f/63105",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106/match_zywu_amerkle/1328507",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106/match_pbshujiwo_rdrichardo/1328475",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-dh/63107/match_na-s-s-wang_sukphuteerara/1328517",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-f/63105/match_rgunji_skatethong/1328503",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-dh/63107/match_indrajoaquin_charoenthongs/1328504",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-f/63105/match_uhooda_tsharma/1328524",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-df/63108/match_harrisvan-lee_meidanastine/1328536",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-df/63108/match_jollypullela_buhrovakantem/1328531"
+  ],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/fdj_pos_fr.png",
+  "quotes": [
+    {
+      "discipline": "MS",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+      "odds_1": 2.15,
+      "odds_2": 1.48,
+      "player_1_display": "ZY.Wu",
+      "player_2_display": "A.Merkle",
+      "retail_competition_display": "Syed Modi H",
+      "retail_event_display": "ZY.Wu-A.Merkle",
+      "valid_until_paris": "2026-11-28T07:45+01:00"
+    },
+    {
+      "discipline": "MS",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+      "odds_1": 2.4,
+      "odds_2": 1.38,
+      "player_1_display": "PB.Shujiwo",
+      "player_2_display": "RD.Richardo",
+      "retail_competition_display": "Syed Modi H",
+      "retail_event_display": "PB.Shujiwo-RD.Richardo",
+      "valid_until_paris": "2026-11-28T07:55+01:00"
+    }
+  ],
+  "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "retail_page_cached": false,
+  "retail_pages_audited": [
+    {
+      "cache_age_seconds": null,
+      "http_status": 200,
+      "quotes": 2,
+      "status": "retail face-à-face rows",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106"
+    }
+  ],
+  "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Fri, 27 Nov 2026 16:36:35 GMT",
+  "source_key": "fdj_pos_fr",
+  "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nL1 McDonald's\nPremier League\nLaLiga\nSerie A\nBundesliga 1\nLigue 2 BKT\nChampionsLeague\n+\nAfficher plus\nTennis\nToutes les compétitions\nCoupe Davis\nBasketball\nToutes les compétitions\nNBA\nCDM Q Amérique\nCDM Q Europe\nSerie A2\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBoxe\nFormule 1\nGolf\nSnooker\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\nsamedi 28 novembre\nZY.Wu-A.Merkle\nSyed Modi H\n\nN°17467 Face à Face I Fin de valid. 28/11 07h45\n\nAfficher\nZY.Wu\n2,15\nA.Merkle\n1,48\n1%\n98%\nPB.Shujiwo-RD.Richardo\nSyed Modi H\n\nN°17468 Face à Face I Fin de valid. 28/11 07h55\n\nAfficher\nPB.Shujiwo\n2,40\nRD.Richardo\n1,38\n0%\n100%\nNA S S / Wang-Sukphu/Teerara\nSyed Modi DH\n\nN°17463 Face à Face I Fin de valid. 28/11 08h05\n\nAfficher\nNA S S / Wang\n1,95\nSukphu/Teerara\n1,60\n4%\n95%\nR.Gunji-S.Katethong\nSyed Modi F\n\nN°17465 Face à Face I Fin de valid. 28/11 08h25\n\nAfficher\nR.Gunji\n1,70\nS.Katethong\n1,80\n100%\n0%\nIndra/Joaquin-Charoen/T",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}
