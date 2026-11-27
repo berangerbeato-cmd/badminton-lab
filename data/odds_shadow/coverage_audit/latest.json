@@ -43,40 +43,24 @@
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-11-26T17:17:06.135878+00:00",
+  "generated_at_utc": "2026-11-27T14:52:50.684299+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
-  "model_fixture_count": 4,
+  "model_fixture_count": 2,
   "model_fixtures": [
     {
-      "match_id": "5274:1572564",
+      "match_id": "5274:1572562",
       "players": [
         "Prahdiska Bagas SHUJIWO",
-        "Tushar SUVEER"
+        "Richie Duta RICHARDO"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     },
     {
-      "match_id": "5274:1572593",
+      "match_id": "5274:1572563",
       "players": [
-        "Richie Duta RICHARDO",
-        "JEON Hyeok Jin"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5274:1572595",
-      "players": [
-        "Koo TAKAHASHI",
-        "Zhe Ying WU"
-      ],
-      "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
-    },
-    {
-      "match_id": "5274:1572598",
-      "players": [
-        "Arnaud MERKLE",
-        "LEE Zii Jia"
+        "Zhe Ying WU",
+        "Arnaud MERKLE"
       ],
       "start_status": "DATE_ONLY_START_UNVERIFIED_NO_BET"
     }
@@ -85,29 +69,29 @@
     "unibet_fr": {
       "status": "NO_CONFIDENT_PREMATCH_QUOTES",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T17:15:57+00:00",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-26T18:15:55.158568+01:00",
+      "observed_at_utc": "2026-11-27T14:51:42+00:00",
+      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-27T15:51:41.746431+01:00",
       "index_market_audit": null,
       "reason_counts": null,
       "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
     },
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
-      "quote_count": 3,
-      "observed_at_utc": "2026-11-26T17:16:58+00:00",
+      "quote_count": 2,
+      "observed_at_utc": "2026-11-27T14:52:41+00:00",
       "parser_notes": null,
       "index_market_audit": {
-        "eligible_listing_rows": 3,
+        "eligible_listing_rows": 2,
         "markets_seen": 9,
         "rejection_evidence": [
           {
             "following_lines": [
-              "Ni Kadek Dhinda Amartya Pratiwi",
-              "2.17",
-              "Tanvi Sharma",
-              "1.43"
+              "Oktavianti-Kusharjanto",
+              "1.97",
+              "Hidayatullah-Nastine",
+              "1.53"
             ],
-            "market_line": 111,
+            "market_line": 113,
             "preceding_lines": [
               "Scores en direct",
               "Format des cotes",
@@ -118,158 +102,159 @@
               "À L'AFFICHE",
               "TOUTE L'OFFRE BADMINTON",
               "À Venir",
+              "Syed Modi, Doubles Mixtes",
+              "sam. 28 nov.",
+              "07:40",
+              "Oktavianti-Kusharjanto",
+              "Hidayatullah-Nastine"
+            ],
+            "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Na-Wang",
+              "1.90",
+              "Sukphun-Teeraratsakul",
+              "1.57"
+            ],
+            "market_line": 146,
+            "preceding_lines": [
+              "08:00",
+              "Prahdiska Shujiwo",
+              "Richie Duta Richardo",
+              "Qui va gagner le match ?",
+              "Prahdiska Shujiwo",
+              "2.20",
+              "Richie Duta Richardo",
+              "1.41",
+              "+ 3",
+              "Syed Modi, Doubles",
+              "sam. 28 nov.",
+              "08:10",
+              "Na-Wang",
+              "Sukphun-Teeraratsakul"
+            ],
+            "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Riko Gunji",
+              "1.67",
+              "Katethong Supanida",
+              "1.77"
+            ],
+            "market_line": 157,
+            "preceding_lines": [
+              "08:10",
+              "Na-Wang",
+              "Sukphun-Teeraratsakul",
+              "Qui va gagner le match ?",
+              "Na-Wang",
+              "1.90",
+              "Sukphun-Teeraratsakul",
+              "1.57",
+              "+ 6",
               "Syed Modi (F)",
-              "ven. 27 nov.",
-              "00:00",
-              "Ni Kadek Dhinda Amartya Pratiwi",
+              "sam. 28 nov.",
+              "08:30",
+              "Riko Gunji",
+              "Katethong Supanida"
+            ],
+            "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Indra-Joaquin",
+              "1.02",
+              "Charoenkitamorn-Tongsan",
+              "5.60"
+            ],
+            "market_line": 168,
+            "preceding_lines": [
+              "08:30",
+              "Riko Gunji",
+              "Katethong Supanida",
+              "Qui va gagner le match ?",
+              "Riko Gunji",
+              "1.67",
+              "Katethong Supanida",
+              "1.77",
+              "+ 15",
+              "Syed Modi, Doubles",
+              "sam. 28 nov.",
+              "08:50",
+              "Indra-Joaquin",
+              "Charoenkitamorn-Tongsan"
+            ],
+            "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Unnati Hooda",
+              "1.72",
+              "Tanvi Sharma",
+              "1.72"
+            ],
+            "market_line": 179,
+            "preceding_lines": [
+              "08:50",
+              "Indra-Joaquin",
+              "Charoenkitamorn-Tongsan",
+              "Qui va gagner le match ?",
+              "Indra-Joaquin",
+              "1.02",
+              "Charoenkitamorn-Tongsan",
+              "5.60",
+              "+ 15",
+              "Syed Modi (F)",
+              "sam. 28 nov.",
+              "09:10",
+              "Unnati Hooda",
               "Tanvi Sharma"
             ],
             "reason": "NON_MS_COMPETITION"
           },
           {
             "following_lines": [
-              "Riko Gunji",
-              "1.01",
-              "Tasnim Mir",
-              "6.20"
+              "Pullela-Jolly",
+              "-",
+              "Buhrova-Kantemyr",
+              "11.00"
             ],
-            "market_line": 122,
+            "market_line": 190,
             "preceding_lines": [
-              "00:00",
-              "Ni Kadek Dhinda Amartya Pratiwi",
+              "09:10",
+              "Unnati Hooda",
               "Tanvi Sharma",
               "Qui va gagner le match ?",
-              "Ni Kadek Dhinda Amartya Pratiwi",
-              "2.17",
+              "Unnati Hooda",
+              "1.72",
               "Tanvi Sharma",
-              "1.43",
-              "+ 15",
-              "Syed Modi (F)",
-              "ven. 27 nov.",
-              "00:00",
-              "Riko Gunji",
-              "Tasnim Mir"
+              "1.72",
+              "+ 5",
+              "Syed Modi, Doubles (F)",
+              "sam. 28 nov.",
+              "09:50",
+              "Pullela-Jolly",
+              "Buhrova-Kantemyr"
             ],
-            "reason": "NON_MS_COMPETITION"
-          },
-          {
-            "following_lines": [
-              "Oktavianti-Kusharjanto",
-              "1.12",
-              "Dunn-Macpherson",
-              "3.70"
-            ],
-            "market_line": 133,
-            "preceding_lines": [
-              "00:00",
-              "Riko Gunji",
-              "Tasnim Mir",
-              "Qui va gagner le match ?",
-              "Riko Gunji",
-              "1.01",
-              "Tasnim Mir",
-              "6.20",
-              "+ 15",
-              "Syed Modi, Doubles Mixtes",
-              "ven. 27 nov.",
-              "05:00",
-              "Oktavianti-Kusharjanto",
-              "Dunn-Macpherson"
-            ],
-            "reason": "NON_MS_COMPETITION"
-          },
-          {
-            "following_lines": [
-              "Katethong Supanida",
-              "1.15",
-              "Ling Ching Wong",
-              "3.45"
-            ],
-            "market_line": 144,
-            "preceding_lines": [
-              "05:00",
-              "Oktavianti-Kusharjanto",
-              "Dunn-Macpherson",
-              "Qui va gagner le match ?",
-              "Oktavianti-Kusharjanto",
-              "1.12",
-              "Dunn-Macpherson",
-              "3.70",
-              "+ 15",
-              "Syed Modi (F)",
-              "ven. 27 nov.",
-              "05:30",
-              "Katethong Supanida",
-              "Ling Ching Wong"
-            ],
-            "reason": "NON_MS_COMPETITION"
-          },
-          {
-            "following_lines": [
-              "Wee-Gobi",
-              "1.75",
-              "Khoiriyansyah-Jamil",
-              "1.68"
-            ],
-            "market_line": 166,
-            "preceding_lines": [
-              "05:30",
-              "Takahashi Koo",
-              "Zhe Ying Wu",
-              "Qui va gagner le match ?",
-              "Takahashi Koo",
-              "1.60",
-              "Zhe Ying Wu",
-              "1.85",
-              "+ 17",
-              "Syed Modi, Doubles Mixtes",
-              "ven. 27 nov.",
-              "05:30",
-              "Wee-Gobi",
-              "Khoiriyansyah-Jamil"
-            ],
-            "reason": "NON_MS_COMPETITION"
-          },
-          {
-            "following_lines": [
-              "Hidayatullah-Nastine",
-              "1.21",
-              "Hemming-Van Leeuwen",
-              "2.95"
-            ],
-            "market_line": 177,
-            "preceding_lines": [
-              "05:30",
-              "Wee-Gobi",
-              "Khoiriyansyah-Jamil",
-              "Qui va gagner le match ?",
-              "Wee-Gobi",
-              "1.75",
-              "Khoiriyansyah-Jamil",
-              "1.68",
-              "+ 2",
-              "Syed Modi, Doubles Mixtes",
-              "ven. 27 nov.",
-              "07:30",
-              "Hidayatullah-Nastine",
-              "Hemming-Van Leeuwen"
-            ],
-            "reason": "NON_MS_COMPETITION"
+            "reason": "PRICE_NOT_CONFIRMED"
           }
         ],
         "rejections": {
-          "NON_MS_COMPETITION": 6
+          "NON_MS_COMPETITION": 6,
+          "PRICE_NOT_CONFIRMED": 1
         }
       },
       "reason_counts": {
-        "NO_UNIQUE_BWF_FIXTURE": 1
+        "MISSING_SAME_DAY_ELO_SNAPSHOT": 2
       },
       "blocker": "QUOTE_OBSERVED_REQUIRES_VALIDATION"
     },
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T17:16:20+00:00",
+      "observed_at_utc": "2026-11-27T14:52:02+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -278,7 +263,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T17:16:34+00:00",
+      "observed_at_utc": "2026-11-27T14:52:18+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -287,7 +272,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T17:16:05+00:00",
+      "observed_at_utc": "2026-11-27T14:51:48+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -295,8 +280,8 @@
     },
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
-      "quote_count": 4,
-      "observed_at_utc": "2026-11-26T17:16:06+00:00",
+      "quote_count": 2,
+      "observed_at_utc": "2026-11-27T14:51:50+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -305,7 +290,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T17:16:21+00:00",
+      "observed_at_utc": "2026-11-27T14:52:03+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -314,7 +299,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T17:16:30+00:00",
+      "observed_at_utc": "2026-11-27T14:52:13+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -323,7 +308,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T17:16:36+00:00",
+      "observed_at_utc": "2026-11-27T14:52:20+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -332,7 +317,7 @@
     "oddspedia_badminton": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T17:16:35+00:00",
+      "observed_at_utc": "2026-11-27T14:52:19+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -341,7 +326,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-26T17:16:53+00:00",
+      "observed_at_utc": "2026-11-27T14:52:37+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,

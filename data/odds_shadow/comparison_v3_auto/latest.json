@@ -2,27 +2,18 @@
   "verification_summary": {
     "unique_matched_fixture_count": 1,
     "matched_fixture_ids": [
-      "5274:1572598"
+      "5274:1572563"
     ],
-    "unmatched_observation_count": 2,
+    "unmatched_observation_count": 1,
     "unmatched_observations": [
       {
         "source": "netbet_quotes",
         "players": [
-          "Takahashi Koo",
-          "Zhe Ying Wu"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-27"
-      },
-      {
-        "source": "netbet_quotes",
-        "players": [
           "Prahdiska Shujiwo",
-          "Suveer Tushar"
+          "Richie Duta Richardo"
         ],
         "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-27"
+        "listed_day_paris": "2026-11-28"
       }
     ],
     "external_schedule_coverage_count": 0,
@@ -32,21 +23,21 @@
     "prematch_timing_status_counts": {
       "KICKOFF_DATE_ONLY": 1
     },
-    "model_fixture_count": 4,
-    "public_quote_count": 3,
-    "comparison_count": 3,
+    "model_fixture_count": 2,
+    "public_quote_count": 2,
+    "comparison_count": 2,
     "status_counts": {
-      "FIXTURE_ABSENT_FROM_MODEL": 2,
-      "UNVERIFIED_SHADOW_ONLY": 1
+      "UNVERIFIED_SHADOW_ONLY": 1,
+      "FIXTURE_ABSENT_FROM_MODEL": 1
     },
     "verified_prematch_count": 0,
     "validated_roi_pct": null,
     "missing_kickoff_count": 1,
     "missing_executable_price_count": 1
   },
-  "generated_at_utc": "2026-11-26T17:17:04+00:00",
+  "generated_at_utc": "2026-11-27T14:52:49+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
-  "comparison_count": 3,
+  "comparison_count": 2,
   "rejected_sources": [],
   "source_audit": {
     "unibet_fr": {
@@ -58,41 +49,17 @@
     "netbet_quotes": {
       "status": "FRESH_SNAPSHOT",
       "snapshot_file": "data/odds_shadow/netbet_quotes/latest.json",
-      "quotes_read": 3,
+      "quotes_read": 2,
       "collector_status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
     }
   },
   "results": [
     {
       "source": "netbet_quotes",
+      "bwf_match_id": "5274:1572563",
       "players": [
-        "Takahashi Koo",
-        "Zhe Ying Wu"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 4,
-      "listed_day_paris": "2026-11-27",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Prahdiska Shujiwo",
-        "Suveer Tushar"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 4,
-      "listed_day_paris": "2026-11-27",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "bwf_match_id": "5274:1572598",
-      "players": [
-        "Arnaud MERKLE",
-        "LEE Zii Jia"
+        "Zhe Ying WU",
+        "Arnaud MERKLE"
       ],
       "prematch_timing_status": "KICKOFF_DATE_ONLY",
       "kickoff_source_verified": false,
@@ -103,25 +70,25 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-11-26T17:16:58+00:00",
-      "model_asof_utc": "2026-11-26T17:15:10+00:00",
-      "model_age_seconds": 108,
-      "model_probability_a": 0.37844355,
+      "observed_at_utc": "2026-11-27T14:52:41+00:00",
+      "model_asof_utc": "2026-11-27T14:51:14+00:00",
+      "model_age_seconds": 87,
+      "model_probability_a": 0.35028701,
       "bookmaker_player_order_reversed": false,
       "odds": [
-        1.72,
-        1.72
+        2.07,
+        1.47
       ],
-      "market_overround_pct": 16.28,
+      "market_overround_pct": 16.34,
       "market_implied_probability_raw": [
-        0.581395,
-        0.581395
+        0.483092,
+        0.680272
       ],
       "market_implied_probability_normalized": [
-        0.5,
-        0.5
+        0.415254,
+        0.584746
       ],
-      "quote_listed_day_paris": "2026-11-27",
+      "quote_listed_day_paris": "2026-11-28",
       "quote_day_basis": "PUBLISHED_CALENDAR_DATE",
       "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
       "bookmaker_price_updated_at_utc": null,
@@ -129,8 +96,8 @@
       "observation_before_listed_calendar_day": true,
       "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
       "illustrative_ev_pct": [
-        -34.91,
-        6.91
+        -27.49,
+        -4.49
       ],
       "flags": [
         "MARKET_DETAIL_UNVERIFIED",
@@ -140,6 +107,18 @@
         "BWF_KICKOFF_DATE_ONLY"
       ],
       "status": "UNVERIFIED_SHADOW_ONLY",
+      "decision": "NO_BET"
+    },
+    {
+      "source": "netbet_quotes",
+      "players": [
+        "Prahdiska Shujiwo",
+        "Richie Duta Richardo"
+      ],
+      "status": "FIXTURE_ABSENT_FROM_MODEL",
+      "matches": 0,
+      "model_fixtures_on_listed_day": 2,
+      "listed_day_paris": "2026-11-28",
       "decision": "NO_BET"
     }
   ]
