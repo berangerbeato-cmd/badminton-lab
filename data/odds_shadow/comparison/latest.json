@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-27T16:52:08+00:00",
+  "generated_at_utc": "2026-11-27T16:59:46+00:00",
   "match_count": 1,
   "matches": [
     {
@@ -15,8 +15,8 @@
       "players": [
         {
           "best_historical_observation": {
-            "decimal_odds": 2.1,
-            "ev_pct": -12.01,
+            "decimal_odds": 2.12,
+            "ev_pct": -11.18,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -25,13 +25,13 @@
           "model_probability": 0.41898491,
           "name": "Zhe Ying WU",
           "observed_odds": {
-            "NetBet.fr": 2.1
+            "NetBet.fr": 2.12
           }
         },
         {
           "best_historical_observation": {
-            "decimal_odds": 1.45,
-            "ev_pct": -15.75,
+            "decimal_odds": 1.43,
+            "ev_pct": -16.91,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
@@ -40,16 +40,16 @@
           "model_probability": 0.58101509,
           "name": "Arnaud MERKLE",
           "observed_odds": {
-            "NetBet.fr": 1.45
+            "NetBet.fr": 1.43
           }
         }
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 27,
+          "age_seconds": 107,
           "current": true,
           "model_snapshot_sha256": "a53b26ee8cdbe12fa5424d4f7914b368937307d3a860c4e18bf3857d8e45e0dd",
-          "observed_at_utc": "2026-11-27T16:51:41+00:00",
+          "observed_at_utc": "2026-11-27T16:58:00+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -75,7 +75,7 @@
   "schema_version": "badminton_shadow_comparator_v2.1",
   "sources": {
     "NetBet.fr": {
-      "observation_utc": "2026-11-27T16:51:41+00:00",
+      "observation_utc": "2026-11-27T16:58:00+00:00",
       "operator": "NetBet.fr",
       "rejected": [],
       "rows_current": 1,
