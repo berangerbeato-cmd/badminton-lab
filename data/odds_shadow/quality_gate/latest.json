@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-27T16:40:14+00:00",
-  "comparison_generated_at_utc": "2026-11-27T16:40:13+00:00",
+  "generated_at_utc": "2026-11-27T16:58:10+00:00",
+  "comparison_generated_at_utc": "2026-11-27T16:58:09+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "comparison_count": 2,
   "status_counts": {
@@ -22,8 +22,8 @@
       "bwf_match_id": "5274:1572563",
       "player_a": "Zhe Ying WU",
       "player_b": "Arnaud MERKLE",
-      "model_age_minutes": 1.8,
-      "ev_a_pct": -24.69,
+      "model_age_minutes": 1.6,
+      "ev_a_pct": -25.74,
       "ev_b_pct": -7.09,
       "quality_status": "BLOCKED_UNVERIFIED",
       "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED",
