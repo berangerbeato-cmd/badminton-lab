@@ -1,6 +1,6 @@
 # Badminton V3.2 walk-forward summary
 
-Generated: 2026-11-26T15:04:59+00:00
+Generated: 2026-11-27T14:58:49+00:00
 
 | Variant | Brier 2022-25 | Δ Brier | Log loss | Better years |
 |---|---:|---:|---:|---:|
