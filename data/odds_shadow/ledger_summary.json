@@ -1,25 +1,25 @@
 {
-  "generated_at_utc": "2026-11-28T14:01:27+00:00",
+  "generated_at_utc": "2026-11-28T15:31:40+00:00",
   "policy": "SHADOW_ONLY_NO_BET",
-  "run_count": 177,
-  "observation_count": 536,
-  "distinct_observation_keys": 171,
+  "run_count": 178,
+  "observation_count": 537,
+  "distinct_observation_keys": 172,
   "repeated_observation_keys": 365,
-  "matched_unverified_observation_count": 151,
-  "no_bet_observation_count": 536,
+  "matched_unverified_observation_count": 152,
+  "no_bet_observation_count": 537,
   "distinct_observation_note": "Unique by source, BWF match, prices and observation time; not statistically independent matches.",
   "unique_bwf_matches": 39,
   "quality_flag_counts": {
-    "MARKET_DETAIL_UNVERIFIED": 151,
-    "KICKOFF_UNVERIFIED": 151,
-    "EXECUTABLE_PRICE_UNVERIFIED": 151,
-    "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN": 151,
-    "BWF_KICKOFF_DATE_ONLY": 151
+    "MARKET_DETAIL_UNVERIFIED": 152,
+    "KICKOFF_UNVERIFIED": 152,
+    "EXECUTABLE_PRICE_UNVERIFIED": 152,
+    "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN": 152,
+    "BWF_KICKOFF_DATE_ONLY": 152
   },
   "source_status_counts": {
     "unibet_fr:FRESH_SNAPSHOT": 18,
-    "netbet_quotes:FRESH_SNAPSHOT": 108,
-    "unibet_fr:FRESH_EMPTY": 159,
+    "netbet_quotes:FRESH_SNAPSHOT": 109,
+    "unibet_fr:FRESH_EMPTY": 160,
     "netbet_quotes:FRESH_EMPTY": 69
   },
   "roi": null,
@@ -731,6 +731,10 @@
     },
     {
       "run_id": "46152290701",
+      "comparison_count": 1
+    },
+    {
+      "run_id": "46160111316",
       "comparison_count": 1
     }
   ]

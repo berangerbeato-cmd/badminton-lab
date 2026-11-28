@@ -1,0 +1,57 @@
+{
+  "body_sha256": "6d54c74cbe7b912ad074794e1ae61cdd10fadcd05ec777d1dd381d6fe5f41128",
+  "bookmaker_price_updated_at": null,
+  "cache_age_seconds": null,
+  "finished_at_utc": "2026-11-28T15:30:50+00:00",
+  "http_status": 200,
+  "notes": "Timestamp of reading is NOT bookmaker's price update timestamp.",
+  "observed_at_utc": "2026-11-28T15:30:41+00:00",
+  "operator": "Parions Sport Point de Vente (FDJ)",
+  "operator_kind": "RETAIL_NOT_ONLINE",
+  "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
+  "public_badminton_event_links": [
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-df/63108",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-dh/63107",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-f/63105",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106/match_rdrichardo_amerkle/1328700",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-dh/63107/match_indrajoaquin_na-s-s-wang/1328713",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-df/63108/match_jollypullela_meidanastine/1328726",
+    "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-f/63105/match_skatethong_tsharma/1328714"
+  ],
+  "public_page_screenshot": "data/odds_shadow/visual_evidence/fdj_pos_fr.png",
+  "quotes": [
+    {
+      "discipline": "MS",
+      "market": "H2H_FULL_MATCH",
+      "market_verification": "RETAIL_NOT_EXECUTABLE_ONLINE_NEEDS_CONFIRMATION",
+      "odds_1": 2.05,
+      "odds_2": 1.52,
+      "player_1_display": "RD.Richardo",
+      "player_2_display": "A.Merkle",
+      "retail_competition_display": "Syed Modi H",
+      "retail_event_display": "RD.Richardo-A.Merkle",
+      "valid_until_paris": "2026-11-29T07:50+01:00"
+    }
+  ],
+  "resolved_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "retail_page_cached": false,
+  "retail_pages_audited": [
+    {
+      "cache_age_seconds": null,
+      "http_status": 200,
+      "quotes": 1,
+      "status": "retail face-à-face rows",
+      "url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton/syed-modi-h/63106"
+    }
+  ],
+  "retail_price_notice": "Point-of-sale only. Odds can change before purchase; receipt is authoritative.",
+  "robots_status": "ALLOWED_BY_ROBOTS",
+  "screenshot_error": null,
+  "server_date": "Sat, 28 Nov 2026 15:30:42 GMT",
+  "source_key": "fdj_pos_fr",
+  "source_url": "https://www.pointdevente.parionssport.fdj.fr/paris-ouverts/badminton",
+  "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
+  "text_excerpt_for_debug": "PARCE QU'UN PARIEUR DOIT SAVOIR QUAND QUITTER LE JEU.\nNOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13, APPEL NON SURTAXÉ)\n\nPARIS OUVERTS\nCOTES BOOSTÉES\nLOTO SPORTS\nRÉSULTATS\nBesoin d'aide ?\nPromos & Actus\nAide et contact\nParier en point de vente\nPaiement des gains\nPromotions et actus\nComprendre les paris\nRègles générales des paris\nJeu responsable\nTélécharger les listes\nFDJ\nRéducteur de grilles\nEn savoir +\nInstagram\nYouTube\nTikTok\nFacebook\nToute l’offre\nTop des paris\nFootball\nToutes les compétitions\nMultiButs\nL1 McDonald's\nLaLiga\nSerie A\nBundesliga 1\nPremier League\nLigue 2 BKT\nChampionsLeague\n+\nAfficher plus\nTennis\nToutes les compétitions\nCoupe Davis\nBasketball\nToutes les compétitions\nNBA\nLFB\nA1 Femmes\nSerie A2\nRugby\nHandball\nVolley-ball\nHockey s/g\nFoot américain\nBadminton\nBoxe\nGolf\nPadel\nSki Alpin\nSnooker\nParions Sport Point de Vente > Paris ouverts > Badminton\nBadminton\n\nTous les paris du jour\n\nListe des matchs et paris du jour et des jours à venir.\n\nFace à Face\nFace à Face - 1er Set\nScore exact\ndimanche 29 novembre\nRD.Richardo-A.Merkle\nSyed Modi H\n\nN°16683 Face à Face I Fin de valid. 29/11 07h50\n\nAfficher\nRD.Richardo\n2,05\nA.Merkle\n1,52\n59%\n40%\nIndra/Joaquin-NA S S / Wang\nSyed Modi DH\n\nN°16827 Face à Face I Fin de valid. 29/11 08h15\n\nAfficher\nIndra/Joaquin\n1,22\nNA S S / Wang\n3,10\n99%\n0%\nJolly/Pullela-Meida/Nastine\nSyed Modi DF\n\nN°18573 Face à Face I Fin de valid. 29/11 08h40\n\nAfficher\nJolly/Pullela\n1,35\nMeida/Nastine\n2,50\nS.Katethong-T.Sharma\nSyed Modi F\n\nN°18576 Face à Face I Fin de valid. 29/11 09h05\n\nAfficher\nS.Katethong\n1,65\nT.Sharma\n1,85\nLiens utiles :\nLoto F",
+  "validation": "SHADOW_ONLY_NO_BET_NO_SHEETS_WRITE"
+}

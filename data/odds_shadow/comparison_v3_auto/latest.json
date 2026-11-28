@@ -24,7 +24,7 @@
     "missing_kickoff_count": 1,
     "missing_executable_price_count": 1
   },
-  "generated_at_utc": "2026-11-28T14:01:26+00:00",
+  "generated_at_utc": "2026-11-28T15:31:39+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
   "comparison_count": 1,
   "rejected_sources": [],
@@ -59,9 +59,9 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-11-28T14:01:20+00:00",
-      "model_asof_utc": "2026-11-28T13:59:32+00:00",
-      "model_age_seconds": 108,
+      "observed_at_utc": "2026-11-28T15:31:31+00:00",
+      "model_asof_utc": "2026-11-28T15:29:50+00:00",
+      "model_age_seconds": 101,
       "model_probability_a": 0.70118079,
       "bookmaker_player_order_reversed": false,
       "odds": [
