@@ -1,55 +1,55 @@
 {
-  "generated_at_utc": "2026-11-27T16:59:46+00:00",
+  "generated_at_utc": "2026-11-28T15:43:19+00:00",
   "match_count": 1,
   "matches": [
     {
-      "bwf_match_id": "5274:1572563",
+      "bwf_match_id": "5274:1572572",
       "comparison_status": "ONE_BOOKMAKER_ONLY",
       "decision": "NO_BET_SHADOW",
       "executable_price_verified": false,
       "kickoff_verified": false,
       "model": "bwf_elo_ms_platt_v1",
-      "model_asof_utc": "2026-11-27T14:57:43+00:00",
-      "model_snapshot_sha256": "a53b26ee8cdbe12fa5424d4f7914b368937307d3a860c4e18bf3857d8e45e0dd",
+      "model_asof_utc": "2026-11-28T14:07:09+00:00",
+      "model_snapshot_sha256": "75680550c6694743e543a45194f604155921c0ec8260dff7d7a709b1e05666e7",
       "observation_gap_seconds": null,
       "players": [
         {
           "best_historical_observation": {
-            "decimal_odds": 2.12,
-            "ev_pct": -11.18,
+            "decimal_odds": 2.02,
+            "ev_pct": 34.48,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
           "best_within_window": null,
-          "bwf_player_id": "87450",
-          "model_probability": 0.41898491,
-          "name": "Zhe Ying WU",
+          "bwf_player_id": "89808",
+          "model_probability": 0.66576626,
+          "name": "Richie Duta RICHARDO",
           "observed_odds": {
-            "NetBet.fr": 2.12
+            "NetBet.fr": 2.02
           }
         },
         {
           "best_historical_observation": {
-            "decimal_odds": 1.43,
-            "ev_pct": -16.91,
+            "decimal_odds": 1.48,
+            "ev_pct": -50.53,
             "operator": "NetBet.fr",
             "qualifier": "HISTORICAL_OBSERVED_NOT_PROVEN_SIMULTANEOUS"
           },
           "best_within_window": null,
           "bwf_player_id": "59543",
-          "model_probability": 0.58101509,
+          "model_probability": 0.33423374,
           "name": "Arnaud MERKLE",
           "observed_odds": {
-            "NetBet.fr": 1.43
+            "NetBet.fr": 1.48
           }
         }
       ],
       "source_details": {
         "NetBet.fr": {
-          "age_seconds": 107,
+          "age_seconds": 27,
           "current": true,
-          "model_snapshot_sha256": "a53b26ee8cdbe12fa5424d4f7914b368937307d3a860c4e18bf3857d8e45e0dd",
-          "observed_at_utc": "2026-11-27T16:58:00+00:00",
+          "model_snapshot_sha256": "75680550c6694743e543a45194f604155921c0ec8260dff7d7a709b1e05666e7",
+          "observed_at_utc": "2026-11-28T15:42:53+00:00",
           "quality_flags": [
             "BOOKMAKER_UPDATE_TIME_UNKNOWN",
             "EVENT_KICKOFF_UNVERIFIED",
@@ -75,7 +75,7 @@
   "schema_version": "badminton_shadow_comparator_v2.1",
   "sources": {
     "NetBet.fr": {
-      "observation_utc": "2026-11-27T16:58:00+00:00",
+      "observation_utc": "2026-11-28T15:42:53+00:00",
       "operator": "NetBet.fr",
       "rejected": [],
       "rows_current": 1,
