@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-27T14:58:49+00:00",
+  "generated_at_utc": "2026-11-28T14:08:25+00:00",
   "selected_variant": "elo_plus_score_rest",
   "walkforward_2022_2025": {
     "variant": "elo_plus_score_rest",
@@ -133,7 +133,7 @@
   "replay_2026": {
     "variant": "elo_plus_score_rest",
     "status": "RETROSPECTIVE_ONLY_NOT_ARCHIVED_LIVE_T0",
-    "n": 1862,
+    "n": 1864,
     "player_a_probability_bins": [
       {
         "range_low": 0.0,
@@ -154,18 +154,18 @@
       {
         "range_low": 0.2,
         "range_high": 0.3,
-        "n": 173,
-        "mean_predicted": 0.25225,
-        "observed_frequency": 0.242775,
-        "calibration_gap": -0.009476
+        "n": 174,
+        "mean_predicted": 0.252121,
+        "observed_frequency": 0.241379,
+        "calibration_gap": -0.010742
       },
       {
         "range_low": 0.3,
         "range_high": 0.4,
-        "n": 235,
-        "mean_predicted": 0.350833,
-        "observed_frequency": 0.340426,
-        "calibration_gap": -0.010408
+        "n": 236,
+        "mean_predicted": 0.350987,
+        "observed_frequency": 0.338983,
+        "calibration_gap": -0.012004
       },
       {
         "range_low": 0.4,
@@ -228,18 +228,18 @@
       {
         "range_low": 0.6,
         "range_high": 0.7,
-        "n": 499,
-        "mean_predicted": 0.650356,
-        "observed_frequency": 0.623246,
-        "calibration_gap": -0.027109
+        "n": 500,
+        "mean_predicted": 0.650281,
+        "observed_frequency": 0.624,
+        "calibration_gap": -0.026281
       },
       {
         "range_low": 0.7,
         "range_high": 0.8,
-        "n": 394,
-        "mean_predicted": 0.749595,
-        "observed_frequency": 0.758883,
-        "calibration_gap": 0.009288
+        "n": 395,
+        "mean_predicted": 0.749647,
+        "observed_frequency": 0.759494,
+        "calibration_gap": 0.009846
       },
       {
         "range_low": 0.8,

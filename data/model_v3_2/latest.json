@@ -1,6 +1,6 @@
 {
   "schema_version": "badminton_v3_2_walkforward_v1",
-  "generated_at_utc": "2026-11-27T14:58:49+00:00",
+  "generated_at_utc": "2026-11-28T14:08:25+00:00",
   "policy": "MODEL_RESEARCH_ONLY_NO_ODDS_NO_BET_NO_T0_REWRITE",
   "model": "bwf_v3_2_walkforward",
   "fit_start_year": 2019,
@@ -72,10 +72,10 @@
         }
       },
       "replay_2026": {
-        "n": 1862,
-        "brier": 0.208537,
-        "log_loss": 0.60388,
-        "accuracy": 0.678303
+        "n": 1864,
+        "brier": 0.208462,
+        "log_loss": 0.603722,
+        "accuracy": 0.678648
       }
     },
     "elo_plus_score": {
@@ -149,10 +149,10 @@
         }
       },
       "replay_2026": {
-        "n": 1862,
-        "brier": 0.204745,
-        "log_loss": 0.594807,
-        "accuracy": 0.680988
+        "n": 1864,
+        "brier": 0.204633,
+        "log_loss": 0.594569,
+        "accuracy": 0.68133
       }
     },
     "elo_plus_score_rest": {
@@ -236,10 +236,10 @@
         }
       },
       "replay_2026": {
-        "n": 1862,
-        "brier": 0.204841,
-        "log_loss": 0.594947,
-        "accuracy": 0.684748
+        "n": 1864,
+        "brier": 0.20473,
+        "log_loss": 0.594711,
+        "accuracy": 0.685086
       }
     },
     "elo_plus_score_h2h": {
@@ -318,10 +318,10 @@
         }
       },
       "replay_2026": {
-        "n": 1862,
-        "brier": 0.20533,
-        "log_loss": 0.596151,
-        "accuracy": 0.679914
+        "n": 1864,
+        "brier": 0.205212,
+        "log_loss": 0.595896,
+        "accuracy": 0.680258
       }
     },
     "elo_plus_score_rest_h2h": {
@@ -410,10 +410,10 @@
         }
       },
       "replay_2026": {
-        "n": 1862,
-        "brier": 0.205467,
-        "log_loss": 0.596351,
-        "accuracy": 0.683136
+        "n": 1864,
+        "brier": 0.205349,
+        "log_loss": 0.596097,
+        "accuracy": 0.683476
       }
     },
     "elo_v3_1_all": {
@@ -532,10 +532,10 @@
         }
       },
       "replay_2026": {
-        "n": 1862,
-        "brier": 0.204986,
-        "log_loss": 0.595182,
-        "accuracy": 0.685822
+        "n": 1864,
+        "brier": 0.204873,
+        "log_loss": 0.594946,
+        "accuracy": 0.686159
       }
     }
   },
@@ -614,13 +614,13 @@
     }
   },
   "source_quality": {
-    "not_MS": 53595,
+    "not_MS": 53599,
     "no_full_score": 292,
     "score_not_completed": 226,
-    "no_winner": 14,
+    "no_winner": 13,
     "missing_player_ids": 5,
     "archives_read": 416,
-    "clean_MS_matches": 14038
+    "clean_MS_matches": 14040
   },
   "methodology": [
     "All pre-match features use only results strictly before the UTC match date.",
@@ -776,13 +776,13 @@
       2025
     ],
     "train_n": 10178,
-    "test_n": 1862,
+    "test_n": 1864,
     "status": "RETROSPECTIVE_ONLY_NOT_ARCHIVED_LIVE_T0"
   },
   "selected_variant_calibration_2026_replay": {
     "variant": "elo_plus_score_rest",
     "status": "RETROSPECTIVE_ONLY_NOT_ARCHIVED_LIVE_T0",
-    "n": 1862,
+    "n": 1864,
     "player_a_probability_bins": [
       {
         "range_low": 0.0,
@@ -803,18 +803,18 @@
       {
         "range_low": 0.2,
         "range_high": 0.3,
-        "n": 173,
-        "mean_predicted": 0.25225,
-        "observed_frequency": 0.242775,
-        "calibration_gap": -0.009476
+        "n": 174,
+        "mean_predicted": 0.252121,
+        "observed_frequency": 0.241379,
+        "calibration_gap": -0.010742
       },
       {
         "range_low": 0.3,
         "range_high": 0.4,
-        "n": 235,
-        "mean_predicted": 0.350833,
-        "observed_frequency": 0.340426,
-        "calibration_gap": -0.010408
+        "n": 236,
+        "mean_predicted": 0.350987,
+        "observed_frequency": 0.338983,
+        "calibration_gap": -0.012004
       },
       {
         "range_low": 0.4,
@@ -877,18 +877,18 @@
       {
         "range_low": 0.6,
         "range_high": 0.7,
-        "n": 499,
-        "mean_predicted": 0.650356,
-        "observed_frequency": 0.623246,
-        "calibration_gap": -0.027109
+        "n": 500,
+        "mean_predicted": 0.650281,
+        "observed_frequency": 0.624,
+        "calibration_gap": -0.026281
       },
       {
         "range_low": 0.7,
         "range_high": 0.8,
-        "n": 394,
-        "mean_predicted": 0.749595,
-        "observed_frequency": 0.758883,
-        "calibration_gap": 0.009288
+        "n": 395,
+        "mean_predicted": 0.749647,
+        "observed_frequency": 0.759494,
+        "calibration_gap": 0.009846
       },
       {
         "range_low": 0.8,
