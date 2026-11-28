@@ -2,20 +2,10 @@
   "verification_summary": {
     "unique_matched_fixture_count": 1,
     "matched_fixture_ids": [
-      "5274:1572563"
+      "5274:1572572"
     ],
-    "unmatched_observation_count": 1,
-    "unmatched_observations": [
-      {
-        "source": "netbet_quotes",
-        "players": [
-          "Prahdiska Shujiwo",
-          "Richie Duta Richardo"
-        ],
-        "status": "FIXTURE_ABSENT_FROM_MODEL",
-        "listed_day_paris": "2026-11-28"
-      }
-    ],
+    "unmatched_observation_count": 0,
+    "unmatched_observations": [],
     "external_schedule_coverage_count": 0,
     "kickoff_evidence_status_counts": {
       "SOURCE_MISSING": 1
@@ -23,21 +13,20 @@
     "prematch_timing_status_counts": {
       "KICKOFF_DATE_ONLY": 1
     },
-    "model_fixture_count": 2,
-    "public_quote_count": 2,
-    "comparison_count": 2,
+    "model_fixture_count": 1,
+    "public_quote_count": 1,
+    "comparison_count": 1,
     "status_counts": {
-      "UNVERIFIED_SHADOW_ONLY": 1,
-      "FIXTURE_ABSENT_FROM_MODEL": 1
+      "UNVERIFIED_SHADOW_ONLY": 1
     },
     "verified_prematch_count": 0,
     "validated_roi_pct": null,
     "missing_kickoff_count": 1,
     "missing_executable_price_count": 1
   },
-  "generated_at_utc": "2026-11-27T16:58:09+00:00",
+  "generated_at_utc": "2026-11-28T14:01:26+00:00",
   "policy": "RESEARCH_ONLY_NO_BET_NO_T0",
-  "comparison_count": 2,
+  "comparison_count": 1,
   "rejected_sources": [],
   "source_audit": {
     "unibet_fr": {
@@ -49,16 +38,16 @@
     "netbet_quotes": {
       "status": "FRESH_SNAPSHOT",
       "snapshot_file": "data/odds_shadow/netbet_quotes/latest.json",
-      "quotes_read": 2,
+      "quotes_read": 1,
       "collector_status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION"
     }
   },
   "results": [
     {
       "source": "netbet_quotes",
-      "bwf_match_id": "5274:1572563",
+      "bwf_match_id": "5274:1572572",
       "players": [
-        "Zhe Ying WU",
+        "Richie Duta RICHARDO",
         "Arnaud MERKLE"
       ],
       "prematch_timing_status": "KICKOFF_DATE_ONLY",
@@ -70,25 +59,25 @@
       "kickoff_evidence_status": "SOURCE_MISSING",
       "kickoff_source": null,
       "kickoff_source_url": null,
-      "observed_at_utc": "2026-11-27T16:58:00+00:00",
-      "model_asof_utc": "2026-11-27T16:56:27+00:00",
-      "model_age_seconds": 93,
-      "model_probability_a": 0.35028701,
+      "observed_at_utc": "2026-11-28T14:01:20+00:00",
+      "model_asof_utc": "2026-11-28T13:59:32+00:00",
+      "model_age_seconds": 108,
+      "model_probability_a": 0.70118079,
       "bookmaker_player_order_reversed": false,
       "odds": [
-        2.12,
-        1.43
+        1.93,
+        1.53
       ],
-      "market_overround_pct": 17.1,
+      "market_overround_pct": 17.17,
       "market_implied_probability_raw": [
-        0.471698,
-        0.699301
+        0.518135,
+        0.653595
       ],
       "market_implied_probability_normalized": [
-        0.402817,
-        0.597183
+        0.442197,
+        0.557803
       ],
-      "quote_listed_day_paris": "2026-11-28",
+      "quote_listed_day_paris": "2026-11-29",
       "quote_day_basis": "PUBLISHED_CALENDAR_DATE",
       "quote_verification": "LISTING_NEEDS_DETAIL_AND_PREMATCH_CONFIRMATION",
       "bookmaker_price_updated_at_utc": null,
@@ -96,8 +85,8 @@
       "observation_before_listed_calendar_day": true,
       "ev_interpretation": "ILLUSTRATIVE_ONLY_NOT_VALIDATED_PREMATCH",
       "illustrative_ev_pct": [
-        -25.74,
-        -7.09
+        35.33,
+        -54.28
       ],
       "flags": [
         "MARKET_DETAIL_UNVERIFIED",
@@ -107,18 +96,6 @@
         "BWF_KICKOFF_DATE_ONLY"
       ],
       "status": "UNVERIFIED_SHADOW_ONLY",
-      "decision": "NO_BET"
-    },
-    {
-      "source": "netbet_quotes",
-      "players": [
-        "Prahdiska Shujiwo",
-        "Richie Duta Richardo"
-      ],
-      "status": "FIXTURE_ABSENT_FROM_MODEL",
-      "matches": 0,
-      "model_fixtures_on_listed_day": 2,
-      "listed_day_paris": "2026-11-28",
       "decision": "NO_BET"
     }
   ]
