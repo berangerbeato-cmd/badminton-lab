@@ -2,8 +2,8 @@
   "next_actions": [
     {
       "source": "unibet_fr",
-      "priority": 2,
-      "action": "Inspect public page structure and discipline/date sections; do not interpret live prices as prematch."
+      "priority": 3,
+      "action": "Record access limitation; do not bypass robots, authentication or geoblocks."
     },
     {
       "source": "betclic_fr",
@@ -38,12 +38,11 @@
   ],
   "blocker_counts": {
     "ACCESS_NOT_PERMITTED_OR_UNAVAILABLE": 5,
-    "HTTP_OR_REDIRECT_REJECTED": 1,
-    "NO_CONFIDENT_QUOTES_EXTRACTED": 1,
+    "HTTP_OR_REDIRECT_REJECTED": 2,
     "QUOTE_OBSERVED_REQUIRES_VALIDATION": 2,
     "UNKNOWN_OR_UNCLASSIFIED": 2
   },
-  "generated_at_utc": "2026-11-28T15:31:39.987661+00:00",
+  "generated_at_utc": "2026-11-28T15:49:21.653591+00:00",
   "policy": "RESEARCH_ONLY_NO_BET",
   "status": "QUOTES_REQUIRE_MATCH_AND_TIME_VALIDATION",
   "model_fixture_count": 1,
@@ -59,22 +58,22 @@
   ],
   "source_audit": {
     "unibet_fr": {
-      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
+      "status": "REJECT_HTTP_CACHE_AGE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-28T15:30:34+00:00",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-28T16:30:31.031383+01:00",
+      "observed_at_utc": "2026-11-28T15:48:13+00:00",
+      "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
-      "blocker": "NO_CONFIDENT_QUOTES_EXTRACTED"
+      "blocker": "HTTP_OR_REDIRECT_REJECTED"
     },
     "netbet_quotes": {
       "status": "OBSERVED_SHADOW_NEEDS_CONFIRMATION",
       "quote_count": 1,
-      "observed_at_utc": "2026-11-28T15:31:31+00:00",
+      "observed_at_utc": "2026-11-28T15:49:11+00:00",
       "parser_notes": null,
       "index_market_audit": {
         "eligible_listing_rows": 1,
-        "markets_seen": 4,
+        "markets_seen": 5,
         "rejection_evidence": [
           {
             "following_lines": [
@@ -83,7 +82,7 @@
               "Hidayatullah-Nastine",
               "1.06"
             ],
-            "market_line": 107,
+            "market_line": 109,
             "preceding_lines": [
               "Scores en direct",
               "Format des cotes",
@@ -109,7 +108,7 @@
               "Na-Wang",
               "3.15"
             ],
-            "market_line": 118,
+            "market_line": 120,
             "preceding_lines": [
               "05:30",
               "Wee-Gobi",
@@ -135,16 +134,16 @@
               "Meida-Nastine",
               "2.55"
             ],
-            "market_line": 140,
+            "market_line": 142,
             "preceding_lines": [
               "08:00",
               "Richie Duta Richardo",
               "Arnaud Merkle",
               "Qui va gagner le match ?",
               "Richie Duta Richardo",
-              "1.93",
+              "2.02",
               "Arnaud Merkle",
-              "1.53",
+              "1.48",
               "+ 6",
               "Syed Modi, Doubles (F)",
               "dim. 29 nov.",
@@ -153,10 +152,36 @@
               "Meida-Nastine"
             ],
             "reason": "NON_MS_COMPETITION"
+          },
+          {
+            "following_lines": [
+              "Katethong Supanida",
+              "1.77",
+              "Tanvi Sharma",
+              "1.67"
+            ],
+            "market_line": 153,
+            "preceding_lines": [
+              "08:45",
+              "Pullela-Jolly",
+              "Meida-Nastine",
+              "Qui va gagner le match ?",
+              "Pullela-Jolly",
+              "1.30",
+              "Meida-Nastine",
+              "2.55",
+              "+ 6",
+              "Syed Modi (F)",
+              "dim. 29 nov.",
+              "09:10",
+              "Katethong Supanida",
+              "Tanvi Sharma"
+            ],
+            "reason": "NON_MS_COMPETITION"
           }
         ],
         "rejections": {
-          "NON_MS_COMPETITION": 3
+          "NON_MS_COMPETITION": 4
         }
       },
       "reason_counts": {},
@@ -165,7 +190,7 @@
     "betclic_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-28T15:30:51+00:00",
+      "observed_at_utc": "2026-11-28T15:48:32+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -174,7 +199,7 @@
     "betsson_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-28T15:31:05+00:00",
+      "observed_at_utc": "2026-11-28T15:48:46+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -183,7 +208,7 @@
     "bwin_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-28T15:30:39+00:00",
+      "observed_at_utc": "2026-11-28T15:48:19+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -192,7 +217,7 @@
     "fdj_pos_fr": {
       "status": "OBSERVED_SHADOW_RETAIL_NOT_EXECUTABLE_ONLINE",
       "quote_count": 1,
-      "observed_at_utc": "2026-11-28T15:30:41+00:00",
+      "observed_at_utc": "2026-11-28T15:48:20+00:00",
       "parser_notes": "retail face-à-face rows; audited 1 retail MS pages",
       "index_market_audit": null,
       "reason_counts": null,
@@ -201,7 +226,7 @@
     "winamax_fr": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-28T15:30:52+00:00",
+      "observed_at_utc": "2026-11-28T15:48:33+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -210,7 +235,7 @@
     "pmu_fr": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-28T15:31:00+00:00",
+      "observed_at_utc": "2026-11-28T15:48:42+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -219,7 +244,7 @@
     "oddschecker_badminton": {
       "status": "REJECT_HTTP_STATUS_OR_REDIRECT",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-28T15:31:07+00:00",
+      "observed_at_utc": "2026-11-28T15:48:49+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -228,7 +253,7 @@
     "oddspedia_badminton": {
       "status": "SKIPPED_ROBOTS_DENIED_OR_UNAVAILABLE",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-28T15:31:06+00:00",
+      "observed_at_utc": "2026-11-28T15:48:48+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,
@@ -237,7 +262,7 @@
     "oddsportal_badminton": {
       "status": "PUBLIC_PAGE_REACHABLE_PARSER_NOT_AUDITED",
       "quote_count": 0,
-      "observed_at_utc": "2026-11-28T15:31:22+00:00",
+      "observed_at_utc": "2026-11-28T15:49:05+00:00",
       "parser_notes": null,
       "index_market_audit": null,
       "reason_counts": null,

@@ -63,10 +63,10 @@
     "https://www.netbet.fr/badminton/international/syed-modi",
     "https://www.netbet.fr/badminton/international/syed-modi-doubles-f"
   ],
-  "index_body_sha256": "0fafe5bf21ab008abb80f781196a52347a2abbb24937d24ce2ebedf14754c9f9",
+  "index_body_sha256": "48cd9d0f3262cfb6ad78f55ab078c9f6d22ca0f37f9b7493725d1815a23fe17b",
   "index_eligible_quotes": 1,
   "index_http_status": 200,
-  "index_link_count": 100,
+  "index_link_count": 102,
   "index_link_path_counts": {
     "": 9,
     "badminton": 7,
@@ -78,7 +78,7 @@
     "paris-en-direct": 5,
     "promotions": 2,
     "ski-alpin": 2,
-    "tennis": 4,
+    "tennis": 6,
     "zendesk": 2
   },
   "index_market_audit": {
@@ -92,7 +92,7 @@
           "Hidayatullah-Nastine",
           "1.06"
         ],
-        "market_line": 105,
+        "market_line": 109,
         "preceding_lines": [
           "Scores en direct",
           "Format des cotes",
@@ -118,7 +118,7 @@
           "Na-Wang",
           "3.15"
         ],
-        "market_line": 116,
+        "market_line": 120,
         "preceding_lines": [
           "05:30",
           "Wee-Gobi",
@@ -144,7 +144,7 @@
           "Meida-Nastine",
           "2.55"
         ],
-        "market_line": 138,
+        "market_line": 142,
         "preceding_lines": [
           "08:00",
           "Richie Duta Richardo",
@@ -170,7 +170,7 @@
           "Tanvi Sharma",
           "1.67"
         ],
-        "market_line": 149,
+        "market_line": 153,
         "preceding_lines": [
           "08:45",
           "Pullela-Jolly",
@@ -199,12 +199,12 @@
   "index_url": "https://www.netbet.fr/badminton",
   "model_snapshot": "data/model/snapshots/2026-11-28.csv",
   "model_snapshot_sha256": "75680550c6694743e543a45194f604155921c0ec8260dff7d7a709b1e05666e7",
-  "observed_at_utc": "2026-11-28T15:42:53+00:00",
+  "observed_at_utc": "2026-11-28T15:49:11+00:00",
   "operator": "NetBet.fr",
   "page_audit_limit": 8,
   "page_audits": [
     {
-      "body_sha256": "cdbc147b0f64905a5e6c72e66ea09965cc7c676169c825cc6cd3d50d53cab191",
+      "body_sha256": "ca1ebbd3fa0cb202f097821449a1acc1e6b773872c8170dd3e2d6dad69fc4f12",
       "cache_age_seconds": null,
       "eligible_listing_rows": 0,
       "http_status": 200,
@@ -217,7 +217,7 @@
             "Arnaud Merkle",
             "1.48"
           ],
-          "market_line": 104,
+          "market_line": 108,
           "preceding_lines": [
             "Règlement des paris",
             "Scores en direct",

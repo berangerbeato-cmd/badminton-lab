@@ -1,19 +1,19 @@
 {
-  "observed_at_utc": "2026-11-28T15:30:31+00:00",
+  "observed_at_utc": "2026-11-28T15:48:11+00:00",
   "policy": "SHADOW / NO BET / NO AUTOMATIC SHEETS T0 OR ODDS HISTORY",
   "online_h2h_shadow_rows": 0,
   "retail_shadow_rows": 1,
   "sources": {
     "unibet_fr": {
-      "status": "NO_CONFIDENT_PREMATCH_QUOTES",
+      "status": "REJECT_HTTP_CACHE_AGE",
       "quotes": 0,
       "robots_status": "ALLOWED_BY_ROBOTS",
       "http_status": 200,
       "resolved_url": "https://www.unibet.fr/paris-badminton",
-      "parser_notes": "no confidently parsed H2H pairs; page_parsed_entries=0; by_discipline_and_status=NONE; eligible_MS_H2H=0; local_now=2026-11-28T16:30:31.031383+01:00",
+      "parser_notes": null,
       "error": null,
-      "cache_age_seconds": null,
-      "body_sha256": "8875bbb92d3b9b9d72342206f31646a2f4c78fd5829924b2e8612ec1f59f9c81",
+      "cache_age_seconds": "191",
+      "body_sha256": "decf6949adc98f28391beedaf05f7a79ed8f674fe7a1c12bcc61b7d59b845703",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -78,7 +78,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "7279340baeaa751060fb9cd094f63bbaa91d0b91bc5ad6fb255d72f4e7a7c16f",
+      "body_sha256": "c91446a52b725e1b3a3e7cbe20b981b0a45236c041059e0399086400bd5fa761",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -91,7 +91,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "39de5207494637cc2c24d22d112344fc4bbd49edfda4a947c0321886d998d518",
+      "body_sha256": "f85c3ea470b54f1e60df9b7f145742dfdfee32ecfd2fe63cfdbb0e16ad893f37",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -130,7 +130,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": null,
-      "body_sha256": "d6d14a27fb94d7470c3d2356726a26fc5dca2c462c0cf84dde4ed271a2544af2",
+      "body_sha256": "338b4d4331dbc4278d9d9a340182968b60a842a6606e6a0f6843136b95d5a10e",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     },
@@ -142,8 +142,8 @@
       "resolved_url": "https://www.flashscore.fr/badminton/",
       "parser_notes": null,
       "error": null,
-      "cache_age_seconds": "269",
-      "body_sha256": "98b2d7bcb7ac4b6a2de793936e5b08b7d92ce5d24e53768d5e6e01e96f43a68c",
+      "cache_age_seconds": "211",
+      "body_sha256": "dd74f357015b68a795863a1197b6fd4bd2929c5fe3286471065a7656c62c6309",
       "flashscore_discovery": {
         "index_match_links": [
           "https://www.flashscore.fr/match/badminton/merkle-arnaud-nwi5quc0/wu-zhe-ying-rqMHEfvJ/?mid=bBXm8rwe",
@@ -160,7 +160,7 @@
         ],
         "index_match_link_count": 11,
         "index_ms_context_visible": true,
-        "index_text_excerpt": "Syed Modi 2026, Badminton - calendriers, résultats\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n28/11 SA\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nWu Z. Y.\nMerkle A.\n0\n2\n13\n21\n16\n21\nTerminé\nShujiwo P. B.\nRichardo R. D.\n0\n2\n17\n21\n15\n21\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nGunji R.\nKatethong S.\n1\n2\n16\n21\n22\n20\n10\n21\nTerminé\nHooda U.\nSharma T.\n1\n2\n21\n11\n10\n21\n13\n21\nFlashscore Actualités\nZaïre-Emery presque un peu plus dans l'histoire du PSG, à l'âge de 20 ans\nInterview Flashscore - Haris Belkebla (Angers) : \"Ça doit venir de nous, on ne va rien nous donner\"\nBezzecchi s'adjuge la dernière Sprint de la saison à Valence avec autorité\nAller vers Actualités\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nNa S. S.\nWang C.\nSukphun P.\nTeeraratsakul P.\n2\n0\n21\n16\n22\n20\nTerminé\nIndra R.\nJoaquin N.\nCharoenkitamorn C.\nThongsa-Nga W.\n2\n0\n21\n14\n21\n13\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nJolly T.\nPullela G. G.\nBuhrova P.\nKantemyr Y.\n2\n1\n13\n21\n21\n10\n21\n12\nTerminé\nHarris A.\nVan Leeuwen E.\nMeida I. S.\nNastine R. K.\n0\n2\n13\n21\n18\n21\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nWee Y. H.\nGobi V.\nKanapuram S. R.\nUthayasooriyan R.\n2\n0\n21\n17\n21\n18\nTerminé\nKusharjanto R. N.\nOktavianti M. D.\nHidayatullah J.\nNastine R. K.\n0\n2\n19\n21\n20\n22\nPublicité\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF "
+        "index_text_excerpt": "Syed Modi 2026, Badminton - calendriers, résultats\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTON\nTOUS\nDIRECT\nCOTES\nTERMINÉS\nPRÉVUS\n28/11 SA\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - HOMMES: \nTableau\nTerminé\nWu Z. Y.\nMerkle A.\n0\n2\n13\n21\n16\n21\nTerminé\nShujiwo P. B.\nRichardo R. D.\n0\n2\n17\n21\n15\n21\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - FEMMES: \nTableau\nTerminé\nGunji R.\nKatethong S.\n1\n2\n16\n21\n22\n20\n10\n21\nTerminé\nHooda U.\nSharma T.\n1\n2\n21\n11\n10\n21\n13\n21\nFlashscore Actualités\nZaïre-Emery presque un peu plus dans l'histoire du PSG, à l'âge de 20 ans\nInterview Flashscore - Haris Belkebla (Angers) : \"Ça doit venir de nous, on ne va rien nous donner\"\nBezzecchi s'adjuge la dernière Sprint de la saison à Valence avec autorité\nAller vers Actualités\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - DOUBLES HOMMES: \nTableau\nTerminé\nNa S. S.\nWang C.\nSukphun P.\nTeeraratsakul P.\n2\n0\n21\n16\n22\n20\nTerminé\nIndra R.\nJoaquin N.\nCharoenkitamorn C.\nThongsa-Nga W.\n2\n0\n21\n14\n21\n13\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - DOUBLES FEMMES: \nTableau\nTerminé\nJolly T.\nPullela G. G.\nBuhrova P.\nKantemyr Y.\n2\n1\n13\n21\n21\n10\n21\n12\nTerminé\nHarris A.\nVan Leeuwen E.\nMeida I. S.\nNastine R. K.\n0\n2\n13\n21\n18\n21\nSyed Modi International Championships (Inde)\nBWF WORLD TOUR - DOUBLES MIXTES: \nTableau\nTerminé\nWee Y. H.\nGobi V.\nKanapuram S. R.\nUthayasooriyan R.\n2\n0\n21\n17\n21\n18\nTerminé\nKusharjanto R. N.\nOktavianti M. D.\nHidayatullah J.\nNastine R. K.\n0\n2\n19\n21\n20\n22\nLIGUES ÉPINGLÉES\nPour sélectionner vos ligues, cliquez sur l'icône  à côté du nom de la ligue.\nMES ÉQUIPES\nAJOUTER L'ÉQUIPE\nCALENDRIER\nBWF World Tour\nCLASSEMENTS\nBWF Simples Hommes\nBWF Simp"
       },
       "flashscore_match_audit": {
         "url": "https://www.flashscore.fr/match/badminton/merkle-arnaud-nwi5quc0/richardo-richie-duta-UT1E2Jq9/#/cotes/home-away/temps-regulier/",
@@ -171,11 +171,11 @@
         "robots_status": "ALLOWED_BY_ROBOTS",
         "http_status": 200,
         "resolved_url": "https://www.flashscore.fr/match/badminton/merkle-arnaud-nwi5quc0/richardo-richie-duta-UT1E2Jq9/#/cotes/home-away/temps-regulier/",
-        "body_sha256": "8a46eae9037a438833174c3ca0d3af53b752f0138471a46e6378fcd9476b4a47",
+        "body_sha256": "2fec014e00be6b7b2ec62dc012049a3fe06e2e3d85cb0e69d9acacbdb38d6fd9",
         "screenshot_error": null,
-        "text_excerpt_for_debug": "Richie Duta Richardo - Arnaud Merkle (29/11/2026)\nPublicité\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nPublicité\nPublicité\nPublicité\nPublicité\nBADMINTONBWF WORLD TOUR - HOMMESSYED MODI INTERNATIONAL CHAMPIONSHIPS - FINALE\nNouvelle fenêtre\n29.11.2026 08:20\nRichardo R. D.\nBWF\n: 45.\n-\nMerkle A.\nBWF\n: 51.\n-\n29.11.2026 08:20\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n2.20\n1.62\nFAIRE UN PARI\n-\n-\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $250 in Bonus Bets when you bet $5 for 5 days\n21+ (18+ DC, WY), select states. 1st online wager only. Min $5 wager 5 days in a row, $5 deposit. Non-withdrawable bonus bets expire in 7 days. T&Cs apply.\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA)",
+        "text_excerpt_for_debug": "Richie Duta Richardo - Arnaud Merkle (29/11/2026)\nAller au contenu principal\nRÉSULTATS\nACTUALITÉS\nCONNEXION\nFAVORIS\n0\nFOOTBALL\nBASKET\nTENNIS\nRUGBY\nHANDBALL\nHOCKEY\nVOLLEY\nSNOOKER\nAUTRES\nBADMINTONBWF WORLD TOUR - HOMMESSYED MODI INTERNATIONAL CHAMPIONSHIPS - FINALE\nNouvelle fenêtre\n29.11.2026 08:20\nRichardo R. D.\nBWF\n: 45.\n-\nMerkle A.\nBWF\n: 51.\n-\n29.11.2026 08:20\nRÉSUMÉ\nCOTES\nTÀT\nTABLEAU\nCOTES\nHOME/AWAY\n1\n2\n-\n-\n-\n-\n-\n-\n-\n-\n2.20\n1.62\nFAIRE UN PARI\n-\n-\nVoir plus\nOFFRES BONUS\nFANDUEL - Get $250 in Bonus Bets when you bet $5 for 5 days\n21+ (18+ DC, WY), select states. 1st online wager only. Min $5 wager 5 days in a row, $5 deposit. Non-withdrawable bonus bets expire in 7 days. T&Cs apply.\nBET365 - Bet $10 Get $200 in Bonus Bets Win or Lose\nMinimum $10 deposit required. Minimum odds -500 of greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.\nBETMGM - Get Up to $1,000 Back in Bonus Bets Over Your First 10 Days\nGAMBLING PROBLEM? CALL 1-800-GAMBLER 21+ TO WAGER. PLEASE GAMBLE RESPONSIBLY. VISIT BETMGM.COM FOR TERMS & CONDITIONS, US PROMOTIONAL OFFERS NOT AVAILABLE IN NV, NY OR ON.\nDRAFTKINGS - Spend $5+ Get $200 in Bonus Bets\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY).\nFANATICS - Bet $20, Get $350 in FanCash!\n21+ GAMBLING PROBLEM? CALL 1-800-GAMBLER. New customers only. T&C Apply\nBETR - Sign up for the #1 Super App in the US.\n18+ (19+ in AL & CO; 21+ in AZ, MA, & VA). T&C apply.\nINFORMATIONS DE MATCH\nSTADE:\nBabu Ban",
         "screenshot": "data/odds_shadow/visual_evidence/flashscore_match_odds.png",
-        "body_characters": 6478,
+        "body_characters": 6408,
         "resolved_to_requested_odds_tab": true,
         "match_finished": false,
         "appears_doubles": false,
@@ -220,7 +220,7 @@
       "parser_notes": null,
       "error": null,
       "cache_age_seconds": "0",
-      "body_sha256": "b013ee4b158df2fc8a08c5fad1677bb126edc19acbf9d8303fb41ab9c7cfc10a",
+      "body_sha256": "e2e33d850ec04462ff11911e12016ebf7831a59cb379c28bf95e2d0472aca5f3",
       "flashscore_discovery": null,
       "flashscore_match_audit": null
     }

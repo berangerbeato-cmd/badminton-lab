@@ -1,0 +1,30 @@
+{
+  "generated_at_utc": "2026-11-28T15:49:21+00:00",
+  "comparison_generated_at_utc": "2026-11-28T15:49:20+00:00",
+  "policy": "RESEARCH_ONLY_NO_BET",
+  "comparison_count": 1,
+  "status_counts": {
+    "BLOCKED_UNVERIFIED": 1
+  },
+  "reason_counts": {
+    "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN": 1,
+    "EXECUTABLE_PRICE_UNVERIFIED": 1,
+    "KICKOFF_UNVERIFIED": 1,
+    "MARKET_DETAIL_UNVERIFIED": 1
+  },
+  "rows": [
+    {
+      "source": "netbet_quotes",
+      "bwf_match_id": "5274:1572572",
+      "player_a": "Richie Duta RICHARDO",
+      "player_b": "Arnaud MERKLE",
+      "model_age_minutes": 1.7,
+      "ev_a_pct": 41.64,
+      "ev_b_pct": -55.77,
+      "quality_status": "BLOCKED_UNVERIFIED",
+      "reasons": "BOOKMAKER_PRICE_TIMESTAMP_UNKNOWN|EXECUTABLE_PRICE_UNVERIFIED|KICKOFF_UNVERIFIED|MARKET_DETAIL_UNVERIFIED",
+      "decision": "NO_BET"
+    }
+  ],
+  "note": "Quality audit only; never confirms a market or executable price."
+}
