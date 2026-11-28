@@ -1,5 +1,5 @@
 {
-  "observed_at_utc": "2026-11-27T16:37:27+00:00",
+  "observed_at_utc": "2026-11-28T15:29:06+00:00",
   "source": "https://www.netbet.fr/badminton",
   "operator": "NetBet.fr",
   "status": "EVENT_LIST_UNDETERMINED_NEEDS_PARSER_AUDIT",
@@ -9,14 +9,13 @@
   "http_status": 200,
   "resolved_url": "https://www.netbet.fr/badminton",
   "cache_age_seconds": null,
-  "body_sha256": "0723cd53644cde2bcfcc49537880706e46b72db48a6e2ea7717b86d9a586b685",
+  "body_sha256": "7279340baeaa751060fb9cd094f63bbaa91d0b91bc5ad6fb255d72f4e7a7c16f",
   "event_area_excerpt": "",
   "explicit_no_events": false,
   "public_badminton_links": [
     "https://www.netbet.fr/badminton",
     "https://www.netbet.fr/badminton/international/syed-modi-doubles-mixtes",
-    "https://www.netbet.fr/badminton/international/syed-modi",
     "https://www.netbet.fr/badminton/international/syed-modi-doubles",
-    "https://www.netbet.fr/badminton/international/syed-modi-f"
+    "https://www.netbet.fr/badminton/international/syed-modi"
   ]
 }
